@@ -13,6 +13,12 @@ public class GameManager : Singleton<GameManager> {
 		set{curPlayerName = value;}
 	}
 
+	private bool isPurchased = false;
+	public bool IsPurchased{
+		get{return isPurchased;}
+		set{isPurchased = value;}
+	}
+
 	private int numSpawnedCube = 2;
 
 	public int NumSpawnedCube
@@ -169,6 +175,7 @@ public class GameManager : Singleton<GameManager> {
 		data.name = GameManager.Instance.CurPlayerName;
 		data.amountDiamond = GameManager.Instance.AmountOfDiamond;
 		data.highestScore = GameManager.Instance.BestScore;
+		data.isPaid = GameManager.Instance.IsPurchased;
 
 		bf.Serialize(file, data);
 		file.Close();
@@ -190,6 +197,7 @@ public class GameManager : Singleton<GameManager> {
 			GameManager.Instance.CurPlayerName = data.name;
 			GameManager.Instance.AmountOfDiamond = data.amountDiamond;
 			GameManager.Instance.BestScore = data.highestScore;
+			GameManager.Instance.IsPurchased = data.isPaid;
 
 			file.Close();
 		}
@@ -206,6 +214,7 @@ public class GameManager : Singleton<GameManager> {
 		public int playerAvailabilitySC;
 		public int amountDiamond;
 		public int highestScore;
+		public bool isPaid;
 	
 	}
 }

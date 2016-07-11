@@ -63,11 +63,11 @@ public class PanelController : MonoBehaviour {
 
 		if(GameManager.Instance.NumOfGame % 4 == 0)
 		{
-			adsButton.SetActive(true);
+			ShowAdButton();
 			uIscaling.StartScalling();
 		}
 		else{
-			adsButton.SetActive(false);
+			HideAdButton();
 		}
 	}
 
@@ -132,5 +132,15 @@ public class PanelController : MonoBehaviour {
 		}else{
 			fastImage.SetActive(false);
 		}
+	}
+
+	public void ShowAdButton()
+	{
+		adsButton.SetActive(true);
+	}
+
+	public void HideAdButton()
+	{
+		adsButton.SetActive(false);
 	}
 }
