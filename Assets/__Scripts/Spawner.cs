@@ -361,14 +361,16 @@ public class Spawner : MonoBehaviour {
 			}
 		}
 
-		if(numOfSpace == 3)
+		if(diaPosX == 3)
 		{
+			diaPosX++;
+			Debug.Log(numOfSpace);
 			for(int i = 0; i < goldList.Count; i++)
 			{
 				if(!goldList[i].activeInHierarchy)
 				{
 					goldTransList[i].position = new Vector3(xPos, 0, 0);
-					goldTransList[i].rotation = Quaternion.Euler(0f,0f,0f);
+//					goldTransList[i].rotation = Quaternion.Euler(0f,0f,0f);
 
 					goldList[i].SetActive(true);
 					break;
@@ -486,6 +488,8 @@ public class Spawner : MonoBehaviour {
 	}
 		
 	private int numOfSpace = 0;
+	private int diaPosX;
+
 	private int maxSpace = 4;
 	private int countShape = 0;
 	private bool isOneRound = false;
@@ -496,6 +500,7 @@ public class Spawner : MonoBehaviour {
 //		Debug.Log(shapeValue + "  "  + countShape);
 		if (isFirst) {
 			numOfSpace++;
+			diaPosX++;
 		}
 		else{
 			if (numOfSpace > maxSpace) {
@@ -519,7 +524,7 @@ public class Spawner : MonoBehaviour {
 					shapeValue = 1;
 				}
 
-
+				diaPosX = 0;
 				numOfSpace = 0;								//reset numOfSpace
 			}
 		}
@@ -1227,14 +1232,14 @@ public class Spawner : MonoBehaviour {
 		for(int i = 0; i < cubeList.Count; i+= 2)
 		{
 
-			if(cubeTransList[i].position.y > 0){
+			if(cubeTransList[i].position.y > 0 && cubeList[i].activeInHierarchy){
 
 				cubeComponentList[i].StartMoveCube(30f);
 			}else{
 				cubeComponentList[i].StartMoveDown(30f);
 			}
 
-			if(cubeTransList[i + 1].position.y > 0){
+			if(cubeTransList[i + 1].position.y > 0 && cubeList[i + 1].activeInHierarchy){
 
 				cubeComponentList[i + 1].StartMoveCube(30f);
 			}else{

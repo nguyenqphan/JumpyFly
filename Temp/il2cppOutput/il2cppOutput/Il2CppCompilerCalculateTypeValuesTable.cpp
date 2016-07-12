@@ -1678,7 +1678,7 @@
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const int32_t g_FieldOffsetTable[7505] = 
+extern const int32_t g_FieldOffsetTable[7506] = 
 {
 	0,
 	0,
@@ -9006,7 +9006,8 @@ extern const int32_t g_FieldOffsetTable[7505] =
 	Shop_t2576150::get_offset_of_buttonIndex_8(),
 	Shop_t2576150::get_offset_of_tempIndex_9(),
 	Shop_t2576150::get_offset_of_shopIndex_10(),
-	Shop_t2576150::get_offset_of_updateScore_11(),
+	Shop_t2576150::get_offset_of_player_11(),
+	Shop_t2576150::get_offset_of_updateScore_12(),
 	PlayerCollection_t487785599::get_offset_of_nameOfPlayer_0(),
 	PlayerCollection_t487785599::get_offset_of_priceOfPlayer_1(),
 	PlayerCollection_t487785599::get_offset_of_isUnlocked_2(),

@@ -1,31 +1,31 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="Purchaser">
+			<method name="BuyConsumable1000"/>
 			<method name="BuyConsumable3000"/>
 			<method name="BuyConsumable9000"/>
-			<method name="BuyNonConsumable"/>
-			<method name="BuyConsumable1000"/>
-			<method name="BuyConsumable300"/>
 			<method name="RestorePurchases"/>
+			<method name="BuyConsumable300"/>
+			<method name="BuyNonConsumable"/>
+		</type>
+		<type fullname="GameController">
+			<method name="StartGame"/>
+			<method name="RefreshGame"/>
 		</type>
 		<type fullname="PanelController">
 			<method name="HideNoAdsPanel"/>
-			<method name="ShowShopPanel"/>
 			<method name="ShowNoAdsPanel"/>
+			<method name="ShowShopPanel"/>
 			<method name="HideShopPanel"/>
-		</type>
-		<type fullname="GameController">
-			<method name="RefreshGame"/>
-			<method name="StartGame"/>
-		</type>
-		<type fullname="SoundEFButton">
-			<method name="ToggleSound"/>
 		</type>
 		<type fullname="UIController">
 			<method name="ForwardFast"/>
 		</type>
 		<type fullname="SwapImage">
 			<method name="ToggleMusic"/>
+		</type>
+		<type fullname="SoundEFButton">
+			<method name="ToggleSound"/>
 		</type>
 	</assembly>
 </linker>

@@ -51,8 +51,10 @@ public:
 	int32_t ___tempIndex_9;
 	// System.Int32 Shop::shopIndex
 	int32_t ___shopIndex_10;
+	// UnityEngine.GameObject Shop::player
+	GameObject_t4012695102 * ___player_11;
 	// UpdateScore Shop::updateScore
-	UpdateScore_t1082839849 * ___updateScore_11;
+	UpdateScore_t1082839849 * ___updateScore_12;
 
 public:
 	inline static int32_t get_offset_of_stateIndexSB_2() { return static_cast<int32_t>(offsetof(Shop_t2576150, ___stateIndexSB_2)); }
@@ -131,13 +133,22 @@ public:
 		___shopIndex_10 = value;
 	}
 
-	inline static int32_t get_offset_of_updateScore_11() { return static_cast<int32_t>(offsetof(Shop_t2576150, ___updateScore_11)); }
-	inline UpdateScore_t1082839849 * get_updateScore_11() const { return ___updateScore_11; }
-	inline UpdateScore_t1082839849 ** get_address_of_updateScore_11() { return &___updateScore_11; }
-	inline void set_updateScore_11(UpdateScore_t1082839849 * value)
+	inline static int32_t get_offset_of_player_11() { return static_cast<int32_t>(offsetof(Shop_t2576150, ___player_11)); }
+	inline GameObject_t4012695102 * get_player_11() const { return ___player_11; }
+	inline GameObject_t4012695102 ** get_address_of_player_11() { return &___player_11; }
+	inline void set_player_11(GameObject_t4012695102 * value)
 	{
-		___updateScore_11 = value;
-		Il2CppCodeGenWriteBarrier(&___updateScore_11, value);
+		___player_11 = value;
+		Il2CppCodeGenWriteBarrier(&___player_11, value);
+	}
+
+	inline static int32_t get_offset_of_updateScore_12() { return static_cast<int32_t>(offsetof(Shop_t2576150, ___updateScore_12)); }
+	inline UpdateScore_t1082839849 * get_updateScore_12() const { return ___updateScore_12; }
+	inline UpdateScore_t1082839849 ** get_address_of_updateScore_12() { return &___updateScore_12; }
+	inline void set_updateScore_12(UpdateScore_t1082839849 * value)
+	{
+		___updateScore_12 = value;
+		Il2CppCodeGenWriteBarrier(&___updateScore_12, value);
 	}
 };
 
