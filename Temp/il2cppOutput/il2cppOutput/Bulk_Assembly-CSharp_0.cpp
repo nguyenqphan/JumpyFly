@@ -186,12 +186,10 @@ struct U3CScoreU3Ec__IteratorE_t3043369116;
 #include "UnityEngine_UnityEngine_Vector33525329789MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Time1525492538MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Transform284553113MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_WaitForEndOfFrame1917318876MethodDeclarations.h"
 #include "mscorlib_System_UInt32985925326.h"
 #include "mscorlib_System_Int322847414787.h"
 #include "UnityEngine_UnityEngine_Vector33525329789.h"
 #include "UnityEngine_UnityEngine_Space1602970931.h"
-#include "UnityEngine_UnityEngine_WaitForEndOfFrame1917318876.h"
 #include "mscorlib_System_NotSupportedException1374155497MethodDeclarations.h"
 #include "mscorlib_System_NotSupportedException1374155497.h"
 #include "AssemblyU2DCSharp_ClockRotation2900005260.h"
@@ -567,7 +565,7 @@ extern "C"  Il2CppObject * U3CGoForwardU3Ec__Iterator1_System_Collections_IEnume
 	}
 }
 // System.Boolean CameraMove/<GoForward>c__Iterator1::MoveNext()
-extern TypeInfo* WaitForEndOfFrame_t1917318876_il2cpp_TypeInfo_var;
+extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
 extern const uint32_t U3CGoForwardU3Ec__Iterator1_MoveNext_m3622915141_MetadataUsageId;
 extern "C"  bool U3CGoForwardU3Ec__Iterator1_MoveNext_m3622915141 (U3CGoForwardU3Ec__Iterator1_t280569405 * __this, const MethodInfo* method)
 {
@@ -590,16 +588,16 @@ extern "C"  bool U3CGoForwardU3Ec__Iterator1_MoveNext_m3622915141 (U3CGoForwardU
 		}
 		if (L_1 == 1)
 		{
-			goto IL_006d;
+			goto IL_006e;
 		}
 	}
 	{
-		goto IL_0084;
+		goto IL_0085;
 	}
 
 IL_0021:
 	{
-		goto IL_006d;
+		goto IL_006e;
 	}
 
 IL_0026:
@@ -616,19 +614,19 @@ IL_0026:
 		Vector3_t3525329789  L_9 = Vector3_op_Multiply_m1665343791(NULL /*static, unused*/, L_6, L_8, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		Transform_Translate_m1056984957(L_3, L_9, 0, /*hidden argument*/NULL);
-		WaitForEndOfFrame_t1917318876 * L_10 = (WaitForEndOfFrame_t1917318876 *)il2cpp_codegen_object_new(WaitForEndOfFrame_t1917318876_il2cpp_TypeInfo_var);
-		WaitForEndOfFrame__ctor_m2318402198(L_10, /*hidden argument*/NULL);
-		__this->set_U24current_1(L_10);
+		int32_t L_10 = 0;
+		Il2CppObject * L_11 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_10);
+		__this->set_U24current_1(L_11);
 		__this->set_U24PC_0(1);
-		goto IL_0086;
+		goto IL_0087;
 	}
 
-IL_006d:
+IL_006e:
 	{
-		CameraMove_t4276106422 * L_11 = __this->get_U3CU3Ef__this_2();
-		NullCheck(L_11);
-		bool L_12 = L_11->get_isPlaying_3();
-		if (L_12)
+		CameraMove_t4276106422 * L_12 = __this->get_U3CU3Ef__this_2();
+		NullCheck(L_12);
+		bool L_13 = L_12->get_isPlaying_3();
+		if (L_13)
 		{
 			goto IL_0026;
 		}
@@ -637,16 +635,16 @@ IL_006d:
 		__this->set_U24PC_0((-1));
 	}
 
-IL_0084:
+IL_0085:
 	{
 		return (bool)0;
 	}
 
-IL_0086:
+IL_0087:
 	{
 		return (bool)1;
 	}
-	// Dead block : IL_0088: ldloc.1
+	// Dead block : IL_0089: ldloc.1
 }
 // System.Void CameraMove/<GoForward>c__Iterator1::Dispose()
 extern "C"  void U3CGoForwardU3Ec__Iterator1_Dispose_m3346601908 (U3CGoForwardU3Ec__Iterator1_t280569405 * __this, const MethodInfo* method)

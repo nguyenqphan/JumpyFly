@@ -25,7 +25,7 @@ public class Shop : MonoBehaviour {
 	private int tempIndex;
 	private int shopIndex = 0;
 	// Use this for initialization
-
+	private GameObject player;
 
 	UpdateScore updateScore;
 	void Awake()
@@ -35,6 +35,7 @@ public class Shop : MonoBehaviour {
 
 	void Start () {
 
+	
 		GameManager.Instance.Load();
 
 //		//TEST: reset all the states
@@ -223,6 +224,13 @@ public class Shop : MonoBehaviour {
 
 	private void SwapCheckImage(int index)
 	{
+		player = GameObject.FindWithTag("Player") as GameObject;
+
+		if(player != null)
+		{
+			player.SetActive(false);
+		}
+
 		playerCollections[index].checkImage.SetActive(true);
 		if (index != tempIndex) {
 			playerCollections [tempIndex].checkImage.SetActive (false);

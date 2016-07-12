@@ -28,7 +28,7 @@ public class CameraMove : MonoBehaviour {
 		while(isPlaying)
 		{
 			thisTransform.Translate(Vector3.right * Time.deltaTime * speed, Space.World);
-			yield return new WaitForEndOfFrame();
+			yield return 0;
 		}
 	}
 }

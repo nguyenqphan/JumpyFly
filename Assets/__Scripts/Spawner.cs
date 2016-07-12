@@ -1226,8 +1226,20 @@ public class Spawner : MonoBehaviour {
 	{
 		for(int i = 0; i < cubeList.Count; i+= 2)
 		{
-			cubeComponentList[i].StartMoveCube(60f);
-			cubeComponentList[i+ 1].StartMoveDown(60f);
+
+			if(cubeTransList[i].position.y > 0){
+
+				cubeComponentList[i].StartMoveCube(30f);
+			}else{
+				cubeComponentList[i].StartMoveDown(30f);
+			}
+
+			if(cubeTransList[i + 1].position.y > 0){
+
+				cubeComponentList[i + 1].StartMoveCube(30f);
+			}else{
+				cubeComponentList[i + 1].StartMoveDown(30f);
+			}
 
 			yield return 0;
 		}
