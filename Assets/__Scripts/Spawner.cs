@@ -92,6 +92,7 @@ public class Spawner : MonoBehaviour {
 
 	void Awake()
 	{
+		Application.targetFrameRate = 30;
 		spawnerTrans = GetComponent<Transform>();
 		panelcontroller = GameObject.FindWithTag("UI").GetComponent<PanelController>();
 	}
