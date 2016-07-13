@@ -118,8 +118,7 @@ public class GameManager : Singleton<GameManager> {
 
 	// Use this for initialization
 	void Start () {
-		SmallCubeColorNum = Random.Range(0, 24);
-		TinyCubeColorNum = Random.Range(0, 24);
+		
 	}
 
 	private int curPlayerIndex;
@@ -153,7 +152,7 @@ public class GameManager : Singleton<GameManager> {
 		set{curPlayerAvailSC = value;}
 	}
 
-	private int amountOfDiamond = 2000;
+	private int amountOfDiamond = 10000;
 	public int AmountOfDiamond
 	{
 		get{return amountOfDiamond;}
