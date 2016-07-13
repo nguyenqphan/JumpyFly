@@ -362,8 +362,9 @@ public class Spawner : MonoBehaviour {
 			}
 		}
 
-		if(numOfSpace == 3)
+		if(diaPosX == 3)
 		{
+			diaPosX++;
 			for(int i = 0; i < goldList.Count; i++)
 			{
 				if(!goldList[i].activeInHierarchy)
@@ -486,6 +487,7 @@ public class Spawner : MonoBehaviour {
 		}
 	}
 		
+	private int diaPosX = 0;
 	private int numOfSpace = 0;
 	private int maxSpace = 4;
 	private int countShape = 0;
@@ -497,6 +499,7 @@ public class Spawner : MonoBehaviour {
 //		Debug.Log(shapeValue + "  "  + countShape);
 		if (isFirst) {
 			numOfSpace++;
+			diaPosX++;
 		}
 		else{
 			if (numOfSpace > maxSpace) {
@@ -520,7 +523,7 @@ public class Spawner : MonoBehaviour {
 					shapeValue = 1;
 				}
 
-
+				diaPosX = 0;
 				numOfSpace = 0;								//reset numOfSpace
 			}
 		}
