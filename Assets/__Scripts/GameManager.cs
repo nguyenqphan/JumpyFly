@@ -153,7 +153,7 @@ public class GameManager : Singleton<GameManager> {
 		set{curPlayerAvailSC = value;}
 	}
 
-	private int amountOfDiamond = 10000;
+	private int amountOfDiamond = 2000;
 	public int AmountOfDiamond
 	{
 		get{return amountOfDiamond;}

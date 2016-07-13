@@ -237,6 +237,10 @@ public class Spawner : MonoBehaviour {
 		colorNum = Random.Range(0,24);
 		CubeMatNum = Random.Range(0,24);
 
+		GameManager.Instance.SmallCubeColorNum = Random.Range(0,24);
+	
+		GameManager.Instance.TinyCubeColorNum = Random.Range(0, 24);
+
 		StartCoroutine(LayoutCube());
 	}
 
@@ -364,7 +368,7 @@ public class Spawner : MonoBehaviour {
 		if(diaPosX == 3)
 		{
 			diaPosX++;
-			Debug.Log(numOfSpace);
+//			Debug.Log(numOfSpace);
 			for(int i = 0; i < goldList.Count; i++)
 			{
 				if(!goldList[i].activeInHierarchy)
