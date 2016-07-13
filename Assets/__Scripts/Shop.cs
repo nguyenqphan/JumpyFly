@@ -47,7 +47,7 @@ public class Shop : MonoBehaviour {
 		GameManager.Instance.CurPlayerName = "defPlayer";
 		//
 		////
-		GameManager.Instance.AmountOfDiamond = 2000;
+		GameManager.Instance.AmountOfDiamond = 10000;
 		updateScore.ChangeAmountOfDiamond();
 		GameManager.Instance.Save();
 
