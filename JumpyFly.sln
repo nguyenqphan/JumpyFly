@@ -5,8 +5,6 @@ Project("{385AC37D-3513-13B0-40C2-062D024B59FC}") = "JumpyFly", "Assembly-CSharp
 EndProject
 Project("{385AC37D-3513-13B0-40C2-062D024B59FC}") = "JumpyFly", "Assembly-CSharp.csproj", "{2F840321-080B-5BA1-5439-37E92CE39AA7}"
 EndProject
-Project("{385AC37D-3513-13B0-40C2-062D024B59FC}") = "JumpyFly", "Assembly-CSharp-Editor.csproj", "{C570C5B5-8984-156C-8672-27BB0B26CD4C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,10 +19,6 @@ Global
 		{2F840321-080B-5BA1-5439-37E92CE39AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F840321-080B-5BA1-5439-37E92CE39AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F840321-080B-5BA1-5439-37E92CE39AA7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C570C5B5-8984-156C-8672-27BB0B26CD4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C570C5B5-8984-156C-8672-27BB0B26CD4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C570C5B5-8984-156C-8672-27BB0B26CD4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C570C5B5-8984-156C-8672-27BB0B26CD4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
