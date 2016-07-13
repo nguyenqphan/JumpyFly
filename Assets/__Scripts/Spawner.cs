@@ -75,8 +75,8 @@ public class Spawner : MonoBehaviour {
 	private bool isFirst;							//Refernce to the first cube to instantiate out two.
 	private int goldAmount;							//The amount of gold that will be spawned
 
-	private int xPos;								//store the x position for the next spawn
-	private int yPos = 0;							//store the y position
+	private float xPos;								//store the x position for the next spawn
+	private float yPos = 0;							//store the y position
 
 	private float unit = 0f;						//the distance that cubes move
 	private bool switchPlusMinus = true;			//switch between plus and minus unit
@@ -1225,14 +1225,35 @@ public class Spawner : MonoBehaviour {
 
 	IEnumerator ClearScene()
 	{
+//		for(int i = 0; i < cubeList.Count; i+= 2)
+//		{
+//			cubeComponentList[i].StartMoveCube(60f);
+//			cubeComponentList[i+ 1].StartMoveDown(60f);
+//
+//			yield return 0;
+//		}
+
 		for(int i = 0; i < cubeList.Count; i+= 2)
 		{
-			cubeComponentList[i].StartMoveCube(60f);
-			cubeComponentList[i+ 1].StartMoveDown(60f);
+
+			if(cubeTransList[i].position.y > 0 && cubeList[i].activeInHierarchy){
+
+				cubeComponentList[i].StartMoveCube(30f);
+			}else{
+				cubeComponentList[i].StartMoveDown(30f);
+			}
+
+			if(cubeTransList[i + 1].position.y > 0 && cubeList[i + 1].activeInHierarchy){
+
+				cubeComponentList[i + 1].StartMoveCube(30f);
+			}else{
+				cubeComponentList[i + 1].StartMoveDown(30f);
+			}
 
 			yield return 0;
 		}
 
+//
 		for(int i = 0; i < smallCubeList.Count; i+= 2)
 		{
 			if(smallCubeList[i].activeInHierarchy)

@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.nguyenqphan.jumpyflyC6;
+package com.nguyenqphan.jumpyfly12;
 
 public final class R {
     public static final class attr {

@@ -25,7 +25,7 @@ public class Shop : MonoBehaviour {
 	private int tempIndex;
 	private int shopIndex = 0;
 	// Use this for initialization
-
+	private GameObject player;
 
 	UpdateScore updateScore;
 	void Awake()
@@ -35,20 +35,21 @@ public class Shop : MonoBehaviour {
 
 	void Start () {
 
+
 		GameManager.Instance.Load();
 
-//		//TEST: reset all the states
-//		GameManager.Instance.CurPlayerAvail = 1;							//Default player is always available
-//		GameManager.Instance.CurPlayerAvailSB = 0;
-//		GameManager.Instance.CurPlayerAvailSC = 0;
-//		GameManager.Instance.CurPlayerIndex = 0;
-//
+		//		//TEST: reset all the states
+		GameManager.Instance.CurPlayerAvail = 1;							//Default player is always available
+		GameManager.Instance.CurPlayerAvailSB = 0;
+		GameManager.Instance.CurPlayerAvailSC = 0;
+		GameManager.Instance.CurPlayerIndex = 0;
+
 		GameManager.Instance.CurPlayerName = "defPlayer";
-//
-////
-//		GameManager.Instance.AmountOfDiamond = 10000;
+		//
+		////
+		GameManager.Instance.AmountOfDiamond = 2000;
 		updateScore.ChangeAmountOfDiamond();
-//		GameManager.Instance.Save();
+		GameManager.Instance.Save();
 
 		buttons = content.GetComponentsInChildren<Button>();
 
@@ -56,7 +57,7 @@ public class Shop : MonoBehaviour {
 		{
 
 			int btnIndex = buttonIndex;
-//			buttons[i].onClick.AddListener(() => ChoosePlayer(btnIndex));
+			//			buttons[i].onClick.AddListener(() => ChoosePlayer(btnIndex));
 
 
 			//condition to turn of the lock image when the game starts
@@ -73,9 +74,9 @@ public class Shop : MonoBehaviour {
 			}else {
 				buttons[i].onClick.AddListener(() => ChoosePlayer(btnIndex));
 				if((GameManager.Instance.CurPlayerAvail & 1 << btnIndex) == 1 << btnIndex){
-//				Debug.Log(GameManager.Instance.CurPlayerAvail);
-				buttons [i].gameObject.transform.GetChild (0).gameObject.SetActive (false);
-			}
+					//				Debug.Log(GameManager.Instance.CurPlayerAvail);
+					buttons [i].gameObject.transform.GetChild (0).gameObject.SetActive (false);
+				}
 			}
 			//condition to turn off the check image when the game starts
 			if(GameManager.Instance.CurPlayerIndex == shopIndex)
@@ -91,17 +92,17 @@ public class Shop : MonoBehaviour {
 				buttonIndex = 0;
 			}
 		}
-			
+
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 
 	private void ChoosePlayer(int index)
 	{
-		
+
 
 		if((GameManager.Instance.CurPlayerAvail & 1 << index) == 1 << index)
 		{
@@ -109,7 +110,7 @@ public class Shop : MonoBehaviour {
 			GameManager.Instance.IsCameraMoved = false;													//... to move camera forward on first tap to begin the game
 			GameManager.Instance.IsStarted = true;
 
-//			Debug.Log("Button Index in Shop A " + index);
+			//			Debug.Log("Button Index in Shop A " + index);
 			GameManager.Instance.CurPlayerIndex = index;												//Choose player
 			GameManager.Instance.CurPlayerName = playerCollections[index].nameOfPlayer;
 			playerCollections[index].lockImage.SetActive(false);										//turn lockImage off
@@ -125,7 +126,7 @@ public class Shop : MonoBehaviour {
 				GameManager.Instance.IsCameraMoved = false;													//... to move camera forward on first tap to begin the game
 				GameManager.Instance.IsStarted = true;
 
-//				Debug.Log("Current index in Shop A " + index );
+				//				Debug.Log("Current index in Shop A " + index );
 				GameManager.Instance.CurPlayerIndex = index;	
 				GameManager.Instance.CurPlayerName = playerCollections[index].nameOfPlayer;//Choose player
 				SwapCheckImage(index);																	//Swap CheckImage
@@ -134,7 +135,7 @@ public class Shop : MonoBehaviour {
 
 				GameManager.Instance.CurPlayerAvail += 1 << index;
 				playerCollections[index].lockImage.SetActive(false);
-//				Debug.Log(GameManager.Instance.AmountOfDiamond);										//Turn lockImage off
+				//				Debug.Log(GameManager.Instance.AmountOfDiamond);										//Turn lockImage off
 				GameManager.Instance.Save();
 			}
 		}
@@ -149,7 +150,7 @@ public class Shop : MonoBehaviour {
 			GameManager.Instance.IsCameraMoved = false;													//... to move camera forward on first tap to begin the game
 
 			GameManager.Instance.IsStarted = true;
-//			Debug.Log("Button Index " + index);
+			//			Debug.Log("Button Index " + index);
 			GameManager.Instance.CurPlayerIndex = index + stateIndexSB;												//Choose player
 			GameManager.Instance.CurPlayerName = playerCollections[index + stateIndexSB].nameOfPlayer;
 			playerCollections[index + stateIndexSB].lockImage.SetActive(false);										//turn lockImage off
@@ -165,7 +166,7 @@ public class Shop : MonoBehaviour {
 				GameManager.Instance.IsCameraMoved = false;													//... to move camera forward on first tap to begin the game
 
 				GameManager.Instance.IsStarted = true;
-//				Debug.Log(index + stateIndexSB);
+				//				Debug.Log(index + stateIndexSB);
 				GameManager.Instance.CurPlayerIndex = index + stateIndexSB;
 				GameManager.Instance.CurPlayerName = playerCollections[index + stateIndexSB].nameOfPlayer;//Choose player
 				SwapCheckImage(index + stateIndexSB);																	//Swap CheckImage
@@ -174,7 +175,7 @@ public class Shop : MonoBehaviour {
 
 				GameManager.Instance.CurPlayerAvailSB += 1 << index;
 				playerCollections[index + stateIndexSB].lockImage.SetActive(false);
-//				Debug.Log(GameManager.Instance.AmountOfDiamond);										//Turn lockImage off
+				//				Debug.Log(GameManager.Instance.AmountOfDiamond);										//Turn lockImage off
 				GameManager.Instance.Save();
 			}
 		}
@@ -190,7 +191,7 @@ public class Shop : MonoBehaviour {
 			GameManager.Instance.IsCameraMoved = false;													//... to move camera forward on first tap to begin the game
 			GameManager.Instance.IsStarted = true;
 
-//			Debug.Log("Button Index " + index);
+			//			Debug.Log("Button Index " + index);
 			GameManager.Instance.CurPlayerIndex = index + stateIndexSC;												//Choose player
 			GameManager.Instance.CurPlayerName = playerCollections[index + stateIndexSC].nameOfPlayer;
 			playerCollections[index + stateIndexSC].lockImage.SetActive(false);										//turn lockImage off
@@ -206,7 +207,7 @@ public class Shop : MonoBehaviour {
 				GameManager.Instance.IsCameraMoved = false;													//... to move camera forward on first tap to begin the game
 				GameManager.Instance.IsStarted = true;
 
-//				Debug.Log(index + stateIndexSB);
+				//				Debug.Log(index + stateIndexSB);
 				GameManager.Instance.CurPlayerIndex = index + stateIndexSC;	
 				GameManager.Instance.CurPlayerName = playerCollections[index + stateIndexSC].nameOfPlayer;//Choose player
 				SwapCheckImage(index + stateIndexSC);																	//Swap CheckImage
@@ -215,7 +216,7 @@ public class Shop : MonoBehaviour {
 
 				GameManager.Instance.CurPlayerAvailSC += 1 << index;
 				playerCollections[index + stateIndexSC].lockImage.SetActive(false);
-//				Debug.Log(GameManager.Instance.AmountOfDiamond);										//Turn lockImage off
+				//				Debug.Log(GameManager.Instance.AmountOfDiamond);										//Turn lockImage off
 				GameManager.Instance.Save();
 			}
 		}
@@ -223,6 +224,13 @@ public class Shop : MonoBehaviour {
 
 	private void SwapCheckImage(int index)
 	{
+		player = GameObject.FindWithTag("Player") as GameObject;
+
+		if(player != null)
+		{
+			player.SetActive(false);
+		}
+
 		playerCollections[index].checkImage.SetActive(true);
 		if (index != tempIndex) {
 			playerCollections [tempIndex].checkImage.SetActive (false);

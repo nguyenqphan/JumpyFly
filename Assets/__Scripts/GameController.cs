@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour {
 
 	private PanelController panelController;
-	private CameraMove cameraMove;
+//	private CameraMove cameraMove;
 	private UpdateScore updateScore;
 	private Spawner spawner;
 	private SoundManager soundManager;
 	void Awake()
 	{
 		panelController = GetComponent<PanelController>();
-		cameraMove = GameObject.FindWithTag("MainCamera").GetComponent<CameraMove>();
+//		cameraMove = GameObject.FindWithTag("MainCamera").GetComponent<CameraMove>();
 		updateScore = GameObject.FindWithTag("UI").GetComponent<UpdateScore>();
 		soundManager = GameObject.FindWithTag("GameManager").GetComponent<SoundManager>();;
 

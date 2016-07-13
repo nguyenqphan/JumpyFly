@@ -9,12 +9,12 @@ public class SoundEFButton : MonoBehaviour {
 	public Sprite soundOnImage;
 	public Sprite soundOffImage;
 	private Image image;
-	private SoundManager soundManager;
+//	private SoundManager soundManager;
 
 	void Awake()
 	{
 		image = imageSwapButton.GetComponent<Image>();
-		soundManager = GameObject.FindWithTag("GameManager").GetComponent<SoundManager>();
+//		soundManager = GameObject.FindWithTag("GameManager").GetComponent<SoundManager>();
 	}
 
 	public void ToggleSound()

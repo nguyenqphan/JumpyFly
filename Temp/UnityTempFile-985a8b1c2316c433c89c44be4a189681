@@ -77,6 +77,11 @@
 -define:ENABLE_UNITYADS_RUNTIME
 -define:UNITY_UNITYADS_API
 -define:ENABLE_MONO
+-define:DEVELOPMENT_BUILD
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
 -define:UNITY_PRO_LICENSE
 'Assets/PrimitivePlus/Scripts/ClockRotation.cs'
 'Assets/PrimitivePlus/Scripts/PrimitivePlusConstants.cs'
