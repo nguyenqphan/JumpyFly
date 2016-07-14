@@ -483,6 +483,13 @@ public class Spawner : MonoBehaviour {
 		case 29: return ObstacleShape();
 		case 30: return BlockShape();
 		case 31: return MidLineShape();				//Deadly Shape
+		case 32: return VReverseShapeSmall();
+		case 33: return VShapeSmall();
+		case 34: return SquareShape();
+		case 35: return VReverse4();
+		case 36: return VShape4();
+		case 37: return VSpike();
+		case 38: return MidLineShape();
 		default: return EmptyShape();
 		}
 	}
@@ -518,7 +525,7 @@ public class Spawner : MonoBehaviour {
 						isOneRound = !isOneRound;
 					}
 				}
-				if(shapeValue > 32){
+				if(shapeValue > 38){
 					countShape = 1;
 					shapeValue = 1;
 				}
@@ -585,6 +592,37 @@ public class Spawner : MonoBehaviour {
 		}
 		return unit;
 	}
+
+	private float VReverseShapeSmall(){
+		isEmptyShape = false;
+		isBlockShape = true;
+		isMoveDown = false;
+		isZigzag = true;
+
+
+		if (isFirst) {
+			if (switchPlusMinus) {
+				unit = unit + 1f;
+				if (unit > 5f) {
+					switchPlusMinus = !switchPlusMinus;
+				}
+			} else {
+				unit = unit - 1f;
+				if (unit  == 0) {
+					switchPlusMinus = !switchPlusMinus;
+
+				}
+			}
+
+			return unit;
+		}else{
+			if (unit == 0) {
+				shapeValue =0;								//change the shape, exit this function
+			}
+		}
+		return unit;
+	}
+
 
 	private float VReverseShape2(){
 		isEmptyShape = false;
@@ -838,6 +876,33 @@ public class Spawner : MonoBehaviour {
 			}
 		}
 		return unit + 1;
+	}
+	private float VShapeSmall(){
+		isMoveDown = true;
+		isEmptyShape = false;
+		isBlockShape = false;
+		isZigzag = true;
+		if (isFirst) {
+			if (switchPlusMinus) {
+				unit = unit + 1f;
+
+				if (unit > 5f) {
+					switchPlusMinus = !switchPlusMinus;
+				}
+			} else {
+				unit = unit - 1f;
+				if (unit  == 0) {
+					switchPlusMinus = !switchPlusMinus;
+
+				}
+			}
+			return unit;
+		}else{
+			if (unit == 0) {
+				shapeValue =0;								//change the shape, exit this function
+			}
+		}
+		return unit;
 	}
 
 	private float VShape2(){
@@ -1321,7 +1386,7 @@ public class Spawner : MonoBehaviour {
 				else
 					return 1;
 			}else{
-				return 4f;
+				return shapeValue > 32? 3f: 4f;  			//If shapevalue > 30, return 3f to make space smalller
 			}
 			
 		}
