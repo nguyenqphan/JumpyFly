@@ -70,7 +70,11 @@ public class Player : MonoBehaviour {
 	{
 		if(other.CompareTag("Cube"))
 		{
+			GameManager.Instance.NumOfPlay++;
+			Debug.Log("NumOfPlay "+ GameManager.Instance.NumOfPlay);
+
 			GameManager.Instance.NumOfGame++;
+//			Debug.Log(GameManager.Instance.NumOfGame);
 			GameManager.Instance.IsDouble = false;
 			GameManager.Instance.IsSlowScore = false;
 			panelController.ShowOrHideFastImage();
@@ -88,6 +92,8 @@ public class Player : MonoBehaviour {
 
 			updateScore.isCountingScore = false;				//Stop counting score;
 			updateScore.DisplayFinalScore();
+
+	
 
 			GameManager.Instance.Save();						//Save the state of the game
 		}

@@ -106,7 +106,13 @@ public class Spawner : MonoBehaviour {
 
 		wideSize = 3;
 
-		shapeValue = Random.Range(0,29);
+		shapeValue = GameManager.Instance.CurShapeValue;
+		if(GameManager.Instance.NumOfPlay % 3 == 0){
+			shapeValue = Random.Range(0,29);
+			GameManager.Instance.CurShapeValue = shapeValue;
+		}
+
+
 //		shapeValue = 1;
 		countShape = shapeValue;
 

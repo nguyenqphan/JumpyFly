@@ -7,6 +7,12 @@ public class GameManager : Singleton<GameManager> {
 
 	private string curPlayerName = "defPlayer";
 
+	private int curShapeValue;
+	public int CurShapeValue{
+		get{return curShapeValue;}
+		set{curShapeValue = value;}
+	}
+
 	public string CurPlayerName
 	{
 		get{return curPlayerName;}
@@ -49,6 +55,12 @@ public class GameManager : Singleton<GameManager> {
 	public int NumOfGame{
 		get{return numOfGame;}
 		set{numOfGame = value;}
+	}
+
+	private int numOfPlay = 3;
+	public int NumOfPlay{
+		get{return numOfPlay;}
+		set{numOfPlay = value;}
 	}
 
 //	private bool isWatched = true;
@@ -152,7 +164,7 @@ public class GameManager : Singleton<GameManager> {
 		set{curPlayerAvailSC = value;}
 	}
 
-	private int amountOfDiamond = 10000;
+	private int amountOfDiamond = 2000;
 	public int AmountOfDiamond
 	{
 		get{return amountOfDiamond;}

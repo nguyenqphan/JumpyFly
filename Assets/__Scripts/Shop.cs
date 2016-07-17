@@ -39,15 +39,15 @@ public class Shop : MonoBehaviour {
 		GameManager.Instance.Load();
 
 		//		//TEST: reset all the states
-		GameManager.Instance.CurPlayerAvail = 1;							//Default player is always available
-		GameManager.Instance.CurPlayerAvailSB = 0;
-		GameManager.Instance.CurPlayerAvailSC = 0;
-		GameManager.Instance.CurPlayerIndex = 0;
-
-		GameManager.Instance.CurPlayerName = "defPlayer";
-		//
-		////
-		GameManager.Instance.AmountOfDiamond = 10000;
+//		GameManager.Instance.CurPlayerAvail = 1;							//Default player is always available
+//		GameManager.Instance.CurPlayerAvailSB = 0;
+//		GameManager.Instance.CurPlayerAvailSC = 0;
+//		GameManager.Instance.CurPlayerIndex = 0;
+//
+//		GameManager.Instance.CurPlayerName = "defPlayer";
+//		//
+//		////
+//		GameManager.Instance.AmountOfDiamond = 2000;
 		updateScore.ChangeAmountOfDiamond();
 		GameManager.Instance.Save();
 
