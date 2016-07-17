@@ -22,6 +22,7 @@ public class PanelController : MonoBehaviour {
 	public GameObject fastImage;
 
 
+
 	void Awake()
 	{
 		updateScore = GameObject.FindWithTag("UI").GetComponent<UpdateScore>();
@@ -29,15 +30,8 @@ public class PanelController : MonoBehaviour {
 		soundManager = GameObject.FindWithTag("GameManager").GetComponent<SoundManager>();
 
 	}
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
+
 
 	public void HideMainPanel()
 	{
@@ -143,4 +137,6 @@ public class PanelController : MonoBehaviour {
 	{
 		adsButton.SetActive(false);
 	}
+
+
 }

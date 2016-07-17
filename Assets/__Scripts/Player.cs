@@ -70,10 +70,10 @@ public class Player : MonoBehaviour {
 	{
 		if(other.CompareTag("Cube"))
 		{
-			GameManager.Instance.NumOfPlay++;
-			Debug.Log("NumOfPlay "+ GameManager.Instance.NumOfPlay);
+			GameManager.Instance.NumOfPlay++;											//Keep track the num of play to change shape value every three plays
+//			Debug.Log("NumOfPlay "+ GameManager.Instance.NumOfPlay);
 
-			GameManager.Instance.NumOfGame++;
+			GameManager.Instance.NumOfGame++;											//Keep track the num of game to show ads
 //			Debug.Log(GameManager.Instance.NumOfGame);
 			GameManager.Instance.IsDouble = false;
 			GameManager.Instance.IsSlowScore = false;
@@ -94,7 +94,7 @@ public class Player : MonoBehaviour {
 			updateScore.DisplayFinalScore();
 
 	
-
+//			spawner.PlayRewardedParticle();
 			GameManager.Instance.Save();						//Save the state of the game
 		}
 	}

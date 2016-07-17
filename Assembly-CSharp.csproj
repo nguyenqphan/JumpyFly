@@ -45,8 +45,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Chartboost\Scripts\CBExternal.cs" />
+     <Compile Include="Assets\Chartboost\Scripts\CBInPlay.cs" />
+     <Compile Include="Assets\Chartboost\Scripts\CBJSON.cs" />
+     <Compile Include="Assets\Chartboost\Scripts\CBSettings.cs" />
+     <Compile Include="Assets\Chartboost\Scripts\Chartboost.cs" />
      <Compile Include="Assets\PrimitivePlus\Scripts\ClockRotation.cs" />
      <Compile Include="Assets\__Scripts\AdaptingEventSystemDragThreshold.cs" />
+     <Compile Include="Assets\__Scripts\CBAdManager.cs" />
      <Compile Include="Assets\__Scripts\CameraMove.cs" />
      <Compile Include="Assets\__Scripts\Cube.cs" />
      <Compile Include="Assets\__Scripts\CubeSkin.cs" />
@@ -73,6 +79,8 @@
      <Compile Include="Assets\__Scripts\UI.cs" />
      <Compile Include="Assets\__Scripts\UIController.cs" />
      <Compile Include="Assets\__Scripts\UpdateScore.cs" />
+     <None Include="Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Gem\Shaders\Gem.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using ChartboostSDK;
 
 public class CameraMove : MonoBehaviour {
 
@@ -12,12 +13,12 @@ public class CameraMove : MonoBehaviour {
 	{
 		thisTransform = GetComponent<Transform>();
 	}
+		
+	void Start()
+	{
+		Chartboost.cacheRewardedVideo(CBLocation.Default);
+	}
 
-//	void Start()
-//	{
-//		StartCoroutine(GoForward());
-//	}
-//
 	public void GoingForward()
 	{
 		StartCoroutine(GoForward());

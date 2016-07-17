@@ -12,6 +12,8 @@ public class GameManager : Singleton<GameManager> {
 		get{return curShapeValue;}
 		set{curShapeValue = value;}
 	}
+		
+//	private int 
 
 	public string CurPlayerName
 	{

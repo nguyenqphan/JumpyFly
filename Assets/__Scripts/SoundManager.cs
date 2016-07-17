@@ -69,7 +69,7 @@ public class SoundManager : MonoBehaviour {
 
 	public void PlayPickUpClip()
 	{
-		pickUpSource.PlayOneShot(pickUpClip, GameManager.Instance.IsEffectON? .5f : 0f);
+		pickUpSource.PlayOneShot(pickUpClip, GameManager.Instance.IsEffectON? .7f : 0f);
 	}
 
 	public void PlayTapClip()
