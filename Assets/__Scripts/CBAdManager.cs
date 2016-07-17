@@ -42,7 +42,6 @@ public class CBAdManager : MonoBehaviour {
 	{
 		spawner = GameObject.FindWithTag("Spawner").GetComponent<Spawner>();
 		GameManager.Instance.AmountOfDiamond+= 30;
-		GameManager.Instance.IsRewarded = true;
 		updateScore.ChangeAmountOfDiamond();
 		panelController.adsButton.SetActive(false);
 
