@@ -35,15 +35,17 @@ public class CBAdManager : MonoBehaviour {
 
 	public void ShowRewardedVideo()
 	{
+		panelController.adsButton.SetActive(false);
 		Chartboost.showRewardedVideo(CBLocation.Default);
 	}
 
+
+	//Callback function if the video is watched completely
 	void DidCompleteRewaredVideo(CBLocation cbLocation, int reward)
 	{
 		spawner = GameObject.FindWithTag("Spawner").GetComponent<Spawner>();
 		GameManager.Instance.AmountOfDiamond+= 30;
 		updateScore.ChangeAmountOfDiamond();
-		panelController.adsButton.SetActive(false);
 
 		GameManager.Instance.Save();
 		spawner.PlayRewardedParticle();
