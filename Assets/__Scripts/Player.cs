@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class Player : MonoBehaviour {
-	
+
+
+	private GameCenterAPI gameCenterAPI;
 	private AdManager adManager;
 	private Rigidbody playerRigid;
 	private Transform playerTrans;
@@ -24,6 +27,7 @@ public class Player : MonoBehaviour {
 		updateScore = GameObject.FindWithTag("UI").GetComponent<UpdateScore>();
 		soundManager = GameObject.FindWithTag("GameManager").GetComponent<SoundManager>();
 		adManager = GameObject.FindWithTag("AdManager").GetComponent<AdManager>();
+		gameCenterAPI = GameObject.FindWithTag("GameManager").GetComponent<GameCenterAPI>();
 	}
 
 	void Start () {
@@ -100,8 +104,8 @@ public class Player : MonoBehaviour {
 			updateScore.isCountingScore = false;				//Stop counting score;
 			updateScore.DisplayFinalScore();
 
-	
-//			spawner.PlayRewardedParticle();
+//			gameCenterAPI.GCReportScore();						//Report Score to game center
+//			gameCenterAPI.GCReportAchievement();				//Report Achievement
 			GameManager.Instance.Save();						//Save the state of the game
 		}
 	}
@@ -112,6 +116,5 @@ public class Player : MonoBehaviour {
 		playerRigid.velocity = Vector3.zero;
 		playerRigid.AddForce(Vector3.up * 500f, ForceMode.Force);
 	}
-
 
 }
