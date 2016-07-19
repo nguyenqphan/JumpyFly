@@ -25,9 +25,9 @@ struct RectTransform_t3317474837;
 #include "UnityEngine_UnityEngine_DrivenTransformProperties4209874728.h"
 
 // System.Void UnityEngine.DrivenRectTransformTracker::Add(UnityEngine.Object,UnityEngine.RectTransform,UnityEngine.DrivenTransformProperties)
-extern "C"  void DrivenRectTransformTracker_Add_m1942874809 (DrivenRectTransformTracker_t3675273953 * __this, Object_t3878351788 * ___driver, RectTransform_t3317474837 * ___rectTransform, int32_t ___drivenProperties, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void DrivenRectTransformTracker_Add_m3461523141 (DrivenRectTransformTracker_t3675273953 * __this, Object_t3878351788 * ___driver, RectTransform_t3317474837 * ___rectTransform, int32_t ___drivenProperties, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.DrivenRectTransformTracker::Clear()
-extern "C"  void DrivenRectTransformTracker_Clear_m1980961560 (DrivenRectTransformTracker_t3675273953 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void DrivenRectTransformTracker_Clear_m309315364 (DrivenRectTransformTracker_t3675273953 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 
 // Methods for marshaling
 struct DrivenRectTransformTracker_t3675273953;

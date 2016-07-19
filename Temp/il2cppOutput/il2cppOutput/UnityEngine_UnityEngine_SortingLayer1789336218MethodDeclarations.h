@@ -16,7 +16,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Int32 UnityEngine.SortingLayer::GetLayerValueFromID(System.Int32)
-extern "C"  int32_t SortingLayer_GetLayerValueFromID_m3075985622 (Il2CppObject * __this /* static, unused */, int32_t ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  int32_t SortingLayer_GetLayerValueFromID_m2560954442 (Il2CppObject * __this /* static, unused */, int32_t ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 
 // Methods for marshaling
 struct SortingLayer_t1789336218;

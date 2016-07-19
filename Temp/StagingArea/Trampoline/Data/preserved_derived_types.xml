@@ -6,6 +6,7 @@
 <type fullname="ChartboostSDK.CBSettings" preserve="all"/>
 <type fullname="ChartboostSDK.Chartboost" preserve="all"/>
 <type fullname="ClockRotation" preserve="all"/>
+<type fullname="AdManager" preserve="all"/>
 <type fullname="Supyrb.AdaptingEventSystemDragThreshold" preserve="all"/>
 <type fullname="CBAdManager" preserve="all"/>
 <type fullname="CameraMove" preserve="all"/>
@@ -34,6 +35,7 @@
 <type fullname="UI" preserve="all"/>
 <type fullname="UIController" preserve="all"/>
 <type fullname="UpdateScore" preserve="all"/>
+<type fullname="admobdemo" preserve="all"/>
 </assembly>
 <assembly fullname="UnityEngine.UI">
 <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all"/>

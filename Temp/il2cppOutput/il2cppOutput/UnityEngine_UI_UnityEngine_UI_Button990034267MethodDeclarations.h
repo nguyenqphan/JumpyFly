@@ -31,7 +31,7 @@ struct IEnumerator_t287207039;
 // System.Void UnityEngine.UI.Button::.ctor()
 extern "C"  void Button__ctor_m3363033049 (Button_t990034267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Button/ButtonClickedEvent UnityEngine.UI.Button::get_onClick()
-extern "C"  ButtonClickedEvent_t962981669 * Button_get_onClick_m1145127631 (Button_t990034267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  ButtonClickedEvent_t962981669 * Button_get_onClick_m99084534 (Button_t990034267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Button::set_onClick(UnityEngine.UI.Button/ButtonClickedEvent)
 extern "C"  void Button_set_onClick_m2495243460 (Button_t990034267 * __this, ButtonClickedEvent_t962981669 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Button::Press()

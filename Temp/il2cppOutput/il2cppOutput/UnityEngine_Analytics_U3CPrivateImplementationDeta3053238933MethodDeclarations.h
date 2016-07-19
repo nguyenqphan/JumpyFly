@@ -13,9 +13,9 @@
 #include <exception>
 
 // <PrivateImplementationDetails>
-struct U3CPrivateImplementationDetailsU3E_t3053238939;
+struct U3CPrivateImplementationDetailsU3E_t3053238938;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void <PrivateImplementationDetails>::.ctor()
-extern "C"  void U3CPrivateImplementationDetailsU3E__ctor_m2239200199 (U3CPrivateImplementationDetailsU3E_t3053238939 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void U3CPrivateImplementationDetailsU3E__ctor_m2239200199 (U3CPrivateImplementationDetailsU3E_t3053238938 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

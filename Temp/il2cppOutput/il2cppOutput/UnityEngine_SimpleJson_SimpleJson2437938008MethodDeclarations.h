@@ -37,11 +37,11 @@ struct PocoJsonSerializerStrategy_t1373207638;
 #include "mscorlib_System_Text_StringBuilder3822575854.h"
 
 // System.Boolean SimpleJson.SimpleJson::TryDeserializeObject(System.String,System.Object&)
-extern "C"  bool SimpleJson_TryDeserializeObject_m2212310027 (Il2CppObject * __this /* static, unused */, String_t* ___json, Il2CppObject ** ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool SimpleJson_TryDeserializeObject_m3409014601 (Il2CppObject * __this /* static, unused */, String_t* ___json, Il2CppObject ** ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String SimpleJson.SimpleJson::SerializeObject(System.Object,SimpleJson.IJsonSerializerStrategy)
 extern "C"  String_t* SimpleJson_SerializeObject_m471576100 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___json, Il2CppObject * ___jsonSerializerStrategy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String SimpleJson.SimpleJson::SerializeObject(System.Object)
-extern "C"  String_t* SimpleJson_SerializeObject_m1597566878 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___json, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  String_t* SimpleJson_SerializeObject_m290152864 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___json, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> SimpleJson.SimpleJson::ParseObject(System.Char[],System.Int32&,System.Boolean&)
 extern "C"  Il2CppObject* SimpleJson_ParseObject_m3340076222 (Il2CppObject * __this /* static, unused */, CharU5BU5D_t3416858730* ___json, int32_t* ___index, bool* ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // SimpleJson.JsonArray SimpleJson.SimpleJson::ParseArray(System.Char[],System.Int32&,System.Boolean&)

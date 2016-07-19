@@ -9,22 +9,6 @@
 #endif
 
 
-// UnityEngine.Component
-struct Component_t2126946602;
-// UnityEngine.Transform
-struct Transform_t284553113;
-// UnityEngine.GameObject
-struct GameObject_t4012695102;
-// UnityEngine.Sprite
-struct Sprite_t4006040370;
-// UnityEngine.Canvas
-struct Canvas_t3534013893;
-// UnityEngine.Font
-struct Font_t1525081276;
-// UnityEngine.CanvasGroup
-struct CanvasGroup_t1295922228;
-// UnityEngine.RectTransform
-struct RectTransform_t3317474837;
 // UnityEngine.Object
 struct Object_t3878351788;
 struct Object_t3878351788_marshaled_pinvoke;
@@ -50,6 +34,8 @@ struct Score_t1540476504;
 struct Camera_t3533968274;
 // UnityEngine.Behaviour
 struct Behaviour_t3120504042;
+// UnityEngine.Component
+struct Component_t2126946602;
 // UnityEngine.Display
 struct Display_t564335855;
 // UnityEngine.AndroidJavaObject
@@ -80,29 +66,26 @@ struct RequireComponent_t3196495237;
 struct PersistentCall_t4127144549;
 // UnityEngine.Events.BaseInvokableCall
 struct BaseInvokableCall_t1733537956;
+// UnityEngine.GameObject
+struct GameObject_t4012695102;
 // UnityEngine.MonoBehaviour
 struct MonoBehaviour_t3012272455;
+// UnityEngine.Transform
+struct Transform_t284553113;
+// UnityEngine.Sprite
+struct Sprite_t4006040370;
+// UnityEngine.Canvas
+struct Canvas_t3534013893;
+// UnityEngine.Font
+struct Font_t1525081276;
+// UnityEngine.CanvasGroup
+struct CanvasGroup_t1295922228;
+// UnityEngine.RectTransform
+struct RectTransform_t3317474837;
 // UnityEngine.Material
 struct Material_t1886596500;
 
 #include "mscorlib_System_Array2840145358.h"
-#include "UnityEngine_UnityEngine_Component2126946602.h"
-#include "UnityEngine_UnityEngine_Transform284553113.h"
-#include "UnityEngine_UnityEngine_GameObject4012695102.h"
-#include "UnityEngine_UnityEngine_RaycastHit2D4082783401.h"
-#include "UnityEngine_UnityEngine_RaycastHit46221527.h"
-#include "UnityEngine_UnityEngine_Sprite4006040370.h"
-#include "UnityEngine_UnityEngine_Canvas3534013893.h"
-#include "UnityEngine_UnityEngine_Vector33525329789.h"
-#include "UnityEngine_UnityEngine_Font1525081276.h"
-#include "UnityEngine_UnityEngine_UIVertex2260061605.h"
-#include "UnityEngine_UnityEngine_Vector23525329788.h"
-#include "UnityEngine_UnityEngine_UILineInfo156921283.h"
-#include "UnityEngine_UnityEngine_UICharInfo403820581.h"
-#include "UnityEngine_UnityEngine_CanvasGroup1295922228.h"
-#include "UnityEngine_UnityEngine_RectTransform3317474837.h"
-#include "UnityEngine_UnityEngine_Color324137084207.h"
-#include "UnityEngine_UnityEngine_Vector43525329790.h"
 #include "UnityEngine_UnityEngine_Object3878351788.h"
 #include "UnityEngine_UnityEngine_SocialPlatforms_Impl_Achie3784099155.h"
 #include "UnityEngine_UnityEngine_SocialPlatforms_Impl_UserP2517340964.h"
@@ -111,17 +94,27 @@ struct Material_t1886596500;
 #include "UnityEngine_UnityEngine_SocialPlatforms_Impl_Achiev581285621.h"
 #include "UnityEngine_UnityEngine_SocialPlatforms_GameCenter2223678307.h"
 #include "UnityEngine_UnityEngine_SocialPlatforms_Impl_Score1540476504.h"
+#include "UnityEngine_UnityEngine_Vector33525329789.h"
+#include "UnityEngine_UnityEngine_Vector43525329790.h"
+#include "UnityEngine_UnityEngine_Vector23525329788.h"
+#include "UnityEngine_UnityEngine_Color324137084207.h"
 #include "UnityEngine_UnityEngine_Keyframe2095052507.h"
 #include "UnityEngine_UnityEngine_Camera3533968274.h"
 #include "UnityEngine_UnityEngine_Behaviour3120504042.h"
+#include "UnityEngine_UnityEngine_Component2126946602.h"
 #include "UnityEngine_UnityEngine_Display564335855.h"
 #include "UnityEngine_UnityEngine_Touch1603883884.h"
 #include "UnityEngine_UnityEngine_jvalue374581140.h"
 #include "UnityEngine_UnityEngine_AndroidJavaObject1906659325.h"
 #include "UnityEngine_UnityEngine_Experimental_Director_Play3404354247.h"
 #include "UnityEngine_UnityEngine_ContactPoint2951122365.h"
+#include "UnityEngine_UnityEngine_RaycastHit46221527.h"
 #include "UnityEngine_UnityEngine_Rigidbody2D3632243084.h"
+#include "UnityEngine_UnityEngine_RaycastHit2D4082783401.h"
 #include "UnityEngine_UnityEngine_ContactPoint2D3963746319.h"
+#include "UnityEngine_UnityEngine_UIVertex2260061605.h"
+#include "UnityEngine_UnityEngine_UICharInfo403820581.h"
+#include "UnityEngine_UnityEngine_UILineInfo156921283.h"
 #include "UnityEngine_UnityEngine_GUILayoutOption3151226183.h"
 #include "UnityEngine_UnityEngine_GUILayoutUtility_LayoutCac3653031512.h"
 #include "UnityEngine_UnityEngine_GUILayoutEntry1011928986.h"
@@ -135,256 +128,17 @@ struct Material_t1886596500;
 #include "UnityEngine_UnityEngine_Events_PersistentCall4127144549.h"
 #include "UnityEngine_UnityEngine_Events_BaseInvokableCall1733537956.h"
 #include "UnityEngine_UnityEngine_RuntimePlatform1574985880.h"
+#include "UnityEngine_UnityEngine_GameObject4012695102.h"
 #include "UnityEngine_UnityEngine_MonoBehaviour3012272455.h"
+#include "UnityEngine_UnityEngine_Transform284553113.h"
+#include "UnityEngine_UnityEngine_Sprite4006040370.h"
+#include "UnityEngine_UnityEngine_Canvas3534013893.h"
+#include "UnityEngine_UnityEngine_Font1525081276.h"
+#include "UnityEngine_UnityEngine_CanvasGroup1295922228.h"
+#include "UnityEngine_UnityEngine_RectTransform3317474837.h"
 #include "UnityEngine_UnityEngine_Material1886596500.h"
 
 #pragma once
-// UnityEngine.Component[]
-struct ComponentU5BU5D_t552366831  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) Component_t2126946602 * m_Items[1];
-
-public:
-	inline Component_t2126946602 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline Component_t2126946602 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, Component_t2126946602 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// UnityEngine.Transform[]
-struct TransformU5BU5D_t3681339876  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) Transform_t284553113 * m_Items[1];
-
-public:
-	inline Transform_t284553113 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline Transform_t284553113 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, Transform_t284553113 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// UnityEngine.GameObject[]
-struct GameObjectU5BU5D_t3499186955  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) GameObject_t4012695102 * m_Items[1];
-
-public:
-	inline GameObject_t4012695102 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline GameObject_t4012695102 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, GameObject_t4012695102 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// UnityEngine.RaycastHit2D[]
-struct RaycastHit2DU5BU5D_t2162384532  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) RaycastHit2D_t4082783401  m_Items[1];
-
-public:
-	inline RaycastHit2D_t4082783401  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline RaycastHit2D_t4082783401 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, RaycastHit2D_t4082783401  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.RaycastHit[]
-struct RaycastHitU5BU5D_t1365728750  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) RaycastHit_t46221527  m_Items[1];
-
-public:
-	inline RaycastHit_t46221527  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline RaycastHit_t46221527 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, RaycastHit_t46221527  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.Sprite[]
-struct SpriteU5BU5D_t503173063  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) Sprite_t4006040370 * m_Items[1];
-
-public:
-	inline Sprite_t4006040370 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline Sprite_t4006040370 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, Sprite_t4006040370 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// UnityEngine.Canvas[]
-struct CanvasU5BU5D_t645781896  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) Canvas_t3534013893 * m_Items[1];
-
-public:
-	inline Canvas_t3534013893 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline Canvas_t3534013893 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, Canvas_t3534013893 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// UnityEngine.Vector3[]
-struct Vector3U5BU5D_t3227571696  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) Vector3_t3525329789  m_Items[1];
-
-public:
-	inline Vector3_t3525329789  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline Vector3_t3525329789 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, Vector3_t3525329789  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.Font[]
-struct FontU5BU5D_t3487343829  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) Font_t1525081276 * m_Items[1];
-
-public:
-	inline Font_t1525081276 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline Font_t1525081276 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, Font_t1525081276 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// UnityEngine.UIVertex[]
-struct UIVertexU5BU5D_t684414504  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) UIVertex_t2260061605  m_Items[1];
-
-public:
-	inline UIVertex_t2260061605  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline UIVertex_t2260061605 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, UIVertex_t2260061605  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.Vector2[]
-struct Vector2U5BU5D_t2741383957  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) Vector2_t3525329788  m_Items[1];
-
-public:
-	inline Vector2_t3525329788  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline Vector2_t3525329788 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, Vector2_t3525329788  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.UILineInfo[]
-struct UILineInfoU5BU5D_t3191819218  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) UILineInfo_t156921283  m_Items[1];
-
-public:
-	inline UILineInfo_t156921283  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline UILineInfo_t156921283 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, UILineInfo_t156921283  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.UICharInfo[]
-struct UICharInfoU5BU5D_t756447656  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) UICharInfo_t403820581  m_Items[1];
-
-public:
-	inline UICharInfo_t403820581  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline UICharInfo_t403820581 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, UICharInfo_t403820581  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.CanvasGroup[]
-struct CanvasGroupU5BU5D_t470257789  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) CanvasGroup_t1295922228 * m_Items[1];
-
-public:
-	inline CanvasGroup_t1295922228 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline CanvasGroup_t1295922228 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, CanvasGroup_t1295922228 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// UnityEngine.RectTransform[]
-struct RectTransformU5BU5D_t100490744  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) RectTransform_t3317474837 * m_Items[1];
-
-public:
-	inline RectTransform_t3317474837 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline RectTransform_t3317474837 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, RectTransform_t3317474837 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// UnityEngine.Color32[]
-struct Color32U5BU5D_t1677970742  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) Color32_t4137084207  m_Items[1];
-
-public:
-	inline Color32_t4137084207  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline Color32_t4137084207 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, Color32_t4137084207  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.Vector4[]
-struct Vector4U5BU5D_t3713759435  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) Vector4_t3525329790  m_Items[1];
-
-public:
-	inline Vector4_t3525329790  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline Vector4_t3525329790 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, Vector4_t3525329790  value)
-	{
-		m_Items[index] = value;
-	}
-};
 // UnityEngine.Object[]
 struct ObjectU5BU5D_t3051965477  : public Il2CppArray
 {
@@ -563,6 +317,62 @@ public:
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
+// UnityEngine.Vector3[]
+struct Vector3U5BU5D_t3227571696  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) Vector3_t3525329789  m_Items[1];
+
+public:
+	inline Vector3_t3525329789  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline Vector3_t3525329789 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, Vector3_t3525329789  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Vector4[]
+struct Vector4U5BU5D_t3713759435  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) Vector4_t3525329790  m_Items[1];
+
+public:
+	inline Vector4_t3525329790  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline Vector4_t3525329790 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, Vector4_t3525329790  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Vector2[]
+struct Vector2U5BU5D_t2741383957  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) Vector2_t3525329788  m_Items[1];
+
+public:
+	inline Vector2_t3525329788  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline Vector2_t3525329788 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, Vector2_t3525329788  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Color32[]
+struct Color32U5BU5D_t1677970742  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) Color32_t4137084207  m_Items[1];
+
+public:
+	inline Color32_t4137084207  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline Color32_t4137084207 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, Color32_t4137084207  value)
+	{
+		m_Items[index] = value;
+	}
+};
 // UnityEngine.Keyframe[]
 struct KeyframeU5BU5D_t2477572954  : public Il2CppArray
 {
@@ -602,6 +412,21 @@ public:
 	inline Behaviour_t3120504042 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
 	inline Behaviour_t3120504042 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
 	inline void SetAt(il2cpp_array_size_t index, Behaviour_t3120504042 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.Component[]
+struct ComponentU5BU5D_t552366831  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) Component_t2126946602 * m_Items[1];
+
+public:
+	inline Component_t2126946602 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline Component_t2126946602 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, Component_t2126946602 * value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
@@ -694,6 +519,20 @@ public:
 		m_Items[index] = value;
 	}
 };
+// UnityEngine.RaycastHit[]
+struct RaycastHitU5BU5D_t1365728750  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) RaycastHit_t46221527  m_Items[1];
+
+public:
+	inline RaycastHit_t46221527  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline RaycastHit_t46221527 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, RaycastHit_t46221527  value)
+	{
+		m_Items[index] = value;
+	}
+};
 // UnityEngine.Rigidbody2D[]
 struct Rigidbody2DU5BU5D_t203541189  : public Il2CppArray
 {
@@ -709,6 +548,20 @@ public:
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
+// UnityEngine.RaycastHit2D[]
+struct RaycastHit2DU5BU5D_t2162384532  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) RaycastHit2D_t4082783401  m_Items[1];
+
+public:
+	inline RaycastHit2D_t4082783401  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline RaycastHit2D_t4082783401 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, RaycastHit2D_t4082783401  value)
+	{
+		m_Items[index] = value;
+	}
+};
 // UnityEngine.ContactPoint2D[]
 struct ContactPoint2DU5BU5D_t3188634326  : public Il2CppArray
 {
@@ -719,6 +572,48 @@ public:
 	inline ContactPoint2D_t3963746319  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
 	inline ContactPoint2D_t3963746319 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
 	inline void SetAt(il2cpp_array_size_t index, ContactPoint2D_t3963746319  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.UIVertex[]
+struct UIVertexU5BU5D_t684414504  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) UIVertex_t2260061605  m_Items[1];
+
+public:
+	inline UIVertex_t2260061605  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline UIVertex_t2260061605 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, UIVertex_t2260061605  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.UICharInfo[]
+struct UICharInfoU5BU5D_t756447656  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) UICharInfo_t403820581  m_Items[1];
+
+public:
+	inline UICharInfo_t403820581  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline UICharInfo_t403820581 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, UICharInfo_t403820581  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.UILineInfo[]
+struct UILineInfoU5BU5D_t3191819218  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) UILineInfo_t156921283  m_Items[1];
+
+public:
+	inline UILineInfo_t156921283  GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline UILineInfo_t156921283 * GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, UILineInfo_t156921283  value)
 	{
 		m_Items[index] = value;
 	}
@@ -916,6 +811,21 @@ public:
 		m_Items[index] = value;
 	}
 };
+// UnityEngine.GameObject[]
+struct GameObjectU5BU5D_t3499186955  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) GameObject_t4012695102 * m_Items[1];
+
+public:
+	inline GameObject_t4012695102 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline GameObject_t4012695102 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, GameObject_t4012695102 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
 // UnityEngine.MonoBehaviour[]
 struct MonoBehaviourU5BU5D_t936895934  : public Il2CppArray
 {
@@ -926,6 +836,96 @@ public:
 	inline MonoBehaviour_t3012272455 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
 	inline MonoBehaviour_t3012272455 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
 	inline void SetAt(il2cpp_array_size_t index, MonoBehaviour_t3012272455 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.Transform[]
+struct TransformU5BU5D_t3681339876  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) Transform_t284553113 * m_Items[1];
+
+public:
+	inline Transform_t284553113 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline Transform_t284553113 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, Transform_t284553113 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.Sprite[]
+struct SpriteU5BU5D_t503173063  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) Sprite_t4006040370 * m_Items[1];
+
+public:
+	inline Sprite_t4006040370 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline Sprite_t4006040370 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, Sprite_t4006040370 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.Canvas[]
+struct CanvasU5BU5D_t645781896  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) Canvas_t3534013893 * m_Items[1];
+
+public:
+	inline Canvas_t3534013893 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline Canvas_t3534013893 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, Canvas_t3534013893 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.Font[]
+struct FontU5BU5D_t3487343829  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) Font_t1525081276 * m_Items[1];
+
+public:
+	inline Font_t1525081276 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline Font_t1525081276 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, Font_t1525081276 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.CanvasGroup[]
+struct CanvasGroupU5BU5D_t470257789  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) CanvasGroup_t1295922228 * m_Items[1];
+
+public:
+	inline CanvasGroup_t1295922228 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline CanvasGroup_t1295922228 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, CanvasGroup_t1295922228 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.RectTransform[]
+struct RectTransformU5BU5D_t100490744  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) RectTransform_t3317474837 * m_Items[1];
+
+public:
+	inline RectTransform_t3317474837 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline RectTransform_t3317474837 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, RectTransform_t3317474837 * value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);

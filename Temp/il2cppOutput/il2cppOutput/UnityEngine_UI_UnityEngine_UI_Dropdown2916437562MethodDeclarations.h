@@ -85,11 +85,11 @@ extern "C"  Image_t3354615620 * Dropdown_get_itemImage_m2263268950 (Dropdown_t29
 // System.Void UnityEngine.UI.Dropdown::set_itemImage(UnityEngine.UI.Image)
 extern "C"  void Dropdown_set_itemImage_m838838347 (Dropdown_t2916437562 * __this, Image_t3354615620 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> UnityEngine.UI.Dropdown::get_options()
-extern "C"  List_1_t4163512024 * Dropdown_get_options_m399918042 (Dropdown_t2916437562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  List_1_t4163512024 * Dropdown_get_options_m2855573715 (Dropdown_t2916437562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown::set_options(System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>)
 extern "C"  void Dropdown_set_options_m4132251955 (Dropdown_t2916437562 * __this, List_1_t4163512024 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Dropdown/DropdownEvent UnityEngine.UI.Dropdown::get_onValueChanged()
-extern "C"  DropdownEvent_t2203078889 * Dropdown_get_onValueChanged_m2646663760 (Dropdown_t2916437562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  DropdownEvent_t2203078889 * Dropdown_get_onValueChanged_m1684410167 (Dropdown_t2916437562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown::set_onValueChanged(UnityEngine.UI.Dropdown/DropdownEvent)
 extern "C"  void Dropdown_set_onValueChanged_m2821991323 (Dropdown_t2916437562 * __this, DropdownEvent_t2203078889 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.Dropdown::get_value()
@@ -99,7 +99,7 @@ extern "C"  void Dropdown_set_value_m2635023165 (Dropdown_t2916437562 * __this, 
 // System.Void UnityEngine.UI.Dropdown::Awake()
 extern "C"  void Dropdown_Awake_m3811892541 (Dropdown_t2916437562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown::RefreshShownValue()
-extern "C"  void Dropdown_RefreshShownValue_m9458643 (Dropdown_t2916437562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Dropdown_RefreshShownValue_m955925324 (Dropdown_t2916437562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown::AddOptions(System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>)
 extern "C"  void Dropdown_AddOptions_m1960749669 (Dropdown_t2916437562 * __this, List_1_t4163512024 * ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown::AddOptions(System.Collections.Generic.List`1<System.String>)

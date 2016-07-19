@@ -20,7 +20,7 @@
 #endif
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Vector4>
-struct  DefaultComparer_t2863283524  : public Comparer_1_t3979990126
+struct  DefaultComparer_t2863283523  : public Comparer_1_t3979990126
 {
 public:
 

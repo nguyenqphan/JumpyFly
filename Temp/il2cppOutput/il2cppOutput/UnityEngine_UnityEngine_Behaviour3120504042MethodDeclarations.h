@@ -20,8 +20,8 @@ struct Behaviour_t3120504042;
 // System.Void UnityEngine.Behaviour::.ctor()
 extern "C"  void Behaviour__ctor_m1624944828 (Behaviour_t3120504042 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Behaviour::get_enabled()
-extern "C"  bool Behaviour_get_enabled_m1094168684 (Behaviour_t3120504042 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool Behaviour_get_enabled_m1239363704 (Behaviour_t3120504042 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Behaviour::set_enabled(System.Boolean)
-extern "C"  void Behaviour_set_enabled_m1912834849 (Behaviour_t3120504042 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Behaviour_set_enabled_m2046806933 (Behaviour_t3120504042 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Behaviour::get_isActiveAndEnabled()
-extern "C"  bool Behaviour_get_isActiveAndEnabled_m76195377 (Behaviour_t3120504042 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool Behaviour_get_isActiveAndEnabled_m210167461 (Behaviour_t3120504042 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

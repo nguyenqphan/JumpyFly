@@ -39,11 +39,11 @@ struct List_1_t2923905571;
 // System.Void UnityEngine.Component::.ctor()
 extern "C"  void Component__ctor_m4238603388 (Component_t2126946602 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Transform UnityEngine.Component::get_transform()
-extern "C"  Transform_t284553113 * Component_get_transform_m243597671 (Component_t2126946602 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  Transform_t284553113 * Component_get_transform_m4257140443 (Component_t2126946602 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject UnityEngine.Component::get_gameObject()
-extern "C"  GameObject_t4012695102 * Component_get_gameObject_m1036663815 (Component_t2126946602 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  GameObject_t4012695102 * Component_get_gameObject_m1170635899 (Component_t2126946602 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Component UnityEngine.Component::GetComponent(System.Type)
-extern "C"  Component_t2126946602 * Component_GetComponent_m2701918979 (Component_t2126946602 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  Component_t2126946602 * Component_GetComponent_m936021879 (Component_t2126946602 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Component::GetComponentFastPath(System.Type,System.IntPtr)
 extern "C"  void Component_GetComponentFastPath_m1455568887 (Component_t2126946602 * __this, Type_t * ___type, IntPtr_t ___oneFurtherThanResultValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Component UnityEngine.Component::GetComponent(System.String)
@@ -67,7 +67,7 @@ extern "C"  ComponentU5BU5D_t552366831* Component_GetComponents_m2975031400 (Com
 // System.Void UnityEngine.Component::GetComponentsForListInternal(System.Type,System.Object)
 extern "C"  void Component_GetComponentsForListInternal_m814665735 (Component_t2126946602 * __this, Type_t * ___searchType, Il2CppObject * ___resultList, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Component::GetComponents(System.Type,System.Collections.Generic.List`1<UnityEngine.Component>)
-extern "C"  void Component_GetComponents_m3740314889 (Component_t2126946602 * __this, Type_t * ___type, List_1_t2923905571 * ___results, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Component_GetComponents_m3426812285 (Component_t2126946602 * __this, Type_t * ___type, List_1_t2923905571 * ___results, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Component::get_tag()
 extern "C"  String_t* Component_get_tag_m217485006 (Component_t2126946602 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Component::set_tag(System.String)

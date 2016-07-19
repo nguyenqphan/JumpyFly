@@ -20,13 +20,13 @@
 #include "UnityEngine_UnityEngine_TouchType3890655046.h"
 
 // System.Int32 UnityEngine.Touch::get_fingerId()
-extern "C"  int32_t Touch_get_fingerId_m1304244835 (Touch_t1603883884 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  int32_t Touch_get_fingerId_m1427167959 (Touch_t1603883884 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Touch::get_position()
-extern "C"  Vector2_t3525329788  Touch_get_position_m4145355989 (Touch_t1603883884 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  Vector2_t3525329788  Touch_get_position_m1943849441 (Touch_t1603883884 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TouchPhase UnityEngine.Touch::get_phase()
-extern "C"  int32_t Touch_get_phase_m1221088666 (Touch_t1603883884 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  int32_t Touch_get_phase_m3314549414 (Touch_t1603883884 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TouchType UnityEngine.Touch::get_type()
-extern "C"  int32_t Touch_get_type_m1283202992 (Touch_t1603883884 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  int32_t Touch_get_type_m1428398012 (Touch_t1603883884 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 
 // Methods for marshaling
 struct Touch_t1603883884;

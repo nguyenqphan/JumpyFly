@@ -264,8 +264,8 @@ extern "C"  int64_t SessionValues_TryGetValue_TisInt64_t2847414882_m126766018_gs
 extern "C"  Il2CppObject * SessionValues_TryGetValue_TisIl2CppObject_m2653206696_gshared (SessionValues_t3171441005 * __this, String_t* ___name, Il2CppObject * ___defaultValue, const MethodInfo* method);
 #define SessionValues_TryGetValue_TisIl2CppObject_m2653206696(__this, ___name, ___defaultValue, method) ((  Il2CppObject * (*) (SessionValues_t3171441005 *, String_t*, Il2CppObject *, const MethodInfo*))SessionValues_TryGetValue_TisIl2CppObject_m2653206696_gshared)(__this, ___name, ___defaultValue, method)
 // T UnityEngine.Component::GetComponent<System.Object>()
-extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m1198801502_gshared (Component_t2126946602 * __this, const MethodInfo* method);
-#define Component_GetComponent_TisIl2CppObject_m1198801502(__this, method) ((  Il2CppObject * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m1198801502_gshared)(__this, method)
+extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m267839954_gshared (Component_t2126946602 * __this, const MethodInfo* method);
+#define Component_GetComponent_TisIl2CppObject_m267839954(__this, method) ((  Il2CppObject * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
 // T UnityEngine.Component::GetComponentInChildren<System.Object>()
 extern "C"  Il2CppObject * Component_GetComponentInChildren_TisIl2CppObject_m900797242_gshared (Component_t2126946602 * __this, const MethodInfo* method);
 #define Component_GetComponentInChildren_TisIl2CppObject_m900797242(__this, method) ((  Il2CppObject * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponentInChildren_TisIl2CppObject_m900797242_gshared)(__this, method)
@@ -279,11 +279,11 @@ extern "C"  Il2CppObject * Component_GetComponentInParent_TisIl2CppObject_m12978
 extern "C"  Il2CppObject * ExecuteEvents_ValidateEventData_TisIl2CppObject_m1498065176_gshared (Il2CppObject * __this /* static, unused */, BaseEventData_t3547103726 * ___data, const MethodInfo* method);
 #define ExecuteEvents_ValidateEventData_TisIl2CppObject_m1498065176(__this /* static, unused */, ___data, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, BaseEventData_t3547103726 *, const MethodInfo*))ExecuteEvents_ValidateEventData_TisIl2CppObject_m1498065176_gshared)(__this /* static, unused */, ___data, method)
 // T UnityEngine.GameObject::AddComponent<System.Object>()
-extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m337943659_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
-#define GameObject_AddComponent_TisIl2CppObject_m337943659(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
+#define GameObject_AddComponent_TisIl2CppObject_m3908606994(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // T UnityEngine.GameObject::GetComponent<System.Object>()
-extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
-#define GameObject_GetComponent_TisIl2CppObject_m2447772384(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared)(__this, method)
+extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
+#define GameObject_GetComponent_TisIl2CppObject_m1723468423(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared)(__this, method)
 // T UnityEngine.GameObject::GetComponentInChildren<System.Object>()
 extern "C"  Il2CppObject * GameObject_GetComponentInChildren_TisIl2CppObject_m782999868_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
 #define GameObject_GetComponentInChildren_TisIl2CppObject_m782999868(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponentInChildren_TisIl2CppObject_m782999868_gshared)(__this, method)
@@ -294,8 +294,8 @@ extern "C"  Il2CppObject * GameObject_GetComponentInChildren_TisIl2CppObject_m40
 extern "C"  Il2CppObject * Object_FindObjectOfType_TisIl2CppObject_m4174810935_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
 #define Object_FindObjectOfType_TisIl2CppObject_m4174810935(__this /* static, unused */, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m4174810935_gshared)(__this /* static, unused */, method)
 // T UnityEngine.Object::Instantiate<System.Object>(T)
-extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m3133387403_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___original, const MethodInfo* method);
-#define Object_Instantiate_TisIl2CppObject_m3133387403(__this /* static, unused */, ___original, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3133387403_gshared)(__this /* static, unused */, ___original, method)
+extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m2886823922_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___original, const MethodInfo* method);
+#define Object_Instantiate_TisIl2CppObject_m2886823922(__this /* static, unused */, ___original, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m2886823922_gshared)(__this /* static, unused */, ___original, method)
 // T UnityEngine.Purchasing.ConfigurationBuilder::Configure<System.Object>()
 extern "C"  Il2CppObject * ConfigurationBuilder_Configure_TisIl2CppObject_m3478168510_gshared (ConfigurationBuilder_t622246012 * __this, const MethodInfo* method);
 #define ConfigurationBuilder_Configure_TisIl2CppObject_m3478168510(__this, method) ((  Il2CppObject * (*) (ConfigurationBuilder_t622246012 *, const MethodInfo*))ConfigurationBuilder_Configure_TisIl2CppObject_m3478168510_gshared)(__this, method)
@@ -309,8 +309,8 @@ extern "C"  Il2CppObject * UnityUtil_FindInstanceOfType_TisIl2CppObject_m7509239
 extern "C"  Il2CppObject * UnityUtil_LoadResourceInstanceOfType_TisIl2CppObject_m3295815121_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
 #define UnityUtil_LoadResourceInstanceOfType_TisIl2CppObject_m3295815121(__this /* static, unused */, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))UnityUtil_LoadResourceInstanceOfType_TisIl2CppObject_m3295815121_gshared)(__this /* static, unused */, method)
 // T UnityEngine.Purchasing.IExtensionProvider::GetExtension<System.Object>()
-extern "C"  Il2CppObject * IExtensionProvider_GetExtension_TisIl2CppObject_m971929951_gshared (Il2CppObject * __this, const MethodInfo* method);
-#define IExtensionProvider_GetExtension_TisIl2CppObject_m971929951(__this, method) ((  Il2CppObject * (*) (Il2CppObject *, const MethodInfo*))IExtensionProvider_GetExtension_TisIl2CppObject_m971929951_gshared)(__this, method)
+extern "C"  Il2CppObject * IExtensionProvider_GetExtension_TisIl2CppObject_m1826336811_gshared (Il2CppObject * __this, const MethodInfo* method);
+#define IExtensionProvider_GetExtension_TisIl2CppObject_m1826336811(__this, method) ((  Il2CppObject * (*) (Il2CppObject *, const MethodInfo*))IExtensionProvider_GetExtension_TisIl2CppObject_m1826336811_gshared)(__this, method)
 // T UnityEngine.Purchasing.PurchasingFactory::GetExtension<System.Object>()
 extern "C"  Il2CppObject * PurchasingFactory_GetExtension_TisIl2CppObject_m33012161_gshared (PurchasingFactory_t3774245923 * __this, const MethodInfo* method);
 #define PurchasingFactory_GetExtension_TisIl2CppObject_m33012161(__this, method) ((  Il2CppObject * (*) (PurchasingFactory_t3774245923 *, const MethodInfo*))PurchasingFactory_GetExtension_TisIl2CppObject_m33012161_gshared)(__this, method)
@@ -1374,13 +1374,13 @@ IL_0036:
 // T UnityEngine.Component::GetComponent<System.Object>()
 extern TypeInfo* CastHelper_1_t4244616972_il2cpp_TypeInfo_var;
 extern TypeInfo* Type_t_il2cpp_TypeInfo_var;
-extern const uint32_t Component_GetComponent_TisIl2CppObject_m1198801502_MetadataUsageId;
-extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m1198801502_gshared (Component_t2126946602 * __this, const MethodInfo* method)
+extern const uint32_t Component_GetComponent_TisIl2CppObject_m267839954_MetadataUsageId;
+extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m267839954_gshared (Component_t2126946602 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (Component_GetComponent_TisIl2CppObject_m1198801502_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Component_GetComponent_TisIl2CppObject_m267839954_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	CastHelper_1_t4244616972  V_0;
@@ -1497,13 +1497,13 @@ IL_003a:
 // T UnityEngine.GameObject::AddComponent<System.Object>()
 // T UnityEngine.GameObject::AddComponent<System.Object>()
 extern TypeInfo* Type_t_il2cpp_TypeInfo_var;
-extern const uint32_t GameObject_AddComponent_TisIl2CppObject_m337943659_MetadataUsageId;
-extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m337943659_gshared (GameObject_t4012695102 * __this, const MethodInfo* method)
+extern const uint32_t GameObject_AddComponent_TisIl2CppObject_m3908606994_MetadataUsageId;
+extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared (GameObject_t4012695102 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (GameObject_AddComponent_TisIl2CppObject_m337943659_MetadataUsageId);
+		il2cpp_codegen_initialize_method (GameObject_AddComponent_TisIl2CppObject_m3908606994_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1518,13 +1518,13 @@ extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m337943659_gs
 // T UnityEngine.GameObject::GetComponent<System.Object>()
 extern TypeInfo* CastHelper_1_t4244616972_il2cpp_TypeInfo_var;
 extern TypeInfo* Type_t_il2cpp_TypeInfo_var;
-extern const uint32_t GameObject_GetComponent_TisIl2CppObject_m2447772384_MetadataUsageId;
-extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared (GameObject_t4012695102 * __this, const MethodInfo* method)
+extern const uint32_t GameObject_GetComponent_TisIl2CppObject_m1723468423_MetadataUsageId;
+extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared (GameObject_t4012695102 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (GameObject_GetComponent_TisIl2CppObject_m2447772384_MetadataUsageId);
+		il2cpp_codegen_initialize_method (GameObject_GetComponent_TisIl2CppObject_m1723468423_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	CastHelper_1_t4244616972  V_0;
@@ -1599,13 +1599,13 @@ extern "C"  Il2CppObject * Object_FindObjectOfType_TisIl2CppObject_m4174810935_g
 // T UnityEngine.Object::Instantiate<System.Object>(T)
 // T UnityEngine.Object::Instantiate<System.Object>(T)
 extern Il2CppCodeGenString* _stringLiteral3473406;
-extern const uint32_t Object_Instantiate_TisIl2CppObject_m3133387403_MetadataUsageId;
-extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m3133387403_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___original, const MethodInfo* method)
+extern const uint32_t Object_Instantiate_TisIl2CppObject_m2886823922_MetadataUsageId;
+extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m2886823922_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___original, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (Object_Instantiate_TisIl2CppObject_m3133387403_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Object_Instantiate_TisIl2CppObject_m2886823922_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1842,7 +1842,7 @@ extern "C"  Il2CppObject * Dropdown_GetOrAddComponent_TisIl2CppObject_m415555875
 		Il2CppObject * L_1 = ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->method)((GameObject_t4012695102 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
 		V_0 = (Il2CppObject *)L_1;
 		Il2CppObject * L_2 = V_0;
-		bool L_3 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, (Object_t3878351788 *)L_2, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, (Object_t3878351788 *)L_2, /*hidden argument*/NULL);
 		if (L_3)
 		{
 			goto IL_001e;
@@ -2198,7 +2198,7 @@ extern "C"  ObjectU5BU5D_t11523773* Component_GetComponents_TisIl2CppObject_m156
 {
 	{
 		NullCheck((Component_t2126946602 *)__this);
-		GameObject_t4012695102 * L_0 = Component_get_gameObject_m1036663815((Component_t2126946602 *)__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_0 = Component_get_gameObject_m1170635899((Component_t2126946602 *)__this, /*hidden argument*/NULL);
 		NullCheck((GameObject_t4012695102 *)L_0);
 		ObjectU5BU5D_t11523773* L_1 = ((  ObjectU5BU5D_t11523773* (*) (GameObject_t4012695102 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->method)((GameObject_t4012695102 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
 		return L_1;
@@ -2220,7 +2220,7 @@ extern "C"  ObjectU5BU5D_t11523773* Component_GetComponentsInChildren_TisIl2CppO
 {
 	{
 		NullCheck((Component_t2126946602 *)__this);
-		GameObject_t4012695102 * L_0 = Component_get_gameObject_m1036663815((Component_t2126946602 *)__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_0 = Component_get_gameObject_m1170635899((Component_t2126946602 *)__this, /*hidden argument*/NULL);
 		bool L_1 = ___includeInactive;
 		NullCheck((GameObject_t4012695102 *)L_0);
 		ObjectU5BU5D_t11523773* L_2 = ((  ObjectU5BU5D_t11523773* (*) (GameObject_t4012695102 *, bool, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->method)((GameObject_t4012695102 *)L_0, (bool)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
@@ -2243,7 +2243,7 @@ extern "C"  ObjectU5BU5D_t11523773* Component_GetComponentsInParent_TisIl2CppObj
 {
 	{
 		NullCheck((Component_t2126946602 *)__this);
-		GameObject_t4012695102 * L_0 = Component_get_gameObject_m1036663815((Component_t2126946602 *)__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_0 = Component_get_gameObject_m1170635899((Component_t2126946602 *)__this, /*hidden argument*/NULL);
 		bool L_1 = ___includeInactive;
 		NullCheck((GameObject_t4012695102 *)L_0);
 		ObjectU5BU5D_t11523773* L_2 = ((  ObjectU5BU5D_t11523773* (*) (GameObject_t4012695102 *, bool, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->method)((GameObject_t4012695102 *)L_0, (bool)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
@@ -2764,7 +2764,7 @@ IL_0012:
 		V_1 = (Transform_t284553113 *)L_4;
 		Transform_t284553113 * L_5 = V_1;
 		NullCheck((Component_t2126946602 *)L_5);
-		GameObject_t4012695102 * L_6 = Component_get_gameObject_m1036663815((Component_t2126946602 *)L_5, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_6 = Component_get_gameObject_m1170635899((Component_t2126946602 *)L_5, /*hidden argument*/NULL);
 		BaseEventData_t3547103726 * L_7 = ___eventData;
 		EventFunction_1_t3885370180 * L_8 = ___callbackFunction;
 		bool L_9 = ((  bool (*) (Il2CppObject * /* static, unused */, GameObject_t4012695102 *, BaseEventData_t3547103726 *, EventFunction_1_t3885370180 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->method)(NULL /*static, unused*/, (GameObject_t4012695102 *)L_6, (BaseEventData_t3547103726 *)L_7, (EventFunction_1_t3885370180 *)L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
@@ -2776,7 +2776,7 @@ IL_0012:
 	{
 		Transform_t284553113 * L_10 = V_1;
 		NullCheck((Component_t2126946602 *)L_10);
-		GameObject_t4012695102 * L_11 = Component_get_gameObject_m1036663815((Component_t2126946602 *)L_10, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_11 = Component_get_gameObject_m1170635899((Component_t2126946602 *)L_10, /*hidden argument*/NULL);
 		return L_11;
 	}
 
@@ -2817,7 +2817,7 @@ extern "C"  GameObject_t4012695102 * ExecuteEvents_GetEventHandler_TisIl2CppObje
 	Transform_t284553113 * V_0 = NULL;
 	{
 		GameObject_t4012695102 * L_0 = ___root;
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, (Object_t3878351788 *)L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, (Object_t3878351788 *)L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_000e;
@@ -2831,7 +2831,7 @@ IL_000e:
 	{
 		GameObject_t4012695102 * L_2 = ___root;
 		NullCheck((GameObject_t4012695102 *)L_2);
-		Transform_t284553113 * L_3 = GameObject_get_transform_m1412865811((GameObject_t4012695102 *)L_2, /*hidden argument*/NULL);
+		Transform_t284553113 * L_3 = GameObject_get_transform_m1278640159((GameObject_t4012695102 *)L_2, /*hidden argument*/NULL);
 		V_0 = (Transform_t284553113 *)L_3;
 		goto IL_0038;
 	}
@@ -2840,7 +2840,7 @@ IL_001a:
 	{
 		Transform_t284553113 * L_4 = V_0;
 		NullCheck((Component_t2126946602 *)L_4);
-		GameObject_t4012695102 * L_5 = Component_get_gameObject_m1036663815((Component_t2126946602 *)L_4, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_5 = Component_get_gameObject_m1170635899((Component_t2126946602 *)L_4, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t4196265289_il2cpp_TypeInfo_var);
 		bool L_6 = ((  bool (*) (Il2CppObject * /* static, unused */, GameObject_t4012695102 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->method)(NULL /*static, unused*/, (GameObject_t4012695102 *)L_5, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
 		if (!L_6)
@@ -2851,7 +2851,7 @@ IL_001a:
 	{
 		Transform_t284553113 * L_7 = V_0;
 		NullCheck((Component_t2126946602 *)L_7);
-		GameObject_t4012695102 * L_8 = Component_get_gameObject_m1036663815((Component_t2126946602 *)L_7, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_8 = Component_get_gameObject_m1170635899((Component_t2126946602 *)L_7, /*hidden argument*/NULL);
 		return L_8;
 	}
 
@@ -2859,14 +2859,14 @@ IL_0031:
 	{
 		Transform_t284553113 * L_9 = V_0;
 		NullCheck((Transform_t284553113 *)L_9);
-		Transform_t284553113 * L_10 = Transform_get_parent_m1031913888((Transform_t284553113 *)L_9, /*hidden argument*/NULL);
+		Transform_t284553113 * L_10 = Transform_get_parent_m2236876972((Transform_t284553113 *)L_9, /*hidden argument*/NULL);
 		V_0 = (Transform_t284553113 *)L_10;
 	}
 
 IL_0038:
 	{
 		Transform_t284553113 * L_11 = V_0;
-		bool L_12 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, (Object_t3878351788 *)L_11, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_12 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, (Object_t3878351788 *)L_11, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_12)
 		{
 			goto IL_001a;

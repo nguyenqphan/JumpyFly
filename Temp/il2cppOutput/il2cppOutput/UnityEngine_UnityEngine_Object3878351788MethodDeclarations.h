@@ -45,23 +45,23 @@ extern "C"  Object_t3878351788 * Object_INTERNAL_CALL_Internal_InstantiateSingle
 // System.Void UnityEngine.Object::Destroy(UnityEngine.Object,System.Single)
 extern "C"  void Object_Destroy_m2260435093 (Il2CppObject * __this /* static, unused */, Object_t3878351788 * ___obj, float ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
-extern "C"  void Object_Destroy_m1848047012 (Il2CppObject * __this /* static, unused */, Object_t3878351788 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Object_Destroy_m176400816 (Il2CppObject * __this /* static, unused */, Object_t3878351788 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::DestroyImmediate(UnityEngine.Object,System.Boolean)
 extern "C"  void Object_DestroyImmediate_m1826427014 (Il2CppObject * __this /* static, unused */, Object_t3878351788 * ___obj, bool ___allowDestroyingAssets, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::DestroyImmediate(UnityEngine.Object)
-extern "C"  void Object_DestroyImmediate_m1924978851 (Il2CppObject * __this /* static, unused */, Object_t3878351788 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Object_DestroyImmediate_m349958679 (Il2CppObject * __this /* static, unused */, Object_t3878351788 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object[] UnityEngine.Object::FindObjectsOfType(System.Type)
 extern "C"  ObjectU5BU5D_t3051965477* Object_FindObjectsOfType_m975740280 (Il2CppObject * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Object::get_name()
-extern "C"  String_t* Object_get_name_m2949537241 (Object_t3878351788 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  String_t* Object_get_name_m3709440845 (Object_t3878351788 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::set_name(System.String)
-extern "C"  void Object_set_name_m3647401496 (Object_t3878351788 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Object_set_name_m1123518500 (Object_t3878351788 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)
 extern "C"  void Object_DontDestroyOnLoad_m4064482788 (Il2CppObject * __this /* static, unused */, Object_t3878351788 * ___target, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.HideFlags UnityEngine.Object::get_hideFlags()
 extern "C"  int32_t Object_get_hideFlags_m1893459363 (Object_t3878351788 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::set_hideFlags(UnityEngine.HideFlags)
-extern "C"  void Object_set_hideFlags_m1616337884 (Object_t3878351788 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Object_set_hideFlags_m41317712 (Object_t3878351788 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::DestroyObject(UnityEngine.Object,System.Single)
 extern "C"  void Object_DestroyObject_m3324336244 (Il2CppObject * __this /* static, unused */, Object_t3878351788 * ___obj, float ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::DestroyObject(UnityEngine.Object)
@@ -95,11 +95,11 @@ extern "C"  void Object_CheckNullArgument_m264735768 (Il2CppObject * __this /* s
 // UnityEngine.Object UnityEngine.Object::FindObjectOfType(System.Type)
 extern "C"  Object_t3878351788 * Object_FindObjectOfType_m3820159265 (Il2CppObject * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
-extern "C"  bool Object_op_Implicit_m1196674399 (Il2CppObject * __this /* static, unused */, Object_t3878351788 * ___exists, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool Object_op_Implicit_m2106766291 (Il2CppObject * __this /* static, unused */, Object_t3878351788 * ___exists, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
-extern "C"  bool Object_op_Equality_m2606653020 (Il2CppObject * __this /* static, unused */, Object_t3878351788 * ___x, Object_t3878351788 * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool Object_op_Equality_m3964590952 (Il2CppObject * __this /* static, unused */, Object_t3878351788 * ___x, Object_t3878351788 * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
-extern "C"  bool Object_op_Inequality_m1987923543 (Il2CppObject * __this /* static, unused */, Object_t3878351788 * ___x, Object_t3878351788 * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool Object_op_Inequality_m1296218211 (Il2CppObject * __this /* static, unused */, Object_t3878351788 * ___x, Object_t3878351788 * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 
 // Methods for marshaling
 struct Object_t3878351788;

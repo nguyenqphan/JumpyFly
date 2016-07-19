@@ -336,7 +336,7 @@ extern "C"  void AnalyticsReporter_ExtractReceiptAndSignature_m3441574546 (Analy
 		Product_t16267110 * L_2 = ___product;
 		NullCheck(L_2);
 		String_t* L_3 = Product_get_receipt_m1032630134(L_2, /*hidden argument*/NULL);
-		SimpleJson_TryDeserializeObject_m2212310027(NULL /*static, unused*/, L_3, (&V_0), /*hidden argument*/NULL);
+		SimpleJson_TryDeserializeObject_m3409014601(NULL /*static, unused*/, L_3, (&V_0), /*hidden argument*/NULL);
 		Il2CppObject * L_4 = V_0;
 		V_1 = ((JsonObject_t4190420965 *)CastclassClass(L_4, JsonObject_t4190420965_il2cpp_TypeInfo_var));
 		JsonObject_t4190420965 * L_5 = V_1;
@@ -427,7 +427,7 @@ IL_00a7:
 IL_00b4:
 	{
 		Il2CppObject * L_22 = V_3;
-		SimpleJson_TryDeserializeObject_m2212310027(NULL /*static, unused*/, ((String_t*)CastclassSealed(L_22, String_t_il2cpp_TypeInfo_var)), (&V_4), /*hidden argument*/NULL);
+		SimpleJson_TryDeserializeObject_m3409014601(NULL /*static, unused*/, ((String_t*)CastclassSealed(L_22, String_t_il2cpp_TypeInfo_var)), (&V_4), /*hidden argument*/NULL);
 		Il2CppObject * L_23 = V_4;
 		V_5 = ((JsonObject_t4190420965 *)CastclassClass(L_23, JsonObject_t4190420965_il2cpp_TypeInfo_var));
 		JsonObject_t4190420965 * L_24 = V_5;
@@ -814,7 +814,7 @@ extern "C"  void IDs__ctor_m1206690211 (IDs_t2956127567 * __this, const MethodIn
 }
 // System.Collections.IEnumerator UnityEngine.Purchasing.IDs::System.Collections.IEnumerable.GetEnumerator()
 extern TypeInfo* Enumerator_t2373214747_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m393316393_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m2759194411_MethodInfo_var;
 extern const uint32_t IDs_System_Collections_IEnumerable_GetEnumerator_m2246266332_MetadataUsageId;
 extern "C"  Il2CppObject * IDs_System_Collections_IEnumerable_GetEnumerator_m2246266332 (IDs_t2956127567 * __this, const MethodInfo* method)
 {
@@ -827,7 +827,7 @@ extern "C"  Il2CppObject * IDs_System_Collections_IEnumerable_GetEnumerator_m224
 	{
 		Dictionary_2_t2606186806 * L_0 = __this->get_m_Dic_0();
 		NullCheck(L_0);
-		Enumerator_t2373214747  L_1 = Dictionary_2_GetEnumerator_m393316393(L_0, /*hidden argument*/Dictionary_2_GetEnumerator_m393316393_MethodInfo_var);
+		Enumerator_t2373214747  L_1 = Dictionary_2_GetEnumerator_m2759194411(L_0, /*hidden argument*/Dictionary_2_GetEnumerator_m2759194411_MethodInfo_var);
 		Enumerator_t2373214747  L_2 = L_1;
 		Il2CppObject * L_3 = Box(Enumerator_t2373214747_il2cpp_TypeInfo_var, &L_2);
 		return (Il2CppObject *)L_3;
@@ -906,7 +906,7 @@ IL_001e:
 }
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>> UnityEngine.Purchasing.IDs::GetEnumerator()
 extern TypeInfo* Enumerator_t2373214747_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m393316393_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m2759194411_MethodInfo_var;
 extern const uint32_t IDs_GetEnumerator_m3102322120_MetadataUsageId;
 extern "C"  Il2CppObject* IDs_GetEnumerator_m3102322120 (IDs_t2956127567 * __this, const MethodInfo* method)
 {
@@ -919,7 +919,7 @@ extern "C"  Il2CppObject* IDs_GetEnumerator_m3102322120 (IDs_t2956127567 * __thi
 	{
 		Dictionary_2_t2606186806 * L_0 = __this->get_m_Dic_0();
 		NullCheck(L_0);
-		Enumerator_t2373214747  L_1 = Dictionary_2_GetEnumerator_m393316393(L_0, /*hidden argument*/Dictionary_2_GetEnumerator_m393316393_MethodInfo_var);
+		Enumerator_t2373214747  L_1 = Dictionary_2_GetEnumerator_m2759194411(L_0, /*hidden argument*/Dictionary_2_GetEnumerator_m2759194411_MethodInfo_var);
 		Enumerator_t2373214747  L_2 = L_1;
 		Il2CppObject * L_3 = Box(Enumerator_t2373214747_il2cpp_TypeInfo_var, &L_2);
 		return (Il2CppObject*)L_3;
@@ -2391,7 +2391,7 @@ IL_0020:
 // System.String UnityEngine.Purchasing.PurchasingManager::FormatUnifiedReceipt(System.String,System.String)
 extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m491246241_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3229349667_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral80218305;
 extern Il2CppCodeGenString* _stringLiteral1247202393;
 extern Il2CppCodeGenString* _stringLiteral877951342;
@@ -2419,7 +2419,7 @@ extern "C"  String_t* PurchasingManager_FormatUnifiedReceipt_m2085439046 (Purcha
 	Dictionary_2_t2474804324 * G_B3_2 = NULL;
 	{
 		Dictionary_2_t2474804324 * L_0 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m491246241(L_0, /*hidden argument*/Dictionary_2__ctor_m491246241_MethodInfo_var);
+		Dictionary_2__ctor_m3229349667(L_0, /*hidden argument*/Dictionary_2__ctor_m3229349667_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t2474804324 * L_1 = V_0;
 		String_t* L_2 = __this->get_m_StoreName_4();
@@ -2478,7 +2478,7 @@ IL_0042:
 		NullCheck(G_B4_2);
 		VirtActionInvoker2< String_t*, Il2CppObject * >::Invoke(21 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, G_B4_2, G_B4_1, G_B4_0);
 		Dictionary_2_t2474804324 * L_11 = V_0;
-		String_t* L_12 = SimpleJson_SerializeObject_m1597566878(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		String_t* L_12 = SimpleJson_SerializeObject_m290152864(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 		return L_12;
 	}
 }
@@ -3008,8 +3008,8 @@ extern "C"  void UnityPurchasing_Initialize_m1759774959 (Il2CppObject * __this /
 		Il2CppObject * L_0 = ___listener;
 		ConfigurationBuilder_t622246012 * L_1 = ___builder;
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Il2CppObject * L_2 = Debug_get_logger_m2944665700(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_3 = Application_get_persistentDataPath_m1119052517(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Il2CppObject * L_2 = Debug_get_logger_m275693158(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_3 = Application_get_persistentDataPath_m2554537447(NULL /*static, unused*/, /*hidden argument*/NULL);
 		UnityAnalytics_t1407161928 * L_4 = (UnityAnalytics_t1407161928 *)il2cpp_codegen_object_new(UnityAnalytics_t1407161928_il2cpp_TypeInfo_var);
 		UnityAnalytics__ctor_m1602732058(L_4, /*hidden argument*/NULL);
 		UnityPurchasing_Initialize_m4018393200(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);

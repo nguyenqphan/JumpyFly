@@ -441,8 +441,8 @@ struct DefaultComparer_t1598015337;
 extern "C"  Il2CppObject * Object_FindObjectOfType_TisIl2CppObject_m4174810935_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
 #define Object_FindObjectOfType_TisIl2CppObject_m4174810935(__this /* static, unused */, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m4174810935_gshared)(__this /* static, unused */, method)
 // !!0 UnityEngine.GameObject::AddComponent<System.Object>()
-extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m337943659_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
-#define GameObject_AddComponent_TisIl2CppObject_m337943659(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
+#define GameObject_AddComponent_TisIl2CppObject_m3908606994(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // System.Int32 System.Array::IndexOf<System.Object>(!!0[],!!0)
 extern "C"  int32_t Array_IndexOf_TisIl2CppObject_m2661005505_gshared (Il2CppObject * __this /* static, unused */, ObjectU5BU5D_t11523773* p0, Il2CppObject * p1, const MethodInfo* method);
 #define Array_IndexOf_TisIl2CppObject_m2661005505(__this /* static, unused */, p0, p1, method) ((  int32_t (*) (Il2CppObject * /* static, unused */, ObjectU5BU5D_t11523773*, Il2CppObject *, const MethodInfo*))Array_IndexOf_TisIl2CppObject_m2661005505_gshared)(__this /* static, unused */, p0, p1, method)
@@ -1090,7 +1090,7 @@ extern "C"  void Singleton_1__ctor_m3958676923_gshared (Singleton_1_t1089921813 
 {
 	{
 		NullCheck((MonoBehaviour_t3012272455 *)__this);
-		MonoBehaviour__ctor_m1899368843((MonoBehaviour_t3012272455 *)__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2022291967((MonoBehaviour_t3012272455 *)__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1109,7 +1109,7 @@ extern "C"  Il2CppObject * Singleton_1_get_Instance_m1020946630_gshared (Il2CppO
 	GameObject_t4012695102 * V_0 = NULL;
 	{
 		Il2CppObject * L_0 = ((Singleton_1_t1089921813_StaticFields*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->static_fields)->get__instance_2();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, (Object_t3878351788 *)L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, (Object_t3878351788 *)L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0054;
@@ -1119,7 +1119,7 @@ extern "C"  Il2CppObject * Singleton_1_get_Instance_m1020946630_gshared (Il2CppO
 		Il2CppObject * L_2 = ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(NULL /*static, unused*/, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
 		((Singleton_1_t1089921813_StaticFields*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->static_fields)->set__instance_2(L_2);
 		Il2CppObject * L_3 = ((Singleton_1_t1089921813_StaticFields*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->static_fields)->get__instance_2();
-		bool L_4 = Object_op_Equality_m2606653020(NULL /*static, unused*/, (Object_t3878351788 *)L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Equality_m3964590952(NULL /*static, unused*/, (Object_t3878351788 *)L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0054;
@@ -1131,7 +1131,7 @@ extern "C"  Il2CppObject * Singleton_1_get_Instance_m1020946630_gshared (Il2CppO
 		NullCheck((MemberInfo_t *)L_5);
 		String_t* L_6 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, (MemberInfo_t *)L_5);
 		GameObject_t4012695102 * L_7 = (GameObject_t4012695102 *)il2cpp_codegen_object_new(GameObject_t4012695102_il2cpp_TypeInfo_var);
-		GameObject__ctor_m556827858(L_7, (String_t*)L_6, /*hidden argument*/NULL);
+		GameObject__ctor_m3920833606(L_7, (String_t*)L_6, /*hidden argument*/NULL);
 		V_0 = (GameObject_t4012695102 *)L_7;
 		GameObject_t4012695102 * L_8 = V_0;
 		NullCheck((GameObject_t4012695102 *)L_8);
@@ -1150,7 +1150,7 @@ extern "C"  void Singleton_1_Awake_m4196282142_gshared (Singleton_1_t1089921813 
 {
 	{
 		Il2CppObject * L_0 = ((Singleton_1_t1089921813_StaticFields*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->static_fields)->get__instance_2();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, (Object_t3878351788 *)L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, (Object_t3878351788 *)L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_003a;
@@ -1159,7 +1159,7 @@ extern "C"  void Singleton_1_Awake_m4196282142_gshared (Singleton_1_t1089921813 
 	{
 		((Singleton_1_t1089921813_StaticFields*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->static_fields)->set__instance_2(((Il2CppObject *)Castclass(((Il2CppObject *)IsInst(__this, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1))), IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1))));
 		NullCheck((Component_t2126946602 *)__this);
-		GameObject_t4012695102 * L_2 = Component_get_gameObject_m1036663815((Component_t2126946602 *)__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_2 = Component_get_gameObject_m1170635899((Component_t2126946602 *)__this, /*hidden argument*/NULL);
 		Object_DontDestroyOnLoad_m4064482788(NULL /*static, unused*/, (Object_t3878351788 *)L_2, /*hidden argument*/NULL);
 		goto IL_0045;
 	}
@@ -1167,8 +1167,8 @@ extern "C"  void Singleton_1_Awake_m4196282142_gshared (Singleton_1_t1089921813 
 IL_003a:
 	{
 		NullCheck((Component_t2126946602 *)__this);
-		GameObject_t4012695102 * L_3 = Component_get_gameObject_m1036663815((Component_t2126946602 *)__this, /*hidden argument*/NULL);
-		Object_Destroy_m1848047012(NULL /*static, unused*/, (Object_t3878351788 *)L_3, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_3 = Component_get_gameObject_m1170635899((Component_t2126946602 *)__this, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, (Object_t3878351788 *)L_3, /*hidden argument*/NULL);
 	}
 
 IL_0045:
@@ -1177,7 +1177,7 @@ IL_0045:
 	}
 }
 // System.Void System.Action`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
-extern "C"  void Action_1__ctor_m377969142_gshared (Action_1_t359458046 * __this, Il2CppObject * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C"  void Action_1__ctor_m2036539306_gshared (Action_1_t359458046 * __this, Il2CppObject * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->set_method_ptr_0((methodPointerType)((MethodInfo*)___method.get_m_value_0())->method);
 	__this->set_method_3(___method);

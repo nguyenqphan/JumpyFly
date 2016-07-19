@@ -22,18 +22,18 @@ struct Texture2D_t2509538522;
 #include "UnityEngine_UnityEngine_Vector43525329790.h"
 
 // UnityEngine.Rect UnityEngine.Sprite::get_rect()
-extern "C"  Rect_t1525428817  Sprite_get_rect_m616976945 (Sprite_t4006040370 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  Rect_t1525428817  Sprite_get_rect_m132626493 (Sprite_t4006040370 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Sprite::INTERNAL_get_rect(UnityEngine.Rect&)
 extern "C"  void Sprite_INTERNAL_get_rect_m853825042 (Sprite_t4006040370 * __this, Rect_t1525428817 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Sprite::get_pixelsPerUnit()
-extern "C"  float Sprite_get_pixelsPerUnit_m345247705 (Sprite_t4006040370 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  float Sprite_get_pixelsPerUnit_m2438708453 (Sprite_t4006040370 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Texture2D UnityEngine.Sprite::get_texture()
-extern "C"  Texture2D_t2509538522 * Sprite_get_texture_m4005372943 (Sprite_t4006040370 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  Texture2D_t2509538522 * Sprite_get_texture_m1481489947 (Sprite_t4006040370 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rect UnityEngine.Sprite::get_textureRect()
-extern "C"  Rect_t1525428817  Sprite_get_textureRect_m3473386772 (Sprite_t4006040370 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  Rect_t1525428817  Sprite_get_textureRect_m3946160520 (Sprite_t4006040370 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Sprite::INTERNAL_get_textureRect(UnityEngine.Rect&)
 extern "C"  void Sprite_INTERNAL_get_textureRect_m1939414807 (Sprite_t4006040370 * __this, Rect_t1525428817 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector4 UnityEngine.Sprite::get_border()
-extern "C"  Vector4_t3525329790  Sprite_get_border_m1356674614 (Sprite_t4006040370 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  Vector4_t3525329790  Sprite_get_border_m1562752938 (Sprite_t4006040370 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Sprite::INTERNAL_get_border(UnityEngine.Vector4&)
 extern "C"  void Sprite_INTERNAL_get_border_m855941073 (Sprite_t4006040370 * __this, Vector4_t3525329790 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

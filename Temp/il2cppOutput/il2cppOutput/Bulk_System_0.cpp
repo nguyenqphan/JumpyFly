@@ -62,7 +62,7 @@ struct Type_t;
 // System.DefaultUriParser
 struct DefaultUriParser_t625205023;
 // System.MonoTODOAttribute
-struct MonoTODOAttribute_t1287393898;
+struct MonoTODOAttribute_t1287393897;
 // System.Net.DefaultCertificatePolicy
 struct DefaultCertificatePolicy_t3204238578;
 // System.Net.ServicePoint
@@ -3711,7 +3711,7 @@ extern "C"  void DefaultUriParser__ctor_m2197038465 (DefaultUriParser_t625205023
 	}
 }
 // System.Void System.MonoTODOAttribute::.ctor()
-extern "C"  void MonoTODOAttribute__ctor_m754636072 (MonoTODOAttribute_t1287393898 * __this, const MethodInfo* method)
+extern "C"  void MonoTODOAttribute__ctor_m754636072 (MonoTODOAttribute_t1287393897 * __this, const MethodInfo* method)
 {
 	{
 		Attribute__ctor_m2985353781(__this, /*hidden argument*/NULL);
@@ -3719,7 +3719,7 @@ extern "C"  void MonoTODOAttribute__ctor_m754636072 (MonoTODOAttribute_t12873938
 	}
 }
 // System.Void System.MonoTODOAttribute::.ctor(System.String)
-extern "C"  void MonoTODOAttribute__ctor_m3809503962 (MonoTODOAttribute_t1287393898 * __this, String_t* ___comment, const MethodInfo* method)
+extern "C"  void MonoTODOAttribute__ctor_m3809503962 (MonoTODOAttribute_t1287393897 * __this, String_t* ___comment, const MethodInfo* method)
 {
 	{
 		Attribute__ctor_m2985353781(__this, /*hidden argument*/NULL);
@@ -9207,7 +9207,7 @@ extern TypeInfo* Boolean_t211005341_il2cpp_TypeInfo_var;
 extern TypeInfo* StringComparer_t4058118931_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t1848703245_il2cpp_TypeInfo_var;
 extern const MethodInfo* Dictionary_2__ctor_m912001809_MethodInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t3053238936____U24U24fieldU2D2_0_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t3053238935____U24U24fieldU2D2_0_FieldInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2871506184;
 extern Il2CppCodeGenString* _stringLiteral3519315678;
 extern Il2CppCodeGenString* _stringLiteral3162187450;
@@ -9255,7 +9255,7 @@ extern "C"  void WebHeaderCollection__cctor_m766347104 (Il2CppObject * __this /*
 	}
 	{
 		BooleanU5BU5D_t3804927312* L_0 = ((BooleanU5BU5D_t3804927312*)SZArrayNew(BooleanU5BU5D_t3804927312_il2cpp_TypeInfo_var, (uint32_t)((int32_t)126)));
-		RuntimeHelpers_InitializeArray_m2058365049(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3053238936____U24U24fieldU2D2_0_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m2058365049(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3053238935____U24U24fieldU2D2_0_FieldInfo_var), /*hidden argument*/NULL);
 		((WebHeaderCollection_t1099177929_StaticFields*)WebHeaderCollection_t1099177929_il2cpp_TypeInfo_var->static_fields)->set_allowed_chars_16(L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(CaseInsensitiveHashCodeProvider_t4067405951_il2cpp_TypeInfo_var);
 		CaseInsensitiveHashCodeProvider_t4067405951 * L_1 = CaseInsensitiveHashCodeProvider_get_DefaultInvariant_m1403540293(NULL /*static, unused*/, /*hidden argument*/NULL);
@@ -14905,8 +14905,8 @@ extern "C"  void X509Certificate2__ctor_m3244851275 (X509Certificate2_t258328236
 // System.Void System.Security.Cryptography.X509Certificates.X509Certificate2::.cctor()
 extern TypeInfo* X509Certificate2_t2583282360_il2cpp_TypeInfo_var;
 extern TypeInfo* ByteU5BU5D_t58506160_il2cpp_TypeInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t3053238936____U24U24fieldU2D3_1_FieldInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t3053238936____U24U24fieldU2D4_2_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t3053238935____U24U24fieldU2D3_1_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t3053238935____U24U24fieldU2D4_2_FieldInfo_var;
 extern Il2CppCodeGenString* _stringLiteral1637962677;
 extern const uint32_t X509Certificate2__cctor_m1878821707_MetadataUsageId;
 extern "C"  void X509Certificate2__cctor_m1878821707 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
@@ -14934,10 +14934,10 @@ extern "C"  void X509Certificate2__cctor_m1878821707 (Il2CppObject * __this /* s
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(2), (uint8_t)3);
 		((X509Certificate2_t2583282360_StaticFields*)X509Certificate2_t2583282360_il2cpp_TypeInfo_var->static_fields)->set_commonName_15(L_3);
 		ByteU5BU5D_t58506160* L_4 = ((ByteU5BU5D_t58506160*)SZArrayNew(ByteU5BU5D_t58506160_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9)));
-		RuntimeHelpers_InitializeArray_m2058365049(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_4, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3053238936____U24U24fieldU2D3_1_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m2058365049(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_4, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3053238935____U24U24fieldU2D3_1_FieldInfo_var), /*hidden argument*/NULL);
 		((X509Certificate2_t2583282360_StaticFields*)X509Certificate2_t2583282360_il2cpp_TypeInfo_var->static_fields)->set_email_16(L_4);
 		ByteU5BU5D_t58506160* L_5 = ((ByteU5BU5D_t58506160*)SZArrayNew(ByteU5BU5D_t58506160_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9)));
-		RuntimeHelpers_InitializeArray_m2058365049(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_5, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3053238936____U24U24fieldU2D4_2_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m2058365049(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_5, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3053238935____U24U24fieldU2D4_2_FieldInfo_var), /*hidden argument*/NULL);
 		((X509Certificate2_t2583282360_StaticFields*)X509Certificate2_t2583282360_il2cpp_TypeInfo_var->static_fields)->set_signedData_17(L_5);
 		return;
 	}

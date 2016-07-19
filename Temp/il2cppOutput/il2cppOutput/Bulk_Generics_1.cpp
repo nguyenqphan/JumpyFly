@@ -14,11 +14,11 @@
 #include <assert.h>
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Vector2>
-struct DefaultComparer_t2863283522;
+struct DefaultComparer_t2863283524;
 // System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Vector3>
 struct DefaultComparer_t2863283521;
 // System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Vector4>
-struct DefaultComparer_t2863283524;
+struct DefaultComparer_t2863283523;
 // System.Collections.Generic.Comparer`1<System.DateTime>
 struct Comparer_1_t793694272;
 // System.Object
@@ -242,7 +242,7 @@ struct DefaultComparer_t2863283519;
 // System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.Vector3>
 struct DefaultComparer_t2863283520;
 // System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.Vector4>
-struct DefaultComparer_t2863283523;
+struct DefaultComparer_t2863283522;
 // System.Collections.Generic.EqualityComparer`1<System.Boolean>
 struct EqualityComparer_1_t3940363287;
 // System.Collections.Generic.EqualityComparer`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
@@ -684,7 +684,7 @@ extern "C"  void Dictionary_2_Do_CopyTo_TisKeyValuePair_2_t3312956448_TisKeyValu
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Vector2>::.ctor()
-extern "C"  void DefaultComparer__ctor_m3395546588_gshared (DefaultComparer_t2863283522 * __this, const MethodInfo* method)
+extern "C"  void DefaultComparer__ctor_m3395546588_gshared (DefaultComparer_t2863283524 * __this, const MethodInfo* method)
 {
 	{
 		NullCheck((Comparer_1_t3979990124 *)__this);
@@ -698,7 +698,7 @@ extern TypeInfo* IComparable_t1596950936_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentException_t124305799_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2403916996;
 extern const uint32_t DefaultComparer_Compare_m3019391699_MetadataUsageId;
-extern "C"  int32_t DefaultComparer_Compare_m3019391699_gshared (DefaultComparer_t2863283522 * __this, Vector2_t3525329788  ___x, Vector2_t3525329788  ___y, const MethodInfo* method)
+extern "C"  int32_t DefaultComparer_Compare_m3019391699_gshared (DefaultComparer_t2863283524 * __this, Vector2_t3525329788  ___x, Vector2_t3525329788  ___y, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -888,7 +888,7 @@ IL_0074:
 	}
 }
 // System.Void System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Vector4>::.ctor()
-extern "C"  void DefaultComparer__ctor_m4096611166_gshared (DefaultComparer_t2863283524 * __this, const MethodInfo* method)
+extern "C"  void DefaultComparer__ctor_m4096611166_gshared (DefaultComparer_t2863283523 * __this, const MethodInfo* method)
 {
 	{
 		NullCheck((Comparer_1_t3979990126 *)__this);
@@ -902,7 +902,7 @@ extern TypeInfo* IComparable_t1596950936_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentException_t124305799_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2403916996;
 extern const uint32_t DefaultComparer_Compare_m1998323345_MetadataUsageId;
-extern "C"  int32_t DefaultComparer_Compare_m1998323345_gshared (DefaultComparer_t2863283524 * __this, Vector4_t3525329790  ___x, Vector4_t3525329790  ___y, const MethodInfo* method)
+extern "C"  int32_t DefaultComparer_Compare_m1998323345_gshared (DefaultComparer_t2863283523 * __this, Vector4_t3525329790  ___x, Vector4_t3525329790  ___y, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3335,8 +3335,8 @@ extern "C"  void Comparer_1__cctor_m3046492816_gshared (Il2CppObject * __this /*
 
 IL_0054:
 	{
-		DefaultComparer_t2863283522 * L_8 = (DefaultComparer_t2863283522 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
-		((  void (*) (DefaultComparer_t2863283522 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		DefaultComparer_t2863283524 * L_8 = (DefaultComparer_t2863283524 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		((  void (*) (DefaultComparer_t2863283524 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
 		((Comparer_1_t3979990124_StaticFields*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->static_fields)->set__default_0(L_8);
 	}
 
@@ -3641,8 +3641,8 @@ extern "C"  void Comparer_1__cctor_m3304658254_gshared (Il2CppObject * __this /*
 
 IL_0054:
 	{
-		DefaultComparer_t2863283524 * L_8 = (DefaultComparer_t2863283524 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
-		((  void (*) (DefaultComparer_t2863283524 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		DefaultComparer_t2863283523 * L_8 = (DefaultComparer_t2863283523 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		((  void (*) (DefaultComparer_t2863283523 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
 		((Comparer_1_t3979990126_StaticFields*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->static_fields)->set__default_0(L_8);
 	}
 
@@ -22516,7 +22516,7 @@ IL_0015:
 	}
 }
 // System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.Vector4>::.ctor()
-extern "C"  void DefaultComparer__ctor_m3341899896_gshared (DefaultComparer_t2863283523 * __this, const MethodInfo* method)
+extern "C"  void DefaultComparer__ctor_m3341899896_gshared (DefaultComparer_t2863283522 * __this, const MethodInfo* method)
 {
 	{
 		NullCheck((EqualityComparer_1_t2959720440 *)__this);
@@ -22526,7 +22526,7 @@ extern "C"  void DefaultComparer__ctor_m3341899896_gshared (DefaultComparer_t286
 	}
 }
 // System.Int32 System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.Vector4>::GetHashCode(T)
-extern "C"  int32_t DefaultComparer_GetHashCode_m260381747_gshared (DefaultComparer_t2863283523 * __this, Vector4_t3525329790  ___obj, const MethodInfo* method)
+extern "C"  int32_t DefaultComparer_GetHashCode_m260381747_gshared (DefaultComparer_t2863283522 * __this, Vector4_t3525329790  ___obj, const MethodInfo* method)
 {
 	{
 		goto IL_000d;
@@ -22542,7 +22542,7 @@ IL_000d:
 	}
 }
 // System.Boolean System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.Vector4>::Equals(T,T)
-extern "C"  bool DefaultComparer_Equals_m3592339785_gshared (DefaultComparer_t2863283523 * __this, Vector4_t3525329790  ___x, Vector4_t3525329790  ___y, const MethodInfo* method)
+extern "C"  bool DefaultComparer_Equals_m3592339785_gshared (DefaultComparer_t2863283522 * __this, Vector4_t3525329790  ___x, Vector4_t3525329790  ___y, const MethodInfo* method)
 {
 	{
 		goto IL_0015;

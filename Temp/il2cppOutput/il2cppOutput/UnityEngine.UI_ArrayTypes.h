@@ -9,6 +9,8 @@
 #endif
 
 
+// UnityEngine.UI.Dropdown/OptionData
+struct OptionData_t3366553055;
 // UnityEngine.EventSystems.BaseInputModule
 struct BaseInputModule_t3800378272;
 // UnityEngine.EventSystems.IEventSystemHandler
@@ -23,8 +25,6 @@ struct PointerEventData_t3205101634;
 struct ButtonState_t4192339039;
 // UnityEngine.UI.ICanvasElement
 struct ICanvasElement_t4007944900;
-// UnityEngine.UI.Dropdown/OptionData
-struct OptionData_t3366553055;
 // UnityEngine.UI.Dropdown/DropdownItem
 struct DropdownItem_t2010846948;
 // UnityEngine.UI.Text
@@ -73,13 +73,13 @@ struct IMoveHandler_t1954867883;
 struct UIBehaviour_t644839684;
 
 #include "mscorlib_System_Array2840145358.h"
+#include "UnityEngine_UI_UnityEngine_UI_Dropdown_OptionData3366553055.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_BaseInputM3800378272.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResu959898689.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_BaseRaycas3819875680.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_EventTrigger67115090.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_PointerEve3205101634.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_PointerInp4192339039.h"
-#include "UnityEngine_UI_UnityEngine_UI_Dropdown_OptionData3366553055.h"
 #include "UnityEngine_UI_UnityEngine_UI_Dropdown_DropdownIte2010846948.h"
 #include "UnityEngine_UI_UnityEngine_UI_Text3286458198.h"
 #include "UnityEngine_UI_UnityEngine_UI_Graphic933884113.h"
@@ -95,6 +95,21 @@ struct UIBehaviour_t644839684;
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour644839684.h"
 
 #pragma once
+// UnityEngine.UI.Dropdown/OptionData[]
+struct OptionDataU5BU5D_t260219846  : public Il2CppArray
+{
+public:
+	ALIGN_TYPE (8) OptionData_t3366553055 * m_Items[1];
+
+public:
+	inline OptionData_t3366553055 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline OptionData_t3366553055 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, OptionData_t3366553055 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
 // UnityEngine.EventSystems.BaseInputModule[]
 struct BaseInputModuleU5BU5D_t667390433  : public Il2CppArray
 {
@@ -209,21 +224,6 @@ public:
 	inline Il2CppObject * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
 	inline Il2CppObject ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
 	inline void SetAt(il2cpp_array_size_t index, Il2CppObject * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// UnityEngine.UI.Dropdown/OptionData[]
-struct OptionDataU5BU5D_t260219846  : public Il2CppArray
-{
-public:
-	ALIGN_TYPE (8) OptionData_t3366553055 * m_Items[1];
-
-public:
-	inline OptionData_t3366553055 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline OptionData_t3366553055 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, OptionData_t3366553055 * value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);

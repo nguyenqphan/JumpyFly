@@ -14,7 +14,7 @@
 #include <assert.h>
 
 // <PrivateImplementationDetails>
-struct U3CPrivateImplementationDetailsU3E_t3053238937;
+struct U3CPrivateImplementationDetailsU3E_t3053238939;
 // UnityEngine.EventSystems.AbstractEventData
 struct AbstractEventData_t419992509;
 // UnityEngine.EventSystems.AxisEventData
@@ -853,10 +853,10 @@ struct ILayoutElement_t109776050;
 #include "UnityEngine_UnityEngine_Rendering_ColorWriteMask819857343.h"
 
 // !!0 UnityEngine.Component::GetComponent<System.Object>()
-extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m1198801502_gshared (Component_t2126946602 * __this, const MethodInfo* method);
-#define Component_GetComponent_TisIl2CppObject_m1198801502(__this, method) ((  Il2CppObject * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m1198801502_gshared)(__this, method)
+extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m267839954_gshared (Component_t2126946602 * __this, const MethodInfo* method);
+#define Component_GetComponent_TisIl2CppObject_m267839954(__this, method) ((  Il2CppObject * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.EventSystems.EventSystem>()
-#define Component_GetComponent_TisEventSystem_t409518532_m4052960422(__this, method) ((  EventSystem_t409518532 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m1198801502_gshared)(__this, method)
+#define Component_GetComponent_TisEventSystem_t409518532_m4052960422(__this, method) ((  EventSystem_t409518532 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
 // System.Boolean UnityEngine.EventSystems.ExecuteEvents::Execute<System.Object>(UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<!!0>)
 extern "C"  bool ExecuteEvents_Execute_TisIl2CppObject_m1533897725_gshared (Il2CppObject * __this /* static, unused */, GameObject_t4012695102 * p0, BaseEventData_t3547103726 * p1, EventFunction_1_t3885370180 * p2, const MethodInfo* method);
 #define ExecuteEvents_Execute_TisIl2CppObject_m1533897725(__this /* static, unused */, p0, p1, p2, method) ((  bool (*) (Il2CppObject * /* static, unused */, GameObject_t4012695102 *, BaseEventData_t3547103726 *, EventFunction_1_t3885370180 *, const MethodInfo*))ExecuteEvents_Execute_TisIl2CppObject_m1533897725_gshared)(__this /* static, unused */, p0, p1, p2, method)
@@ -881,12 +881,12 @@ extern "C"  Il2CppObject * ExecuteEvents_ValidateEventData_TisIl2CppObject_m1498
 // !!0 UnityEngine.EventSystems.ExecuteEvents::ValidateEventData<UnityEngine.EventSystems.AxisEventData>(UnityEngine.EventSystems.BaseEventData)
 #define ExecuteEvents_ValidateEventData_TisAxisEventData_t552897310_m3402980230(__this /* static, unused */, p0, method) ((  AxisEventData_t552897310 * (*) (Il2CppObject * /* static, unused */, BaseEventData_t3547103726 *, const MethodInfo*))ExecuteEvents_ValidateEventData_TisIl2CppObject_m1498065176_gshared)(__this /* static, unused */, p0, method)
 // !!0 UnityEngine.GameObject::GetComponent<System.Object>()
-extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
-#define GameObject_GetComponent_TisIl2CppObject_m2447772384(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared)(__this, method)
+extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
+#define GameObject_GetComponent_TisIl2CppObject_m1723468423(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.SpriteRenderer>()
-#define GameObject_GetComponent_TisSpriteRenderer_t2223784725_m3588502113(__this, method) ((  SpriteRenderer_t2223784725 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared)(__this, method)
+#define GameObject_GetComponent_TisSpriteRenderer_t2223784725_m3588502113(__this, method) ((  SpriteRenderer_t2223784725 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Camera>()
-#define Component_GetComponent_TisCamera_t3533968274_m3804104198(__this, method) ((  Camera_t3533968274 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m1198801502_gshared)(__this, method)
+#define Component_GetComponent_TisCamera_t3533968274_m3804104198(__this, method) ((  Camera_t3533968274 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
 // System.Void System.Array::Sort<UnityEngine.RaycastHit>(!!0[],System.Comparison`1<!!0>)
 extern "C"  void Array_Sort_TisRaycastHit_t46221527_m3458836826_gshared (Il2CppObject * __this /* static, unused */, RaycastHitU5BU5D_t1365728750* p0, Comparison_1_t2749896403 * p1, const MethodInfo* method);
 #define Array_Sort_TisRaycastHit_t46221527_m3458836826(__this /* static, unused */, p0, p1, method) ((  void (*) (Il2CppObject * /* static, unused */, RaycastHitU5BU5D_t1365728750*, Comparison_1_t2749896403 *, const MethodInfo*))Array_Sort_TisRaycastHit_t46221527_m3458836826_gshared)(__this /* static, unused */, p0, p1, method)
@@ -939,52 +939,52 @@ extern "C"  bool SetPropertyUtility_SetStruct_TisAspectMode_t2721296955_m8008546
 extern "C"  bool SetPropertyUtility_SetStruct_TisSingle_t958209021_m1643007650_gshared (Il2CppObject * __this /* static, unused */, float* p0, float p1, const MethodInfo* method);
 #define SetPropertyUtility_SetStruct_TisSingle_t958209021_m1643007650(__this /* static, unused */, p0, p1, method) ((  bool (*) (Il2CppObject * /* static, unused */, float*, float, const MethodInfo*))SetPropertyUtility_SetStruct_TisSingle_t958209021_m1643007650_gshared)(__this /* static, unused */, p0, p1, method)
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.RectTransform>()
-#define Component_GetComponent_TisRectTransform_t3317474837_m1940403147(__this, method) ((  RectTransform_t3317474837 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m1198801502_gshared)(__this, method)
+#define Component_GetComponent_TisRectTransform_t3317474837_m1940403147(__this, method) ((  RectTransform_t3317474837 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.UI.Graphic>()
-#define Component_GetComponent_TisGraphic_t933884113_m908906813(__this, method) ((  Graphic_t933884113 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m1198801502_gshared)(__this, method)
+#define Component_GetComponent_TisGraphic_t933884113_m908906813(__this, method) ((  Graphic_t933884113 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Canvas>()
-#define Component_GetComponent_TisCanvas_t3534013893_m868172531(__this, method) ((  Canvas_t3534013893 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m1198801502_gshared)(__this, method)
+#define Component_GetComponent_TisCanvas_t3534013893_m868172531(__this, method) ((  Canvas_t3534013893 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
 // System.Boolean UnityEngine.UI.SetPropertyUtility::SetStruct<UnityEngine.UI.ContentSizeFitter/FitMode>(!!0&,!!0)
 extern "C"  bool SetPropertyUtility_SetStruct_TisFitMode_t816341300_m3401974325_gshared (Il2CppObject * __this /* static, unused */, int32_t* p0, int32_t p1, const MethodInfo* method);
 #define SetPropertyUtility_SetStruct_TisFitMode_t816341300_m3401974325(__this /* static, unused */, p0, p1, method) ((  bool (*) (Il2CppObject * /* static, unused */, int32_t*, int32_t, const MethodInfo*))SetPropertyUtility_SetStruct_TisFitMode_t816341300_m3401974325_gshared)(__this /* static, unused */, p0, p1, method)
 // !!0 UnityEngine.GameObject::AddComponent<System.Object>()
-extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m337943659_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
-#define GameObject_AddComponent_TisIl2CppObject_m337943659(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
+#define GameObject_AddComponent_TisIl2CppObject_m3908606994(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.RectTransform>()
-#define GameObject_AddComponent_TisRectTransform_t3317474837_m3846759000(__this, method) ((  RectTransform_t3317474837 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisRectTransform_t3317474837_m3846759000(__this, method) ((  RectTransform_t3317474837 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.RectTransform>()
-#define GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(__this, method) ((  RectTransform_t3317474837 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared)(__this, method)
+#define GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(__this, method) ((  RectTransform_t3317474837 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.Image>()
-#define GameObject_AddComponent_TisImage_t3354615620_m3664949437(__this, method) ((  Image_t3354615620 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisImage_t3354615620_m3664949437(__this, method) ((  Image_t3354615620 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.Button>()
-#define GameObject_AddComponent_TisButton_t990034267_m2834709044(__this, method) ((  Button_t990034267 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisButton_t990034267_m2834709044(__this, method) ((  Button_t990034267 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.Text>()
-#define GameObject_AddComponent_TisText_t3286458198_m3161596953(__this, method) ((  Text_t3286458198 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisText_t3286458198_m3161596953(__this, method) ((  Text_t3286458198 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.RawImage>()
-#define GameObject_AddComponent_TisRawImage_t3831555132_m1228665331(__this, method) ((  RawImage_t3831555132 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisRawImage_t3831555132_m1228665331(__this, method) ((  RawImage_t3831555132 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.Slider>()
-#define GameObject_AddComponent_TisSlider_t1468074762_m2027542053(__this, method) ((  Slider_t1468074762 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisSlider_t1468074762_m2027542053(__this, method) ((  Slider_t1468074762 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.Scrollbar>()
-#define GameObject_AddComponent_TisScrollbar_t1410649103_m567367570(__this, method) ((  Scrollbar_t1410649103 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisScrollbar_t1410649103_m567367570(__this, method) ((  Scrollbar_t1410649103 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.Toggle>()
-#define GameObject_AddComponent_TisToggle_t1499417981_m3765476050(__this, method) ((  Toggle_t1499417981 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisToggle_t1499417981_m3765476050(__this, method) ((  Toggle_t1499417981 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.InputField>()
-#define GameObject_AddComponent_TisInputField_t2345609593_m1532989910(__this, method) ((  InputField_t2345609593 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisInputField_t2345609593_m1532989910(__this, method) ((  InputField_t2345609593 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Scrollbar>()
-#define GameObject_GetComponent_TisScrollbar_t1410649103_m179289597(__this, method) ((  Scrollbar_t1410649103 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared)(__this, method)
+#define GameObject_GetComponent_TisScrollbar_t1410649103_m179289597(__this, method) ((  Scrollbar_t1410649103 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.ScrollRect>()
-#define GameObject_AddComponent_TisScrollRect_t1048578170_m3490629429(__this, method) ((  ScrollRect_t1048578170 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisScrollRect_t1048578170_m3490629429(__this, method) ((  ScrollRect_t1048578170 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.Mask>()
-#define GameObject_AddComponent_TisMask_t3286245653_m1124636154(__this, method) ((  Mask_t3286245653 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisMask_t3286245653_m1124636154(__this, method) ((  Mask_t3286245653 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.Dropdown>()
-#define GameObject_AddComponent_TisDropdown_t2916437562_m3413532469(__this, method) ((  Dropdown_t2916437562 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisDropdown_t2916437562_m3413532469(__this, method) ((  Dropdown_t2916437562 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponentInChildren<System.Object>()
 extern "C"  Il2CppObject * Component_GetComponentInChildren_TisIl2CppObject_m900797242_gshared (Component_t2126946602 * __this, const MethodInfo* method);
 #define Component_GetComponentInChildren_TisIl2CppObject_m900797242(__this, method) ((  Il2CppObject * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponentInChildren_TisIl2CppObject_m900797242_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponentInChildren<UnityEngine.UI.Toggle>()
 #define Component_GetComponentInChildren_TisToggle_t1499417981_m612160161(__this, method) ((  Toggle_t1499417981 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponentInChildren_TisIl2CppObject_m900797242_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.Dropdown/DropdownItem>()
-#define GameObject_AddComponent_TisDropdownItem_t2010846948_m1733990038(__this, method) ((  DropdownItem_t2010846948 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisDropdownItem_t2010846948_m1733990038(__this, method) ((  DropdownItem_t2010846948 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.UI.Dropdown::GetOrAddComponent<System.Object>(UnityEngine.GameObject)
 extern "C"  Il2CppObject * Dropdown_GetOrAddComponent_TisIl2CppObject_m4155558758_gshared (Il2CppObject * __this /* static, unused */, GameObject_t4012695102 * p0, const MethodInfo* method);
 #define Dropdown_GetOrAddComponent_TisIl2CppObject_m4155558758(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, GameObject_t4012695102 *, const MethodInfo*))Dropdown_GetOrAddComponent_TisIl2CppObject_m4155558758_gshared)(__this /* static, unused */, p0, method)
@@ -1005,27 +1005,27 @@ extern "C"  Il2CppObject * GameObject_GetComponentInChildren_TisIl2CppObject_m78
 // !!0 UnityEngine.GameObject::GetComponentInChildren<UnityEngine.UI.Dropdown/DropdownItem>()
 #define GameObject_GetComponentInChildren_TisDropdownItem_t2010846948_m678737573(__this, method) ((  DropdownItem_t2010846948 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponentInChildren_TisIl2CppObject_m782999868_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.Canvas>()
-#define GameObject_AddComponent_TisCanvas_t3534013893_m2137401606(__this, method) ((  Canvas_t3534013893 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisCanvas_t3534013893_m2137401606(__this, method) ((  Canvas_t3534013893 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Canvas>()
-#define GameObject_GetComponent_TisCanvas_t3534013893_m4009786289(__this, method) ((  Canvas_t3534013893 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared)(__this, method)
+#define GameObject_GetComponent_TisCanvas_t3534013893_m1724722282(__this, method) ((  Canvas_t3534013893 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.GraphicRaycaster>()
-#define GameObject_AddComponent_TisGraphicRaycaster_t2033008887_m3633242200(__this, method) ((  GraphicRaycaster_t2033008887 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisGraphicRaycaster_t2033008887_m3633242200(__this, method) ((  GraphicRaycaster_t2033008887 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.Object::Instantiate<System.Object>(!!0)
-extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m3133387403_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method);
-#define Object_Instantiate_TisIl2CppObject_m3133387403(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3133387403_gshared)(__this /* static, unused */, p0, method)
+extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m2886823922_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method);
+#define Object_Instantiate_TisIl2CppObject_m2886823922(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m2886823922_gshared)(__this /* static, unused */, p0, method)
 // !!0 UnityEngine.Object::Instantiate<UnityEngine.GameObject>(!!0)
-#define Object_Instantiate_TisGameObject_t4012695102_m3917608929(__this /* static, unused */, p0, method) ((  GameObject_t4012695102 * (*) (Il2CppObject * /* static, unused */, GameObject_t4012695102 *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3133387403_gshared)(__this /* static, unused */, p0, method)
+#define Object_Instantiate_TisGameObject_t4012695102_m3917608929(__this /* static, unused */, p0, method) ((  GameObject_t4012695102 * (*) (Il2CppObject * /* static, unused */, GameObject_t4012695102 *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m2886823922_gshared)(__this /* static, unused */, p0, method)
 // !!0 UnityEngine.Object::Instantiate<UnityEngine.UI.Dropdown/DropdownItem>(!!0)
-#define Object_Instantiate_TisDropdownItem_t2010846948_m3370007064(__this /* static, unused */, p0, method) ((  DropdownItem_t2010846948 * (*) (Il2CppObject * /* static, unused */, DropdownItem_t2010846948 *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3133387403_gshared)(__this /* static, unused */, p0, method)
+#define Object_Instantiate_TisDropdownItem_t2010846948_m3370007064(__this /* static, unused */, p0, method) ((  DropdownItem_t2010846948 * (*) (Il2CppObject * /* static, unused */, DropdownItem_t2010846948 *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m2886823922_gshared)(__this /* static, unused */, p0, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.CanvasGroup>()
-#define GameObject_GetComponent_TisCanvasGroup_t1295922228_m4071469134(__this, method) ((  CanvasGroup_t1295922228 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared)(__this, method)
+#define GameObject_GetComponent_TisCanvasGroup_t1295922228_m4071469134(__this, method) ((  CanvasGroup_t1295922228 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponentInParent<System.Object>()
 extern "C"  Il2CppObject * Component_GetComponentInParent_TisIl2CppObject_m1297875695_gshared (Component_t2126946602 * __this, const MethodInfo* method);
 #define Component_GetComponentInParent_TisIl2CppObject_m1297875695(__this, method) ((  Il2CppObject * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponentInParent_TisIl2CppObject_m1297875695_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponentInParent<UnityEngine.UI.Dropdown>()
 #define Component_GetComponentInParent_TisDropdown_t2916437562_m286421177(__this, method) ((  Dropdown_t2916437562 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponentInParent_TisIl2CppObject_m1297875695_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.CanvasRenderer>()
-#define Component_GetComponent_TisCanvasRenderer_t3626201768_m1866062640(__this, method) ((  CanvasRenderer_t3626201768 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m1198801502_gshared)(__this, method)
+#define Component_GetComponent_TisCanvasRenderer_t3626201768_m1866062640(__this, method) ((  CanvasRenderer_t3626201768 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m267839954_gshared)(__this, method)
 // System.Void UnityEngine.Component::GetComponents<UnityEngine.Component>(System.Collections.Generic.List`1<!!0>)
 #define Component_GetComponents_TisComponent_t2126946602_m407995928(__this, p0, method) ((  void (*) (Component_t2126946602 *, List_1_t2923905571 *, const MethodInfo*))Component_GetComponents_TisIl2CppObject_m4263137760_gshared)(__this, p0, method)
 // System.Void UnityEngine.UI.LayoutGroup::SetProperty<UnityEngine.UI.GridLayoutGroup/Corner>(!!0&,!!0)
@@ -1095,9 +1095,9 @@ extern "C"  bool SetPropertyUtility_SetStruct_TisCharacterValidation_t4120610914
 extern "C"  bool SetPropertyUtility_SetStruct_TisChar_t2778706699_m1002094612_gshared (Il2CppObject * __this /* static, unused */, uint16_t* p0, uint16_t p1, const MethodInfo* method);
 #define SetPropertyUtility_SetStruct_TisChar_t2778706699_m1002094612(__this /* static, unused */, p0, p1, method) ((  bool (*) (Il2CppObject * /* static, unused */, uint16_t*, uint16_t, const MethodInfo*))SetPropertyUtility_SetStruct_TisChar_t2778706699_m1002094612_gshared)(__this /* static, unused */, p0, p1, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.CanvasRenderer>()
-#define GameObject_AddComponent_TisCanvasRenderer_t3626201768_m833551939(__this, method) ((  CanvasRenderer_t3626201768 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisCanvasRenderer_t3626201768_m833551939(__this, method) ((  CanvasRenderer_t3626201768 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.LayoutElement>()
-#define GameObject_AddComponent_TisLayoutElement_t2655817307_m1822846278(__this, method) ((  LayoutElement_t2655817307 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisLayoutElement_t2655817307_m1822846278(__this, method) ((  LayoutElement_t2655817307 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // System.Void UnityEngine.UI.LayoutGroup::SetProperty<System.Object>(!!0&,!!0)
 extern "C"  void LayoutGroup_SetProperty_TisIl2CppObject_m2605202953_gshared (LayoutGroup_t2646131550 * __this, Il2CppObject ** p0, Il2CppObject * p1, const MethodInfo* method);
 #define LayoutGroup_SetProperty_TisIl2CppObject_m2605202953(__this, p0, p1, method) ((  void (*) (LayoutGroup_t2646131550 *, Il2CppObject **, Il2CppObject *, const MethodInfo*))LayoutGroup_SetProperty_TisIl2CppObject_m2605202953_gshared)(__this, p0, p1, method)
@@ -1112,7 +1112,7 @@ extern "C"  void LayoutGroup_SetProperty_TisTextAnchor_t551935663_m3585160266_gs
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void <PrivateImplementationDetails>::.ctor()
-extern "C"  void U3CPrivateImplementationDetailsU3E__ctor_m2615655811 (U3CPrivateImplementationDetailsU3E_t3053238937 * __this, const MethodInfo* method)
+extern "C"  void U3CPrivateImplementationDetailsU3E__ctor_m2615655811 (U3CPrivateImplementationDetailsU3E_t3053238939 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
@@ -1179,7 +1179,7 @@ extern "C"  void AxisEventData__ctor_m3411840806 (AxisEventData_t552897310 * __t
 	{
 		EventSystem_t409518532 * L_0 = ___eventSystem;
 		BaseEventData__ctor_m3246352982(__this, L_0, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_1 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_1 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		AxisEventData_set_moveVector_m286185191(__this, L_1, /*hidden argument*/NULL);
 		AxisEventData_set_moveDir_m2213568926(__this, 4, /*hidden argument*/NULL);
 		return;
@@ -1349,7 +1349,7 @@ IL_0007:
 		RaycastResult_t959898689  L_2 = VirtFuncInvoker1< RaycastResult_t959898689 , int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::get_Item(System.Int32) */, L_0, L_1);
 		V_1 = L_2;
 		GameObject_t4012695102 * L_3 = RaycastResult_get_gameObject_m1138099278((&V_1), /*hidden argument*/NULL);
-		bool L_4 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0026;
@@ -1417,8 +1417,8 @@ extern "C"  int32_t BaseInputModule_DetermineMoveDirection_m1501057824 (Il2CppOb
 	{
 		float L_0 = ___x;
 		float L_1 = ___y;
-		Vector2__ctor_m3369031450((&V_0), L_0, L_1, /*hidden argument*/NULL);
-		float L_2 = Vector2_get_sqrMagnitude_m3197579399((&V_0), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030((&V_0), L_0, L_1, /*hidden argument*/NULL);
+		float L_2 = Vector2_get_sqrMagnitude_m996072851((&V_0), /*hidden argument*/NULL);
 		float L_3 = ___deadZone;
 		float L_4 = ___deadZone;
 		if ((!(((float)L_2) < ((float)((float)((float)L_3*(float)L_4))))))
@@ -1482,7 +1482,7 @@ extern "C"  GameObject_t4012695102 * BaseInputModule_FindCommonRoot_m1904275501 
 	Transform_t284553113 * V_1 = NULL;
 	{
 		GameObject_t4012695102 * L_0 = ___g1;
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_0018;
@@ -1490,7 +1490,7 @@ extern "C"  GameObject_t4012695102 * BaseInputModule_FindCommonRoot_m1904275501 
 	}
 	{
 		GameObject_t4012695102 * L_2 = ___g2;
-		bool L_3 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_001a;
@@ -1506,7 +1506,7 @@ IL_001a:
 	{
 		GameObject_t4012695102 * L_4 = ___g1;
 		NullCheck(L_4);
-		Transform_t284553113 * L_5 = GameObject_get_transform_m1412865811(L_4, /*hidden argument*/NULL);
+		Transform_t284553113 * L_5 = GameObject_get_transform_m1278640159(L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
 		goto IL_005f;
 	}
@@ -1515,7 +1515,7 @@ IL_0026:
 	{
 		GameObject_t4012695102 * L_6 = ___g2;
 		NullCheck(L_6);
-		Transform_t284553113 * L_7 = GameObject_get_transform_m1412865811(L_6, /*hidden argument*/NULL);
+		Transform_t284553113 * L_7 = GameObject_get_transform_m1278640159(L_6, /*hidden argument*/NULL);
 		V_1 = L_7;
 		goto IL_004c;
 	}
@@ -1524,7 +1524,7 @@ IL_0032:
 	{
 		Transform_t284553113 * L_8 = V_0;
 		Transform_t284553113 * L_9 = V_1;
-		bool L_10 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
+		bool L_10 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
 		if (!L_10)
 		{
 			goto IL_0045;
@@ -1533,7 +1533,7 @@ IL_0032:
 	{
 		Transform_t284553113 * L_11 = V_0;
 		NullCheck(L_11);
-		GameObject_t4012695102 * L_12 = Component_get_gameObject_m1036663815(L_11, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_12 = Component_get_gameObject_m1170635899(L_11, /*hidden argument*/NULL);
 		return L_12;
 	}
 
@@ -1541,14 +1541,14 @@ IL_0045:
 	{
 		Transform_t284553113 * L_13 = V_1;
 		NullCheck(L_13);
-		Transform_t284553113 * L_14 = Transform_get_parent_m1031913888(L_13, /*hidden argument*/NULL);
+		Transform_t284553113 * L_14 = Transform_get_parent_m2236876972(L_13, /*hidden argument*/NULL);
 		V_1 = L_14;
 	}
 
 IL_004c:
 	{
 		Transform_t284553113 * L_15 = V_1;
-		bool L_16 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_15, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_16 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_15, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_16)
 		{
 			goto IL_0032;
@@ -1557,14 +1557,14 @@ IL_004c:
 	{
 		Transform_t284553113 * L_17 = V_0;
 		NullCheck(L_17);
-		Transform_t284553113 * L_18 = Transform_get_parent_m1031913888(L_17, /*hidden argument*/NULL);
+		Transform_t284553113 * L_18 = Transform_get_parent_m2236876972(L_17, /*hidden argument*/NULL);
 		V_0 = L_18;
 	}
 
 IL_005f:
 	{
 		Transform_t284553113 * L_19 = V_0;
-		bool L_20 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_19, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_20 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_19, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_20)
 		{
 			goto IL_0026;
@@ -1593,7 +1593,7 @@ extern "C"  void BaseInputModule_HandlePointerExitAndEnter_m779127058 (BaseInput
 	Transform_t284553113 * V_3 = NULL;
 	{
 		GameObject_t4012695102 * L_0 = ___newEnterTarget;
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_001d;
@@ -1603,7 +1603,7 @@ extern "C"  void BaseInputModule_HandlePointerExitAndEnter_m779127058 (BaseInput
 		PointerEventData_t3205101634 * L_2 = ___currentPointerData;
 		NullCheck(L_2);
 		GameObject_t4012695102 * L_3 = PointerEventData_get_pointerEnter_m1754340511(L_2, /*hidden argument*/NULL);
-		bool L_4 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0070;
@@ -1652,7 +1652,7 @@ IL_0040:
 		NullCheck(L_17);
 		VirtActionInvoker0::Invoke(23 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Clear() */, L_17);
 		GameObject_t4012695102 * L_18 = ___newEnterTarget;
-		bool L_19 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_18, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_19 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_18, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_19)
 		{
 			goto IL_0070;
@@ -1672,7 +1672,7 @@ IL_0070:
 		NullCheck(L_22);
 		GameObject_t4012695102 * L_23 = PointerEventData_get_pointerEnter_m1754340511(L_22, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_24 = ___newEnterTarget;
-		bool L_25 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_23, L_24, /*hidden argument*/NULL);
+		bool L_25 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_23, L_24, /*hidden argument*/NULL);
 		if (!L_25)
 		{
 			goto IL_008d;
@@ -1680,7 +1680,7 @@ IL_0070:
 	}
 	{
 		GameObject_t4012695102 * L_26 = ___newEnterTarget;
-		bool L_27 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
+		bool L_27 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
 		if (!L_27)
 		{
 			goto IL_008d;
@@ -1701,7 +1701,7 @@ IL_008d:
 		PointerEventData_t3205101634 * L_32 = ___currentPointerData;
 		NullCheck(L_32);
 		GameObject_t4012695102 * L_33 = PointerEventData_get_pointerEnter_m1754340511(L_32, /*hidden argument*/NULL);
-		bool L_34 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_33, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_34 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_33, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_34)
 		{
 			goto IL_0115;
@@ -1712,7 +1712,7 @@ IL_008d:
 		NullCheck(L_35);
 		GameObject_t4012695102 * L_36 = PointerEventData_get_pointerEnter_m1754340511(L_35, /*hidden argument*/NULL);
 		NullCheck(L_36);
-		Transform_t284553113 * L_37 = GameObject_get_transform_m1412865811(L_36, /*hidden argument*/NULL);
+		Transform_t284553113 * L_37 = GameObject_get_transform_m1278640159(L_36, /*hidden argument*/NULL);
 		V_2 = L_37;
 		goto IL_0109;
 	}
@@ -1720,7 +1720,7 @@ IL_008d:
 IL_00bc:
 	{
 		GameObject_t4012695102 * L_38 = V_1;
-		bool L_39 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_38, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_39 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_38, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_39)
 		{
 			goto IL_00de;
@@ -1729,9 +1729,9 @@ IL_00bc:
 	{
 		GameObject_t4012695102 * L_40 = V_1;
 		NullCheck(L_40);
-		Transform_t284553113 * L_41 = GameObject_get_transform_m1412865811(L_40, /*hidden argument*/NULL);
+		Transform_t284553113 * L_41 = GameObject_get_transform_m1278640159(L_40, /*hidden argument*/NULL);
 		Transform_t284553113 * L_42 = V_2;
-		bool L_43 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_41, L_42, /*hidden argument*/NULL);
+		bool L_43 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_41, L_42, /*hidden argument*/NULL);
 		if (!L_43)
 		{
 			goto IL_00de;
@@ -1745,7 +1745,7 @@ IL_00de:
 	{
 		Transform_t284553113 * L_44 = V_2;
 		NullCheck(L_44);
-		GameObject_t4012695102 * L_45 = Component_get_gameObject_m1036663815(L_44, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_45 = Component_get_gameObject_m1170635899(L_44, /*hidden argument*/NULL);
 		PointerEventData_t3205101634 * L_46 = ___currentPointerData;
 		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t4196265289_il2cpp_TypeInfo_var);
 		EventFunction_1_t2213608131 * L_47 = ExecuteEvents_get_pointerExitHandler_m509229616(NULL /*static, unused*/, /*hidden argument*/NULL);
@@ -1755,19 +1755,19 @@ IL_00de:
 		List_1_t514686775 * L_49 = L_48->get_hovered_3();
 		Transform_t284553113 * L_50 = V_2;
 		NullCheck(L_50);
-		GameObject_t4012695102 * L_51 = Component_get_gameObject_m1036663815(L_50, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_51 = Component_get_gameObject_m1170635899(L_50, /*hidden argument*/NULL);
 		NullCheck(L_49);
 		VirtFuncInvoker1< bool, GameObject_t4012695102 * >::Invoke(26 /* System.Boolean System.Collections.Generic.List`1<UnityEngine.GameObject>::Remove(!0) */, L_49, L_51);
 		Transform_t284553113 * L_52 = V_2;
 		NullCheck(L_52);
-		Transform_t284553113 * L_53 = Transform_get_parent_m1031913888(L_52, /*hidden argument*/NULL);
+		Transform_t284553113 * L_53 = Transform_get_parent_m2236876972(L_52, /*hidden argument*/NULL);
 		V_2 = L_53;
 	}
 
 IL_0109:
 	{
 		Transform_t284553113 * L_54 = V_2;
-		bool L_55 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_54, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_55 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_54, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_55)
 		{
 			goto IL_00bc;
@@ -1781,7 +1781,7 @@ IL_0115:
 		NullCheck(L_56);
 		PointerEventData_set_pointerEnter_m3909544698(L_56, L_57, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_58 = ___newEnterTarget;
-		bool L_59 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_58, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_59 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_58, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_59)
 		{
 			goto IL_017b;
@@ -1790,7 +1790,7 @@ IL_0115:
 	{
 		GameObject_t4012695102 * L_60 = ___newEnterTarget;
 		NullCheck(L_60);
-		Transform_t284553113 * L_61 = GameObject_get_transform_m1412865811(L_60, /*hidden argument*/NULL);
+		Transform_t284553113 * L_61 = GameObject_get_transform_m1278640159(L_60, /*hidden argument*/NULL);
 		V_3 = L_61;
 		goto IL_015e;
 	}
@@ -1799,7 +1799,7 @@ IL_0134:
 	{
 		Transform_t284553113 * L_62 = V_3;
 		NullCheck(L_62);
-		GameObject_t4012695102 * L_63 = Component_get_gameObject_m1036663815(L_62, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_63 = Component_get_gameObject_m1170635899(L_62, /*hidden argument*/NULL);
 		PointerEventData_t3205101634 * L_64 = ___currentPointerData;
 		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t4196265289_il2cpp_TypeInfo_var);
 		EventFunction_1_t176292337 * L_65 = ExecuteEvents_get_pointerEnterHandler_m2954525018(NULL /*static, unused*/, /*hidden argument*/NULL);
@@ -1809,19 +1809,19 @@ IL_0134:
 		List_1_t514686775 * L_67 = L_66->get_hovered_3();
 		Transform_t284553113 * L_68 = V_3;
 		NullCheck(L_68);
-		GameObject_t4012695102 * L_69 = Component_get_gameObject_m1036663815(L_68, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_69 = Component_get_gameObject_m1170635899(L_68, /*hidden argument*/NULL);
 		NullCheck(L_67);
 		VirtActionInvoker1< GameObject_t4012695102 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0) */, L_67, L_69);
 		Transform_t284553113 * L_70 = V_3;
 		NullCheck(L_70);
-		Transform_t284553113 * L_71 = Transform_get_parent_m1031913888(L_70, /*hidden argument*/NULL);
+		Transform_t284553113 * L_71 = Transform_get_parent_m2236876972(L_70, /*hidden argument*/NULL);
 		V_3 = L_71;
 	}
 
 IL_015e:
 	{
 		Transform_t284553113 * L_72 = V_3;
-		bool L_73 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_72, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_73 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_72, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_73)
 		{
 			goto IL_017b;
@@ -1830,9 +1830,9 @@ IL_015e:
 	{
 		Transform_t284553113 * L_74 = V_3;
 		NullCheck(L_74);
-		GameObject_t4012695102 * L_75 = Component_get_gameObject_m1036663815(L_74, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_75 = Component_get_gameObject_m1170635899(L_74, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_76 = V_1;
-		bool L_77 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_75, L_76, /*hidden argument*/NULL);
+		bool L_77 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_75, L_76, /*hidden argument*/NULL);
 		if (L_77)
 		{
 			goto IL_0134;
@@ -1879,7 +1879,7 @@ IL_001c:
 		float L_6 = ___y;
 		Vector2_t3525329788  L_7;
 		memset(&L_7, 0, sizeof(L_7));
-		Vector2__ctor_m3369031450(&L_7, L_5, L_6, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_7, L_5, L_6, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		AxisEventData_set_moveVector_m286185191(L_4, L_7, /*hidden argument*/NULL);
 		AxisEventData_t552897310 * L_8 = __this->get_m_AxisEventData_3();
@@ -1939,16 +1939,16 @@ extern "C"  bool BaseInputModule_ShouldActivateModule_m222600132 (BaseInputModul
 {
 	int32_t G_B3_0 = 0;
 	{
-		bool L_0 = Behaviour_get_enabled_m1094168684(__this, /*hidden argument*/NULL);
+		bool L_0 = Behaviour_get_enabled_m1239363704(__this, /*hidden argument*/NULL);
 		if (!L_0)
 		{
 			goto IL_0018;
 		}
 	}
 	{
-		GameObject_t4012695102 * L_1 = Component_get_gameObject_m1036663815(__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_1 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		bool L_2 = GameObject_get_activeInHierarchy_m478478881(L_1, /*hidden argument*/NULL);
+		bool L_2 = GameObject_get_activeInHierarchy_m612450965(L_1, /*hidden argument*/NULL);
 		G_B3_0 = ((int32_t)(L_2));
 		goto IL_0019;
 	}
@@ -2044,7 +2044,7 @@ extern "C"  String_t* BaseRaycaster_ToString_m540855283 (BaseRaycaster_t38198756
 		ArrayElementTypeCheck (L_0, _stringLiteral2326001425);
 		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral2326001425);
 		ObjectU5BU5D_t11523773* L_1 = L_0;
-		GameObject_t4012695102 * L_2 = Component_get_gameObject_m1036663815(__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_2 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 1);
 		ArrayElementTypeCheck (L_1, L_2);
@@ -2309,7 +2309,7 @@ IL_001f:
 		int32_t L_4 = V_0;
 		NullCheck(L_3);
 		BaseInputModule_t3800378272 * L_5 = VirtFuncInvoker1< BaseInputModule_t3800378272 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::get_Item(System.Int32) */, L_3, L_4);
-		bool L_6 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		bool L_6 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_0050;
@@ -2394,7 +2394,7 @@ extern "C"  void EventSystem_SetSelectedGameObject_m2116591616 (EventSystem_t409
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_2 = String_Concat_m2809334143(NULL /*static, unused*/, _stringLiteral3906175210, L_1, _stringLiteral1176813613, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_LogError_m3654569246(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		return;
 	}
 
@@ -2403,7 +2403,7 @@ IL_0021:
 		__this->set_m_SelectionGuard_8((bool)1);
 		GameObject_t4012695102 * L_3 = ___selected;
 		GameObject_t4012695102 * L_4 = __this->get_m_CurrentSelected_7();
-		bool L_5 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		bool L_5 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_0041;
@@ -2481,7 +2481,7 @@ extern "C"  int32_t EventSystem_RaycastComparer_m3178660990 (Il2CppObject * __th
 	{
 		BaseRaycaster_t3819875680 * L_0 = (&___lhs)->get_module_1();
 		BaseRaycaster_t3819875680 * L_1 = (&___rhs)->get_module_1();
-		bool L_2 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_013d;
@@ -2491,7 +2491,7 @@ extern "C"  int32_t EventSystem_RaycastComparer_m3178660990 (Il2CppObject * __th
 		BaseRaycaster_t3819875680 * L_3 = (&___lhs)->get_module_1();
 		NullCheck(L_3);
 		Camera_t3533968274 * L_4 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, L_3);
-		bool L_5 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_4, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_5 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_4, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_00c1;
@@ -2501,7 +2501,7 @@ extern "C"  int32_t EventSystem_RaycastComparer_m3178660990 (Il2CppObject * __th
 		BaseRaycaster_t3819875680 * L_6 = (&___rhs)->get_module_1();
 		NullCheck(L_6);
 		Camera_t3533968274 * L_7 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, L_6);
-		bool L_8 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_7, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_8 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_7, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_8)
 		{
 			goto IL_00c1;
@@ -2512,12 +2512,12 @@ extern "C"  int32_t EventSystem_RaycastComparer_m3178660990 (Il2CppObject * __th
 		NullCheck(L_9);
 		Camera_t3533968274 * L_10 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, L_9);
 		NullCheck(L_10);
-		float L_11 = Camera_get_depth_m1560634792(L_10, /*hidden argument*/NULL);
+		float L_11 = Camera_get_depth_m3642810036(L_10, /*hidden argument*/NULL);
 		BaseRaycaster_t3819875680 * L_12 = (&___rhs)->get_module_1();
 		NullCheck(L_12);
 		Camera_t3533968274 * L_13 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, L_12);
 		NullCheck(L_13);
-		float L_14 = Camera_get_depth_m1560634792(L_13, /*hidden argument*/NULL);
+		float L_14 = Camera_get_depth_m3642810036(L_13, /*hidden argument*/NULL);
 		if ((((float)L_11) == ((float)L_14)))
 		{
 			goto IL_00c1;
@@ -2528,12 +2528,12 @@ extern "C"  int32_t EventSystem_RaycastComparer_m3178660990 (Il2CppObject * __th
 		NullCheck(L_15);
 		Camera_t3533968274 * L_16 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, L_15);
 		NullCheck(L_16);
-		float L_17 = Camera_get_depth_m1560634792(L_16, /*hidden argument*/NULL);
+		float L_17 = Camera_get_depth_m3642810036(L_16, /*hidden argument*/NULL);
 		BaseRaycaster_t3819875680 * L_18 = (&___rhs)->get_module_1();
 		NullCheck(L_18);
 		Camera_t3533968274 * L_19 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, L_18);
 		NullCheck(L_19);
-		float L_20 = Camera_get_depth_m1560634792(L_19, /*hidden argument*/NULL);
+		float L_20 = Camera_get_depth_m3642810036(L_19, /*hidden argument*/NULL);
 		if ((!(((float)L_17) < ((float)L_20))))
 		{
 			goto IL_0096;
@@ -2549,12 +2549,12 @@ IL_0096:
 		NullCheck(L_21);
 		Camera_t3533968274 * L_22 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, L_21);
 		NullCheck(L_22);
-		float L_23 = Camera_get_depth_m1560634792(L_22, /*hidden argument*/NULL);
+		float L_23 = Camera_get_depth_m3642810036(L_22, /*hidden argument*/NULL);
 		BaseRaycaster_t3819875680 * L_24 = (&___rhs)->get_module_1();
 		NullCheck(L_24);
 		Camera_t3533968274 * L_25 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, L_24);
 		NullCheck(L_25);
-		float L_26 = Camera_get_depth_m1560634792(L_25, /*hidden argument*/NULL);
+		float L_26 = Camera_get_depth_m3642810036(L_25, /*hidden argument*/NULL);
 		if ((!(((float)L_23) == ((float)L_26))))
 		{
 			goto IL_00bf;
@@ -2630,10 +2630,10 @@ IL_013d:
 	}
 	{
 		int32_t L_47 = (&___rhs)->get_sortingLayer_5();
-		int32_t L_48 = SortingLayer_GetLayerValueFromID_m3075985622(NULL /*static, unused*/, L_47, /*hidden argument*/NULL);
+		int32_t L_48 = SortingLayer_GetLayerValueFromID_m2560954442(NULL /*static, unused*/, L_47, /*hidden argument*/NULL);
 		V_0 = L_48;
 		int32_t L_49 = (&___lhs)->get_sortingLayer_5();
-		int32_t L_50 = SortingLayer_GetLayerValueFromID_m3075985622(NULL /*static, unused*/, L_49, /*hidden argument*/NULL);
+		int32_t L_50 = SortingLayer_GetLayerValueFromID_m2560954442(NULL /*static, unused*/, L_49, /*hidden argument*/NULL);
 		V_1 = L_50;
 		int32_t L_51 = V_1;
 		int32_t L_52 = Int32_CompareTo_m2558537238((&V_0), L_51, /*hidden argument*/NULL);
@@ -2731,7 +2731,7 @@ IL_0013:
 		BaseRaycaster_t3819875680 * L_4 = VirtFuncInvoker1< BaseRaycaster_t3819875680 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::get_Item(System.Int32) */, L_2, L_3);
 		V_2 = L_4;
 		BaseRaycaster_t3819875680 * L_5 = V_2;
-		bool L_6 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_5, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_6 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_5, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_6)
 		{
 			goto IL_0032;
@@ -2800,7 +2800,7 @@ extern "C"  bool EventSystem_IsPointerOverGameObject_m4003394293 (EventSystem_t4
 {
 	{
 		BaseInputModule_t3800378272 * L_0 = __this->get_m_CurrentInputModule_3();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0013;
@@ -2834,7 +2834,7 @@ extern "C"  void EventSystem_OnEnable_m1909198730 (EventSystem_t409518532 * __th
 		UIBehaviour_OnEnable_m4047103690(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(EventSystem_t409518532_il2cpp_TypeInfo_var);
 		EventSystem_t409518532 * L_0 = EventSystem_get_current_m3483537871(NULL /*static, unused*/, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001c;
@@ -2863,7 +2863,7 @@ extern "C"  void EventSystem_OnDisable_m3791523043 (EventSystem_t409518532 * __t
 	}
 	{
 		BaseInputModule_t3800378272 * L_0 = __this->get_m_CurrentInputModule_3();
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0023;
@@ -2880,7 +2880,7 @@ IL_0023:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(EventSystem_t409518532_il2cpp_TypeInfo_var);
 		EventSystem_t409518532 * L_3 = EventSystem_get_current_m3483537871(NULL /*static, unused*/, /*hidden argument*/NULL);
-		bool L_4 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_3, __this, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_3, __this, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0039;
@@ -2912,7 +2912,7 @@ IL_0007:
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
 		BaseInputModule_t3800378272 * L_2 = VirtFuncInvoker1< BaseInputModule_t3800378272 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::get_Item(System.Int32) */, L_0, L_1);
-		bool L_3 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_002f;
@@ -2967,7 +2967,7 @@ extern "C"  void EventSystem_Update_m242895889 (EventSystem_t409518532 * __this,
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(EventSystem_t409518532_il2cpp_TypeInfo_var);
 		EventSystem_t409518532 * L_0 = EventSystem_get_current_m3483537871(NULL /*static, unused*/, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, __this, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, __this, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0011;
@@ -3012,7 +3012,7 @@ IL_0020:
 	{
 		BaseInputModule_t3800378272 * L_9 = __this->get_m_CurrentInputModule_3();
 		BaseInputModule_t3800378272 * L_10 = V_2;
-		bool L_11 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		bool L_11 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
 		if (!L_11)
 		{
 			goto IL_005d;
@@ -3050,7 +3050,7 @@ IL_0066:
 IL_0077:
 	{
 		BaseInputModule_t3800378272 * L_17 = __this->get_m_CurrentInputModule_3();
-		bool L_18 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_17, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_18 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_17, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_18)
 		{
 			goto IL_00cd;
@@ -3111,7 +3111,7 @@ IL_00cd:
 	}
 	{
 		BaseInputModule_t3800378272 * L_30 = __this->get_m_CurrentInputModule_3();
-		bool L_31 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_30, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_31 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_30, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_31)
 		{
 			goto IL_00ef;
@@ -3134,7 +3134,7 @@ extern "C"  void EventSystem_ChangeEventModule_m1717769816 (EventSystem_t4095185
 	{
 		BaseInputModule_t3800378272 * L_0 = __this->get_m_CurrentInputModule_3();
 		BaseInputModule_t3800378272 * L_1 = ___module;
-		bool L_2 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0012;
@@ -3147,7 +3147,7 @@ extern "C"  void EventSystem_ChangeEventModule_m1717769816 (EventSystem_t4095185
 IL_0012:
 	{
 		BaseInputModule_t3800378272 * L_3 = __this->get_m_CurrentInputModule_3();
-		bool L_4 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_002e;
@@ -3162,7 +3162,7 @@ IL_0012:
 IL_002e:
 	{
 		BaseInputModule_t3800378272 * L_6 = ___module;
-		bool L_7 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_6, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_7 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_6, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_0040;
@@ -3218,7 +3218,7 @@ extern "C"  String_t* EventSystem_ToString_m3844548247 (EventSystem_t409518532 *
 		StringBuilder_AppendLine_m568622107(L_5, /*hidden argument*/NULL);
 		StringBuilder_t3822575854 * L_6 = V_0;
 		BaseInputModule_t3800378272 * L_7 = __this->get_m_CurrentInputModule_3();
-		bool L_8 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_7, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_8 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_7, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		G_B1_0 = L_6;
 		if (!L_8)
 		{
@@ -3255,7 +3255,7 @@ IL_0052:
 extern "C"  void EventTrigger__ctor_m3410186115 (EventTrigger_t2937500249 * __this, const MethodInfo* method)
 {
 	{
-		MonoBehaviour__ctor_m1899368843(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -4427,7 +4427,7 @@ extern "C"  void ExecuteEvents_GetEventChain_m1321751930 (Il2CppObject * __this 
 		NullCheck(L_0);
 		InterfaceActionInvoker0::Invoke(3 /* System.Void System.Collections.Generic.ICollection`1<UnityEngine.Transform>::Clear() */, ICollection_1_t750384499_il2cpp_TypeInfo_var, L_0);
 		GameObject_t4012695102 * L_1 = ___root;
-		bool L_2 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0013;
@@ -4441,7 +4441,7 @@ IL_0013:
 	{
 		GameObject_t4012695102 * L_3 = ___root;
 		NullCheck(L_3);
-		Transform_t284553113 * L_4 = GameObject_get_transform_m1412865811(L_3, /*hidden argument*/NULL);
+		Transform_t284553113 * L_4 = GameObject_get_transform_m1278640159(L_3, /*hidden argument*/NULL);
 		V_0 = L_4;
 		goto IL_002d;
 	}
@@ -4454,14 +4454,14 @@ IL_001f:
 		InterfaceActionInvoker1< Transform_t284553113 * >::Invoke(2 /* System.Void System.Collections.Generic.ICollection`1<UnityEngine.Transform>::Add(!0) */, ICollection_1_t750384499_il2cpp_TypeInfo_var, L_5, L_6);
 		Transform_t284553113 * L_7 = V_0;
 		NullCheck(L_7);
-		Transform_t284553113 * L_8 = Transform_get_parent_m1031913888(L_7, /*hidden argument*/NULL);
+		Transform_t284553113 * L_8 = Transform_get_parent_m2236876972(L_7, /*hidden argument*/NULL);
 		V_0 = L_8;
 	}
 
 IL_002d:
 	{
 		Transform_t284553113 * L_9 = V_0;
-		bool L_10 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_9, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_10 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_9, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_10)
 		{
 			goto IL_001f;
@@ -4523,7 +4523,7 @@ extern "C"  void Physics2DRaycaster_Raycast_m4133606104 (Physics2DRaycaster_t301
 	RaycastResult_t959898689 * G_B10_1 = NULL;
 	{
 		Camera_t3533968274 * L_0 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.PhysicsRaycaster::get_eventCamera() */, __this);
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0012;
@@ -4539,22 +4539,22 @@ IL_0012:
 		PointerEventData_t3205101634 * L_3 = ___eventData;
 		NullCheck(L_3);
 		Vector2_t3525329788  L_4 = PointerEventData_get_position_m2263123361(L_3, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_5 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_5 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		Ray_t1522967639  L_6 = Camera_ScreenPointToRay_m519181286(L_2, L_5, /*hidden argument*/NULL);
+		Ray_t1522967639  L_6 = Camera_ScreenPointToRay_m1733083890(L_2, L_5, /*hidden argument*/NULL);
 		V_0 = L_6;
 		Camera_t3533968274 * L_7 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.PhysicsRaycaster::get_eventCamera() */, __this);
 		NullCheck(L_7);
-		float L_8 = Camera_get_farClipPlane_m182628402(L_7, /*hidden argument*/NULL);
+		float L_8 = Camera_get_farClipPlane_m388706726(L_7, /*hidden argument*/NULL);
 		Camera_t3533968274 * L_9 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.PhysicsRaycaster::get_eventCamera() */, __this);
 		NullCheck(L_9);
-		float L_10 = Camera_get_nearClipPlane_m1981194313(L_9, /*hidden argument*/NULL);
+		float L_10 = Camera_get_nearClipPlane_m4074655061(L_9, /*hidden argument*/NULL);
 		V_1 = ((float)((float)L_8-(float)L_10));
 		Ray_t1522967639  L_11 = V_0;
 		float L_12 = V_1;
 		int32_t L_13 = PhysicsRaycaster_get_finalEventMask_m2246936003(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2930244358_il2cpp_TypeInfo_var);
-		RaycastHit2DU5BU5D_t2162384532* L_14 = Physics2D_GetRayIntersectionAll_m3835051043(NULL /*static, unused*/, L_11, L_12, L_13, /*hidden argument*/NULL);
+		RaycastHit2DU5BU5D_t2162384532* L_14 = Physics2D_GetRayIntersectionAll_m2520210479(NULL /*static, unused*/, L_11, L_12, L_13, /*hidden argument*/NULL);
 		V_2 = L_14;
 		RaycastHit2DU5BU5D_t2162384532* L_15 = V_2;
 		NullCheck(L_15);
@@ -4577,9 +4577,9 @@ IL_0063:
 		int32_t L_18 = V_3;
 		NullCheck(L_17);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_17, L_18);
-		Collider2D_t1890038195 * L_19 = RaycastHit2D_get_collider_m931734998(((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))), /*hidden argument*/NULL);
+		Collider2D_t1890038195 * L_19 = RaycastHit2D_get_collider_m789902306(((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))), /*hidden argument*/NULL);
 		NullCheck(L_19);
-		GameObject_t4012695102 * L_20 = Component_get_gameObject_m1036663815(L_19, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_20 = Component_get_gameObject_m1170635899(L_19, /*hidden argument*/NULL);
 		NullCheck(L_20);
 		SpriteRenderer_t2223784725 * L_21 = GameObject_GetComponent_TisSpriteRenderer_t2223784725_m3588502113(L_20, /*hidden argument*/GameObject_GetComponent_TisSpriteRenderer_t2223784725_m3588502113_MethodInfo_var);
 		V_5 = L_21;
@@ -4590,38 +4590,38 @@ IL_0063:
 		int32_t L_24 = V_3;
 		NullCheck(L_23);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_23, L_24);
-		Collider2D_t1890038195 * L_25 = RaycastHit2D_get_collider_m931734998(((L_23)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_24))), /*hidden argument*/NULL);
+		Collider2D_t1890038195 * L_25 = RaycastHit2D_get_collider_m789902306(((L_23)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_24))), /*hidden argument*/NULL);
 		NullCheck(L_25);
-		GameObject_t4012695102 * L_26 = Component_get_gameObject_m1036663815(L_25, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_26 = Component_get_gameObject_m1170635899(L_25, /*hidden argument*/NULL);
 		RaycastResult_set_gameObject_m726369707((&V_7), L_26, /*hidden argument*/NULL);
 		(&V_7)->set_module_1(__this);
 		Camera_t3533968274 * L_27 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.PhysicsRaycaster::get_eventCamera() */, __this);
 		NullCheck(L_27);
-		Transform_t284553113 * L_28 = Component_get_transform_m243597671(L_27, /*hidden argument*/NULL);
+		Transform_t284553113 * L_28 = Component_get_transform_m4257140443(L_27, /*hidden argument*/NULL);
 		NullCheck(L_28);
-		Vector3_t3525329789  L_29 = Transform_get_position_m1006435523(L_28, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_29 = Transform_get_position_m2211398607(L_28, /*hidden argument*/NULL);
 		RaycastHit2DU5BU5D_t2162384532* L_30 = V_2;
 		int32_t L_31 = V_3;
 		NullCheck(L_30);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_30, L_31);
-		Transform_t284553113 * L_32 = RaycastHit2D_get_transform_m1460429832(((L_30)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_31))), /*hidden argument*/NULL);
+		Transform_t284553113 * L_32 = RaycastHit2D_get_transform_m1318597140(((L_30)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_31))), /*hidden argument*/NULL);
 		NullCheck(L_32);
-		Vector3_t3525329789  L_33 = Transform_get_position_m1006435523(L_32, /*hidden argument*/NULL);
-		float L_34 = Vector3_Distance_m551939252(NULL /*static, unused*/, L_29, L_33, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_33 = Transform_get_position_m2211398607(L_32, /*hidden argument*/NULL);
+		float L_34 = Vector3_Distance_m3366690344(NULL /*static, unused*/, L_29, L_33, /*hidden argument*/NULL);
 		(&V_7)->set_distance_2(L_34);
 		RaycastHit2DU5BU5D_t2162384532* L_35 = V_2;
 		int32_t L_36 = V_3;
 		NullCheck(L_35);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_35, L_36);
-		Vector2_t3525329788  L_37 = RaycastHit2D_get_point_m867728143(((L_35)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_36))), /*hidden argument*/NULL);
-		Vector3_t3525329789  L_38 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_37, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_37 = RaycastHit2D_get_point_m2072691227(((L_35)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_36))), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_38 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_37, /*hidden argument*/NULL);
 		(&V_7)->set_worldPosition_7(L_38);
 		RaycastHit2DU5BU5D_t2162384532* L_39 = V_2;
 		int32_t L_40 = V_3;
 		NullCheck(L_39);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_39, L_40);
-		Vector2_t3525329788  L_41 = RaycastHit2D_get_normal_m2195353450(((L_39)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_40))), /*hidden argument*/NULL);
-		Vector3_t3525329789  L_42 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_41, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_41 = RaycastHit2D_get_normal_m894503390(((L_39)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_40))), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_42 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_41, /*hidden argument*/NULL);
 		(&V_7)->set_worldNormal_8(L_42);
 		PointerEventData_t3205101634 * L_43 = ___eventData;
 		NullCheck(L_43);
@@ -4632,7 +4632,7 @@ IL_0063:
 		int32_t L_46 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::get_Count() */, L_45);
 		(&V_7)->set_index_3((((float)((float)L_46))));
 		SpriteRenderer_t2223784725 * L_47 = V_5;
-		bool L_48 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_47, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_48 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_47, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		G_B5_0 = (&V_7);
 		if (!L_48)
 		{
@@ -4643,7 +4643,7 @@ IL_0063:
 	{
 		SpriteRenderer_t2223784725 * L_49 = V_5;
 		NullCheck(L_49);
-		int32_t L_50 = Renderer_get_sortingLayerID_m183510623(L_49, /*hidden argument*/NULL);
+		int32_t L_50 = Renderer_get_sortingLayerID_m1954594923(L_49, /*hidden argument*/NULL);
 		G_B7_0 = L_50;
 		G_B7_1 = G_B5_0;
 		goto IL_013b;
@@ -4659,7 +4659,7 @@ IL_013b:
 	{
 		G_B7_1->set_sortingLayer_5(G_B7_0);
 		SpriteRenderer_t2223784725 * L_51 = V_5;
-		bool L_52 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_51, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_52 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_51, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		G_B8_0 = (&V_7);
 		if (!L_52)
 		{
@@ -4670,7 +4670,7 @@ IL_013b:
 	{
 		SpriteRenderer_t2223784725 * L_53 = V_5;
 		NullCheck(L_53);
-		int32_t L_54 = Renderer_get_sortingOrder_m1530004353(L_53, /*hidden argument*/NULL);
+		int32_t L_54 = Renderer_get_sortingOrder_m3623465101(L_53, /*hidden argument*/NULL);
 		G_B10_0 = L_54;
 		G_B10_1 = G_B8_0;
 		goto IL_015c;
@@ -4714,7 +4714,7 @@ IL_0179:
 extern "C"  void PhysicsRaycaster__ctor_m4288212754 (PhysicsRaycaster_t2526406378 * __this, const MethodInfo* method)
 {
 	{
-		LayerMask_t1862190090  L_0 = LayerMask_op_Implicit_m79501991(NULL /*static, unused*/, (-1), /*hidden argument*/NULL);
+		LayerMask_t1862190090  L_0 = LayerMask_op_Implicit_m2608572187(NULL /*static, unused*/, (-1), /*hidden argument*/NULL);
 		__this->set_m_EventMask_4(L_0);
 		BaseRaycaster__ctor_m2197027296(__this, /*hidden argument*/NULL);
 		return;
@@ -4735,7 +4735,7 @@ extern "C"  Camera_t3533968274 * PhysicsRaycaster_get_eventCamera_m810838145 (Ph
 	Camera_t3533968274 * G_B3_0 = NULL;
 	{
 		Camera_t3533968274 * L_0 = __this->get_m_EventCamera_3();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001d;
@@ -4758,7 +4758,7 @@ IL_001d:
 		}
 	}
 	{
-		Camera_t3533968274 * L_5 = Camera_get_main_m2276132101(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t3533968274 * L_5 = Camera_get_main_m671815697(NULL /*static, unused*/, /*hidden argument*/NULL);
 		G_B4_0 = L_5;
 	}
 
@@ -4773,7 +4773,7 @@ extern "C"  int32_t PhysicsRaycaster_get_depth_m589853138 (PhysicsRaycaster_t252
 	int32_t G_B3_0 = 0;
 	{
 		Camera_t3533968274 * L_0 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.PhysicsRaycaster::get_eventCamera() */, __this);
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0022;
@@ -4782,7 +4782,7 @@ extern "C"  int32_t PhysicsRaycaster_get_depth_m589853138 (PhysicsRaycaster_t252
 	{
 		Camera_t3533968274 * L_2 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.PhysicsRaycaster::get_eventCamera() */, __this);
 		NullCheck(L_2);
-		float L_3 = Camera_get_depth_m1560634792(L_2, /*hidden argument*/NULL);
+		float L_3 = Camera_get_depth_m3642810036(L_2, /*hidden argument*/NULL);
 		G_B3_0 = (((int32_t)((int32_t)L_3)));
 		goto IL_0027;
 	}
@@ -4803,7 +4803,7 @@ extern "C"  int32_t PhysicsRaycaster_get_finalEventMask_m2246936003 (PhysicsRayc
 	int32_t G_B3_0 = 0;
 	{
 		Camera_t3533968274 * L_0 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.PhysicsRaycaster::get_eventCamera() */, __this);
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_002d;
@@ -4812,9 +4812,9 @@ extern "C"  int32_t PhysicsRaycaster_get_finalEventMask_m2246936003 (PhysicsRayc
 	{
 		Camera_t3533968274 * L_2 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.PhysicsRaycaster::get_eventCamera() */, __this);
 		NullCheck(L_2);
-		int32_t L_3 = Camera_get_cullingMask_m3535143557(L_2, /*hidden argument*/NULL);
+		int32_t L_3 = Camera_get_cullingMask_m1045975289(L_2, /*hidden argument*/NULL);
 		LayerMask_t1862190090  L_4 = __this->get_m_EventMask_4();
-		int32_t L_5 = LayerMask_op_Implicit_m3361477147(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		int32_t L_5 = LayerMask_op_Implicit_m1595580047(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		G_B3_0 = ((int32_t)((int32_t)L_3&(int32_t)L_5));
 		goto IL_002e;
 	}
@@ -4876,7 +4876,7 @@ extern "C"  void PhysicsRaycaster_Raycast_m743134250 (PhysicsRaycaster_t25264063
 	RaycastHitU5BU5D_t1365728750* G_B4_0 = NULL;
 	{
 		Camera_t3533968274 * L_0 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.PhysicsRaycaster::get_eventCamera() */, __this);
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0012;
@@ -4892,21 +4892,21 @@ IL_0012:
 		PointerEventData_t3205101634 * L_3 = ___eventData;
 		NullCheck(L_3);
 		Vector2_t3525329788  L_4 = PointerEventData_get_position_m2263123361(L_3, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_5 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_5 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		Ray_t1522967639  L_6 = Camera_ScreenPointToRay_m519181286(L_2, L_5, /*hidden argument*/NULL);
+		Ray_t1522967639  L_6 = Camera_ScreenPointToRay_m1733083890(L_2, L_5, /*hidden argument*/NULL);
 		V_0 = L_6;
 		Camera_t3533968274 * L_7 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.PhysicsRaycaster::get_eventCamera() */, __this);
 		NullCheck(L_7);
-		float L_8 = Camera_get_farClipPlane_m182628402(L_7, /*hidden argument*/NULL);
+		float L_8 = Camera_get_farClipPlane_m388706726(L_7, /*hidden argument*/NULL);
 		Camera_t3533968274 * L_9 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.EventSystems.PhysicsRaycaster::get_eventCamera() */, __this);
 		NullCheck(L_9);
-		float L_10 = Camera_get_nearClipPlane_m1981194313(L_9, /*hidden argument*/NULL);
+		float L_10 = Camera_get_nearClipPlane_m4074655061(L_9, /*hidden argument*/NULL);
 		V_1 = ((float)((float)L_8-(float)L_10));
 		Ray_t1522967639  L_11 = V_0;
 		float L_12 = V_1;
 		int32_t L_13 = PhysicsRaycaster_get_finalEventMask_m2246936003(__this, /*hidden argument*/NULL);
-		RaycastHitU5BU5D_t1365728750* L_14 = Physics_RaycastAll_m3965795773(NULL /*static, unused*/, L_11, L_12, L_13, /*hidden argument*/NULL);
+		RaycastHitU5BU5D_t1365728750* L_14 = Physics_RaycastAll_m1771931441(NULL /*static, unused*/, L_11, L_12, L_13, /*hidden argument*/NULL);
 		V_2 = L_14;
 		RaycastHitU5BU5D_t1365728750* L_15 = V_2;
 		NullCheck(L_15);
@@ -4966,28 +4966,28 @@ IL_008f:
 		int32_t L_25 = V_3;
 		NullCheck(L_24);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_24, L_25);
-		Collider_t955670625 * L_26 = RaycastHit_get_collider_m493561174(((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_25))), /*hidden argument*/NULL);
+		Collider_t955670625 * L_26 = RaycastHit_get_collider_m3116882274(((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_25))), /*hidden argument*/NULL);
 		NullCheck(L_26);
-		GameObject_t4012695102 * L_27 = Component_get_gameObject_m1036663815(L_26, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_27 = Component_get_gameObject_m1170635899(L_26, /*hidden argument*/NULL);
 		RaycastResult_set_gameObject_m726369707((&V_6), L_27, /*hidden argument*/NULL);
 		(&V_6)->set_module_1(__this);
 		RaycastHitU5BU5D_t1365728750* L_28 = V_2;
 		int32_t L_29 = V_3;
 		NullCheck(L_28);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_28, L_29);
-		float L_30 = RaycastHit_get_distance_m594865879(((L_28)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_29))), /*hidden argument*/NULL);
+		float L_30 = RaycastHit_get_distance_m800944203(((L_28)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_29))), /*hidden argument*/NULL);
 		(&V_6)->set_distance_2(L_30);
 		RaycastHitU5BU5D_t1365728750* L_31 = V_2;
 		int32_t L_32 = V_3;
 		NullCheck(L_31);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_31, L_32);
-		Vector3_t3525329789  L_33 = RaycastHit_get_point_m2394413538(((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32))), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_33 = RaycastHit_get_point_m4165497838(((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32))), /*hidden argument*/NULL);
 		(&V_6)->set_worldPosition_7(L_33);
 		RaycastHitU5BU5D_t1365728750* L_34 = V_2;
 		int32_t L_35 = V_3;
 		NullCheck(L_34);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_34, L_35);
-		Vector3_t3525329789  L_36 = RaycastHit_get_normal_m2277960439(((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35))), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_36 = RaycastHit_get_normal_m1346998891(((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35))), /*hidden argument*/NULL);
 		(&V_6)->set_worldNormal_8(L_36);
 		PointerEventData_t3205101634 * L_37 = ___eventData;
 		NullCheck(L_37);
@@ -5029,9 +5029,9 @@ extern "C"  int32_t PhysicsRaycaster_U3CRaycastU3Em__1_m3832860601 (Il2CppObject
 {
 	float V_0 = 0.0f;
 	{
-		float L_0 = RaycastHit_get_distance_m594865879((&___r1), /*hidden argument*/NULL);
+		float L_0 = RaycastHit_get_distance_m800944203((&___r1), /*hidden argument*/NULL);
 		V_0 = L_0;
-		float L_1 = RaycastHit_get_distance_m594865879((&___r2), /*hidden argument*/NULL);
+		float L_1 = RaycastHit_get_distance_m800944203((&___r2), /*hidden argument*/NULL);
 		int32_t L_2 = Single_CompareTo_m3518345828((&V_0), L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
@@ -5056,15 +5056,15 @@ extern "C"  void PointerEventData__ctor_m82194942 (PointerEventData_t3205101634 
 		BaseEventData__ctor_m3246352982(__this, L_1, /*hidden argument*/NULL);
 		PointerEventData_set_eligibleForClick_m4124670100(__this, (bool)0, /*hidden argument*/NULL);
 		PointerEventData_set_pointerId_m204336548(__this, (-1), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_2 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_2 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		PointerEventData_set_position_m1287828138(__this, L_2, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_3 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_3 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		PointerEventData_set_delta_m3480102791(__this, L_3, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_4 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_4 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		PointerEventData_set_pressPosition_m3056630579(__this, L_4, /*hidden argument*/NULL);
 		PointerEventData_set_clickTime_m3487651291(__this, (0.0f), /*hidden argument*/NULL);
 		PointerEventData_set_clickCount_m2279104927(__this, 0, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_5 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_5 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		PointerEventData_set_scrollDelta_m3507625908(__this, L_5, /*hidden argument*/NULL);
 		PointerEventData_set_useDragThreshold_m2530254510(__this, (bool)1, /*hidden argument*/NULL);
 		PointerEventData_set_dragging_m1730892973(__this, (bool)0, /*hidden argument*/NULL);
@@ -5403,7 +5403,7 @@ extern "C"  bool PointerEventData_IsPointerMoving_m1462208007 (PointerEventData_
 	{
 		Vector2_t3525329788  L_0 = PointerEventData_get_delta_m4112242786(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
-		float L_1 = Vector2_get_sqrMagnitude_m3197579399((&V_0), /*hidden argument*/NULL);
+		float L_1 = Vector2_get_sqrMagnitude_m996072851((&V_0), /*hidden argument*/NULL);
 		return (bool)((((float)L_1) > ((float)(0.0f)))? 1 : 0);
 	}
 }
@@ -5415,7 +5415,7 @@ extern "C"  bool PointerEventData_IsScrolling_m2052637201 (PointerEventData_t320
 	{
 		Vector2_t3525329788  L_0 = PointerEventData_get_scrollDelta_m3602781717(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
-		float L_1 = Vector2_get_sqrMagnitude_m3197579399((&V_0), /*hidden argument*/NULL);
+		float L_1 = Vector2_get_sqrMagnitude_m996072851((&V_0), /*hidden argument*/NULL);
 		return (bool)((((float)L_1) > ((float)(0.0f)))? 1 : 0);
 	}
 }
@@ -5431,7 +5431,7 @@ extern "C"  Camera_t3533968274 * PointerEventData_get_enterEventCamera_m15353069
 		RaycastResult_t959898689  L_0 = PointerEventData_get_pointerCurrentRaycast_m874132826(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
 		BaseRaycaster_t3819875680 * L_1 = (&V_0)->get_module_1();
-		bool L_2 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_001f;
@@ -5469,7 +5469,7 @@ extern "C"  Camera_t3533968274 * PointerEventData_get_pressEventCamera_m27640927
 		RaycastResult_t959898689  L_0 = PointerEventData_get_pointerPressRaycast_m990488592(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
 		BaseRaycaster_t3819875680 * L_1 = (&V_0)->get_module_1();
-		bool L_2 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_001f;
@@ -5509,7 +5509,7 @@ extern "C"  void PointerEventData_set_pointerPress_m3037509477 (PointerEventData
 	{
 		GameObject_t4012695102 * L_0 = __this->get_m_PointerPress_2();
 		GameObject_t4012695102 * L_1 = ___value;
-		bool L_2 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0012;
@@ -5743,7 +5743,7 @@ extern "C"  PointerEventData_t3205101634 * PointerInputModule_GetTouchPointerEve
 	int32_t G_B6_0 = 0;
 	bool* G_B6_1 = NULL;
 	{
-		int32_t L_0 = Touch_get_fingerId_m1304244835((&___input), /*hidden argument*/NULL);
+		int32_t L_0 = Touch_get_fingerId_m1427167959((&___input), /*hidden argument*/NULL);
 		bool L_1 = PointerInputModule_GetPointerData_m1554981113(__this, L_0, (&V_0), (bool)1, /*hidden argument*/NULL);
 		V_1 = L_1;
 		PointerEventData_t3205101634 * L_2 = V_0;
@@ -5759,7 +5759,7 @@ extern "C"  PointerEventData_t3205101634 * PointerInputModule_GetTouchPointerEve
 		}
 	}
 	{
-		int32_t L_5 = Touch_get_phase_m1221088666((&___input), /*hidden argument*/NULL);
+		int32_t L_5 = Touch_get_phase_m3314549414((&___input), /*hidden argument*/NULL);
 		G_B3_0 = ((((int32_t)L_5) == ((int32_t)0))? 1 : 0);
 		G_B3_1 = G_B1_0;
 		goto IL_002b;
@@ -5775,7 +5775,7 @@ IL_002b:
 	{
 		*((int8_t*)(G_B3_1)) = (int8_t)G_B3_0;
 		bool* L_6 = ___released;
-		int32_t L_7 = Touch_get_phase_m1221088666((&___input), /*hidden argument*/NULL);
+		int32_t L_7 = Touch_get_phase_m3314549414((&___input), /*hidden argument*/NULL);
 		G_B4_0 = L_6;
 		if ((((int32_t)L_7) == ((int32_t)4)))
 		{
@@ -5784,7 +5784,7 @@ IL_002b:
 		}
 	}
 	{
-		int32_t L_8 = Touch_get_phase_m1221088666((&___input), /*hidden argument*/NULL);
+		int32_t L_8 = Touch_get_phase_m3314549414((&___input), /*hidden argument*/NULL);
 		G_B6_0 = ((((int32_t)L_8) == ((int32_t)3))? 1 : 0);
 		G_B6_1 = G_B4_0;
 		goto IL_0047;
@@ -5807,7 +5807,7 @@ IL_0047:
 	}
 	{
 		PointerEventData_t3205101634 * L_10 = V_0;
-		Vector2_t3525329788  L_11 = Touch_get_position_m4145355989((&___input), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_11 = Touch_get_position_m1943849441((&___input), /*hidden argument*/NULL);
 		NullCheck(L_10);
 		PointerEventData_set_position_m1287828138(L_10, L_11, /*hidden argument*/NULL);
 	}
@@ -5822,7 +5822,7 @@ IL_005b:
 	}
 	{
 		PointerEventData_t3205101634 * L_13 = V_0;
-		Vector2_t3525329788  L_14 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_14 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_13);
 		PointerEventData_set_delta_m3480102791(L_13, L_14, /*hidden argument*/NULL);
 		goto IL_008a;
@@ -5831,11 +5831,11 @@ IL_005b:
 IL_0072:
 	{
 		PointerEventData_t3205101634 * L_15 = V_0;
-		Vector2_t3525329788  L_16 = Touch_get_position_m4145355989((&___input), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_16 = Touch_get_position_m1943849441((&___input), /*hidden argument*/NULL);
 		PointerEventData_t3205101634 * L_17 = V_0;
 		NullCheck(L_17);
 		Vector2_t3525329788  L_18 = PointerEventData_get_position_m2263123361(L_17, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_19 = Vector2_op_Subtraction_m2849821285(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_19 = Vector2_op_Subtraction_m2097149401(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
 		NullCheck(L_15);
 		PointerEventData_set_delta_m3480102791(L_15, L_19, /*hidden argument*/NULL);
 	}
@@ -5843,7 +5843,7 @@ IL_0072:
 IL_008a:
 	{
 		PointerEventData_t3205101634 * L_20 = V_0;
-		Vector2_t3525329788  L_21 = Touch_get_position_m4145355989((&___input), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_21 = Touch_get_position_m1943849441((&___input), /*hidden argument*/NULL);
 		NullCheck(L_20);
 		PointerEventData_set_position_m1287828138(L_20, L_21, /*hidden argument*/NULL);
 		PointerEventData_t3205101634 * L_22 = V_0;
@@ -5921,10 +5921,10 @@ extern "C"  int32_t PointerInputModule_StateForMouseButton_m1241430345 (Il2CppOb
 	{
 		int32_t L_0 = ___buttonId;
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		bool L_1 = Input_GetMouseButtonDown_m1121599951(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		bool L_1 = Input_GetMouseButtonDown_m2031691843(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = ___buttonId;
-		bool L_3 = Input_GetMouseButtonUp_m2689990344(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		bool L_3 = Input_GetMouseButtonUp_m2588144188(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		V_1 = L_3;
 		bool L_4 = V_0;
 		if (!L_4)
@@ -6014,8 +6014,8 @@ extern "C"  MouseState_t2990183180 * PointerInputModule_GetMousePointerEventData
 	{
 		PointerEventData_t3205101634 * L_3 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		Vector3_t3525329789  L_4 = Input_get_mousePosition_m1026115992(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_5 = Vector2_op_Implicit_m2869958055(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_4 = Input_get_mousePosition_m4020233228(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_5 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		PointerEventData_set_position_m1287828138(L_3, L_5, /*hidden argument*/NULL);
 	}
@@ -6023,15 +6023,15 @@ extern "C"  MouseState_t2990183180 * PointerInputModule_GetMousePointerEventData
 IL_0027:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		Vector3_t3525329789  L_6 = Input_get_mousePosition_m1026115992(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_7 = Vector2_op_Implicit_m2869958055(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_6 = Input_get_mousePosition_m4020233228(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_7 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		V_2 = L_7;
 		PointerEventData_t3205101634 * L_8 = V_0;
 		Vector2_t3525329788  L_9 = V_2;
 		PointerEventData_t3205101634 * L_10 = V_0;
 		NullCheck(L_10);
 		Vector2_t3525329788  L_11 = PointerEventData_get_position_m2263123361(L_10, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_12 = Vector2_op_Subtraction_m2849821285(NULL /*static, unused*/, L_9, L_11, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_12 = Vector2_op_Subtraction_m2097149401(NULL /*static, unused*/, L_9, L_11, /*hidden argument*/NULL);
 		NullCheck(L_8);
 		PointerEventData_set_delta_m3480102791(L_8, L_12, /*hidden argument*/NULL);
 		PointerEventData_t3205101634 * L_13 = V_0;
@@ -6039,7 +6039,7 @@ IL_0027:
 		NullCheck(L_13);
 		PointerEventData_set_position_m1287828138(L_13, L_14, /*hidden argument*/NULL);
 		PointerEventData_t3205101634 * L_15 = V_0;
-		Vector2_t3525329788  L_16 = Input_get_mouseScrollDelta_m3184348157(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_16 = Input_get_mouseScrollDelta_m3050122505(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_15);
 		PointerEventData_set_scrollDelta_m3507625908(L_15, L_16, /*hidden argument*/NULL);
 		PointerEventData_t3205101634 * L_17 = V_0;
@@ -6124,9 +6124,9 @@ IL_0008:
 	{
 		Vector2_t3525329788  L_1 = ___pressPos;
 		Vector2_t3525329788  L_2 = ___currentPos;
-		Vector2_t3525329788  L_3 = Vector2_op_Subtraction_m2849821285(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_3 = Vector2_op_Subtraction_m2097149401(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
-		float L_4 = Vector2_get_sqrMagnitude_m3197579399((&V_0), /*hidden argument*/NULL);
+		float L_4 = Vector2_get_sqrMagnitude_m996072851((&V_0), /*hidden argument*/NULL);
 		float L_5 = ___threshold;
 		float L_6 = ___threshold;
 		return (bool)((((int32_t)((!(((float)L_4) >= ((float)((float)((float)L_5*(float)L_6)))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -6181,7 +6181,7 @@ extern "C"  void PointerInputModule_ProcessDrag_m1875452405 (PointerInputModule_
 		PointerEventData_t3205101634 * L_3 = ___pointerEvent;
 		NullCheck(L_3);
 		GameObject_t4012695102 * L_4 = PointerEventData_get_pointerDrag_m2109300143(L_3, /*hidden argument*/NULL);
-		bool L_5 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_4, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_5 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_4, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_006a;
@@ -6249,7 +6249,7 @@ IL_006a:
 		PointerEventData_t3205101634 * L_25 = ___pointerEvent;
 		NullCheck(L_25);
 		GameObject_t4012695102 * L_26 = PointerEventData_get_pointerDrag_m2109300143(L_25, /*hidden argument*/NULL);
-		bool L_27 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_26, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_27 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_26, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_27)
 		{
 			goto IL_00db;
@@ -6262,7 +6262,7 @@ IL_006a:
 		PointerEventData_t3205101634 * L_30 = ___pointerEvent;
 		NullCheck(L_30);
 		GameObject_t4012695102 * L_31 = PointerEventData_get_pointerDrag_m2109300143(L_30, /*hidden argument*/NULL);
-		bool L_32 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_29, L_31, /*hidden argument*/NULL);
+		bool L_32 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_29, L_31, /*hidden argument*/NULL);
 		if (!L_32)
 		{
 			goto IL_00c9;
@@ -6321,7 +6321,7 @@ extern "C"  bool PointerInputModule_IsPointerOverGameObject_m1132541469 (Pointer
 		PointerEventData_t3205101634 * L_3 = V_0;
 		NullCheck(L_3);
 		GameObject_t4012695102 * L_4 = PointerEventData_get_pointerEnter_m1754340511(L_3, /*hidden argument*/NULL);
-		bool L_5 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_4, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_5 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_4, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		return L_5;
 	}
 
@@ -6584,7 +6584,7 @@ extern "C"  void PointerInputModule_DeselectIfSelectionChanged_m522880394 (Point
 		EventSystem_t409518532 * L_3 = BaseInputModule_get_eventSystem_m3949125731(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		GameObject_t4012695102 * L_4 = EventSystem_get_currentSelectedGameObject_m4236083783(L_3, /*hidden argument*/NULL);
-		bool L_5 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
+		bool L_5 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_002a;
@@ -7076,7 +7076,7 @@ extern "C"  bool RaycastResult_get_isValid_m3098154392 (RaycastResult_t959898689
 	int32_t G_B3_0 = 0;
 	{
 		BaseRaycaster_t3819875680 * L_0 = __this->get_module_1();
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001f;
@@ -7084,7 +7084,7 @@ extern "C"  bool RaycastResult_get_isValid_m3098154392 (RaycastResult_t959898689
 	}
 	{
 		GameObject_t4012695102 * L_2 = RaycastResult_get_gameObject_m1138099278(__this, /*hidden argument*/NULL);
-		bool L_3 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		G_B3_0 = ((int32_t)(L_3));
 		goto IL_0020;
 	}
@@ -7110,11 +7110,11 @@ extern "C"  void RaycastResult_Clear_m2117708874 (RaycastResult_t959898689 * __t
 		__this->set_depth_4(0);
 		__this->set_sortingLayer_5(0);
 		__this->set_sortingOrder_6(0);
-		Vector3_t3525329789  L_0 = Vector3_get_up_m1355996249(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_0 = Vector3_get_up_m4046647141(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->set_worldNormal_8(L_0);
-		Vector3_t3525329789  L_1 = Vector3_get_zero_m1872564710(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_1 = Vector3_get_zero_m2017759730(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->set_worldPosition_7(L_1);
-		Vector2_t3525329788  L_2 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_2 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->set_screenPosition_9(L_2);
 		return;
 	}
@@ -7521,8 +7521,8 @@ extern "C"  void StandaloneInputModule_UpdateModule_m4260747781 (StandaloneInput
 		Vector2_t3525329788  L_0 = __this->get_m_MousePosition_16();
 		__this->set_m_LastMousePosition_15(L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		Vector3_t3525329789  L_1 = Input_get_mousePosition_m1026115992(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_2 = Vector2_op_Implicit_m2869958055(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_1 = Input_get_mousePosition_m4020233228(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_2 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		__this->set_m_MousePosition_16(L_2);
 		return;
 	}
@@ -7548,7 +7548,7 @@ extern "C"  bool StandaloneInputModule_IsModuleSupported_m1519744700 (Standalone
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		bool L_1 = Input_get_mousePresent_m3029412922(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_1 = Input_get_mousePresent_m3235491246(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_001c;
@@ -7556,7 +7556,7 @@ extern "C"  bool StandaloneInputModule_IsModuleSupported_m1519744700 (Standalone
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		bool L_2 = Input_get_touchSupported_m161388819(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_2 = Input_get_touchSupported_m634162567(NULL /*static, unused*/, /*hidden argument*/NULL);
 		G_B4_0 = ((int32_t)(L_2));
 		goto IL_001d;
 	}
@@ -7612,32 +7612,32 @@ IL_000d:
 		bool L_2 = V_0;
 		String_t* L_3 = __this->get_m_SubmitButton_19();
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		bool L_4 = Input_GetButtonDown_m1745030001(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		bool L_4 = Input_GetButtonDown_m1879002085(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		V_0 = (bool)((int32_t)((int32_t)L_2|(int32_t)L_4));
 		bool L_5 = V_0;
 		String_t* L_6 = __this->get_m_CancelButton_20();
-		bool L_7 = Input_GetButtonDown_m1745030001(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		bool L_7 = Input_GetButtonDown_m1879002085(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		V_0 = (bool)((int32_t)((int32_t)L_5|(int32_t)L_7));
 		bool L_8 = V_0;
 		String_t* L_9 = __this->get_m_HorizontalAxis_17();
-		float L_10 = Input_GetAxisRaw_m3201057268(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		float L_10 = Input_GetAxisRaw_m1900207208(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		bool L_11 = Mathf_Approximately_m1647686332(NULL /*static, unused*/, L_10, (0.0f), /*hidden argument*/NULL);
+		bool L_11 = Mathf_Approximately_m1395529776(NULL /*static, unused*/, L_10, (0.0f), /*hidden argument*/NULL);
 		V_0 = (bool)((int32_t)((int32_t)L_8|(int32_t)((((int32_t)L_11) == ((int32_t)0))? 1 : 0)));
 		bool L_12 = V_0;
 		String_t* L_13 = __this->get_m_VerticalAxis_18();
-		float L_14 = Input_GetAxisRaw_m3201057268(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
-		bool L_15 = Mathf_Approximately_m1647686332(NULL /*static, unused*/, L_14, (0.0f), /*hidden argument*/NULL);
+		float L_14 = Input_GetAxisRaw_m1900207208(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		bool L_15 = Mathf_Approximately_m1395529776(NULL /*static, unused*/, L_14, (0.0f), /*hidden argument*/NULL);
 		V_0 = (bool)((int32_t)((int32_t)L_12|(int32_t)((((int32_t)L_15) == ((int32_t)0))? 1 : 0)));
 		bool L_16 = V_0;
 		Vector2_t3525329788  L_17 = __this->get_m_MousePosition_16();
 		Vector2_t3525329788  L_18 = __this->get_m_LastMousePosition_15();
-		Vector2_t3525329788  L_19 = Vector2_op_Subtraction_m2849821285(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_19 = Vector2_op_Subtraction_m2097149401(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
 		V_3 = L_19;
-		float L_20 = Vector2_get_sqrMagnitude_m3197579399((&V_3), /*hidden argument*/NULL);
+		float L_20 = Vector2_get_sqrMagnitude_m996072851((&V_3), /*hidden argument*/NULL);
 		V_0 = (bool)((int32_t)((int32_t)L_16|(int32_t)((((float)L_20) > ((float)(0.0f)))? 1 : 0)));
 		bool L_21 = V_0;
-		bool L_22 = Input_GetMouseButtonDown_m1121599951(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		bool L_22 = Input_GetMouseButtonDown_m2031691843(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		V_0 = (bool)((int32_t)((int32_t)L_21|(int32_t)L_22));
 		V_1 = 0;
 		goto IL_00cd;
@@ -7647,10 +7647,10 @@ IL_0099:
 	{
 		int32_t L_23 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		Touch_t1603883884  L_24 = Input_GetTouch_m3954067288(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
+		Touch_t1603883884  L_24 = Input_GetTouch_m2282421092(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
 		V_2 = L_24;
 		bool L_25 = V_0;
-		int32_t L_26 = Touch_get_phase_m1221088666((&V_2), /*hidden argument*/NULL);
+		int32_t L_26 = Touch_get_phase_m3314549414((&V_2), /*hidden argument*/NULL);
 		G_B4_0 = L_25;
 		if (!L_26)
 		{
@@ -7659,7 +7659,7 @@ IL_0099:
 		}
 	}
 	{
-		int32_t L_27 = Touch_get_phase_m1221088666((&V_2), /*hidden argument*/NULL);
+		int32_t L_27 = Touch_get_phase_m3314549414((&V_2), /*hidden argument*/NULL);
 		G_B5_0 = G_B4_0;
 		if ((((int32_t)L_27) == ((int32_t)1)))
 		{
@@ -7668,7 +7668,7 @@ IL_0099:
 		}
 	}
 	{
-		int32_t L_28 = Touch_get_phase_m1221088666((&V_2), /*hidden argument*/NULL);
+		int32_t L_28 = Touch_get_phase_m3314549414((&V_2), /*hidden argument*/NULL);
 		G_B7_0 = ((((int32_t)L_28) == ((int32_t)2))? 1 : 0);
 		G_B7_1 = G_B5_0;
 		goto IL_00c7;
@@ -7691,7 +7691,7 @@ IL_00cd:
 	{
 		int32_t L_30 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		int32_t L_31 = Input_get_touchCount_m3560871514(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_31 = Input_get_touchCount_m1430909390(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_30) < ((int32_t)L_31)))
 		{
 			goto IL_0099;
@@ -7717,18 +7717,18 @@ extern "C"  void StandaloneInputModule_ActivateModule_m1130429551 (StandaloneInp
 	{
 		BaseInputModule_ActivateModule_m1091790819(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		Vector3_t3525329789  L_0 = Input_get_mousePosition_m1026115992(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_1 = Vector2_op_Implicit_m2869958055(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_0 = Input_get_mousePosition_m4020233228(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_1 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		__this->set_m_MousePosition_16(L_1);
-		Vector3_t3525329789  L_2 = Input_get_mousePosition_m1026115992(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_3 = Vector2_op_Implicit_m2869958055(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_2 = Input_get_mousePosition_m4020233228(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_3 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		__this->set_m_LastMousePosition_15(L_3);
 		EventSystem_t409518532 * L_4 = BaseInputModule_get_eventSystem_m3949125731(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		GameObject_t4012695102 * L_5 = EventSystem_get_currentSelectedGameObject_m4236083783(L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
 		GameObject_t4012695102 * L_6 = V_0;
-		bool L_7 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_6, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_7 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_6, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_004a;
@@ -7843,9 +7843,9 @@ IL_0007:
 	{
 		int32_t L_0 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		Touch_t1603883884  L_1 = Input_GetTouch_m3954067288(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Touch_t1603883884  L_1 = Input_GetTouch_m2282421092(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_1 = L_1;
-		int32_t L_2 = Touch_get_type_m1283202992((&V_1), /*hidden argument*/NULL);
+		int32_t L_2 = Touch_get_type_m1428398012((&V_1), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
 		{
 			goto IL_0020;
@@ -7894,7 +7894,7 @@ IL_005e:
 	{
 		int32_t L_13 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		int32_t L_14 = Input_get_touchCount_m3560871514(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_14 = Input_get_touchCount_m1430909390(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_13) < ((int32_t)L_14)))
 		{
 			goto IL_0007;
@@ -7902,7 +7902,7 @@ IL_005e:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		int32_t L_15 = Input_get_touchCount_m3560871514(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_15 = Input_get_touchCount_m1430909390(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return (bool)((((int32_t)L_15) > ((int32_t)0))? 1 : 0);
 	}
 }
@@ -7951,7 +7951,7 @@ extern "C"  void StandaloneInputModule_ProcessTouchPress_m2953705401 (Standalone
 		NullCheck(L_4);
 		PointerEventData_set_eligibleForClick_m4124670100(L_4, (bool)1, /*hidden argument*/NULL);
 		PointerEventData_t3205101634 * L_5 = ___pointerEvent;
-		Vector2_t3525329788  L_6 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_6 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		PointerEventData_set_delta_m3480102791(L_5, L_6, /*hidden argument*/NULL);
 		PointerEventData_t3205101634 * L_7 = ___pointerEvent;
@@ -7979,7 +7979,7 @@ extern "C"  void StandaloneInputModule_ProcessTouchPress_m2953705401 (Standalone
 		NullCheck(L_17);
 		GameObject_t4012695102 * L_18 = PointerEventData_get_pointerEnter_m1754340511(L_17, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_19 = V_0;
-		bool L_20 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_18, L_19, /*hidden argument*/NULL);
+		bool L_20 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_18, L_19, /*hidden argument*/NULL);
 		if (!L_20)
 		{
 			goto IL_0076;
@@ -8004,7 +8004,7 @@ IL_0076:
 		GameObject_t4012695102 * L_28 = ExecuteEvents_ExecuteHierarchy_TisIPointerDownHandler_t1329431151_m1903343784(NULL /*static, unused*/, L_25, L_26, L_27, /*hidden argument*/ExecuteEvents_ExecuteHierarchy_TisIPointerDownHandler_t1329431151_m1903343784_MethodInfo_var);
 		V_1 = L_28;
 		GameObject_t4012695102 * L_29 = V_1;
-		bool L_30 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_29, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_30 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_29, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_30)
 		{
 			goto IL_0096;
@@ -8019,13 +8019,13 @@ IL_0076:
 
 IL_0096:
 	{
-		float L_33 = Time_get_unscaledTime_m2808282789(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_33 = Time_get_unscaledTime_m319114521(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_2 = L_33;
 		GameObject_t4012695102 * L_34 = V_1;
 		PointerEventData_t3205101634 * L_35 = ___pointerEvent;
 		NullCheck(L_35);
 		GameObject_t4012695102 * L_36 = PointerEventData_get_lastPress_m3682396203(L_35, /*hidden argument*/NULL);
-		bool L_37 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_34, L_36, /*hidden argument*/NULL);
+		bool L_37 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_34, L_36, /*hidden argument*/NULL);
 		if (!L_37)
 		{
 			goto IL_00e7;
@@ -8099,7 +8099,7 @@ IL_00ee:
 		PointerEventData_t3205101634 * L_58 = ___pointerEvent;
 		NullCheck(L_58);
 		GameObject_t4012695102 * L_59 = PointerEventData_get_pointerDrag_m2109300143(L_58, /*hidden argument*/NULL);
-		bool L_60 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_59, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_60 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_59, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_60)
 		{
 			goto IL_0132;
@@ -8138,7 +8138,7 @@ IL_0132:
 		NullCheck(L_72);
 		GameObject_t4012695102 * L_73 = PointerEventData_get_pointerPress_m3028028234(L_72, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_74 = V_4;
-		bool L_75 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_73, L_74, /*hidden argument*/NULL);
+		bool L_75 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_73, L_74, /*hidden argument*/NULL);
 		if (!L_75)
 		{
 			goto IL_0186;
@@ -8169,7 +8169,7 @@ IL_0186:
 		PointerEventData_t3205101634 * L_82 = ___pointerEvent;
 		NullCheck(L_82);
 		GameObject_t4012695102 * L_83 = PointerEventData_get_pointerDrag_m2109300143(L_82, /*hidden argument*/NULL);
-		bool L_84 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_83, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_84 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_83, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_84)
 		{
 			goto IL_01af;
@@ -8206,7 +8206,7 @@ IL_01af:
 		PointerEventData_t3205101634 * L_93 = ___pointerEvent;
 		NullCheck(L_93);
 		GameObject_t4012695102 * L_94 = PointerEventData_get_pointerDrag_m2109300143(L_93, /*hidden argument*/NULL);
-		bool L_95 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_94, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_95 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_94, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_95)
 		{
 			goto IL_01f2;
@@ -8242,7 +8242,7 @@ IL_01f2:
 		PointerEventData_t3205101634 * L_104 = ___pointerEvent;
 		NullCheck(L_104);
 		GameObject_t4012695102 * L_105 = PointerEventData_get_pointerDrag_m2109300143(L_104, /*hidden argument*/NULL);
-		bool L_106 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_105, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_106 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_105, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_106)
 		{
 			goto IL_0223;
@@ -8299,7 +8299,7 @@ extern "C"  bool StandaloneInputModule_SendSubmitEventToSelectedObject_m21837436
 		EventSystem_t409518532 * L_0 = BaseInputModule_get_eventSystem_m3949125731(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		GameObject_t4012695102 * L_1 = EventSystem_get_currentSelectedGameObject_m4236083783(L_0, /*hidden argument*/NULL);
-		bool L_2 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0018;
@@ -8315,7 +8315,7 @@ IL_0018:
 		V_0 = L_3;
 		String_t* L_4 = __this->get_m_SubmitButton_19();
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		bool L_5 = Input_GetButtonDown_m1745030001(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		bool L_5 = Input_GetButtonDown_m1879002085(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_0046;
@@ -8335,7 +8335,7 @@ IL_0046:
 	{
 		String_t* L_10 = __this->get_m_CancelButton_20();
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		bool L_11 = Input_GetButtonDown_m1745030001(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		bool L_11 = Input_GetButtonDown_m1879002085(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 		if (!L_11)
 		{
 			goto IL_006d;
@@ -8373,17 +8373,17 @@ extern "C"  Vector2_t3525329788  StandaloneInputModule_GetRawMoveVector_m3480660
 	Vector2_t3525329788  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	{
-		Vector2_t3525329788  L_0 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_0 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		String_t* L_1 = __this->get_m_HorizontalAxis_17();
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		float L_2 = Input_GetAxisRaw_m3201057268(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		float L_2 = Input_GetAxisRaw_m1900207208(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		(&V_0)->set_x_1(L_2);
 		String_t* L_3 = __this->get_m_VerticalAxis_18();
-		float L_4 = Input_GetAxisRaw_m3201057268(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		float L_4 = Input_GetAxisRaw_m1900207208(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		(&V_0)->set_y_2(L_4);
 		String_t* L_5 = __this->get_m_HorizontalAxis_17();
-		bool L_6 = Input_GetButtonDown_m1745030001(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		bool L_6 = Input_GetButtonDown_m1879002085(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_0074;
@@ -8416,7 +8416,7 @@ IL_0074:
 	{
 		String_t* L_9 = __this->get_m_VerticalAxis_18();
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		bool L_10 = Input_GetButtonDown_m1745030001(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		bool L_10 = Input_GetButtonDown_m1879002085(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
 		if (!L_10)
 		{
 			goto IL_00be;
@@ -8473,13 +8473,13 @@ extern "C"  bool StandaloneInputModule_SendMoveEventToSelectedObject_m439066490 
 	AxisEventData_t552897310 * V_4 = NULL;
 	int32_t G_B6_0 = 0;
 	{
-		float L_0 = Time_get_unscaledTime_m2808282789(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_0 = Time_get_unscaledTime_m319114521(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		Vector2_t3525329788  L_1 = StandaloneInputModule_GetRawMoveVector_m3480660049(__this, /*hidden argument*/NULL);
 		V_1 = L_1;
 		float L_2 = (&V_1)->get_x_1();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		bool L_3 = Mathf_Approximately_m1647686332(NULL /*static, unused*/, L_2, (0.0f), /*hidden argument*/NULL);
+		bool L_3 = Mathf_Approximately_m1395529776(NULL /*static, unused*/, L_2, (0.0f), /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0042;
@@ -8488,7 +8488,7 @@ extern "C"  bool StandaloneInputModule_SendMoveEventToSelectedObject_m439066490 
 	{
 		float L_4 = (&V_1)->get_y_2();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		bool L_5 = Mathf_Approximately_m1647686332(NULL /*static, unused*/, L_4, (0.0f), /*hidden argument*/NULL);
+		bool L_5 = Mathf_Approximately_m1395529776(NULL /*static, unused*/, L_4, (0.0f), /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_0042;
@@ -8503,7 +8503,7 @@ IL_0042:
 	{
 		String_t* L_6 = __this->get_m_HorizontalAxis_17();
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		bool L_7 = Input_GetButtonDown_m1745030001(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		bool L_7 = Input_GetButtonDown_m1879002085(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		if (L_7)
 		{
 			goto IL_005f;
@@ -8512,7 +8512,7 @@ IL_0042:
 	{
 		String_t* L_8 = __this->get_m_VerticalAxis_18();
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		bool L_9 = Input_GetButtonDown_m1745030001(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		bool L_9 = Input_GetButtonDown_m1879002085(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 		G_B6_0 = ((int32_t)(L_9));
 		goto IL_0060;
 	}
@@ -8527,7 +8527,7 @@ IL_0060:
 		V_2 = (bool)G_B6_0;
 		Vector2_t3525329788  L_10 = V_1;
 		Vector2_t3525329788  L_11 = __this->get_m_LastMoveVector_13();
-		float L_12 = Vector2_Dot_m2535761317(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		float L_12 = Vector2_Dot_m2437602225(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
 		V_3 = (bool)((((float)L_12) > ((float)(0.0f)))? 1 : 0);
 		bool L_13 = V_2;
 		if (L_13)
@@ -8716,9 +8716,9 @@ extern "C"  void StandaloneInputModule_ProcessMouseEvent_m1104664775 (Standalone
 		NullCheck(L_25);
 		Vector2_t3525329788  L_26 = PointerEventData_get_scrollDelta_m3602781717(L_25, /*hidden argument*/NULL);
 		V_3 = L_26;
-		float L_27 = Vector2_get_sqrMagnitude_m3197579399((&V_3), /*hidden argument*/NULL);
+		float L_27 = Vector2_get_sqrMagnitude_m996072851((&V_3), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		bool L_28 = Mathf_Approximately_m1647686332(NULL /*static, unused*/, L_27, (0.0f), /*hidden argument*/NULL);
+		bool L_28 = Mathf_Approximately_m1395529776(NULL /*static, unused*/, L_27, (0.0f), /*hidden argument*/NULL);
 		if (L_28)
 		{
 			goto IL_00d4;
@@ -8765,7 +8765,7 @@ extern "C"  bool StandaloneInputModule_SendUpdateEventToSelectedObject_m17302878
 		EventSystem_t409518532 * L_0 = BaseInputModule_get_eventSystem_m3949125731(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		GameObject_t4012695102 * L_1 = EventSystem_get_currentSelectedGameObject_m4236083783(L_0, /*hidden argument*/NULL);
-		bool L_2 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0018;
@@ -8843,7 +8843,7 @@ extern "C"  void StandaloneInputModule_ProcessMousePress_m794465737 (StandaloneI
 		NullCheck(L_7);
 		PointerEventData_set_eligibleForClick_m4124670100(L_7, (bool)1, /*hidden argument*/NULL);
 		PointerEventData_t3205101634 * L_8 = V_0;
-		Vector2_t3525329788  L_9 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_9 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_8);
 		PointerEventData_set_delta_m3480102791(L_8, L_9, /*hidden argument*/NULL);
 		PointerEventData_t3205101634 * L_10 = V_0;
@@ -8874,7 +8874,7 @@ extern "C"  void StandaloneInputModule_ProcessMousePress_m794465737 (StandaloneI
 		GameObject_t4012695102 * L_23 = ExecuteEvents_ExecuteHierarchy_TisIPointerDownHandler_t1329431151_m1903343784(NULL /*static, unused*/, L_20, L_21, L_22, /*hidden argument*/ExecuteEvents_ExecuteHierarchy_TisIPointerDownHandler_t1329431151_m1903343784_MethodInfo_var);
 		V_2 = L_23;
 		GameObject_t4012695102 * L_24 = V_2;
-		bool L_25 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_24, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_25 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_24, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_25)
 		{
 			goto IL_0082;
@@ -8889,13 +8889,13 @@ extern "C"  void StandaloneInputModule_ProcessMousePress_m794465737 (StandaloneI
 
 IL_0082:
 	{
-		float L_28 = Time_get_unscaledTime_m2808282789(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_28 = Time_get_unscaledTime_m319114521(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_3 = L_28;
 		GameObject_t4012695102 * L_29 = V_2;
 		PointerEventData_t3205101634 * L_30 = V_0;
 		NullCheck(L_30);
 		GameObject_t4012695102 * L_31 = PointerEventData_get_lastPress_m3682396203(L_30, /*hidden argument*/NULL);
-		bool L_32 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_29, L_31, /*hidden argument*/NULL);
+		bool L_32 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_29, L_31, /*hidden argument*/NULL);
 		if (!L_32)
 		{
 			goto IL_00d5;
@@ -8969,7 +8969,7 @@ IL_00dc:
 		PointerEventData_t3205101634 * L_53 = V_0;
 		NullCheck(L_53);
 		GameObject_t4012695102 * L_54 = PointerEventData_get_pointerDrag_m2109300143(L_53, /*hidden argument*/NULL);
-		bool L_55 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_54, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_55 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_54, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_55)
 		{
 			goto IL_0120;
@@ -9010,7 +9010,7 @@ IL_0120:
 		NullCheck(L_68);
 		GameObject_t4012695102 * L_69 = PointerEventData_get_pointerPress_m3028028234(L_68, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_70 = V_5;
-		bool L_71 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_69, L_70, /*hidden argument*/NULL);
+		bool L_71 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_69, L_70, /*hidden argument*/NULL);
 		if (!L_71)
 		{
 			goto IL_0179;
@@ -9041,7 +9041,7 @@ IL_0179:
 		PointerEventData_t3205101634 * L_78 = V_0;
 		NullCheck(L_78);
 		GameObject_t4012695102 * L_79 = PointerEventData_get_pointerDrag_m2109300143(L_78, /*hidden argument*/NULL);
-		bool L_80 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_79, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_80 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_79, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_80)
 		{
 			goto IL_01a2;
@@ -9078,7 +9078,7 @@ IL_01a2:
 		PointerEventData_t3205101634 * L_89 = V_0;
 		NullCheck(L_89);
 		GameObject_t4012695102 * L_90 = PointerEventData_get_pointerDrag_m2109300143(L_89, /*hidden argument*/NULL);
-		bool L_91 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_90, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_91 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_90, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_91)
 		{
 			goto IL_01e5;
@@ -9115,7 +9115,7 @@ IL_01e5:
 		PointerEventData_t3205101634 * L_101 = V_0;
 		NullCheck(L_101);
 		GameObject_t4012695102 * L_102 = PointerEventData_get_pointerEnter_m1754340511(L_101, /*hidden argument*/NULL);
-		bool L_103 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_100, L_102, /*hidden argument*/NULL);
+		bool L_103 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_100, L_102, /*hidden argument*/NULL);
 		if (!L_103)
 		{
 			goto IL_0214;
@@ -9191,8 +9191,8 @@ extern "C"  void TouchInputModule_UpdateModule_m1492847119 (TouchInputModule_t22
 		Vector2_t3525329788  L_0 = __this->get_m_MousePosition_13();
 		__this->set_m_LastMousePosition_12(L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		Vector3_t3525329789  L_1 = Input_get_mousePosition_m1026115992(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_2 = Vector2_op_Implicit_m2869958055(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_1 = Input_get_mousePosition_m4020233228(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_2 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		__this->set_m_MousePosition_13(L_2);
 		return;
 	}
@@ -9218,7 +9218,7 @@ extern "C"  bool TouchInputModule_IsModuleSupported_m3258396622 (TouchInputModul
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		bool L_1 = Input_get_touchSupported_m161388819(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_1 = Input_get_touchSupported_m634162567(NULL /*static, unused*/, /*hidden argument*/NULL);
 		G_B3_0 = ((int32_t)(L_1));
 		goto IL_0013;
 	}
@@ -9283,14 +9283,14 @@ IL_001a:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		bool L_3 = Input_GetMouseButtonDown_m1121599951(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		bool L_3 = Input_GetMouseButtonDown_m2031691843(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		V_0 = L_3;
 		bool L_4 = V_0;
 		Vector2_t3525329788  L_5 = __this->get_m_MousePosition_13();
 		Vector2_t3525329788  L_6 = __this->get_m_LastMousePosition_12();
-		Vector2_t3525329788  L_7 = Vector2_op_Subtraction_m2849821285(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_7 = Vector2_op_Subtraction_m2097149401(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
 		V_3 = L_7;
-		float L_8 = Vector2_get_sqrMagnitude_m3197579399((&V_3), /*hidden argument*/NULL);
+		float L_8 = Vector2_get_sqrMagnitude_m996072851((&V_3), /*hidden argument*/NULL);
 		V_0 = (bool)((int32_t)((int32_t)L_4|(int32_t)((((float)L_8) > ((float)(0.0f)))? 1 : 0)));
 		bool L_9 = V_0;
 		return L_9;
@@ -9306,23 +9306,23 @@ IL_0058:
 	{
 		int32_t L_10 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		Touch_t1603883884  L_11 = Input_GetTouch_m3954067288(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		Touch_t1603883884  L_11 = Input_GetTouch_m2282421092(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 		V_2 = L_11;
-		int32_t L_12 = Touch_get_phase_m1221088666((&V_2), /*hidden argument*/NULL);
+		int32_t L_12 = Touch_get_phase_m3314549414((&V_2), /*hidden argument*/NULL);
 		if (!L_12)
 		{
 			goto IL_0085;
 		}
 	}
 	{
-		int32_t L_13 = Touch_get_phase_m1221088666((&V_2), /*hidden argument*/NULL);
+		int32_t L_13 = Touch_get_phase_m3314549414((&V_2), /*hidden argument*/NULL);
 		if ((((int32_t)L_13) == ((int32_t)1)))
 		{
 			goto IL_0085;
 		}
 	}
 	{
-		int32_t L_14 = Touch_get_phase_m1221088666((&V_2), /*hidden argument*/NULL);
+		int32_t L_14 = Touch_get_phase_m3314549414((&V_2), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_14) == ((uint32_t)2))))
 		{
 			goto IL_0087;
@@ -9344,7 +9344,7 @@ IL_008b:
 	{
 		int32_t L_16 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		int32_t L_17 = Input_get_touchCount_m3560871514(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_17 = Input_get_touchCount_m1430909390(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_16) < ((int32_t)L_17)))
 		{
 			goto IL_0058;
@@ -9367,7 +9367,7 @@ extern "C"  bool TouchInputModule_UseFakeInput_m1788394586 (TouchInputModule_t22
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		bool L_0 = Input_get_touchSupported_m161388819(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_0 = Input_get_touchSupported_m634162567(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
 }
@@ -9430,7 +9430,7 @@ extern "C"  void TouchInputModule_FakeTouches_m1483201856 (TouchInputModule_t225
 		MouseButtonEventData_t3739491085 * L_6 = V_1;
 		NullCheck(L_6);
 		PointerEventData_t3205101634 * L_7 = L_6->get_buttonData_1();
-		Vector2_t3525329788  L_8 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_8 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_7);
 		PointerEventData_set_delta_m3480102791(L_7, L_8, /*hidden argument*/NULL);
 	}
@@ -9448,7 +9448,7 @@ IL_0030:
 		bool L_14 = MouseButtonEventData_ReleasedThisFrame_m949274724(L_13, /*hidden argument*/NULL);
 		TouchInputModule_ProcessTouchPress_m3277592771(__this, L_10, L_12, L_14, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		bool L_15 = Input_GetMouseButton_m3946985997(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		bool L_15 = Input_GetMouseButton_m4080958081(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		if (!L_15)
 		{
 			goto IL_006b;
@@ -9496,9 +9496,9 @@ IL_0007:
 	{
 		int32_t L_0 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		Touch_t1603883884  L_1 = Input_GetTouch_m3954067288(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Touch_t1603883884  L_1 = Input_GetTouch_m2282421092(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_1 = L_1;
-		int32_t L_2 = Touch_get_type_m1283202992((&V_1), /*hidden argument*/NULL);
+		int32_t L_2 = Touch_get_type_m1428398012((&V_1), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
 		{
 			goto IL_0020;
@@ -9547,7 +9547,7 @@ IL_005e:
 	{
 		int32_t L_13 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		int32_t L_14 = Input_get_touchCount_m3560871514(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_14 = Input_get_touchCount_m1430909390(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_13) < ((int32_t)L_14)))
 		{
 			goto IL_0007;
@@ -9602,7 +9602,7 @@ extern "C"  void TouchInputModule_ProcessTouchPress_m3277592771 (TouchInputModul
 		NullCheck(L_4);
 		PointerEventData_set_eligibleForClick_m4124670100(L_4, (bool)1, /*hidden argument*/NULL);
 		PointerEventData_t3205101634 * L_5 = ___pointerEvent;
-		Vector2_t3525329788  L_6 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_6 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		PointerEventData_set_delta_m3480102791(L_5, L_6, /*hidden argument*/NULL);
 		PointerEventData_t3205101634 * L_7 = ___pointerEvent;
@@ -9630,7 +9630,7 @@ extern "C"  void TouchInputModule_ProcessTouchPress_m3277592771 (TouchInputModul
 		NullCheck(L_17);
 		GameObject_t4012695102 * L_18 = PointerEventData_get_pointerEnter_m1754340511(L_17, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_19 = V_0;
-		bool L_20 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_18, L_19, /*hidden argument*/NULL);
+		bool L_20 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_18, L_19, /*hidden argument*/NULL);
 		if (!L_20)
 		{
 			goto IL_0076;
@@ -9655,7 +9655,7 @@ IL_0076:
 		GameObject_t4012695102 * L_28 = ExecuteEvents_ExecuteHierarchy_TisIPointerDownHandler_t1329431151_m1903343784(NULL /*static, unused*/, L_25, L_26, L_27, /*hidden argument*/ExecuteEvents_ExecuteHierarchy_TisIPointerDownHandler_t1329431151_m1903343784_MethodInfo_var);
 		V_1 = L_28;
 		GameObject_t4012695102 * L_29 = V_1;
-		bool L_30 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_29, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_30 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_29, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_30)
 		{
 			goto IL_0096;
@@ -9670,13 +9670,13 @@ IL_0076:
 
 IL_0096:
 	{
-		float L_33 = Time_get_unscaledTime_m2808282789(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_33 = Time_get_unscaledTime_m319114521(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_2 = L_33;
 		GameObject_t4012695102 * L_34 = V_1;
 		PointerEventData_t3205101634 * L_35 = ___pointerEvent;
 		NullCheck(L_35);
 		GameObject_t4012695102 * L_36 = PointerEventData_get_lastPress_m3682396203(L_35, /*hidden argument*/NULL);
-		bool L_37 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_34, L_36, /*hidden argument*/NULL);
+		bool L_37 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_34, L_36, /*hidden argument*/NULL);
 		if (!L_37)
 		{
 			goto IL_00e7;
@@ -9750,7 +9750,7 @@ IL_00ee:
 		PointerEventData_t3205101634 * L_58 = ___pointerEvent;
 		NullCheck(L_58);
 		GameObject_t4012695102 * L_59 = PointerEventData_get_pointerDrag_m2109300143(L_58, /*hidden argument*/NULL);
-		bool L_60 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_59, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_60 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_59, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_60)
 		{
 			goto IL_0132;
@@ -9789,7 +9789,7 @@ IL_0132:
 		NullCheck(L_72);
 		GameObject_t4012695102 * L_73 = PointerEventData_get_pointerPress_m3028028234(L_72, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_74 = V_4;
-		bool L_75 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_73, L_74, /*hidden argument*/NULL);
+		bool L_75 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_73, L_74, /*hidden argument*/NULL);
 		if (!L_75)
 		{
 			goto IL_0186;
@@ -9820,7 +9820,7 @@ IL_0186:
 		PointerEventData_t3205101634 * L_82 = ___pointerEvent;
 		NullCheck(L_82);
 		GameObject_t4012695102 * L_83 = PointerEventData_get_pointerDrag_m2109300143(L_82, /*hidden argument*/NULL);
-		bool L_84 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_83, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_84 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_83, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_84)
 		{
 			goto IL_01af;
@@ -9857,7 +9857,7 @@ IL_01af:
 		PointerEventData_t3205101634 * L_93 = ___pointerEvent;
 		NullCheck(L_93);
 		GameObject_t4012695102 * L_94 = PointerEventData_get_pointerDrag_m2109300143(L_93, /*hidden argument*/NULL);
-		bool L_95 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_94, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_95 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_94, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_95)
 		{
 			goto IL_01f2;
@@ -9893,7 +9893,7 @@ IL_01f2:
 		PointerEventData_t3205101634 * L_104 = ___pointerEvent;
 		NullCheck(L_104);
 		GameObject_t4012695102 * L_105 = PointerEventData_get_pointerDrag_m2109300143(L_104, /*hidden argument*/NULL);
-		bool L_106 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_105, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_106 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_105, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_106)
 		{
 			goto IL_0223;
@@ -10105,7 +10105,7 @@ IL_0096:
 extern "C"  void UIBehaviour__ctor_m1261553468 (UIBehaviour_t644839684 * __this, const MethodInfo* method)
 {
 	{
-		MonoBehaviour__ctor_m1899368843(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -10148,7 +10148,7 @@ extern "C"  void UIBehaviour_OnDestroy_m3524632117 (UIBehaviour_t644839684 * __t
 extern "C"  bool UIBehaviour_IsActive_m3417391654 (UIBehaviour_t644839684 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = Behaviour_get_isActiveAndEnabled_m76195377(__this, /*hidden argument*/NULL);
+		bool L_0 = Behaviour_get_isActiveAndEnabled_m210167461(__this, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -10198,7 +10198,7 @@ extern "C"  void UIBehaviour_OnCanvasHierarchyChanged_m1210291326 (UIBehaviour_t
 extern "C"  bool UIBehaviour_IsDestroyed_m3027499227 (UIBehaviour_t644839684 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = Object_op_Equality_m2606653020(NULL /*static, unused*/, __this, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_0 = Object_op_Equality_m3964590952(NULL /*static, unused*/, __this, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -10389,7 +10389,7 @@ extern "C"  RectTransform_t3317474837 * AspectRatioFitter_get_rectTransform_m388
 	}
 	{
 		RectTransform_t3317474837 * L_0 = __this->get_m_Rect_4();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001d;
@@ -10428,7 +10428,7 @@ extern "C"  void AspectRatioFitter_OnDisable_m1808005663 (AspectRatioFitter_t834
 	}
 	{
 		DrivenRectTransformTracker_t3675273953 * L_0 = __this->get_address_of_m_Tracker_5();
-		DrivenRectTransformTracker_Clear_m1980961560(L_0, /*hidden argument*/NULL);
+		DrivenRectTransformTracker_Clear_m309315364(L_0, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_1 = AspectRatioFitter_get_rectTransform_m3884626579(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(LayoutRebuilder_t1563460583_il2cpp_TypeInfo_var);
 		LayoutRebuilder_MarkLayoutForRebuild_m901621521(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
@@ -10470,7 +10470,7 @@ extern "C"  void AspectRatioFitter_UpdateRect_m1803770713 (AspectRatioFitter_t83
 IL_000c:
 	{
 		DrivenRectTransformTracker_t3675273953 * L_1 = __this->get_address_of_m_Tracker_5();
-		DrivenRectTransformTracker_Clear_m1980961560(L_1, /*hidden argument*/NULL);
+		DrivenRectTransformTracker_Clear_m309315364(L_1, /*hidden argument*/NULL);
 		int32_t L_2 = __this->get_m_AspectMode_2();
 		V_2 = L_2;
 		int32_t L_3 = V_2;
@@ -10499,16 +10499,16 @@ IL_003b:
 	{
 		DrivenRectTransformTracker_t3675273953 * L_4 = __this->get_address_of_m_Tracker_5();
 		RectTransform_t3317474837 * L_5 = AspectRatioFitter_get_rectTransform_m3884626579(__this, /*hidden argument*/NULL);
-		DrivenRectTransformTracker_Add_m1942874809(L_4, __this, L_5, ((int32_t)4096), /*hidden argument*/NULL);
+		DrivenRectTransformTracker_Add_m3461523141(L_4, __this, L_5, ((int32_t)4096), /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_6 = AspectRatioFitter_get_rectTransform_m3884626579(__this, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_7 = AspectRatioFitter_get_rectTransform_m3884626579(__this, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		Rect_t1525428817  L_8 = RectTransform_get_rect_m1093243288(L_7, /*hidden argument*/NULL);
+		Rect_t1525428817  L_8 = RectTransform_get_rect_m1566017036(L_7, /*hidden argument*/NULL);
 		V_3 = L_8;
-		float L_9 = Rect_get_height_m1395057219((&V_3), /*hidden argument*/NULL);
+		float L_9 = Rect_get_height_m2154960823((&V_3), /*hidden argument*/NULL);
 		float L_10 = __this->get_m_AspectRatio_3();
 		NullCheck(L_6);
-		RectTransform_SetSizeWithCurrentAnchors_m516034895(L_6, 0, ((float)((float)L_9*(float)L_10)), /*hidden argument*/NULL);
+		RectTransform_SetSizeWithCurrentAnchors_m4019722691(L_6, 0, ((float)((float)L_9*(float)L_10)), /*hidden argument*/NULL);
 		goto IL_0188;
 	}
 
@@ -10516,16 +10516,16 @@ IL_007d:
 	{
 		DrivenRectTransformTracker_t3675273953 * L_11 = __this->get_address_of_m_Tracker_5();
 		RectTransform_t3317474837 * L_12 = AspectRatioFitter_get_rectTransform_m3884626579(__this, /*hidden argument*/NULL);
-		DrivenRectTransformTracker_Add_m1942874809(L_11, __this, L_12, ((int32_t)8192), /*hidden argument*/NULL);
+		DrivenRectTransformTracker_Add_m3461523141(L_11, __this, L_12, ((int32_t)8192), /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_13 = AspectRatioFitter_get_rectTransform_m3884626579(__this, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_14 = AspectRatioFitter_get_rectTransform_m3884626579(__this, /*hidden argument*/NULL);
 		NullCheck(L_14);
-		Rect_t1525428817  L_15 = RectTransform_get_rect_m1093243288(L_14, /*hidden argument*/NULL);
+		Rect_t1525428817  L_15 = RectTransform_get_rect_m1566017036(L_14, /*hidden argument*/NULL);
 		V_4 = L_15;
-		float L_16 = Rect_get_width_m2245507084((&V_4), /*hidden argument*/NULL);
+		float L_16 = Rect_get_width_m2824209432((&V_4), /*hidden argument*/NULL);
 		float L_17 = __this->get_m_AspectRatio_3();
 		NullCheck(L_13);
-		RectTransform_SetSizeWithCurrentAnchors_m516034895(L_13, 1, ((float)((float)L_16/(float)L_17)), /*hidden argument*/NULL);
+		RectTransform_SetSizeWithCurrentAnchors_m4019722691(L_13, 1, ((float)((float)L_16/(float)L_17)), /*hidden argument*/NULL);
 		goto IL_0188;
 	}
 
@@ -10533,20 +10533,20 @@ IL_00c0:
 	{
 		DrivenRectTransformTracker_t3675273953 * L_18 = __this->get_address_of_m_Tracker_5();
 		RectTransform_t3317474837 * L_19 = AspectRatioFitter_get_rectTransform_m3884626579(__this, /*hidden argument*/NULL);
-		DrivenRectTransformTracker_Add_m1942874809(L_18, __this, L_19, ((int32_t)16134), /*hidden argument*/NULL);
+		DrivenRectTransformTracker_Add_m3461523141(L_18, __this, L_19, ((int32_t)16134), /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_20 = AspectRatioFitter_get_rectTransform_m3884626579(__this, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_21 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_21 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_20);
-		RectTransform_set_anchorMin_m4070318175(L_20, L_21, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_20, L_21, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_22 = AspectRatioFitter_get_rectTransform_m3884626579(__this, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_23 = Vector2_get_one_m961689804(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_23 = Vector2_get_one_m2767488832(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_22);
-		RectTransform_set_anchorMax_m3796410509(L_22, L_23, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_22, L_23, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_24 = AspectRatioFitter_get_rectTransform_m3884626579(__this, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_25 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_25 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_24);
-		RectTransform_set_anchoredPosition_m246914553(L_24, L_25, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_26 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		RectTransform_set_anchoredPosition_m1498949997(L_24, L_25, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_26 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_26;
 		Vector2_t3525329788  L_27 = AspectRatioFitter_GetParentSize_m642682972(__this, /*hidden argument*/NULL);
 		V_1 = L_27;
@@ -10580,7 +10580,7 @@ IL_0177:
 		RectTransform_t3317474837 * L_38 = AspectRatioFitter_get_rectTransform_m3884626579(__this, /*hidden argument*/NULL);
 		Vector2_t3525329788  L_39 = V_0;
 		NullCheck(L_38);
-		RectTransform_set_sizeDelta_m9944005(L_38, L_39, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_38, L_39, /*hidden argument*/NULL);
 		goto IL_0188;
 	}
 
@@ -10603,19 +10603,19 @@ extern "C"  float AspectRatioFitter_GetSizeDeltaToProduceSize_m1662613595 (Aspec
 		Vector2_t3525329788  L_1 = AspectRatioFitter_GetParentSize_m642682972(__this, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = ___axis;
-		float L_3 = Vector2_get_Item_m980579759((&V_0), L_2, /*hidden argument*/NULL);
+		float L_3 = Vector2_get_Item_m2185542843((&V_0), L_2, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_4 = AspectRatioFitter_get_rectTransform_m3884626579(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		Vector2_t3525329788  L_5 = RectTransform_get_anchorMax_m554473372(L_4, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_5 = RectTransform_get_anchorMax_m688445456(L_4, /*hidden argument*/NULL);
 		V_1 = L_5;
 		int32_t L_6 = ___axis;
-		float L_7 = Vector2_get_Item_m980579759((&V_1), L_6, /*hidden argument*/NULL);
+		float L_7 = Vector2_get_Item_m2185542843((&V_1), L_6, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_8 = AspectRatioFitter_get_rectTransform_m3884626579(__this, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Vector2_t3525329788  L_9 = RectTransform_get_anchorMin_m554702090(L_8, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_9 = RectTransform_get_anchorMin_m688674174(L_8, /*hidden argument*/NULL);
 		V_2 = L_9;
 		int32_t L_10 = ___axis;
-		float L_11 = Vector2_get_Item_m980579759((&V_2), L_10, /*hidden argument*/NULL);
+		float L_11 = Vector2_get_Item_m2185542843((&V_2), L_10, /*hidden argument*/NULL);
 		return ((float)((float)L_0-(float)((float)((float)L_3*(float)((float)((float)L_7-(float)L_11))))));
 	}
 }
@@ -10636,17 +10636,17 @@ extern "C"  Vector2_t3525329788  AspectRatioFitter_GetParentSize_m642682972 (Asp
 	{
 		RectTransform_t3317474837 * L_0 = AspectRatioFitter_get_rectTransform_m3884626579(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Transform_t284553113 * L_1 = Transform_get_parent_m1031913888(L_0, /*hidden argument*/NULL);
+		Transform_t284553113 * L_1 = Transform_get_parent_m2236876972(L_0, /*hidden argument*/NULL);
 		V_0 = ((RectTransform_t3317474837 *)IsInstSealed(L_1, RectTransform_t3317474837_il2cpp_TypeInfo_var));
 		RectTransform_t3317474837 * L_2 = V_0;
-		bool L_3 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		if (L_3)
 		{
 			goto IL_0022;
 		}
 	}
 	{
-		Vector2_t3525329788  L_4 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_4 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return L_4;
 	}
 
@@ -10654,9 +10654,9 @@ IL_0022:
 	{
 		RectTransform_t3317474837 * L_5 = V_0;
 		NullCheck(L_5);
-		Rect_t1525428817  L_6 = RectTransform_get_rect_m1093243288(L_5, /*hidden argument*/NULL);
+		Rect_t1525428817  L_6 = RectTransform_get_rect_m1566017036(L_5, /*hidden argument*/NULL);
 		V_1 = L_6;
-		Vector2_t3525329788  L_7 = Rect_get_size_m2266442540((&V_1), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_7 = Rect_get_size_m136480416((&V_1), /*hidden argument*/NULL);
 		return L_7;
 	}
 }
@@ -10715,7 +10715,7 @@ extern "C"  Graphic_t933884113 * BaseMeshEffect_get_graphic_m2567098443 (BaseMes
 	}
 	{
 		Graphic_t933884113 * L_0 = __this->get_m_Graphic_2();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001d;
@@ -10738,7 +10738,7 @@ extern "C"  void BaseMeshEffect_OnEnable_m1303077354 (BaseMeshEffect_t770218424 
 	{
 		UIBehaviour_OnEnable_m4047103690(__this, /*hidden argument*/NULL);
 		Graphic_t933884113 * L_0 = BaseMeshEffect_get_graphic_m2567098443(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0022;
@@ -10760,7 +10760,7 @@ extern "C"  void BaseMeshEffect_OnDisable_m2181629571 (BaseMeshEffect_t770218424
 {
 	{
 		Graphic_t933884113 * L_0 = BaseMeshEffect_get_graphic_m2567098443(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001c;
@@ -10783,7 +10783,7 @@ extern "C"  void BaseMeshEffect_OnDidApplyAnimationProperties_m4231090115 (BaseM
 {
 	{
 		Graphic_t933884113 * L_0 = BaseMeshEffect_get_graphic_m2567098443(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001c;
@@ -10907,7 +10907,7 @@ extern "C"  void Button__ctor_m3363033049 (Button_t990034267 * __this, const Met
 	}
 }
 // UnityEngine.UI.Button/ButtonClickedEvent UnityEngine.UI.Button::get_onClick()
-extern "C"  ButtonClickedEvent_t962981669 * Button_get_onClick_m1145127631 (Button_t990034267 * __this, const MethodInfo* method)
+extern "C"  ButtonClickedEvent_t962981669 * Button_get_onClick_m99084534 (Button_t990034267 * __this, const MethodInfo* method)
 {
 	{
 		ButtonClickedEvent_t962981669 * L_0 = __this->get_m_OnClick_16();
@@ -10950,7 +10950,7 @@ IL_0017:
 	{
 		ButtonClickedEvent_t962981669 * L_2 = __this->get_m_OnClick_16();
 		NullCheck(L_2);
-		UnityEvent_Invoke_m2527635185(L_2, /*hidden argument*/NULL);
+		UnityEvent_Invoke_m2672830205(L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -11004,7 +11004,7 @@ IL_001d:
 	{
 		VirtActionInvoker2< int32_t, bool >::Invoke(25 /* System.Void UnityEngine.UI.Selectable::DoStateTransition(UnityEngine.UI.Selectable/SelectionState,System.Boolean) */, __this, 2, (bool)0);
 		Il2CppObject * L_2 = Button_OnFinishSubmit_m46760755(__this, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m4099245512(__this, L_2, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -11095,7 +11095,7 @@ IL_0021:
 IL_004a:
 	{
 		float L_5 = __this->get_U3CelapsedTimeU3E__1_1();
-		float L_6 = Time_get_unscaledDeltaTime_m2809521839(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_6 = Time_get_unscaledDeltaTime_m285638843(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->set_U3CelapsedTimeU3E__1_1(((float)((float)L_5+(float)L_6)));
 		__this->set_U24current_3(NULL);
 		__this->set_U24PC_2(1);
@@ -11161,7 +11161,7 @@ extern "C"  void U3COnFinishSubmitU3Ec__Iterator1_Reset_m2240672499 (U3COnFinish
 extern "C"  void ButtonClickedEvent__ctor_m1416137305 (ButtonClickedEvent_t962981669 * __this, const MethodInfo* method)
 {
 	{
-		UnityEvent__ctor_m4204377451(__this, /*hidden argument*/NULL);
+		UnityEvent__ctor_m1715209183(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -11173,7 +11173,7 @@ extern "C"  void CanvasScaler__ctor_m2274485483 (CanvasScaler_t872225289 * __thi
 		__this->set_m_ScaleFactor_5((1.0f));
 		Vector2_t3525329788  L_0;
 		memset(&L_0, 0, sizeof(L_0));
-		Vector2__ctor_m3369031450(&L_0, (800.0f), (600.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_0, (800.0f), (600.0f), /*hidden argument*/NULL);
 		__this->set_m_ReferenceResolution_6(L_0);
 		__this->set_m_PhysicalUnit_9(3);
 		__this->set_m_FallbackScreenDPI_10((96.0f));
@@ -11241,7 +11241,7 @@ extern "C"  void CanvasScaler_set_scaleFactor_m1527181766 (CanvasScaler_t8722252
 	{
 		float L_0 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_1 = Mathf_Max_m2786059995(NULL /*static, unused*/, (0.01f), L_0, /*hidden argument*/NULL);
+		float L_1 = Mathf_Max_m3923796455(NULL /*static, unused*/, (0.01f), L_0, /*hidden argument*/NULL);
 		__this->set_m_ScaleFactor_5(L_1);
 		return;
 	}
@@ -11289,7 +11289,7 @@ extern "C"  void CanvasScaler_set_referenceResolution_m4024849975 (CanvasScaler_
 		Vector2_t3525329788 * L_6 = __this->get_address_of_m_ReferenceResolution_6();
 		float L_7 = L_6->get_x_1();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_8 = Mathf_Sign_m3834536669(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		float L_8 = Mathf_Sign_m4040614993(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 		L_5->set_x_1(((float)((float)(1.0E-05f)*(float)L_8)));
 	}
 
@@ -11315,7 +11315,7 @@ IL_0052:
 		Vector2_t3525329788 * L_14 = __this->get_address_of_m_ReferenceResolution_6();
 		float L_15 = L_14->get_y_2();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_16 = Mathf_Sign_m3834536669(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		float L_16 = Mathf_Sign_m4040614993(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
 		L_13->set_y_2(((float)((float)(1.0E-05f)*(float)L_16)));
 	}
 
@@ -11469,7 +11469,7 @@ extern "C"  void CanvasScaler_Handle_m2195907873 (CanvasScaler_t872225289 * __th
 	int32_t V_0 = 0;
 	{
 		Canvas_t3534013893 * L_0 = __this->get_m_Canvas_13();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_0021;
@@ -11478,7 +11478,7 @@ extern "C"  void CanvasScaler_Handle_m2195907873 (CanvasScaler_t872225289 * __th
 	{
 		Canvas_t3534013893 * L_2 = __this->get_m_Canvas_13();
 		NullCheck(L_2);
-		bool L_3 = Canvas_get_isRootCanvas_m1937171958(L_2, /*hidden argument*/NULL);
+		bool L_3 = Canvas_get_isRootCanvas_m4030632706(L_2, /*hidden argument*/NULL);
 		if (L_3)
 		{
 			goto IL_0022;
@@ -11494,7 +11494,7 @@ IL_0022:
 	{
 		Canvas_t3534013893 * L_4 = __this->get_m_Canvas_13();
 		NullCheck(L_4);
-		int32_t L_5 = Canvas_get_renderMode_m1045800100(L_4, /*hidden argument*/NULL);
+		int32_t L_5 = Canvas_get_renderMode_m3669121200(L_4, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_5) == ((uint32_t)2))))
 		{
 			goto IL_003a;
@@ -11591,9 +11591,9 @@ extern "C"  void CanvasScaler_HandleScaleWithScreenSize_m3412612446 (CanvasScale
 	float V_4 = 0.0f;
 	int32_t V_5 = 0;
 	{
-		int32_t L_0 = Screen_get_width_m2320429480(NULL /*static, unused*/, /*hidden argument*/NULL);
-		int32_t L_1 = Screen_get_height_m3717651495(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector2__ctor_m3369031450((&V_0), (((float)((float)L_0))), (((float)((float)L_1))), /*hidden argument*/NULL);
+		int32_t L_0 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030((&V_0), (((float)((float)L_0))), (((float)((float)L_1))), /*hidden argument*/NULL);
 		V_1 = (0.0f);
 		int32_t L_2 = __this->get_m_ScreenMatchMode_7();
 		V_5 = L_2;
@@ -11621,17 +11621,17 @@ IL_0039:
 		Vector2_t3525329788 * L_5 = __this->get_address_of_m_ReferenceResolution_6();
 		float L_6 = L_5->get_x_1();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_7 = Mathf_Log_m925054203(NULL /*static, unused*/, ((float)((float)L_4/(float)L_6)), (2.0f), /*hidden argument*/NULL);
+		float L_7 = Mathf_Log_m2062790663(NULL /*static, unused*/, ((float)((float)L_4/(float)L_6)), (2.0f), /*hidden argument*/NULL);
 		V_2 = L_7;
 		float L_8 = (&V_0)->get_y_2();
 		Vector2_t3525329788 * L_9 = __this->get_address_of_m_ReferenceResolution_6();
 		float L_10 = L_9->get_y_2();
-		float L_11 = Mathf_Log_m925054203(NULL /*static, unused*/, ((float)((float)L_8/(float)L_10)), (2.0f), /*hidden argument*/NULL);
+		float L_11 = Mathf_Log_m2062790663(NULL /*static, unused*/, ((float)((float)L_8/(float)L_10)), (2.0f), /*hidden argument*/NULL);
 		V_3 = L_11;
 		float L_12 = V_2;
 		float L_13 = V_3;
 		float L_14 = __this->get_m_MatchWidthOrHeight_8();
-		float L_15 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_12, L_13, L_14, /*hidden argument*/NULL);
+		float L_15 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_12, L_13, L_14, /*hidden argument*/NULL);
 		V_4 = L_15;
 		float L_16 = V_4;
 		float L_17 = powf((2.0f), L_16);
@@ -11648,7 +11648,7 @@ IL_0096:
 		Vector2_t3525329788 * L_22 = __this->get_address_of_m_ReferenceResolution_6();
 		float L_23 = L_22->get_y_2();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_24 = Mathf_Min_m1184330925(NULL /*static, unused*/, ((float)((float)L_18/(float)L_20)), ((float)((float)L_21/(float)L_23)), /*hidden argument*/NULL);
+		float L_24 = Mathf_Min_m2322067385(NULL /*static, unused*/, ((float)((float)L_18/(float)L_20)), ((float)((float)L_21/(float)L_23)), /*hidden argument*/NULL);
 		V_1 = L_24;
 		goto IL_00f8;
 	}
@@ -11662,7 +11662,7 @@ IL_00c7:
 		Vector2_t3525329788 * L_29 = __this->get_address_of_m_ReferenceResolution_6();
 		float L_30 = L_29->get_y_2();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_31 = Mathf_Max_m2786059995(NULL /*static, unused*/, ((float)((float)L_25/(float)L_27)), ((float)((float)L_28/(float)L_30)), /*hidden argument*/NULL);
+		float L_31 = Mathf_Max_m3923796455(NULL /*static, unused*/, ((float)((float)L_25/(float)L_27)), ((float)((float)L_28/(float)L_30)), /*hidden argument*/NULL);
 		V_1 = L_31;
 		goto IL_00f8;
 	}
@@ -11685,7 +11685,7 @@ extern "C"  void CanvasScaler_HandleConstantPhysicalSize_m1320301949 (CanvasScal
 	int32_t V_3 = 0;
 	float G_B3_0 = 0.0f;
 	{
-		float L_0 = Screen_get_dpi_m3201366811(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_0 = Screen_get_dpi_m3780069159(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		float L_1 = V_0;
 		if ((!(((float)L_1) == ((float)(0.0f)))))
@@ -11799,7 +11799,7 @@ IL_000d:
 		Canvas_t3534013893 * L_2 = __this->get_m_Canvas_13();
 		float L_3 = ___scaleFactor;
 		NullCheck(L_2);
-		Canvas_set_scaleFactor_m2072464744(L_2, L_3, /*hidden argument*/NULL);
+		Canvas_set_scaleFactor_m2206436828(L_2, L_3, /*hidden argument*/NULL);
 		float L_4 = ___scaleFactor;
 		__this->set_m_PrevScaleFactor_14(L_4);
 		return;
@@ -11825,7 +11825,7 @@ IL_000d:
 		Canvas_t3534013893 * L_2 = __this->get_m_Canvas_13();
 		float L_3 = ___referencePixelsPerUnit;
 		NullCheck(L_2);
-		Canvas_set_referencePixelsPerUnit_m696804362(L_2, L_3, /*hidden argument*/NULL);
+		Canvas_set_referencePixelsPerUnit_m1910706966(L_2, L_3, /*hidden argument*/NULL);
 		float L_4 = ___referencePixelsPerUnit;
 		__this->set_m_PrevReferencePixelsPerUnit_15(L_4);
 		return;
@@ -11856,8 +11856,8 @@ extern "C"  void CanvasUpdateRegistry__ctor_m4143486701 (CanvasUpdateRegistry_t2
 		IntPtr_t L_2;
 		L_2.set_m_value_0((void*)CanvasUpdateRegistry_PerformUpdate_m4284602133_MethodInfo_var);
 		WillRenderCanvases_t1153522766 * L_3 = (WillRenderCanvases_t1153522766 *)il2cpp_codegen_object_new(WillRenderCanvases_t1153522766_il2cpp_TypeInfo_var);
-		WillRenderCanvases__ctor_m151347842(L_3, __this, L_2, /*hidden argument*/NULL);
-		Canvas_add_willRenderCanvases_m1817923645(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		WillRenderCanvases__ctor_m1509285774(L_3, __this, L_2, /*hidden argument*/NULL);
+		Canvas_add_willRenderCanvases_m716439881(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -11943,7 +11943,7 @@ extern "C"  bool CanvasUpdateRegistry_ObjectValidForUpdate_m3662506294 (CanvasUp
 	}
 	{
 		Il2CppObject * L_3 = ___element;
-		bool L_4 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, ((Object_t3878351788 *)IsInstClass(L_3, Object_t3878351788_il2cpp_TypeInfo_var)), (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, ((Object_t3878351788 *)IsInstClass(L_3, Object_t3878351788_il2cpp_TypeInfo_var)), (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		V_0 = L_4;
 	}
 
@@ -12200,7 +12200,7 @@ CATCH_0054:
 		NullCheck(L_11);
 		Transform_t284553113 * L_12 = InterfaceFuncInvoker0< Transform_t284553113 * >::Invoke(1 /* UnityEngine.Transform UnityEngine.UI.ICanvasElement::get_transform() */, ICanvasElement_t4007944900_il2cpp_TypeInfo_var, L_11);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_LogException_m1012636867(NULL /*static, unused*/, L_10, L_12, /*hidden argument*/NULL);
+		Debug_LogException_m2264672311(NULL /*static, unused*/, L_10, L_12, /*hidden argument*/NULL);
 		goto IL_0066;
 	} // end catch (depth: 1)
 
@@ -12339,7 +12339,7 @@ CATCH_011d:
 		NullCheck(L_41);
 		Transform_t284553113 * L_42 = InterfaceFuncInvoker0< Transform_t284553113 * >::Invoke(1 /* UnityEngine.Transform UnityEngine.UI.ICanvasElement::get_transform() */, ICanvasElement_t4007944900_il2cpp_TypeInfo_var, L_41);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_LogException_m1012636867(NULL /*static, unused*/, L_37, L_42, /*hidden argument*/NULL);
+		Debug_LogException_m2264672311(NULL /*static, unused*/, L_37, L_42, /*hidden argument*/NULL);
 		goto IL_0141;
 	} // end catch (depth: 1)
 
@@ -12422,7 +12422,7 @@ extern "C"  int32_t CanvasUpdateRegistry_ParentCount_m1557937541 (Il2CppObject *
 	int32_t V_1 = 0;
 	{
 		Transform_t284553113 * L_0 = ___child;
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_000e;
@@ -12436,7 +12436,7 @@ IL_000e:
 	{
 		Transform_t284553113 * L_2 = ___child;
 		NullCheck(L_2);
-		Transform_t284553113 * L_3 = Transform_get_parent_m1031913888(L_2, /*hidden argument*/NULL);
+		Transform_t284553113 * L_3 = Transform_get_parent_m2236876972(L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
 		V_1 = 0;
 		goto IL_0027;
@@ -12448,14 +12448,14 @@ IL_001c:
 		V_1 = ((int32_t)((int32_t)L_4+(int32_t)1));
 		Transform_t284553113 * L_5 = V_0;
 		NullCheck(L_5);
-		Transform_t284553113 * L_6 = Transform_get_parent_m1031913888(L_5, /*hidden argument*/NULL);
+		Transform_t284553113 * L_6 = Transform_get_parent_m2236876972(L_5, /*hidden argument*/NULL);
 		V_0 = L_6;
 	}
 
 IL_0027:
 	{
 		Transform_t284553113 * L_7 = V_0;
-		bool L_8 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_7, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_8 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_7, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_8)
 		{
 			goto IL_001c;
@@ -12637,7 +12637,7 @@ extern "C"  bool CanvasUpdateRegistry_InternalRegisterCanvasElementForGraphicReb
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_2 = String_Format_m2471250780(NULL /*static, unused*/, _stringLiteral768334199, L_1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_LogError_m3654569246(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		return (bool)0;
 	}
 
@@ -12701,7 +12701,7 @@ extern "C"  void CanvasUpdateRegistry_InternalUnRegisterCanvasElementForLayoutRe
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_2 = String_Format_m2471250780(NULL /*static, unused*/, _stringLiteral3699612055, L_1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_LogError_m3654569246(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		return;
 	}
 
@@ -12747,7 +12747,7 @@ extern "C"  void CanvasUpdateRegistry_InternalUnRegisterCanvasElementForGraphicR
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_2 = String_Format_m2471250780(NULL /*static, unused*/, _stringLiteral3699612055, L_1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_LogError_m3654569246(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		return;
 	}
 
@@ -13025,14 +13025,14 @@ IL_0044:
 		}
 	}
 	{
-		float L_17 = Rect_get_width_m2245507084((&V_0), /*hidden argument*/NULL);
+		float L_17 = Rect_get_width_m2824209432((&V_0), /*hidden argument*/NULL);
 		if ((((float)L_17) <= ((float)(0.0f))))
 		{
 			goto IL_0074;
 		}
 	}
 	{
-		float L_18 = Rect_get_height_m1395057219((&V_0), /*hidden argument*/NULL);
+		float L_18 = Rect_get_height_m2154960823((&V_0), /*hidden argument*/NULL);
 		G_B8_0 = ((((int32_t)((!(((float)L_18) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		goto IL_0075;
 	}
@@ -13061,14 +13061,14 @@ IL_0075:
 
 IL_008a:
 	{
-		float L_22 = Rect_get_x_m2320486590((&V_0), /*hidden argument*/NULL);
-		float L_23 = Rect_get_y_m2320487551((&V_0), /*hidden argument*/NULL);
-		Vector3__ctor_m2767817280((&V_3), L_22, L_23, (0.0f), /*hidden argument*/NULL);
-		float L_24 = Rect_get_x_m2320486590((&V_0), /*hidden argument*/NULL);
-		float L_25 = Rect_get_width_m2245507084((&V_0), /*hidden argument*/NULL);
-		float L_26 = Rect_get_y_m2320487551((&V_0), /*hidden argument*/NULL);
-		float L_27 = Rect_get_height_m1395057219((&V_0), /*hidden argument*/NULL);
-		Vector3__ctor_m2767817280((&V_4), ((float)((float)L_24+(float)L_25)), ((float)((float)L_26+(float)L_27)), (0.0f), /*hidden argument*/NULL);
+		float L_22 = Rect_get_x_m982385354((&V_0), /*hidden argument*/NULL);
+		float L_23 = Rect_get_y_m982386315((&V_0), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380((&V_3), L_22, L_23, (0.0f), /*hidden argument*/NULL);
+		float L_24 = Rect_get_x_m982385354((&V_0), /*hidden argument*/NULL);
+		float L_25 = Rect_get_width_m2824209432((&V_0), /*hidden argument*/NULL);
+		float L_26 = Rect_get_y_m982386315((&V_0), /*hidden argument*/NULL);
+		float L_27 = Rect_get_height_m2154960823((&V_0), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380((&V_4), ((float)((float)L_24+(float)L_25)), ((float)((float)L_26+(float)L_27)), (0.0f), /*hidden argument*/NULL);
 		bool* L_28 = ___validRect;
 		*((int8_t*)(L_28)) = (int8_t)1;
 		float L_29 = (&V_3)->get_x_1();
@@ -13079,7 +13079,7 @@ IL_008a:
 		float L_34 = (&V_3)->get_y_2();
 		Rect_t1525428817  L_35;
 		memset(&L_35, 0, sizeof(L_35));
-		Rect__ctor_m833004989(&L_35, L_29, L_30, ((float)((float)L_31-(float)L_32)), ((float)((float)L_33-(float)L_34)), /*hidden argument*/NULL);
+		Rect__ctor_m3291325233(&L_35, L_29, L_30, ((float)((float)L_31-(float)L_32)), ((float)((float)L_33-(float)L_34)), /*hidden argument*/NULL);
 		return L_35;
 	}
 }
@@ -13099,26 +13099,26 @@ extern "C"  Rect_t1525428817  Clipping_RectIntersect_m2589422792 (Il2CppObject *
 	float V_2 = 0.0f;
 	float V_3 = 0.0f;
 	{
-		float L_0 = Rect_get_x_m2320486590((&___a), /*hidden argument*/NULL);
-		float L_1 = Rect_get_x_m2320486590((&___b), /*hidden argument*/NULL);
+		float L_0 = Rect_get_x_m982385354((&___a), /*hidden argument*/NULL);
+		float L_1 = Rect_get_x_m982385354((&___b), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_2 = Mathf_Max_m2786059995(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		float L_2 = Mathf_Max_m3923796455(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
-		float L_3 = Rect_get_x_m2320486590((&___a), /*hidden argument*/NULL);
-		float L_4 = Rect_get_width_m2245507084((&___a), /*hidden argument*/NULL);
-		float L_5 = Rect_get_x_m2320486590((&___b), /*hidden argument*/NULL);
-		float L_6 = Rect_get_width_m2245507084((&___b), /*hidden argument*/NULL);
-		float L_7 = Mathf_Min_m1184330925(NULL /*static, unused*/, ((float)((float)L_3+(float)L_4)), ((float)((float)L_5+(float)L_6)), /*hidden argument*/NULL);
+		float L_3 = Rect_get_x_m982385354((&___a), /*hidden argument*/NULL);
+		float L_4 = Rect_get_width_m2824209432((&___a), /*hidden argument*/NULL);
+		float L_5 = Rect_get_x_m982385354((&___b), /*hidden argument*/NULL);
+		float L_6 = Rect_get_width_m2824209432((&___b), /*hidden argument*/NULL);
+		float L_7 = Mathf_Min_m2322067385(NULL /*static, unused*/, ((float)((float)L_3+(float)L_4)), ((float)((float)L_5+(float)L_6)), /*hidden argument*/NULL);
 		V_1 = L_7;
-		float L_8 = Rect_get_y_m2320487551((&___a), /*hidden argument*/NULL);
-		float L_9 = Rect_get_y_m2320487551((&___b), /*hidden argument*/NULL);
-		float L_10 = Mathf_Max_m2786059995(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
+		float L_8 = Rect_get_y_m982386315((&___a), /*hidden argument*/NULL);
+		float L_9 = Rect_get_y_m982386315((&___b), /*hidden argument*/NULL);
+		float L_10 = Mathf_Max_m3923796455(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
 		V_2 = L_10;
-		float L_11 = Rect_get_y_m2320487551((&___a), /*hidden argument*/NULL);
-		float L_12 = Rect_get_height_m1395057219((&___a), /*hidden argument*/NULL);
-		float L_13 = Rect_get_y_m2320487551((&___b), /*hidden argument*/NULL);
-		float L_14 = Rect_get_height_m1395057219((&___b), /*hidden argument*/NULL);
-		float L_15 = Mathf_Min_m1184330925(NULL /*static, unused*/, ((float)((float)L_11+(float)L_12)), ((float)((float)L_13+(float)L_14)), /*hidden argument*/NULL);
+		float L_11 = Rect_get_y_m982386315((&___a), /*hidden argument*/NULL);
+		float L_12 = Rect_get_height_m2154960823((&___a), /*hidden argument*/NULL);
+		float L_13 = Rect_get_y_m982386315((&___b), /*hidden argument*/NULL);
+		float L_14 = Rect_get_height_m2154960823((&___b), /*hidden argument*/NULL);
+		float L_15 = Mathf_Min_m2322067385(NULL /*static, unused*/, ((float)((float)L_11+(float)L_12)), ((float)((float)L_13+(float)L_14)), /*hidden argument*/NULL);
 		V_3 = L_15;
 		float L_16 = V_1;
 		float L_17 = V_0;
@@ -13144,7 +13144,7 @@ extern "C"  Rect_t1525428817  Clipping_RectIntersect_m2589422792 (Il2CppObject *
 		float L_25 = V_2;
 		Rect_t1525428817  L_26;
 		memset(&L_26, 0, sizeof(L_26));
-		Rect__ctor_m833004989(&L_26, L_20, L_21, ((float)((float)L_22-(float)L_23)), ((float)((float)L_24-(float)L_25)), /*hidden argument*/NULL);
+		Rect__ctor_m3291325233(&L_26, L_20, L_21, ((float)((float)L_22-(float)L_23)), ((float)((float)L_24-(float)L_25)), /*hidden argument*/NULL);
 		return L_26;
 	}
 
@@ -13152,7 +13152,7 @@ IL_008c:
 	{
 		Rect_t1525428817  L_27;
 		memset(&L_27, 0, sizeof(L_27));
-		Rect__ctor_m833004989(&L_27, (0.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Rect__ctor_m3291325233(&L_27, (0.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
 		return L_27;
 	}
 }
@@ -13279,23 +13279,23 @@ extern "C"  ColorBlock_t2245020947  ColorBlock_get_defaultColorBlock_m533915527 
 		V_1 = L_0;
 		Color32_t4137084207  L_1;
 		memset(&L_1, 0, sizeof(L_1));
-		Color32__ctor_m1268611671(&L_1, ((int32_t)255), ((int32_t)255), ((int32_t)255), ((int32_t)255), /*hidden argument*/NULL);
-		Color_t1588175760  L_2 = Color32_op_Implicit_m3561662204(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		Color32__ctor_m576906339(&L_1, ((int32_t)255), ((int32_t)255), ((int32_t)255), ((int32_t)255), /*hidden argument*/NULL);
+		Color_t1588175760  L_2 = Color32_op_Implicit_m358459656(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		(&V_1)->set_m_NormalColor_0(L_2);
 		Color32_t4137084207  L_3;
 		memset(&L_3, 0, sizeof(L_3));
-		Color32__ctor_m1268611671(&L_3, ((int32_t)245), ((int32_t)245), ((int32_t)245), ((int32_t)255), /*hidden argument*/NULL);
-		Color_t1588175760  L_4 = Color32_op_Implicit_m3561662204(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		Color32__ctor_m576906339(&L_3, ((int32_t)245), ((int32_t)245), ((int32_t)245), ((int32_t)255), /*hidden argument*/NULL);
+		Color_t1588175760  L_4 = Color32_op_Implicit_m358459656(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		(&V_1)->set_m_HighlightedColor_1(L_4);
 		Color32_t4137084207  L_5;
 		memset(&L_5, 0, sizeof(L_5));
-		Color32__ctor_m1268611671(&L_5, ((int32_t)200), ((int32_t)200), ((int32_t)200), ((int32_t)255), /*hidden argument*/NULL);
-		Color_t1588175760  L_6 = Color32_op_Implicit_m3561662204(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		Color32__ctor_m576906339(&L_5, ((int32_t)200), ((int32_t)200), ((int32_t)200), ((int32_t)255), /*hidden argument*/NULL);
+		Color_t1588175760  L_6 = Color32_op_Implicit_m358459656(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		(&V_1)->set_m_PressedColor_2(L_6);
 		Color32_t4137084207  L_7;
 		memset(&L_7, 0, sizeof(L_7));
-		Color32__ctor_m1268611671(&L_7, ((int32_t)200), ((int32_t)200), ((int32_t)200), ((int32_t)128), /*hidden argument*/NULL);
-		Color_t1588175760  L_8 = Color32_op_Implicit_m3561662204(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		Color32__ctor_m576906339(&L_7, ((int32_t)200), ((int32_t)200), ((int32_t)200), ((int32_t)128), /*hidden argument*/NULL);
+		Color_t1588175760  L_8 = Color32_op_Implicit_m358459656(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 		(&V_1)->set_m_DisabledColor_3(L_8);
 		ColorBlock_set_colorMultiplier_m1029562789((&V_1), (1.0f), /*hidden argument*/NULL);
 		ColorBlock_set_fadeDuration_m1171991323((&V_1), (0.1f), /*hidden argument*/NULL);
@@ -13341,7 +13341,7 @@ extern "C"  bool ColorBlock_Equals_m3761062129 (ColorBlock_t2245020947 * __this,
 	{
 		Color_t1588175760  L_0 = ColorBlock_get_normalColor_m1021113593(__this, /*hidden argument*/NULL);
 		Color_t1588175760  L_1 = ColorBlock_get_normalColor_m1021113593((&___other), /*hidden argument*/NULL);
-		bool L_2 = Color_op_Equality_m3548058080(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		bool L_2 = Color_op_Equality_m4163276884(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_007f;
@@ -13350,7 +13350,7 @@ extern "C"  bool ColorBlock_Equals_m3761062129 (ColorBlock_t2245020947 * __this,
 	{
 		Color_t1588175760  L_3 = ColorBlock_get_highlightedColor_m2834784533(__this, /*hidden argument*/NULL);
 		Color_t1588175760  L_4 = ColorBlock_get_highlightedColor_m2834784533((&___other), /*hidden argument*/NULL);
-		bool L_5 = Color_op_Equality_m3548058080(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		bool L_5 = Color_op_Equality_m4163276884(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_007f;
@@ -13359,7 +13359,7 @@ extern "C"  bool ColorBlock_Equals_m3761062129 (ColorBlock_t2245020947 * __this,
 	{
 		Color_t1588175760  L_6 = ColorBlock_get_pressedColor_m2014354534(__this, /*hidden argument*/NULL);
 		Color_t1588175760  L_7 = ColorBlock_get_pressedColor_m2014354534((&___other), /*hidden argument*/NULL);
-		bool L_8 = Color_op_Equality_m3548058080(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		bool L_8 = Color_op_Equality_m4163276884(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
 		if (!L_8)
 		{
 			goto IL_007f;
@@ -13368,7 +13368,7 @@ extern "C"  bool ColorBlock_Equals_m3761062129 (ColorBlock_t2245020947 * __this,
 	{
 		Color_t1588175760  L_9 = ColorBlock_get_disabledColor_m2484721348(__this, /*hidden argument*/NULL);
 		Color_t1588175760  L_10 = ColorBlock_get_disabledColor_m2484721348((&___other), /*hidden argument*/NULL);
-		bool L_11 = Color_op_Equality_m3548058080(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		bool L_11 = Color_op_Equality_m4163276884(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
 		if (!L_11)
 		{
 			goto IL_007f;
@@ -13617,7 +13617,7 @@ extern "C"  RectTransform_t3317474837 * ContentSizeFitter_get_rectTransform_m109
 	}
 	{
 		RectTransform_t3317474837 * L_0 = __this->get_m_Rect_4();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001d;
@@ -13656,7 +13656,7 @@ extern "C"  void ContentSizeFitter_OnDisable_m2552366392 (ContentSizeFitter_t168
 	}
 	{
 		DrivenRectTransformTracker_t3675273953 * L_0 = __this->get_address_of_m_Tracker_5();
-		DrivenRectTransformTracker_Clear_m1980961560(L_0, /*hidden argument*/NULL);
+		DrivenRectTransformTracker_Clear_m309315364(L_0, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_1 = ContentSizeFitter_get_rectTransform_m1096586412(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(LayoutRebuilder_t1563460583_il2cpp_TypeInfo_var);
 		LayoutRebuilder_MarkLayoutForRebuild_m901621521(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
@@ -13753,7 +13753,7 @@ IL_003c:
 
 IL_0041:
 	{
-		DrivenRectTransformTracker_Add_m1942874809(G_B8_3, G_B8_2, G_B8_1, G_B8_0, /*hidden argument*/NULL);
+		DrivenRectTransformTracker_Add_m3461523141(G_B8_3, G_B8_2, G_B8_1, G_B8_0, /*hidden argument*/NULL);
 		int32_t L_7 = V_0;
 		if ((!(((uint32_t)L_7) == ((uint32_t)1))))
 		{
@@ -13767,7 +13767,7 @@ IL_0041:
 		int32_t L_11 = ___axis;
 		float L_12 = LayoutUtility_GetMinSize_m220738634(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		RectTransform_SetSizeWithCurrentAnchors_m516034895(L_8, L_9, L_12, /*hidden argument*/NULL);
+		RectTransform_SetSizeWithCurrentAnchors_m4019722691(L_8, L_9, L_12, /*hidden argument*/NULL);
 		goto IL_0082;
 	}
 
@@ -13779,7 +13779,7 @@ IL_006a:
 		int32_t L_16 = ___axis;
 		float L_17 = LayoutUtility_GetPreferredSize_m889669625(NULL /*static, unused*/, L_15, L_16, /*hidden argument*/NULL);
 		NullCheck(L_13);
-		RectTransform_SetSizeWithCurrentAnchors_m516034895(L_13, L_14, L_17, /*hidden argument*/NULL);
+		RectTransform_SetSizeWithCurrentAnchors_m4019722691(L_13, L_14, L_17, /*hidden argument*/NULL);
 	}
 
 IL_0082:
@@ -13792,7 +13792,7 @@ extern "C"  void ContentSizeFitter_SetLayoutHorizontal_m629859679 (ContentSizeFi
 {
 	{
 		DrivenRectTransformTracker_t3675273953 * L_0 = __this->get_address_of_m_Tracker_5();
-		DrivenRectTransformTracker_Clear_m1980961560(L_0, /*hidden argument*/NULL);
+		DrivenRectTransformTracker_Clear_m309315364(L_0, /*hidden argument*/NULL);
 		ContentSizeFitter_HandleSelfFittingAlongAxis_m2083972471(__this, 0, /*hidden argument*/NULL);
 		return;
 	}
@@ -13949,7 +13949,7 @@ IL_000c:
 		Color_t1588175760  L_1 = __this->get_m_StartColor_1();
 		Color_t1588175760  L_2 = __this->get_m_TargetColor_2();
 		float L_3 = ___floatPercentage;
-		Color_t1588175760  L_4 = Color_Lerp_m1036308601(NULL /*static, unused*/, L_1, L_2, L_3, /*hidden argument*/NULL);
+		Color_t1588175760  L_4 = Color_Lerp_m3494628845(NULL /*static, unused*/, L_1, L_2, L_3, /*hidden argument*/NULL);
 		V_0 = L_4;
 		int32_t L_5 = __this->get_m_TweenMode_3();
 		if ((!(((uint32_t)L_5) == ((uint32_t)2))))
@@ -14165,7 +14165,7 @@ IL_000c:
 		float L_2 = __this->get_m_TargetValue_2();
 		float L_3 = ___floatPercentage;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_4 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_1, L_2, L_3, /*hidden argument*/NULL);
+		float L_4 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_1, L_2, L_3, /*hidden argument*/NULL);
 		V_0 = L_4;
 		FloatTweenCallback_t2670964468 * L_5 = __this->get_m_Target_0();
 		float L_6 = V_0;
@@ -14262,27 +14262,27 @@ extern "C"  void DefaultControls__cctor_m1303793449 (Il2CppObject * __this /* st
 	{
 		Vector2_t3525329788  L_0;
 		memset(&L_0, 0, sizeof(L_0));
-		Vector2__ctor_m3369031450(&L_0, (160.0f), (30.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_0, (160.0f), (30.0f), /*hidden argument*/NULL);
 		((DefaultControls_t3717991936_StaticFields*)DefaultControls_t3717991936_il2cpp_TypeInfo_var->static_fields)->set_s_ThickElementSize_3(L_0);
 		Vector2_t3525329788  L_1;
 		memset(&L_1, 0, sizeof(L_1));
-		Vector2__ctor_m3369031450(&L_1, (160.0f), (20.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_1, (160.0f), (20.0f), /*hidden argument*/NULL);
 		((DefaultControls_t3717991936_StaticFields*)DefaultControls_t3717991936_il2cpp_TypeInfo_var->static_fields)->set_s_ThinElementSize_4(L_1);
 		Vector2_t3525329788  L_2;
 		memset(&L_2, 0, sizeof(L_2));
-		Vector2__ctor_m3369031450(&L_2, (100.0f), (100.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_2, (100.0f), (100.0f), /*hidden argument*/NULL);
 		((DefaultControls_t3717991936_StaticFields*)DefaultControls_t3717991936_il2cpp_TypeInfo_var->static_fields)->set_s_ImageElementSize_5(L_2);
 		Color_t1588175760  L_3;
 		memset(&L_3, 0, sizeof(L_3));
-		Color__ctor_m3354408120(&L_3, (1.0f), (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		Color__ctor_m2252924356(&L_3, (1.0f), (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
 		((DefaultControls_t3717991936_StaticFields*)DefaultControls_t3717991936_il2cpp_TypeInfo_var->static_fields)->set_s_DefaultSelectableColor_6(L_3);
 		Color_t1588175760  L_4;
 		memset(&L_4, 0, sizeof(L_4));
-		Color__ctor_m3354408120(&L_4, (1.0f), (1.0f), (1.0f), (0.392f), /*hidden argument*/NULL);
+		Color__ctor_m2252924356(&L_4, (1.0f), (1.0f), (1.0f), (0.392f), /*hidden argument*/NULL);
 		((DefaultControls_t3717991936_StaticFields*)DefaultControls_t3717991936_il2cpp_TypeInfo_var->static_fields)->set_s_PanelColor_7(L_4);
 		Color_t1588175760  L_5;
 		memset(&L_5, 0, sizeof(L_5));
-		Color__ctor_m3354408120(&L_5, (0.196078435f), (0.196078435f), (0.196078435f), (1.0f), /*hidden argument*/NULL);
+		Color__ctor_m2252924356(&L_5, (0.196078435f), (0.196078435f), (0.196078435f), (1.0f), /*hidden argument*/NULL);
 		((DefaultControls_t3717991936_StaticFields*)DefaultControls_t3717991936_il2cpp_TypeInfo_var->static_fields)->set_s_TextColor_8(L_5);
 		return;
 	}
@@ -14304,7 +14304,7 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateUIElementRoot_m335662
 	{
 		String_t* L_0 = ___name;
 		GameObject_t4012695102 * L_1 = (GameObject_t4012695102 *)il2cpp_codegen_object_new(GameObject_t4012695102_il2cpp_TypeInfo_var);
-		GameObject__ctor_m556827858(L_1, L_0, /*hidden argument*/NULL);
+		GameObject__ctor_m3920833606(L_1, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		GameObject_t4012695102 * L_2 = V_0;
 		NullCheck(L_2);
@@ -14313,7 +14313,7 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateUIElementRoot_m335662
 		RectTransform_t3317474837 * L_4 = V_1;
 		Vector2_t3525329788  L_5 = ___size;
 		NullCheck(L_4);
-		RectTransform_set_sizeDelta_m9944005(L_4, L_5, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_4, L_5, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_6 = V_0;
 		return L_6;
 	}
@@ -14335,7 +14335,7 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateUIObject_m1826457530 
 	{
 		String_t* L_0 = ___name;
 		GameObject_t4012695102 * L_1 = (GameObject_t4012695102 *)il2cpp_codegen_object_new(GameObject_t4012695102_il2cpp_TypeInfo_var);
-		GameObject__ctor_m556827858(L_1, L_0, /*hidden argument*/NULL);
+		GameObject__ctor_m3920833606(L_1, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		GameObject_t4012695102 * L_2 = V_0;
 		NullCheck(L_2);
@@ -14380,15 +14380,15 @@ extern "C"  void DefaultControls_SetDefaultColorTransitionValues_m2995057500 (Il
 		V_0 = L_1;
 		Color_t1588175760  L_2;
 		memset(&L_2, 0, sizeof(L_2));
-		Color__ctor_m201656083(&L_2, (0.882f), (0.882f), (0.882f), /*hidden argument*/NULL);
+		Color__ctor_m103496991(&L_2, (0.882f), (0.882f), (0.882f), /*hidden argument*/NULL);
 		ColorBlock_set_highlightedColor_m4179336310((&V_0), L_2, /*hidden argument*/NULL);
 		Color_t1588175760  L_3;
 		memset(&L_3, 0, sizeof(L_3));
-		Color__ctor_m201656083(&L_3, (0.698f), (0.698f), (0.698f), /*hidden argument*/NULL);
+		Color__ctor_m103496991(&L_3, (0.698f), (0.698f), (0.698f), /*hidden argument*/NULL);
 		ColorBlock_set_pressedColor_m830240709((&V_0), L_3, /*hidden argument*/NULL);
 		Color_t1588175760  L_4;
 		memset(&L_4, 0, sizeof(L_4));
-		Color__ctor_m201656083(&L_4, (0.521f), (0.521f), (0.521f), /*hidden argument*/NULL);
+		Color__ctor_m103496991(&L_4, (0.521f), (0.521f), (0.521f), /*hidden argument*/NULL);
 		ColorBlock_set_disabledColor_m215468861((&V_0), L_4, /*hidden argument*/NULL);
 		return;
 	}
@@ -14406,7 +14406,7 @@ extern "C"  void DefaultControls_SetParentAndAlign_m867848490 (Il2CppObject * __
 	}
 	{
 		GameObject_t4012695102 * L_0 = ___parent;
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_000d;
@@ -14420,16 +14420,16 @@ IL_000d:
 	{
 		GameObject_t4012695102 * L_2 = ___child;
 		NullCheck(L_2);
-		Transform_t284553113 * L_3 = GameObject_get_transform_m1412865811(L_2, /*hidden argument*/NULL);
+		Transform_t284553113 * L_3 = GameObject_get_transform_m1278640159(L_2, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_4 = ___parent;
 		NullCheck(L_4);
-		Transform_t284553113 * L_5 = GameObject_get_transform_m1412865811(L_4, /*hidden argument*/NULL);
+		Transform_t284553113 * L_5 = GameObject_get_transform_m1278640159(L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		Transform_SetParent_m3943734371(L_3, L_5, (bool)0, /*hidden argument*/NULL);
+		Transform_SetParent_m263985879(L_3, L_5, (bool)0, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_6 = ___child;
 		GameObject_t4012695102 * L_7 = ___parent;
 		NullCheck(L_7);
-		int32_t L_8 = GameObject_get_layer_m3778512430(L_7, /*hidden argument*/NULL);
+		int32_t L_8 = GameObject_get_layer_m1648550306(L_7, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DefaultControls_t3717991936_il2cpp_TypeInfo_var);
 		DefaultControls_SetLayerRecursively_m2948337421(NULL /*static, unused*/, L_6, L_8, /*hidden argument*/NULL);
 		return;
@@ -14452,10 +14452,10 @@ extern "C"  void DefaultControls_SetLayerRecursively_m2948337421 (Il2CppObject *
 		GameObject_t4012695102 * L_0 = ___go;
 		int32_t L_1 = ___layer;
 		NullCheck(L_0);
-		GameObject_set_layer_m3543887731(L_0, L_1, /*hidden argument*/NULL);
+		GameObject_set_layer_m1872241535(L_0, L_1, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_2 = ___go;
 		NullCheck(L_2);
-		Transform_t284553113 * L_3 = GameObject_get_transform_m1412865811(L_2, /*hidden argument*/NULL);
+		Transform_t284553113 * L_3 = GameObject_get_transform_m1278640159(L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
 		V_1 = 0;
 		goto IL_002b;
@@ -14466,9 +14466,9 @@ IL_0015:
 		Transform_t284553113 * L_4 = V_0;
 		int32_t L_5 = V_1;
 		NullCheck(L_4);
-		Transform_t284553113 * L_6 = Transform_GetChild_m1597418116(L_4, L_5, /*hidden argument*/NULL);
+		Transform_t284553113 * L_6 = Transform_GetChild_m4040462992(L_4, L_5, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		GameObject_t4012695102 * L_7 = Component_get_gameObject_m1036663815(L_6, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_7 = Component_get_gameObject_m1170635899(L_6, /*hidden argument*/NULL);
 		int32_t L_8 = ___layer;
 		IL2CPP_RUNTIME_CLASS_INIT(DefaultControls_t3717991936_il2cpp_TypeInfo_var);
 		DefaultControls_SetLayerRecursively_m2948337421(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
@@ -14481,7 +14481,7 @@ IL_002b:
 		int32_t L_10 = V_1;
 		Transform_t284553113 * L_11 = V_0;
 		NullCheck(L_11);
-		int32_t L_12 = Transform_get_childCount_m1901732351(L_11, /*hidden argument*/NULL);
+		int32_t L_12 = Transform_get_childCount_m2107810675(L_11, /*hidden argument*/NULL);
 		if ((((int32_t)L_10) < ((int32_t)L_12)))
 		{
 			goto IL_0015;
@@ -14518,21 +14518,21 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreatePanel_m131101809 (Il2
 		RectTransform_t3317474837 * L_3 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_2, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
 		V_1 = L_3;
 		RectTransform_t3317474837 * L_4 = V_1;
-		Vector2_t3525329788  L_5 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_5 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		RectTransform_set_anchorMin_m4070318175(L_4, L_5, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_4, L_5, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_6 = V_1;
-		Vector2_t3525329788  L_7 = Vector2_get_one_m961689804(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_7 = Vector2_get_one_m2767488832(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		RectTransform_set_anchorMax_m3796410509(L_6, L_7, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_6, L_7, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_8 = V_1;
-		Vector2_t3525329788  L_9 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_9 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		RectTransform_set_anchoredPosition_m246914553(L_8, L_9, /*hidden argument*/NULL);
+		RectTransform_set_anchoredPosition_m1498949997(L_8, L_9, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_10 = V_1;
-		Vector2_t3525329788  L_11 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_11 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		RectTransform_set_sizeDelta_m9944005(L_10, L_11, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_10, L_11, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_12 = V_0;
 		NullCheck(L_12);
 		Image_t3354615620 * L_13 = GameObject_AddComponent_TisImage_t3354615620_m3664949437(L_12, /*hidden argument*/GameObject_AddComponent_TisImage_t3354615620_m3664949437_MethodInfo_var);
@@ -14582,7 +14582,7 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateButton_m2909407539 (I
 		GameObject_t4012695102 * L_1 = DefaultControls_CreateUIElementRoot_m335662421(NULL /*static, unused*/, _stringLiteral2001146706, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		GameObject_t4012695102 * L_2 = (GameObject_t4012695102 *)il2cpp_codegen_object_new(GameObject_t4012695102_il2cpp_TypeInfo_var);
-		GameObject__ctor_m556827858(L_2, _stringLiteral2603341, /*hidden argument*/NULL);
+		GameObject__ctor_m3920833606(L_2, _stringLiteral2603341, /*hidden argument*/NULL);
 		V_1 = L_2;
 		GameObject_t4012695102 * L_3 = V_1;
 		GameObject_t4012695102 * L_4 = V_0;
@@ -14625,17 +14625,17 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateButton_m2909407539 (I
 		RectTransform_t3317474837 * L_21 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_20, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
 		V_5 = L_21;
 		RectTransform_t3317474837 * L_22 = V_5;
-		Vector2_t3525329788  L_23 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_23 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_22);
-		RectTransform_set_anchorMin_m4070318175(L_22, L_23, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_22, L_23, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_24 = V_5;
-		Vector2_t3525329788  L_25 = Vector2_get_one_m961689804(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_25 = Vector2_get_one_m2767488832(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_24);
-		RectTransform_set_anchorMax_m3796410509(L_24, L_25, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_24, L_25, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_26 = V_5;
-		Vector2_t3525329788  L_27 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_27 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_26);
-		RectTransform_set_sizeDelta_m9944005(L_26, L_27, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_26, L_27, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_28 = V_0;
 		return L_28;
 	}
@@ -14803,21 +14803,21 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateSlider_m3090010146 (I
 		RectTransform_t3317474837 * L_21 = V_7;
 		Vector2_t3525329788  L_22;
 		memset(&L_22, 0, sizeof(L_22));
-		Vector2__ctor_m3369031450(&L_22, (0.0f), (0.25f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_22, (0.0f), (0.25f), /*hidden argument*/NULL);
 		NullCheck(L_21);
-		RectTransform_set_anchorMin_m4070318175(L_21, L_22, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_21, L_22, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_23 = V_7;
 		Vector2_t3525329788  L_24;
 		memset(&L_24, 0, sizeof(L_24));
-		Vector2__ctor_m3369031450(&L_24, (1.0f), (0.75f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_24, (1.0f), (0.75f), /*hidden argument*/NULL);
 		NullCheck(L_23);
-		RectTransform_set_anchorMax_m3796410509(L_23, L_24, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_23, L_24, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_25 = V_7;
 		Vector2_t3525329788  L_26;
 		memset(&L_26, 0, sizeof(L_26));
-		Vector2__ctor_m3369031450(&L_26, (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_26, (0.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_25);
-		RectTransform_set_sizeDelta_m9944005(L_25, L_26, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_25, L_26, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_27 = V_2;
 		NullCheck(L_27);
 		RectTransform_t3317474837 * L_28 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_27, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
@@ -14825,27 +14825,27 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateSlider_m3090010146 (I
 		RectTransform_t3317474837 * L_29 = V_8;
 		Vector2_t3525329788  L_30;
 		memset(&L_30, 0, sizeof(L_30));
-		Vector2__ctor_m3369031450(&L_30, (0.0f), (0.25f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_30, (0.0f), (0.25f), /*hidden argument*/NULL);
 		NullCheck(L_29);
-		RectTransform_set_anchorMin_m4070318175(L_29, L_30, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_29, L_30, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_31 = V_8;
 		Vector2_t3525329788  L_32;
 		memset(&L_32, 0, sizeof(L_32));
-		Vector2__ctor_m3369031450(&L_32, (1.0f), (0.75f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_32, (1.0f), (0.75f), /*hidden argument*/NULL);
 		NullCheck(L_31);
-		RectTransform_set_anchorMax_m3796410509(L_31, L_32, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_31, L_32, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_33 = V_8;
 		Vector2_t3525329788  L_34;
 		memset(&L_34, 0, sizeof(L_34));
-		Vector2__ctor_m3369031450(&L_34, (-5.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_34, (-5.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_33);
-		RectTransform_set_anchoredPosition_m246914553(L_33, L_34, /*hidden argument*/NULL);
+		RectTransform_set_anchoredPosition_m1498949997(L_33, L_34, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_35 = V_8;
 		Vector2_t3525329788  L_36;
 		memset(&L_36, 0, sizeof(L_36));
-		Vector2__ctor_m3369031450(&L_36, (-20.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_36, (-20.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_35);
-		RectTransform_set_sizeDelta_m9944005(L_35, L_36, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_35, L_36, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_37 = V_3;
 		NullCheck(L_37);
 		Image_t3354615620 * L_38 = GameObject_AddComponent_TisImage_t3354615620_m3664949437(L_37, /*hidden argument*/GameObject_AddComponent_TisImage_t3354615620_m3664949437_MethodInfo_var);
@@ -14868,9 +14868,9 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateSlider_m3090010146 (I
 		RectTransform_t3317474837 * L_46 = V_10;
 		Vector2_t3525329788  L_47;
 		memset(&L_47, 0, sizeof(L_47));
-		Vector2__ctor_m3369031450(&L_47, (10.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_47, (10.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_46);
-		RectTransform_set_sizeDelta_m9944005(L_46, L_47, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_46, L_47, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_48 = V_4;
 		NullCheck(L_48);
 		RectTransform_t3317474837 * L_49 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_48, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
@@ -14878,21 +14878,21 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateSlider_m3090010146 (I
 		RectTransform_t3317474837 * L_50 = V_11;
 		Vector2_t3525329788  L_51;
 		memset(&L_51, 0, sizeof(L_51));
-		Vector2__ctor_m3369031450(&L_51, (-20.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_51, (-20.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_50);
-		RectTransform_set_sizeDelta_m9944005(L_50, L_51, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_50, L_51, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_52 = V_11;
 		Vector2_t3525329788  L_53;
 		memset(&L_53, 0, sizeof(L_53));
-		Vector2__ctor_m3369031450(&L_53, (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_53, (0.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_52);
-		RectTransform_set_anchorMin_m4070318175(L_52, L_53, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_52, L_53, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_54 = V_11;
 		Vector2_t3525329788  L_55;
 		memset(&L_55, 0, sizeof(L_55));
-		Vector2__ctor_m3369031450(&L_55, (1.0f), (1.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_55, (1.0f), (1.0f), /*hidden argument*/NULL);
 		NullCheck(L_54);
-		RectTransform_set_anchorMax_m3796410509(L_54, L_55, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_54, L_55, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_56 = V_5;
 		NullCheck(L_56);
 		Image_t3354615620 * L_57 = GameObject_AddComponent_TisImage_t3354615620_m3664949437(L_56, /*hidden argument*/GameObject_AddComponent_TisImage_t3354615620_m3664949437_MethodInfo_var);
@@ -14912,9 +14912,9 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateSlider_m3090010146 (I
 		RectTransform_t3317474837 * L_64 = V_13;
 		Vector2_t3525329788  L_65;
 		memset(&L_65, 0, sizeof(L_65));
-		Vector2__ctor_m3369031450(&L_65, (20.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_65, (20.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_64);
-		RectTransform_set_sizeDelta_m9944005(L_64, L_65, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_64, L_65, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_66 = V_0;
 		NullCheck(L_66);
 		Slider_t1468074762 * L_67 = GameObject_AddComponent_TisSlider_t1468074762_m2027542053(L_66, /*hidden argument*/GameObject_AddComponent_TisSlider_t1468074762_m2027542053_MethodInfo_var);
@@ -15017,17 +15017,17 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateScrollbar_m2399849235
 		RectTransform_t3317474837 * L_22 = V_5;
 		Vector2_t3525329788  L_23;
 		memset(&L_23, 0, sizeof(L_23));
-		Vector2__ctor_m3369031450(&L_23, (-20.0f), (-20.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_23, (-20.0f), (-20.0f), /*hidden argument*/NULL);
 		NullCheck(L_22);
-		RectTransform_set_sizeDelta_m9944005(L_22, L_23, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_22, L_23, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_24 = V_5;
-		Vector2_t3525329788  L_25 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_25 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_24);
-		RectTransform_set_anchorMin_m4070318175(L_24, L_25, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_24, L_25, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_26 = V_5;
-		Vector2_t3525329788  L_27 = Vector2_get_one_m961689804(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_27 = Vector2_get_one_m2767488832(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_26);
-		RectTransform_set_anchorMax_m3796410509(L_26, L_27, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_26, L_27, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_28 = V_2;
 		NullCheck(L_28);
 		RectTransform_t3317474837 * L_29 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_28, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
@@ -15035,9 +15035,9 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateScrollbar_m2399849235
 		RectTransform_t3317474837 * L_30 = V_6;
 		Vector2_t3525329788  L_31;
 		memset(&L_31, 0, sizeof(L_31));
-		Vector2__ctor_m3369031450(&L_31, (20.0f), (20.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_31, (20.0f), (20.0f), /*hidden argument*/NULL);
 		NullCheck(L_30);
-		RectTransform_set_sizeDelta_m9944005(L_30, L_31, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_30, L_31, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_32 = V_0;
 		NullCheck(L_32);
 		Scrollbar_t1410649103 * L_33 = GameObject_AddComponent_TisScrollbar_t1410649103_m567367570(L_32, /*hidden argument*/GameObject_AddComponent_TisScrollbar_t1410649103_m567367570_MethodInfo_var);
@@ -15156,27 +15156,27 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateToggle_m1602114261 (I
 		RectTransform_t3317474837 * L_33 = V_8;
 		Vector2_t3525329788  L_34;
 		memset(&L_34, 0, sizeof(L_34));
-		Vector2__ctor_m3369031450(&L_34, (0.0f), (1.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_34, (0.0f), (1.0f), /*hidden argument*/NULL);
 		NullCheck(L_33);
-		RectTransform_set_anchorMin_m4070318175(L_33, L_34, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_33, L_34, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_35 = V_8;
 		Vector2_t3525329788  L_36;
 		memset(&L_36, 0, sizeof(L_36));
-		Vector2__ctor_m3369031450(&L_36, (0.0f), (1.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_36, (0.0f), (1.0f), /*hidden argument*/NULL);
 		NullCheck(L_35);
-		RectTransform_set_anchorMax_m3796410509(L_35, L_36, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_35, L_36, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_37 = V_8;
 		Vector2_t3525329788  L_38;
 		memset(&L_38, 0, sizeof(L_38));
-		Vector2__ctor_m3369031450(&L_38, (10.0f), (-10.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_38, (10.0f), (-10.0f), /*hidden argument*/NULL);
 		NullCheck(L_37);
-		RectTransform_set_anchoredPosition_m246914553(L_37, L_38, /*hidden argument*/NULL);
+		RectTransform_set_anchoredPosition_m1498949997(L_37, L_38, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_39 = V_8;
 		Vector2_t3525329788  L_40;
 		memset(&L_40, 0, sizeof(L_40));
-		Vector2__ctor_m3369031450(&L_40, (20.0f), (20.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_40, (20.0f), (20.0f), /*hidden argument*/NULL);
 		NullCheck(L_39);
-		RectTransform_set_sizeDelta_m9944005(L_39, L_40, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_39, L_40, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_41 = V_2;
 		NullCheck(L_41);
 		RectTransform_t3317474837 * L_42 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_41, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
@@ -15184,25 +15184,25 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateToggle_m1602114261 (I
 		RectTransform_t3317474837 * L_43 = V_9;
 		Vector2_t3525329788  L_44;
 		memset(&L_44, 0, sizeof(L_44));
-		Vector2__ctor_m3369031450(&L_44, (0.5f), (0.5f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_44, (0.5f), (0.5f), /*hidden argument*/NULL);
 		NullCheck(L_43);
-		RectTransform_set_anchorMin_m4070318175(L_43, L_44, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_43, L_44, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_45 = V_9;
 		Vector2_t3525329788  L_46;
 		memset(&L_46, 0, sizeof(L_46));
-		Vector2__ctor_m3369031450(&L_46, (0.5f), (0.5f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_46, (0.5f), (0.5f), /*hidden argument*/NULL);
 		NullCheck(L_45);
-		RectTransform_set_anchorMax_m3796410509(L_45, L_46, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_45, L_46, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_47 = V_9;
-		Vector2_t3525329788  L_48 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_48 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_47);
-		RectTransform_set_anchoredPosition_m246914553(L_47, L_48, /*hidden argument*/NULL);
+		RectTransform_set_anchoredPosition_m1498949997(L_47, L_48, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_49 = V_9;
 		Vector2_t3525329788  L_50;
 		memset(&L_50, 0, sizeof(L_50));
-		Vector2__ctor_m3369031450(&L_50, (20.0f), (20.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_50, (20.0f), (20.0f), /*hidden argument*/NULL);
 		NullCheck(L_49);
-		RectTransform_set_sizeDelta_m9944005(L_49, L_50, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_49, L_50, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_51 = V_3;
 		NullCheck(L_51);
 		RectTransform_t3317474837 * L_52 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_51, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
@@ -15210,27 +15210,27 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateToggle_m1602114261 (I
 		RectTransform_t3317474837 * L_53 = V_10;
 		Vector2_t3525329788  L_54;
 		memset(&L_54, 0, sizeof(L_54));
-		Vector2__ctor_m3369031450(&L_54, (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_54, (0.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_53);
-		RectTransform_set_anchorMin_m4070318175(L_53, L_54, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_53, L_54, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_55 = V_10;
 		Vector2_t3525329788  L_56;
 		memset(&L_56, 0, sizeof(L_56));
-		Vector2__ctor_m3369031450(&L_56, (1.0f), (1.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_56, (1.0f), (1.0f), /*hidden argument*/NULL);
 		NullCheck(L_55);
-		RectTransform_set_anchorMax_m3796410509(L_55, L_56, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_55, L_56, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_57 = V_10;
 		Vector2_t3525329788  L_58;
 		memset(&L_58, 0, sizeof(L_58));
-		Vector2__ctor_m3369031450(&L_58, (23.0f), (1.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_58, (23.0f), (1.0f), /*hidden argument*/NULL);
 		NullCheck(L_57);
-		RectTransform_set_offsetMin_m4032858173(L_57, L_58, /*hidden argument*/NULL);
+		RectTransform_set_offsetMin_m951793481(L_57, L_58, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_59 = V_10;
 		Vector2_t3525329788  L_60;
 		memset(&L_60, 0, sizeof(L_60));
-		Vector2__ctor_m3369031450(&L_60, (-5.0f), (-2.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_60, (-5.0f), (-2.0f), /*hidden argument*/NULL);
 		NullCheck(L_59);
-		RectTransform_set_offsetMax_m3758950507(L_59, L_60, /*hidden argument*/NULL);
+		RectTransform_set_offsetMax_m677885815(L_59, L_60, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_61 = V_0;
 		return L_61;
 	}
@@ -15338,57 +15338,57 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateInputField_m381389998
 		RectTransform_t3317474837 * L_33 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_32, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
 		V_8 = L_33;
 		RectTransform_t3317474837 * L_34 = V_8;
-		Vector2_t3525329788  L_35 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_35 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_34);
-		RectTransform_set_anchorMin_m4070318175(L_34, L_35, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_34, L_35, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_36 = V_8;
-		Vector2_t3525329788  L_37 = Vector2_get_one_m961689804(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_37 = Vector2_get_one_m2767488832(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_36);
-		RectTransform_set_anchorMax_m3796410509(L_36, L_37, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_36, L_37, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_38 = V_8;
-		Vector2_t3525329788  L_39 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_39 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_38);
-		RectTransform_set_sizeDelta_m9944005(L_38, L_39, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_38, L_39, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_40 = V_8;
 		Vector2_t3525329788  L_41;
 		memset(&L_41, 0, sizeof(L_41));
-		Vector2__ctor_m3369031450(&L_41, (10.0f), (6.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_41, (10.0f), (6.0f), /*hidden argument*/NULL);
 		NullCheck(L_40);
-		RectTransform_set_offsetMin_m4032858173(L_40, L_41, /*hidden argument*/NULL);
+		RectTransform_set_offsetMin_m951793481(L_40, L_41, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_42 = V_8;
 		Vector2_t3525329788  L_43;
 		memset(&L_43, 0, sizeof(L_43));
-		Vector2__ctor_m3369031450(&L_43, (-10.0f), (-7.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_43, (-10.0f), (-7.0f), /*hidden argument*/NULL);
 		NullCheck(L_42);
-		RectTransform_set_offsetMax_m3758950507(L_42, L_43, /*hidden argument*/NULL);
+		RectTransform_set_offsetMax_m677885815(L_42, L_43, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_44 = V_1;
 		NullCheck(L_44);
 		RectTransform_t3317474837 * L_45 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_44, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
 		V_9 = L_45;
 		RectTransform_t3317474837 * L_46 = V_9;
-		Vector2_t3525329788  L_47 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_47 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_46);
-		RectTransform_set_anchorMin_m4070318175(L_46, L_47, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_46, L_47, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_48 = V_9;
-		Vector2_t3525329788  L_49 = Vector2_get_one_m961689804(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_49 = Vector2_get_one_m2767488832(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_48);
-		RectTransform_set_anchorMax_m3796410509(L_48, L_49, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_48, L_49, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_50 = V_9;
-		Vector2_t3525329788  L_51 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_51 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_50);
-		RectTransform_set_sizeDelta_m9944005(L_50, L_51, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_50, L_51, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_52 = V_9;
 		Vector2_t3525329788  L_53;
 		memset(&L_53, 0, sizeof(L_53));
-		Vector2__ctor_m3369031450(&L_53, (10.0f), (6.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_53, (10.0f), (6.0f), /*hidden argument*/NULL);
 		NullCheck(L_52);
-		RectTransform_set_offsetMin_m4032858173(L_52, L_53, /*hidden argument*/NULL);
+		RectTransform_set_offsetMin_m951793481(L_52, L_53, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_54 = V_9;
 		Vector2_t3525329788  L_55;
 		memset(&L_55, 0, sizeof(L_55));
-		Vector2__ctor_m3369031450(&L_55, (-10.0f), (-7.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_55, (-10.0f), (-7.0f), /*hidden argument*/NULL);
 		NullCheck(L_54);
-		RectTransform_set_offsetMax_m3758950507(L_54, L_55, /*hidden argument*/NULL);
+		RectTransform_set_offsetMax_m677885815(L_54, L_55, /*hidden argument*/NULL);
 		InputField_t2345609593 * L_56 = V_4;
 		Text_t3286458198 * L_57 = V_5;
 		NullCheck(L_56);
@@ -15510,7 +15510,7 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateDropdown_m481152210 (
 		V_10 = L_21;
 		GameObject_t4012695102 * L_22 = V_10;
 		NullCheck(L_22);
-		Object_set_name_m3647401496(L_22, _stringLiteral2421761542, /*hidden argument*/NULL);
+		Object_set_name_m1123518500(L_22, _stringLiteral2421761542, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_23 = V_10;
 		GameObject_t4012695102 * L_24 = V_3;
 		DefaultControls_SetParentAndAlign_m867848490(NULL /*static, unused*/, L_23, L_24, /*hidden argument*/NULL);
@@ -15526,28 +15526,28 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateDropdown_m481152210 (
 		RectTransform_t3317474837 * L_29 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_28, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
 		V_12 = L_29;
 		RectTransform_t3317474837 * L_30 = V_12;
-		Vector2_t3525329788  L_31 = Vector2_get_right_m3289125314(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_31 = Vector2_get_right_m3495203638(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_30);
-		RectTransform_set_anchorMin_m4070318175(L_30, L_31, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_30, L_31, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_32 = V_12;
-		Vector2_t3525329788  L_33 = Vector2_get_one_m961689804(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_33 = Vector2_get_one_m2767488832(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_32);
-		RectTransform_set_anchorMax_m3796410509(L_32, L_33, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_32, L_33, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_34 = V_12;
-		Vector2_t3525329788  L_35 = Vector2_get_one_m961689804(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_35 = Vector2_get_one_m2767488832(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_34);
-		RectTransform_set_pivot_m2038329882(L_34, L_35, /*hidden argument*/NULL);
+		RectTransform_set_pivot_m457344806(L_34, L_35, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_36 = V_12;
 		RectTransform_t3317474837 * L_37 = V_12;
 		NullCheck(L_37);
-		Vector2_t3525329788  L_38 = RectTransform_get_sizeDelta_m4145452900(L_37, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_38 = RectTransform_get_sizeDelta_m4279424984(L_37, /*hidden argument*/NULL);
 		V_34 = L_38;
 		float L_39 = (&V_34)->get_x_1();
 		Vector2_t3525329788  L_40;
 		memset(&L_40, 0, sizeof(L_40));
-		Vector2__ctor_m3369031450(&L_40, L_39, (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_40, L_39, (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_36);
-		RectTransform_set_sizeDelta_m9944005(L_36, L_40, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_36, L_40, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_41 = V_9;
 		NullCheck(L_41);
 		Text_t3286458198 * L_42 = GameObject_AddComponent_TisText_t3286458198_m3161596953(L_41, /*hidden argument*/GameObject_AddComponent_TisText_t3286458198_m3161596953_MethodInfo_var);
@@ -15564,8 +15564,8 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateDropdown_m481152210 (
 		Image_t3354615620 * L_47 = V_14;
 		Color32_t4137084207  L_48;
 		memset(&L_48, 0, sizeof(L_48));
-		Color32__ctor_m1268611671(&L_48, ((int32_t)245), ((int32_t)245), ((int32_t)245), ((int32_t)255), /*hidden argument*/NULL);
-		Color_t1588175760  L_49 = Color32_op_Implicit_m3561662204(NULL /*static, unused*/, L_48, /*hidden argument*/NULL);
+		Color32__ctor_m576906339(&L_48, ((int32_t)245), ((int32_t)245), ((int32_t)245), ((int32_t)255), /*hidden argument*/NULL);
+		Color_t1588175760  L_49 = Color32_op_Implicit_m358459656(NULL /*static, unused*/, L_48, /*hidden argument*/NULL);
 		NullCheck(L_47);
 		Graphic_set_color_m1311501487(L_47, L_49, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_50 = V_8;
@@ -15609,13 +15609,13 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateDropdown_m481152210 (
 		ScrollRect_t1048578170 * L_68 = V_18;
 		GameObject_t4012695102 * L_69 = V_5;
 		NullCheck(L_69);
-		Transform_t284553113 * L_70 = GameObject_get_transform_m1412865811(L_69, /*hidden argument*/NULL);
+		Transform_t284553113 * L_70 = GameObject_get_transform_m1278640159(L_69, /*hidden argument*/NULL);
 		NullCheck(L_68);
 		ScrollRect_set_content_m234982541(L_68, ((RectTransform_t3317474837 *)CastclassSealed(L_70, RectTransform_t3317474837_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		ScrollRect_t1048578170 * L_71 = V_18;
 		GameObject_t4012695102 * L_72 = V_4;
 		NullCheck(L_72);
-		Transform_t284553113 * L_73 = GameObject_get_transform_m1412865811(L_72, /*hidden argument*/NULL);
+		Transform_t284553113 * L_73 = GameObject_get_transform_m1278640159(L_72, /*hidden argument*/NULL);
 		NullCheck(L_71);
 		ScrollRect_set_viewport_m1031184500(L_71, ((RectTransform_t3317474837 *)CastclassSealed(L_73, RectTransform_t3317474837_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		ScrollRect_t1048578170 * L_74 = V_18;
@@ -15713,7 +15713,7 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateDropdown_m481152210 (
 		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_115, _stringLiteral4280592246);
 		Dropdown_t2916437562 * L_116 = V_24;
 		NullCheck(L_116);
-		List_1_t4163512024 * L_117 = Dropdown_get_options_m399918042(L_116, /*hidden argument*/NULL);
+		List_1_t4163512024 * L_117 = Dropdown_get_options_m2855573715(L_116, /*hidden argument*/NULL);
 		OptionData_t3366553055 * L_118 = (OptionData_t3366553055 *)il2cpp_codegen_object_new(OptionData_t3366553055_il2cpp_TypeInfo_var);
 		OptionData__ctor_m2550995262(L_118, /*hidden argument*/NULL);
 		V_35 = L_118;
@@ -15725,7 +15725,7 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateDropdown_m481152210 (
 		VirtActionInvoker1< OptionData_t3366553055 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::Add(!0) */, L_117, L_120);
 		Dropdown_t2916437562 * L_121 = V_24;
 		NullCheck(L_121);
-		List_1_t4163512024 * L_122 = Dropdown_get_options_m399918042(L_121, /*hidden argument*/NULL);
+		List_1_t4163512024 * L_122 = Dropdown_get_options_m2855573715(L_121, /*hidden argument*/NULL);
 		OptionData_t3366553055 * L_123 = (OptionData_t3366553055 *)il2cpp_codegen_object_new(OptionData_t3366553055_il2cpp_TypeInfo_var);
 		OptionData__ctor_m2550995262(L_123, /*hidden argument*/NULL);
 		V_35 = L_123;
@@ -15737,7 +15737,7 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateDropdown_m481152210 (
 		VirtActionInvoker1< OptionData_t3366553055 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::Add(!0) */, L_122, L_125);
 		Dropdown_t2916437562 * L_126 = V_24;
 		NullCheck(L_126);
-		List_1_t4163512024 * L_127 = Dropdown_get_options_m399918042(L_126, /*hidden argument*/NULL);
+		List_1_t4163512024 * L_127 = Dropdown_get_options_m2855573715(L_126, /*hidden argument*/NULL);
 		OptionData_t3366553055 * L_128 = (OptionData_t3366553055 *)il2cpp_codegen_object_new(OptionData_t3366553055_il2cpp_TypeInfo_var);
 		OptionData__ctor_m2550995262(L_128, /*hidden argument*/NULL);
 		V_35 = L_128;
@@ -15749,31 +15749,31 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateDropdown_m481152210 (
 		VirtActionInvoker1< OptionData_t3366553055 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::Add(!0) */, L_127, L_130);
 		Dropdown_t2916437562 * L_131 = V_24;
 		NullCheck(L_131);
-		Dropdown_RefreshShownValue_m9458643(L_131, /*hidden argument*/NULL);
+		Dropdown_RefreshShownValue_m955925324(L_131, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_132 = V_1;
 		NullCheck(L_132);
 		RectTransform_t3317474837 * L_133 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_132, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
 		V_25 = L_133;
 		RectTransform_t3317474837 * L_134 = V_25;
-		Vector2_t3525329788  L_135 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_135 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_134);
-		RectTransform_set_anchorMin_m4070318175(L_134, L_135, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_134, L_135, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_136 = V_25;
-		Vector2_t3525329788  L_137 = Vector2_get_one_m961689804(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_137 = Vector2_get_one_m2767488832(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_136);
-		RectTransform_set_anchorMax_m3796410509(L_136, L_137, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_136, L_137, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_138 = V_25;
 		Vector2_t3525329788  L_139;
 		memset(&L_139, 0, sizeof(L_139));
-		Vector2__ctor_m3369031450(&L_139, (10.0f), (6.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_139, (10.0f), (6.0f), /*hidden argument*/NULL);
 		NullCheck(L_138);
-		RectTransform_set_offsetMin_m4032858173(L_138, L_139, /*hidden argument*/NULL);
+		RectTransform_set_offsetMin_m951793481(L_138, L_139, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_140 = V_25;
 		Vector2_t3525329788  L_141;
 		memset(&L_141, 0, sizeof(L_141));
-		Vector2__ctor_m3369031450(&L_141, (-25.0f), (-7.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_141, (-25.0f), (-7.0f), /*hidden argument*/NULL);
 		NullCheck(L_140);
-		RectTransform_set_offsetMax_m3758950507(L_140, L_141, /*hidden argument*/NULL);
+		RectTransform_set_offsetMax_m677885815(L_140, L_141, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_142 = V_2;
 		NullCheck(L_142);
 		RectTransform_t3317474837 * L_143 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_142, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
@@ -15781,27 +15781,27 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateDropdown_m481152210 (
 		RectTransform_t3317474837 * L_144 = V_26;
 		Vector2_t3525329788  L_145;
 		memset(&L_145, 0, sizeof(L_145));
-		Vector2__ctor_m3369031450(&L_145, (1.0f), (0.5f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_145, (1.0f), (0.5f), /*hidden argument*/NULL);
 		NullCheck(L_144);
-		RectTransform_set_anchorMin_m4070318175(L_144, L_145, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_144, L_145, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_146 = V_26;
 		Vector2_t3525329788  L_147;
 		memset(&L_147, 0, sizeof(L_147));
-		Vector2__ctor_m3369031450(&L_147, (1.0f), (0.5f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_147, (1.0f), (0.5f), /*hidden argument*/NULL);
 		NullCheck(L_146);
-		RectTransform_set_anchorMax_m3796410509(L_146, L_147, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_146, L_147, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_148 = V_26;
 		Vector2_t3525329788  L_149;
 		memset(&L_149, 0, sizeof(L_149));
-		Vector2__ctor_m3369031450(&L_149, (20.0f), (20.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_149, (20.0f), (20.0f), /*hidden argument*/NULL);
 		NullCheck(L_148);
-		RectTransform_set_sizeDelta_m9944005(L_148, L_149, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_148, L_149, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_150 = V_26;
 		Vector2_t3525329788  L_151;
 		memset(&L_151, 0, sizeof(L_151));
-		Vector2__ctor_m3369031450(&L_151, (-15.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_151, (-15.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_150);
-		RectTransform_set_anchoredPosition_m246914553(L_150, L_151, /*hidden argument*/NULL);
+		RectTransform_set_anchoredPosition_m1498949997(L_150, L_151, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_152 = V_3;
 		NullCheck(L_152);
 		RectTransform_t3317474837 * L_153 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_152, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
@@ -15809,33 +15809,33 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateDropdown_m481152210 (
 		RectTransform_t3317474837 * L_154 = V_27;
 		Vector2_t3525329788  L_155;
 		memset(&L_155, 0, sizeof(L_155));
-		Vector2__ctor_m3369031450(&L_155, (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_155, (0.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_154);
-		RectTransform_set_anchorMin_m4070318175(L_154, L_155, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_154, L_155, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_156 = V_27;
 		Vector2_t3525329788  L_157;
 		memset(&L_157, 0, sizeof(L_157));
-		Vector2__ctor_m3369031450(&L_157, (1.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_157, (1.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_156);
-		RectTransform_set_anchorMax_m3796410509(L_156, L_157, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_156, L_157, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_158 = V_27;
 		Vector2_t3525329788  L_159;
 		memset(&L_159, 0, sizeof(L_159));
-		Vector2__ctor_m3369031450(&L_159, (0.5f), (1.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_159, (0.5f), (1.0f), /*hidden argument*/NULL);
 		NullCheck(L_158);
-		RectTransform_set_pivot_m2038329882(L_158, L_159, /*hidden argument*/NULL);
+		RectTransform_set_pivot_m457344806(L_158, L_159, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_160 = V_27;
 		Vector2_t3525329788  L_161;
 		memset(&L_161, 0, sizeof(L_161));
-		Vector2__ctor_m3369031450(&L_161, (0.0f), (2.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_161, (0.0f), (2.0f), /*hidden argument*/NULL);
 		NullCheck(L_160);
-		RectTransform_set_anchoredPosition_m246914553(L_160, L_161, /*hidden argument*/NULL);
+		RectTransform_set_anchoredPosition_m1498949997(L_160, L_161, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_162 = V_27;
 		Vector2_t3525329788  L_163;
 		memset(&L_163, 0, sizeof(L_163));
-		Vector2__ctor_m3369031450(&L_163, (0.0f), (150.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_163, (0.0f), (150.0f), /*hidden argument*/NULL);
 		NullCheck(L_162);
-		RectTransform_set_sizeDelta_m9944005(L_162, L_163, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_162, L_163, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_164 = V_4;
 		NullCheck(L_164);
 		RectTransform_t3317474837 * L_165 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_164, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
@@ -15843,27 +15843,27 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateDropdown_m481152210 (
 		RectTransform_t3317474837 * L_166 = V_28;
 		Vector2_t3525329788  L_167;
 		memset(&L_167, 0, sizeof(L_167));
-		Vector2__ctor_m3369031450(&L_167, (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_167, (0.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_166);
-		RectTransform_set_anchorMin_m4070318175(L_166, L_167, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_166, L_167, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_168 = V_28;
 		Vector2_t3525329788  L_169;
 		memset(&L_169, 0, sizeof(L_169));
-		Vector2__ctor_m3369031450(&L_169, (1.0f), (1.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_169, (1.0f), (1.0f), /*hidden argument*/NULL);
 		NullCheck(L_168);
-		RectTransform_set_anchorMax_m3796410509(L_168, L_169, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_168, L_169, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_170 = V_28;
 		Vector2_t3525329788  L_171;
 		memset(&L_171, 0, sizeof(L_171));
-		Vector2__ctor_m3369031450(&L_171, (-18.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_171, (-18.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_170);
-		RectTransform_set_sizeDelta_m9944005(L_170, L_171, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_170, L_171, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_172 = V_28;
 		Vector2_t3525329788  L_173;
 		memset(&L_173, 0, sizeof(L_173));
-		Vector2__ctor_m3369031450(&L_173, (0.0f), (1.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_173, (0.0f), (1.0f), /*hidden argument*/NULL);
 		NullCheck(L_172);
-		RectTransform_set_pivot_m2038329882(L_172, L_173, /*hidden argument*/NULL);
+		RectTransform_set_pivot_m457344806(L_172, L_173, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_174 = V_5;
 		NullCheck(L_174);
 		RectTransform_t3317474837 * L_175 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_174, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
@@ -15871,33 +15871,33 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateDropdown_m481152210 (
 		RectTransform_t3317474837 * L_176 = V_29;
 		Vector2_t3525329788  L_177;
 		memset(&L_177, 0, sizeof(L_177));
-		Vector2__ctor_m3369031450(&L_177, (0.0f), (1.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_177, (0.0f), (1.0f), /*hidden argument*/NULL);
 		NullCheck(L_176);
-		RectTransform_set_anchorMin_m4070318175(L_176, L_177, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_176, L_177, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_178 = V_29;
 		Vector2_t3525329788  L_179;
 		memset(&L_179, 0, sizeof(L_179));
-		Vector2__ctor_m3369031450(&L_179, (1.0f), (1.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_179, (1.0f), (1.0f), /*hidden argument*/NULL);
 		NullCheck(L_178);
-		RectTransform_set_anchorMax_m3796410509(L_178, L_179, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_178, L_179, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_180 = V_29;
 		Vector2_t3525329788  L_181;
 		memset(&L_181, 0, sizeof(L_181));
-		Vector2__ctor_m3369031450(&L_181, (0.5f), (1.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_181, (0.5f), (1.0f), /*hidden argument*/NULL);
 		NullCheck(L_180);
-		RectTransform_set_pivot_m2038329882(L_180, L_181, /*hidden argument*/NULL);
+		RectTransform_set_pivot_m457344806(L_180, L_181, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_182 = V_29;
 		Vector2_t3525329788  L_183;
 		memset(&L_183, 0, sizeof(L_183));
-		Vector2__ctor_m3369031450(&L_183, (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_183, (0.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_182);
-		RectTransform_set_anchoredPosition_m246914553(L_182, L_183, /*hidden argument*/NULL);
+		RectTransform_set_anchoredPosition_m1498949997(L_182, L_183, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_184 = V_29;
 		Vector2_t3525329788  L_185;
 		memset(&L_185, 0, sizeof(L_185));
-		Vector2__ctor_m3369031450(&L_185, (0.0f), (28.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_185, (0.0f), (28.0f), /*hidden argument*/NULL);
 		NullCheck(L_184);
-		RectTransform_set_sizeDelta_m9944005(L_184, L_185, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_184, L_185, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_186 = V_6;
 		NullCheck(L_186);
 		RectTransform_t3317474837 * L_187 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_186, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
@@ -15905,37 +15905,37 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateDropdown_m481152210 (
 		RectTransform_t3317474837 * L_188 = V_30;
 		Vector2_t3525329788  L_189;
 		memset(&L_189, 0, sizeof(L_189));
-		Vector2__ctor_m3369031450(&L_189, (0.0f), (0.5f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_189, (0.0f), (0.5f), /*hidden argument*/NULL);
 		NullCheck(L_188);
-		RectTransform_set_anchorMin_m4070318175(L_188, L_189, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_188, L_189, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_190 = V_30;
 		Vector2_t3525329788  L_191;
 		memset(&L_191, 0, sizeof(L_191));
-		Vector2__ctor_m3369031450(&L_191, (1.0f), (0.5f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_191, (1.0f), (0.5f), /*hidden argument*/NULL);
 		NullCheck(L_190);
-		RectTransform_set_anchorMax_m3796410509(L_190, L_191, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_190, L_191, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_192 = V_30;
 		Vector2_t3525329788  L_193;
 		memset(&L_193, 0, sizeof(L_193));
-		Vector2__ctor_m3369031450(&L_193, (0.0f), (20.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_193, (0.0f), (20.0f), /*hidden argument*/NULL);
 		NullCheck(L_192);
-		RectTransform_set_sizeDelta_m9944005(L_192, L_193, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_192, L_193, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_194 = V_7;
 		NullCheck(L_194);
 		RectTransform_t3317474837 * L_195 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_194, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
 		V_31 = L_195;
 		RectTransform_t3317474837 * L_196 = V_31;
-		Vector2_t3525329788  L_197 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_197 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_196);
-		RectTransform_set_anchorMin_m4070318175(L_196, L_197, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_196, L_197, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_198 = V_31;
-		Vector2_t3525329788  L_199 = Vector2_get_one_m961689804(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_199 = Vector2_get_one_m2767488832(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_198);
-		RectTransform_set_anchorMax_m3796410509(L_198, L_199, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_198, L_199, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_200 = V_31;
-		Vector2_t3525329788  L_201 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_201 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_200);
-		RectTransform_set_sizeDelta_m9944005(L_200, L_201, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_200, L_201, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_202 = V_8;
 		NullCheck(L_202);
 		RectTransform_t3317474837 * L_203 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_202, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
@@ -15943,54 +15943,54 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateDropdown_m481152210 (
 		RectTransform_t3317474837 * L_204 = V_32;
 		Vector2_t3525329788  L_205;
 		memset(&L_205, 0, sizeof(L_205));
-		Vector2__ctor_m3369031450(&L_205, (0.0f), (0.5f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_205, (0.0f), (0.5f), /*hidden argument*/NULL);
 		NullCheck(L_204);
-		RectTransform_set_anchorMin_m4070318175(L_204, L_205, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_204, L_205, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_206 = V_32;
 		Vector2_t3525329788  L_207;
 		memset(&L_207, 0, sizeof(L_207));
-		Vector2__ctor_m3369031450(&L_207, (0.0f), (0.5f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_207, (0.0f), (0.5f), /*hidden argument*/NULL);
 		NullCheck(L_206);
-		RectTransform_set_anchorMax_m3796410509(L_206, L_207, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_206, L_207, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_208 = V_32;
 		Vector2_t3525329788  L_209;
 		memset(&L_209, 0, sizeof(L_209));
-		Vector2__ctor_m3369031450(&L_209, (20.0f), (20.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_209, (20.0f), (20.0f), /*hidden argument*/NULL);
 		NullCheck(L_208);
-		RectTransform_set_sizeDelta_m9944005(L_208, L_209, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_208, L_209, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_210 = V_32;
 		Vector2_t3525329788  L_211;
 		memset(&L_211, 0, sizeof(L_211));
-		Vector2__ctor_m3369031450(&L_211, (10.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_211, (10.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_210);
-		RectTransform_set_anchoredPosition_m246914553(L_210, L_211, /*hidden argument*/NULL);
+		RectTransform_set_anchoredPosition_m1498949997(L_210, L_211, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_212 = V_9;
 		NullCheck(L_212);
 		RectTransform_t3317474837 * L_213 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_212, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
 		V_33 = L_213;
 		RectTransform_t3317474837 * L_214 = V_33;
-		Vector2_t3525329788  L_215 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_215 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_214);
-		RectTransform_set_anchorMin_m4070318175(L_214, L_215, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_214, L_215, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_216 = V_33;
-		Vector2_t3525329788  L_217 = Vector2_get_one_m961689804(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_217 = Vector2_get_one_m2767488832(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_216);
-		RectTransform_set_anchorMax_m3796410509(L_216, L_217, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_216, L_217, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_218 = V_33;
 		Vector2_t3525329788  L_219;
 		memset(&L_219, 0, sizeof(L_219));
-		Vector2__ctor_m3369031450(&L_219, (20.0f), (1.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_219, (20.0f), (1.0f), /*hidden argument*/NULL);
 		NullCheck(L_218);
-		RectTransform_set_offsetMin_m4032858173(L_218, L_219, /*hidden argument*/NULL);
+		RectTransform_set_offsetMin_m951793481(L_218, L_219, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_220 = V_33;
 		Vector2_t3525329788  L_221;
 		memset(&L_221, 0, sizeof(L_221));
-		Vector2__ctor_m3369031450(&L_221, (-10.0f), (-2.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_221, (-10.0f), (-2.0f), /*hidden argument*/NULL);
 		NullCheck(L_220);
-		RectTransform_set_offsetMax_m3758950507(L_220, L_221, /*hidden argument*/NULL);
+		RectTransform_set_offsetMax_m677885815(L_220, L_221, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_222 = V_3;
 		NullCheck(L_222);
-		GameObject_SetActive_m3672431053(L_222, (bool)0, /*hidden argument*/NULL);
+		GameObject_SetActive_m3538205401(L_222, (bool)0, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_223 = V_0;
 		return L_223;
 	}
@@ -16036,7 +16036,7 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateScrollView_m276387739
 	{
 		Vector2_t3525329788  L_0;
 		memset(&L_0, 0, sizeof(L_0));
-		Vector2__ctor_m3369031450(&L_0, (200.0f), (200.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_0, (200.0f), (200.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DefaultControls_t3717991936_il2cpp_TypeInfo_var);
 		GameObject_t4012695102 * L_1 = DefaultControls_CreateUIElementRoot_m335662421(NULL /*static, unused*/, _stringLiteral3674249240, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
@@ -16051,7 +16051,7 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateScrollView_m276387739
 		V_3 = L_7;
 		GameObject_t4012695102 * L_8 = V_3;
 		NullCheck(L_8);
-		Object_set_name_m3647401496(L_8, _stringLiteral3772431006, /*hidden argument*/NULL);
+		Object_set_name_m1123518500(L_8, _stringLiteral3772431006, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_9 = V_3;
 		GameObject_t4012695102 * L_10 = V_0;
 		DefaultControls_SetParentAndAlign_m867848490(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
@@ -16060,34 +16060,34 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateScrollView_m276387739
 		RectTransform_t3317474837 * L_12 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_11, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
 		V_4 = L_12;
 		RectTransform_t3317474837 * L_13 = V_4;
-		Vector2_t3525329788  L_14 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_14 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_13);
-		RectTransform_set_anchorMin_m4070318175(L_13, L_14, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_13, L_14, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_15 = V_4;
-		Vector2_t3525329788  L_16 = Vector2_get_right_m3289125314(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_16 = Vector2_get_right_m3495203638(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		RectTransform_set_anchorMax_m3796410509(L_15, L_16, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_15, L_16, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_17 = V_4;
-		Vector2_t3525329788  L_18 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_18 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_17);
-		RectTransform_set_pivot_m2038329882(L_17, L_18, /*hidden argument*/NULL);
+		RectTransform_set_pivot_m457344806(L_17, L_18, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_19 = V_4;
 		RectTransform_t3317474837 * L_20 = V_4;
 		NullCheck(L_20);
-		Vector2_t3525329788  L_21 = RectTransform_get_sizeDelta_m4145452900(L_20, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_21 = RectTransform_get_sizeDelta_m4279424984(L_20, /*hidden argument*/NULL);
 		V_13 = L_21;
 		float L_22 = (&V_13)->get_y_2();
 		Vector2_t3525329788  L_23;
 		memset(&L_23, 0, sizeof(L_23));
-		Vector2__ctor_m3369031450(&L_23, (0.0f), L_22, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_23, (0.0f), L_22, /*hidden argument*/NULL);
 		NullCheck(L_19);
-		RectTransform_set_sizeDelta_m9944005(L_19, L_23, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_19, L_23, /*hidden argument*/NULL);
 		Resources_t20897285  L_24 = ___resources;
 		GameObject_t4012695102 * L_25 = DefaultControls_CreateScrollbar_m2399849235(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
 		V_5 = L_25;
 		GameObject_t4012695102 * L_26 = V_5;
 		NullCheck(L_26);
-		Object_set_name_m3647401496(L_26, _stringLiteral2054089840, /*hidden argument*/NULL);
+		Object_set_name_m1123518500(L_26, _stringLiteral2054089840, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_27 = V_5;
 		GameObject_t4012695102 * L_28 = V_0;
 		DefaultControls_SetParentAndAlign_m867848490(NULL /*static, unused*/, L_27, L_28, /*hidden argument*/NULL);
@@ -16101,70 +16101,70 @@ extern "C"  GameObject_t4012695102 * DefaultControls_CreateScrollView_m276387739
 		RectTransform_t3317474837 * L_32 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_31, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
 		V_6 = L_32;
 		RectTransform_t3317474837 * L_33 = V_6;
-		Vector2_t3525329788  L_34 = Vector2_get_right_m3289125314(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_34 = Vector2_get_right_m3495203638(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_33);
-		RectTransform_set_anchorMin_m4070318175(L_33, L_34, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_33, L_34, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_35 = V_6;
-		Vector2_t3525329788  L_36 = Vector2_get_one_m961689804(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_36 = Vector2_get_one_m2767488832(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_35);
-		RectTransform_set_anchorMax_m3796410509(L_35, L_36, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_35, L_36, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_37 = V_6;
-		Vector2_t3525329788  L_38 = Vector2_get_one_m961689804(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_38 = Vector2_get_one_m2767488832(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_37);
-		RectTransform_set_pivot_m2038329882(L_37, L_38, /*hidden argument*/NULL);
+		RectTransform_set_pivot_m457344806(L_37, L_38, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_39 = V_6;
 		RectTransform_t3317474837 * L_40 = V_6;
 		NullCheck(L_40);
-		Vector2_t3525329788  L_41 = RectTransform_get_sizeDelta_m4145452900(L_40, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_41 = RectTransform_get_sizeDelta_m4279424984(L_40, /*hidden argument*/NULL);
 		V_14 = L_41;
 		float L_42 = (&V_14)->get_x_1();
 		Vector2_t3525329788  L_43;
 		memset(&L_43, 0, sizeof(L_43));
-		Vector2__ctor_m3369031450(&L_43, L_42, (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_43, L_42, (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_39);
-		RectTransform_set_sizeDelta_m9944005(L_39, L_43, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_39, L_43, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_44 = V_1;
 		NullCheck(L_44);
 		RectTransform_t3317474837 * L_45 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_44, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
 		V_7 = L_45;
 		RectTransform_t3317474837 * L_46 = V_7;
-		Vector2_t3525329788  L_47 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_47 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_46);
-		RectTransform_set_anchorMin_m4070318175(L_46, L_47, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_46, L_47, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_48 = V_7;
-		Vector2_t3525329788  L_49 = Vector2_get_one_m961689804(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_49 = Vector2_get_one_m2767488832(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_48);
-		RectTransform_set_anchorMax_m3796410509(L_48, L_49, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_48, L_49, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_50 = V_7;
-		Vector2_t3525329788  L_51 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_51 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_50);
-		RectTransform_set_sizeDelta_m9944005(L_50, L_51, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_50, L_51, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_52 = V_7;
-		Vector2_t3525329788  L_53 = Vector2_get_up_m2802147671(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_53 = Vector2_get_up_m1197831267(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_52);
-		RectTransform_set_pivot_m2038329882(L_52, L_53, /*hidden argument*/NULL);
+		RectTransform_set_pivot_m457344806(L_52, L_53, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_54 = V_2;
 		NullCheck(L_54);
 		RectTransform_t3317474837 * L_55 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_54, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
 		V_8 = L_55;
 		RectTransform_t3317474837 * L_56 = V_8;
-		Vector2_t3525329788  L_57 = Vector2_get_up_m2802147671(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_57 = Vector2_get_up_m1197831267(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_56);
-		RectTransform_set_anchorMin_m4070318175(L_56, L_57, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_56, L_57, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_58 = V_8;
-		Vector2_t3525329788  L_59 = Vector2_get_one_m961689804(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_59 = Vector2_get_one_m2767488832(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_58);
-		RectTransform_set_anchorMax_m3796410509(L_58, L_59, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_58, L_59, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_60 = V_8;
 		Vector2_t3525329788  L_61;
 		memset(&L_61, 0, sizeof(L_61));
-		Vector2__ctor_m3369031450(&L_61, (0.0f), (300.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_61, (0.0f), (300.0f), /*hidden argument*/NULL);
 		NullCheck(L_60);
-		RectTransform_set_sizeDelta_m9944005(L_60, L_61, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_60, L_61, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_62 = V_8;
-		Vector2_t3525329788  L_63 = Vector2_get_up_m2802147671(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_63 = Vector2_get_up_m1197831267(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_62);
-		RectTransform_set_pivot_m2038329882(L_62, L_63, /*hidden argument*/NULL);
+		RectTransform_set_pivot_m457344806(L_62, L_63, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_64 = V_0;
 		NullCheck(L_64);
 		ScrollRect_t1048578170 * L_65 = GameObject_AddComponent_TisScrollRect_t1048578170_m3490629429(L_64, /*hidden argument*/GameObject_AddComponent_TisScrollRect_t1048578170_m3490629429_MethodInfo_var);
@@ -16301,7 +16301,7 @@ extern "C"  void Dropdown_set_template_m498709600 (Dropdown_t2916437562 * __this
 	{
 		RectTransform_t3317474837 * L_0 = ___value;
 		__this->set_m_Template_16(L_0);
-		Dropdown_RefreshShownValue_m9458643(__this, /*hidden argument*/NULL);
+		Dropdown_RefreshShownValue_m955925324(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -16319,7 +16319,7 @@ extern "C"  void Dropdown_set_captionText_m4143100948 (Dropdown_t2916437562 * __
 	{
 		Text_t3286458198 * L_0 = ___value;
 		__this->set_m_CaptionText_17(L_0);
-		Dropdown_RefreshShownValue_m9458643(__this, /*hidden argument*/NULL);
+		Dropdown_RefreshShownValue_m955925324(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -16337,7 +16337,7 @@ extern "C"  void Dropdown_set_captionImage_m3401548772 (Dropdown_t2916437562 * _
 	{
 		Image_t3354615620 * L_0 = ___value;
 		__this->set_m_CaptionImage_18(L_0);
-		Dropdown_RefreshShownValue_m9458643(__this, /*hidden argument*/NULL);
+		Dropdown_RefreshShownValue_m955925324(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -16355,7 +16355,7 @@ extern "C"  void Dropdown_set_itemText_m3975071291 (Dropdown_t2916437562 * __thi
 	{
 		Text_t3286458198 * L_0 = ___value;
 		__this->set_m_ItemText_19(L_0);
-		Dropdown_RefreshShownValue_m9458643(__this, /*hidden argument*/NULL);
+		Dropdown_RefreshShownValue_m955925324(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -16373,12 +16373,12 @@ extern "C"  void Dropdown_set_itemImage_m838838347 (Dropdown_t2916437562 * __thi
 	{
 		Image_t3354615620 * L_0 = ___value;
 		__this->set_m_ItemImage_20(L_0);
-		Dropdown_RefreshShownValue_m9458643(__this, /*hidden argument*/NULL);
+		Dropdown_RefreshShownValue_m955925324(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> UnityEngine.UI.Dropdown::get_options()
-extern "C"  List_1_t4163512024 * Dropdown_get_options_m399918042 (Dropdown_t2916437562 * __this, const MethodInfo* method)
+extern "C"  List_1_t4163512024 * Dropdown_get_options_m2855573715 (Dropdown_t2916437562 * __this, const MethodInfo* method)
 {
 	{
 		OptionDataList_t2865341213 * L_0 = __this->get_m_Options_22();
@@ -16395,12 +16395,12 @@ extern "C"  void Dropdown_set_options_m4132251955 (Dropdown_t2916437562 * __this
 		List_1_t4163512024 * L_1 = ___value;
 		NullCheck(L_0);
 		OptionDataList_set_options_m2193073293(L_0, L_1, /*hidden argument*/NULL);
-		Dropdown_RefreshShownValue_m9458643(__this, /*hidden argument*/NULL);
+		Dropdown_RefreshShownValue_m955925324(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // UnityEngine.UI.Dropdown/DropdownEvent UnityEngine.UI.Dropdown::get_onValueChanged()
-extern "C"  DropdownEvent_t2203078889 * Dropdown_get_onValueChanged_m2646663760 (Dropdown_t2916437562 * __this, const MethodInfo* method)
+extern "C"  DropdownEvent_t2203078889 * Dropdown_get_onValueChanged_m1684410167 (Dropdown_t2916437562 * __this, const MethodInfo* method)
 {
 	{
 		DropdownEvent_t2203078889 * L_0 = __this->get_m_OnValueChanged_23();
@@ -16437,7 +16437,7 @@ extern "C"  void Dropdown_set_value_m2635023165 (Dropdown_t2916437562 * __this, 
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		bool L_0 = Application_get_isPlaying_m3511876956(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_0 = Application_get_isPlaying_m987993960(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_0)
 		{
 			goto IL_0027;
@@ -16452,7 +16452,7 @@ extern "C"  void Dropdown_set_value_m2635023165 (Dropdown_t2916437562 * __this, 
 		}
 	}
 	{
-		List_1_t4163512024 * L_3 = Dropdown_get_options_m399918042(__this, /*hidden argument*/NULL);
+		List_1_t4163512024 * L_3 = Dropdown_get_options_m2855573715(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		int32_t L_4 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::get_Count() */, L_3);
 		if (L_4)
@@ -16469,13 +16469,13 @@ IL_0026:
 IL_0027:
 	{
 		int32_t L_5 = ___value;
-		List_1_t4163512024 * L_6 = Dropdown_get_options_m399918042(__this, /*hidden argument*/NULL);
+		List_1_t4163512024 * L_6 = Dropdown_get_options_m2855573715(__this, /*hidden argument*/NULL);
 		NullCheck(L_6);
 		int32_t L_7 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::get_Count() */, L_6);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_8 = Mathf_Clamp_m4032346681(NULL /*static, unused*/, L_5, 0, ((int32_t)((int32_t)L_7-(int32_t)1)), /*hidden argument*/NULL);
+		int32_t L_8 = Mathf_Clamp_m510460741(NULL /*static, unused*/, L_5, 0, ((int32_t)((int32_t)L_7-(int32_t)1)), /*hidden argument*/NULL);
 		__this->set_m_Value_21(L_8);
-		Dropdown_RefreshShownValue_m9458643(__this, /*hidden argument*/NULL);
+		Dropdown_RefreshShownValue_m955925324(__this, /*hidden argument*/NULL);
 		DropdownEvent_t2203078889 * L_9 = __this->get_m_OnValueChanged_23();
 		int32_t L_10 = __this->get_m_Value_21();
 		NullCheck(L_9);
@@ -16504,7 +16504,7 @@ extern "C"  void Dropdown_Awake_m3811892541 (Dropdown_t2916437562 * __this, cons
 		NullCheck(L_1);
 		TweenRunner_1_Init_m2355829498(L_1, __this, /*hidden argument*/TweenRunner_1_Init_m2355829498_MethodInfo_var);
 		Image_t3354615620 * L_2 = __this->get_m_CaptionImage_18();
-		bool L_3 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0043;
@@ -16515,15 +16515,15 @@ extern "C"  void Dropdown_Awake_m3811892541 (Dropdown_t2916437562 * __this, cons
 		Image_t3354615620 * L_5 = __this->get_m_CaptionImage_18();
 		NullCheck(L_5);
 		Sprite_t4006040370 * L_6 = Image_get_sprite_m3572636301(L_5, /*hidden argument*/NULL);
-		bool L_7 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_6, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_7 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_6, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		Behaviour_set_enabled_m1912834849(L_4, L_7, /*hidden argument*/NULL);
+		Behaviour_set_enabled_m2046806933(L_4, L_7, /*hidden argument*/NULL);
 	}
 
 IL_0043:
 	{
 		RectTransform_t3317474837 * L_8 = __this->get_m_Template_16();
-		bool L_9 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		bool L_9 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_0064;
@@ -16532,9 +16532,9 @@ IL_0043:
 	{
 		RectTransform_t3317474837 * L_10 = __this->get_m_Template_16();
 		NullCheck(L_10);
-		GameObject_t4012695102 * L_11 = Component_get_gameObject_m1036663815(L_10, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_11 = Component_get_gameObject_m1170635899(L_10, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		GameObject_SetActive_m3672431053(L_11, (bool)0, /*hidden argument*/NULL);
+		GameObject_SetActive_m3538205401(L_11, (bool)0, /*hidden argument*/NULL);
 	}
 
 IL_0064:
@@ -16546,13 +16546,13 @@ IL_0064:
 extern TypeInfo* Dropdown_t2916437562_il2cpp_TypeInfo_var;
 extern TypeInfo* Mathf_t1597001355_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern const uint32_t Dropdown_RefreshShownValue_m9458643_MetadataUsageId;
-extern "C"  void Dropdown_RefreshShownValue_m9458643 (Dropdown_t2916437562 * __this, const MethodInfo* method)
+extern const uint32_t Dropdown_RefreshShownValue_m955925324_MetadataUsageId;
+extern "C"  void Dropdown_RefreshShownValue_m955925324 (Dropdown_t2916437562 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (Dropdown_RefreshShownValue_m9458643_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Dropdown_RefreshShownValue_m955925324_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	OptionData_t3366553055 * V_0 = NULL;
@@ -16560,7 +16560,7 @@ extern "C"  void Dropdown_RefreshShownValue_m9458643 (Dropdown_t2916437562 * __t
 		IL2CPP_RUNTIME_CLASS_INIT(Dropdown_t2916437562_il2cpp_TypeInfo_var);
 		OptionData_t3366553055 * L_0 = ((Dropdown_t2916437562_StaticFields*)Dropdown_t2916437562_il2cpp_TypeInfo_var->static_fields)->get_s_NoOptionData_29();
 		V_0 = L_0;
-		List_1_t4163512024 * L_1 = Dropdown_get_options_m399918042(__this, /*hidden argument*/NULL);
+		List_1_t4163512024 * L_1 = Dropdown_get_options_m2855573715(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		int32_t L_2 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::get_Count() */, L_1);
 		if ((((int32_t)L_2) <= ((int32_t)0)))
@@ -16569,13 +16569,13 @@ extern "C"  void Dropdown_RefreshShownValue_m9458643 (Dropdown_t2916437562 * __t
 		}
 	}
 	{
-		List_1_t4163512024 * L_3 = Dropdown_get_options_m399918042(__this, /*hidden argument*/NULL);
+		List_1_t4163512024 * L_3 = Dropdown_get_options_m2855573715(__this, /*hidden argument*/NULL);
 		int32_t L_4 = __this->get_m_Value_21();
-		List_1_t4163512024 * L_5 = Dropdown_get_options_m399918042(__this, /*hidden argument*/NULL);
+		List_1_t4163512024 * L_5 = Dropdown_get_options_m2855573715(__this, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		int32_t L_6 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::get_Count() */, L_5);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_7 = Mathf_Clamp_m4032346681(NULL /*static, unused*/, L_4, 0, ((int32_t)((int32_t)L_6-(int32_t)1)), /*hidden argument*/NULL);
+		int32_t L_7 = Mathf_Clamp_m510460741(NULL /*static, unused*/, L_4, 0, ((int32_t)((int32_t)L_6-(int32_t)1)), /*hidden argument*/NULL);
 		NullCheck(L_3);
 		OptionData_t3366553055 * L_8 = VirtFuncInvoker1< OptionData_t3366553055 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::get_Item(System.Int32) */, L_3, L_7);
 		V_0 = L_8;
@@ -16584,7 +16584,7 @@ extern "C"  void Dropdown_RefreshShownValue_m9458643 (Dropdown_t2916437562 * __t
 IL_003c:
 	{
 		Text_t3286458198 * L_9 = __this->get_m_CaptionText_17();
-		bool L_10 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		bool L_10 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
 		if (!L_10)
 		{
 			goto IL_0083;
@@ -16628,7 +16628,7 @@ IL_0073:
 IL_0083:
 	{
 		Image_t3354615620 * L_19 = __this->get_m_CaptionImage_18();
-		bool L_20 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		bool L_20 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
 		if (!L_20)
 		{
 			goto IL_00d7;
@@ -16664,9 +16664,9 @@ IL_00bb:
 		Image_t3354615620 * L_27 = __this->get_m_CaptionImage_18();
 		NullCheck(L_27);
 		Sprite_t4006040370 * L_28 = Image_get_sprite_m3572636301(L_27, /*hidden argument*/NULL);
-		bool L_29 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_28, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_29 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_28, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		NullCheck(L_26);
-		Behaviour_set_enabled_m1912834849(L_26, L_29, /*hidden argument*/NULL);
+		Behaviour_set_enabled_m2046806933(L_26, L_29, /*hidden argument*/NULL);
 	}
 
 IL_00d7:
@@ -16686,11 +16686,11 @@ extern "C"  void Dropdown_AddOptions_m1960749669 (Dropdown_t2916437562 * __this,
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		List_1_t4163512024 * L_0 = Dropdown_get_options_m399918042(__this, /*hidden argument*/NULL);
+		List_1_t4163512024 * L_0 = Dropdown_get_options_m2855573715(__this, /*hidden argument*/NULL);
 		List_1_t4163512024 * L_1 = ___options;
 		NullCheck(L_0);
 		List_1_AddRange_m3008649298(L_0, L_1, /*hidden argument*/List_1_AddRange_m3008649298_MethodInfo_var);
-		Dropdown_RefreshShownValue_m9458643(__this, /*hidden argument*/NULL);
+		Dropdown_RefreshShownValue_m955925324(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -16713,13 +16713,13 @@ extern "C"  void Dropdown_AddOptions_m4199474459 (Dropdown_t2916437562 * __this,
 
 IL_0007:
 	{
-		List_1_t4163512024 * L_0 = Dropdown_get_options_m399918042(__this, /*hidden argument*/NULL);
+		List_1_t4163512024 * L_0 = Dropdown_get_options_m2855573715(__this, /*hidden argument*/NULL);
 		List_1_t1765447871 * L_1 = ___options;
 		int32_t L_2 = V_0;
 		NullCheck(L_1);
 		String_t* L_3 = VirtFuncInvoker1< String_t*, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<System.String>::get_Item(System.Int32) */, L_1, L_2);
 		OptionData_t3366553055 * L_4 = (OptionData_t3366553055 *)il2cpp_codegen_object_new(OptionData_t3366553055_il2cpp_TypeInfo_var);
-		OptionData__ctor_m3621517956(L_4, L_3, /*hidden argument*/NULL);
+		OptionData__ctor_m3385162877(L_4, L_3, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		VirtActionInvoker1< OptionData_t3366553055 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::Add(!0) */, L_0, L_4);
 		int32_t L_5 = V_0;
@@ -16738,7 +16738,7 @@ IL_0022:
 		}
 	}
 	{
-		Dropdown_RefreshShownValue_m9458643(__this, /*hidden argument*/NULL);
+		Dropdown_RefreshShownValue_m955925324(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -16761,7 +16761,7 @@ extern "C"  void Dropdown_AddOptions_m1674488487 (Dropdown_t2916437562 * __this,
 
 IL_0007:
 	{
-		List_1_t4163512024 * L_0 = Dropdown_get_options_m399918042(__this, /*hidden argument*/NULL);
+		List_1_t4163512024 * L_0 = Dropdown_get_options_m2855573715(__this, /*hidden argument*/NULL);
 		List_1_t508032043 * L_1 = ___options;
 		int32_t L_2 = V_0;
 		NullCheck(L_1);
@@ -16786,7 +16786,7 @@ IL_0022:
 		}
 	}
 	{
-		Dropdown_RefreshShownValue_m9458643(__this, /*hidden argument*/NULL);
+		Dropdown_RefreshShownValue_m955925324(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -16794,10 +16794,10 @@ IL_0022:
 extern "C"  void Dropdown_ClearOptions_m1343016059 (Dropdown_t2916437562 * __this, const MethodInfo* method)
 {
 	{
-		List_1_t4163512024 * L_0 = Dropdown_get_options_m399918042(__this, /*hidden argument*/NULL);
+		List_1_t4163512024 * L_0 = Dropdown_get_options_m2855573715(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		VirtActionInvoker0::Invoke(23 /* System.Void System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::Clear() */, L_0);
-		Dropdown_RefreshShownValue_m9458643(__this, /*hidden argument*/NULL);
+		Dropdown_RefreshShownValue_m955925324(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -16831,7 +16831,7 @@ extern "C"  void Dropdown_SetupTemplate_m2277850703 (Dropdown_t2916437562 * __th
 	{
 		__this->set_validTemplate_28((bool)0);
 		RectTransform_t3317474837 * L_0 = __this->get_m_Template_16();
-		bool L_1 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_0023;
@@ -16839,7 +16839,7 @@ extern "C"  void Dropdown_SetupTemplate_m2277850703 (Dropdown_t2916437562 * __th
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_LogError_m3295311090(NULL /*static, unused*/, _stringLiteral3521277517, __this, /*hidden argument*/NULL);
+		Debug_LogError_m214246398(NULL /*static, unused*/, _stringLiteral3521277517, __this, /*hidden argument*/NULL);
 		return;
 	}
 
@@ -16847,18 +16847,18 @@ IL_0023:
 	{
 		RectTransform_t3317474837 * L_2 = __this->get_m_Template_16();
 		NullCheck(L_2);
-		GameObject_t4012695102 * L_3 = Component_get_gameObject_m1036663815(L_2, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_3 = Component_get_gameObject_m1170635899(L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
 		GameObject_t4012695102 * L_4 = V_0;
 		NullCheck(L_4);
-		GameObject_SetActive_m3672431053(L_4, (bool)1, /*hidden argument*/NULL);
+		GameObject_SetActive_m3538205401(L_4, (bool)1, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_5 = __this->get_m_Template_16();
 		NullCheck(L_5);
 		Toggle_t1499417981 * L_6 = Component_GetComponentInChildren_TisToggle_t1499417981_m612160161(L_5, /*hidden argument*/Component_GetComponentInChildren_TisToggle_t1499417981_m612160161_MethodInfo_var);
 		V_1 = L_6;
 		__this->set_validTemplate_28((bool)1);
 		Toggle_t1499417981 * L_7 = V_1;
-		bool L_8 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		bool L_8 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 		if (!L_8)
 		{
 			goto IL_006a;
@@ -16867,9 +16867,9 @@ IL_0023:
 	{
 		Toggle_t1499417981 * L_9 = V_1;
 		NullCheck(L_9);
-		Transform_t284553113 * L_10 = Component_get_transform_m243597671(L_9, /*hidden argument*/NULL);
+		Transform_t284553113 * L_10 = Component_get_transform_m4257140443(L_9, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_11 = Dropdown_get_template_m3674548779(__this, /*hidden argument*/NULL);
-		bool L_12 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		bool L_12 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
 		if (!L_12)
 		{
 			goto IL_0086;
@@ -16881,7 +16881,7 @@ IL_006a:
 		__this->set_validTemplate_28((bool)0);
 		RectTransform_t3317474837 * L_13 = Dropdown_get_template_m3674548779(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_LogError_m3295311090(NULL /*static, unused*/, _stringLiteral3568877837, L_13, /*hidden argument*/NULL);
+		Debug_LogError_m214246398(NULL /*static, unused*/, _stringLiteral3568877837, L_13, /*hidden argument*/NULL);
 		goto IL_0142;
 	}
 
@@ -16889,9 +16889,9 @@ IL_0086:
 	{
 		Toggle_t1499417981 * L_14 = V_1;
 		NullCheck(L_14);
-		Transform_t284553113 * L_15 = Component_get_transform_m243597671(L_14, /*hidden argument*/NULL);
+		Transform_t284553113 * L_15 = Component_get_transform_m4257140443(L_14, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		Transform_t284553113 * L_16 = Transform_get_parent_m1031913888(L_15, /*hidden argument*/NULL);
+		Transform_t284553113 * L_16 = Transform_get_parent_m2236876972(L_15, /*hidden argument*/NULL);
 		if (((RectTransform_t3317474837 *)IsInstSealed(L_16, RectTransform_t3317474837_il2cpp_TypeInfo_var)))
 		{
 			goto IL_00b7;
@@ -16901,14 +16901,14 @@ IL_0086:
 		__this->set_validTemplate_28((bool)0);
 		RectTransform_t3317474837 * L_17 = Dropdown_get_template_m3674548779(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_LogError_m3295311090(NULL /*static, unused*/, _stringLiteral3705087523, L_17, /*hidden argument*/NULL);
+		Debug_LogError_m214246398(NULL /*static, unused*/, _stringLiteral3705087523, L_17, /*hidden argument*/NULL);
 		goto IL_0142;
 	}
 
 IL_00b7:
 	{
 		Text_t3286458198 * L_18 = Dropdown_get_itemText_m2015261424(__this, /*hidden argument*/NULL);
-		bool L_19 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_18, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_19 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_18, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_19)
 		{
 			goto IL_00ff;
@@ -16917,12 +16917,12 @@ IL_00b7:
 	{
 		Text_t3286458198 * L_20 = Dropdown_get_itemText_m2015261424(__this, /*hidden argument*/NULL);
 		NullCheck(L_20);
-		Transform_t284553113 * L_21 = Component_get_transform_m243597671(L_20, /*hidden argument*/NULL);
+		Transform_t284553113 * L_21 = Component_get_transform_m4257140443(L_20, /*hidden argument*/NULL);
 		Toggle_t1499417981 * L_22 = V_1;
 		NullCheck(L_22);
-		Transform_t284553113 * L_23 = Component_get_transform_m243597671(L_22, /*hidden argument*/NULL);
+		Transform_t284553113 * L_23 = Component_get_transform_m4257140443(L_22, /*hidden argument*/NULL);
 		NullCheck(L_21);
-		bool L_24 = Transform_IsChildOf_m792578383(L_21, L_23, /*hidden argument*/NULL);
+		bool L_24 = Transform_IsChildOf_m3321648579(L_21, L_23, /*hidden argument*/NULL);
 		if (L_24)
 		{
 			goto IL_00ff;
@@ -16932,14 +16932,14 @@ IL_00b7:
 		__this->set_validTemplate_28((bool)0);
 		RectTransform_t3317474837 * L_25 = Dropdown_get_template_m3674548779(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_LogError_m3295311090(NULL /*static, unused*/, _stringLiteral3567434948, L_25, /*hidden argument*/NULL);
+		Debug_LogError_m214246398(NULL /*static, unused*/, _stringLiteral3567434948, L_25, /*hidden argument*/NULL);
 		goto IL_0142;
 	}
 
 IL_00ff:
 	{
 		Image_t3354615620 * L_26 = Dropdown_get_itemImage_m2263268950(__this, /*hidden argument*/NULL);
-		bool L_27 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_26, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_27 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_26, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_27)
 		{
 			goto IL_0142;
@@ -16948,12 +16948,12 @@ IL_00ff:
 	{
 		Image_t3354615620 * L_28 = Dropdown_get_itemImage_m2263268950(__this, /*hidden argument*/NULL);
 		NullCheck(L_28);
-		Transform_t284553113 * L_29 = Component_get_transform_m243597671(L_28, /*hidden argument*/NULL);
+		Transform_t284553113 * L_29 = Component_get_transform_m4257140443(L_28, /*hidden argument*/NULL);
 		Toggle_t1499417981 * L_30 = V_1;
 		NullCheck(L_30);
-		Transform_t284553113 * L_31 = Component_get_transform_m243597671(L_30, /*hidden argument*/NULL);
+		Transform_t284553113 * L_31 = Component_get_transform_m4257140443(L_30, /*hidden argument*/NULL);
 		NullCheck(L_29);
-		bool L_32 = Transform_IsChildOf_m792578383(L_29, L_31, /*hidden argument*/NULL);
+		bool L_32 = Transform_IsChildOf_m3321648579(L_29, L_31, /*hidden argument*/NULL);
 		if (L_32)
 		{
 			goto IL_0142;
@@ -16963,7 +16963,7 @@ IL_00ff:
 		__this->set_validTemplate_28((bool)0);
 		RectTransform_t3317474837 * L_33 = Dropdown_get_template_m3674548779(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_LogError_m3295311090(NULL /*static, unused*/, _stringLiteral3711682040, L_33, /*hidden argument*/NULL);
+		Debug_LogError_m214246398(NULL /*static, unused*/, _stringLiteral3711682040, L_33, /*hidden argument*/NULL);
 	}
 
 IL_0142:
@@ -16977,7 +16977,7 @@ IL_0142:
 	{
 		GameObject_t4012695102 * L_35 = V_0;
 		NullCheck(L_35);
-		GameObject_SetActive_m3672431053(L_35, (bool)0, /*hidden argument*/NULL);
+		GameObject_SetActive_m3538205401(L_35, (bool)0, /*hidden argument*/NULL);
 		return;
 	}
 
@@ -16985,7 +16985,7 @@ IL_0155:
 	{
 		Toggle_t1499417981 * L_36 = V_1;
 		NullCheck(L_36);
-		GameObject_t4012695102 * L_37 = Component_get_gameObject_m1036663815(L_36, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_37 = Component_get_gameObject_m1170635899(L_36, /*hidden argument*/NULL);
 		NullCheck(L_37);
 		DropdownItem_t2010846948 * L_38 = GameObject_AddComponent_TisDropdownItem_t2010846948_m1733990038(L_37, /*hidden argument*/GameObject_AddComponent_TisDropdownItem_t2010846948_m1733990038_MethodInfo_var);
 		V_2 = L_38;
@@ -17004,7 +17004,7 @@ IL_0155:
 		DropdownItem_t2010846948 * L_45 = V_2;
 		Toggle_t1499417981 * L_46 = V_1;
 		NullCheck(L_46);
-		Transform_t284553113 * L_47 = Component_get_transform_m243597671(L_46, /*hidden argument*/NULL);
+		Transform_t284553113 * L_47 = Component_get_transform_m4257140443(L_46, /*hidden argument*/NULL);
 		NullCheck(L_45);
 		DropdownItem_set_rectTransform_m2348579039(L_45, ((RectTransform_t3317474837 *)CastclassSealed(L_47, RectTransform_t3317474837_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_48 = V_0;
@@ -17013,17 +17013,17 @@ IL_0155:
 		V_3 = L_49;
 		Canvas_t3534013893 * L_50 = V_3;
 		NullCheck(L_50);
-		Canvas_set_overrideSorting_m3702410169(L_50, (bool)1, /*hidden argument*/NULL);
+		Canvas_set_overrideSorting_m1850487749(L_50, (bool)1, /*hidden argument*/NULL);
 		Canvas_t3534013893 * L_51 = V_3;
 		NullCheck(L_51);
-		Canvas_set_sortingOrder_m1388835571(L_51, ((int32_t)30000), /*hidden argument*/NULL);
+		Canvas_set_sortingOrder_m1522807655(L_51, ((int32_t)30000), /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_52 = V_0;
 		Dropdown_GetOrAddComponent_TisGraphicRaycaster_t2033008887_m2789205203(NULL /*static, unused*/, L_52, /*hidden argument*/Dropdown_GetOrAddComponent_TisGraphicRaycaster_t2033008887_m2789205203_MethodInfo_var);
 		GameObject_t4012695102 * L_53 = V_0;
 		Dropdown_GetOrAddComponent_TisCanvasGroup_t1295922228_m3602714836(NULL /*static, unused*/, L_53, /*hidden argument*/Dropdown_GetOrAddComponent_TisCanvasGroup_t1295922228_m3602714836_MethodInfo_var);
 		GameObject_t4012695102 * L_54 = V_0;
 		NullCheck(L_54);
-		GameObject_SetActive_m3672431053(L_54, (bool)0, /*hidden argument*/NULL);
+		GameObject_SetActive_m3538205401(L_54, (bool)0, /*hidden argument*/NULL);
 		__this->set_validTemplate_28((bool)1);
 		return;
 	}
@@ -17152,7 +17152,7 @@ extern "C"  void Dropdown_Show_m2564525543 (Dropdown_t2916437562 * __this, const
 	}
 	{
 		GameObject_t4012695102 * L_2 = __this->get_m_Dropdown_24();
-		bool L_3 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0028;
@@ -17189,7 +17189,7 @@ IL_0045:
 		IL2CPP_RUNTIME_CLASS_INIT(ListPool_1_t3148029054_il2cpp_TypeInfo_var);
 		List_1_t36005566 * L_6 = ListPool_1_Get_m3707028656(NULL /*static, unused*/, /*hidden argument*/ListPool_1_Get_m3707028656_MethodInfo_var);
 		V_0 = L_6;
-		GameObject_t4012695102 * L_7 = Component_get_gameObject_m1036663815(__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_7 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
 		List_1_t36005566 * L_8 = V_0;
 		NullCheck(L_7);
 		GameObject_GetComponentsInParent_TisCanvas_t3534013893_m3002356423(L_7, (bool)0, L_8, /*hidden argument*/GameObject_GetComponentsInParent_TisCanvas_t3534013893_m3002356423_MethodInfo_var);
@@ -17216,32 +17216,32 @@ IL_0064:
 		ListPool_1_Release_m3200393738(NULL /*static, unused*/, L_13, /*hidden argument*/ListPool_1_Release_m3200393738_MethodInfo_var);
 		RectTransform_t3317474837 * L_14 = __this->get_m_Template_16();
 		NullCheck(L_14);
-		GameObject_t4012695102 * L_15 = Component_get_gameObject_m1036663815(L_14, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_15 = Component_get_gameObject_m1170635899(L_14, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		GameObject_SetActive_m3672431053(L_15, (bool)1, /*hidden argument*/NULL);
+		GameObject_SetActive_m3538205401(L_15, (bool)1, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_16 = __this->get_m_Template_16();
 		NullCheck(L_16);
-		GameObject_t4012695102 * L_17 = Component_get_gameObject_m1036663815(L_16, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_17 = Component_get_gameObject_m1170635899(L_16, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_18 = VirtFuncInvoker1< GameObject_t4012695102 *, GameObject_t4012695102 * >::Invoke(46 /* UnityEngine.GameObject UnityEngine.UI.Dropdown::CreateDropdownList(UnityEngine.GameObject) */, __this, L_17);
 		__this->set_m_Dropdown_24(L_18);
 		GameObject_t4012695102 * L_19 = __this->get_m_Dropdown_24();
 		NullCheck(L_19);
-		Object_set_name_m3647401496(L_19, _stringLiteral2167661389, /*hidden argument*/NULL);
+		Object_set_name_m1123518500(L_19, _stringLiteral2167661389, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_20 = __this->get_m_Dropdown_24();
 		NullCheck(L_20);
-		GameObject_SetActive_m3672431053(L_20, (bool)1, /*hidden argument*/NULL);
+		GameObject_SetActive_m3538205401(L_20, (bool)1, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_21 = __this->get_m_Dropdown_24();
 		NullCheck(L_21);
-		Transform_t284553113 * L_22 = GameObject_get_transform_m1412865811(L_21, /*hidden argument*/NULL);
+		Transform_t284553113 * L_22 = GameObject_get_transform_m1278640159(L_21, /*hidden argument*/NULL);
 		V_2 = ((RectTransform_t3317474837 *)IsInstSealed(L_22, RectTransform_t3317474837_il2cpp_TypeInfo_var));
 		RectTransform_t3317474837 * L_23 = V_2;
 		RectTransform_t3317474837 * L_24 = __this->get_m_Template_16();
 		NullCheck(L_24);
-		Transform_t284553113 * L_25 = Component_get_transform_m243597671(L_24, /*hidden argument*/NULL);
+		Transform_t284553113 * L_25 = Component_get_transform_m4257140443(L_24, /*hidden argument*/NULL);
 		NullCheck(L_25);
-		Transform_t284553113 * L_26 = Transform_get_parent_m1031913888(L_25, /*hidden argument*/NULL);
+		Transform_t284553113 * L_26 = Transform_get_parent_m2236876972(L_25, /*hidden argument*/NULL);
 		NullCheck(L_23);
-		Transform_SetParent_m3943734371(L_23, L_26, (bool)0, /*hidden argument*/NULL);
+		Transform_SetParent_m263985879(L_23, L_26, (bool)0, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_27 = __this->get_m_Dropdown_24();
 		NullCheck(L_27);
 		DropdownItem_t2010846948 * L_28 = GameObject_GetComponentInChildren_TisDropdownItem_t2010846948_m678737573(L_27, /*hidden argument*/GameObject_GetComponentInChildren_TisDropdownItem_t2010846948_m678737573_MethodInfo_var);
@@ -17250,54 +17250,54 @@ IL_0064:
 		NullCheck(L_29);
 		RectTransform_t3317474837 * L_30 = DropdownItem_get_rectTransform_m1644273588(L_29, /*hidden argument*/NULL);
 		NullCheck(L_30);
-		Transform_t284553113 * L_31 = Transform_get_parent_m1031913888(L_30, /*hidden argument*/NULL);
+		Transform_t284553113 * L_31 = Transform_get_parent_m2236876972(L_30, /*hidden argument*/NULL);
 		NullCheck(L_31);
-		GameObject_t4012695102 * L_32 = Component_get_gameObject_m1036663815(L_31, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_32 = Component_get_gameObject_m1170635899(L_31, /*hidden argument*/NULL);
 		V_4 = L_32;
 		GameObject_t4012695102 * L_33 = V_4;
 		NullCheck(L_33);
-		Transform_t284553113 * L_34 = GameObject_get_transform_m1412865811(L_33, /*hidden argument*/NULL);
+		Transform_t284553113 * L_34 = GameObject_get_transform_m1278640159(L_33, /*hidden argument*/NULL);
 		V_5 = ((RectTransform_t3317474837 *)IsInstSealed(L_34, RectTransform_t3317474837_il2cpp_TypeInfo_var));
 		DropdownItem_t2010846948 * L_35 = V_3;
 		NullCheck(L_35);
 		RectTransform_t3317474837 * L_36 = DropdownItem_get_rectTransform_m1644273588(L_35, /*hidden argument*/NULL);
 		NullCheck(L_36);
-		GameObject_t4012695102 * L_37 = Component_get_gameObject_m1036663815(L_36, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_37 = Component_get_gameObject_m1170635899(L_36, /*hidden argument*/NULL);
 		NullCheck(L_37);
-		GameObject_SetActive_m3672431053(L_37, (bool)1, /*hidden argument*/NULL);
+		GameObject_SetActive_m3538205401(L_37, (bool)1, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_38 = V_5;
 		NullCheck(L_38);
-		Rect_t1525428817  L_39 = RectTransform_get_rect_m1093243288(L_38, /*hidden argument*/NULL);
+		Rect_t1525428817  L_39 = RectTransform_get_rect_m1566017036(L_38, /*hidden argument*/NULL);
 		V_6 = L_39;
 		DropdownItem_t2010846948 * L_40 = V_3;
 		NullCheck(L_40);
 		RectTransform_t3317474837 * L_41 = DropdownItem_get_rectTransform_m1644273588(L_40, /*hidden argument*/NULL);
 		NullCheck(L_41);
-		Rect_t1525428817  L_42 = RectTransform_get_rect_m1093243288(L_41, /*hidden argument*/NULL);
+		Rect_t1525428817  L_42 = RectTransform_get_rect_m1566017036(L_41, /*hidden argument*/NULL);
 		V_7 = L_42;
-		Vector2_t3525329788  L_43 = Rect_get_min_m760293161((&V_7), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_44 = Rect_get_min_m760293161((&V_6), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_45 = Vector2_op_Subtraction_m2849821285(NULL /*static, unused*/, L_43, L_44, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_43 = Rect_get_min_m275942709((&V_7), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_44 = Rect_get_min_m275942709((&V_6), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_45 = Vector2_op_Subtraction_m2097149401(NULL /*static, unused*/, L_43, L_44, /*hidden argument*/NULL);
 		DropdownItem_t2010846948 * L_46 = V_3;
 		NullCheck(L_46);
 		RectTransform_t3317474837 * L_47 = DropdownItem_get_rectTransform_m1644273588(L_46, /*hidden argument*/NULL);
 		NullCheck(L_47);
-		Vector3_t3525329789  L_48 = Transform_get_localPosition_m534168700(L_47, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_49 = Vector2_op_Implicit_m2869958055(NULL /*static, unused*/, L_48, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_50 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_45, L_49, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_48 = Transform_get_localPosition_m668140784(L_47, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_49 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_48, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_50 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_45, L_49, /*hidden argument*/NULL);
 		V_8 = L_50;
-		Vector2_t3525329788  L_51 = Rect_get_max_m760064443((&V_7), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_52 = Rect_get_max_m760064443((&V_6), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_53 = Vector2_op_Subtraction_m2849821285(NULL /*static, unused*/, L_51, L_52, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_51 = Rect_get_max_m275713991((&V_7), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_52 = Rect_get_max_m275713991((&V_6), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_53 = Vector2_op_Subtraction_m2097149401(NULL /*static, unused*/, L_51, L_52, /*hidden argument*/NULL);
 		DropdownItem_t2010846948 * L_54 = V_3;
 		NullCheck(L_54);
 		RectTransform_t3317474837 * L_55 = DropdownItem_get_rectTransform_m1644273588(L_54, /*hidden argument*/NULL);
 		NullCheck(L_55);
-		Vector3_t3525329789  L_56 = Transform_get_localPosition_m534168700(L_55, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_57 = Vector2_op_Implicit_m2869958055(NULL /*static, unused*/, L_56, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_58 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_53, L_57, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_56 = Transform_get_localPosition_m668140784(L_55, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_57 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_56, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_58 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_53, L_57, /*hidden argument*/NULL);
 		V_9 = L_58;
-		Vector2_t3525329788  L_59 = Rect_get_size_m2266442540((&V_7), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_59 = Rect_get_size_m136480416((&V_7), /*hidden argument*/NULL);
 		V_10 = L_59;
 		List_1_t2807805917 * L_60 = __this->get_m_Items_26();
 		NullCheck(L_60);
@@ -17315,7 +17315,7 @@ IL_01a4:
 		U3CShowU3Ec__AnonStorey6_t3327131860 * L_62 = V_27;
 		NullCheck(L_62);
 		L_62->set_U3CU3Ef__this_1(__this);
-		List_1_t4163512024 * L_63 = Dropdown_get_options_m399918042(__this, /*hidden argument*/NULL);
+		List_1_t4163512024 * L_63 = Dropdown_get_options_m2855573715(__this, /*hidden argument*/NULL);
 		int32_t L_64 = V_12;
 		NullCheck(L_63);
 		OptionData_t3366553055 * L_65 = VirtFuncInvoker1< OptionData_t3366553055 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::get_Item(System.Int32) */, L_63, L_64);
@@ -17332,7 +17332,7 @@ IL_01a4:
 		U3CShowU3Ec__AnonStorey6_t3327131860 * L_73 = V_27;
 		NullCheck(L_73);
 		DropdownItem_t2010846948 * L_74 = L_73->get_item_0();
-		bool L_75 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_74, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_75 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_74, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_75)
 		{
 			goto IL_01f9;
@@ -17392,7 +17392,7 @@ IL_01f9:
 IL_025e:
 	{
 		Toggle_t1499417981 * L_95 = V_11;
-		bool L_96 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_95, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_96 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_95, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_96)
 		{
 			goto IL_02eb;
@@ -17462,7 +17462,7 @@ IL_02f9:
 IL_02ff:
 	{
 		int32_t L_121 = V_12;
-		List_1_t4163512024 * L_122 = Dropdown_get_options_m399918042(__this, /*hidden argument*/NULL);
+		List_1_t4163512024 * L_122 = Dropdown_get_options_m2855573715(__this, /*hidden argument*/NULL);
 		NullCheck(L_122);
 		int32_t L_123 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::get_Count() */, L_122);
 		if ((((int32_t)L_121) < ((int32_t)L_123)))
@@ -17473,7 +17473,7 @@ IL_02ff:
 	{
 		RectTransform_t3317474837 * L_124 = V_5;
 		NullCheck(L_124);
-		Vector2_t3525329788  L_125 = RectTransform_get_sizeDelta_m4145452900(L_124, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_125 = RectTransform_get_sizeDelta_m4279424984(L_124, /*hidden argument*/NULL);
 		V_16 = L_125;
 		float L_126 = (&V_10)->get_y_2();
 		List_1_t2807805917 * L_127 = __this->get_m_Items_26();
@@ -17485,17 +17485,17 @@ IL_02ff:
 		RectTransform_t3317474837 * L_131 = V_5;
 		Vector2_t3525329788  L_132 = V_16;
 		NullCheck(L_131);
-		RectTransform_set_sizeDelta_m9944005(L_131, L_132, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_131, L_132, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_133 = V_2;
 		NullCheck(L_133);
-		Rect_t1525428817  L_134 = RectTransform_get_rect_m1093243288(L_133, /*hidden argument*/NULL);
+		Rect_t1525428817  L_134 = RectTransform_get_rect_m1566017036(L_133, /*hidden argument*/NULL);
 		V_28 = L_134;
-		float L_135 = Rect_get_height_m1395057219((&V_28), /*hidden argument*/NULL);
+		float L_135 = Rect_get_height_m2154960823((&V_28), /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_136 = V_5;
 		NullCheck(L_136);
-		Rect_t1525428817  L_137 = RectTransform_get_rect_m1093243288(L_136, /*hidden argument*/NULL);
+		Rect_t1525428817  L_137 = RectTransform_get_rect_m1566017036(L_136, /*hidden argument*/NULL);
 		V_29 = L_137;
-		float L_138 = Rect_get_height_m1395057219((&V_29), /*hidden argument*/NULL);
+		float L_138 = Rect_get_height_m2154960823((&V_29), /*hidden argument*/NULL);
 		V_17 = ((float)((float)L_135-(float)L_138));
 		float L_139 = V_17;
 		if ((!(((float)L_139) > ((float)(0.0f)))))
@@ -17507,20 +17507,20 @@ IL_02ff:
 		RectTransform_t3317474837 * L_140 = V_2;
 		RectTransform_t3317474837 * L_141 = V_2;
 		NullCheck(L_141);
-		Vector2_t3525329788  L_142 = RectTransform_get_sizeDelta_m4145452900(L_141, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_142 = RectTransform_get_sizeDelta_m4279424984(L_141, /*hidden argument*/NULL);
 		V_30 = L_142;
 		float L_143 = (&V_30)->get_x_1();
 		RectTransform_t3317474837 * L_144 = V_2;
 		NullCheck(L_144);
-		Vector2_t3525329788  L_145 = RectTransform_get_sizeDelta_m4145452900(L_144, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_145 = RectTransform_get_sizeDelta_m4279424984(L_144, /*hidden argument*/NULL);
 		V_31 = L_145;
 		float L_146 = (&V_31)->get_y_2();
 		float L_147 = V_17;
 		Vector2_t3525329788  L_148;
 		memset(&L_148, 0, sizeof(L_148));
-		Vector2__ctor_m3369031450(&L_148, L_143, ((float)((float)L_146-(float)L_147)), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_148, L_143, ((float)((float)L_146-(float)L_147)), /*hidden argument*/NULL);
 		NullCheck(L_140);
-		RectTransform_set_sizeDelta_m9944005(L_140, L_148, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_140, L_148, /*hidden argument*/NULL);
 	}
 
 IL_03a8:
@@ -17529,14 +17529,14 @@ IL_03a8:
 		RectTransform_t3317474837 * L_149 = V_2;
 		Vector3U5BU5D_t3227571696* L_150 = V_18;
 		NullCheck(L_149);
-		RectTransform_GetWorldCorners_m1056835834(L_149, L_150, /*hidden argument*/NULL);
+		RectTransform_GetWorldCorners_m1829917190(L_149, L_150, /*hidden argument*/NULL);
 		Canvas_t3534013893 * L_151 = V_1;
 		NullCheck(L_151);
-		Transform_t284553113 * L_152 = Component_get_transform_m243597671(L_151, /*hidden argument*/NULL);
+		Transform_t284553113 * L_152 = Component_get_transform_m4257140443(L_151, /*hidden argument*/NULL);
 		V_19 = ((RectTransform_t3317474837 *)IsInstSealed(L_152, RectTransform_t3317474837_il2cpp_TypeInfo_var));
 		RectTransform_t3317474837 * L_153 = V_19;
 		NullCheck(L_153);
-		Rect_t1525428817  L_154 = RectTransform_get_rect_m1093243288(L_153, /*hidden argument*/NULL);
+		Rect_t1525428817  L_154 = RectTransform_get_rect_m1566017036(L_153, /*hidden argument*/NULL);
 		V_20 = L_154;
 		V_21 = 0;
 		goto IL_0465;
@@ -17557,14 +17557,14 @@ IL_03e1:
 		NullCheck(L_156);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_156, L_157);
 		NullCheck(L_155);
-		Vector3_t3525329789  L_158 = Transform_InverseTransformPoint_m268874068(L_155, (*(Vector3_t3525329789 *)((L_156)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_157)))), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_158 = Transform_InverseTransformPoint_m1626812000(L_155, (*(Vector3_t3525329789 *)((L_156)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_157)))), /*hidden argument*/NULL);
 		V_24 = L_158;
 		int32_t L_159 = V_21;
-		float L_160 = Vector3_get_Item_m3198337712((&V_24), L_159, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_161 = Rect_get_min_m760293161((&V_20), /*hidden argument*/NULL);
+		float L_160 = Vector3_get_Item_m108333500((&V_24), L_159, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_161 = Rect_get_min_m275942709((&V_20), /*hidden argument*/NULL);
 		V_32 = L_161;
 		int32_t L_162 = V_21;
-		float L_163 = Vector2_get_Item_m980579759((&V_32), L_162, /*hidden argument*/NULL);
+		float L_163 = Vector2_get_Item_m2185542843((&V_32), L_162, /*hidden argument*/NULL);
 		if ((((float)L_160) < ((float)L_163)))
 		{
 			goto IL_0438;
@@ -17572,11 +17572,11 @@ IL_03e1:
 	}
 	{
 		int32_t L_164 = V_21;
-		float L_165 = Vector3_get_Item_m3198337712((&V_24), L_164, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_166 = Rect_get_max_m760064443((&V_20), /*hidden argument*/NULL);
+		float L_165 = Vector3_get_Item_m108333500((&V_24), L_164, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_166 = Rect_get_max_m275713991((&V_20), /*hidden argument*/NULL);
 		V_33 = L_166;
 		int32_t L_167 = V_21;
-		float L_168 = Vector2_get_Item_m980579759((&V_33), L_167, /*hidden argument*/NULL);
+		float L_168 = Vector2_get_Item_m2185542843((&V_33), L_167, /*hidden argument*/NULL);
 		if ((!(((float)L_165) > ((float)L_168))))
 		{
 			goto IL_0440;
@@ -17616,7 +17616,7 @@ IL_044e:
 		RectTransform_t3317474837 * L_172 = V_2;
 		int32_t L_173 = V_21;
 		IL2CPP_RUNTIME_CLASS_INIT(RectTransformUtility_t2895919825_il2cpp_TypeInfo_var);
-		RectTransformUtility_FlipLayoutOnAxis_m3091495284(NULL /*static, unused*/, L_172, L_173, (bool)0, (bool)0, /*hidden argument*/NULL);
+		RectTransformUtility_FlipLayoutOnAxis_m3487429352(NULL /*static, unused*/, L_172, L_173, (bool)0, (bool)0, /*hidden argument*/NULL);
 	}
 
 IL_045f:
@@ -17650,29 +17650,29 @@ IL_0475:
 		RectTransform_t3317474837 * L_180 = V_26;
 		RectTransform_t3317474837 * L_181 = V_26;
 		NullCheck(L_181);
-		Vector2_t3525329788  L_182 = RectTransform_get_anchorMin_m554702090(L_181, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_182 = RectTransform_get_anchorMin_m688674174(L_181, /*hidden argument*/NULL);
 		V_34 = L_182;
 		float L_183 = (&V_34)->get_x_1();
 		Vector2_t3525329788  L_184;
 		memset(&L_184, 0, sizeof(L_184));
-		Vector2__ctor_m3369031450(&L_184, L_183, (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_184, L_183, (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_180);
-		RectTransform_set_anchorMin_m4070318175(L_180, L_184, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_180, L_184, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_185 = V_26;
 		RectTransform_t3317474837 * L_186 = V_26;
 		NullCheck(L_186);
-		Vector2_t3525329788  L_187 = RectTransform_get_anchorMax_m554473372(L_186, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_187 = RectTransform_get_anchorMax_m688445456(L_186, /*hidden argument*/NULL);
 		V_35 = L_187;
 		float L_188 = (&V_35)->get_x_1();
 		Vector2_t3525329788  L_189;
 		memset(&L_189, 0, sizeof(L_189));
-		Vector2__ctor_m3369031450(&L_189, L_188, (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_189, L_188, (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_185);
-		RectTransform_set_anchorMax_m3796410509(L_185, L_189, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_185, L_189, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_190 = V_26;
 		RectTransform_t3317474837 * L_191 = V_26;
 		NullCheck(L_191);
-		Vector2_t3525329788  L_192 = RectTransform_get_anchoredPosition_m3899441074(L_191, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_192 = RectTransform_get_anchoredPosition_m2318455998(L_191, /*hidden argument*/NULL);
 		V_36 = L_192;
 		float L_193 = (&V_36)->get_x_1();
 		float L_194 = (&V_8)->get_y_2();
@@ -17684,26 +17684,26 @@ IL_0475:
 		float L_199 = (&V_10)->get_y_2();
 		RectTransform_t3317474837 * L_200 = V_26;
 		NullCheck(L_200);
-		Vector2_t3525329788  L_201 = RectTransform_get_pivot_m791453359(L_200, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_201 = RectTransform_get_pivot_m3785570595(L_200, /*hidden argument*/NULL);
 		V_37 = L_201;
 		float L_202 = (&V_37)->get_y_2();
 		Vector2_t3525329788  L_203;
 		memset(&L_203, 0, sizeof(L_203));
-		Vector2__ctor_m3369031450(&L_203, L_193, ((float)((float)((float)((float)L_194+(float)((float)((float)L_195*(float)(((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)L_197-(int32_t)1))-(int32_t)L_198)))))))))+(float)((float)((float)L_199*(float)L_202)))), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_203, L_193, ((float)((float)((float)((float)L_194+(float)((float)((float)L_195*(float)(((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)L_197-(int32_t)1))-(int32_t)L_198)))))))))+(float)((float)((float)L_199*(float)L_202)))), /*hidden argument*/NULL);
 		NullCheck(L_190);
-		RectTransform_set_anchoredPosition_m246914553(L_190, L_203, /*hidden argument*/NULL);
+		RectTransform_set_anchoredPosition_m1498949997(L_190, L_203, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_204 = V_26;
 		RectTransform_t3317474837 * L_205 = V_26;
 		NullCheck(L_205);
-		Vector2_t3525329788  L_206 = RectTransform_get_sizeDelta_m4145452900(L_205, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_206 = RectTransform_get_sizeDelta_m4279424984(L_205, /*hidden argument*/NULL);
 		V_38 = L_206;
 		float L_207 = (&V_38)->get_x_1();
 		float L_208 = (&V_10)->get_y_2();
 		Vector2_t3525329788  L_209;
 		memset(&L_209, 0, sizeof(L_209));
-		Vector2__ctor_m3369031450(&L_209, L_207, L_208, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_209, L_207, L_208, /*hidden argument*/NULL);
 		NullCheck(L_204);
-		RectTransform_set_sizeDelta_m9944005(L_204, L_209, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_204, L_209, /*hidden argument*/NULL);
 		int32_t L_210 = V_25;
 		V_25 = ((int32_t)((int32_t)L_210+(int32_t)1));
 	}
@@ -17723,14 +17723,14 @@ IL_054a:
 		Dropdown_AlphaFadeList_m3646986629(__this, (0.15f), (0.0f), (1.0f), /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_214 = __this->get_m_Template_16();
 		NullCheck(L_214);
-		GameObject_t4012695102 * L_215 = Component_get_gameObject_m1036663815(L_214, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_215 = Component_get_gameObject_m1170635899(L_214, /*hidden argument*/NULL);
 		NullCheck(L_215);
-		GameObject_SetActive_m3672431053(L_215, (bool)0, /*hidden argument*/NULL);
+		GameObject_SetActive_m3538205401(L_215, (bool)0, /*hidden argument*/NULL);
 		DropdownItem_t2010846948 * L_216 = V_3;
 		NullCheck(L_216);
-		GameObject_t4012695102 * L_217 = Component_get_gameObject_m1036663815(L_216, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_217 = Component_get_gameObject_m1170635899(L_216, /*hidden argument*/NULL);
 		NullCheck(L_217);
-		GameObject_SetActive_m3672431053(L_217, (bool)0, /*hidden argument*/NULL);
+		GameObject_SetActive_m3538205401(L_217, (bool)0, /*hidden argument*/NULL);
 		Canvas_t3534013893 * L_218 = V_1;
 		GameObject_t4012695102 * L_219 = VirtFuncInvoker1< GameObject_t4012695102 *, Canvas_t3534013893 * >::Invoke(44 /* UnityEngine.GameObject UnityEngine.UI.Dropdown::CreateBlocker(UnityEngine.Canvas) */, __this, L_218);
 		__this->set_m_Blocker_25(L_219);
@@ -17742,7 +17742,7 @@ extern TypeInfo* GameObject_t4012695102_il2cpp_TypeInfo_var;
 extern TypeInfo* UnityAction_t909267611_il2cpp_TypeInfo_var;
 extern const MethodInfo* GameObject_AddComponent_TisRectTransform_t3317474837_m3846759000_MethodInfo_var;
 extern const MethodInfo* GameObject_AddComponent_TisCanvas_t3534013893_m2137401606_MethodInfo_var;
-extern const MethodInfo* GameObject_GetComponent_TisCanvas_t3534013893_m4009786289_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisCanvas_t3534013893_m1724722282_MethodInfo_var;
 extern const MethodInfo* GameObject_AddComponent_TisGraphicRaycaster_t2033008887_m3633242200_MethodInfo_var;
 extern const MethodInfo* GameObject_AddComponent_TisImage_t3354615620_m3664949437_MethodInfo_var;
 extern const MethodInfo* GameObject_AddComponent_TisButton_t990034267_m2834709044_MethodInfo_var;
@@ -17765,7 +17765,7 @@ extern "C"  GameObject_t4012695102 * Dropdown_CreateBlocker_m4177511350 (Dropdow
 	Button_t990034267 * V_5 = NULL;
 	{
 		GameObject_t4012695102 * L_0 = (GameObject_t4012695102 *)il2cpp_codegen_object_new(GameObject_t4012695102_il2cpp_TypeInfo_var);
-		GameObject__ctor_m556827858(L_0, _stringLiteral1643215322, /*hidden argument*/NULL);
+		GameObject__ctor_m3920833606(L_0, _stringLiteral1643215322, /*hidden argument*/NULL);
 		V_0 = L_0;
 		GameObject_t4012695102 * L_1 = V_0;
 		NullCheck(L_1);
@@ -17774,46 +17774,46 @@ extern "C"  GameObject_t4012695102 * Dropdown_CreateBlocker_m4177511350 (Dropdow
 		RectTransform_t3317474837 * L_3 = V_1;
 		Canvas_t3534013893 * L_4 = ___rootCanvas;
 		NullCheck(L_4);
-		Transform_t284553113 * L_5 = Component_get_transform_m243597671(L_4, /*hidden argument*/NULL);
+		Transform_t284553113 * L_5 = Component_get_transform_m4257140443(L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		Transform_SetParent_m3943734371(L_3, L_5, (bool)0, /*hidden argument*/NULL);
+		Transform_SetParent_m263985879(L_3, L_5, (bool)0, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_6 = V_1;
-		Vector3_t3525329789  L_7 = Vector3_get_zero_m1872564710(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_8 = Vector2_op_Implicit_m2869958055(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_7 = Vector3_get_zero_m2017759730(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_8 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		RectTransform_set_anchorMin_m4070318175(L_6, L_8, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_6, L_8, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_9 = V_1;
-		Vector3_t3525329789  L_10 = Vector3_get_one_m3375635978(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_11 = Vector2_op_Implicit_m2869958055(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_10 = Vector3_get_one_m886467710(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_11 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		RectTransform_set_anchorMax_m3796410509(L_9, L_11, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_9, L_11, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_12 = V_1;
-		Vector2_t3525329788  L_13 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_13 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		RectTransform_set_sizeDelta_m9944005(L_12, L_13, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_12, L_13, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_14 = V_0;
 		NullCheck(L_14);
 		Canvas_t3534013893 * L_15 = GameObject_AddComponent_TisCanvas_t3534013893_m2137401606(L_14, /*hidden argument*/GameObject_AddComponent_TisCanvas_t3534013893_m2137401606_MethodInfo_var);
 		V_2 = L_15;
 		Canvas_t3534013893 * L_16 = V_2;
 		NullCheck(L_16);
-		Canvas_set_overrideSorting_m3702410169(L_16, (bool)1, /*hidden argument*/NULL);
+		Canvas_set_overrideSorting_m1850487749(L_16, (bool)1, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_17 = __this->get_m_Dropdown_24();
 		NullCheck(L_17);
-		Canvas_t3534013893 * L_18 = GameObject_GetComponent_TisCanvas_t3534013893_m4009786289(L_17, /*hidden argument*/GameObject_GetComponent_TisCanvas_t3534013893_m4009786289_MethodInfo_var);
+		Canvas_t3534013893 * L_18 = GameObject_GetComponent_TisCanvas_t3534013893_m1724722282(L_17, /*hidden argument*/GameObject_GetComponent_TisCanvas_t3534013893_m1724722282_MethodInfo_var);
 		V_3 = L_18;
 		Canvas_t3534013893 * L_19 = V_2;
 		Canvas_t3534013893 * L_20 = V_3;
 		NullCheck(L_20);
-		int32_t L_21 = Canvas_get_sortingLayerID_m1332377524(L_20, /*hidden argument*/NULL);
+		int32_t L_21 = Canvas_get_sortingLayerID_m3425838272(L_20, /*hidden argument*/NULL);
 		NullCheck(L_19);
-		Canvas_set_sortingLayerID_m2419348625(L_19, L_21, /*hidden argument*/NULL);
+		Canvas_set_sortingLayerID_m2317502469(L_19, L_21, /*hidden argument*/NULL);
 		Canvas_t3534013893 * L_22 = V_2;
 		Canvas_t3534013893 * L_23 = V_3;
 		NullCheck(L_23);
-		int32_t L_24 = Canvas_get_sortingOrder_m1128965654(L_23, /*hidden argument*/NULL);
+		int32_t L_24 = Canvas_get_sortingOrder_m1274160674(L_23, /*hidden argument*/NULL);
 		NullCheck(L_22);
-		Canvas_set_sortingOrder_m1388835571(L_22, ((int32_t)((int32_t)L_24-(int32_t)1)), /*hidden argument*/NULL);
+		Canvas_set_sortingOrder_m1522807655(L_22, ((int32_t)((int32_t)L_24-(int32_t)1)), /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_25 = V_0;
 		NullCheck(L_25);
 		GameObject_AddComponent_TisGraphicRaycaster_t2033008887_m3633242200(L_25, /*hidden argument*/GameObject_AddComponent_TisGraphicRaycaster_t2033008887_m3633242200_MethodInfo_var);
@@ -17822,7 +17822,7 @@ extern "C"  GameObject_t4012695102 * Dropdown_CreateBlocker_m4177511350 (Dropdow
 		Image_t3354615620 * L_27 = GameObject_AddComponent_TisImage_t3354615620_m3664949437(L_26, /*hidden argument*/GameObject_AddComponent_TisImage_t3354615620_m3664949437_MethodInfo_var);
 		V_4 = L_27;
 		Image_t3354615620 * L_28 = V_4;
-		Color_t1588175760  L_29 = Color_get_clear_m413341707(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Color_t1588175760  L_29 = Color_get_clear_m2578346879(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_28);
 		Graphic_set_color_m1311501487(L_28, L_29, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_30 = V_0;
@@ -17831,13 +17831,13 @@ extern "C"  GameObject_t4012695102 * Dropdown_CreateBlocker_m4177511350 (Dropdow
 		V_5 = L_31;
 		Button_t990034267 * L_32 = V_5;
 		NullCheck(L_32);
-		ButtonClickedEvent_t962981669 * L_33 = Button_get_onClick_m1145127631(L_32, /*hidden argument*/NULL);
+		ButtonClickedEvent_t962981669 * L_33 = Button_get_onClick_m99084534(L_32, /*hidden argument*/NULL);
 		IntPtr_t L_34;
 		L_34.set_m_value_0((void*)Dropdown_Hide_m2250183404_MethodInfo_var);
 		UnityAction_t909267611 * L_35 = (UnityAction_t909267611 *)il2cpp_codegen_object_new(UnityAction_t909267611_il2cpp_TypeInfo_var);
-		UnityAction__ctor_m1639493687(L_35, __this, L_34, /*hidden argument*/NULL);
+		UnityAction__ctor_m4130179243(L_35, __this, L_34, /*hidden argument*/NULL);
 		NullCheck(L_33);
-		UnityEvent_AddListener_m657770641(L_33, L_35, /*hidden argument*/NULL);
+		UnityEvent_AddListener_m4099140869(L_33, L_35, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_36 = V_0;
 		return L_36;
 	}
@@ -17847,7 +17847,7 @@ extern "C"  void Dropdown_DestroyBlocker_m442421122 (Dropdown_t2916437562 * __th
 {
 	{
 		GameObject_t4012695102 * L_0 = ___blocker;
-		Object_Destroy_m1848047012(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -17873,7 +17873,7 @@ extern "C"  void Dropdown_DestroyDropdownList_m2466702489 (Dropdown_t2916437562 
 {
 	{
 		GameObject_t4012695102 * L_0 = ___dropdownList;
-		Object_Destroy_m1848047012(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -17937,17 +17937,17 @@ extern "C"  DropdownItem_t2010846948 * Dropdown_AddItem_m2798122239 (Dropdown_t2
 		NullCheck(L_4);
 		RectTransform_t3317474837 * L_5 = DropdownItem_get_rectTransform_m1644273588(L_4, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		Transform_t284553113 * L_6 = Transform_get_parent_m1031913888(L_5, /*hidden argument*/NULL);
+		Transform_t284553113 * L_6 = Transform_get_parent_m2236876972(L_5, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		Transform_SetParent_m3943734371(L_3, L_6, (bool)0, /*hidden argument*/NULL);
+		Transform_SetParent_m263985879(L_3, L_6, (bool)0, /*hidden argument*/NULL);
 		DropdownItem_t2010846948 * L_7 = V_0;
 		NullCheck(L_7);
-		GameObject_t4012695102 * L_8 = Component_get_gameObject_m1036663815(L_7, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_8 = Component_get_gameObject_m1170635899(L_7, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		GameObject_SetActive_m3672431053(L_8, (bool)1, /*hidden argument*/NULL);
+		GameObject_SetActive_m3538205401(L_8, (bool)1, /*hidden argument*/NULL);
 		DropdownItem_t2010846948 * L_9 = V_0;
 		NullCheck(L_9);
-		GameObject_t4012695102 * L_10 = Component_get_gameObject_m1036663815(L_9, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_10 = Component_get_gameObject_m1170635899(L_9, /*hidden argument*/NULL);
 		List_1_t2807805917 * L_11 = ___items;
 		NullCheck(L_11);
 		int32_t L_12 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>::get_Count() */, L_11);
@@ -17995,11 +17995,11 @@ IL_0067:
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_21 = String_Concat_m2809334143(NULL /*static, unused*/, G_B3_2, G_B3_1, G_B3_0, /*hidden argument*/NULL);
 		NullCheck(G_B3_3);
-		Object_set_name_m3647401496(G_B3_3, L_21, /*hidden argument*/NULL);
+		Object_set_name_m1123518500(G_B3_3, L_21, /*hidden argument*/NULL);
 		DropdownItem_t2010846948 * L_22 = V_0;
 		NullCheck(L_22);
 		Toggle_t1499417981 * L_23 = DropdownItem_get_toggle_m2842574180(L_22, /*hidden argument*/NULL);
-		bool L_24 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_23, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_24 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_23, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_24)
 		{
 			goto IL_008e;
@@ -18018,7 +18018,7 @@ IL_008e:
 		DropdownItem_t2010846948 * L_27 = V_0;
 		NullCheck(L_27);
 		Text_t3286458198 * L_28 = DropdownItem_get_text_m2361276100(L_27, /*hidden argument*/NULL);
-		bool L_29 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
+		bool L_29 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
 		if (!L_29)
 		{
 			goto IL_00af;
@@ -18040,7 +18040,7 @@ IL_00af:
 		DropdownItem_t2010846948 * L_34 = V_0;
 		NullCheck(L_34);
 		Image_t3354615620 * L_35 = DropdownItem_get_image_m1361578890(L_34, /*hidden argument*/NULL);
-		bool L_36 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
+		bool L_36 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
 		if (!L_36)
 		{
 			goto IL_00ec;
@@ -18063,9 +18063,9 @@ IL_00af:
 		Image_t3354615620 * L_44 = DropdownItem_get_image_m1361578890(L_43, /*hidden argument*/NULL);
 		NullCheck(L_44);
 		Sprite_t4006040370 * L_45 = Image_get_sprite_m3572636301(L_44, /*hidden argument*/NULL);
-		bool L_46 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_45, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_46 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_45, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		NullCheck(L_42);
-		Behaviour_set_enabled_m1912834849(L_42, L_46, /*hidden argument*/NULL);
+		Behaviour_set_enabled_m2046806933(L_42, L_46, /*hidden argument*/NULL);
 	}
 
 IL_00ec:
@@ -18098,7 +18098,7 @@ extern "C"  void Dropdown_AlphaFadeList_m2508072608 (Dropdown_t2916437562 * __th
 		float L_2 = ___duration;
 		CanvasGroup_t1295922228 * L_3 = V_0;
 		NullCheck(L_3);
-		float L_4 = CanvasGroup_get_alpha_m840813949(L_3, /*hidden argument*/NULL);
+		float L_4 = CanvasGroup_get_alpha_m2646612977(L_3, /*hidden argument*/NULL);
 		float L_5 = ___alpha;
 		Dropdown_AlphaFadeList_m3646986629(__this, L_2, L_4, L_5, /*hidden argument*/NULL);
 		return;
@@ -18175,7 +18175,7 @@ extern "C"  void Dropdown_SetAlpha_m3190511269 (Dropdown_t2916437562 * __this, f
 	CanvasGroup_t1295922228 * V_0 = NULL;
 	{
 		GameObject_t4012695102 * L_0 = __this->get_m_Dropdown_24();
-		bool L_1 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_0011;
@@ -18194,7 +18194,7 @@ IL_0011:
 		CanvasGroup_t1295922228 * L_4 = V_0;
 		float L_5 = ___alpha;
 		NullCheck(L_4);
-		CanvasGroup_set_alpha_m2275027022(L_4, L_5, /*hidden argument*/NULL);
+		CanvasGroup_set_alpha_m2140801370(L_4, L_5, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -18203,7 +18203,7 @@ extern "C"  void Dropdown_Hide_m2250183404 (Dropdown_t2916437562 * __this, const
 {
 	{
 		GameObject_t4012695102 * L_0 = __this->get_m_Dropdown_24();
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0033;
@@ -18212,13 +18212,13 @@ extern "C"  void Dropdown_Hide_m2250183404 (Dropdown_t2916437562 * __this, const
 	{
 		Dropdown_AlphaFadeList_m2508072608(__this, (0.15f), (0.0f), /*hidden argument*/NULL);
 		Il2CppObject * L_2 = Dropdown_DelayedDestroyDropdownList_m3972931676(__this, (0.15f), /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m4099245512(__this, L_2, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_2, /*hidden argument*/NULL);
 	}
 
 IL_0033:
 	{
 		GameObject_t4012695102 * L_3 = __this->get_m_Blocker_25();
-		bool L_4 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0050;
@@ -18294,11 +18294,11 @@ IL_0012:
 		V_0 = (-1);
 		Toggle_t1499417981 * L_3 = ___toggle;
 		NullCheck(L_3);
-		Transform_t284553113 * L_4 = Component_get_transform_m243597671(L_3, /*hidden argument*/NULL);
+		Transform_t284553113 * L_4 = Component_get_transform_m4257140443(L_3, /*hidden argument*/NULL);
 		V_1 = L_4;
 		Transform_t284553113 * L_5 = V_1;
 		NullCheck(L_5);
-		Transform_t284553113 * L_6 = Transform_get_parent_m1031913888(L_5, /*hidden argument*/NULL);
+		Transform_t284553113 * L_6 = Transform_get_parent_m2236876972(L_5, /*hidden argument*/NULL);
 		V_2 = L_6;
 		V_3 = 0;
 		goto IL_0048;
@@ -18309,9 +18309,9 @@ IL_0029:
 		Transform_t284553113 * L_7 = V_2;
 		int32_t L_8 = V_3;
 		NullCheck(L_7);
-		Transform_t284553113 * L_9 = Transform_GetChild_m1597418116(L_7, L_8, /*hidden argument*/NULL);
+		Transform_t284553113 * L_9 = Transform_GetChild_m4040462992(L_7, L_8, /*hidden argument*/NULL);
 		Transform_t284553113 * L_10 = V_1;
-		bool L_11 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		bool L_11 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
 		if (!L_11)
 		{
 			goto IL_0044;
@@ -18334,7 +18334,7 @@ IL_0048:
 		int32_t L_14 = V_3;
 		Transform_t284553113 * L_15 = V_2;
 		NullCheck(L_15);
-		int32_t L_16 = Transform_get_childCount_m1901732351(L_15, /*hidden argument*/NULL);
+		int32_t L_16 = Transform_get_childCount_m2107810675(L_15, /*hidden argument*/NULL);
 		if ((((int32_t)L_14) < ((int32_t)L_16)))
 		{
 			goto IL_0029;
@@ -18410,7 +18410,7 @@ extern "C"  bool U3CDelayedDestroyDropdownListU3Ec__Iterator2_MoveNext_m19770224
 
 IL_0021:
 	{
-		float L_2 = Time_get_realtimeSinceStartup_m4273405043(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_2 = Time_get_realtimeSinceStartup_m2972554983(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_3 = __this->get_delay_0();
 		__this->set_U3CwaitTimeU3E__0_1(((float)((float)L_2+(float)L_3)));
 		goto IL_004b;
@@ -18425,7 +18425,7 @@ IL_0038:
 
 IL_004b:
 	{
-		float L_4 = Time_get_realtimeSinceStartup_m4273405043(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_4 = Time_get_realtimeSinceStartup_m2972554983(NULL /*static, unused*/, /*hidden argument*/NULL);
 		float L_5 = __this->get_U3CwaitTimeU3E__0_1();
 		if ((((float)L_4) < ((float)L_5)))
 		{
@@ -18445,7 +18445,7 @@ IL_0067:
 		int32_t L_8 = __this->get_U3CiU3E__1_2();
 		NullCheck(L_7);
 		DropdownItem_t2010846948 * L_9 = VirtFuncInvoker1< DropdownItem_t2010846948 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>::get_Item(System.Int32) */, L_7, L_8);
-		bool L_10 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_9, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_10 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_9, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_10)
 		{
 			goto IL_00a9;
@@ -18491,7 +18491,7 @@ IL_00c7:
 		Dropdown_t2916437562 * L_23 = __this->get_U3CU3Ef__this_6();
 		NullCheck(L_23);
 		GameObject_t4012695102 * L_24 = L_23->get_m_Dropdown_24();
-		bool L_25 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_24, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_25 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_24, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_25)
 		{
 			goto IL_010e;
@@ -18591,7 +18591,7 @@ extern "C"  void DropdownEvent__ctor_m3364351936 (DropdownEvent_t2203078889 * __
 extern "C"  void DropdownItem__ctor_m653383513 (DropdownItem_t2010846948 * __this, const MethodInfo* method)
 {
 	{
-		MonoBehaviour__ctor_m1899368843(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -18677,7 +18677,7 @@ extern "C"  void DropdownItem_OnPointerEnter_m2208531769 (DropdownItem_t20108469
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(EventSystem_t409518532_il2cpp_TypeInfo_var);
 		EventSystem_t409518532 * L_0 = EventSystem_get_current_m3483537871(NULL /*static, unused*/, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_1 = Component_get_gameObject_m1036663815(__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_1 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		EventSystem_SetSelectedGameObject_m1869236832(L_0, L_1, /*hidden argument*/NULL);
 		return;
@@ -18699,7 +18699,7 @@ extern "C"  void DropdownItem_OnCancel_m3886441502 (DropdownItem_t2010846948 * _
 		Dropdown_t2916437562 * L_0 = Component_GetComponentInParent_TisDropdown_t2916437562_m286421177(__this, /*hidden argument*/Component_GetComponentInParent_TisDropdown_t2916437562_m286421177_MethodInfo_var);
 		V_0 = L_0;
 		Dropdown_t2916437562 * L_1 = V_0;
-		bool L_2 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0018;
@@ -18725,7 +18725,7 @@ extern "C"  void OptionData__ctor_m2550995262 (OptionData_t3366553055 * __this, 
 	}
 }
 // System.Void UnityEngine.UI.Dropdown/OptionData::.ctor(System.String)
-extern "C"  void OptionData__ctor_m3621517956 (OptionData_t3366553055 * __this, String_t* ___text, const MethodInfo* method)
+extern "C"  void OptionData__ctor_m3385162877 (OptionData_t3366553055 * __this, String_t* ___text, const MethodInfo* method)
 {
 	{
 		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
@@ -18856,15 +18856,15 @@ extern "C"  void FontData_UnityEngine_ISerializationCallbackReceiver_OnAfterDese
 	{
 		int32_t L_0 = __this->get_m_FontSize_1();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_1 = Mathf_Clamp_m4032346681(NULL /*static, unused*/, L_0, 0, ((int32_t)300), /*hidden argument*/NULL);
+		int32_t L_1 = Mathf_Clamp_m510460741(NULL /*static, unused*/, L_0, 0, ((int32_t)300), /*hidden argument*/NULL);
 		__this->set_m_FontSize_1(L_1);
 		int32_t L_2 = __this->get_m_MinSize_4();
 		int32_t L_3 = __this->get_m_FontSize_1();
-		int32_t L_4 = Mathf_Clamp_m4032346681(NULL /*static, unused*/, L_2, 0, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = Mathf_Clamp_m510460741(NULL /*static, unused*/, L_2, 0, L_3, /*hidden argument*/NULL);
 		__this->set_m_MinSize_4(L_4);
 		int32_t L_5 = __this->get_m_MaxSize_5();
 		int32_t L_6 = __this->get_m_FontSize_1();
-		int32_t L_7 = Mathf_Clamp_m4032346681(NULL /*static, unused*/, L_5, L_6, ((int32_t)300), /*hidden argument*/NULL);
+		int32_t L_7 = Mathf_Clamp_m510460741(NULL /*static, unused*/, L_5, L_6, ((int32_t)300), /*hidden argument*/NULL);
 		__this->set_m_MaxSize_5(L_7);
 		return;
 	}
@@ -19170,7 +19170,7 @@ extern "C"  void FontUpdateTracker_TrackText_m1576315537 (Il2CppObject * __this 
 		Text_t3286458198 * L_0 = ___t;
 		NullCheck(L_0);
 		Font_t1525081276 * L_1 = Text_get_font_m2437753165(L_0, /*hidden argument*/NULL);
-		bool L_2 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0012;
@@ -19210,7 +19210,7 @@ IL_0012:
 		L_9.set_m_value_0((void*)FontUpdateTracker_RebuildForFont_m4050910816_MethodInfo_var);
 		Action_1_t1673533981 * L_10 = (Action_1_t1673533981 *)il2cpp_codegen_object_new(Action_1_t1673533981_il2cpp_TypeInfo_var);
 		Action_1__ctor_m1910600726(L_10, NULL, L_9, /*hidden argument*/Action_1__ctor_m1910600726_MethodInfo_var);
-		Font_add_textureRebuilt_m1432032176(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		Font_add_textureRebuilt_m3323945916(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 	}
 
 IL_004b:
@@ -19332,7 +19332,7 @@ extern "C"  void FontUpdateTracker_UntrackText_m1952028010 (Il2CppObject * __thi
 		Text_t3286458198 * L_0 = ___t;
 		NullCheck(L_0);
 		Font_t1525081276 * L_1 = Text_get_font_m2437753165(L_0, /*hidden argument*/NULL);
-		bool L_2 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0012;
@@ -19396,7 +19396,7 @@ IL_002c:
 		L_16.set_m_value_0((void*)FontUpdateTracker_RebuildForFont_m4050910816_MethodInfo_var);
 		Action_1_t1673533981 * L_17 = (Action_1_t1673533981 *)il2cpp_codegen_object_new(Action_1_t1673533981_il2cpp_TypeInfo_var);
 		Action_1__ctor_m1910600726(L_17, NULL, L_16, /*hidden argument*/Action_1__ctor_m1910600726_MethodInfo_var);
-		Font_remove_textureRebuilt_m3658240661(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		Font_remove_textureRebuilt_m2804643593(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
 	}
 
 IL_0070:
@@ -19418,7 +19418,7 @@ extern "C"  void Graphic__ctor_m4066569555 (Graphic_t933884113 * __this, const M
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Color_t1588175760  L_0 = Color_get_white_m873277159(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Color_t1588175760  L_0 = Color_get_white_m3038282331(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->set_m_Color_5(L_0);
 		__this->set_m_RaycastTarget_6((bool)1);
 		UIBehaviour__ctor_m1261553468(__this, /*hidden argument*/NULL);
@@ -19478,14 +19478,14 @@ extern "C"  Material_t1886596500 * Graphic_get_defaultGraphicMaterial_m456140641
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Graphic_t933884113_il2cpp_TypeInfo_var);
 		Material_t1886596500 * L_0 = ((Graphic_t933884113_StaticFields*)Graphic_t933884113_il2cpp_TypeInfo_var->static_fields)->get_s_DefaultUI_2();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001a;
 		}
 	}
 	{
-		Material_t1886596500 * L_2 = Canvas_GetDefaultCanvasMaterial_m3507285598(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Material_t1886596500 * L_2 = Canvas_GetDefaultCanvasMaterial_m1655363178(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Graphic_t933884113_il2cpp_TypeInfo_var);
 		((Graphic_t933884113_StaticFields*)Graphic_t933884113_il2cpp_TypeInfo_var->static_fields)->set_s_DefaultUI_2(L_2);
 	}
@@ -19606,7 +19606,7 @@ IL_000c:
 	{
 		UnityAction_t909267611 * L_3 = __this->get_m_OnDirtyLayoutCallback_12();
 		NullCheck(L_3);
-		UnityAction_Invoke_m1773515601(L_3, /*hidden argument*/NULL);
+		UnityAction_Invoke_m1979593925(L_3, /*hidden argument*/NULL);
 	}
 
 IL_002d:
@@ -19650,7 +19650,7 @@ IL_000c:
 	{
 		UnityAction_t909267611 * L_2 = __this->get_m_OnDirtyVertsCallback_13();
 		NullCheck(L_2);
-		UnityAction_Invoke_m1773515601(L_2, /*hidden argument*/NULL);
+		UnityAction_Invoke_m1979593925(L_2, /*hidden argument*/NULL);
 	}
 
 IL_002f:
@@ -19694,7 +19694,7 @@ IL_000c:
 	{
 		UnityAction_t909267611 * L_2 = __this->get_m_OnDirtyMaterialCallback_14();
 		NullCheck(L_2);
-		UnityAction_Invoke_m1773515601(L_2, /*hidden argument*/NULL);
+		UnityAction_Invoke_m1979593925(L_2, /*hidden argument*/NULL);
 	}
 
 IL_002f:
@@ -19714,9 +19714,9 @@ extern "C"  void Graphic_OnRectTransformDimensionsChange_m1660020535 (Graphic_t9
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		GameObject_t4012695102 * L_0 = Component_get_gameObject_m1036663815(__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_0 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		bool L_1 = GameObject_get_activeInHierarchy_m478478881(L_0, /*hidden argument*/NULL);
+		bool L_1 = GameObject_get_activeInHierarchy_m612450965(L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0031;
@@ -19808,7 +19808,7 @@ extern "C"  int32_t Graphic_get_depth_m1908843203 (Graphic_t933884113 * __this, 
 	{
 		CanvasRenderer_t3626201768 * L_0 = Graphic_get_canvasRenderer_m184553434(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		int32_t L_1 = CanvasRenderer_get_absoluteDepth_m1894991999(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = CanvasRenderer_get_absoluteDepth_m1613567475(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -19855,7 +19855,7 @@ extern "C"  Canvas_t3534013893 * Graphic_get_canvas_m4291384250 (Graphic_t933884
 {
 	{
 		Canvas_t3534013893 * L_0 = __this->get_m_Canvas_9();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0017;
@@ -19891,7 +19891,7 @@ extern "C"  void Graphic_CacheCanvas_m512847723 (Graphic_t933884113 * __this, co
 		IL2CPP_RUNTIME_CLASS_INIT(ListPool_1_t3148029054_il2cpp_TypeInfo_var);
 		List_1_t36005566 * L_0 = ListPool_1_Get_m3707028656(NULL /*static, unused*/, /*hidden argument*/ListPool_1_Get_m3707028656_MethodInfo_var);
 		V_0 = L_0;
-		GameObject_t4012695102 * L_1 = Component_get_gameObject_m1036663815(__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_1 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
 		List_1_t36005566 * L_2 = V_0;
 		NullCheck(L_1);
 		GameObject_GetComponentsInParent_TisCanvas_t3534013893_m3002356423(L_1, (bool)0, L_2, /*hidden argument*/GameObject_GetComponentsInParent_TisCanvas_t3534013893_m3002356423_MethodInfo_var);
@@ -19915,7 +19915,7 @@ IL_0026:
 		NullCheck(L_5);
 		Canvas_t3534013893 * L_7 = VirtFuncInvoker1< Canvas_t3534013893 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.Canvas>::get_Item(System.Int32) */, L_5, L_6);
 		NullCheck(L_7);
-		bool L_8 = Behaviour_get_isActiveAndEnabled_m76195377(L_7, /*hidden argument*/NULL);
+		bool L_8 = Behaviour_get_isActiveAndEnabled_m210167461(L_7, /*hidden argument*/NULL);
 		if (!L_8)
 		{
 			goto IL_0049;
@@ -19979,7 +19979,7 @@ extern "C"  CanvasRenderer_t3626201768 * Graphic_get_canvasRenderer_m184553434 (
 	}
 	{
 		CanvasRenderer_t3626201768 * L_0 = __this->get_m_CanvasRender_8();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001d;
@@ -20019,7 +20019,7 @@ extern "C"  Material_t1886596500 * Graphic_get_material_m3381093914 (Graphic_t93
 	Material_t1886596500 * G_B3_0 = NULL;
 	{
 		Material_t1886596500 * L_0 = __this->get_m_Material_4();
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001c;
@@ -20048,7 +20048,7 @@ extern "C"  void Graphic_set_material_m2202379063 (Graphic_t933884113 * __this, 
 	{
 		Material_t1886596500 * L_0 = __this->get_m_Material_4();
 		Material_t1886596500 * L_1 = ___value;
-		bool L_2 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0012;
@@ -20092,7 +20092,7 @@ extern "C"  Material_t1886596500 * Graphic_get_materialForRendering_m1154169789 
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_1 = Type_GetTypeFromHandle_m3806905434(NULL /*static, unused*/, LoadTypeToken(IMaterialModifier_t2519068048_0_0_0_var), /*hidden argument*/NULL);
 		List_1_t2923905571 * L_2 = V_0;
-		Component_GetComponents_m3740314889(__this, L_1, L_2, /*hidden argument*/NULL);
+		Component_GetComponents_m3426812285(__this, L_1, L_2, /*hidden argument*/NULL);
 		Material_t1886596500 * L_3 = VirtFuncInvoker0< Material_t1886596500 * >::Invoke(26 /* UnityEngine.Material UnityEngine.UI.Graphic::get_material() */, __this);
 		V_1 = L_3;
 		V_2 = 0;
@@ -20169,14 +20169,14 @@ extern "C"  void Graphic_OnEnable_m1102673235 (Graphic_t933884113 * __this, cons
 		GraphicRegistry_RegisterGraphicForCanvas_m977086278(NULL /*static, unused*/, L_0, __this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Graphic_t933884113_il2cpp_TypeInfo_var);
 		Texture2D_t2509538522 * L_1 = ((Graphic_t933884113_StaticFields*)Graphic_t933884113_il2cpp_TypeInfo_var->static_fields)->get_s_WhiteTexture_3();
-		bool L_2 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0032;
 		}
 	}
 	{
-		Texture2D_t2509538522 * L_3 = Texture2D_get_whiteTexture_m1355979434(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_3 = Texture2D_get_whiteTexture_m1214146742(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Graphic_t933884113_il2cpp_TypeInfo_var);
 		((Graphic_t933884113_StaticFields*)Graphic_t933884113_il2cpp_TypeInfo_var->static_fields)->set_s_WhiteTexture_3(L_3);
 	}
@@ -20207,7 +20207,7 @@ extern "C"  void Graphic_OnDisable_m264069178 (Graphic_t933884113 * __this, cons
 		IL2CPP_RUNTIME_CLASS_INIT(CanvasUpdateRegistry_t2591544775_il2cpp_TypeInfo_var);
 		CanvasUpdateRegistry_UnRegisterCanvasElementForRebuild_m2188113711(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
 		CanvasRenderer_t3626201768 * L_1 = Graphic_get_canvasRenderer_m184553434(__this, /*hidden argument*/NULL);
-		bool L_2 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_002e;
@@ -20216,7 +20216,7 @@ extern "C"  void Graphic_OnDisable_m264069178 (Graphic_t933884113 * __this, cons
 	{
 		CanvasRenderer_t3626201768 * L_3 = Graphic_get_canvasRenderer_m184553434(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		CanvasRenderer_Clear_m2090858545(L_3, /*hidden argument*/NULL);
+		CanvasRenderer_Clear_m1606508093(L_3, /*hidden argument*/NULL);
 	}
 
 IL_002e:
@@ -20259,7 +20259,7 @@ IL_001a:
 		Graphic_CacheCanvas_m512847723(__this, /*hidden argument*/NULL);
 		Canvas_t3534013893 * L_2 = V_0;
 		Canvas_t3534013893 * L_3 = __this->get_m_Canvas_9();
-		bool L_4 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_004f;
@@ -20293,7 +20293,7 @@ extern "C"  void Graphic_Rebuild_m444579746 (Graphic_t933884113 * __this, int32_
 	{
 		CanvasRenderer_t3626201768 * L_0 = Graphic_get_canvasRenderer_m184553434(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		bool L_1 = CanvasRenderer_get_cull_m1250395047(L_0, /*hidden argument*/NULL);
+		bool L_1 = CanvasRenderer_get_cull_m3343855795(L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0011;
@@ -20385,15 +20385,15 @@ IL_000c:
 	{
 		CanvasRenderer_t3626201768 * L_1 = Graphic_get_canvasRenderer_m184553434(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		CanvasRenderer_set_materialCount_m603132896(L_1, 1, /*hidden argument*/NULL);
+		CanvasRenderer_set_materialCount_m1694897644(L_1, 1, /*hidden argument*/NULL);
 		CanvasRenderer_t3626201768 * L_2 = Graphic_get_canvasRenderer_m184553434(__this, /*hidden argument*/NULL);
 		Material_t1886596500 * L_3 = VirtFuncInvoker0< Material_t1886596500 * >::Invoke(28 /* UnityEngine.Material UnityEngine.UI.Graphic::get_materialForRendering() */, __this);
 		NullCheck(L_2);
-		CanvasRenderer_SetMaterial_m1208979080(L_2, L_3, 0, /*hidden argument*/NULL);
+		CanvasRenderer_SetMaterial_m355382012(L_2, L_3, 0, /*hidden argument*/NULL);
 		CanvasRenderer_t3626201768 * L_4 = Graphic_get_canvasRenderer_m184553434(__this, /*hidden argument*/NULL);
 		Texture_t1769722184 * L_5 = VirtFuncInvoker0< Texture_t1769722184 * >::Invoke(29 /* UnityEngine.Texture UnityEngine.UI.Graphic::get_mainTexture() */, __this);
 		NullCheck(L_4);
-		CanvasRenderer_SetTexture_m3340530487(L_4, L_5, /*hidden argument*/NULL);
+		CanvasRenderer_SetTexture_m137327939(L_4, L_5, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -20447,7 +20447,7 @@ extern "C"  void Graphic_DoMeshGeneration_m2507046369 (Graphic_t933884113 * __th
 	memset(&V_3, 0, sizeof(V_3));
 	{
 		RectTransform_t3317474837 * L_0 = Graphic_get_rectTransform_m4017371950(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_005b;
@@ -20456,9 +20456,9 @@ extern "C"  void Graphic_DoMeshGeneration_m2507046369 (Graphic_t933884113 * __th
 	{
 		RectTransform_t3317474837 * L_2 = Graphic_get_rectTransform_m4017371950(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		Rect_t1525428817  L_3 = RectTransform_get_rect_m1093243288(L_2, /*hidden argument*/NULL);
+		Rect_t1525428817  L_3 = RectTransform_get_rect_m1566017036(L_2, /*hidden argument*/NULL);
 		V_2 = L_3;
-		float L_4 = Rect_get_width_m2245507084((&V_2), /*hidden argument*/NULL);
+		float L_4 = Rect_get_width_m2824209432((&V_2), /*hidden argument*/NULL);
 		if ((!(((float)L_4) >= ((float)(0.0f)))))
 		{
 			goto IL_005b;
@@ -20467,9 +20467,9 @@ extern "C"  void Graphic_DoMeshGeneration_m2507046369 (Graphic_t933884113 * __th
 	{
 		RectTransform_t3317474837 * L_5 = Graphic_get_rectTransform_m4017371950(__this, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		Rect_t1525428817  L_6 = RectTransform_get_rect_m1093243288(L_5, /*hidden argument*/NULL);
+		Rect_t1525428817  L_6 = RectTransform_get_rect_m1566017036(L_5, /*hidden argument*/NULL);
 		V_3 = L_6;
-		float L_7 = Rect_get_height_m1395057219((&V_3), /*hidden argument*/NULL);
+		float L_7 = Rect_get_height_m2154960823((&V_3), /*hidden argument*/NULL);
 		if ((!(((float)L_7) >= ((float)(0.0f)))))
 		{
 			goto IL_005b;
@@ -20498,7 +20498,7 @@ IL_0065:
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_11 = Type_GetTypeFromHandle_m3806905434(NULL /*static, unused*/, LoadTypeToken(IMeshModifier_t2914456790_0_0_0_var), /*hidden argument*/NULL);
 		List_1_t2923905571 * L_12 = V_0;
-		Component_GetComponents_m3740314889(__this, L_11, L_12, /*hidden argument*/NULL);
+		Component_GetComponents_m3426812285(__this, L_11, L_12, /*hidden argument*/NULL);
 		V_1 = 0;
 		goto IL_009d;
 	}
@@ -20540,7 +20540,7 @@ IL_009d:
 		CanvasRenderer_t3626201768 * L_24 = Graphic_get_canvasRenderer_m184553434(__this, /*hidden argument*/NULL);
 		Mesh_t1525280346 * L_25 = Graphic_get_workerMesh_m1691010424(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_24);
-		CanvasRenderer_SetMesh_m12812015(L_24, L_25, /*hidden argument*/NULL);
+		CanvasRenderer_SetMesh_m1150548475(L_24, L_25, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -20569,7 +20569,7 @@ extern "C"  void Graphic_DoLegacyMeshGeneration_m3761597322 (Graphic_t933884113 
 	memset(&V_3, 0, sizeof(V_3));
 	{
 		RectTransform_t3317474837 * L_0 = Graphic_get_rectTransform_m4017371950(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_005b;
@@ -20578,9 +20578,9 @@ extern "C"  void Graphic_DoLegacyMeshGeneration_m3761597322 (Graphic_t933884113 
 	{
 		RectTransform_t3317474837 * L_2 = Graphic_get_rectTransform_m4017371950(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		Rect_t1525428817  L_3 = RectTransform_get_rect_m1093243288(L_2, /*hidden argument*/NULL);
+		Rect_t1525428817  L_3 = RectTransform_get_rect_m1566017036(L_2, /*hidden argument*/NULL);
 		V_2 = L_3;
-		float L_4 = Rect_get_width_m2245507084((&V_2), /*hidden argument*/NULL);
+		float L_4 = Rect_get_width_m2824209432((&V_2), /*hidden argument*/NULL);
 		if ((!(((float)L_4) >= ((float)(0.0f)))))
 		{
 			goto IL_005b;
@@ -20589,9 +20589,9 @@ extern "C"  void Graphic_DoLegacyMeshGeneration_m3761597322 (Graphic_t933884113 
 	{
 		RectTransform_t3317474837 * L_5 = Graphic_get_rectTransform_m4017371950(__this, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		Rect_t1525428817  L_6 = RectTransform_get_rect_m1093243288(L_5, /*hidden argument*/NULL);
+		Rect_t1525428817  L_6 = RectTransform_get_rect_m1566017036(L_5, /*hidden argument*/NULL);
 		V_3 = L_6;
-		float L_7 = Rect_get_height_m1395057219((&V_3), /*hidden argument*/NULL);
+		float L_7 = Rect_get_height_m2154960823((&V_3), /*hidden argument*/NULL);
 		if ((!(((float)L_7) >= ((float)(0.0f)))))
 		{
 			goto IL_005b;
@@ -20609,7 +20609,7 @@ IL_005b:
 		IL2CPP_RUNTIME_CLASS_INIT(Graphic_t933884113_il2cpp_TypeInfo_var);
 		Mesh_t1525280346 * L_9 = Graphic_get_workerMesh_m1691010424(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		Mesh_Clear_m3278318143(L_9, /*hidden argument*/NULL);
+		Mesh_Clear_m90337099(L_9, /*hidden argument*/NULL);
 	}
 
 IL_0065:
@@ -20620,7 +20620,7 @@ IL_0065:
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_11 = Type_GetTypeFromHandle_m3806905434(NULL /*static, unused*/, LoadTypeToken(IMeshModifier_t2914456790_0_0_0_var), /*hidden argument*/NULL);
 		List_1_t2923905571 * L_12 = V_0;
-		Component_GetComponents_m3740314889(__this, L_11, L_12, /*hidden argument*/NULL);
+		Component_GetComponents_m3426812285(__this, L_11, L_12, /*hidden argument*/NULL);
 		V_1 = 0;
 		goto IL_009d;
 	}
@@ -20658,7 +20658,7 @@ IL_009d:
 		IL2CPP_RUNTIME_CLASS_INIT(Graphic_t933884113_il2cpp_TypeInfo_var);
 		Mesh_t1525280346 * L_23 = Graphic_get_workerMesh_m1691010424(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_22);
-		CanvasRenderer_SetMesh_m12812015(L_22, L_23, /*hidden argument*/NULL);
+		CanvasRenderer_SetMesh_m1150548475(L_22, L_23, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -20678,7 +20678,7 @@ extern "C"  Mesh_t1525280346 * Graphic_get_workerMesh_m1691010424 (Il2CppObject 
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Graphic_t933884113_il2cpp_TypeInfo_var);
 		Mesh_t1525280346 * L_0 = ((Graphic_t933884113_StaticFields*)Graphic_t933884113_il2cpp_TypeInfo_var->static_fields)->get_s_Mesh_15();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0035;
@@ -20686,15 +20686,15 @@ extern "C"  Mesh_t1525280346 * Graphic_get_workerMesh_m1691010424 (Il2CppObject 
 	}
 	{
 		Mesh_t1525280346 * L_2 = (Mesh_t1525280346 *)il2cpp_codegen_object_new(Mesh_t1525280346_il2cpp_TypeInfo_var);
-		Mesh__ctor_m1577217556(L_2, /*hidden argument*/NULL);
+		Mesh__ctor_m2684203808(L_2, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Graphic_t933884113_il2cpp_TypeInfo_var);
 		((Graphic_t933884113_StaticFields*)Graphic_t933884113_il2cpp_TypeInfo_var->static_fields)->set_s_Mesh_15(L_2);
 		Mesh_t1525280346 * L_3 = ((Graphic_t933884113_StaticFields*)Graphic_t933884113_il2cpp_TypeInfo_var->static_fields)->get_s_Mesh_15();
 		NullCheck(L_3);
-		Object_set_name_m3647401496(L_3, _stringLiteral2937047934, /*hidden argument*/NULL);
+		Object_set_name_m1123518500(L_3, _stringLiteral2937047934, /*hidden argument*/NULL);
 		Mesh_t1525280346 * L_4 = ((Graphic_t933884113_StaticFields*)Graphic_t933884113_il2cpp_TypeInfo_var->static_fields)->get_s_Mesh_15();
 		NullCheck(L_4);
-		Object_set_hideFlags_m1616337884(L_4, ((int32_t)61), /*hidden argument*/NULL);
+		Object_set_hideFlags_m41317712(L_4, ((int32_t)61), /*hidden argument*/NULL);
 	}
 
 IL_0035:
@@ -20745,15 +20745,15 @@ extern "C"  void Graphic_OnPopulateMesh_m3177058550 (Graphic_t933884113 * __this
 	{
 		Rect_t1525428817  L_0 = Graphic_GetPixelAdjustedRect_m517144655(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
-		float L_1 = Rect_get_x_m2320486590((&V_0), /*hidden argument*/NULL);
-		float L_2 = Rect_get_y_m2320487551((&V_0), /*hidden argument*/NULL);
-		float L_3 = Rect_get_x_m2320486590((&V_0), /*hidden argument*/NULL);
-		float L_4 = Rect_get_width_m2245507084((&V_0), /*hidden argument*/NULL);
-		float L_5 = Rect_get_y_m2320487551((&V_0), /*hidden argument*/NULL);
-		float L_6 = Rect_get_height_m1395057219((&V_0), /*hidden argument*/NULL);
-		Vector4__ctor_m110402854((&V_1), L_1, L_2, ((float)((float)L_3+(float)L_4)), ((float)((float)L_5+(float)L_6)), /*hidden argument*/NULL);
+		float L_1 = Rect_get_x_m982385354((&V_0), /*hidden argument*/NULL);
+		float L_2 = Rect_get_y_m982386315((&V_0), /*hidden argument*/NULL);
+		float L_3 = Rect_get_x_m982385354((&V_0), /*hidden argument*/NULL);
+		float L_4 = Rect_get_width_m2824209432((&V_0), /*hidden argument*/NULL);
+		float L_5 = Rect_get_y_m982386315((&V_0), /*hidden argument*/NULL);
+		float L_6 = Rect_get_height_m2154960823((&V_0), /*hidden argument*/NULL);
+		Vector4__ctor_m2441427762((&V_1), L_1, L_2, ((float)((float)L_3+(float)L_4)), ((float)((float)L_5+(float)L_6)), /*hidden argument*/NULL);
 		Color_t1588175760  L_7 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_8 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		Color32_t4137084207  L_8 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 		V_2 = L_8;
 		VertexHelper_t1471929499 * L_9 = ___vh;
 		NullCheck(L_9);
@@ -20763,11 +20763,11 @@ extern "C"  void Graphic_OnPopulateMesh_m3177058550 (Graphic_t933884113 * __this
 		float L_12 = (&V_1)->get_y_2();
 		Vector3_t3525329789  L_13;
 		memset(&L_13, 0, sizeof(L_13));
-		Vector3__ctor_m3698797211(&L_13, L_11, L_12, /*hidden argument*/NULL);
+		Vector3__ctor_m1846874791(&L_13, L_11, L_12, /*hidden argument*/NULL);
 		Color32_t4137084207  L_14 = V_2;
 		Vector2_t3525329788  L_15;
 		memset(&L_15, 0, sizeof(L_15));
-		Vector2__ctor_m3369031450(&L_15, (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_15, (0.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_10);
 		VertexHelper_AddVert_m1490065189(L_10, L_13, L_14, L_15, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_16 = ___vh;
@@ -20775,11 +20775,11 @@ extern "C"  void Graphic_OnPopulateMesh_m3177058550 (Graphic_t933884113 * __this
 		float L_18 = (&V_1)->get_w_4();
 		Vector3_t3525329789  L_19;
 		memset(&L_19, 0, sizeof(L_19));
-		Vector3__ctor_m3698797211(&L_19, L_17, L_18, /*hidden argument*/NULL);
+		Vector3__ctor_m1846874791(&L_19, L_17, L_18, /*hidden argument*/NULL);
 		Color32_t4137084207  L_20 = V_2;
 		Vector2_t3525329788  L_21;
 		memset(&L_21, 0, sizeof(L_21));
-		Vector2__ctor_m3369031450(&L_21, (0.0f), (1.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_21, (0.0f), (1.0f), /*hidden argument*/NULL);
 		NullCheck(L_16);
 		VertexHelper_AddVert_m1490065189(L_16, L_19, L_20, L_21, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_22 = ___vh;
@@ -20787,11 +20787,11 @@ extern "C"  void Graphic_OnPopulateMesh_m3177058550 (Graphic_t933884113 * __this
 		float L_24 = (&V_1)->get_w_4();
 		Vector3_t3525329789  L_25;
 		memset(&L_25, 0, sizeof(L_25));
-		Vector3__ctor_m3698797211(&L_25, L_23, L_24, /*hidden argument*/NULL);
+		Vector3__ctor_m1846874791(&L_25, L_23, L_24, /*hidden argument*/NULL);
 		Color32_t4137084207  L_26 = V_2;
 		Vector2_t3525329788  L_27;
 		memset(&L_27, 0, sizeof(L_27));
-		Vector2__ctor_m3369031450(&L_27, (1.0f), (1.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_27, (1.0f), (1.0f), /*hidden argument*/NULL);
 		NullCheck(L_22);
 		VertexHelper_AddVert_m1490065189(L_22, L_25, L_26, L_27, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_28 = ___vh;
@@ -20799,11 +20799,11 @@ extern "C"  void Graphic_OnPopulateMesh_m3177058550 (Graphic_t933884113 * __this
 		float L_30 = (&V_1)->get_y_2();
 		Vector3_t3525329789  L_31;
 		memset(&L_31, 0, sizeof(L_31));
-		Vector3__ctor_m3698797211(&L_31, L_29, L_30, /*hidden argument*/NULL);
+		Vector3__ctor_m1846874791(&L_31, L_29, L_30, /*hidden argument*/NULL);
 		Color32_t4137084207  L_32 = V_2;
 		Vector2_t3525329788  L_33;
 		memset(&L_33, 0, sizeof(L_33));
-		Vector2__ctor_m3369031450(&L_33, (1.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_33, (1.0f), (0.0f), /*hidden argument*/NULL);
 		NullCheck(L_28);
 		VertexHelper_AddVert_m1490065189(L_28, L_31, L_32, L_33, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_34 = ___vh;
@@ -20858,7 +20858,7 @@ extern "C"  bool Graphic_Raycast_m822891196 (Graphic_t933884113 * __this, Vector
 	CanvasGroup_t1295922228 * V_8 = NULL;
 	Transform_t284553113 * G_B24_0 = NULL;
 	{
-		bool L_0 = Behaviour_get_isActiveAndEnabled_m76195377(__this, /*hidden argument*/NULL);
+		bool L_0 = Behaviour_get_isActiveAndEnabled_m210167461(__this, /*hidden argument*/NULL);
 		if (L_0)
 		{
 			goto IL_000d;
@@ -20870,7 +20870,7 @@ extern "C"  bool Graphic_Raycast_m822891196 (Graphic_t933884113 * __this, Vector
 
 IL_000d:
 	{
-		Transform_t284553113 * L_1 = Component_get_transform_m243597671(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_1 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
 		V_0 = L_1;
 		IL2CPP_RUNTIME_CLASS_INIT(ListPool_1_t1740961763_il2cpp_TypeInfo_var);
 		List_1_t2923905571 * L_2 = ListPool_1_Get_m2014868279(NULL /*static, unused*/, /*hidden argument*/ListPool_1_Get_m2014868279_MethodInfo_var);
@@ -20898,7 +20898,7 @@ IL_0032:
 		Component_t2126946602 * L_7 = VirtFuncInvoker1< Component_t2126946602 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.Component>::get_Item(System.Int32) */, L_5, L_6);
 		V_5 = ((Canvas_t3534013893 *)IsInstSealed(L_7, Canvas_t3534013893_il2cpp_TypeInfo_var));
 		Canvas_t3534013893 * L_8 = V_5;
-		bool L_9 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_8, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_9 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_8, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_005c;
@@ -20907,7 +20907,7 @@ IL_0032:
 	{
 		Canvas_t3534013893 * L_10 = V_5;
 		NullCheck(L_10);
-		bool L_11 = Canvas_get_overrideSorting_m448878888(L_10, /*hidden argument*/NULL);
+		bool L_11 = Canvas_get_overrideSorting_m3812884636(L_10, /*hidden argument*/NULL);
 		if (!L_11)
 		{
 			goto IL_005c;
@@ -20943,7 +20943,7 @@ IL_0077:
 		Component_t2126946602 * L_18 = VirtFuncInvoker1< Component_t2126946602 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.Component>::get_Item(System.Int32) */, L_16, L_17);
 		V_8 = ((CanvasGroup_t1295922228 *)IsInstSealed(L_18, CanvasGroup_t1295922228_il2cpp_TypeInfo_var));
 		CanvasGroup_t1295922228 * L_19 = V_8;
-		bool L_20 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_19, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_20 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_19, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_20)
 		{
 			goto IL_00d0;
@@ -20959,7 +20959,7 @@ IL_0077:
 	{
 		CanvasGroup_t1295922228 * L_22 = V_8;
 		NullCheck(L_22);
-		bool L_23 = CanvasGroup_get_ignoreParentGroups_m1933733681(L_22, /*hidden argument*/NULL);
+		bool L_23 = CanvasGroup_get_ignoreParentGroups_m1831887525(L_22, /*hidden argument*/NULL);
 		if (!L_23)
 		{
 			goto IL_00ba;
@@ -21050,7 +21050,7 @@ IL_00f0:
 	{
 		Transform_t284553113 * L_44 = V_0;
 		NullCheck(L_44);
-		Transform_t284553113 * L_45 = Transform_get_parent_m1031913888(L_44, /*hidden argument*/NULL);
+		Transform_t284553113 * L_45 = Transform_get_parent_m2236876972(L_44, /*hidden argument*/NULL);
 		G_B24_0 = L_45;
 		goto IL_010f;
 	}
@@ -21068,7 +21068,7 @@ IL_010f:
 IL_0110:
 	{
 		Transform_t284553113 * L_46 = V_0;
-		bool L_47 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_46, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_47 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_46, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_47)
 		{
 			goto IL_0023;
@@ -21094,7 +21094,7 @@ extern "C"  Vector2_t3525329788  Graphic_PixelAdjustPoint_m440199187 (Graphic_t9
 	}
 	{
 		Canvas_t3534013893 * L_0 = Graphic_get_canvas_m4291384250(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0020;
@@ -21103,7 +21103,7 @@ extern "C"  Vector2_t3525329788  Graphic_PixelAdjustPoint_m440199187 (Graphic_t9
 	{
 		Canvas_t3534013893 * L_2 = Graphic_get_canvas_m4291384250(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		bool L_3 = Canvas_get_pixelPerfect_m754533945(L_2, /*hidden argument*/NULL);
+		bool L_3 = Canvas_get_pixelPerfect_m2847994693(L_2, /*hidden argument*/NULL);
 		if (L_3)
 		{
 			goto IL_0022;
@@ -21119,10 +21119,10 @@ IL_0020:
 IL_0022:
 	{
 		Vector2_t3525329788  L_5 = ___point;
-		Transform_t284553113 * L_6 = Component_get_transform_m243597671(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_6 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
 		Canvas_t3534013893 * L_7 = Graphic_get_canvas_m4291384250(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(RectTransformUtility_t2895919825_il2cpp_TypeInfo_var);
-		Vector2_t3525329788  L_8 = RectTransformUtility_PixelAdjustPoint_m2122374691(NULL /*static, unused*/, L_5, L_6, L_7, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_8 = RectTransformUtility_PixelAdjustPoint_m2518308759(NULL /*static, unused*/, L_5, L_6, L_7, /*hidden argument*/NULL);
 		return L_8;
 	}
 }
@@ -21139,7 +21139,7 @@ extern "C"  Rect_t1525428817  Graphic_GetPixelAdjustedRect_m517144655 (Graphic_t
 	}
 	{
 		Canvas_t3534013893 * L_0 = Graphic_get_canvas_m4291384250(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0020;
@@ -21148,7 +21148,7 @@ extern "C"  Rect_t1525428817  Graphic_GetPixelAdjustedRect_m517144655 (Graphic_t
 	{
 		Canvas_t3534013893 * L_2 = Graphic_get_canvas_m4291384250(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		bool L_3 = Canvas_get_pixelPerfect_m754533945(L_2, /*hidden argument*/NULL);
+		bool L_3 = Canvas_get_pixelPerfect_m2847994693(L_2, /*hidden argument*/NULL);
 		if (L_3)
 		{
 			goto IL_002c;
@@ -21159,7 +21159,7 @@ IL_0020:
 	{
 		RectTransform_t3317474837 * L_4 = Graphic_get_rectTransform_m4017371950(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		Rect_t1525428817  L_5 = RectTransform_get_rect_m1093243288(L_4, /*hidden argument*/NULL);
+		Rect_t1525428817  L_5 = RectTransform_get_rect_m1566017036(L_4, /*hidden argument*/NULL);
 		return L_5;
 	}
 
@@ -21168,7 +21168,7 @@ IL_002c:
 		RectTransform_t3317474837 * L_6 = Graphic_get_rectTransform_m4017371950(__this, /*hidden argument*/NULL);
 		Canvas_t3534013893 * L_7 = Graphic_get_canvas_m4291384250(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(RectTransformUtility_t2895919825_il2cpp_TypeInfo_var);
-		Rect_t1525428817  L_8 = RectTransformUtility_PixelAdjustRect_m3938104238(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		Rect_t1525428817  L_8 = RectTransformUtility_PixelAdjustRect_m3727716130(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
 		return L_8;
 	}
 }
@@ -21188,7 +21188,7 @@ extern "C"  void Graphic_CrossFadeColor_m3194947827 (Graphic_t933884113 * __this
 extern TypeInfo* Color_t1588175760_il2cpp_TypeInfo_var;
 extern TypeInfo* ColorTween_t2894377818_il2cpp_TypeInfo_var;
 extern TypeInfo* UnityAction_1_t1568637665_il2cpp_TypeInfo_var;
-extern const MethodInfo* CanvasRenderer_SetColor_m755033639_MethodInfo_var;
+extern const MethodInfo* CanvasRenderer_SetColor_m3198078515_MethodInfo_var;
 extern const MethodInfo* UnityAction_1__ctor_m3352102596_MethodInfo_var;
 extern const MethodInfo* TweenRunner_1_StartTween_m3060079017_MethodInfo_var;
 extern const uint32_t Graphic_CrossFadeColor_m1834346026_MetadataUsageId;
@@ -21210,7 +21210,7 @@ extern "C"  void Graphic_CrossFadeColor_m1834346026 (Graphic_t933884113 * __this
 	int32_t G_B12_0 = 0;
 	{
 		CanvasRenderer_t3626201768 * L_0 = Graphic_get_canvasRenderer_m184553434(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_001f;
@@ -21240,12 +21240,12 @@ IL_0020:
 	{
 		CanvasRenderer_t3626201768 * L_4 = Graphic_get_canvasRenderer_m184553434(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		Color_t1588175760  L_5 = CanvasRenderer_GetColor_m4006355250(L_4, /*hidden argument*/NULL);
+		Color_t1588175760  L_5 = CanvasRenderer_GetColor_m3075393702(L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
 		Color_t1588175760  L_6 = ___targetColor;
 		Color_t1588175760  L_7 = L_6;
 		Il2CppObject * L_8 = Box(Color_t1588175760_il2cpp_TypeInfo_var, &L_7);
-		bool L_9 = Color_Equals_m1245583905((&V_0), L_8, /*hidden argument*/NULL);
+		bool L_9 = Color_Equals_m3016668205((&V_0), L_8, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_003f;
@@ -21303,7 +21303,7 @@ IL_0061:
 		ColorTween_set_duration_m347866734((&V_3), L_14, /*hidden argument*/NULL);
 		CanvasRenderer_t3626201768 * L_15 = Graphic_get_canvasRenderer_m184553434(__this, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		Color_t1588175760  L_16 = CanvasRenderer_GetColor_m4006355250(L_15, /*hidden argument*/NULL);
+		Color_t1588175760  L_16 = CanvasRenderer_GetColor_m3075393702(L_15, /*hidden argument*/NULL);
 		ColorTween_set_startColor_m1548058556((&V_3), L_16, /*hidden argument*/NULL);
 		Color_t1588175760  L_17 = ___targetColor;
 		ColorTween_set_targetColor_m1091345019((&V_3), L_17, /*hidden argument*/NULL);
@@ -21311,7 +21311,7 @@ IL_0061:
 		V_2 = L_18;
 		CanvasRenderer_t3626201768 * L_19 = Graphic_get_canvasRenderer_m184553434(__this, /*hidden argument*/NULL);
 		IntPtr_t L_20;
-		L_20.set_m_value_0((void*)CanvasRenderer_SetColor_m755033639_MethodInfo_var);
+		L_20.set_m_value_0((void*)CanvasRenderer_SetColor_m3198078515_MethodInfo_var);
 		UnityAction_1_t1568637665 * L_21 = (UnityAction_1_t1568637665 *)il2cpp_codegen_object_new(UnityAction_1_t1568637665_il2cpp_TypeInfo_var);
 		UnityAction_1__ctor_m3352102596(L_21, L_19, L_20, /*hidden argument*/UnityAction_1__ctor_m3352102596_MethodInfo_var);
 		ColorTween_AddOnChangedCallback_m1109647485((&V_2), L_21, /*hidden argument*/NULL);
@@ -21332,7 +21332,7 @@ extern "C"  Color_t1588175760  Graphic_CreateColorFromAlpha_m3334630 (Il2CppObje
 	Color_t1588175760  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	{
-		Color_t1588175760  L_0 = Color_get_black_m3817164093(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Color_t1588175760  L_0 = Color_get_black_m1687201969(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		float L_1 = ___alpha;
 		(&V_0)->set_a_3(L_1);
@@ -21487,7 +21487,7 @@ extern "C"  bool Graphic_UnityEngine_UI_ICanvasElement_IsDestroyed_m2164415202 (
 extern "C"  Transform_t284553113 * Graphic_UnityEngine_UI_ICanvasElement_get_transform_m1663879910 (Graphic_t933884113 * __this, const MethodInfo* method)
 {
 	{
-		Transform_t284553113 * L_0 = Component_get_transform_m243597671(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -21505,7 +21505,7 @@ extern "C"  void GraphicRaycaster__ctor_m361051581 (GraphicRaycaster_t2033008887
 	}
 	{
 		__this->set_m_IgnoreReversedGraphics_3((bool)1);
-		LayerMask_t1862190090  L_0 = LayerMask_op_Implicit_m79501991(NULL /*static, unused*/, (-1), /*hidden argument*/NULL);
+		LayerMask_t1862190090  L_0 = LayerMask_op_Implicit_m2608572187(NULL /*static, unused*/, (-1), /*hidden argument*/NULL);
 		__this->set_m_BlockingMask_5(L_0);
 		List_1_t1730843082 * L_1 = (List_1_t1730843082 *)il2cpp_codegen_object_new(List_1_t1730843082_il2cpp_TypeInfo_var);
 		List_1__ctor_m4240575155(L_1, /*hidden argument*/List_1__ctor_m4240575155_MethodInfo_var);
@@ -21540,7 +21540,7 @@ extern "C"  int32_t GraphicRaycaster_get_sortOrderPriority_m2826757774 (GraphicR
 	{
 		Canvas_t3534013893 * L_0 = GraphicRaycaster_get_canvas_m1333156416(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		int32_t L_1 = Canvas_get_renderMode_m1045800100(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Canvas_get_renderMode_m3669121200(L_0, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_001c;
@@ -21549,7 +21549,7 @@ extern "C"  int32_t GraphicRaycaster_get_sortOrderPriority_m2826757774 (GraphicR
 	{
 		Canvas_t3534013893 * L_2 = GraphicRaycaster_get_canvas_m1333156416(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		int32_t L_3 = Canvas_get_sortingOrder_m1128965654(L_2, /*hidden argument*/NULL);
+		int32_t L_3 = Canvas_get_sortingOrder_m1274160674(L_2, /*hidden argument*/NULL);
 		return L_3;
 	}
 
@@ -21565,7 +21565,7 @@ extern "C"  int32_t GraphicRaycaster_get_renderOrderPriority_m4133744982 (Graphi
 	{
 		Canvas_t3534013893 * L_0 = GraphicRaycaster_get_canvas_m1333156416(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		int32_t L_1 = Canvas_get_renderMode_m1045800100(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Canvas_get_renderMode_m3669121200(L_0, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_001c;
@@ -21574,7 +21574,7 @@ extern "C"  int32_t GraphicRaycaster_get_renderOrderPriority_m4133744982 (Graphi
 	{
 		Canvas_t3534013893 * L_2 = GraphicRaycaster_get_canvas_m1333156416(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		int32_t L_3 = Canvas_get_renderOrder_m490170766(L_2, /*hidden argument*/NULL);
+		int32_t L_3 = Canvas_get_renderOrder_m2295969794(L_2, /*hidden argument*/NULL);
 		return L_3;
 	}
 
@@ -21631,7 +21631,7 @@ extern "C"  Canvas_t3534013893 * GraphicRaycaster_get_canvas_m1333156416 (Graphi
 	}
 	{
 		Canvas_t3534013893 * L_0 = __this->get_m_Canvas_6();
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0018;
@@ -21699,7 +21699,7 @@ extern "C"  void GraphicRaycaster_Raycast_m1880111711 (GraphicRaycaster_t2033008
 	memset(&V_20, 0, sizeof(V_20));
 	{
 		Canvas_t3534013893 * L_0 = GraphicRaycaster_get_canvas_m1333156416(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0012;
@@ -21712,16 +21712,16 @@ extern "C"  void GraphicRaycaster_Raycast_m1880111711 (GraphicRaycaster_t2033008
 IL_0012:
 	{
 		Camera_t3533968274 * L_2 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.UI.GraphicRaycaster::get_eventCamera() */, __this);
-		bool L_3 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_005f;
 		}
 	}
 	{
-		int32_t L_4 = Screen_get_width_m2320429480(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_1 = (((float)((float)L_4)));
-		int32_t L_5 = Screen_get_height_m3717651495(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_5 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_2 = (((float)((float)L_5)));
 		PointerEventData_t3205101634 * L_6 = ___eventData;
 		NullCheck(L_6);
@@ -21735,7 +21735,7 @@ IL_0012:
 		V_19 = L_11;
 		float L_12 = (&V_19)->get_y_2();
 		float L_13 = V_2;
-		Vector2__ctor_m3369031450((&V_0), ((float)((float)L_8/(float)L_9)), ((float)((float)L_12/(float)L_13)), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030((&V_0), ((float)((float)L_8/(float)L_9)), ((float)((float)L_12/(float)L_13)), /*hidden argument*/NULL);
 		goto IL_007b;
 	}
 
@@ -21745,10 +21745,10 @@ IL_005f:
 		PointerEventData_t3205101634 * L_15 = ___eventData;
 		NullCheck(L_15);
 		Vector2_t3525329788  L_16 = PointerEventData_get_position_m2263123361(L_15, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_17 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_17 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 		NullCheck(L_14);
-		Vector3_t3525329789  L_18 = Camera_ScreenToViewportPoint_m3111984950(L_14, L_17, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_19 = Vector2_op_Implicit_m2869958055(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_18 = Camera_ScreenToViewportPoint_m3727203754(L_14, L_17, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_19 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
 		V_0 = L_19;
 	}
 
@@ -21792,7 +21792,7 @@ IL_00c0:
 		V_3 = (std::numeric_limits<float>::max());
 		Initobj (Ray_t1522967639_il2cpp_TypeInfo_var, (&V_4));
 		Camera_t3533968274 * L_24 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.UI.GraphicRaycaster::get_eventCamera() */, __this);
-		bool L_25 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_24, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_25 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_24, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_25)
 		{
 			goto IL_00f7;
@@ -21803,9 +21803,9 @@ IL_00c0:
 		PointerEventData_t3205101634 * L_27 = ___eventData;
 		NullCheck(L_27);
 		Vector2_t3525329788  L_28 = PointerEventData_get_position_m2263123361(L_27, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_29 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_29 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
 		NullCheck(L_26);
-		Ray_t1522967639  L_30 = Camera_ScreenPointToRay_m519181286(L_26, L_29, /*hidden argument*/NULL);
+		Ray_t1522967639  L_30 = Camera_ScreenPointToRay_m1733083890(L_26, L_29, /*hidden argument*/NULL);
 		V_4 = L_30;
 	}
 
@@ -21813,7 +21813,7 @@ IL_00f7:
 	{
 		Canvas_t3534013893 * L_31 = GraphicRaycaster_get_canvas_m1333156416(__this, /*hidden argument*/NULL);
 		NullCheck(L_31);
-		int32_t L_32 = Canvas_get_renderMode_m1045800100(L_31, /*hidden argument*/NULL);
+		int32_t L_32 = Canvas_get_renderMode_m3669121200(L_31, /*hidden argument*/NULL);
 		if (!L_32)
 		{
 			goto IL_01df;
@@ -21829,7 +21829,7 @@ IL_00f7:
 	{
 		V_5 = (100.0f);
 		Camera_t3533968274 * L_34 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.UI.GraphicRaycaster::get_eventCamera() */, __this);
-		bool L_35 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_34, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_35 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_34, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_35)
 		{
 			goto IL_0143;
@@ -21838,10 +21838,10 @@ IL_00f7:
 	{
 		Camera_t3533968274 * L_36 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.UI.GraphicRaycaster::get_eventCamera() */, __this);
 		NullCheck(L_36);
-		float L_37 = Camera_get_farClipPlane_m182628402(L_36, /*hidden argument*/NULL);
+		float L_37 = Camera_get_farClipPlane_m388706726(L_36, /*hidden argument*/NULL);
 		Camera_t3533968274 * L_38 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.UI.GraphicRaycaster::get_eventCamera() */, __this);
 		NullCheck(L_38);
-		float L_39 = Camera_get_nearClipPlane_m1981194313(L_38, /*hidden argument*/NULL);
+		float L_39 = Camera_get_nearClipPlane_m4074655061(L_38, /*hidden argument*/NULL);
 		V_5 = ((float)((float)L_37-(float)L_39));
 	}
 
@@ -21866,15 +21866,15 @@ IL_015b:
 		Ray_t1522967639  L_42 = V_4;
 		float L_43 = V_5;
 		LayerMask_t1862190090  L_44 = __this->get_m_BlockingMask_5();
-		int32_t L_45 = LayerMask_op_Implicit_m3361477147(NULL /*static, unused*/, L_44, /*hidden argument*/NULL);
-		bool L_46 = Physics_Raycast_m360206527(NULL /*static, unused*/, L_42, (&V_6), L_43, L_45, /*hidden argument*/NULL);
+		int32_t L_45 = LayerMask_op_Implicit_m1595580047(NULL /*static, unused*/, L_44, /*hidden argument*/NULL);
+		bool L_46 = Physics_Raycast_m1600345803(NULL /*static, unused*/, L_42, (&V_6), L_43, L_45, /*hidden argument*/NULL);
 		if (!L_46)
 		{
 			goto IL_017e;
 		}
 	}
 	{
-		float L_47 = RaycastHit_get_distance_m594865879((&V_6), /*hidden argument*/NULL);
+		float L_47 = RaycastHit_get_distance_m800944203((&V_6), /*hidden argument*/NULL);
 		V_3 = L_47;
 	}
 
@@ -21896,25 +21896,25 @@ IL_017e:
 
 IL_0196:
 	{
-		Vector3_t3525329789  L_50 = Ray_get_origin_m374332670((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_51 = Vector2_op_Implicit_m2869958055(NULL /*static, unused*/, L_50, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_52 = Ray_get_direction_m2995788553((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_53 = Vector2_op_Implicit_m2869958055(NULL /*static, unused*/, L_52, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_50 = Ray_get_origin_m3064983562((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_51 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_50, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_52 = Ray_get_direction_m3201866877((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_53 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, L_52, /*hidden argument*/NULL);
 		float L_54 = V_5;
 		LayerMask_t1862190090  L_55 = __this->get_m_BlockingMask_5();
-		int32_t L_56 = LayerMask_op_Implicit_m3361477147(NULL /*static, unused*/, L_55, /*hidden argument*/NULL);
+		int32_t L_56 = LayerMask_op_Implicit_m1595580047(NULL /*static, unused*/, L_55, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2930244358_il2cpp_TypeInfo_var);
-		RaycastHit2D_t4082783401  L_57 = Physics2D_Raycast_m1406594971(NULL /*static, unused*/, L_51, L_53, L_54, L_56, /*hidden argument*/NULL);
+		RaycastHit2D_t4082783401  L_57 = Physics2D_Raycast_m1435321255(NULL /*static, unused*/, L_51, L_53, L_54, L_56, /*hidden argument*/NULL);
 		V_7 = L_57;
-		Collider2D_t1890038195 * L_58 = RaycastHit2D_get_collider_m931734998((&V_7), /*hidden argument*/NULL);
-		bool L_59 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_58, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		Collider2D_t1890038195 * L_58 = RaycastHit2D_get_collider_m789902306((&V_7), /*hidden argument*/NULL);
+		bool L_59 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_58, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_59)
 		{
 			goto IL_01df;
 		}
 	}
 	{
-		float L_60 = RaycastHit2D_get_fraction_m1840742902((&V_7), /*hidden argument*/NULL);
+		float L_60 = RaycastHit2D_get_fraction_m2313516650((&V_7), /*hidden argument*/NULL);
 		float L_61 = V_5;
 		V_3 = ((float)((float)L_60*(float)L_61));
 	}
@@ -21943,7 +21943,7 @@ IL_020f:
 		NullCheck(L_68);
 		Graphic_t933884113 * L_70 = VirtFuncInvoker1< Graphic_t933884113 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::get_Item(System.Int32) */, L_68, L_69);
 		NullCheck(L_70);
-		GameObject_t4012695102 * L_71 = Component_get_gameObject_m1036663815(L_70, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_71 = Component_get_gameObject_m1170635899(L_70, /*hidden argument*/NULL);
 		V_9 = L_71;
 		V_10 = (bool)1;
 		bool L_72 = GraphicRaycaster_get_ignoreReversedGraphics_m4072803617(__this, /*hidden argument*/NULL);
@@ -21954,7 +21954,7 @@ IL_020f:
 	}
 	{
 		Camera_t3533968274 * L_73 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.UI.GraphicRaycaster::get_eventCamera() */, __this);
-		bool L_74 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_73, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_74 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_73, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_74)
 		{
 			goto IL_0274;
@@ -21963,15 +21963,15 @@ IL_020f:
 	{
 		GameObject_t4012695102 * L_75 = V_9;
 		NullCheck(L_75);
-		Transform_t284553113 * L_76 = GameObject_get_transform_m1412865811(L_75, /*hidden argument*/NULL);
+		Transform_t284553113 * L_76 = GameObject_get_transform_m1278640159(L_75, /*hidden argument*/NULL);
 		NullCheck(L_76);
-		Quaternion_t1891715979  L_77 = Transform_get_rotation_m292907952(L_76, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_78 = Vector3_get_forward_m566598953(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_79 = Quaternion_op_Multiply_m2595132807(NULL /*static, unused*/, L_77, L_78, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_77 = Transform_get_rotation_m11483428(L_76, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_78 = Vector3_get_forward_m1039372701(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_79 = Quaternion_op_Multiply_m3771288979(NULL /*static, unused*/, L_77, L_78, /*hidden argument*/NULL);
 		V_11 = L_79;
-		Vector3_t3525329789  L_80 = Vector3_get_forward_m566598953(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_80 = Vector3_get_forward_m1039372701(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Vector3_t3525329789  L_81 = V_11;
-		float L_82 = Vector3_Dot_m2468644516(NULL /*static, unused*/, L_80, L_81, /*hidden argument*/NULL);
+		float L_82 = Vector3_Dot_m2370485424(NULL /*static, unused*/, L_80, L_81, /*hidden argument*/NULL);
 		V_10 = (bool)((((float)L_82) > ((float)(0.0f)))? 1 : 0);
 		goto IL_02ba;
 	}
@@ -21980,23 +21980,23 @@ IL_0274:
 	{
 		Camera_t3533968274 * L_83 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.UI.GraphicRaycaster::get_eventCamera() */, __this);
 		NullCheck(L_83);
-		Transform_t284553113 * L_84 = Component_get_transform_m243597671(L_83, /*hidden argument*/NULL);
+		Transform_t284553113 * L_84 = Component_get_transform_m4257140443(L_83, /*hidden argument*/NULL);
 		NullCheck(L_84);
-		Quaternion_t1891715979  L_85 = Transform_get_rotation_m292907952(L_84, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_86 = Vector3_get_forward_m566598953(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_87 = Quaternion_op_Multiply_m2595132807(NULL /*static, unused*/, L_85, L_86, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_85 = Transform_get_rotation_m11483428(L_84, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_86 = Vector3_get_forward_m1039372701(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_87 = Quaternion_op_Multiply_m3771288979(NULL /*static, unused*/, L_85, L_86, /*hidden argument*/NULL);
 		V_12 = L_87;
 		GameObject_t4012695102 * L_88 = V_9;
 		NullCheck(L_88);
-		Transform_t284553113 * L_89 = GameObject_get_transform_m1412865811(L_88, /*hidden argument*/NULL);
+		Transform_t284553113 * L_89 = GameObject_get_transform_m1278640159(L_88, /*hidden argument*/NULL);
 		NullCheck(L_89);
-		Quaternion_t1891715979  L_90 = Transform_get_rotation_m292907952(L_89, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_91 = Vector3_get_forward_m566598953(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_92 = Quaternion_op_Multiply_m2595132807(NULL /*static, unused*/, L_90, L_91, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_90 = Transform_get_rotation_m11483428(L_89, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_91 = Vector3_get_forward_m1039372701(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_92 = Quaternion_op_Multiply_m3771288979(NULL /*static, unused*/, L_90, L_91, /*hidden argument*/NULL);
 		V_13 = L_92;
 		Vector3_t3525329789  L_93 = V_12;
 		Vector3_t3525329789  L_94 = V_13;
-		float L_95 = Vector3_Dot_m2468644516(NULL /*static, unused*/, L_93, L_94, /*hidden argument*/NULL);
+		float L_95 = Vector3_Dot_m2370485424(NULL /*static, unused*/, L_93, L_94, /*hidden argument*/NULL);
 		V_10 = (bool)((((float)L_95) > ((float)(0.0f)))? 1 : 0);
 	}
 
@@ -22011,7 +22011,7 @@ IL_02ba:
 	{
 		V_14 = (0.0f);
 		Camera_t3533968274 * L_97 = VirtFuncInvoker0< Camera_t3533968274 * >::Invoke(17 /* UnityEngine.Camera UnityEngine.UI.GraphicRaycaster::get_eventCamera() */, __this);
-		bool L_98 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_97, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_98 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_97, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_98)
 		{
 			goto IL_02e9;
@@ -22020,7 +22020,7 @@ IL_02ba:
 	{
 		Canvas_t3534013893 * L_99 = GraphicRaycaster_get_canvas_m1333156416(__this, /*hidden argument*/NULL);
 		NullCheck(L_99);
-		int32_t L_100 = Canvas_get_renderMode_m1045800100(L_99, /*hidden argument*/NULL);
+		int32_t L_100 = Canvas_get_renderMode_m3669121200(L_99, /*hidden argument*/NULL);
 		if (L_100)
 		{
 			goto IL_02f5;
@@ -22037,22 +22037,22 @@ IL_02f5:
 	{
 		GameObject_t4012695102 * L_101 = V_9;
 		NullCheck(L_101);
-		Transform_t284553113 * L_102 = GameObject_get_transform_m1412865811(L_101, /*hidden argument*/NULL);
+		Transform_t284553113 * L_102 = GameObject_get_transform_m1278640159(L_101, /*hidden argument*/NULL);
 		V_15 = L_102;
 		Transform_t284553113 * L_103 = V_15;
 		NullCheck(L_103);
-		Vector3_t3525329789  L_104 = Transform_get_forward_m1808627341(L_103, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_104 = Transform_get_forward_m877665793(L_103, /*hidden argument*/NULL);
 		V_16 = L_104;
 		Vector3_t3525329789  L_105 = V_16;
 		Transform_t284553113 * L_106 = V_15;
 		NullCheck(L_106);
-		Vector3_t3525329789  L_107 = Transform_get_position_m1006435523(L_106, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_108 = Ray_get_origin_m374332670((&V_4), /*hidden argument*/NULL);
-		Vector3_t3525329789  L_109 = Vector3_op_Subtraction_m3595630049(NULL /*static, unused*/, L_107, L_108, /*hidden argument*/NULL);
-		float L_110 = Vector3_Dot_m2468644516(NULL /*static, unused*/, L_105, L_109, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_107 = Transform_get_position_m2211398607(L_106, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_108 = Ray_get_origin_m3064983562((&V_4), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_109 = Vector3_op_Subtraction_m2842958165(NULL /*static, unused*/, L_107, L_108, /*hidden argument*/NULL);
+		float L_110 = Vector3_Dot_m2370485424(NULL /*static, unused*/, L_105, L_109, /*hidden argument*/NULL);
 		Vector3_t3525329789  L_111 = V_16;
-		Vector3_t3525329789  L_112 = Ray_get_direction_m2995788553((&V_4), /*hidden argument*/NULL);
-		float L_113 = Vector3_Dot_m2468644516(NULL /*static, unused*/, L_111, L_112, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_112 = Ray_get_direction_m3201866877((&V_4), /*hidden argument*/NULL);
+		float L_113 = Vector3_Dot_m2370485424(NULL /*static, unused*/, L_111, L_112, /*hidden argument*/NULL);
 		V_14 = ((float)((float)L_110/(float)L_113));
 		float L_114 = V_14;
 		if ((!(((float)L_114) < ((float)(0.0f)))))
@@ -22104,11 +22104,11 @@ IL_0350:
 		(&V_20)->set_depth_4(L_127);
 		Canvas_t3534013893 * L_128 = GraphicRaycaster_get_canvas_m1333156416(__this, /*hidden argument*/NULL);
 		NullCheck(L_128);
-		int32_t L_129 = Canvas_get_sortingLayerID_m1332377524(L_128, /*hidden argument*/NULL);
+		int32_t L_129 = Canvas_get_sortingLayerID_m3425838272(L_128, /*hidden argument*/NULL);
 		(&V_20)->set_sortingLayer_5(L_129);
 		Canvas_t3534013893 * L_130 = GraphicRaycaster_get_canvas_m1333156416(__this, /*hidden argument*/NULL);
 		NullCheck(L_130);
-		int32_t L_131 = Canvas_get_sortingOrder_m1128965654(L_130, /*hidden argument*/NULL);
+		int32_t L_131 = Canvas_get_sortingOrder_m1274160674(L_130, /*hidden argument*/NULL);
 		(&V_20)->set_sortingOrder_6(L_131);
 		RaycastResult_t959898689  L_132 = V_20;
 		V_17 = L_132;
@@ -22146,7 +22146,7 @@ extern "C"  Camera_t3533968274 * GraphicRaycaster_get_eventCamera_m2522555180 (G
 	{
 		Canvas_t3534013893 * L_0 = GraphicRaycaster_get_canvas_m1333156416(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		int32_t L_1 = Canvas_get_renderMode_m1045800100(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Canvas_get_renderMode_m3669121200(L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0037;
@@ -22155,7 +22155,7 @@ extern "C"  Camera_t3533968274 * GraphicRaycaster_get_eventCamera_m2522555180 (G
 	{
 		Canvas_t3534013893 * L_2 = GraphicRaycaster_get_canvas_m1333156416(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		int32_t L_3 = Canvas_get_renderMode_m1045800100(L_2, /*hidden argument*/NULL);
+		int32_t L_3 = Canvas_get_renderMode_m3669121200(L_2, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
 		{
 			goto IL_0039;
@@ -22164,8 +22164,8 @@ extern "C"  Camera_t3533968274 * GraphicRaycaster_get_eventCamera_m2522555180 (G
 	{
 		Canvas_t3534013893 * L_4 = GraphicRaycaster_get_canvas_m1333156416(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		Camera_t3533968274 * L_5 = Canvas_get_worldCamera_m3552410778(L_4, /*hidden argument*/NULL);
-		bool L_6 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_5, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		Camera_t3533968274 * L_5 = Canvas_get_worldCamera_m2621449230(L_4, /*hidden argument*/NULL);
+		bool L_6 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_5, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_0039;
@@ -22181,8 +22181,8 @@ IL_0039:
 	{
 		Canvas_t3534013893 * L_7 = GraphicRaycaster_get_canvas_m1333156416(__this, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		Camera_t3533968274 * L_8 = Canvas_get_worldCamera_m3552410778(L_7, /*hidden argument*/NULL);
-		bool L_9 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_8, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		Camera_t3533968274 * L_8 = Canvas_get_worldCamera_m2621449230(L_7, /*hidden argument*/NULL);
+		bool L_9 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_8, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_005f;
@@ -22191,14 +22191,14 @@ IL_0039:
 	{
 		Canvas_t3534013893 * L_10 = GraphicRaycaster_get_canvas_m1333156416(__this, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		Camera_t3533968274 * L_11 = Canvas_get_worldCamera_m3552410778(L_10, /*hidden argument*/NULL);
+		Camera_t3533968274 * L_11 = Canvas_get_worldCamera_m2621449230(L_10, /*hidden argument*/NULL);
 		G_B7_0 = L_11;
 		goto IL_0064;
 	}
 
 IL_005f:
 	{
-		Camera_t3533968274 * L_12 = Camera_get_main_m2276132101(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t3533968274 * L_12 = Camera_get_main_m671815697(NULL /*static, unused*/, /*hidden argument*/NULL);
 		G_B7_0 = L_12;
 	}
 
@@ -22279,7 +22279,7 @@ IL_0032:
 		Vector2_t3525329788  L_11 = ___pointerPosition;
 		Camera_t3533968274 * L_12 = ___eventCamera;
 		IL2CPP_RUNTIME_CLASS_INIT(RectTransformUtility_t2895919825_il2cpp_TypeInfo_var);
-		bool L_13 = RectTransformUtility_RectangleContainsScreenPoint_m2225099328(NULL /*static, unused*/, L_10, L_11, L_12, /*hidden argument*/NULL);
+		bool L_13 = RectTransformUtility_RectangleContainsScreenPoint_m1460676684(NULL /*static, unused*/, L_10, L_11, L_12, /*hidden argument*/NULL);
 		if (L_13)
 		{
 			goto IL_0049;
@@ -22499,7 +22499,7 @@ extern "C"  void GraphicRegistry_RegisterGraphicForCanvas_m977086278 (Il2CppObje
 	IndexedSet_1_t159628414 * V_0 = NULL;
 	{
 		Canvas_t3534013893 * L_0 = ___c;
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_000d;
@@ -22566,7 +22566,7 @@ extern "C"  void GraphicRegistry_UnregisterGraphicForCanvas_m707013965 (Il2CppOb
 	IndexedSet_1_t159628414 * V_0 = NULL;
 	{
 		Canvas_t3534013893 * L_0 = ___c;
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_000d;
@@ -22645,9 +22645,9 @@ extern "C"  void GridLayoutGroup__ctor_m1378214348 (GridLayoutGroup_t4084811832 
 	{
 		Vector2_t3525329788  L_0;
 		memset(&L_0, 0, sizeof(L_0));
-		Vector2__ctor_m3369031450(&L_0, (100.0f), (100.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_0, (100.0f), (100.0f), /*hidden argument*/NULL);
 		__this->set_m_CellSize_12(L_0);
-		Vector2_t3525329788  L_1 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_1 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->set_m_Spacing_13(L_1);
 		__this->set_m_ConstraintCount_15(2);
 		LayoutGroup__ctor_m1400544614(__this, /*hidden argument*/NULL);
@@ -22808,7 +22808,7 @@ extern "C"  void GridLayoutGroup_set_constraintCount_m2898625584 (GridLayoutGrou
 		int32_t* L_0 = __this->get_address_of_m_ConstraintCount_15();
 		int32_t L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_2 = Mathf_Max_m2777221653(NULL /*static, unused*/, 1, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = Mathf_Max_m2911193737(NULL /*static, unused*/, 1, L_1, /*hidden argument*/NULL);
 		LayoutGroup_SetProperty_TisInt32_t2847414787_m1661492404(__this, L_0, L_2, /*hidden argument*/LayoutGroup_SetProperty_TisInt32_t2847414787_m1661492404_MethodInfo_var);
 		return;
 	}
@@ -22870,7 +22870,7 @@ IL_0024:
 		int32_t L_5 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::get_Count() */, L_4);
 		int32_t L_6 = __this->get_m_ConstraintCount_15();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_7 = Mathf_CeilToInt_m257826991(NULL /*static, unused*/, ((float)((float)((float)((float)(((float)((float)L_5)))/(float)(((float)((float)L_6)))))-(float)(0.001f))), /*hidden argument*/NULL);
+		int32_t L_7 = Mathf_CeilToInt_m3621832739(NULL /*static, unused*/, ((float)((float)((float)((float)(((float)((float)L_5)))/(float)(((float)((float)L_6)))))-(float)(0.001f))), /*hidden argument*/NULL);
 		int32_t L_8 = L_7;
 		V_1 = L_8;
 		V_0 = L_8;
@@ -22885,7 +22885,7 @@ IL_0057:
 		int32_t L_10 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::get_Count() */, L_9);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
 		float L_11 = sqrtf((((float)((float)L_10))));
-		int32_t L_12 = Mathf_CeilToInt_m257826991(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		int32_t L_12 = Mathf_CeilToInt_m3621832739(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 		V_1 = L_12;
 	}
 
@@ -22893,7 +22893,7 @@ IL_0070:
 	{
 		RectOffset_t3394170884 * L_13 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_13);
-		int32_t L_14 = RectOffset_get_horizontal_m3387947471(L_13, /*hidden argument*/NULL);
+		int32_t L_14 = RectOffset_get_horizontal_m1186440923(L_13, /*hidden argument*/NULL);
 		Vector2_t3525329788  L_15 = GridLayoutGroup_get_cellSize_m1318291007(__this, /*hidden argument*/NULL);
 		V_2 = L_15;
 		float L_16 = (&V_2)->get_x_1();
@@ -22906,7 +22906,7 @@ IL_0070:
 		float L_21 = (&V_4)->get_x_1();
 		RectOffset_t3394170884 * L_22 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_22);
-		int32_t L_23 = RectOffset_get_horizontal_m3387947471(L_22, /*hidden argument*/NULL);
+		int32_t L_23 = RectOffset_get_horizontal_m1186440923(L_22, /*hidden argument*/NULL);
 		Vector2_t3525329788  L_24 = GridLayoutGroup_get_cellSize_m1318291007(__this, /*hidden argument*/NULL);
 		V_5 = L_24;
 		float L_25 = (&V_5)->get_x_1();
@@ -22966,7 +22966,7 @@ extern "C"  void GridLayoutGroup_CalculateLayoutInputVertical_m1216862728 (GridL
 		int32_t L_2 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::get_Count() */, L_1);
 		int32_t L_3 = __this->get_m_ConstraintCount_15();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_4 = Mathf_CeilToInt_m257826991(NULL /*static, unused*/, ((float)((float)((float)((float)(((float)((float)L_2)))/(float)(((float)((float)L_3)))))-(float)(0.001f))), /*hidden argument*/NULL);
+		int32_t L_4 = Mathf_CeilToInt_m3621832739(NULL /*static, unused*/, ((float)((float)((float)((float)(((float)((float)L_2)))/(float)(((float)((float)L_3)))))-(float)(0.001f))), /*hidden argument*/NULL);
 		V_0 = L_4;
 		goto IL_00ce;
 	}
@@ -22989,16 +22989,16 @@ IL_004b:
 	{
 		RectTransform_t3317474837 * L_7 = LayoutGroup_get_rectTransform_m331638721(__this, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		Rect_t1525428817  L_8 = RectTransform_get_rect_m1093243288(L_7, /*hidden argument*/NULL);
+		Rect_t1525428817  L_8 = RectTransform_get_rect_m1566017036(L_7, /*hidden argument*/NULL);
 		V_4 = L_8;
-		Vector2_t3525329788  L_9 = Rect_get_size_m2266442540((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_9 = Rect_get_size_m136480416((&V_4), /*hidden argument*/NULL);
 		V_5 = L_9;
 		float L_10 = (&V_5)->get_x_1();
 		V_1 = L_10;
 		float L_11 = V_1;
 		RectOffset_t3394170884 * L_12 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		int32_t L_13 = RectOffset_get_horizontal_m3387947471(L_12, /*hidden argument*/NULL);
+		int32_t L_13 = RectOffset_get_horizontal_m1186440923(L_12, /*hidden argument*/NULL);
 		Vector2_t3525329788  L_14 = GridLayoutGroup_get_spacing_m660869033(__this, /*hidden argument*/NULL);
 		V_6 = L_14;
 		float L_15 = (&V_6)->get_x_1();
@@ -23009,14 +23009,14 @@ IL_004b:
 		V_8 = L_18;
 		float L_19 = (&V_8)->get_x_1();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_20 = Mathf_FloorToInt_m3358515534(NULL /*static, unused*/, ((float)((float)((float)((float)((float)((float)((float)((float)L_11-(float)(((float)((float)L_13)))))+(float)L_15))+(float)(0.001f)))/(float)((float)((float)L_17+(float)L_19)))), /*hidden argument*/NULL);
-		int32_t L_21 = Mathf_Max_m2777221653(NULL /*static, unused*/, 1, L_20, /*hidden argument*/NULL);
+		int32_t L_20 = Mathf_FloorToInt_m268511322(NULL /*static, unused*/, ((float)((float)((float)((float)((float)((float)((float)((float)L_11-(float)(((float)((float)L_13)))))+(float)L_15))+(float)(0.001f)))/(float)((float)((float)L_17+(float)L_19)))), /*hidden argument*/NULL);
+		int32_t L_21 = Mathf_Max_m2911193737(NULL /*static, unused*/, 1, L_20, /*hidden argument*/NULL);
 		V_2 = L_21;
 		List_1_t4114433806 * L_22 = LayoutGroup_get_rectChildren_m2856991542(__this, /*hidden argument*/NULL);
 		NullCheck(L_22);
 		int32_t L_23 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::get_Count() */, L_22);
 		int32_t L_24 = V_2;
-		int32_t L_25 = Mathf_CeilToInt_m257826991(NULL /*static, unused*/, ((float)((float)(((float)((float)L_23)))/(float)(((float)((float)L_24))))), /*hidden argument*/NULL);
+		int32_t L_25 = Mathf_CeilToInt_m3621832739(NULL /*static, unused*/, ((float)((float)(((float)((float)L_23)))/(float)(((float)((float)L_24))))), /*hidden argument*/NULL);
 		V_0 = L_25;
 	}
 
@@ -23024,7 +23024,7 @@ IL_00ce:
 	{
 		RectOffset_t3394170884 * L_26 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_26);
-		int32_t L_27 = RectOffset_get_vertical_m3505236769(L_26, /*hidden argument*/NULL);
+		int32_t L_27 = RectOffset_get_vertical_m3650431789(L_26, /*hidden argument*/NULL);
 		Vector2_t3525329788  L_28 = GridLayoutGroup_get_cellSize_m1318291007(__this, /*hidden argument*/NULL);
 		V_9 = L_28;
 		float L_29 = (&V_9)->get_y_2();
@@ -23156,19 +23156,19 @@ IL_000d:
 		V_1 = L_3;
 		DrivenRectTransformTracker_t3675273953 * L_4 = ((LayoutGroup_t2646131550 *)__this)->get_address_of_m_Tracker_5();
 		RectTransform_t3317474837 * L_5 = V_1;
-		DrivenRectTransformTracker_Add_m1942874809(L_4, __this, L_5, ((int32_t)16134), /*hidden argument*/NULL);
+		DrivenRectTransformTracker_Add_m3461523141(L_4, __this, L_5, ((int32_t)16134), /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_6 = V_1;
-		Vector2_t3525329788  L_7 = Vector2_get_up_m2802147671(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_7 = Vector2_get_up_m1197831267(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		RectTransform_set_anchorMin_m4070318175(L_6, L_7, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_6, L_7, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_8 = V_1;
-		Vector2_t3525329788  L_9 = Vector2_get_up_m2802147671(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_9 = Vector2_get_up_m1197831267(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		RectTransform_set_anchorMax_m3796410509(L_8, L_9, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_8, L_9, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_10 = V_1;
 		Vector2_t3525329788  L_11 = GridLayoutGroup_get_cellSize_m1318291007(__this, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		RectTransform_set_sizeDelta_m9944005(L_10, L_11, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_10, L_11, /*hidden argument*/NULL);
 		int32_t L_12 = V_0;
 		V_0 = ((int32_t)((int32_t)L_12+(int32_t)1));
 	}
@@ -23192,17 +23192,17 @@ IL_0064:
 	{
 		RectTransform_t3317474837 * L_16 = LayoutGroup_get_rectTransform_m331638721(__this, /*hidden argument*/NULL);
 		NullCheck(L_16);
-		Rect_t1525428817  L_17 = RectTransform_get_rect_m1093243288(L_16, /*hidden argument*/NULL);
+		Rect_t1525428817  L_17 = RectTransform_get_rect_m1566017036(L_16, /*hidden argument*/NULL);
 		V_16 = L_17;
-		Vector2_t3525329788  L_18 = Rect_get_size_m2266442540((&V_16), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_18 = Rect_get_size_m136480416((&V_16), /*hidden argument*/NULL);
 		V_17 = L_18;
 		float L_19 = (&V_17)->get_x_1();
 		V_2 = L_19;
 		RectTransform_t3317474837 * L_20 = LayoutGroup_get_rectTransform_m331638721(__this, /*hidden argument*/NULL);
 		NullCheck(L_20);
-		Rect_t1525428817  L_21 = RectTransform_get_rect_m1093243288(L_20, /*hidden argument*/NULL);
+		Rect_t1525428817  L_21 = RectTransform_get_rect_m1566017036(L_20, /*hidden argument*/NULL);
 		V_18 = L_21;
-		Vector2_t3525329788  L_22 = Rect_get_size_m2266442540((&V_18), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_22 = Rect_get_size_m136480416((&V_18), /*hidden argument*/NULL);
 		V_19 = L_22;
 		float L_23 = (&V_19)->get_y_2();
 		V_3 = L_23;
@@ -23222,7 +23222,7 @@ IL_0064:
 		int32_t L_27 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::get_Count() */, L_26);
 		int32_t L_28 = V_4;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_29 = Mathf_CeilToInt_m257826991(NULL /*static, unused*/, ((float)((float)((float)((float)(((float)((float)L_27)))/(float)(((float)((float)L_28)))))-(float)(0.001f))), /*hidden argument*/NULL);
+		int32_t L_29 = Mathf_CeilToInt_m3621832739(NULL /*static, unused*/, ((float)((float)((float)((float)(((float)((float)L_27)))/(float)(((float)((float)L_28)))))-(float)(0.001f))), /*hidden argument*/NULL);
 		V_5 = L_29;
 		goto IL_021e;
 	}
@@ -23243,7 +23243,7 @@ IL_00dc:
 		int32_t L_33 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::get_Count() */, L_32);
 		int32_t L_34 = V_5;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_35 = Mathf_CeilToInt_m257826991(NULL /*static, unused*/, ((float)((float)((float)((float)(((float)((float)L_33)))/(float)(((float)((float)L_34)))))-(float)(0.001f))), /*hidden argument*/NULL);
+		int32_t L_35 = Mathf_CeilToInt_m3621832739(NULL /*static, unused*/, ((float)((float)((float)((float)(((float)((float)L_33)))/(float)(((float)((float)L_34)))))-(float)(0.001f))), /*hidden argument*/NULL);
 		V_4 = L_35;
 		goto IL_021e;
 	}
@@ -23271,7 +23271,7 @@ IL_0147:
 		float L_40 = V_2;
 		RectOffset_t3394170884 * L_41 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_41);
-		int32_t L_42 = RectOffset_get_horizontal_m3387947471(L_41, /*hidden argument*/NULL);
+		int32_t L_42 = RectOffset_get_horizontal_m1186440923(L_41, /*hidden argument*/NULL);
 		Vector2_t3525329788  L_43 = GridLayoutGroup_get_spacing_m660869033(__this, /*hidden argument*/NULL);
 		V_22 = L_43;
 		float L_44 = (&V_22)->get_x_1();
@@ -23282,8 +23282,8 @@ IL_0147:
 		V_24 = L_47;
 		float L_48 = (&V_24)->get_x_1();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_49 = Mathf_FloorToInt_m3358515534(NULL /*static, unused*/, ((float)((float)((float)((float)((float)((float)((float)((float)L_40-(float)(((float)((float)L_42)))))+(float)L_44))+(float)(0.001f)))/(float)((float)((float)L_46+(float)L_48)))), /*hidden argument*/NULL);
-		int32_t L_50 = Mathf_Max_m2777221653(NULL /*static, unused*/, 1, L_49, /*hidden argument*/NULL);
+		int32_t L_49 = Mathf_FloorToInt_m268511322(NULL /*static, unused*/, ((float)((float)((float)((float)((float)((float)((float)((float)L_40-(float)(((float)((float)L_42)))))+(float)L_44))+(float)(0.001f)))/(float)((float)((float)L_46+(float)L_48)))), /*hidden argument*/NULL);
+		int32_t L_50 = Mathf_Max_m2911193737(NULL /*static, unused*/, 1, L_49, /*hidden argument*/NULL);
 		V_4 = L_50;
 	}
 
@@ -23310,7 +23310,7 @@ IL_01cd:
 		float L_55 = V_3;
 		RectOffset_t3394170884 * L_56 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_56);
-		int32_t L_57 = RectOffset_get_vertical_m3505236769(L_56, /*hidden argument*/NULL);
+		int32_t L_57 = RectOffset_get_vertical_m3650431789(L_56, /*hidden argument*/NULL);
 		Vector2_t3525329788  L_58 = GridLayoutGroup_get_spacing_m660869033(__this, /*hidden argument*/NULL);
 		V_27 = L_58;
 		float L_59 = (&V_27)->get_y_2();
@@ -23321,8 +23321,8 @@ IL_01cd:
 		V_29 = L_62;
 		float L_63 = (&V_29)->get_y_2();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_64 = Mathf_FloorToInt_m3358515534(NULL /*static, unused*/, ((float)((float)((float)((float)((float)((float)((float)((float)L_55-(float)(((float)((float)L_57)))))+(float)L_59))+(float)(0.001f)))/(float)((float)((float)L_61+(float)L_63)))), /*hidden argument*/NULL);
-		int32_t L_65 = Mathf_Max_m2777221653(NULL /*static, unused*/, 1, L_64, /*hidden argument*/NULL);
+		int32_t L_64 = Mathf_FloorToInt_m268511322(NULL /*static, unused*/, ((float)((float)((float)((float)((float)((float)((float)((float)L_55-(float)(((float)((float)L_57)))))+(float)L_59))+(float)(0.001f)))/(float)((float)((float)L_61+(float)L_63)))), /*hidden argument*/NULL);
+		int32_t L_65 = Mathf_Max_m2911193737(NULL /*static, unused*/, 1, L_64, /*hidden argument*/NULL);
 		V_5 = L_65;
 	}
 
@@ -23346,15 +23346,15 @@ IL_021e:
 		NullCheck(L_71);
 		int32_t L_72 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::get_Count() */, L_71);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_73 = Mathf_Clamp_m4032346681(NULL /*static, unused*/, L_70, 1, L_72, /*hidden argument*/NULL);
+		int32_t L_73 = Mathf_Clamp_m510460741(NULL /*static, unused*/, L_70, 1, L_72, /*hidden argument*/NULL);
 		V_9 = L_73;
 		int32_t L_74 = V_5;
 		List_1_t4114433806 * L_75 = LayoutGroup_get_rectChildren_m2856991542(__this, /*hidden argument*/NULL);
 		NullCheck(L_75);
 		int32_t L_76 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::get_Count() */, L_75);
 		int32_t L_77 = V_8;
-		int32_t L_78 = Mathf_CeilToInt_m257826991(NULL /*static, unused*/, ((float)((float)(((float)((float)L_76)))/(float)(((float)((float)L_77))))), /*hidden argument*/NULL);
-		int32_t L_79 = Mathf_Clamp_m4032346681(NULL /*static, unused*/, L_74, 1, L_78, /*hidden argument*/NULL);
+		int32_t L_78 = Mathf_CeilToInt_m3621832739(NULL /*static, unused*/, ((float)((float)(((float)((float)L_76)))/(float)(((float)((float)L_77))))), /*hidden argument*/NULL);
+		int32_t L_79 = Mathf_Clamp_m510460741(NULL /*static, unused*/, L_74, 1, L_78, /*hidden argument*/NULL);
 		V_10 = L_79;
 		goto IL_02b2;
 	}
@@ -23368,15 +23368,15 @@ IL_027a:
 		NullCheck(L_82);
 		int32_t L_83 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::get_Count() */, L_82);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_84 = Mathf_Clamp_m4032346681(NULL /*static, unused*/, L_81, 1, L_83, /*hidden argument*/NULL);
+		int32_t L_84 = Mathf_Clamp_m510460741(NULL /*static, unused*/, L_81, 1, L_83, /*hidden argument*/NULL);
 		V_10 = L_84;
 		int32_t L_85 = V_4;
 		List_1_t4114433806 * L_86 = LayoutGroup_get_rectChildren_m2856991542(__this, /*hidden argument*/NULL);
 		NullCheck(L_86);
 		int32_t L_87 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::get_Count() */, L_86);
 		int32_t L_88 = V_8;
-		int32_t L_89 = Mathf_CeilToInt_m257826991(NULL /*static, unused*/, ((float)((float)(((float)((float)L_87)))/(float)(((float)((float)L_88))))), /*hidden argument*/NULL);
-		int32_t L_90 = Mathf_Clamp_m4032346681(NULL /*static, unused*/, L_85, 1, L_89, /*hidden argument*/NULL);
+		int32_t L_89 = Mathf_CeilToInt_m3621832739(NULL /*static, unused*/, ((float)((float)(((float)((float)L_87)))/(float)(((float)((float)L_88))))), /*hidden argument*/NULL);
+		int32_t L_90 = Mathf_Clamp_m510460741(NULL /*static, unused*/, L_85, 1, L_89, /*hidden argument*/NULL);
 		V_9 = L_90;
 	}
 
@@ -23398,12 +23398,12 @@ IL_02b2:
 		Vector2_t3525329788  L_101 = GridLayoutGroup_get_spacing_m660869033(__this, /*hidden argument*/NULL);
 		V_33 = L_101;
 		float L_102 = (&V_33)->get_y_2();
-		Vector2__ctor_m3369031450((&V_11), ((float)((float)((float)((float)(((float)((float)L_91)))*(float)L_93))+(float)((float)((float)(((float)((float)((int32_t)((int32_t)L_94-(int32_t)1)))))*(float)L_96)))), ((float)((float)((float)((float)(((float)((float)L_97)))*(float)L_99))+(float)((float)((float)(((float)((float)((int32_t)((int32_t)L_100-(int32_t)1)))))*(float)L_102)))), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030((&V_11), ((float)((float)((float)((float)(((float)((float)L_91)))*(float)L_93))+(float)((float)((float)(((float)((float)((int32_t)((int32_t)L_94-(int32_t)1)))))*(float)L_96)))), ((float)((float)((float)((float)(((float)((float)L_97)))*(float)L_99))+(float)((float)((float)(((float)((float)((int32_t)((int32_t)L_100-(int32_t)1)))))*(float)L_102)))), /*hidden argument*/NULL);
 		float L_103 = (&V_11)->get_x_1();
 		float L_104 = LayoutGroup_GetStartOffset_m3060950207(__this, 0, L_103, /*hidden argument*/NULL);
 		float L_105 = (&V_11)->get_y_2();
 		float L_106 = LayoutGroup_GetStartOffset_m3060950207(__this, 1, L_105, /*hidden argument*/NULL);
-		Vector2__ctor_m3369031450((&V_12), L_104, L_106, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030((&V_12), L_104, L_106, /*hidden argument*/NULL);
 		V_13 = 0;
 		goto IL_042c;
 	}
@@ -23473,14 +23473,14 @@ IL_0384:
 		float L_125 = (&V_12)->get_x_1();
 		Vector2_t3525329788  L_126 = GridLayoutGroup_get_cellSize_m1318291007(__this, /*hidden argument*/NULL);
 		V_34 = L_126;
-		float L_127 = Vector2_get_Item_m980579759((&V_34), 0, /*hidden argument*/NULL);
+		float L_127 = Vector2_get_Item_m2185542843((&V_34), 0, /*hidden argument*/NULL);
 		Vector2_t3525329788  L_128 = GridLayoutGroup_get_spacing_m660869033(__this, /*hidden argument*/NULL);
 		V_35 = L_128;
-		float L_129 = Vector2_get_Item_m980579759((&V_35), 0, /*hidden argument*/NULL);
+		float L_129 = Vector2_get_Item_m2185542843((&V_35), 0, /*hidden argument*/NULL);
 		int32_t L_130 = V_14;
 		Vector2_t3525329788  L_131 = GridLayoutGroup_get_cellSize_m1318291007(__this, /*hidden argument*/NULL);
 		V_36 = L_131;
-		float L_132 = Vector2_get_Item_m980579759((&V_36), 0, /*hidden argument*/NULL);
+		float L_132 = Vector2_get_Item_m2185542843((&V_36), 0, /*hidden argument*/NULL);
 		LayoutGroup_SetChildAlongAxis_m4214960168(__this, L_124, 0, ((float)((float)L_125+(float)((float)((float)((float)((float)L_127+(float)L_129))*(float)(((float)((float)L_130))))))), L_132, /*hidden argument*/NULL);
 		List_1_t4114433806 * L_133 = LayoutGroup_get_rectChildren_m2856991542(__this, /*hidden argument*/NULL);
 		int32_t L_134 = V_13;
@@ -23489,14 +23489,14 @@ IL_0384:
 		float L_136 = (&V_12)->get_y_2();
 		Vector2_t3525329788  L_137 = GridLayoutGroup_get_cellSize_m1318291007(__this, /*hidden argument*/NULL);
 		V_37 = L_137;
-		float L_138 = Vector2_get_Item_m980579759((&V_37), 1, /*hidden argument*/NULL);
+		float L_138 = Vector2_get_Item_m2185542843((&V_37), 1, /*hidden argument*/NULL);
 		Vector2_t3525329788  L_139 = GridLayoutGroup_get_spacing_m660869033(__this, /*hidden argument*/NULL);
 		V_38 = L_139;
-		float L_140 = Vector2_get_Item_m980579759((&V_38), 1, /*hidden argument*/NULL);
+		float L_140 = Vector2_get_Item_m2185542843((&V_38), 1, /*hidden argument*/NULL);
 		int32_t L_141 = V_15;
 		Vector2_t3525329788  L_142 = GridLayoutGroup_get_cellSize_m1318291007(__this, /*hidden argument*/NULL);
 		V_39 = L_142;
-		float L_143 = Vector2_get_Item_m980579759((&V_39), 1, /*hidden argument*/NULL);
+		float L_143 = Vector2_get_Item_m2185542843((&V_39), 1, /*hidden argument*/NULL);
 		LayoutGroup_SetChildAlongAxis_m4214960168(__this, L_135, 1, ((float)((float)L_136+(float)((float)((float)((float)((float)L_138+(float)L_140))*(float)(((float)((float)L_141))))))), L_143, /*hidden argument*/NULL);
 		int32_t L_144 = V_13;
 		V_13 = ((int32_t)((int32_t)L_144+(int32_t)1));
@@ -23679,7 +23679,7 @@ extern "C"  void HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m423831906 (Horiz
 	{
 		RectOffset_t3394170884 * L_1 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		int32_t L_2 = RectOffset_get_horizontal_m3387947471(L_1, /*hidden argument*/NULL);
+		int32_t L_2 = RectOffset_get_horizontal_m1186440923(L_1, /*hidden argument*/NULL);
 		G_B3_0 = L_2;
 		goto IL_0021;
 	}
@@ -23688,7 +23688,7 @@ IL_0016:
 	{
 		RectOffset_t3394170884 * L_3 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		int32_t L_4 = RectOffset_get_vertical_m3505236769(L_3, /*hidden argument*/NULL);
+		int32_t L_4 = RectOffset_get_vertical_m3650431789(L_3, /*hidden argument*/NULL);
 		G_B3_0 = L_4;
 	}
 
@@ -23754,7 +23754,7 @@ IL_0081:
 	{
 		float L_24 = V_9;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_25 = Mathf_Max_m2786059995(NULL /*static, unused*/, L_24, (1.0f), /*hidden argument*/NULL);
+		float L_25 = Mathf_Max_m3923796455(NULL /*static, unused*/, L_24, (1.0f), /*hidden argument*/NULL);
 		V_9 = L_25;
 	}
 
@@ -23771,16 +23771,16 @@ IL_0094:
 		float L_28 = V_0;
 		float L_29 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_30 = Mathf_Max_m2786059995(NULL /*static, unused*/, ((float)((float)L_27+(float)L_28)), L_29, /*hidden argument*/NULL);
+		float L_30 = Mathf_Max_m3923796455(NULL /*static, unused*/, ((float)((float)L_27+(float)L_28)), L_29, /*hidden argument*/NULL);
 		V_1 = L_30;
 		float L_31 = V_8;
 		float L_32 = V_0;
 		float L_33 = V_2;
-		float L_34 = Mathf_Max_m2786059995(NULL /*static, unused*/, ((float)((float)L_31+(float)L_32)), L_33, /*hidden argument*/NULL);
+		float L_34 = Mathf_Max_m3923796455(NULL /*static, unused*/, ((float)((float)L_31+(float)L_32)), L_33, /*hidden argument*/NULL);
 		V_2 = L_34;
 		float L_35 = V_9;
 		float L_36 = V_3;
-		float L_37 = Mathf_Max_m2786059995(NULL /*static, unused*/, L_35, L_36, /*hidden argument*/NULL);
+		float L_37 = Mathf_Max_m3923796455(NULL /*static, unused*/, L_35, L_36, /*hidden argument*/NULL);
 		V_3 = L_37;
 		goto IL_00dc;
 	}
@@ -23847,7 +23847,7 @@ IL_011e:
 		float L_57 = V_1;
 		float L_58 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_59 = Mathf_Max_m2786059995(NULL /*static, unused*/, L_57, L_58, /*hidden argument*/NULL);
+		float L_59 = Mathf_Max_m3923796455(NULL /*static, unused*/, L_57, L_58, /*hidden argument*/NULL);
 		V_2 = L_59;
 		float L_60 = V_1;
 		float L_61 = V_2;
@@ -23918,12 +23918,12 @@ extern "C"  void HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m344070049
 	{
 		RectTransform_t3317474837 * L_0 = LayoutGroup_get_rectTransform_m331638721(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Rect_t1525428817  L_1 = RectTransform_get_rect_m1093243288(L_0, /*hidden argument*/NULL);
+		Rect_t1525428817  L_1 = RectTransform_get_rect_m1566017036(L_0, /*hidden argument*/NULL);
 		V_19 = L_1;
-		Vector2_t3525329788  L_2 = Rect_get_size_m2266442540((&V_19), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_2 = Rect_get_size_m136480416((&V_19), /*hidden argument*/NULL);
 		V_20 = L_2;
 		int32_t L_3 = ___axis;
-		float L_4 = Vector2_get_Item_m980579759((&V_20), L_3, /*hidden argument*/NULL);
+		float L_4 = Vector2_get_Item_m2185542843((&V_20), L_3, /*hidden argument*/NULL);
 		V_0 = L_4;
 		bool L_5 = ___isVertical;
 		int32_t L_6 = ___axis;
@@ -23947,7 +23947,7 @@ extern "C"  void HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m344070049
 	{
 		RectOffset_t3394170884 * L_10 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		int32_t L_11 = RectOffset_get_horizontal_m3387947471(L_10, /*hidden argument*/NULL);
+		int32_t L_11 = RectOffset_get_horizontal_m1186440923(L_10, /*hidden argument*/NULL);
 		G_B4_0 = L_11;
 		G_B4_1 = G_B2_0;
 		goto IL_004e;
@@ -23957,7 +23957,7 @@ IL_0043:
 	{
 		RectOffset_t3394170884 * L_12 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		int32_t L_13 = RectOffset_get_vertical_m3505236769(L_12, /*hidden argument*/NULL);
+		int32_t L_13 = RectOffset_get_vertical_m3650431789(L_12, /*hidden argument*/NULL);
 		G_B4_0 = L_13;
 		G_B4_1 = G_B3_0;
 	}
@@ -24016,7 +24016,7 @@ IL_009b:
 	{
 		float L_29 = V_7;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_30 = Mathf_Max_m2786059995(NULL /*static, unused*/, L_29, (1.0f), /*hidden argument*/NULL);
+		float L_30 = Mathf_Max_m3923796455(NULL /*static, unused*/, L_29, (1.0f), /*hidden argument*/NULL);
 		V_7 = L_30;
 	}
 
@@ -24053,7 +24053,7 @@ IL_00c3:
 IL_00c5:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_36 = Mathf_Clamp_m3714350793(NULL /*static, unused*/, G_B13_2, G_B13_1, G_B13_0, /*hidden argument*/NULL);
+		float L_36 = Mathf_Clamp_m3872743893(NULL /*static, unused*/, G_B13_2, G_B13_1, G_B13_0, /*hidden argument*/NULL);
 		V_8 = L_36;
 		int32_t L_37 = ___axis;
 		float L_38 = V_8;
@@ -24094,7 +24094,7 @@ IL_00fe:
 	{
 		RectOffset_t3394170884 * L_49 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_49);
-		int32_t L_50 = RectOffset_get_left_m293906546(L_49, /*hidden argument*/NULL);
+		int32_t L_50 = RectOffset_get_left_m4104523390(L_49, /*hidden argument*/NULL);
 		G_B19_0 = L_50;
 		goto IL_011f;
 	}
@@ -24103,7 +24103,7 @@ IL_0114:
 	{
 		RectOffset_t3394170884 * L_51 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_51);
-		int32_t L_52 = RectOffset_get_top_m17174188(L_51, /*hidden argument*/NULL);
+		int32_t L_52 = RectOffset_get_top_m140097312(L_51, /*hidden argument*/NULL);
 		G_B19_0 = L_52;
 	}
 
@@ -24145,7 +24145,7 @@ IL_011f:
 	{
 		RectOffset_t3394170884 * L_62 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_62);
-		int32_t L_63 = RectOffset_get_horizontal_m3387947471(L_62, /*hidden argument*/NULL);
+		int32_t L_63 = RectOffset_get_horizontal_m1186440923(L_62, /*hidden argument*/NULL);
 		G_B24_0 = L_63;
 		G_B24_1 = G_B22_0;
 		G_B24_2 = G_B22_1;
@@ -24157,7 +24157,7 @@ IL_015f:
 	{
 		RectOffset_t3394170884 * L_64 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_64);
-		int32_t L_65 = RectOffset_get_vertical_m3505236769(L_64, /*hidden argument*/NULL);
+		int32_t L_65 = RectOffset_get_vertical_m3650431789(L_64, /*hidden argument*/NULL);
 		G_B24_0 = L_65;
 		G_B24_1 = G_B23_0;
 		G_B24_2 = G_B23_1;
@@ -24192,7 +24192,7 @@ IL_0173:
 		int32_t L_76 = ___axis;
 		float L_77 = LayoutGroup_GetTotalMinSize_m3187537614(__this, L_76, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_78 = Mathf_Clamp01_m501649630(NULL /*static, unused*/, ((float)((float)((float)((float)L_71-(float)L_73))/(float)((float)((float)L_75-(float)L_77)))), /*hidden argument*/NULL);
+		float L_78 = Mathf_Clamp01_m2272733930(NULL /*static, unused*/, ((float)((float)((float)((float)L_71-(float)L_73))/(float)((float)((float)L_75-(float)L_77)))), /*hidden argument*/NULL);
 		V_11 = L_78;
 	}
 
@@ -24277,7 +24277,7 @@ IL_0231:
 	{
 		float L_104 = V_17;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_105 = Mathf_Max_m2786059995(NULL /*static, unused*/, L_104, (1.0f), /*hidden argument*/NULL);
+		float L_105 = Mathf_Max_m3923796455(NULL /*static, unused*/, L_104, (1.0f), /*hidden argument*/NULL);
 		V_17 = L_105;
 	}
 
@@ -24287,7 +24287,7 @@ IL_0244:
 		float L_107 = V_16;
 		float L_108 = V_11;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_109 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_106, L_107, L_108, /*hidden argument*/NULL);
+		float L_109 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_106, L_107, L_108, /*hidden argument*/NULL);
 		V_18 = L_109;
 		float L_110 = V_18;
 		float L_111 = V_17;
@@ -24401,7 +24401,7 @@ extern "C"  Sprite_t4006040370 * Image_get_overrideSprite_m3218085753 (Image_t33
 	Sprite_t4006040370 * G_B3_0 = NULL;
 	{
 		Sprite_t4006040370 * L_0 = __this->get_m_OverrideSprite_29();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001c;
@@ -24626,7 +24626,7 @@ extern "C"  void Image_set_fillAmount_m1583793743 (Image_t3354615620 * __this, f
 		float* L_0 = __this->get_address_of_m_FillAmount_34();
 		float L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_2 = Mathf_Clamp01_m501649630(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		float L_2 = Mathf_Clamp01_m2272733930(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		bool L_3 = SetPropertyUtility_SetStruct_TisSingle_t958209021_m1643007650(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/SetPropertyUtility_SetStruct_TisSingle_t958209021_m1643007650_MethodInfo_var);
 		if (!L_3)
 		{
@@ -24746,7 +24746,7 @@ extern "C"  Texture_t1769722184 * Image_get_mainTexture_m3619971528 (Image_t3354
 	}
 	{
 		Sprite_t4006040370 * L_0 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_004a;
@@ -24754,7 +24754,7 @@ extern "C"  Texture_t1769722184 * Image_get_mainTexture_m3619971528 (Image_t3354
 	}
 	{
 		Material_t1886596500 * L_2 = VirtFuncInvoker0< Material_t1886596500 * >::Invoke(26 /* UnityEngine.Material UnityEngine.UI.Graphic::get_material() */, __this);
-		bool L_3 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0044;
@@ -24763,8 +24763,8 @@ extern "C"  Texture_t1769722184 * Image_get_mainTexture_m3619971528 (Image_t3354
 	{
 		Material_t1886596500 * L_4 = VirtFuncInvoker0< Material_t1886596500 * >::Invoke(26 /* UnityEngine.Material UnityEngine.UI.Graphic::get_material() */, __this);
 		NullCheck(L_4);
-		Texture_t1769722184 * L_5 = Material_get_mainTexture_m2683913250(L_4, /*hidden argument*/NULL);
-		bool L_6 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_5, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		Texture_t1769722184 * L_5 = Material_get_mainTexture_m1012267054(L_4, /*hidden argument*/NULL);
+		bool L_6 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_5, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_0044;
@@ -24773,7 +24773,7 @@ extern "C"  Texture_t1769722184 * Image_get_mainTexture_m3619971528 (Image_t3354
 	{
 		Material_t1886596500 * L_7 = VirtFuncInvoker0< Material_t1886596500 * >::Invoke(26 /* UnityEngine.Material UnityEngine.UI.Graphic::get_material() */, __this);
 		NullCheck(L_7);
-		Texture_t1769722184 * L_8 = Material_get_mainTexture_m2683913250(L_7, /*hidden argument*/NULL);
+		Texture_t1769722184 * L_8 = Material_get_mainTexture_m1012267054(L_7, /*hidden argument*/NULL);
 		return L_8;
 	}
 
@@ -24788,7 +24788,7 @@ IL_004a:
 	{
 		Sprite_t4006040370 * L_10 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		Texture2D_t2509538522 * L_11 = Sprite_get_texture_m4005372943(L_10, /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_11 = Sprite_get_texture_m1481489947(L_10, /*hidden argument*/NULL);
 		return L_11;
 	}
 }
@@ -24799,7 +24799,7 @@ extern "C"  bool Image_get_hasBorder_m2233588589 (Image_t3354615620 * __this, co
 	memset(&V_0, 0, sizeof(V_0));
 	{
 		Sprite_t4006040370 * L_0 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_002c;
@@ -24808,9 +24808,9 @@ extern "C"  bool Image_get_hasBorder_m2233588589 (Image_t3354615620 * __this, co
 	{
 		Sprite_t4006040370 * L_2 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		Vector4_t3525329790  L_3 = Sprite_get_border_m1356674614(L_2, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_3 = Sprite_get_border_m1562752938(L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
-		float L_4 = Vector4_get_sqrMagnitude_m3620281225((&V_0), /*hidden argument*/NULL);
+		float L_4 = Vector4_get_sqrMagnitude_m1418774677((&V_0), /*hidden argument*/NULL);
 		return (bool)((((float)L_4) > ((float)(0.0f)))? 1 : 0);
 	}
 
@@ -24827,7 +24827,7 @@ extern "C"  float Image_get_pixelsPerUnit_m2679127645 (Image_t3354615620 * __thi
 	{
 		V_0 = (100.0f);
 		Sprite_t4006040370 * L_0 = Image_get_sprite_m3572636301(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0022;
@@ -24836,7 +24836,7 @@ extern "C"  float Image_get_pixelsPerUnit_m2679127645 (Image_t3354615620 * __thi
 	{
 		Sprite_t4006040370 * L_2 = Image_get_sprite_m3572636301(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		float L_3 = Sprite_get_pixelsPerUnit_m345247705(L_2, /*hidden argument*/NULL);
+		float L_3 = Sprite_get_pixelsPerUnit_m2438708453(L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
 	}
 
@@ -24844,7 +24844,7 @@ IL_0022:
 	{
 		V_1 = (100.0f);
 		Canvas_t3534013893 * L_4 = Graphic_get_canvas_m4291384250(__this, /*hidden argument*/NULL);
-		bool L_5 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		bool L_5 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_0044;
@@ -24853,7 +24853,7 @@ IL_0022:
 	{
 		Canvas_t3534013893 * L_6 = Graphic_get_canvas_m4291384250(__this, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		float L_7 = Canvas_get_referencePixelsPerUnit_m3625617113(L_6, /*hidden argument*/NULL);
+		float L_7 = Canvas_get_referencePixelsPerUnit_m3759589197(L_6, /*hidden argument*/NULL);
 		V_1 = L_7;
 	}
 
@@ -24950,7 +24950,7 @@ IL_0072:
 	{
 		float L_6 = __this->get_m_FillAmount_34();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_7 = Mathf_Clamp_m3714350793(NULL /*static, unused*/, L_6, (0.0f), (1.0f), /*hidden argument*/NULL);
+		float L_7 = Mathf_Clamp_m3872743893(NULL /*static, unused*/, L_6, (0.0f), (1.0f), /*hidden argument*/NULL);
 		__this->set_m_FillAmount_34(L_7);
 		return;
 	}
@@ -24994,14 +24994,14 @@ extern "C"  Vector4_t3525329790  Image_GetDrawingDimensions_m755640489 (Image_t3
 	memset(&G_B6_0, 0, sizeof(G_B6_0));
 	{
 		Sprite_t4006040370 * L_0 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001b;
 		}
 	}
 	{
-		Vector4_t3525329790  L_2 = Vector4_get_zero_m3690452072(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_2 = Vector4_get_zero_m3835647092(NULL /*static, unused*/, /*hidden argument*/NULL);
 		G_B3_0 = L_2;
 		goto IL_0026;
 	}
@@ -25009,7 +25009,7 @@ extern "C"  Vector4_t3525329790  Image_GetDrawingDimensions_m755640489 (Image_t3
 IL_001b:
 	{
 		Sprite_t4006040370 * L_3 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		Vector4_t3525329790  L_4 = DataUtility_GetPadding_m1934628551(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_4 = DataUtility_GetPadding_m3826542291(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		G_B3_0 = L_4;
 	}
 
@@ -25017,14 +25017,14 @@ IL_0026:
 	{
 		V_0 = G_B3_0;
 		Sprite_t4006040370 * L_5 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		bool L_6 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_5, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_6 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_5, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_0042;
 		}
 	}
 	{
-		Vector2_t3525329788  L_7 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_7 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		G_B6_0 = L_7;
 		goto IL_006f;
 	}
@@ -25033,17 +25033,17 @@ IL_0042:
 	{
 		Sprite_t4006040370 * L_8 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Rect_t1525428817  L_9 = Sprite_get_rect_m616976945(L_8, /*hidden argument*/NULL);
+		Rect_t1525428817  L_9 = Sprite_get_rect_m132626493(L_8, /*hidden argument*/NULL);
 		V_10 = L_9;
-		float L_10 = Rect_get_width_m2245507084((&V_10), /*hidden argument*/NULL);
+		float L_10 = Rect_get_width_m2824209432((&V_10), /*hidden argument*/NULL);
 		Sprite_t4006040370 * L_11 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		Rect_t1525428817  L_12 = Sprite_get_rect_m616976945(L_11, /*hidden argument*/NULL);
+		Rect_t1525428817  L_12 = Sprite_get_rect_m132626493(L_11, /*hidden argument*/NULL);
 		V_11 = L_12;
-		float L_13 = Rect_get_height_m1395057219((&V_11), /*hidden argument*/NULL);
+		float L_13 = Rect_get_height_m2154960823((&V_11), /*hidden argument*/NULL);
 		Vector2_t3525329788  L_14;
 		memset(&L_14, 0, sizeof(L_14));
-		Vector2__ctor_m3369031450(&L_14, L_10, L_13, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_14, L_10, L_13, /*hidden argument*/NULL);
 		G_B6_0 = L_14;
 	}
 
@@ -25054,10 +25054,10 @@ IL_006f:
 		V_2 = L_15;
 		float L_16 = (&V_1)->get_x_1();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_17 = Mathf_RoundToInt_m1958582736(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		int32_t L_17 = Mathf_RoundToInt_m3163545820(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 		V_3 = L_17;
 		float L_18 = (&V_1)->get_y_2();
-		int32_t L_19 = Mathf_RoundToInt_m1958582736(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		int32_t L_19 = Mathf_RoundToInt_m3163545820(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
 		V_4 = L_19;
 		float L_20 = (&V_0)->get_x_1();
 		int32_t L_21 = V_3;
@@ -25069,7 +25069,7 @@ IL_006f:
 		int32_t L_27 = V_4;
 		float L_28 = (&V_0)->get_w_4();
 		int32_t L_29 = V_4;
-		Vector4__ctor_m110402854((&V_5), ((float)((float)L_20/(float)(((float)((float)L_21))))), ((float)((float)L_22/(float)(((float)((float)L_23))))), ((float)((float)((float)((float)(((float)((float)L_24)))-(float)L_25))/(float)(((float)((float)L_26))))), ((float)((float)((float)((float)(((float)((float)L_27)))-(float)L_28))/(float)(((float)((float)L_29))))), /*hidden argument*/NULL);
+		Vector4__ctor_m2441427762((&V_5), ((float)((float)L_20/(float)(((float)((float)L_21))))), ((float)((float)L_22/(float)(((float)((float)L_23))))), ((float)((float)((float)((float)(((float)((float)L_24)))-(float)L_25))/(float)(((float)((float)L_26))))), ((float)((float)((float)((float)(((float)((float)L_27)))-(float)L_28))/(float)(((float)((float)L_29))))), /*hidden argument*/NULL);
 		bool L_30 = ___shouldPreserveAspect;
 		if (!L_30)
 		{
@@ -25077,7 +25077,7 @@ IL_006f:
 		}
 	}
 	{
-		float L_31 = Vector2_get_sqrMagnitude_m3197579399((&V_1), /*hidden argument*/NULL);
+		float L_31 = Vector2_get_sqrMagnitude_m996072851((&V_1), /*hidden argument*/NULL);
 		if ((!(((float)L_31) > ((float)(0.0f)))))
 		{
 			goto IL_01a5;
@@ -25087,8 +25087,8 @@ IL_006f:
 		float L_32 = (&V_1)->get_x_1();
 		float L_33 = (&V_1)->get_y_2();
 		V_6 = ((float)((float)L_32/(float)L_33));
-		float L_34 = Rect_get_width_m2245507084((&V_2), /*hidden argument*/NULL);
-		float L_35 = Rect_get_height_m1395057219((&V_2), /*hidden argument*/NULL);
+		float L_34 = Rect_get_width_m2824209432((&V_2), /*hidden argument*/NULL);
+		float L_35 = Rect_get_height_m2154960823((&V_2), /*hidden argument*/NULL);
 		V_7 = ((float)((float)L_34/(float)L_35));
 		float L_36 = V_6;
 		float L_37 = V_7;
@@ -25098,58 +25098,58 @@ IL_006f:
 		}
 	}
 	{
-		float L_38 = Rect_get_height_m1395057219((&V_2), /*hidden argument*/NULL);
+		float L_38 = Rect_get_height_m2154960823((&V_2), /*hidden argument*/NULL);
 		V_8 = L_38;
-		float L_39 = Rect_get_width_m2245507084((&V_2), /*hidden argument*/NULL);
+		float L_39 = Rect_get_width_m2824209432((&V_2), /*hidden argument*/NULL);
 		float L_40 = V_6;
-		Rect_set_height_m1627736032((&V_2), ((float)((float)L_39*(float)((float)((float)(1.0f)/(float)L_40)))), /*hidden argument*/NULL);
+		Rect_set_height_m3398820332((&V_2), ((float)((float)L_39*(float)((float)((float)(1.0f)/(float)L_40)))), /*hidden argument*/NULL);
 		Rect_t1525428817 * L_41 = (&V_2);
-		float L_42 = Rect_get_y_m2320487551(L_41, /*hidden argument*/NULL);
+		float L_42 = Rect_get_y_m982386315(L_41, /*hidden argument*/NULL);
 		float L_43 = V_8;
-		float L_44 = Rect_get_height_m1395057219((&V_2), /*hidden argument*/NULL);
+		float L_44 = Rect_get_height_m2154960823((&V_2), /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_45 = Graphic_get_rectTransform_m4017371950(__this, /*hidden argument*/NULL);
 		NullCheck(L_45);
-		Vector2_t3525329788  L_46 = RectTransform_get_pivot_m791453359(L_45, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_46 = RectTransform_get_pivot_m3785570595(L_45, /*hidden argument*/NULL);
 		V_12 = L_46;
 		float L_47 = (&V_12)->get_y_2();
-		Rect_set_y_m2556604660(L_41, ((float)((float)L_42+(float)((float)((float)((float)((float)L_43-(float)L_44))*(float)L_47)))), /*hidden argument*/NULL);
+		Rect_set_y_m67436392(L_41, ((float)((float)L_42+(float)((float)((float)((float)((float)L_43-(float)L_44))*(float)L_47)))), /*hidden argument*/NULL);
 		goto IL_01a5;
 	}
 
 IL_015e:
 	{
-		float L_48 = Rect_get_width_m2245507084((&V_2), /*hidden argument*/NULL);
+		float L_48 = Rect_get_width_m2824209432((&V_2), /*hidden argument*/NULL);
 		V_9 = L_48;
-		float L_49 = Rect_get_height_m1395057219((&V_2), /*hidden argument*/NULL);
+		float L_49 = Rect_get_height_m2154960823((&V_2), /*hidden argument*/NULL);
 		float L_50 = V_6;
-		Rect_set_width_m3298739847((&V_2), ((float)((float)L_49*(float)L_50)), /*hidden argument*/NULL);
+		Rect_set_width_m3771513595((&V_2), ((float)((float)L_49*(float)L_50)), /*hidden argument*/NULL);
 		Rect_t1525428817 * L_51 = (&V_2);
-		float L_52 = Rect_get_x_m2320486590(L_51, /*hidden argument*/NULL);
+		float L_52 = Rect_get_x_m982385354(L_51, /*hidden argument*/NULL);
 		float L_53 = V_9;
-		float L_54 = Rect_get_width_m2245507084((&V_2), /*hidden argument*/NULL);
+		float L_54 = Rect_get_width_m2824209432((&V_2), /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_55 = Graphic_get_rectTransform_m4017371950(__this, /*hidden argument*/NULL);
 		NullCheck(L_55);
-		Vector2_t3525329788  L_56 = RectTransform_get_pivot_m791453359(L_55, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_56 = RectTransform_get_pivot_m3785570595(L_55, /*hidden argument*/NULL);
 		V_13 = L_56;
 		float L_57 = (&V_13)->get_x_1();
-		Rect_set_x_m3067138837(L_51, ((float)((float)L_52+(float)((float)((float)((float)((float)L_53-(float)L_54))*(float)L_57)))), /*hidden argument*/NULL);
+		Rect_set_x_m577970569(L_51, ((float)((float)L_52+(float)((float)((float)((float)((float)L_53-(float)L_54))*(float)L_57)))), /*hidden argument*/NULL);
 	}
 
 IL_01a5:
 	{
-		float L_58 = Rect_get_x_m2320486590((&V_2), /*hidden argument*/NULL);
-		float L_59 = Rect_get_width_m2245507084((&V_2), /*hidden argument*/NULL);
+		float L_58 = Rect_get_x_m982385354((&V_2), /*hidden argument*/NULL);
+		float L_59 = Rect_get_width_m2824209432((&V_2), /*hidden argument*/NULL);
 		float L_60 = (&V_5)->get_x_1();
-		float L_61 = Rect_get_y_m2320487551((&V_2), /*hidden argument*/NULL);
-		float L_62 = Rect_get_height_m1395057219((&V_2), /*hidden argument*/NULL);
+		float L_61 = Rect_get_y_m982386315((&V_2), /*hidden argument*/NULL);
+		float L_62 = Rect_get_height_m2154960823((&V_2), /*hidden argument*/NULL);
 		float L_63 = (&V_5)->get_y_2();
-		float L_64 = Rect_get_x_m2320486590((&V_2), /*hidden argument*/NULL);
-		float L_65 = Rect_get_width_m2245507084((&V_2), /*hidden argument*/NULL);
+		float L_64 = Rect_get_x_m982385354((&V_2), /*hidden argument*/NULL);
+		float L_65 = Rect_get_width_m2824209432((&V_2), /*hidden argument*/NULL);
 		float L_66 = (&V_5)->get_z_3();
-		float L_67 = Rect_get_y_m2320487551((&V_2), /*hidden argument*/NULL);
-		float L_68 = Rect_get_height_m1395057219((&V_2), /*hidden argument*/NULL);
+		float L_67 = Rect_get_y_m982386315((&V_2), /*hidden argument*/NULL);
+		float L_68 = Rect_get_height_m2154960823((&V_2), /*hidden argument*/NULL);
 		float L_69 = (&V_5)->get_w_4();
-		Vector4__ctor_m110402854((&V_5), ((float)((float)L_58+(float)((float)((float)L_59*(float)L_60)))), ((float)((float)L_61+(float)((float)((float)L_62*(float)L_63)))), ((float)((float)L_64+(float)((float)((float)L_65*(float)L_66)))), ((float)((float)L_67+(float)((float)((float)L_68*(float)L_69)))), /*hidden argument*/NULL);
+		Vector4__ctor_m2441427762((&V_5), ((float)((float)L_58+(float)((float)((float)L_59*(float)L_60)))), ((float)((float)L_61+(float)((float)((float)L_62*(float)L_63)))), ((float)((float)L_64+(float)((float)((float)L_65*(float)L_66)))), ((float)((float)L_67+(float)((float)((float)L_68*(float)L_69)))), /*hidden argument*/NULL);
 		Vector4_t3525329790  L_70 = V_5;
 		return L_70;
 	}
@@ -25165,7 +25165,7 @@ extern "C"  void Image_SetNativeSize_m828608152 (Image_t3354615620 * __this, con
 	memset(&V_3, 0, sizeof(V_3));
 	{
 		Sprite_t4006040370 * L_0 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0075;
@@ -25174,32 +25174,32 @@ extern "C"  void Image_SetNativeSize_m828608152 (Image_t3354615620 * __this, con
 	{
 		Sprite_t4006040370 * L_2 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		Rect_t1525428817  L_3 = Sprite_get_rect_m616976945(L_2, /*hidden argument*/NULL);
+		Rect_t1525428817  L_3 = Sprite_get_rect_m132626493(L_2, /*hidden argument*/NULL);
 		V_2 = L_3;
-		float L_4 = Rect_get_width_m2245507084((&V_2), /*hidden argument*/NULL);
+		float L_4 = Rect_get_width_m2824209432((&V_2), /*hidden argument*/NULL);
 		float L_5 = Image_get_pixelsPerUnit_m2679127645(__this, /*hidden argument*/NULL);
 		V_0 = ((float)((float)L_4/(float)L_5));
 		Sprite_t4006040370 * L_6 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		Rect_t1525428817  L_7 = Sprite_get_rect_m616976945(L_6, /*hidden argument*/NULL);
+		Rect_t1525428817  L_7 = Sprite_get_rect_m132626493(L_6, /*hidden argument*/NULL);
 		V_3 = L_7;
-		float L_8 = Rect_get_height_m1395057219((&V_3), /*hidden argument*/NULL);
+		float L_8 = Rect_get_height_m2154960823((&V_3), /*hidden argument*/NULL);
 		float L_9 = Image_get_pixelsPerUnit_m2679127645(__this, /*hidden argument*/NULL);
 		V_1 = ((float)((float)L_8/(float)L_9));
 		RectTransform_t3317474837 * L_10 = Graphic_get_rectTransform_m4017371950(__this, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_11 = Graphic_get_rectTransform_m4017371950(__this, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		Vector2_t3525329788  L_12 = RectTransform_get_anchorMin_m554702090(L_11, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_12 = RectTransform_get_anchorMin_m688674174(L_11, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		RectTransform_set_anchorMax_m3796410509(L_10, L_12, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_10, L_12, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_13 = Graphic_get_rectTransform_m4017371950(__this, /*hidden argument*/NULL);
 		float L_14 = V_0;
 		float L_15 = V_1;
 		Vector2_t3525329788  L_16;
 		memset(&L_16, 0, sizeof(L_16));
-		Vector2__ctor_m3369031450(&L_16, L_14, L_15, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_16, L_14, L_15, /*hidden argument*/NULL);
 		NullCheck(L_13);
-		RectTransform_set_sizeDelta_m9944005(L_13, L_16, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_13, L_16, /*hidden argument*/NULL);
 		VirtActionInvoker0::Invoke(21 /* System.Void UnityEngine.UI.Graphic::SetAllDirty() */, __this);
 	}
 
@@ -25214,7 +25214,7 @@ extern "C"  void Image_OnPopulateMesh_m435930979 (Image_t3354615620 * __this, Ve
 	int32_t V_0 = 0;
 	{
 		Sprite_t4006040370 * L_0 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0019;
@@ -25303,7 +25303,7 @@ extern "C"  void Image_GenerateSimpleSprite_m106729008 (Image_t3354615620 * __th
 		Vector4_t3525329790  L_1 = Image_GetDrawingDimensions_m755640489(__this, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		Sprite_t4006040370 * L_2 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		bool L_3 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0029;
@@ -25311,14 +25311,14 @@ extern "C"  void Image_GenerateSimpleSprite_m106729008 (Image_t3354615620 * __th
 	}
 	{
 		Sprite_t4006040370 * L_4 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		Vector4_t3525329790  L_5 = DataUtility_GetOuterUV_m1082572690(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_5 = DataUtility_GetOuterUV_m2974486430(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		G_B3_0 = L_5;
 		goto IL_002e;
 	}
 
 IL_0029:
 	{
-		Vector4_t3525329790  L_6 = Vector4_get_zero_m3690452072(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_6 = Vector4_get_zero_m3835647092(NULL /*static, unused*/, /*hidden argument*/NULL);
 		G_B3_0 = L_6;
 	}
 
@@ -25335,14 +25335,14 @@ IL_002e:
 		float L_11 = (&V_0)->get_y_2();
 		Vector3_t3525329789  L_12;
 		memset(&L_12, 0, sizeof(L_12));
-		Vector3__ctor_m3698797211(&L_12, L_10, L_11, /*hidden argument*/NULL);
+		Vector3__ctor_m1846874791(&L_12, L_10, L_11, /*hidden argument*/NULL);
 		Color_t1588175760  L_13 = V_2;
-		Color32_t4137084207  L_14 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		Color32_t4137084207  L_14 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
 		float L_15 = (&V_1)->get_x_1();
 		float L_16 = (&V_1)->get_y_2();
 		Vector2_t3525329788  L_17;
 		memset(&L_17, 0, sizeof(L_17));
-		Vector2__ctor_m3369031450(&L_17, L_15, L_16, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_17, L_15, L_16, /*hidden argument*/NULL);
 		NullCheck(L_9);
 		VertexHelper_AddVert_m1490065189(L_9, L_12, L_14, L_17, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_18 = ___vh;
@@ -25350,14 +25350,14 @@ IL_002e:
 		float L_20 = (&V_0)->get_w_4();
 		Vector3_t3525329789  L_21;
 		memset(&L_21, 0, sizeof(L_21));
-		Vector3__ctor_m3698797211(&L_21, L_19, L_20, /*hidden argument*/NULL);
+		Vector3__ctor_m1846874791(&L_21, L_19, L_20, /*hidden argument*/NULL);
 		Color_t1588175760  L_22 = V_2;
-		Color32_t4137084207  L_23 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
+		Color32_t4137084207  L_23 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
 		float L_24 = (&V_1)->get_x_1();
 		float L_25 = (&V_1)->get_w_4();
 		Vector2_t3525329788  L_26;
 		memset(&L_26, 0, sizeof(L_26));
-		Vector2__ctor_m3369031450(&L_26, L_24, L_25, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_26, L_24, L_25, /*hidden argument*/NULL);
 		NullCheck(L_18);
 		VertexHelper_AddVert_m1490065189(L_18, L_21, L_23, L_26, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_27 = ___vh;
@@ -25365,14 +25365,14 @@ IL_002e:
 		float L_29 = (&V_0)->get_w_4();
 		Vector3_t3525329789  L_30;
 		memset(&L_30, 0, sizeof(L_30));
-		Vector3__ctor_m3698797211(&L_30, L_28, L_29, /*hidden argument*/NULL);
+		Vector3__ctor_m1846874791(&L_30, L_28, L_29, /*hidden argument*/NULL);
 		Color_t1588175760  L_31 = V_2;
-		Color32_t4137084207  L_32 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
+		Color32_t4137084207  L_32 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
 		float L_33 = (&V_1)->get_z_3();
 		float L_34 = (&V_1)->get_w_4();
 		Vector2_t3525329788  L_35;
 		memset(&L_35, 0, sizeof(L_35));
-		Vector2__ctor_m3369031450(&L_35, L_33, L_34, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_35, L_33, L_34, /*hidden argument*/NULL);
 		NullCheck(L_27);
 		VertexHelper_AddVert_m1490065189(L_27, L_30, L_32, L_35, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_36 = ___vh;
@@ -25380,14 +25380,14 @@ IL_002e:
 		float L_38 = (&V_0)->get_y_2();
 		Vector3_t3525329789  L_39;
 		memset(&L_39, 0, sizeof(L_39));
-		Vector3__ctor_m3698797211(&L_39, L_37, L_38, /*hidden argument*/NULL);
+		Vector3__ctor_m1846874791(&L_39, L_37, L_38, /*hidden argument*/NULL);
 		Color_t1588175760  L_40 = V_2;
-		Color32_t4137084207  L_41 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_40, /*hidden argument*/NULL);
+		Color32_t4137084207  L_41 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_40, /*hidden argument*/NULL);
 		float L_42 = (&V_1)->get_z_3();
 		float L_43 = (&V_1)->get_y_2();
 		Vector2_t3525329788  L_44;
 		memset(&L_44, 0, sizeof(L_44));
-		Vector2__ctor_m3369031450(&L_44, L_42, L_43, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_44, L_42, L_43, /*hidden argument*/NULL);
 		NullCheck(L_36);
 		VertexHelper_AddVert_m1490065189(L_36, L_39, L_41, L_44, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_45 = ___vh;
@@ -25441,7 +25441,7 @@ extern "C"  void Image_GenerateSlicedSprite_m4239922765 (Image_t3354615620 * __t
 IL_0014:
 	{
 		Sprite_t4006040370 * L_2 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		bool L_3 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_005a;
@@ -25449,30 +25449,30 @@ IL_0014:
 	}
 	{
 		Sprite_t4006040370 * L_4 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		Vector4_t3525329790  L_5 = DataUtility_GetOuterUV_m1082572690(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_5 = DataUtility_GetOuterUV_m2974486430(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
 		Sprite_t4006040370 * L_6 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		Vector4_t3525329790  L_7 = DataUtility_GetInnerUV_m3264038701(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_7 = DataUtility_GetInnerUV_m860985145(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		V_1 = L_7;
 		Sprite_t4006040370 * L_8 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		Vector4_t3525329790  L_9 = DataUtility_GetPadding_m1934628551(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_9 = DataUtility_GetPadding_m3826542291(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 		V_2 = L_9;
 		Sprite_t4006040370 * L_10 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		Vector4_t3525329790  L_11 = Sprite_get_border_m1356674614(L_10, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_11 = Sprite_get_border_m1562752938(L_10, /*hidden argument*/NULL);
 		V_3 = L_11;
 		goto IL_0072;
 	}
 
 IL_005a:
 	{
-		Vector4_t3525329790  L_12 = Vector4_get_zero_m3690452072(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_12 = Vector4_get_zero_m3835647092(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_12;
-		Vector4_t3525329790  L_13 = Vector4_get_zero_m3690452072(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_13 = Vector4_get_zero_m3835647092(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_1 = L_13;
-		Vector4_t3525329790  L_14 = Vector4_get_zero_m3690452072(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_14 = Vector4_get_zero_m3835647092(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_2 = L_14;
-		Vector4_t3525329790  L_15 = Vector4_get_zero_m3690452072(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_15 = Vector4_get_zero_m3835647092(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_3 = L_15;
 	}
 
@@ -25482,13 +25482,13 @@ IL_0072:
 		V_4 = L_16;
 		Vector4_t3525329790  L_17 = V_3;
 		float L_18 = Image_get_pixelsPerUnit_m2679127645(__this, /*hidden argument*/NULL);
-		Vector4_t3525329790  L_19 = Vector4_op_Division_m4205087079(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_19 = Vector4_op_Division_m3513381747(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
 		Rect_t1525428817  L_20 = V_4;
 		Vector4_t3525329790  L_21 = Image_GetAdjustedBorders_m3337288947(__this, L_19, L_20, /*hidden argument*/NULL);
 		V_3 = L_21;
 		Vector4_t3525329790  L_22 = V_2;
 		float L_23 = Image_get_pixelsPerUnit_m2679127645(__this, /*hidden argument*/NULL);
-		Vector4_t3525329790  L_24 = Vector4_op_Division_m4205087079(NULL /*static, unused*/, L_22, L_23, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_24 = Vector4_op_Division_m3513381747(NULL /*static, unused*/, L_22, L_23, /*hidden argument*/NULL);
 		V_2 = L_24;
 		IL2CPP_RUNTIME_CLASS_INIT(Image_t3354615620_il2cpp_TypeInfo_var);
 		Vector2U5BU5D_t2741383957* L_25 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_VertScratch_38();
@@ -25498,18 +25498,18 @@ IL_0072:
 		float L_27 = (&V_2)->get_y_2();
 		Vector2_t3525329788  L_28;
 		memset(&L_28, 0, sizeof(L_28));
-		Vector2__ctor_m3369031450(&L_28, L_26, L_27, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_28, L_26, L_27, /*hidden argument*/NULL);
 		(*(Vector2_t3525329788 *)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))) = L_28;
 		Vector2U5BU5D_t2741383957* L_29 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_VertScratch_38();
 		NullCheck(L_29);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_29, 3);
-		float L_30 = Rect_get_width_m2245507084((&V_4), /*hidden argument*/NULL);
+		float L_30 = Rect_get_width_m2824209432((&V_4), /*hidden argument*/NULL);
 		float L_31 = (&V_2)->get_z_3();
-		float L_32 = Rect_get_height_m1395057219((&V_4), /*hidden argument*/NULL);
+		float L_32 = Rect_get_height_m2154960823((&V_4), /*hidden argument*/NULL);
 		float L_33 = (&V_2)->get_w_4();
 		Vector2_t3525329788  L_34;
 		memset(&L_34, 0, sizeof(L_34));
-		Vector2__ctor_m3369031450(&L_34, ((float)((float)L_30-(float)L_31)), ((float)((float)L_32-(float)L_33)), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_34, ((float)((float)L_30-(float)L_31)), ((float)((float)L_32-(float)L_33)), /*hidden argument*/NULL);
 		(*(Vector2_t3525329788 *)((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(3)))) = L_34;
 		Vector2U5BU5D_t2741383957* L_35 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_VertScratch_38();
 		NullCheck(L_35);
@@ -25524,13 +25524,13 @@ IL_0072:
 		Vector2U5BU5D_t2741383957* L_39 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_VertScratch_38();
 		NullCheck(L_39);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_39, 2);
-		float L_40 = Rect_get_width_m2245507084((&V_4), /*hidden argument*/NULL);
+		float L_40 = Rect_get_width_m2824209432((&V_4), /*hidden argument*/NULL);
 		float L_41 = (&V_3)->get_z_3();
 		((L_39)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)))->set_x_1(((float)((float)L_40-(float)L_41)));
 		Vector2U5BU5D_t2741383957* L_42 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_VertScratch_38();
 		NullCheck(L_42);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_42, 2);
-		float L_43 = Rect_get_height_m1395057219((&V_4), /*hidden argument*/NULL);
+		float L_43 = Rect_get_height_m2154960823((&V_4), /*hidden argument*/NULL);
 		float L_44 = (&V_3)->get_w_4();
 		((L_42)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)))->set_y_2(((float)((float)L_43-(float)L_44)));
 		V_5 = 0;
@@ -25546,7 +25546,7 @@ IL_0166:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_45, L_46);
 		Vector2_t3525329788 * L_47 = ((L_45)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_46)));
 		float L_48 = L_47->get_x_1();
-		float L_49 = Rect_get_x_m2320486590((&V_4), /*hidden argument*/NULL);
+		float L_49 = Rect_get_x_m982385354((&V_4), /*hidden argument*/NULL);
 		L_47->set_x_1(((float)((float)L_48+(float)L_49)));
 		Vector2U5BU5D_t2741383957* L_50 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_VertScratch_38();
 		int32_t L_51 = V_5;
@@ -25554,7 +25554,7 @@ IL_0166:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_50, L_51);
 		Vector2_t3525329788 * L_52 = ((L_50)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_51)));
 		float L_53 = L_52->get_y_2();
-		float L_54 = Rect_get_y_m2320487551((&V_4), /*hidden argument*/NULL);
+		float L_54 = Rect_get_y_m982386315((&V_4), /*hidden argument*/NULL);
 		L_52->set_y_2(((float)((float)L_53+(float)L_54)));
 		int32_t L_55 = V_5;
 		V_5 = ((int32_t)((int32_t)L_55+(int32_t)1));
@@ -25577,7 +25577,7 @@ IL_01aa:
 		float L_59 = (&V_0)->get_y_2();
 		Vector2_t3525329788  L_60;
 		memset(&L_60, 0, sizeof(L_60));
-		Vector2__ctor_m3369031450(&L_60, L_58, L_59, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_60, L_58, L_59, /*hidden argument*/NULL);
 		(*(Vector2_t3525329788 *)((L_57)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))) = L_60;
 		Vector2U5BU5D_t2741383957* L_61 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_UVScratch_39();
 		NullCheck(L_61);
@@ -25586,7 +25586,7 @@ IL_01aa:
 		float L_63 = (&V_1)->get_y_2();
 		Vector2_t3525329788  L_64;
 		memset(&L_64, 0, sizeof(L_64));
-		Vector2__ctor_m3369031450(&L_64, L_62, L_63, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_64, L_62, L_63, /*hidden argument*/NULL);
 		(*(Vector2_t3525329788 *)((L_61)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))) = L_64;
 		Vector2U5BU5D_t2741383957* L_65 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_UVScratch_39();
 		NullCheck(L_65);
@@ -25595,7 +25595,7 @@ IL_01aa:
 		float L_67 = (&V_1)->get_w_4();
 		Vector2_t3525329788  L_68;
 		memset(&L_68, 0, sizeof(L_68));
-		Vector2__ctor_m3369031450(&L_68, L_66, L_67, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_68, L_66, L_67, /*hidden argument*/NULL);
 		(*(Vector2_t3525329788 *)((L_65)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)))) = L_68;
 		Vector2U5BU5D_t2741383957* L_69 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_UVScratch_39();
 		NullCheck(L_69);
@@ -25604,7 +25604,7 @@ IL_01aa:
 		float L_71 = (&V_0)->get_w_4();
 		Vector2_t3525329788  L_72;
 		memset(&L_72, 0, sizeof(L_72));
-		Vector2__ctor_m3369031450(&L_72, L_70, L_71, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_72, L_70, L_71, /*hidden argument*/NULL);
 		(*(Vector2_t3525329788 *)((L_69)->GetAddressAt(static_cast<il2cpp_array_size_t>(3)))) = L_72;
 		VertexHelper_t1471929499 * L_73 = ___toFill;
 		NullCheck(L_73);
@@ -25665,7 +25665,7 @@ IL_027a:
 		float L_85 = ((L_83)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_84)))->get_y_2();
 		Vector2_t3525329788  L_86;
 		memset(&L_86, 0, sizeof(L_86));
-		Vector2__ctor_m3369031450(&L_86, L_82, L_85, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_86, L_82, L_85, /*hidden argument*/NULL);
 		Vector2U5BU5D_t2741383957* L_87 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_VertScratch_38();
 		int32_t L_88 = V_7;
 		NullCheck(L_87);
@@ -25678,9 +25678,9 @@ IL_027a:
 		float L_92 = ((L_90)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_91)))->get_y_2();
 		Vector2_t3525329788  L_93;
 		memset(&L_93, 0, sizeof(L_93));
-		Vector2__ctor_m3369031450(&L_93, L_89, L_92, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_93, L_89, L_92, /*hidden argument*/NULL);
 		Color_t1588175760  L_94 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_95 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_94, /*hidden argument*/NULL);
+		Color32_t4137084207  L_95 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_94, /*hidden argument*/NULL);
 		Vector2U5BU5D_t2741383957* L_96 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_UVScratch_39();
 		int32_t L_97 = V_6;
 		NullCheck(L_96);
@@ -25693,7 +25693,7 @@ IL_027a:
 		float L_101 = ((L_99)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_100)))->get_y_2();
 		Vector2_t3525329788  L_102;
 		memset(&L_102, 0, sizeof(L_102));
-		Vector2__ctor_m3369031450(&L_102, L_98, L_101, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_102, L_98, L_101, /*hidden argument*/NULL);
 		Vector2U5BU5D_t2741383957* L_103 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_UVScratch_39();
 		int32_t L_104 = V_7;
 		NullCheck(L_103);
@@ -25706,7 +25706,7 @@ IL_027a:
 		float L_108 = ((L_106)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_107)))->get_y_2();
 		Vector2_t3525329788  L_109;
 		memset(&L_109, 0, sizeof(L_109));
-		Vector2__ctor_m3369031450(&L_109, L_105, L_108, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_109, L_105, L_108, /*hidden argument*/NULL);
 		Image_AddQuad_m2061170408(NULL /*static, unused*/, L_79, L_86, L_93, L_95, L_102, L_109, /*hidden argument*/NULL);
 	}
 
@@ -25789,7 +25789,7 @@ extern "C"  void Image_GenerateTiledSprite_m4269137945 (Image_t3354615620 * __th
 	memset(&V_23, 0, sizeof(V_23));
 	{
 		Sprite_t4006040370 * L_0 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_004f;
@@ -25797,34 +25797,34 @@ extern "C"  void Image_GenerateTiledSprite_m4269137945 (Image_t3354615620 * __th
 	}
 	{
 		Sprite_t4006040370 * L_2 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		Vector4_t3525329790  L_3 = DataUtility_GetOuterUV_m1082572690(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_3 = DataUtility_GetOuterUV_m2974486430(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
 		Sprite_t4006040370 * L_4 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		Vector4_t3525329790  L_5 = DataUtility_GetInnerUV_m3264038701(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_5 = DataUtility_GetInnerUV_m860985145(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		V_1 = L_5;
 		Sprite_t4006040370 * L_6 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		Vector4_t3525329790  L_7 = Sprite_get_border_m1356674614(L_6, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_7 = Sprite_get_border_m1562752938(L_6, /*hidden argument*/NULL);
 		V_2 = L_7;
 		Sprite_t4006040370 * L_8 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Rect_t1525428817  L_9 = Sprite_get_rect_m616976945(L_8, /*hidden argument*/NULL);
+		Rect_t1525428817  L_9 = Sprite_get_rect_m132626493(L_8, /*hidden argument*/NULL);
 		V_23 = L_9;
-		Vector2_t3525329788  L_10 = Rect_get_size_m2266442540((&V_23), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_10 = Rect_get_size_m136480416((&V_23), /*hidden argument*/NULL);
 		V_3 = L_10;
 		goto IL_0071;
 	}
 
 IL_004f:
 	{
-		Vector4_t3525329790  L_11 = Vector4_get_zero_m3690452072(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_11 = Vector4_get_zero_m3835647092(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_11;
-		Vector4_t3525329790  L_12 = Vector4_get_zero_m3690452072(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_12 = Vector4_get_zero_m3835647092(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_1 = L_12;
-		Vector4_t3525329790  L_13 = Vector4_get_zero_m3690452072(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_13 = Vector4_get_zero_m3835647092(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_2 = L_13;
-		Vector2_t3525329788  L_14 = Vector2_get_one_m961689804(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_15 = Vector2_op_Multiply_m2429950414(NULL /*static, unused*/, L_14, (100.0f), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_14 = Vector2_get_one_m2767488832(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_15 = Vector2_op_Multiply_m1738245082(NULL /*static, unused*/, L_14, (100.0f), /*hidden argument*/NULL);
 		V_3 = L_15;
 	}
 
@@ -25844,30 +25844,30 @@ IL_0071:
 		V_6 = ((float)((float)((float)((float)((float)((float)L_21-(float)L_22))-(float)L_23))/(float)L_24));
 		Vector4_t3525329790  L_25 = V_2;
 		float L_26 = Image_get_pixelsPerUnit_m2679127645(__this, /*hidden argument*/NULL);
-		Vector4_t3525329790  L_27 = Vector4_op_Division_m4205087079(NULL /*static, unused*/, L_25, L_26, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_27 = Vector4_op_Division_m3513381747(NULL /*static, unused*/, L_25, L_26, /*hidden argument*/NULL);
 		Rect_t1525428817  L_28 = V_4;
 		Vector4_t3525329790  L_29 = Image_GetAdjustedBorders_m3337288947(__this, L_27, L_28, /*hidden argument*/NULL);
 		V_2 = L_29;
 		float L_30 = (&V_1)->get_x_1();
 		float L_31 = (&V_1)->get_y_2();
-		Vector2__ctor_m3369031450((&V_7), L_30, L_31, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030((&V_7), L_30, L_31, /*hidden argument*/NULL);
 		float L_32 = (&V_1)->get_z_3();
 		float L_33 = (&V_1)->get_w_4();
-		Vector2__ctor_m3369031450((&V_8), L_32, L_33, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030((&V_8), L_32, L_33, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(UIVertex_t2260061605_il2cpp_TypeInfo_var);
 		UIVertex_t2260061605  L_34 = ((UIVertex_t2260061605_StaticFields*)UIVertex_t2260061605_il2cpp_TypeInfo_var->static_fields)->get_simpleVert_8();
 		V_9 = L_34;
 		Color_t1588175760  L_35 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_36 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
+		Color32_t4137084207  L_36 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
 		(&V_9)->set_color_2(L_36);
 		float L_37 = (&V_2)->get_x_1();
 		V_10 = L_37;
-		float L_38 = Rect_get_width_m2245507084((&V_4), /*hidden argument*/NULL);
+		float L_38 = Rect_get_width_m2824209432((&V_4), /*hidden argument*/NULL);
 		float L_39 = (&V_2)->get_z_3();
 		V_11 = ((float)((float)L_38-(float)L_39));
 		float L_40 = (&V_2)->get_y_2();
 		V_12 = L_40;
-		float L_41 = Rect_get_height_m1395057219((&V_4), /*hidden argument*/NULL);
+		float L_41 = Rect_get_height_m2154960823((&V_4), /*hidden argument*/NULL);
 		float L_42 = (&V_2)->get_w_4();
 		V_13 = ((float)((float)L_41-(float)L_42));
 		VertexHelper_t1471929499 * L_43 = ___toFill;
@@ -25981,18 +25981,18 @@ IL_021c:
 		float L_81 = V_15;
 		Vector2_t3525329788  L_82;
 		memset(&L_82, 0, sizeof(L_82));
-		Vector2__ctor_m3369031450(&L_82, L_80, L_81, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_83 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_84 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_82, L_83, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_82, L_80, L_81, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_83 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_84 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_82, L_83, /*hidden argument*/NULL);
 		float L_85 = V_18;
 		float L_86 = V_16;
 		Vector2_t3525329788  L_87;
 		memset(&L_87, 0, sizeof(L_87));
-		Vector2__ctor_m3369031450(&L_87, L_85, L_86, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_88 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_89 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_87, L_88, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_87, L_85, L_86, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_88 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_89 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_87, L_88, /*hidden argument*/NULL);
 		Color_t1588175760  L_90 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_91 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_90, /*hidden argument*/NULL);
+		Color32_t4137084207  L_91 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_90, /*hidden argument*/NULL);
 		Vector2_t3525329788  L_92 = V_7;
 		Vector2_t3525329788  L_93 = V_14;
 		IL2CPP_RUNTIME_CLASS_INIT(Image_t3354615620_il2cpp_TypeInfo_var);
@@ -26074,28 +26074,28 @@ IL_02d1:
 		float L_118 = V_19;
 		Vector2_t3525329788  L_119;
 		memset(&L_119, 0, sizeof(L_119));
-		Vector2__ctor_m3369031450(&L_119, (0.0f), L_118, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_120 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_121 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_119, L_120, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_119, (0.0f), L_118, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_120 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_121 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_119, L_120, /*hidden argument*/NULL);
 		float L_122 = V_10;
 		float L_123 = V_20;
 		Vector2_t3525329788  L_124;
 		memset(&L_124, 0, sizeof(L_124));
-		Vector2__ctor_m3369031450(&L_124, L_122, L_123, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_125 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_126 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_124, L_125, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_124, L_122, L_123, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_125 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_126 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_124, L_125, /*hidden argument*/NULL);
 		Color_t1588175760  L_127 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_128 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_127, /*hidden argument*/NULL);
+		Color32_t4137084207  L_128 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_127, /*hidden argument*/NULL);
 		float L_129 = (&V_0)->get_x_1();
 		float L_130 = (&V_7)->get_y_2();
 		Vector2_t3525329788  L_131;
 		memset(&L_131, 0, sizeof(L_131));
-		Vector2__ctor_m3369031450(&L_131, L_129, L_130, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_131, L_129, L_130, /*hidden argument*/NULL);
 		float L_132 = (&V_7)->get_x_1();
 		float L_133 = (&V_14)->get_y_2();
 		Vector2_t3525329788  L_134;
 		memset(&L_134, 0, sizeof(L_134));
-		Vector2__ctor_m3369031450(&L_134, L_132, L_133, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_134, L_132, L_133, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Image_t3354615620_il2cpp_TypeInfo_var);
 		Image_AddQuad_m2061170408(NULL /*static, unused*/, L_117, L_121, L_126, L_128, L_131, L_134, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_135 = ___toFill;
@@ -26103,28 +26103,28 @@ IL_02d1:
 		float L_137 = V_19;
 		Vector2_t3525329788  L_138;
 		memset(&L_138, 0, sizeof(L_138));
-		Vector2__ctor_m3369031450(&L_138, L_136, L_137, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_139 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_140 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_138, L_139, /*hidden argument*/NULL);
-		float L_141 = Rect_get_width_m2245507084((&V_4), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_138, L_136, L_137, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_139 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_140 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_138, L_139, /*hidden argument*/NULL);
+		float L_141 = Rect_get_width_m2824209432((&V_4), /*hidden argument*/NULL);
 		float L_142 = V_20;
 		Vector2_t3525329788  L_143;
 		memset(&L_143, 0, sizeof(L_143));
-		Vector2__ctor_m3369031450(&L_143, L_141, L_142, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_144 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_145 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_143, L_144, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_143, L_141, L_142, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_144 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_145 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_143, L_144, /*hidden argument*/NULL);
 		Color_t1588175760  L_146 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_147 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_146, /*hidden argument*/NULL);
+		Color32_t4137084207  L_147 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_146, /*hidden argument*/NULL);
 		float L_148 = (&V_8)->get_x_1();
 		float L_149 = (&V_7)->get_y_2();
 		Vector2_t3525329788  L_150;
 		memset(&L_150, 0, sizeof(L_150));
-		Vector2__ctor_m3369031450(&L_150, L_148, L_149, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_150, L_148, L_149, /*hidden argument*/NULL);
 		float L_151 = (&V_0)->get_z_3();
 		float L_152 = (&V_14)->get_y_2();
 		Vector2_t3525329788  L_153;
 		memset(&L_153, 0, sizeof(L_153));
-		Vector2__ctor_m3369031450(&L_153, L_151, L_152, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_153, L_151, L_152, /*hidden argument*/NULL);
 		Image_AddQuad_m2061170408(NULL /*static, unused*/, L_135, L_140, L_145, L_147, L_150, L_153, /*hidden argument*/NULL);
 		float L_154 = V_19;
 		float L_155 = V_6;
@@ -26179,28 +26179,28 @@ IL_03f6:
 		float L_173 = V_21;
 		Vector2_t3525329788  L_174;
 		memset(&L_174, 0, sizeof(L_174));
-		Vector2__ctor_m3369031450(&L_174, L_173, (0.0f), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_175 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_176 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_174, L_175, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_174, L_173, (0.0f), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_175 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_176 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_174, L_175, /*hidden argument*/NULL);
 		float L_177 = V_22;
 		float L_178 = V_12;
 		Vector2_t3525329788  L_179;
 		memset(&L_179, 0, sizeof(L_179));
-		Vector2__ctor_m3369031450(&L_179, L_177, L_178, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_180 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_181 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_179, L_180, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_179, L_177, L_178, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_180 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_181 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_179, L_180, /*hidden argument*/NULL);
 		Color_t1588175760  L_182 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_183 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_182, /*hidden argument*/NULL);
+		Color32_t4137084207  L_183 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_182, /*hidden argument*/NULL);
 		float L_184 = (&V_7)->get_x_1();
 		float L_185 = (&V_0)->get_y_2();
 		Vector2_t3525329788  L_186;
 		memset(&L_186, 0, sizeof(L_186));
-		Vector2__ctor_m3369031450(&L_186, L_184, L_185, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_186, L_184, L_185, /*hidden argument*/NULL);
 		float L_187 = (&V_14)->get_x_1();
 		float L_188 = (&V_7)->get_y_2();
 		Vector2_t3525329788  L_189;
 		memset(&L_189, 0, sizeof(L_189));
-		Vector2__ctor_m3369031450(&L_189, L_187, L_188, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_189, L_187, L_188, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Image_t3354615620_il2cpp_TypeInfo_var);
 		Image_AddQuad_m2061170408(NULL /*static, unused*/, L_172, L_176, L_181, L_183, L_186, L_189, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_190 = ___toFill;
@@ -26208,28 +26208,28 @@ IL_03f6:
 		float L_192 = V_13;
 		Vector2_t3525329788  L_193;
 		memset(&L_193, 0, sizeof(L_193));
-		Vector2__ctor_m3369031450(&L_193, L_191, L_192, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_194 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_195 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_193, L_194, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_193, L_191, L_192, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_194 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_195 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_193, L_194, /*hidden argument*/NULL);
 		float L_196 = V_22;
-		float L_197 = Rect_get_height_m1395057219((&V_4), /*hidden argument*/NULL);
+		float L_197 = Rect_get_height_m2154960823((&V_4), /*hidden argument*/NULL);
 		Vector2_t3525329788  L_198;
 		memset(&L_198, 0, sizeof(L_198));
-		Vector2__ctor_m3369031450(&L_198, L_196, L_197, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_199 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_200 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_198, L_199, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_198, L_196, L_197, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_199 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_200 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_198, L_199, /*hidden argument*/NULL);
 		Color_t1588175760  L_201 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_202 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_201, /*hidden argument*/NULL);
+		Color32_t4137084207  L_202 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_201, /*hidden argument*/NULL);
 		float L_203 = (&V_7)->get_x_1();
 		float L_204 = (&V_8)->get_y_2();
 		Vector2_t3525329788  L_205;
 		memset(&L_205, 0, sizeof(L_205));
-		Vector2__ctor_m3369031450(&L_205, L_203, L_204, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_205, L_203, L_204, /*hidden argument*/NULL);
 		float L_206 = (&V_14)->get_x_1();
 		float L_207 = (&V_0)->get_w_4();
 		Vector2_t3525329788  L_208;
 		memset(&L_208, 0, sizeof(L_208));
-		Vector2__ctor_m3369031450(&L_208, L_206, L_207, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_208, L_206, L_207, /*hidden argument*/NULL);
 		Image_AddQuad_m2061170408(NULL /*static, unused*/, L_190, L_195, L_200, L_202, L_205, L_208, /*hidden argument*/NULL);
 		float L_209 = V_21;
 		float L_210 = V_5;
@@ -26249,111 +26249,111 @@ IL_04c7:
 		VertexHelper_t1471929499 * L_213 = ___toFill;
 		Vector2_t3525329788  L_214;
 		memset(&L_214, 0, sizeof(L_214));
-		Vector2__ctor_m3369031450(&L_214, (0.0f), (0.0f), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_215 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_216 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_214, L_215, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_214, (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_215 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_216 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_214, L_215, /*hidden argument*/NULL);
 		float L_217 = V_10;
 		float L_218 = V_12;
 		Vector2_t3525329788  L_219;
 		memset(&L_219, 0, sizeof(L_219));
-		Vector2__ctor_m3369031450(&L_219, L_217, L_218, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_220 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_221 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_219, L_220, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_219, L_217, L_218, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_220 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_221 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_219, L_220, /*hidden argument*/NULL);
 		Color_t1588175760  L_222 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_223 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_222, /*hidden argument*/NULL);
+		Color32_t4137084207  L_223 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_222, /*hidden argument*/NULL);
 		float L_224 = (&V_0)->get_x_1();
 		float L_225 = (&V_0)->get_y_2();
 		Vector2_t3525329788  L_226;
 		memset(&L_226, 0, sizeof(L_226));
-		Vector2__ctor_m3369031450(&L_226, L_224, L_225, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_226, L_224, L_225, /*hidden argument*/NULL);
 		float L_227 = (&V_7)->get_x_1();
 		float L_228 = (&V_7)->get_y_2();
 		Vector2_t3525329788  L_229;
 		memset(&L_229, 0, sizeof(L_229));
-		Vector2__ctor_m3369031450(&L_229, L_227, L_228, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_229, L_227, L_228, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Image_t3354615620_il2cpp_TypeInfo_var);
 		Image_AddQuad_m2061170408(NULL /*static, unused*/, L_213, L_216, L_221, L_223, L_226, L_229, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_230 = ___toFill;
 		float L_231 = V_11;
 		Vector2_t3525329788  L_232;
 		memset(&L_232, 0, sizeof(L_232));
-		Vector2__ctor_m3369031450(&L_232, L_231, (0.0f), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_233 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_234 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_232, L_233, /*hidden argument*/NULL);
-		float L_235 = Rect_get_width_m2245507084((&V_4), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_232, L_231, (0.0f), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_233 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_234 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_232, L_233, /*hidden argument*/NULL);
+		float L_235 = Rect_get_width_m2824209432((&V_4), /*hidden argument*/NULL);
 		float L_236 = V_12;
 		Vector2_t3525329788  L_237;
 		memset(&L_237, 0, sizeof(L_237));
-		Vector2__ctor_m3369031450(&L_237, L_235, L_236, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_238 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_239 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_237, L_238, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_237, L_235, L_236, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_238 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_239 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_237, L_238, /*hidden argument*/NULL);
 		Color_t1588175760  L_240 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_241 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_240, /*hidden argument*/NULL);
+		Color32_t4137084207  L_241 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_240, /*hidden argument*/NULL);
 		float L_242 = (&V_8)->get_x_1();
 		float L_243 = (&V_0)->get_y_2();
 		Vector2_t3525329788  L_244;
 		memset(&L_244, 0, sizeof(L_244));
-		Vector2__ctor_m3369031450(&L_244, L_242, L_243, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_244, L_242, L_243, /*hidden argument*/NULL);
 		float L_245 = (&V_0)->get_z_3();
 		float L_246 = (&V_7)->get_y_2();
 		Vector2_t3525329788  L_247;
 		memset(&L_247, 0, sizeof(L_247));
-		Vector2__ctor_m3369031450(&L_247, L_245, L_246, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_247, L_245, L_246, /*hidden argument*/NULL);
 		Image_AddQuad_m2061170408(NULL /*static, unused*/, L_230, L_234, L_239, L_241, L_244, L_247, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_248 = ___toFill;
 		float L_249 = V_13;
 		Vector2_t3525329788  L_250;
 		memset(&L_250, 0, sizeof(L_250));
-		Vector2__ctor_m3369031450(&L_250, (0.0f), L_249, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_251 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_252 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_250, L_251, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_250, (0.0f), L_249, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_251 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_252 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_250, L_251, /*hidden argument*/NULL);
 		float L_253 = V_10;
-		float L_254 = Rect_get_height_m1395057219((&V_4), /*hidden argument*/NULL);
+		float L_254 = Rect_get_height_m2154960823((&V_4), /*hidden argument*/NULL);
 		Vector2_t3525329788  L_255;
 		memset(&L_255, 0, sizeof(L_255));
-		Vector2__ctor_m3369031450(&L_255, L_253, L_254, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_256 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_257 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_255, L_256, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_255, L_253, L_254, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_256 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_257 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_255, L_256, /*hidden argument*/NULL);
 		Color_t1588175760  L_258 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_259 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_258, /*hidden argument*/NULL);
+		Color32_t4137084207  L_259 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_258, /*hidden argument*/NULL);
 		float L_260 = (&V_0)->get_x_1();
 		float L_261 = (&V_8)->get_y_2();
 		Vector2_t3525329788  L_262;
 		memset(&L_262, 0, sizeof(L_262));
-		Vector2__ctor_m3369031450(&L_262, L_260, L_261, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_262, L_260, L_261, /*hidden argument*/NULL);
 		float L_263 = (&V_7)->get_x_1();
 		float L_264 = (&V_0)->get_w_4();
 		Vector2_t3525329788  L_265;
 		memset(&L_265, 0, sizeof(L_265));
-		Vector2__ctor_m3369031450(&L_265, L_263, L_264, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_265, L_263, L_264, /*hidden argument*/NULL);
 		Image_AddQuad_m2061170408(NULL /*static, unused*/, L_248, L_252, L_257, L_259, L_262, L_265, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_266 = ___toFill;
 		float L_267 = V_11;
 		float L_268 = V_13;
 		Vector2_t3525329788  L_269;
 		memset(&L_269, 0, sizeof(L_269));
-		Vector2__ctor_m3369031450(&L_269, L_267, L_268, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_270 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_271 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_269, L_270, /*hidden argument*/NULL);
-		float L_272 = Rect_get_width_m2245507084((&V_4), /*hidden argument*/NULL);
-		float L_273 = Rect_get_height_m1395057219((&V_4), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_269, L_267, L_268, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_270 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_271 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_269, L_270, /*hidden argument*/NULL);
+		float L_272 = Rect_get_width_m2824209432((&V_4), /*hidden argument*/NULL);
+		float L_273 = Rect_get_height_m2154960823((&V_4), /*hidden argument*/NULL);
 		Vector2_t3525329788  L_274;
 		memset(&L_274, 0, sizeof(L_274));
-		Vector2__ctor_m3369031450(&L_274, L_272, L_273, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_275 = Rect_get_position_m2727277908((&V_4), /*hidden argument*/NULL);
-		Vector2_t3525329788  L_276 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_274, L_275, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_274, L_272, L_273, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_275 = Rect_get_position_m2933356232((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_276 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_274, L_275, /*hidden argument*/NULL);
 		Color_t1588175760  L_277 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_278 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_277, /*hidden argument*/NULL);
+		Color32_t4137084207  L_278 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_277, /*hidden argument*/NULL);
 		float L_279 = (&V_8)->get_x_1();
 		float L_280 = (&V_8)->get_y_2();
 		Vector2_t3525329788  L_281;
 		memset(&L_281, 0, sizeof(L_281));
-		Vector2__ctor_m3369031450(&L_281, L_279, L_280, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_281, L_279, L_280, /*hidden argument*/NULL);
 		float L_282 = (&V_0)->get_z_3();
 		float L_283 = (&V_0)->get_w_4();
 		Vector2_t3525329788  L_284;
 		memset(&L_284, 0, sizeof(L_284));
-		Vector2__ctor_m3369031450(&L_284, L_282, L_283, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_284, L_282, L_283, /*hidden argument*/NULL);
 		Image_AddQuad_m2061170408(NULL /*static, unused*/, L_266, L_271, L_276, L_278, L_281, L_284, /*hidden argument*/NULL);
 	}
 
@@ -26388,7 +26388,7 @@ IL_000e:
 		int32_t L_7 = V_1;
 		NullCheck(L_6);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, L_7);
-		Vector2_t3525329788  L_8 = Vector2_op_Implicit_m2869958055(NULL /*static, unused*/, (*(Vector3_t3525329789 *)((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_7)))), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_8 = Vector2_op_Implicit_m4083860659(NULL /*static, unused*/, (*(Vector3_t3525329789 *)((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_7)))), /*hidden argument*/NULL);
 		NullCheck(L_2);
 		VertexHelper_AddVert_m1490065189(L_2, (*(Vector3_t3525329789 *)((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)))), L_5, L_8, /*hidden argument*/NULL);
 		int32_t L_9 = V_1;
@@ -26433,13 +26433,13 @@ extern "C"  void Image_AddQuad_m2061170408 (Il2CppObject * __this /* static, unu
 		float L_4 = (&___posMin)->get_y_2();
 		Vector3_t3525329789  L_5;
 		memset(&L_5, 0, sizeof(L_5));
-		Vector3__ctor_m2767817280(&L_5, L_3, L_4, (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380(&L_5, L_3, L_4, (0.0f), /*hidden argument*/NULL);
 		Color32_t4137084207  L_6 = ___color;
 		float L_7 = (&___uvMin)->get_x_1();
 		float L_8 = (&___uvMin)->get_y_2();
 		Vector2_t3525329788  L_9;
 		memset(&L_9, 0, sizeof(L_9));
-		Vector2__ctor_m3369031450(&L_9, L_7, L_8, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_9, L_7, L_8, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		VertexHelper_AddVert_m1490065189(L_2, L_5, L_6, L_9, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_10 = ___vertexHelper;
@@ -26447,13 +26447,13 @@ extern "C"  void Image_AddQuad_m2061170408 (Il2CppObject * __this /* static, unu
 		float L_12 = (&___posMax)->get_y_2();
 		Vector3_t3525329789  L_13;
 		memset(&L_13, 0, sizeof(L_13));
-		Vector3__ctor_m2767817280(&L_13, L_11, L_12, (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380(&L_13, L_11, L_12, (0.0f), /*hidden argument*/NULL);
 		Color32_t4137084207  L_14 = ___color;
 		float L_15 = (&___uvMin)->get_x_1();
 		float L_16 = (&___uvMax)->get_y_2();
 		Vector2_t3525329788  L_17;
 		memset(&L_17, 0, sizeof(L_17));
-		Vector2__ctor_m3369031450(&L_17, L_15, L_16, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_17, L_15, L_16, /*hidden argument*/NULL);
 		NullCheck(L_10);
 		VertexHelper_AddVert_m1490065189(L_10, L_13, L_14, L_17, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_18 = ___vertexHelper;
@@ -26461,13 +26461,13 @@ extern "C"  void Image_AddQuad_m2061170408 (Il2CppObject * __this /* static, unu
 		float L_20 = (&___posMax)->get_y_2();
 		Vector3_t3525329789  L_21;
 		memset(&L_21, 0, sizeof(L_21));
-		Vector3__ctor_m2767817280(&L_21, L_19, L_20, (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380(&L_21, L_19, L_20, (0.0f), /*hidden argument*/NULL);
 		Color32_t4137084207  L_22 = ___color;
 		float L_23 = (&___uvMax)->get_x_1();
 		float L_24 = (&___uvMax)->get_y_2();
 		Vector2_t3525329788  L_25;
 		memset(&L_25, 0, sizeof(L_25));
-		Vector2__ctor_m3369031450(&L_25, L_23, L_24, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_25, L_23, L_24, /*hidden argument*/NULL);
 		NullCheck(L_18);
 		VertexHelper_AddVert_m1490065189(L_18, L_21, L_22, L_25, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_26 = ___vertexHelper;
@@ -26475,13 +26475,13 @@ extern "C"  void Image_AddQuad_m2061170408 (Il2CppObject * __this /* static, unu
 		float L_28 = (&___posMin)->get_y_2();
 		Vector3_t3525329789  L_29;
 		memset(&L_29, 0, sizeof(L_29));
-		Vector3__ctor_m2767817280(&L_29, L_27, L_28, (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380(&L_29, L_27, L_28, (0.0f), /*hidden argument*/NULL);
 		Color32_t4137084207  L_30 = ___color;
 		float L_31 = (&___uvMax)->get_x_1();
 		float L_32 = (&___uvMin)->get_y_2();
 		Vector2_t3525329788  L_33;
 		memset(&L_33, 0, sizeof(L_33));
-		Vector2__ctor_m3369031450(&L_33, L_31, L_32, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_33, L_31, L_32, /*hidden argument*/NULL);
 		NullCheck(L_26);
 		VertexHelper_AddVert_m1490065189(L_26, L_29, L_30, L_33, /*hidden argument*/NULL);
 		VertexHelper_t1471929499 * L_34 = ___vertexHelper;
@@ -26521,14 +26521,14 @@ extern "C"  Vector4_t3525329790  Image_GetAdjustedBorders_m3337288947 (Image_t33
 IL_0007:
 	{
 		int32_t L_0 = V_0;
-		float L_1 = Vector4_get_Item_m1121128369((&___border), L_0, /*hidden argument*/NULL);
+		float L_1 = Vector4_get_Item_m2326091453((&___border), L_0, /*hidden argument*/NULL);
 		int32_t L_2 = V_0;
-		float L_3 = Vector4_get_Item_m1121128369((&___border), ((int32_t)((int32_t)L_2+(int32_t)2)), /*hidden argument*/NULL);
+		float L_3 = Vector4_get_Item_m2326091453((&___border), ((int32_t)((int32_t)L_2+(int32_t)2)), /*hidden argument*/NULL);
 		V_1 = ((float)((float)L_1+(float)L_3));
-		Vector2_t3525329788  L_4 = Rect_get_size_m2266442540((&___rect), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_4 = Rect_get_size_m136480416((&___rect), /*hidden argument*/NULL);
 		V_3 = L_4;
 		int32_t L_5 = V_0;
-		float L_6 = Vector2_get_Item_m980579759((&V_3), L_5, /*hidden argument*/NULL);
+		float L_6 = Vector2_get_Item_m2185542843((&V_3), L_5, /*hidden argument*/NULL);
 		float L_7 = V_1;
 		if ((!(((float)L_6) < ((float)L_7))))
 		{
@@ -26543,10 +26543,10 @@ IL_0007:
 		}
 	}
 	{
-		Vector2_t3525329788  L_9 = Rect_get_size_m2266442540((&___rect), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_9 = Rect_get_size_m136480416((&___rect), /*hidden argument*/NULL);
 		V_4 = L_9;
 		int32_t L_10 = V_0;
-		float L_11 = Vector2_get_Item_m980579759((&V_4), L_10, /*hidden argument*/NULL);
+		float L_11 = Vector2_get_Item_m2185542843((&V_4), L_10, /*hidden argument*/NULL);
 		float L_12 = V_1;
 		V_2 = ((float)((float)L_11/(float)L_12));
 		Vector4_t3525329790 * L_13 = (&___border);
@@ -26556,11 +26556,11 @@ IL_0007:
 		V_6 = L_15;
 		Vector4_t3525329790 * L_16 = V_5;
 		int32_t L_17 = V_6;
-		float L_18 = Vector4_get_Item_m1121128369(L_16, L_17, /*hidden argument*/NULL);
+		float L_18 = Vector4_get_Item_m2326091453(L_16, L_17, /*hidden argument*/NULL);
 		V_7 = L_18;
 		float L_19 = V_7;
 		float L_20 = V_2;
-		Vector4_set_Item_m2503137238(L_13, L_15, ((float)((float)L_19*(float)L_20)), /*hidden argument*/NULL);
+		Vector4_set_Item_m922152162(L_13, L_15, ((float)((float)L_19*(float)L_20)), /*hidden argument*/NULL);
 		Vector4_t3525329790 * L_21 = (&___border);
 		V_8 = (Vector4_t3525329790 *)L_21;
 		int32_t L_22 = V_0;
@@ -26568,11 +26568,11 @@ IL_0007:
 		V_6 = L_23;
 		Vector4_t3525329790 * L_24 = V_8;
 		int32_t L_25 = V_6;
-		float L_26 = Vector4_get_Item_m1121128369(L_24, L_25, /*hidden argument*/NULL);
+		float L_26 = Vector4_get_Item_m2326091453(L_24, L_25, /*hidden argument*/NULL);
 		V_7 = L_26;
 		float L_27 = V_7;
 		float L_28 = V_2;
-		Vector4_set_Item_m2503137238(L_21, L_23, ((float)((float)L_27*(float)L_28)), /*hidden argument*/NULL);
+		Vector4_set_Item_m922152162(L_21, L_23, ((float)((float)L_27*(float)L_28)), /*hidden argument*/NULL);
 	}
 
 IL_008c:
@@ -26657,7 +26657,7 @@ IL_0017:
 		Vector4_t3525329790  L_3 = Image_GetDrawingDimensions_m755640489(__this, L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
 		Sprite_t4006040370 * L_4 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		bool L_5 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_4, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_5 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_4, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_0040;
@@ -26665,14 +26665,14 @@ IL_0017:
 	}
 	{
 		Sprite_t4006040370 * L_6 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		Vector4_t3525329790  L_7 = DataUtility_GetOuterUV_m1082572690(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_7 = DataUtility_GetOuterUV_m2974486430(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		G_B5_0 = L_7;
 		goto IL_0045;
 	}
 
 IL_0040:
 	{
-		Vector4_t3525329790  L_8 = Vector4_get_zero_m3690452072(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_8 = Vector4_get_zero_m3835647092(NULL /*static, unused*/, /*hidden argument*/NULL);
 		G_B5_0 = L_8;
 	}
 
@@ -26683,7 +26683,7 @@ IL_0045:
 		UIVertex_t2260061605  L_9 = ((UIVertex_t2260061605_StaticFields*)UIVertex_t2260061605_il2cpp_TypeInfo_var->static_fields)->get_simpleVert_8();
 		V_2 = L_9;
 		Color_t1588175760  L_10 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_11 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		Color32_t4137084207  L_11 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 		(&V_2)->set_color_2(L_11);
 		float L_12 = (&V_1)->get_x_1();
 		V_3 = L_12;
@@ -26808,8 +26808,8 @@ IL_019f:
 		float L_54 = (&V_0)->get_y_2();
 		Vector2_t3525329788  L_55;
 		memset(&L_55, 0, sizeof(L_55));
-		Vector2__ctor_m3369031450(&L_55, L_53, L_54, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_56 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_55, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_55, L_53, L_54, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_56 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_55, /*hidden argument*/NULL);
 		(*(Vector3_t3525329789 *)((L_52)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))) = L_56;
 		Vector3U5BU5D_t3227571696* L_57 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Xy_40();
 		NullCheck(L_57);
@@ -26818,8 +26818,8 @@ IL_019f:
 		float L_59 = (&V_0)->get_w_4();
 		Vector2_t3525329788  L_60;
 		memset(&L_60, 0, sizeof(L_60));
-		Vector2__ctor_m3369031450(&L_60, L_58, L_59, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_61 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_60, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_60, L_58, L_59, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_61 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_60, /*hidden argument*/NULL);
 		(*(Vector3_t3525329789 *)((L_57)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))) = L_61;
 		Vector3U5BU5D_t3227571696* L_62 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Xy_40();
 		NullCheck(L_62);
@@ -26828,8 +26828,8 @@ IL_019f:
 		float L_64 = (&V_0)->get_w_4();
 		Vector2_t3525329788  L_65;
 		memset(&L_65, 0, sizeof(L_65));
-		Vector2__ctor_m3369031450(&L_65, L_63, L_64, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_66 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_65, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_65, L_63, L_64, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_66 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_65, /*hidden argument*/NULL);
 		(*(Vector3_t3525329789 *)((L_62)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)))) = L_66;
 		Vector3U5BU5D_t3227571696* L_67 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Xy_40();
 		NullCheck(L_67);
@@ -26838,8 +26838,8 @@ IL_019f:
 		float L_69 = (&V_0)->get_y_2();
 		Vector2_t3525329788  L_70;
 		memset(&L_70, 0, sizeof(L_70));
-		Vector2__ctor_m3369031450(&L_70, L_68, L_69, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_71 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_70, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_70, L_68, L_69, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_71 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_70, /*hidden argument*/NULL);
 		(*(Vector3_t3525329789 *)((L_67)->GetAddressAt(static_cast<il2cpp_array_size_t>(3)))) = L_71;
 		Vector3U5BU5D_t3227571696* L_72 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		NullCheck(L_72);
@@ -26848,8 +26848,8 @@ IL_019f:
 		float L_74 = V_4;
 		Vector2_t3525329788  L_75;
 		memset(&L_75, 0, sizeof(L_75));
-		Vector2__ctor_m3369031450(&L_75, L_73, L_74, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_76 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_75, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_75, L_73, L_74, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_76 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_75, /*hidden argument*/NULL);
 		(*(Vector3_t3525329789 *)((L_72)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))) = L_76;
 		Vector3U5BU5D_t3227571696* L_77 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		NullCheck(L_77);
@@ -26858,8 +26858,8 @@ IL_019f:
 		float L_79 = V_6;
 		Vector2_t3525329788  L_80;
 		memset(&L_80, 0, sizeof(L_80));
-		Vector2__ctor_m3369031450(&L_80, L_78, L_79, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_81 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_80, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_80, L_78, L_79, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_81 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_80, /*hidden argument*/NULL);
 		(*(Vector3_t3525329789 *)((L_77)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))) = L_81;
 		Vector3U5BU5D_t3227571696* L_82 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		NullCheck(L_82);
@@ -26868,8 +26868,8 @@ IL_019f:
 		float L_84 = V_6;
 		Vector2_t3525329788  L_85;
 		memset(&L_85, 0, sizeof(L_85));
-		Vector2__ctor_m3369031450(&L_85, L_83, L_84, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_86 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_85, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_85, L_83, L_84, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_86 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_85, /*hidden argument*/NULL);
 		(*(Vector3_t3525329789 *)((L_82)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)))) = L_86;
 		Vector3U5BU5D_t3227571696* L_87 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		NullCheck(L_87);
@@ -26878,8 +26878,8 @@ IL_019f:
 		float L_89 = V_4;
 		Vector2_t3525329788  L_90;
 		memset(&L_90, 0, sizeof(L_90));
-		Vector2__ctor_m3369031450(&L_90, L_88, L_89, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_91 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_90, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_90, L_88, L_89, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_91 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_90, /*hidden argument*/NULL);
 		(*(Vector3_t3525329789 *)((L_87)->GetAddressAt(static_cast<il2cpp_array_size_t>(3)))) = L_91;
 		float L_92 = __this->get_m_FillAmount_34();
 		if ((!(((float)L_92) < ((float)(1.0f)))))
@@ -26926,7 +26926,7 @@ IL_019f:
 		IL2CPP_RUNTIME_CLASS_INIT(Image_t3354615620_il2cpp_TypeInfo_var);
 		Vector3U5BU5D_t3227571696* L_103 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Xy_40();
 		Color_t1588175760  L_104 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_105 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_104, /*hidden argument*/NULL);
+		Color32_t4137084207  L_105 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_104, /*hidden argument*/NULL);
 		Vector3U5BU5D_t3227571696* L_106 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		Image_AddQuad_m3277178(NULL /*static, unused*/, L_102, L_103, L_105, L_106, /*hidden argument*/NULL);
 	}
@@ -27045,7 +27045,7 @@ IL_03e3:
 		float L_117 = (&V_0)->get_z_3();
 		float L_118 = V_10;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_119 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_116, L_117, L_118, /*hidden argument*/NULL);
+		float L_119 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_116, L_117, L_118, /*hidden argument*/NULL);
 		((L_115)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->set_x_1(L_119);
 		Vector3U5BU5D_t3227571696* L_120 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Xy_40();
 		NullCheck(L_120);
@@ -27061,7 +27061,7 @@ IL_03e3:
 		float L_124 = (&V_0)->get_x_1();
 		float L_125 = (&V_0)->get_z_3();
 		float L_126 = V_11;
-		float L_127 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_124, L_125, L_126, /*hidden argument*/NULL);
+		float L_127 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_124, L_125, L_126, /*hidden argument*/NULL);
 		((L_123)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)))->set_x_1(L_127);
 		Vector3U5BU5D_t3227571696* L_128 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Xy_40();
 		NullCheck(L_128);
@@ -27077,7 +27077,7 @@ IL_03e3:
 		float L_132 = (&V_0)->get_y_2();
 		float L_133 = (&V_0)->get_w_4();
 		float L_134 = V_12;
-		float L_135 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_132, L_133, L_134, /*hidden argument*/NULL);
+		float L_135 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_132, L_133, L_134, /*hidden argument*/NULL);
 		((L_131)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->set_y_2(L_135);
 		Vector3U5BU5D_t3227571696* L_136 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Xy_40();
 		NullCheck(L_136);
@@ -27085,7 +27085,7 @@ IL_03e3:
 		float L_137 = (&V_0)->get_y_2();
 		float L_138 = (&V_0)->get_w_4();
 		float L_139 = V_13;
-		float L_140 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_137, L_138, L_139, /*hidden argument*/NULL);
+		float L_140 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_137, L_138, L_139, /*hidden argument*/NULL);
 		((L_136)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))->set_y_2(L_140);
 		Vector3U5BU5D_t3227571696* L_141 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Xy_40();
 		NullCheck(L_141);
@@ -27109,7 +27109,7 @@ IL_03e3:
 		float L_148 = V_3;
 		float L_149 = V_5;
 		float L_150 = V_10;
-		float L_151 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_148, L_149, L_150, /*hidden argument*/NULL);
+		float L_151 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_148, L_149, L_150, /*hidden argument*/NULL);
 		((L_147)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->set_x_1(L_151);
 		Vector3U5BU5D_t3227571696* L_152 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		NullCheck(L_152);
@@ -27125,7 +27125,7 @@ IL_03e3:
 		float L_156 = V_3;
 		float L_157 = V_5;
 		float L_158 = V_11;
-		float L_159 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_156, L_157, L_158, /*hidden argument*/NULL);
+		float L_159 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_156, L_157, L_158, /*hidden argument*/NULL);
 		((L_155)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)))->set_x_1(L_159);
 		Vector3U5BU5D_t3227571696* L_160 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		NullCheck(L_160);
@@ -27141,7 +27141,7 @@ IL_03e3:
 		float L_164 = V_4;
 		float L_165 = V_6;
 		float L_166 = V_12;
-		float L_167 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_164, L_165, L_166, /*hidden argument*/NULL);
+		float L_167 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_164, L_165, L_166, /*hidden argument*/NULL);
 		((L_163)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->set_y_2(L_167);
 		Vector3U5BU5D_t3227571696* L_168 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		NullCheck(L_168);
@@ -27149,7 +27149,7 @@ IL_03e3:
 		float L_169 = V_4;
 		float L_170 = V_6;
 		float L_171 = V_13;
-		float L_172 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_169, L_170, L_171, /*hidden argument*/NULL);
+		float L_172 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_169, L_170, L_171, /*hidden argument*/NULL);
 		((L_168)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))->set_y_2(L_172);
 		Vector3U5BU5D_t3227571696* L_173 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		NullCheck(L_173);
@@ -27195,7 +27195,7 @@ IL_0613:
 		Vector3U5BU5D_t3227571696* L_185 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		float L_186 = V_15;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_187 = Mathf_Clamp01_m501649630(NULL /*static, unused*/, L_186, /*hidden argument*/NULL);
+		float L_187 = Mathf_Clamp01_m2272733930(NULL /*static, unused*/, L_186, /*hidden argument*/NULL);
 		bool L_188 = __this->get_m_FillClockwise_35();
 		int32_t L_189 = V_9;
 		int32_t L_190 = __this->get_m_FillOrigin_36();
@@ -27210,7 +27210,7 @@ IL_0613:
 		IL2CPP_RUNTIME_CLASS_INIT(Image_t3354615620_il2cpp_TypeInfo_var);
 		Vector3U5BU5D_t3227571696* L_193 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Xy_40();
 		Color_t1588175760  L_194 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_195 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_194, /*hidden argument*/NULL);
+		Color32_t4137084207  L_195 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_194, /*hidden argument*/NULL);
 		Vector3U5BU5D_t3227571696* L_196 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		Image_AddQuad_m3277178(NULL /*static, unused*/, L_192, L_193, L_195, L_196, /*hidden argument*/NULL);
 	}
@@ -27305,7 +27305,7 @@ IL_06de:
 		float L_205 = (&V_0)->get_z_3();
 		float L_206 = V_17;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_207 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_204, L_205, L_206, /*hidden argument*/NULL);
+		float L_207 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_204, L_205, L_206, /*hidden argument*/NULL);
 		((L_203)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->set_x_1(L_207);
 		Vector3U5BU5D_t3227571696* L_208 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Xy_40();
 		NullCheck(L_208);
@@ -27321,7 +27321,7 @@ IL_06de:
 		float L_212 = (&V_0)->get_x_1();
 		float L_213 = (&V_0)->get_z_3();
 		float L_214 = V_18;
-		float L_215 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_212, L_213, L_214, /*hidden argument*/NULL);
+		float L_215 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_212, L_213, L_214, /*hidden argument*/NULL);
 		((L_211)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)))->set_x_1(L_215);
 		Vector3U5BU5D_t3227571696* L_216 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Xy_40();
 		NullCheck(L_216);
@@ -27337,7 +27337,7 @@ IL_06de:
 		float L_220 = (&V_0)->get_y_2();
 		float L_221 = (&V_0)->get_w_4();
 		float L_222 = V_19;
-		float L_223 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_220, L_221, L_222, /*hidden argument*/NULL);
+		float L_223 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_220, L_221, L_222, /*hidden argument*/NULL);
 		((L_219)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->set_y_2(L_223);
 		Vector3U5BU5D_t3227571696* L_224 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Xy_40();
 		NullCheck(L_224);
@@ -27345,7 +27345,7 @@ IL_06de:
 		float L_225 = (&V_0)->get_y_2();
 		float L_226 = (&V_0)->get_w_4();
 		float L_227 = V_20;
-		float L_228 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_225, L_226, L_227, /*hidden argument*/NULL);
+		float L_228 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_225, L_226, L_227, /*hidden argument*/NULL);
 		((L_224)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))->set_y_2(L_228);
 		Vector3U5BU5D_t3227571696* L_229 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Xy_40();
 		NullCheck(L_229);
@@ -27369,7 +27369,7 @@ IL_06de:
 		float L_236 = V_3;
 		float L_237 = V_5;
 		float L_238 = V_17;
-		float L_239 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_236, L_237, L_238, /*hidden argument*/NULL);
+		float L_239 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_236, L_237, L_238, /*hidden argument*/NULL);
 		((L_235)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->set_x_1(L_239);
 		Vector3U5BU5D_t3227571696* L_240 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		NullCheck(L_240);
@@ -27385,7 +27385,7 @@ IL_06de:
 		float L_244 = V_3;
 		float L_245 = V_5;
 		float L_246 = V_18;
-		float L_247 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_244, L_245, L_246, /*hidden argument*/NULL);
+		float L_247 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_244, L_245, L_246, /*hidden argument*/NULL);
 		((L_243)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)))->set_x_1(L_247);
 		Vector3U5BU5D_t3227571696* L_248 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		NullCheck(L_248);
@@ -27401,7 +27401,7 @@ IL_06de:
 		float L_252 = V_4;
 		float L_253 = V_6;
 		float L_254 = V_19;
-		float L_255 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_252, L_253, L_254, /*hidden argument*/NULL);
+		float L_255 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_252, L_253, L_254, /*hidden argument*/NULL);
 		((L_251)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->set_y_2(L_255);
 		Vector3U5BU5D_t3227571696* L_256 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		NullCheck(L_256);
@@ -27409,7 +27409,7 @@ IL_06de:
 		float L_257 = V_4;
 		float L_258 = V_6;
 		float L_259 = V_20;
-		float L_260 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_257, L_258, L_259, /*hidden argument*/NULL);
+		float L_260 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_257, L_258, L_259, /*hidden argument*/NULL);
 		((L_256)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))->set_y_2(L_260);
 		Vector3U5BU5D_t3227571696* L_261 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		NullCheck(L_261);
@@ -27457,7 +27457,7 @@ IL_0920:
 		Vector3U5BU5D_t3227571696* L_275 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		float L_276 = V_21;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_277 = Mathf_Clamp01_m501649630(NULL /*static, unused*/, L_276, /*hidden argument*/NULL);
+		float L_277 = Mathf_Clamp01_m2272733930(NULL /*static, unused*/, L_276, /*hidden argument*/NULL);
 		bool L_278 = __this->get_m_FillClockwise_35();
 		int32_t L_279 = V_16;
 		bool L_280 = Image_RadialCut_m2286713844(NULL /*static, unused*/, L_274, L_275, L_277, L_278, ((int32_t)((int32_t)((int32_t)((int32_t)L_279+(int32_t)2))%(int32_t)4)), /*hidden argument*/NULL);
@@ -27471,7 +27471,7 @@ IL_0920:
 		IL2CPP_RUNTIME_CLASS_INIT(Image_t3354615620_il2cpp_TypeInfo_var);
 		Vector3U5BU5D_t3227571696* L_282 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Xy_40();
 		Color_t1588175760  L_283 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_284 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_283, /*hidden argument*/NULL);
+		Color32_t4137084207  L_284 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_283, /*hidden argument*/NULL);
 		Vector3U5BU5D_t3227571696* L_285 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		Image_AddQuad_m3277178(NULL /*static, unused*/, L_281, L_282, L_284, L_285, /*hidden argument*/NULL);
 	}
@@ -27502,7 +27502,7 @@ IL_0977:
 		IL2CPP_RUNTIME_CLASS_INIT(Image_t3354615620_il2cpp_TypeInfo_var);
 		Vector3U5BU5D_t3227571696* L_289 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Xy_40();
 		Color_t1588175760  L_290 = Graphic_get_color_m2048831972(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_291 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_290, /*hidden argument*/NULL);
+		Color32_t4137084207  L_291 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_290, /*hidden argument*/NULL);
 		Vector3U5BU5D_t3227571696* L_292 = ((Image_t3354615620_StaticFields*)Image_t3354615620_il2cpp_TypeInfo_var->static_fields)->get_s_Uv_41();
 		Image_AddQuad_m3277178(NULL /*static, unused*/, L_288, L_289, L_291, L_292, /*hidden argument*/NULL);
 	}
@@ -27574,7 +27574,7 @@ IL_0030:
 	{
 		float L_5 = ___fill;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_6 = Mathf_Clamp01_m501649630(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		float L_6 = Mathf_Clamp01_m2272733930(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		V_0 = L_6;
 		bool L_7 = ___invert;
 		if (!L_7)
@@ -27680,7 +27680,7 @@ extern "C"  void Image_RadialCut_m531564570 (Il2CppObject * __this /* static, un
 		float L_17 = ((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->get_x_1();
 		float L_18 = ___cos;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_19 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_14, L_17, L_18, /*hidden argument*/NULL);
+		float L_19 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_14, L_17, L_18, /*hidden argument*/NULL);
 		((L_10)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_11)))->set_x_1(L_19);
 		Vector3U5BU5D_t3227571696* L_20 = ___xy;
 		int32_t L_21 = V_2;
@@ -27736,7 +27736,7 @@ IL_0082:
 		float L_37 = ((L_35)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_36)))->get_y_2();
 		float L_38 = ___sin;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_39 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_34, L_37, L_38, /*hidden argument*/NULL);
+		float L_39 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_34, L_37, L_38, /*hidden argument*/NULL);
 		((L_30)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_31)))->set_y_2(L_39);
 		Vector3U5BU5D_t3227571696* L_40 = ___xy;
 		int32_t L_41 = V_3;
@@ -27786,7 +27786,7 @@ IL_00f0:
 		float L_53 = ((L_51)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_52)))->get_x_1();
 		float L_54 = ___cos;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_55 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_50, L_53, L_54, /*hidden argument*/NULL);
+		float L_55 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_50, L_53, L_54, /*hidden argument*/NULL);
 		((L_46)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_47)))->set_x_1(L_55);
 		goto IL_014f;
 	}
@@ -27809,7 +27809,7 @@ IL_0125:
 		float L_63 = ((L_61)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_62)))->get_y_2();
 		float L_64 = ___sin;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_65 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_60, L_63, L_64, /*hidden argument*/NULL);
+		float L_65 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_60, L_63, L_64, /*hidden argument*/NULL);
 		((L_56)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_57)))->set_y_2(L_65);
 	}
 
@@ -27855,7 +27855,7 @@ IL_0154:
 		float L_78 = ((L_76)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_77)))->get_y_2();
 		float L_79 = ___sin;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_80 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_75, L_78, L_79, /*hidden argument*/NULL);
+		float L_80 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_75, L_78, L_79, /*hidden argument*/NULL);
 		((L_71)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_72)))->set_y_2(L_80);
 		Vector3U5BU5D_t3227571696* L_81 = ___xy;
 		int32_t L_82 = V_2;
@@ -27911,7 +27911,7 @@ IL_01b4:
 		float L_98 = ((L_96)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_97)))->get_x_1();
 		float L_99 = ___cos;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_100 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_95, L_98, L_99, /*hidden argument*/NULL);
+		float L_100 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_95, L_98, L_99, /*hidden argument*/NULL);
 		((L_91)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_92)))->set_x_1(L_100);
 		Vector3U5BU5D_t3227571696* L_101 = ___xy;
 		int32_t L_102 = V_3;
@@ -27961,7 +27961,7 @@ IL_0222:
 		float L_114 = ((L_112)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_113)))->get_y_2();
 		float L_115 = ___sin;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_116 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_111, L_114, L_115, /*hidden argument*/NULL);
+		float L_116 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_111, L_114, L_115, /*hidden argument*/NULL);
 		((L_107)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_108)))->set_y_2(L_116);
 		goto IL_0281;
 	}
@@ -27984,7 +27984,7 @@ IL_0257:
 		float L_124 = ((L_122)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_123)))->get_x_1();
 		float L_125 = ___cos;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_126 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_121, L_124, L_125, /*hidden argument*/NULL);
+		float L_126 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_121, L_124, L_125, /*hidden argument*/NULL);
 		((L_117)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_118)))->set_x_1(L_126);
 	}
 
@@ -28025,7 +28025,7 @@ extern "C"  float Image_get_preferredWidth_m63596798 (Image_t3354615620 * __this
 	memset(&V_2, 0, sizeof(V_2));
 	{
 		Sprite_t4006040370 * L_0 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0017;
@@ -28054,7 +28054,7 @@ IL_0017:
 IL_002f:
 	{
 		Sprite_t4006040370 * L_4 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_5 = DataUtility_GetMinSize_m3716409127(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_5 = DataUtility_GetMinSize_m1313355571(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
 		float L_6 = (&V_0)->get_x_1();
 		float L_7 = Image_get_pixelsPerUnit_m2679127645(__this, /*hidden argument*/NULL);
@@ -28065,9 +28065,9 @@ IL_004a:
 	{
 		Sprite_t4006040370 * L_8 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Rect_t1525428817  L_9 = Sprite_get_rect_m616976945(L_8, /*hidden argument*/NULL);
+		Rect_t1525428817  L_9 = Sprite_get_rect_m132626493(L_8, /*hidden argument*/NULL);
 		V_1 = L_9;
-		Vector2_t3525329788  L_10 = Rect_get_size_m2266442540((&V_1), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_10 = Rect_get_size_m136480416((&V_1), /*hidden argument*/NULL);
 		V_2 = L_10;
 		float L_11 = (&V_2)->get_x_1();
 		float L_12 = Image_get_pixelsPerUnit_m2679127645(__this, /*hidden argument*/NULL);
@@ -28099,7 +28099,7 @@ extern "C"  float Image_get_preferredHeight_m2475315089 (Image_t3354615620 * __t
 	memset(&V_2, 0, sizeof(V_2));
 	{
 		Sprite_t4006040370 * L_0 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0017;
@@ -28128,7 +28128,7 @@ IL_0017:
 IL_002f:
 	{
 		Sprite_t4006040370 * L_4 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_5 = DataUtility_GetMinSize_m3716409127(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_5 = DataUtility_GetMinSize_m1313355571(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
 		float L_6 = (&V_0)->get_y_2();
 		float L_7 = Image_get_pixelsPerUnit_m2679127645(__this, /*hidden argument*/NULL);
@@ -28139,9 +28139,9 @@ IL_004a:
 	{
 		Sprite_t4006040370 * L_8 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Rect_t1525428817  L_9 = Sprite_get_rect_m616976945(L_8, /*hidden argument*/NULL);
+		Rect_t1525428817  L_9 = Sprite_get_rect_m132626493(L_8, /*hidden argument*/NULL);
 		V_1 = L_9;
-		Vector2_t3525329788  L_10 = Rect_get_size_m2266442540((&V_1), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_10 = Rect_get_size_m136480416((&V_1), /*hidden argument*/NULL);
 		V_2 = L_10;
 		float L_11 = (&V_2)->get_y_2();
 		float L_12 = Image_get_pixelsPerUnit_m2679127645(__this, /*hidden argument*/NULL);
@@ -28220,7 +28220,7 @@ IL_0012:
 		Sprite_t4006040370 * L_1 = Image_get_overrideSprite_m3218085753(__this, /*hidden argument*/NULL);
 		V_0 = L_1;
 		Sprite_t4006040370 * L_2 = V_0;
-		bool L_3 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0027;
@@ -28236,26 +28236,26 @@ IL_0027:
 		Vector2_t3525329788  L_5 = ___screenPoint;
 		Camera_t3533968274 * L_6 = ___eventCamera;
 		IL2CPP_RUNTIME_CLASS_INIT(RectTransformUtility_t2895919825_il2cpp_TypeInfo_var);
-		RectTransformUtility_ScreenPointToLocalPointInRectangle_m26575816(NULL /*static, unused*/, L_4, L_5, L_6, (&V_1), /*hidden argument*/NULL);
+		RectTransformUtility_ScreenPointToLocalPointInRectangle_m666650172(NULL /*static, unused*/, L_4, L_5, L_6, (&V_1), /*hidden argument*/NULL);
 		Rect_t1525428817  L_7 = Graphic_GetPixelAdjustedRect_m517144655(__this, /*hidden argument*/NULL);
 		V_2 = L_7;
 		Vector2_t3525329788 * L_8 = (&V_1);
 		float L_9 = L_8->get_x_1();
 		RectTransform_t3317474837 * L_10 = Graphic_get_rectTransform_m4017371950(__this, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		Vector2_t3525329788  L_11 = RectTransform_get_pivot_m791453359(L_10, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_11 = RectTransform_get_pivot_m3785570595(L_10, /*hidden argument*/NULL);
 		V_8 = L_11;
 		float L_12 = (&V_8)->get_x_1();
-		float L_13 = Rect_get_width_m2245507084((&V_2), /*hidden argument*/NULL);
+		float L_13 = Rect_get_width_m2824209432((&V_2), /*hidden argument*/NULL);
 		L_8->set_x_1(((float)((float)L_9+(float)((float)((float)L_12*(float)L_13)))));
 		Vector2_t3525329788 * L_14 = (&V_1);
 		float L_15 = L_14->get_y_2();
 		RectTransform_t3317474837 * L_16 = Graphic_get_rectTransform_m4017371950(__this, /*hidden argument*/NULL);
 		NullCheck(L_16);
-		Vector2_t3525329788  L_17 = RectTransform_get_pivot_m791453359(L_16, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_17 = RectTransform_get_pivot_m3785570595(L_16, /*hidden argument*/NULL);
 		V_9 = L_17;
 		float L_18 = (&V_9)->get_y_2();
-		float L_19 = Rect_get_height_m1395057219((&V_2), /*hidden argument*/NULL);
+		float L_19 = Rect_get_height_m2154960823((&V_2), /*hidden argument*/NULL);
 		L_14->set_y_2(((float)((float)L_15+(float)((float)((float)L_18*(float)L_19)))));
 		Vector2_t3525329788  L_20 = V_1;
 		Rect_t1525428817  L_21 = V_2;
@@ -28263,31 +28263,31 @@ IL_0027:
 		V_1 = L_22;
 		Sprite_t4006040370 * L_23 = V_0;
 		NullCheck(L_23);
-		Rect_t1525428817  L_24 = Sprite_get_textureRect_m3473386772(L_23, /*hidden argument*/NULL);
+		Rect_t1525428817  L_24 = Sprite_get_textureRect_m3946160520(L_23, /*hidden argument*/NULL);
 		V_3 = L_24;
 		float L_25 = (&V_1)->get_x_1();
-		float L_26 = Rect_get_width_m2245507084((&V_3), /*hidden argument*/NULL);
+		float L_26 = Rect_get_width_m2824209432((&V_3), /*hidden argument*/NULL);
 		float L_27 = (&V_1)->get_y_2();
-		float L_28 = Rect_get_height_m1395057219((&V_3), /*hidden argument*/NULL);
-		Vector2__ctor_m3369031450((&V_4), ((float)((float)L_25/(float)L_26)), ((float)((float)L_27/(float)L_28)), /*hidden argument*/NULL);
-		float L_29 = Rect_get_x_m2320486590((&V_3), /*hidden argument*/NULL);
-		float L_30 = Rect_get_xMax_m2153328744((&V_3), /*hidden argument*/NULL);
+		float L_28 = Rect_get_height_m2154960823((&V_3), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030((&V_4), ((float)((float)L_25/(float)L_26)), ((float)((float)L_27/(float)L_28)), /*hidden argument*/NULL);
+		float L_29 = Rect_get_x_m982385354((&V_3), /*hidden argument*/NULL);
+		float L_30 = Rect_get_xMax_m370881244((&V_3), /*hidden argument*/NULL);
 		float L_31 = (&V_4)->get_x_1();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_32 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_29, L_30, L_31, /*hidden argument*/NULL);
+		float L_32 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_29, L_30, L_31, /*hidden argument*/NULL);
 		Sprite_t4006040370 * L_33 = V_0;
 		NullCheck(L_33);
-		Texture2D_t2509538522 * L_34 = Sprite_get_texture_m4005372943(L_33, /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_34 = Sprite_get_texture_m1481489947(L_33, /*hidden argument*/NULL);
 		NullCheck(L_34);
 		int32_t L_35 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_34);
 		V_5 = ((float)((float)L_32/(float)(((float)((float)L_35)))));
-		float L_36 = Rect_get_y_m2320487551((&V_3), /*hidden argument*/NULL);
-		float L_37 = Rect_get_yMax_m2181957895((&V_3), /*hidden argument*/NULL);
+		float L_36 = Rect_get_y_m982386315((&V_3), /*hidden argument*/NULL);
+		float L_37 = Rect_get_yMax_m399510395((&V_3), /*hidden argument*/NULL);
 		float L_38 = (&V_4)->get_y_2();
-		float L_39 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_36, L_37, L_38, /*hidden argument*/NULL);
+		float L_39 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_36, L_37, L_38, /*hidden argument*/NULL);
 		Sprite_t4006040370 * L_40 = V_0;
 		NullCheck(L_40);
-		Texture2D_t2509538522 * L_41 = Sprite_get_texture_m4005372943(L_40, /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_41 = Sprite_get_texture_m1481489947(L_40, /*hidden argument*/NULL);
 		NullCheck(L_41);
 		int32_t L_42 = VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_height() */, L_41);
 		V_6 = ((float)((float)L_39/(float)(((float)((float)L_42)))));
@@ -28299,11 +28299,11 @@ IL_0119:
 		{
 			Sprite_t4006040370 * L_43 = V_0;
 			NullCheck(L_43);
-			Texture2D_t2509538522 * L_44 = Sprite_get_texture_m4005372943(L_43, /*hidden argument*/NULL);
+			Texture2D_t2509538522 * L_44 = Sprite_get_texture_m1481489947(L_43, /*hidden argument*/NULL);
 			float L_45 = V_5;
 			float L_46 = V_6;
 			NullCheck(L_44);
-			Color_t1588175760  L_47 = Texture2D_GetPixelBilinear_m3022923087(L_44, L_45, L_46, /*hidden argument*/NULL);
+			Color_t1588175760  L_47 = Texture2D_GetPixelBilinear_m2169326019(L_44, L_45, L_46, /*hidden argument*/NULL);
 			V_10 = L_47;
 			float L_48 = (&V_10)->get_a_3();
 			float L_49 = __this->get_m_EventAlphaThreshold_37();
@@ -28334,7 +28334,7 @@ CATCH_0148:
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 			String_t* L_52 = String_Concat_m1825781833(NULL /*static, unused*/, _stringLiteral3793069274, L_51, _stringLiteral2111890661, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-			Debug_LogError_m3295311090(NULL /*static, unused*/, L_52, __this, /*hidden argument*/NULL);
+			Debug_LogError_m214246398(NULL /*static, unused*/, L_52, __this, /*hidden argument*/NULL);
 			V_11 = (bool)1;
 			goto IL_0173;
 		}
@@ -28390,7 +28390,7 @@ extern "C"  Vector2_t3525329788  Image_MapCoordinate_m1478133288 (Image_t3354615
 	{
 		Sprite_t4006040370 * L_0 = Image_get_sprite_m3572636301(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Rect_t1525428817  L_1 = Sprite_get_rect_m616976945(L_0, /*hidden argument*/NULL);
+		Rect_t1525428817  L_1 = Sprite_get_rect_m132626493(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = Image_get_type_m1778977993(__this, /*hidden argument*/NULL);
 		if (!L_2)
@@ -28409,14 +28409,14 @@ extern "C"  Vector2_t3525329788  Image_MapCoordinate_m1478133288 (Image_t3354615
 IL_0023:
 	{
 		float L_4 = (&___local)->get_x_1();
-		float L_5 = Rect_get_width_m2245507084((&V_0), /*hidden argument*/NULL);
-		float L_6 = Rect_get_width_m2245507084((&___rect), /*hidden argument*/NULL);
+		float L_5 = Rect_get_width_m2824209432((&V_0), /*hidden argument*/NULL);
+		float L_6 = Rect_get_width_m2824209432((&___rect), /*hidden argument*/NULL);
 		float L_7 = (&___local)->get_y_2();
-		float L_8 = Rect_get_height_m1395057219((&V_0), /*hidden argument*/NULL);
-		float L_9 = Rect_get_height_m1395057219((&___rect), /*hidden argument*/NULL);
+		float L_8 = Rect_get_height_m2154960823((&V_0), /*hidden argument*/NULL);
+		float L_9 = Rect_get_height_m2154960823((&___rect), /*hidden argument*/NULL);
 		Vector2_t3525329788  L_10;
 		memset(&L_10, 0, sizeof(L_10));
-		Vector2__ctor_m3369031450(&L_10, ((float)((float)((float)((float)L_4*(float)L_5))/(float)L_6)), ((float)((float)((float)((float)L_7*(float)L_8))/(float)L_9)), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_10, ((float)((float)((float)((float)L_4*(float)L_5))/(float)L_6)), ((float)((float)((float)((float)L_7*(float)L_8))/(float)L_9)), /*hidden argument*/NULL);
 		return L_10;
 	}
 
@@ -28424,11 +28424,11 @@ IL_0057:
 	{
 		Sprite_t4006040370 * L_11 = Image_get_sprite_m3572636301(__this, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		Vector4_t3525329790  L_12 = Sprite_get_border_m1356674614(L_11, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_12 = Sprite_get_border_m1562752938(L_11, /*hidden argument*/NULL);
 		V_1 = L_12;
 		Vector4_t3525329790  L_13 = V_1;
 		float L_14 = Image_get_pixelsPerUnit_m2679127645(__this, /*hidden argument*/NULL);
-		Vector4_t3525329790  L_15 = Vector4_op_Division_m4205087079(NULL /*static, unused*/, L_13, L_14, /*hidden argument*/NULL);
+		Vector4_t3525329790  L_15 = Vector4_op_Division_m3513381747(NULL /*static, unused*/, L_13, L_14, /*hidden argument*/NULL);
 		Rect_t1525428817  L_16 = ___rect;
 		Vector4_t3525329790  L_17 = Image_GetAdjustedBorders_m3337288947(__this, L_15, L_16, /*hidden argument*/NULL);
 		V_2 = L_17;
@@ -28439,9 +28439,9 @@ IL_0057:
 IL_007e:
 	{
 		int32_t L_18 = V_3;
-		float L_19 = Vector2_get_Item_m980579759((&___local), L_18, /*hidden argument*/NULL);
+		float L_19 = Vector2_get_Item_m2185542843((&___local), L_18, /*hidden argument*/NULL);
 		int32_t L_20 = V_3;
-		float L_21 = Vector4_get_Item_m1121128369((&V_2), L_20, /*hidden argument*/NULL);
+		float L_21 = Vector4_get_Item_m2326091453((&V_2), L_20, /*hidden argument*/NULL);
 		if ((!(((float)L_19) <= ((float)L_21))))
 		{
 			goto IL_0098;
@@ -28453,14 +28453,14 @@ IL_007e:
 
 IL_0098:
 	{
-		Vector2_t3525329788  L_22 = Rect_get_size_m2266442540((&___rect), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_22 = Rect_get_size_m136480416((&___rect), /*hidden argument*/NULL);
 		V_5 = L_22;
 		int32_t L_23 = V_3;
-		float L_24 = Vector2_get_Item_m980579759((&V_5), L_23, /*hidden argument*/NULL);
+		float L_24 = Vector2_get_Item_m2185542843((&V_5), L_23, /*hidden argument*/NULL);
 		int32_t L_25 = V_3;
-		float L_26 = Vector2_get_Item_m980579759((&___local), L_25, /*hidden argument*/NULL);
+		float L_26 = Vector2_get_Item_m2185542843((&___local), L_25, /*hidden argument*/NULL);
 		int32_t L_27 = V_3;
-		float L_28 = Vector4_get_Item_m1121128369((&V_2), ((int32_t)((int32_t)L_27+(int32_t)2)), /*hidden argument*/NULL);
+		float L_28 = Vector4_get_Item_m2326091453((&V_2), ((int32_t)((int32_t)L_27+(int32_t)2)), /*hidden argument*/NULL);
 		if ((!(((float)((float)((float)L_24-(float)L_26))) <= ((float)L_28))))
 		{
 			goto IL_0105;
@@ -28474,18 +28474,18 @@ IL_0098:
 		V_7 = L_31;
 		Vector2_t3525329788 * L_32 = V_6;
 		int32_t L_33 = V_7;
-		float L_34 = Vector2_get_Item_m980579759(L_32, L_33, /*hidden argument*/NULL);
+		float L_34 = Vector2_get_Item_m2185542843(L_32, L_33, /*hidden argument*/NULL);
 		V_8 = L_34;
 		float L_35 = V_8;
-		Vector2_t3525329788  L_36 = Rect_get_size_m2266442540((&___rect), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_36 = Rect_get_size_m136480416((&___rect), /*hidden argument*/NULL);
 		V_9 = L_36;
 		int32_t L_37 = V_3;
-		float L_38 = Vector2_get_Item_m980579759((&V_9), L_37, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_39 = Rect_get_size_m2266442540((&V_0), /*hidden argument*/NULL);
+		float L_38 = Vector2_get_Item_m2185542843((&V_9), L_37, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_39 = Rect_get_size_m136480416((&V_0), /*hidden argument*/NULL);
 		V_10 = L_39;
 		int32_t L_40 = V_3;
-		float L_41 = Vector2_get_Item_m980579759((&V_10), L_40, /*hidden argument*/NULL);
-		Vector2_set_Item_m53537108(L_29, L_31, ((float)((float)L_35-(float)((float)((float)L_38-(float)L_41)))), /*hidden argument*/NULL);
+		float L_41 = Vector2_get_Item_m2185542843((&V_10), L_40, /*hidden argument*/NULL);
+		Vector2_set_Item_m2767519328(L_29, L_31, ((float)((float)L_35-(float)((float)((float)L_38-(float)L_41)))), /*hidden argument*/NULL);
 		goto IL_0203;
 	}
 
@@ -28499,30 +28499,30 @@ IL_0105:
 	}
 	{
 		int32_t L_43 = V_3;
-		float L_44 = Vector4_get_Item_m1121128369((&V_2), L_43, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_45 = Rect_get_size_m2266442540((&___rect), /*hidden argument*/NULL);
+		float L_44 = Vector4_get_Item_m2326091453((&V_2), L_43, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_45 = Rect_get_size_m136480416((&___rect), /*hidden argument*/NULL);
 		V_11 = L_45;
 		int32_t L_46 = V_3;
-		float L_47 = Vector2_get_Item_m980579759((&V_11), L_46, /*hidden argument*/NULL);
+		float L_47 = Vector2_get_Item_m2185542843((&V_11), L_46, /*hidden argument*/NULL);
 		int32_t L_48 = V_3;
-		float L_49 = Vector4_get_Item_m1121128369((&V_2), ((int32_t)((int32_t)L_48+(int32_t)2)), /*hidden argument*/NULL);
+		float L_49 = Vector4_get_Item_m2326091453((&V_2), ((int32_t)((int32_t)L_48+(int32_t)2)), /*hidden argument*/NULL);
 		int32_t L_50 = V_3;
-		float L_51 = Vector2_get_Item_m980579759((&___local), L_50, /*hidden argument*/NULL);
+		float L_51 = Vector2_get_Item_m2185542843((&___local), L_50, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_52 = Mathf_InverseLerp_m844395325(NULL /*static, unused*/, L_44, ((float)((float)L_47-(float)L_49)), L_51, /*hidden argument*/NULL);
+		float L_52 = Mathf_InverseLerp_m152689993(NULL /*static, unused*/, L_44, ((float)((float)L_47-(float)L_49)), L_51, /*hidden argument*/NULL);
 		V_4 = L_52;
 		int32_t L_53 = V_3;
 		int32_t L_54 = V_3;
-		float L_55 = Vector4_get_Item_m1121128369((&V_1), L_54, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_56 = Rect_get_size_m2266442540((&V_0), /*hidden argument*/NULL);
+		float L_55 = Vector4_get_Item_m2326091453((&V_1), L_54, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_56 = Rect_get_size_m136480416((&V_0), /*hidden argument*/NULL);
 		V_12 = L_56;
 		int32_t L_57 = V_3;
-		float L_58 = Vector2_get_Item_m980579759((&V_12), L_57, /*hidden argument*/NULL);
+		float L_58 = Vector2_get_Item_m2185542843((&V_12), L_57, /*hidden argument*/NULL);
 		int32_t L_59 = V_3;
-		float L_60 = Vector4_get_Item_m1121128369((&V_1), ((int32_t)((int32_t)L_59+(int32_t)2)), /*hidden argument*/NULL);
+		float L_60 = Vector4_get_Item_m2326091453((&V_1), ((int32_t)((int32_t)L_59+(int32_t)2)), /*hidden argument*/NULL);
 		float L_61 = V_4;
-		float L_62 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_55, ((float)((float)L_58-(float)L_60)), L_61, /*hidden argument*/NULL);
-		Vector2_set_Item_m53537108((&___local), L_53, L_62, /*hidden argument*/NULL);
+		float L_62 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_55, ((float)((float)L_58-(float)L_60)), L_61, /*hidden argument*/NULL);
+		Vector2_set_Item_m2767519328((&___local), L_53, L_62, /*hidden argument*/NULL);
 		goto IL_0203;
 	}
 
@@ -28535,26 +28535,26 @@ IL_017c:
 		V_7 = L_65;
 		Vector2_t3525329788 * L_66 = V_13;
 		int32_t L_67 = V_7;
-		float L_68 = Vector2_get_Item_m980579759(L_66, L_67, /*hidden argument*/NULL);
+		float L_68 = Vector2_get_Item_m2185542843(L_66, L_67, /*hidden argument*/NULL);
 		V_8 = L_68;
 		float L_69 = V_8;
 		int32_t L_70 = V_3;
-		float L_71 = Vector4_get_Item_m1121128369((&V_2), L_70, /*hidden argument*/NULL);
-		Vector2_set_Item_m53537108(L_63, L_65, ((float)((float)L_69-(float)L_71)), /*hidden argument*/NULL);
+		float L_71 = Vector4_get_Item_m2326091453((&V_2), L_70, /*hidden argument*/NULL);
+		Vector2_set_Item_m2767519328(L_63, L_65, ((float)((float)L_69-(float)L_71)), /*hidden argument*/NULL);
 		int32_t L_72 = V_3;
 		int32_t L_73 = V_3;
-		float L_74 = Vector2_get_Item_m980579759((&___local), L_73, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_75 = Rect_get_size_m2266442540((&V_0), /*hidden argument*/NULL);
+		float L_74 = Vector2_get_Item_m2185542843((&___local), L_73, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_75 = Rect_get_size_m136480416((&V_0), /*hidden argument*/NULL);
 		V_14 = L_75;
 		int32_t L_76 = V_3;
-		float L_77 = Vector2_get_Item_m980579759((&V_14), L_76, /*hidden argument*/NULL);
+		float L_77 = Vector2_get_Item_m2185542843((&V_14), L_76, /*hidden argument*/NULL);
 		int32_t L_78 = V_3;
-		float L_79 = Vector4_get_Item_m1121128369((&V_1), L_78, /*hidden argument*/NULL);
+		float L_79 = Vector4_get_Item_m2326091453((&V_1), L_78, /*hidden argument*/NULL);
 		int32_t L_80 = V_3;
-		float L_81 = Vector4_get_Item_m1121128369((&V_1), ((int32_t)((int32_t)L_80+(int32_t)2)), /*hidden argument*/NULL);
+		float L_81 = Vector4_get_Item_m2326091453((&V_1), ((int32_t)((int32_t)L_80+(int32_t)2)), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_82 = Mathf_Repeat_m704303076(NULL /*static, unused*/, L_74, ((float)((float)((float)((float)L_77-(float)L_79))-(float)L_81)), /*hidden argument*/NULL);
-		Vector2_set_Item_m53537108((&___local), L_72, L_82, /*hidden argument*/NULL);
+		float L_82 = Mathf_Repeat_m3424250200(NULL /*static, unused*/, L_74, ((float)((float)((float)((float)L_77-(float)L_79))-(float)L_81)), /*hidden argument*/NULL);
+		Vector2_set_Item_m2767519328((&___local), L_72, L_82, /*hidden argument*/NULL);
 		Vector2_t3525329788 * L_83 = (&___local);
 		V_15 = (Vector2_t3525329788 *)L_83;
 		int32_t L_84 = V_3;
@@ -28562,12 +28562,12 @@ IL_017c:
 		V_7 = L_85;
 		Vector2_t3525329788 * L_86 = V_15;
 		int32_t L_87 = V_7;
-		float L_88 = Vector2_get_Item_m980579759(L_86, L_87, /*hidden argument*/NULL);
+		float L_88 = Vector2_get_Item_m2185542843(L_86, L_87, /*hidden argument*/NULL);
 		V_8 = L_88;
 		float L_89 = V_8;
 		int32_t L_90 = V_3;
-		float L_91 = Vector4_get_Item_m1121128369((&V_1), L_90, /*hidden argument*/NULL);
-		Vector2_set_Item_m53537108(L_83, L_85, ((float)((float)L_89+(float)L_91)), /*hidden argument*/NULL);
+		float L_91 = Vector4_get_Item_m2326091453((&V_1), L_90, /*hidden argument*/NULL);
+		Vector2_set_Item_m2767519328(L_83, L_85, ((float)((float)L_89+(float)L_91)), /*hidden argument*/NULL);
 		goto IL_0203;
 	}
 
@@ -28615,11 +28615,11 @@ extern "C"  void InputField__ctor_m2020289915 (InputField_t2345609593 * __this, 
 		__this->set_m_OnValueChanged_32(L_1);
 		Color_t1588175760  L_2;
 		memset(&L_2, 0, sizeof(L_2));
-		Color__ctor_m3354408120(&L_2, (0.196078435f), (0.196078435f), (0.196078435f), (1.0f), /*hidden argument*/NULL);
+		Color__ctor_m2252924356(&L_2, (0.196078435f), (0.196078435f), (0.196078435f), (1.0f), /*hidden argument*/NULL);
 		__this->set_m_CaretColor_34(L_2);
 		Color_t1588175760  L_3;
 		memset(&L_3, 0, sizeof(L_3));
-		Color__ctor_m3354408120(&L_3, (0.65882355f), (0.807843149f), (1.0f), (0.7529412f), /*hidden argument*/NULL);
+		Color__ctor_m2252924356(&L_3, (0.65882355f), (0.807843149f), (1.0f), (0.7529412f), /*hidden argument*/NULL);
 		__this->set_m_SelectionColor_36(L_3);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_4 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
@@ -28629,7 +28629,7 @@ extern "C"  void InputField__ctor_m2020289915 (InputField_t2345609593 * __this, 
 		String_t* L_5 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
 		__this->set_m_OriginalText_59(L_5);
 		Event_t1590224583 * L_6 = (Event_t1590224583 *)il2cpp_codegen_object_new(Event_t1590224583_il2cpp_TypeInfo_var);
-		Event__ctor_m1652612619(L_6, /*hidden argument*/NULL);
+		Event__ctor_m1609448063(L_6, /*hidden argument*/NULL);
 		__this->set_m_ProcessingEvent_62(L_6);
 		IL2CPP_RUNTIME_CLASS_INIT(Selectable_t3621744255_il2cpp_TypeInfo_var);
 		Selectable__ctor_m1133588277(__this, /*hidden argument*/NULL);
@@ -28639,7 +28639,7 @@ extern "C"  void InputField__ctor_m2020289915 (InputField_t2345609593 * __this, 
 // System.Void UnityEngine.UI.InputField::.cctor()
 extern TypeInfo* CharU5BU5D_t3416858730_il2cpp_TypeInfo_var;
 extern TypeInfo* InputField_t2345609593_il2cpp_TypeInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t3053238937____U24U24fieldU2D0_0_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t3053238939____U24U24fieldU2D0_0_FieldInfo_var;
 extern const uint32_t InputField__cctor_m2017349010_MetadataUsageId;
 extern "C"  void InputField__cctor_m2017349010 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
 {
@@ -28651,7 +28651,7 @@ extern "C"  void InputField__cctor_m2017349010 (Il2CppObject * __this /* static,
 	}
 	{
 		CharU5BU5D_t3416858730* L_0 = ((CharU5BU5D_t3416858730*)SZArrayNew(CharU5BU5D_t3416858730_il2cpp_TypeInfo_var, (uint32_t)6));
-		RuntimeHelpers_InitializeArray_m2058365049(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3053238937____U24U24fieldU2D0_0_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m2058365049(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3053238939____U24U24fieldU2D0_0_FieldInfo_var), /*hidden argument*/NULL);
 		((InputField_t2345609593_StaticFields*)InputField_t2345609593_il2cpp_TypeInfo_var->static_fields)->set_kSeparators_20(L_0);
 		return;
 	}
@@ -28669,7 +28669,7 @@ extern "C"  Mesh_t1525280346 * InputField_get_mesh_m2359671532 (InputField_t2345
 	}
 	{
 		Mesh_t1525280346 * L_0 = __this->get_m_Mesh_48();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001c;
@@ -28677,7 +28677,7 @@ extern "C"  Mesh_t1525280346 * InputField_get_mesh_m2359671532 (InputField_t2345
 	}
 	{
 		Mesh_t1525280346 * L_2 = (Mesh_t1525280346 *)il2cpp_codegen_object_new(Mesh_t1525280346_il2cpp_TypeInfo_var);
-		Mesh__ctor_m1577217556(L_2, /*hidden argument*/NULL);
+		Mesh__ctor_m2684203808(L_2, /*hidden argument*/NULL);
 		__this->set_m_Mesh_48(L_2);
 	}
 
@@ -28707,7 +28707,7 @@ extern "C"  TextGenerator_t2883685459 * InputField_get_cachedInputTextGenerator_
 	}
 	{
 		TextGenerator_t2883685459 * L_1 = (TextGenerator_t2883685459 *)il2cpp_codegen_object_new(TextGenerator_t2883685459_il2cpp_TypeInfo_var);
-		TextGenerator__ctor_m3871986687(L_1, /*hidden argument*/NULL);
+		TextGenerator__ctor_m3994909811(L_1, /*hidden argument*/NULL);
 		__this->set_m_InputTextCache_45(L_1);
 	}
 
@@ -28740,7 +28740,7 @@ extern "C"  bool InputField_get_shouldHideMobileInput_m3268284241 (InputField_t2
 {
 	int32_t V_0 = 0;
 	{
-		int32_t L_0 = Application_get_platform_m475587980(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		if (((int32_t)((int32_t)L_1-(int32_t)8)) == 0)
@@ -28802,7 +28802,7 @@ IL_0042:
 extern "C"  bool InputField_get_shouldActivateOnSelect_m3772452453 (InputField_t2345609593 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = Application_get_platform_m475587980(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return (bool)((((int32_t)((((int32_t)L_0) == ((int32_t)((int32_t)31)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
@@ -28827,7 +28827,7 @@ extern "C"  String_t* InputField_get_text_m3972300732 (InputField_t2345609593 * 
 	{
 		TouchScreenKeyboard_t2269718975 * L_1 = __this->get_m_Keyboard_19();
 		NullCheck(L_1);
-		bool L_2 = TouchScreenKeyboard_get_active_m273539314(L_1, /*hidden argument*/NULL);
+		bool L_2 = TouchScreenKeyboard_get_active_m4287082086(L_1, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_004c;
@@ -28845,8 +28845,8 @@ extern "C"  String_t* InputField_get_text_m3972300732 (InputField_t2345609593 * 
 		EventSystem_t409518532 * L_4 = EventSystem_get_current_m3483537871(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		GameObject_t4012695102 * L_5 = EventSystem_get_currentSelectedGameObject_m4236083783(L_4, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_6 = Component_get_gameObject_m1036663815(__this, /*hidden argument*/NULL);
-		bool L_7 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_6 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		bool L_7 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_004c;
@@ -28855,7 +28855,7 @@ extern "C"  String_t* InputField_get_text_m3972300732 (InputField_t2345609593 * 
 	{
 		TouchScreenKeyboard_t2269718975 * L_8 = __this->get_m_Keyboard_19();
 		NullCheck(L_8);
-		String_t* L_9 = TouchScreenKeyboard_get_text_m1669426660(L_8, /*hidden argument*/NULL);
+		String_t* L_9 = TouchScreenKeyboard_get_text_m2874389744(L_8, /*hidden argument*/NULL);
 		return L_9;
 	}
 
@@ -28905,7 +28905,7 @@ IL_0012:
 		TouchScreenKeyboard_t2269718975 * L_5 = __this->get_m_Keyboard_19();
 		String_t* L_6 = __this->get_m_Text_37();
 		NullCheck(L_5);
-		TouchScreenKeyboard_set_text_m3229909575(L_5, L_6, /*hidden argument*/NULL);
+		TouchScreenKeyboard_set_text_m1654889403(L_5, L_6, /*hidden argument*/NULL);
 	}
 
 IL_0035:
@@ -29654,7 +29654,7 @@ extern "C"  int32_t InputField_get_caretPositionInternal_m1805548065 (InputField
 	{
 		int32_t L_0 = __this->get_m_CaretPosition_41();
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		String_t* L_1 = Input_get_compositionString_m2472013550(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = Input_get_compositionString_m1541052002(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		int32_t L_2 = String_get_Length_m2979997331(L_1, /*hidden argument*/NULL);
 		return ((int32_t)((int32_t)L_0+(int32_t)L_2));
@@ -29685,7 +29685,7 @@ extern "C"  int32_t InputField_get_caretSelectPositionInternal_m2541357245 (Inpu
 	{
 		int32_t L_0 = __this->get_m_CaretSelectPosition_42();
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		String_t* L_1 = Input_get_compositionString_m2472013550(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = Input_get_compositionString_m1541052002(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		int32_t L_2 = String_get_Length_m2979997331(L_1, /*hidden argument*/NULL);
 		return ((int32_t)((int32_t)L_0+(int32_t)L_2));
@@ -29725,7 +29725,7 @@ extern "C"  int32_t InputField_get_caretPosition_m1600046468 (InputField_t234560
 	{
 		int32_t L_0 = __this->get_m_CaretSelectPosition_42();
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		String_t* L_1 = Input_get_compositionString_m2472013550(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = Input_get_compositionString_m1541052002(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		int32_t L_2 = String_get_Length_m2979997331(L_1, /*hidden argument*/NULL);
 		return ((int32_t)((int32_t)L_0+(int32_t)L_2));
@@ -29756,7 +29756,7 @@ extern "C"  int32_t InputField_get_selectionAnchorPosition_m3946868514 (InputFie
 	{
 		int32_t L_0 = __this->get_m_CaretPosition_41();
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		String_t* L_1 = Input_get_compositionString_m2472013550(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = Input_get_compositionString_m1541052002(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		int32_t L_2 = String_get_Length_m2979997331(L_1, /*hidden argument*/NULL);
 		return ((int32_t)((int32_t)L_0+(int32_t)L_2));
@@ -29775,7 +29775,7 @@ extern "C"  void InputField_set_selectionAnchorPosition_m4265241751 (InputField_
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		String_t* L_0 = Input_get_compositionString_m2472013550(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_0 = Input_get_compositionString_m1541052002(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		int32_t L_1 = String_get_Length_m2979997331(L_0, /*hidden argument*/NULL);
 		if (!L_1)
@@ -29810,7 +29810,7 @@ extern "C"  int32_t InputField_get_selectionFocusPosition_m3487835103 (InputFiel
 	{
 		int32_t L_0 = __this->get_m_CaretSelectPosition_42();
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		String_t* L_1 = Input_get_compositionString_m2472013550(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = Input_get_compositionString_m1541052002(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		int32_t L_2 = String_get_Length_m2979997331(L_1, /*hidden argument*/NULL);
 		return ((int32_t)((int32_t)L_0+(int32_t)L_2));
@@ -29829,7 +29829,7 @@ extern "C"  void InputField_set_selectionFocusPosition_m3645383436 (InputField_t
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		String_t* L_0 = Input_get_compositionString_m2472013550(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_0 = Input_get_compositionString_m1541052002(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		int32_t L_1 = String_get_Length_m2979997331(L_0, /*hidden argument*/NULL);
 		if (!L_1)
@@ -29887,7 +29887,7 @@ IL_001c:
 		int32_t L_3 = String_get_Length_m2979997331(L_2, /*hidden argument*/NULL);
 		__this->set_m_DrawEnd_57(L_3);
 		CanvasRenderer_t3626201768 * L_4 = __this->get_m_CachedInputRenderer_46();
-		bool L_5 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_4, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_5 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_4, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_005a;
@@ -29897,15 +29897,15 @@ IL_001c:
 		CanvasRenderer_t3626201768 * L_6 = __this->get_m_CachedInputRenderer_46();
 		IL2CPP_RUNTIME_CLASS_INIT(Graphic_t933884113_il2cpp_TypeInfo_var);
 		Material_t1886596500 * L_7 = Graphic_get_defaultGraphicMaterial_m456140641(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Texture2D_t2509538522 * L_8 = Texture2D_get_whiteTexture_m1355979434(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_8 = Texture2D_get_whiteTexture_m1214146742(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		CanvasRenderer_SetMaterial_m2704672343(L_6, L_7, L_8, /*hidden argument*/NULL);
+		CanvasRenderer_SetMaterial_m1603188579(L_6, L_7, L_8, /*hidden argument*/NULL);
 	}
 
 IL_005a:
 	{
 		Text_t3286458198 * L_9 = __this->get_m_TextComponent_21();
-		bool L_10 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_9, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_10 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_9, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_10)
 		{
 			goto IL_009f;
@@ -29916,14 +29916,14 @@ IL_005a:
 		IntPtr_t L_12;
 		L_12.set_m_value_0((void*)InputField_MarkGeometryAsDirty_m178860986_MethodInfo_var);
 		UnityAction_t909267611 * L_13 = (UnityAction_t909267611 *)il2cpp_codegen_object_new(UnityAction_t909267611_il2cpp_TypeInfo_var);
-		UnityAction__ctor_m1639493687(L_13, __this, L_12, /*hidden argument*/NULL);
+		UnityAction__ctor_m4130179243(L_13, __this, L_12, /*hidden argument*/NULL);
 		NullCheck(L_11);
 		Graphic_RegisterDirtyVerticesCallback_m1901460593(L_11, L_13, /*hidden argument*/NULL);
 		Text_t3286458198 * L_14 = __this->get_m_TextComponent_21();
 		IntPtr_t L_15;
 		L_15.set_m_value_0((void*)InputField_UpdateLabel_m4272237956_MethodInfo_var);
 		UnityAction_t909267611 * L_16 = (UnityAction_t909267611 *)il2cpp_codegen_object_new(UnityAction_t909267611_il2cpp_TypeInfo_var);
-		UnityAction__ctor_m1639493687(L_16, __this, L_15, /*hidden argument*/NULL);
+		UnityAction__ctor_m4130179243(L_16, __this, L_15, /*hidden argument*/NULL);
 		NullCheck(L_14);
 		Graphic_RegisterDirtyVerticesCallback_m1901460593(L_14, L_16, /*hidden argument*/NULL);
 		InputField_UpdateLabel_m4272237956(__this, /*hidden argument*/NULL);
@@ -29952,7 +29952,7 @@ extern "C"  void InputField_OnDisable_m3654896738 (InputField_t2345609593 * __th
 		__this->set_m_BlinkCoroutine_54((Coroutine_t2246592261 *)NULL);
 		InputField_DeactivateInputField_m2310323789(__this, /*hidden argument*/NULL);
 		Text_t3286458198 * L_0 = __this->get_m_TextComponent_21();
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_004c;
@@ -29963,14 +29963,14 @@ extern "C"  void InputField_OnDisable_m3654896738 (InputField_t2345609593 * __th
 		IntPtr_t L_3;
 		L_3.set_m_value_0((void*)InputField_MarkGeometryAsDirty_m178860986_MethodInfo_var);
 		UnityAction_t909267611 * L_4 = (UnityAction_t909267611 *)il2cpp_codegen_object_new(UnityAction_t909267611_il2cpp_TypeInfo_var);
-		UnityAction__ctor_m1639493687(L_4, __this, L_3, /*hidden argument*/NULL);
+		UnityAction__ctor_m4130179243(L_4, __this, L_3, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		Graphic_UnregisterDirtyVerticesCallback_m3291531384(L_2, L_4, /*hidden argument*/NULL);
 		Text_t3286458198 * L_5 = __this->get_m_TextComponent_21();
 		IntPtr_t L_6;
 		L_6.set_m_value_0((void*)InputField_UpdateLabel_m4272237956_MethodInfo_var);
 		UnityAction_t909267611 * L_7 = (UnityAction_t909267611 *)il2cpp_codegen_object_new(UnityAction_t909267611_il2cpp_TypeInfo_var);
-		UnityAction__ctor_m1639493687(L_7, __this, L_6, /*hidden argument*/NULL);
+		UnityAction__ctor_m4130179243(L_7, __this, L_6, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		Graphic_UnregisterDirtyVerticesCallback_m3291531384(L_5, L_7, /*hidden argument*/NULL);
 	}
@@ -29980,7 +29980,7 @@ IL_004c:
 		IL2CPP_RUNTIME_CLASS_INIT(CanvasUpdateRegistry_t2591544775_il2cpp_TypeInfo_var);
 		CanvasUpdateRegistry_UnRegisterCanvasElementForRebuild_m2188113711(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
 		CanvasRenderer_t3626201768 * L_8 = __this->get_m_CachedInputRenderer_46();
-		bool L_9 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_8, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_9 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_8, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_006e;
@@ -29989,13 +29989,13 @@ IL_004c:
 	{
 		CanvasRenderer_t3626201768 * L_10 = __this->get_m_CachedInputRenderer_46();
 		NullCheck(L_10);
-		CanvasRenderer_Clear_m2090858545(L_10, /*hidden argument*/NULL);
+		CanvasRenderer_Clear_m1606508093(L_10, /*hidden argument*/NULL);
 	}
 
 IL_006e:
 	{
 		Mesh_t1525280346 * L_11 = __this->get_m_Mesh_48();
-		bool L_12 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_11, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_12 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_11, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_12)
 		{
 			goto IL_008a;
@@ -30003,7 +30003,7 @@ IL_006e:
 	}
 	{
 		Mesh_t1525280346 * L_13 = __this->get_m_Mesh_48();
-		Object_DestroyImmediate_m1924978851(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		Object_DestroyImmediate_m349958679(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
 	}
 
 IL_008a:
@@ -30053,7 +30053,7 @@ extern "C"  void InputField_SetCaretVisible_m1704739146 (InputField_t2345609593 
 IL_000c:
 	{
 		__this->set_m_CaretVisible_53((bool)1);
-		float L_1 = Time_get_unscaledTime_m2808282789(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_1 = Time_get_unscaledTime_m319114521(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->set_m_BlinkStartTime_55(L_1);
 		InputField_SetCaretActive_m1463120(__this, /*hidden argument*/NULL);
 		return;
@@ -30090,7 +30090,7 @@ IL_000c:
 	}
 	{
 		Il2CppObject * L_3 = InputField_CaretBlink_m3410390944(__this, /*hidden argument*/NULL);
-		Coroutine_t2246592261 * L_4 = MonoBehaviour_StartCoroutine_m4099245512(__this, L_3, /*hidden argument*/NULL);
+		Coroutine_t2246592261 * L_4 = MonoBehaviour_StartCoroutine_m2135303124(__this, L_3, /*hidden argument*/NULL);
 		__this->set_m_BlinkCoroutine_54(L_4);
 	}
 
@@ -30209,7 +30209,7 @@ extern "C"  String_t* InputField_get_clipboard_m1517672713 (Il2CppObject * __thi
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUIUtility_t1366332446_il2cpp_TypeInfo_var);
-		String_t* L_0 = GUIUtility_get_systemCopyBuffer_m1749002532(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_0 = GUIUtility_get_systemCopyBuffer_m1467578008(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -30227,7 +30227,7 @@ extern "C"  void InputField_set_clipboard_m1137802704 (Il2CppObject * __this /* 
 	{
 		String_t* L_0 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(GUIUtility_t1366332446_il2cpp_TypeInfo_var);
-		GUIUtility_set_systemCopyBuffer_m996310189(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		GUIUtility_set_systemCopyBuffer_m2088074937(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -30235,7 +30235,7 @@ extern "C"  void InputField_set_clipboard_m1137802704 (Il2CppObject * __this /* 
 extern "C"  bool InputField_InPlaceEditing_m3152517681 (InputField_t2345609593 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = TouchScreenKeyboard_get_isSupported_m1334593306(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_0 = TouchScreenKeyboard_get_isSupported_m2472329766(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
 }
@@ -30313,7 +30313,7 @@ IL_0042:
 	{
 		TouchScreenKeyboard_t2269718975 * L_5 = __this->get_m_Keyboard_19();
 		NullCheck(L_5);
-		bool L_6 = TouchScreenKeyboard_get_active_m273539314(L_5, /*hidden argument*/NULL);
+		bool L_6 = TouchScreenKeyboard_get_active_m4287082086(L_5, /*hidden argument*/NULL);
 		if (L_6)
 		{
 			goto IL_00a9;
@@ -30338,7 +30338,7 @@ IL_0063:
 	{
 		TouchScreenKeyboard_t2269718975 * L_9 = __this->get_m_Keyboard_19();
 		NullCheck(L_9);
-		String_t* L_10 = TouchScreenKeyboard_get_text_m1669426660(L_9, /*hidden argument*/NULL);
+		String_t* L_10 = TouchScreenKeyboard_get_text_m2874389744(L_9, /*hidden argument*/NULL);
 		InputField_set_text_m203843887(__this, L_10, /*hidden argument*/NULL);
 	}
 
@@ -30346,7 +30346,7 @@ IL_008a:
 	{
 		TouchScreenKeyboard_t2269718975 * L_11 = __this->get_m_Keyboard_19();
 		NullCheck(L_11);
-		bool L_12 = TouchScreenKeyboard_get_wasCanceled_m2772951960(L_11, /*hidden argument*/NULL);
+		bool L_12 = TouchScreenKeyboard_get_wasCanceled_m3910688420(L_11, /*hidden argument*/NULL);
 		if (!L_12)
 		{
 			goto IL_00a1;
@@ -30366,7 +30366,7 @@ IL_00a9:
 	{
 		TouchScreenKeyboard_t2269718975 * L_13 = __this->get_m_Keyboard_19();
 		NullCheck(L_13);
-		String_t* L_14 = TouchScreenKeyboard_get_text_m1669426660(L_13, /*hidden argument*/NULL);
+		String_t* L_14 = TouchScreenKeyboard_get_text_m2874389744(L_13, /*hidden argument*/NULL);
 		V_0 = L_14;
 		String_t* L_15 = __this->get_m_Text_37();
 		String_t* L_16 = V_0;
@@ -30388,7 +30388,7 @@ IL_00a9:
 		TouchScreenKeyboard_t2269718975 * L_19 = __this->get_m_Keyboard_19();
 		String_t* L_20 = __this->get_m_Text_37();
 		NullCheck(L_19);
-		TouchScreenKeyboard_set_text_m3229909575(L_19, L_20, /*hidden argument*/NULL);
+		TouchScreenKeyboard_set_text_m1654889403(L_19, L_20, /*hidden argument*/NULL);
 		goto IL_023b;
 	}
 
@@ -30485,7 +30485,7 @@ IL_0165:
 		TouchScreenKeyboard_t2269718975 * L_42 = __this->get_m_Keyboard_19();
 		String_t* L_43 = __this->get_m_Text_37();
 		NullCheck(L_42);
-		TouchScreenKeyboard_set_text_m3229909575(L_42, L_43, /*hidden argument*/NULL);
+		TouchScreenKeyboard_set_text_m1654889403(L_42, L_43, /*hidden argument*/NULL);
 		VirtActionInvoker1< BaseEventData_t3547103726 * >::Invoke(36 /* System.Void UnityEngine.UI.InputField::OnDeselect(UnityEngine.EventSystems.BaseEventData) */, __this, (BaseEventData_t3547103726 *)NULL);
 		return;
 	}
@@ -30573,7 +30573,7 @@ IL_01f9:
 		TouchScreenKeyboard_t2269718975 * L_68 = __this->get_m_Keyboard_19();
 		String_t* L_69 = __this->get_m_Text_37();
 		NullCheck(L_68);
-		TouchScreenKeyboard_set_text_m3229909575(L_68, L_69, /*hidden argument*/NULL);
+		TouchScreenKeyboard_set_text_m1654889403(L_68, L_69, /*hidden argument*/NULL);
 	}
 
 IL_0235:
@@ -30585,7 +30585,7 @@ IL_023b:
 	{
 		TouchScreenKeyboard_t2269718975 * L_70 = __this->get_m_Keyboard_19();
 		NullCheck(L_70);
-		bool L_71 = TouchScreenKeyboard_get_done_m1326118190(L_70, /*hidden argument*/NULL);
+		bool L_71 = TouchScreenKeyboard_get_done_m25268130(L_70, /*hidden argument*/NULL);
 		if (!L_71)
 		{
 			goto IL_0269;
@@ -30594,7 +30594,7 @@ IL_023b:
 	{
 		TouchScreenKeyboard_t2269718975 * L_72 = __this->get_m_Keyboard_19();
 		NullCheck(L_72);
-		bool L_73 = TouchScreenKeyboard_get_wasCanceled_m2772951960(L_72, /*hidden argument*/NULL);
+		bool L_73 = TouchScreenKeyboard_get_wasCanceled_m3910688420(L_72, /*hidden argument*/NULL);
 		if (!L_73)
 		{
 			goto IL_0262;
@@ -30631,7 +30631,7 @@ extern "C"  Vector2_t3525329788  InputField_ScreenToLocal_m1499722466 (InputFiel
 		Canvas_t3534013893 * L_1 = Graphic_get_canvas_m4291384250(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		Canvas_t3534013893 * L_2 = V_0;
-		bool L_3 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_001a;
@@ -30644,11 +30644,11 @@ extern "C"  Vector2_t3525329788  InputField_ScreenToLocal_m1499722466 (InputFiel
 
 IL_001a:
 	{
-		Vector3_t3525329789  L_5 = Vector3_get_zero_m1872564710(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_5 = Vector3_get_zero_m2017759730(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_1 = L_5;
 		Canvas_t3534013893 * L_6 = V_0;
 		NullCheck(L_6);
-		int32_t L_7 = Canvas_get_renderMode_m1045800100(L_6, /*hidden argument*/NULL);
+		int32_t L_7 = Canvas_get_renderMode_m3669121200(L_6, /*hidden argument*/NULL);
 		if (L_7)
 		{
 			goto IL_0047;
@@ -30657,11 +30657,11 @@ IL_001a:
 	{
 		Text_t3286458198 * L_8 = __this->get_m_TextComponent_21();
 		NullCheck(L_8);
-		Transform_t284553113 * L_9 = Component_get_transform_m243597671(L_8, /*hidden argument*/NULL);
+		Transform_t284553113 * L_9 = Component_get_transform_m4257140443(L_8, /*hidden argument*/NULL);
 		Vector2_t3525329788  L_10 = ___screen;
-		Vector3_t3525329789  L_11 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_11 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		Vector3_t3525329789  L_12 = Transform_InverseTransformPoint_m268874068(L_9, L_11, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_12 = Transform_InverseTransformPoint_m1626812000(L_9, L_11, /*hidden argument*/NULL);
 		V_1 = L_12;
 		goto IL_00b5;
 	}
@@ -30670,8 +30670,8 @@ IL_0047:
 	{
 		Canvas_t3534013893 * L_13 = V_0;
 		NullCheck(L_13);
-		Camera_t3533968274 * L_14 = Canvas_get_worldCamera_m3552410778(L_13, /*hidden argument*/NULL);
-		bool L_15 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_14, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		Camera_t3533968274 * L_14 = Canvas_get_worldCamera_m2621449230(L_13, /*hidden argument*/NULL);
+		bool L_15 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_14, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_15)
 		{
 			goto IL_00b5;
@@ -30680,32 +30680,32 @@ IL_0047:
 	{
 		Canvas_t3534013893 * L_16 = V_0;
 		NullCheck(L_16);
-		Camera_t3533968274 * L_17 = Canvas_get_worldCamera_m3552410778(L_16, /*hidden argument*/NULL);
+		Camera_t3533968274 * L_17 = Canvas_get_worldCamera_m2621449230(L_16, /*hidden argument*/NULL);
 		Vector2_t3525329788  L_18 = ___screen;
-		Vector3_t3525329789  L_19 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_19 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
 		NullCheck(L_17);
-		Ray_t1522967639  L_20 = Camera_ScreenPointToRay_m519181286(L_17, L_19, /*hidden argument*/NULL);
+		Ray_t1522967639  L_20 = Camera_ScreenPointToRay_m1733083890(L_17, L_19, /*hidden argument*/NULL);
 		V_2 = L_20;
 		Text_t3286458198 * L_21 = __this->get_m_TextComponent_21();
 		NullCheck(L_21);
-		Transform_t284553113 * L_22 = Component_get_transform_m243597671(L_21, /*hidden argument*/NULL);
+		Transform_t284553113 * L_22 = Component_get_transform_m4257140443(L_21, /*hidden argument*/NULL);
 		NullCheck(L_22);
-		Vector3_t3525329789  L_23 = Transform_get_forward_m1808627341(L_22, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_23 = Transform_get_forward_m877665793(L_22, /*hidden argument*/NULL);
 		Text_t3286458198 * L_24 = __this->get_m_TextComponent_21();
 		NullCheck(L_24);
-		Transform_t284553113 * L_25 = Component_get_transform_m243597671(L_24, /*hidden argument*/NULL);
+		Transform_t284553113 * L_25 = Component_get_transform_m4257140443(L_24, /*hidden argument*/NULL);
 		NullCheck(L_25);
-		Vector3_t3525329789  L_26 = Transform_get_position_m1006435523(L_25, /*hidden argument*/NULL);
-		Plane__ctor_m1427965507((&V_4), L_23, L_26, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_26 = Transform_get_position_m2211398607(L_25, /*hidden argument*/NULL);
+		Plane__ctor_m2201046863((&V_4), L_23, L_26, /*hidden argument*/NULL);
 		Ray_t1522967639  L_27 = V_2;
-		Plane_Raycast_m1615866502((&V_4), L_27, (&V_3), /*hidden argument*/NULL);
+		Plane_Raycast_m2829769106((&V_4), L_27, (&V_3), /*hidden argument*/NULL);
 		Text_t3286458198 * L_28 = __this->get_m_TextComponent_21();
 		NullCheck(L_28);
-		Transform_t284553113 * L_29 = Component_get_transform_m243597671(L_28, /*hidden argument*/NULL);
+		Transform_t284553113 * L_29 = Component_get_transform_m4257140443(L_28, /*hidden argument*/NULL);
 		float L_30 = V_3;
-		Vector3_t3525329789  L_31 = Ray_GetPoint_m1452529346((&V_2), L_30, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_31 = Ray_GetPoint_m1171104822((&V_2), L_30, /*hidden argument*/NULL);
 		NullCheck(L_29);
-		Vector3_t3525329789  L_32 = Transform_InverseTransformPoint_m268874068(L_29, L_31, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_32 = Transform_InverseTransformPoint_m1626812000(L_29, L_31, /*hidden argument*/NULL);
 		V_1 = L_32;
 	}
 
@@ -30715,7 +30715,7 @@ IL_00b5:
 		float L_34 = (&V_1)->get_y_2();
 		Vector2_t3525329788  L_35;
 		memset(&L_35, 0, sizeof(L_35));
-		Vector2__ctor_m3369031450(&L_35, L_33, L_34, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030(&L_35, L_33, L_34, /*hidden argument*/NULL);
 		return L_35;
 	}
 }
@@ -30767,7 +30767,7 @@ IL_002e:
 	{
 		TextGenerator_t2883685459 * L_4 = ___generator;
 		NullCheck(L_4);
-		Il2CppObject* L_5 = TextGenerator_get_lines_m760566796(L_4, /*hidden argument*/NULL);
+		Il2CppObject* L_5 = TextGenerator_get_lines_m3197542168(L_4, /*hidden argument*/NULL);
 		int32_t L_6 = V_2;
 		NullCheck(L_5);
 		UILineInfo_t156921283  L_7 = InterfaceFuncInvoker1< UILineInfo_t156921283 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::get_Item(System.Int32) */, IList_1_t2323413597_il2cpp_TypeInfo_var, L_5, L_6);
@@ -30777,7 +30777,7 @@ IL_002e:
 		float L_9 = V_3;
 		TextGenerator_t2883685459 * L_10 = ___generator;
 		NullCheck(L_10);
-		Il2CppObject* L_11 = TextGenerator_get_lines_m760566796(L_10, /*hidden argument*/NULL);
+		Il2CppObject* L_11 = TextGenerator_get_lines_m3197542168(L_10, /*hidden argument*/NULL);
 		int32_t L_12 = V_2;
 		NullCheck(L_11);
 		UILineInfo_t156921283  L_13 = InterfaceFuncInvoker1< UILineInfo_t156921283 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::get_Item(System.Int32) */, IList_1_t2323413597_il2cpp_TypeInfo_var, L_11, L_12);
@@ -30841,7 +30841,7 @@ IL_0091:
 		int32_t L_29 = V_2;
 		TextGenerator_t2883685459 * L_30 = ___generator;
 		NullCheck(L_30);
-		int32_t L_31 = TextGenerator_get_lineCount_m1349960567(L_30, /*hidden argument*/NULL);
+		int32_t L_31 = TextGenerator_get_lineCount_m3121044867(L_30, /*hidden argument*/NULL);
 		if ((((int32_t)L_29) < ((int32_t)L_31)))
 		{
 			goto IL_002e;
@@ -30850,7 +30850,7 @@ IL_0091:
 	{
 		TextGenerator_t2883685459 * L_32 = ___generator;
 		NullCheck(L_32);
-		int32_t L_33 = TextGenerator_get_lineCount_m1349960567(L_32, /*hidden argument*/NULL);
+		int32_t L_33 = TextGenerator_get_lineCount_m3121044867(L_32, /*hidden argument*/NULL);
 		return L_33;
 	}
 }
@@ -30887,7 +30887,7 @@ extern "C"  int32_t InputField_GetCharacterIndexFromPosition_m4275941159 (InputF
 		V_0 = L_1;
 		TextGenerator_t2883685459 * L_2 = V_0;
 		NullCheck(L_2);
-		int32_t L_3 = TextGenerator_get_lineCount_m1349960567(L_2, /*hidden argument*/NULL);
+		int32_t L_3 = TextGenerator_get_lineCount_m3121044867(L_2, /*hidden argument*/NULL);
 		if (L_3)
 		{
 			goto IL_0019;
@@ -30918,7 +30918,7 @@ IL_002b:
 		int32_t L_8 = V_1;
 		TextGenerator_t2883685459 * L_9 = V_0;
 		NullCheck(L_9);
-		int32_t L_10 = TextGenerator_get_lineCount_m1349960567(L_9, /*hidden argument*/NULL);
+		int32_t L_10 = TextGenerator_get_lineCount_m3121044867(L_9, /*hidden argument*/NULL);
 		if ((((int32_t)L_8) < ((int32_t)L_10)))
 		{
 			goto IL_003e;
@@ -30927,7 +30927,7 @@ IL_002b:
 	{
 		TextGenerator_t2883685459 * L_11 = V_0;
 		NullCheck(L_11);
-		int32_t L_12 = TextGenerator_get_characterCountVisible_m178217832(L_11, /*hidden argument*/NULL);
+		int32_t L_12 = TextGenerator_get_characterCountVisible_m2621262708(L_11, /*hidden argument*/NULL);
 		return L_12;
 	}
 
@@ -30935,7 +30935,7 @@ IL_003e:
 	{
 		TextGenerator_t2883685459 * L_13 = V_0;
 		NullCheck(L_13);
-		Il2CppObject* L_14 = TextGenerator_get_lines_m760566796(L_13, /*hidden argument*/NULL);
+		Il2CppObject* L_14 = TextGenerator_get_lines_m3197542168(L_13, /*hidden argument*/NULL);
 		int32_t L_15 = V_1;
 		NullCheck(L_14);
 		UILineInfo_t156921283  L_16 = InterfaceFuncInvoker1< UILineInfo_t156921283 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::get_Item(System.Int32) */, IList_1_t2323413597_il2cpp_TypeInfo_var, L_14, L_15);
@@ -30957,7 +30957,7 @@ IL_0064:
 		int32_t L_22 = V_4;
 		TextGenerator_t2883685459 * L_23 = V_0;
 		NullCheck(L_23);
-		int32_t L_24 = TextGenerator_get_characterCountVisible_m178217832(L_23, /*hidden argument*/NULL);
+		int32_t L_24 = TextGenerator_get_characterCountVisible_m2621262708(L_23, /*hidden argument*/NULL);
 		if ((((int32_t)L_22) < ((int32_t)L_24)))
 		{
 			goto IL_0076;
@@ -30971,7 +30971,7 @@ IL_0076:
 	{
 		TextGenerator_t2883685459 * L_25 = V_0;
 		NullCheck(L_25);
-		Il2CppObject* L_26 = TextGenerator_get_characters_m2895351165(L_25, /*hidden argument*/NULL);
+		Il2CppObject* L_26 = TextGenerator_get_characters_m3420670449(L_25, /*hidden argument*/NULL);
 		int32_t L_27 = V_4;
 		NullCheck(L_26);
 		UICharInfo_t403820581  L_28 = InterfaceFuncInvoker1< UICharInfo_t403820581 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UICharInfo>::get_Item(System.Int32) */, IList_1_t2570312895_il2cpp_TypeInfo_var, L_26, L_27);
@@ -30980,7 +30980,7 @@ IL_0076:
 		Text_t3286458198 * L_30 = __this->get_m_TextComponent_21();
 		NullCheck(L_30);
 		float L_31 = Text_get_pixelsPerUnit_m4148756467(L_30, /*hidden argument*/NULL);
-		Vector2_t3525329788  L_32 = Vector2_op_Division_m1439333029(NULL /*static, unused*/, L_29, L_31, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_32 = Vector2_op_Division_m747627697(NULL /*static, unused*/, L_29, L_31, /*hidden argument*/NULL);
 		V_6 = L_32;
 		float L_33 = (&___pos)->get_x_1();
 		float L_34 = (&V_6)->get_x_1();
@@ -31055,7 +31055,7 @@ extern "C"  bool InputField_MayDrag_m3557501854 (InputField_t2345609593 * __this
 	}
 	{
 		Text_t3286458198 * L_4 = __this->get_m_TextComponent_21();
-		bool L_5 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_4, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_5 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_4, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_003d;
@@ -31135,7 +31135,7 @@ IL_000d:
 		NullCheck(L_6);
 		Camera_t3533968274 * L_7 = PointerEventData_get_pressEventCamera_m2764092724(L_6, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(RectTransformUtility_t2895919825_il2cpp_TypeInfo_var);
-		RectTransformUtility_ScreenPointToLocalPointInRectangle_m26575816(NULL /*static, unused*/, L_3, L_5, L_7, (&V_0), /*hidden argument*/NULL);
+		RectTransformUtility_ScreenPointToLocalPointInRectangle_m666650172(NULL /*static, unused*/, L_3, L_5, L_7, (&V_0), /*hidden argument*/NULL);
 		Vector2_t3525329788  L_8 = V_0;
 		int32_t L_9 = InputField_GetCharacterIndexFromPosition_m4275941159(__this, L_8, /*hidden argument*/NULL);
 		int32_t L_10 = __this->get_m_DrawStart_56();
@@ -31150,7 +31150,7 @@ IL_000d:
 		PointerEventData_t3205101634 * L_15 = ___eventData;
 		NullCheck(L_15);
 		Camera_t3533968274 * L_16 = PointerEventData_get_pressEventCamera_m2764092724(L_15, /*hidden argument*/NULL);
-		bool L_17 = RectTransformUtility_RectangleContainsScreenPoint_m2225099328(NULL /*static, unused*/, L_12, L_14, L_16, /*hidden argument*/NULL);
+		bool L_17 = RectTransformUtility_RectangleContainsScreenPoint_m1460676684(NULL /*static, unused*/, L_12, L_14, L_16, /*hidden argument*/NULL);
 		__this->set_m_DragPositionOutOfBounds_52((bool)((((int32_t)L_17) == ((int32_t)0))? 1 : 0));
 		bool L_18 = __this->get_m_DragPositionOutOfBounds_52();
 		if (!L_18)
@@ -31168,7 +31168,7 @@ IL_000d:
 	{
 		PointerEventData_t3205101634 * L_20 = ___eventData;
 		Il2CppObject * L_21 = InputField_MouseDragOutsideRect_m854880935(__this, L_20, /*hidden argument*/NULL);
-		Coroutine_t2246592261 * L_22 = MonoBehaviour_StartCoroutine_m4099245512(__this, L_21, /*hidden argument*/NULL);
+		Coroutine_t2246592261 * L_22 = MonoBehaviour_StartCoroutine_m2135303124(__this, L_21, /*hidden argument*/NULL);
 		__this->set_m_DragCoroutine_58(L_22);
 	}
 
@@ -31264,7 +31264,7 @@ IL_000d:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(EventSystem_t409518532_il2cpp_TypeInfo_var);
 		EventSystem_t409518532 * L_2 = EventSystem_get_current_m3483537871(NULL /*static, unused*/, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_3 = Component_get_gameObject_m1036663815(__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_3 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
 		PointerEventData_t3205101634 * L_4 = ___eventData;
 		NullCheck(L_2);
 		EventSystem_SetSelectedGameObject_m2116591616(L_2, L_3, L_4, /*hidden argument*/NULL);
@@ -31288,7 +31288,7 @@ IL_000d:
 	{
 		TouchScreenKeyboard_t2269718975 * L_9 = __this->get_m_Keyboard_19();
 		NullCheck(L_9);
-		bool L_10 = TouchScreenKeyboard_get_active_m273539314(L_9, /*hidden argument*/NULL);
+		bool L_10 = TouchScreenKeyboard_get_active_m4287082086(L_9, /*hidden argument*/NULL);
 		if (L_10)
 		{
 			goto IL_005a;
@@ -31321,7 +31321,7 @@ IL_005a:
 		NullCheck(L_17);
 		Camera_t3533968274 * L_18 = PointerEventData_get_pressEventCamera_m2764092724(L_17, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(RectTransformUtility_t2895919825_il2cpp_TypeInfo_var);
-		RectTransformUtility_ScreenPointToLocalPointInRectangle_m26575816(NULL /*static, unused*/, L_14, L_16, L_18, (&V_1), /*hidden argument*/NULL);
+		RectTransformUtility_ScreenPointToLocalPointInRectangle_m666650172(NULL /*static, unused*/, L_14, L_16, L_18, (&V_1), /*hidden argument*/NULL);
 		Vector2_t3525329788  L_19 = V_1;
 		int32_t L_20 = InputField_GetCharacterIndexFromPosition_m4275941159(__this, L_19, /*hidden argument*/NULL);
 		int32_t L_21 = __this->get_m_DrawStart_56();
@@ -31369,9 +31369,9 @@ extern "C"  int32_t InputField_KeyPressed_m56514315 (InputField_t2345609593 * __
 	{
 		Event_t1590224583 * L_0 = ___evt;
 		NullCheck(L_0);
-		int32_t L_1 = Event_get_modifiers_m4155216538(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Event_get_modifiers_m4020990886(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
-		int32_t L_2 = Application_get_platform_m475587980(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_1 = L_2;
 		int32_t L_3 = V_1;
 		if (!L_3)
@@ -31454,7 +31454,7 @@ IL_006b:
 		V_6 = (bool)G_B11_0;
 		Event_t1590224583 * L_14 = ___evt;
 		NullCheck(L_14);
-		int32_t L_15 = Event_get_keyCode_m1614620138(L_14, /*hidden argument*/NULL);
+		int32_t L_15 = Event_get_keyCode_m1820698462(L_14, /*hidden argument*/NULL);
 		V_8 = L_15;
 		int32_t L_16 = V_8;
 		if (((int32_t)((int32_t)L_16-(int32_t)((int32_t)271))) == 0)
@@ -31765,7 +31765,7 @@ IL_0205:
 	{
 		Event_t1590224583 * L_43 = ___evt;
 		NullCheck(L_43);
-		uint16_t L_44 = Event_get_character_m3540249543(L_43, /*hidden argument*/NULL);
+		uint16_t L_44 = Event_get_character_m3663172667(L_43, /*hidden argument*/NULL);
 		V_7 = L_44;
 		bool L_45 = InputField_get_multiLine_m2265790891(__this, /*hidden argument*/NULL);
 		if (L_45)
@@ -31845,7 +31845,7 @@ IL_025f:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		String_t* L_55 = Input_get_compositionString_m2472013550(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_55 = Input_get_compositionString_m1541052002(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_55);
 		int32_t L_56 = String_get_Length_m2979997331(L_55, /*hidden argument*/NULL);
 		if ((((int32_t)L_56) <= ((int32_t)0)))
@@ -31904,7 +31904,7 @@ IL_001c:
 		Font_t1525081276 * L_4 = Text_get_font_m2437753165(L_3, /*hidden argument*/NULL);
 		uint16_t L_5 = ___c;
 		NullCheck(L_4);
-		bool L_6 = Font_HasCharacter_m3781620526(L_4, L_5, /*hidden argument*/NULL);
+		bool L_6 = Font_HasCharacter_m2480770466(L_4, L_5, /*hidden argument*/NULL);
 		return L_6;
 	}
 }
@@ -31958,7 +31958,7 @@ IL_0013:
 	{
 		Event_t1590224583 * L_1 = __this->get_m_ProcessingEvent_62();
 		NullCheck(L_1);
-		int32_t L_2 = Event_get_rawType_m223790776(L_1, /*hidden argument*/NULL);
+		int32_t L_2 = Event_get_rawType_m696564524(L_1, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_2) == ((uint32_t)4))))
 		{
 			goto IL_0045;
@@ -31984,7 +31984,7 @@ IL_0045:
 	{
 		Event_t1590224583 * L_6 = __this->get_m_ProcessingEvent_62();
 		NullCheck(L_6);
-		int32_t L_7 = Event_get_type_m2064744230(L_6, /*hidden argument*/NULL);
+		int32_t L_7 = Event_get_type_m2209939250(L_6, /*hidden argument*/NULL);
 		V_2 = L_7;
 		int32_t L_8 = V_2;
 		if ((((int32_t)L_8) == ((int32_t)((int32_t)13))))
@@ -32007,7 +32007,7 @@ IL_0066:
 	{
 		Event_t1590224583 * L_10 = __this->get_m_ProcessingEvent_62();
 		NullCheck(L_10);
-		String_t* L_11 = Event_get_commandName_m3686960889(L_10, /*hidden argument*/NULL);
+		String_t* L_11 = Event_get_commandName_m1197792621(L_10, /*hidden argument*/NULL);
 		V_3 = L_11;
 		String_t* L_12 = V_3;
 		if (!L_12)
@@ -32073,7 +32073,7 @@ IL_00c9:
 IL_00ce:
 	{
 		Event_t1590224583 * L_21 = __this->get_m_ProcessingEvent_62();
-		bool L_22 = Event_PopEvent_m2924300667(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
+		bool L_22 = Event_PopEvent_m2790075015(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
 		if (L_22)
 		{
 			goto IL_0013;
@@ -32255,7 +32255,7 @@ extern "C"  void InputField_MoveRight_m815186690 (InputField_t2345609593 * __thi
 		int32_t L_2 = InputField_get_caretPositionInternal_m1805548065(__this, /*hidden argument*/NULL);
 		int32_t L_3 = InputField_get_caretSelectPositionInternal_m2541357245(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_4 = Mathf_Max_m2777221653(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = Mathf_Max_m2911193737(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		V_1 = L_4;
 		int32_t L_5 = V_1;
 		InputField_set_caretSelectPositionInternal_m4114170802(__this, L_5, /*hidden argument*/NULL);
@@ -32399,7 +32399,7 @@ extern "C"  void InputField_MoveLeft_m2120951525 (InputField_t2345609593 * __thi
 		int32_t L_2 = InputField_get_caretPositionInternal_m1805548065(__this, /*hidden argument*/NULL);
 		int32_t L_3 = InputField_get_caretSelectPositionInternal_m2541357245(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_4 = Mathf_Min_m2279466087(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = Mathf_Min_m2413438171(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		V_1 = L_4;
 		int32_t L_5 = V_1;
 		InputField_set_caretSelectPositionInternal_m4114170802(__this, L_5, /*hidden argument*/NULL);
@@ -32480,7 +32480,7 @@ IL_0007:
 	{
 		TextGenerator_t2883685459 * L_0 = ___generator;
 		NullCheck(L_0);
-		Il2CppObject* L_1 = TextGenerator_get_lines_m760566796(L_0, /*hidden argument*/NULL);
+		Il2CppObject* L_1 = TextGenerator_get_lines_m3197542168(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = V_0;
 		NullCheck(L_1);
 		UILineInfo_t156921283  L_3 = InterfaceFuncInvoker1< UILineInfo_t156921283 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::get_Item(System.Int32) */, IList_1_t2323413597_il2cpp_TypeInfo_var, L_1, ((int32_t)((int32_t)L_2+(int32_t)1)));
@@ -32508,7 +32508,7 @@ IL_0029:
 		int32_t L_8 = V_0;
 		TextGenerator_t2883685459 * L_9 = ___generator;
 		NullCheck(L_9);
-		int32_t L_10 = TextGenerator_get_lineCount_m1349960567(L_9, /*hidden argument*/NULL);
+		int32_t L_10 = TextGenerator_get_lineCount_m3121044867(L_9, /*hidden argument*/NULL);
 		if ((((int32_t)L_8) < ((int32_t)((int32_t)((int32_t)L_10-(int32_t)1)))))
 		{
 			goto IL_0007;
@@ -32517,7 +32517,7 @@ IL_0029:
 	{
 		TextGenerator_t2883685459 * L_11 = ___generator;
 		NullCheck(L_11);
-		int32_t L_12 = TextGenerator_get_lineCount_m1349960567(L_11, /*hidden argument*/NULL);
+		int32_t L_12 = TextGenerator_get_lineCount_m3121044867(L_11, /*hidden argument*/NULL);
 		return ((int32_t)((int32_t)L_12-(int32_t)1));
 	}
 }
@@ -32549,7 +32549,7 @@ extern "C"  int32_t InputField_LineUpCharacterPosition_m1478103368 (InputField_t
 		int32_t L_0 = ___originalPos;
 		TextGenerator_t2883685459 * L_1 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		int32_t L_2 = TextGenerator_get_characterCountVisible_m178217832(L_1, /*hidden argument*/NULL);
+		int32_t L_2 = TextGenerator_get_characterCountVisible_m2621262708(L_1, /*hidden argument*/NULL);
 		if ((((int32_t)L_0) <= ((int32_t)L_2)))
 		{
 			goto IL_0013;
@@ -32563,7 +32563,7 @@ IL_0013:
 	{
 		TextGenerator_t2883685459 * L_3 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		Il2CppObject* L_4 = TextGenerator_get_characters_m2895351165(L_3, /*hidden argument*/NULL);
+		Il2CppObject* L_4 = TextGenerator_get_characters_m3420670449(L_3, /*hidden argument*/NULL);
 		int32_t L_5 = ___originalPos;
 		NullCheck(L_4);
 		UICharInfo_t403820581  L_6 = InterfaceFuncInvoker1< UICharInfo_t403820581 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UICharInfo>::get_Item(System.Int32) */, IList_1_t2570312895_il2cpp_TypeInfo_var, L_4, L_5);
@@ -32605,7 +32605,7 @@ IL_0048:
 	{
 		TextGenerator_t2883685459 * L_13 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_13);
-		Il2CppObject* L_14 = TextGenerator_get_lines_m760566796(L_13, /*hidden argument*/NULL);
+		Il2CppObject* L_14 = TextGenerator_get_lines_m3197542168(L_13, /*hidden argument*/NULL);
 		int32_t L_15 = V_1;
 		NullCheck(L_14);
 		UILineInfo_t156921283  L_16 = InterfaceFuncInvoker1< UILineInfo_t156921283 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::get_Item(System.Int32) */, IList_1_t2323413597_il2cpp_TypeInfo_var, L_14, L_15);
@@ -32614,7 +32614,7 @@ IL_0048:
 		V_2 = ((int32_t)((int32_t)L_17-(int32_t)1));
 		TextGenerator_t2883685459 * L_18 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_18);
-		Il2CppObject* L_19 = TextGenerator_get_lines_m760566796(L_18, /*hidden argument*/NULL);
+		Il2CppObject* L_19 = TextGenerator_get_lines_m3197542168(L_18, /*hidden argument*/NULL);
 		int32_t L_20 = V_1;
 		NullCheck(L_19);
 		UILineInfo_t156921283  L_21 = InterfaceFuncInvoker1< UILineInfo_t156921283 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::get_Item(System.Int32) */, IList_1_t2323413597_il2cpp_TypeInfo_var, L_19, ((int32_t)((int32_t)L_20-(int32_t)1)));
@@ -32628,7 +32628,7 @@ IL_0087:
 	{
 		TextGenerator_t2883685459 * L_23 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_23);
-		Il2CppObject* L_24 = TextGenerator_get_characters_m2895351165(L_23, /*hidden argument*/NULL);
+		Il2CppObject* L_24 = TextGenerator_get_characters_m3420670449(L_23, /*hidden argument*/NULL);
 		int32_t L_25 = V_3;
 		NullCheck(L_24);
 		UICharInfo_t403820581  L_26 = InterfaceFuncInvoker1< UICharInfo_t403820581 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UICharInfo>::get_Item(System.Int32) */, IList_1_t2570312895_il2cpp_TypeInfo_var, L_24, L_25);
@@ -32694,7 +32694,7 @@ extern "C"  int32_t InputField_LineDownCharacterPosition_m263003663 (InputField_
 		int32_t L_0 = ___originalPos;
 		TextGenerator_t2883685459 * L_1 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		int32_t L_2 = TextGenerator_get_characterCountVisible_m178217832(L_1, /*hidden argument*/NULL);
+		int32_t L_2 = TextGenerator_get_characterCountVisible_m2621262708(L_1, /*hidden argument*/NULL);
 		if ((((int32_t)L_0) < ((int32_t)L_2)))
 		{
 			goto IL_001d;
@@ -32711,7 +32711,7 @@ IL_001d:
 	{
 		TextGenerator_t2883685459 * L_5 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		Il2CppObject* L_6 = TextGenerator_get_characters_m2895351165(L_5, /*hidden argument*/NULL);
+		Il2CppObject* L_6 = TextGenerator_get_characters_m3420670449(L_5, /*hidden argument*/NULL);
 		int32_t L_7 = ___originalPos;
 		NullCheck(L_6);
 		UICharInfo_t403820581  L_8 = InterfaceFuncInvoker1< UICharInfo_t403820581 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UICharInfo>::get_Item(System.Int32) */, IList_1_t2570312895_il2cpp_TypeInfo_var, L_6, L_7);
@@ -32723,7 +32723,7 @@ IL_001d:
 		int32_t L_12 = V_1;
 		TextGenerator_t2883685459 * L_13 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_13);
-		int32_t L_14 = TextGenerator_get_lineCount_m1349960567(L_13, /*hidden argument*/NULL);
+		int32_t L_14 = TextGenerator_get_lineCount_m3121044867(L_13, /*hidden argument*/NULL);
 		if ((((int32_t)((int32_t)((int32_t)L_12+(int32_t)1))) < ((int32_t)L_14)))
 		{
 			goto IL_0068;
@@ -32764,7 +32764,7 @@ IL_0068:
 		V_2 = L_21;
 		TextGenerator_t2883685459 * L_22 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_22);
-		Il2CppObject* L_23 = TextGenerator_get_lines_m760566796(L_22, /*hidden argument*/NULL);
+		Il2CppObject* L_23 = TextGenerator_get_lines_m3197542168(L_22, /*hidden argument*/NULL);
 		int32_t L_24 = V_1;
 		NullCheck(L_23);
 		UILineInfo_t156921283  L_25 = InterfaceFuncInvoker1< UILineInfo_t156921283 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::get_Item(System.Int32) */, IList_1_t2323413597_il2cpp_TypeInfo_var, L_23, ((int32_t)((int32_t)L_24+(int32_t)1)));
@@ -32778,7 +32778,7 @@ IL_0099:
 	{
 		TextGenerator_t2883685459 * L_27 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_27);
-		Il2CppObject* L_28 = TextGenerator_get_characters_m2895351165(L_27, /*hidden argument*/NULL);
+		Il2CppObject* L_28 = TextGenerator_get_characters_m3420670449(L_27, /*hidden argument*/NULL);
 		int32_t L_29 = V_3;
 		NullCheck(L_28);
 		UICharInfo_t403820581  L_30 = InterfaceFuncInvoker1< UICharInfo_t403820581 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UICharInfo>::get_Item(System.Int32) */, IList_1_t2570312895_il2cpp_TypeInfo_var, L_28, L_29);
@@ -32858,7 +32858,7 @@ extern "C"  void InputField_MoveDown_m3574910698 (InputField_t2345609593 * __thi
 		int32_t L_2 = InputField_get_caretPositionInternal_m1805548065(__this, /*hidden argument*/NULL);
 		int32_t L_3 = InputField_get_caretSelectPositionInternal_m2541357245(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_4 = Mathf_Max_m2777221653(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = Mathf_Max_m2911193737(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		V_1 = L_4;
 		int32_t L_5 = V_1;
 		InputField_set_caretSelectPositionInternal_m4114170802(__this, L_5, /*hidden argument*/NULL);
@@ -32961,7 +32961,7 @@ extern "C"  void InputField_MoveUp_m2694527889 (InputField_t2345609593 * __this,
 		int32_t L_2 = InputField_get_caretPositionInternal_m1805548065(__this, /*hidden argument*/NULL);
 		int32_t L_3 = InputField_get_caretSelectPositionInternal_m2541357245(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_4 = Mathf_Min_m2279466087(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = Mathf_Min_m2413438171(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		V_1 = L_4;
 		int32_t L_5 = V_1;
 		InputField_set_caretSelectPositionInternal_m4114170802(__this, L_5, /*hidden argument*/NULL);
@@ -33566,7 +33566,7 @@ extern "C"  void InputField_UpdateLabel_m4272237956 (InputField_t2345609593 * __
 	Graphic_t933884113 * G_B13_1 = NULL;
 	{
 		Text_t3286458198 * L_0 = __this->get_m_TextComponent_21();
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0195;
@@ -33576,7 +33576,7 @@ extern "C"  void InputField_UpdateLabel_m4272237956 (InputField_t2345609593 * __
 		Text_t3286458198 * L_2 = __this->get_m_TextComponent_21();
 		NullCheck(L_2);
 		Font_t1525081276 * L_3 = Text_get_font_m2437753165(L_2, /*hidden argument*/NULL);
-		bool L_4 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0195;
@@ -33592,7 +33592,7 @@ extern "C"  void InputField_UpdateLabel_m4272237956 (InputField_t2345609593 * __
 	{
 		__this->set_m_PreventFontCallback_47((bool)1);
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		String_t* L_6 = Input_get_compositionString_m2472013550(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_6 = Input_get_compositionString_m1541052002(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_6);
 		int32_t L_7 = String_get_Length_m2979997331(L_6, /*hidden argument*/NULL);
 		if ((((int32_t)L_7) <= ((int32_t)0)))
@@ -33606,7 +33606,7 @@ extern "C"  void InputField_UpdateLabel_m4272237956 (InputField_t2345609593 * __
 		NullCheck(L_8);
 		String_t* L_10 = String_Substring_m675079568(L_8, 0, L_9, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		String_t* L_11 = Input_get_compositionString_m2472013550(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_11 = Input_get_compositionString_m1541052002(NULL /*static, unused*/, /*hidden argument*/NULL);
 		String_t* L_12 = InputField_get_text_m3972300732(__this, /*hidden argument*/NULL);
 		int32_t L_13 = __this->get_m_CaretPosition_41();
 		NullCheck(L_12);
@@ -33654,7 +33654,7 @@ IL_00a8:
 		bool L_24 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
 		V_2 = L_24;
 		Graphic_t933884113 * L_25 = __this->get_m_Placeholder_22();
-		bool L_26 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_25, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_26 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_25, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_26)
 		{
 			goto IL_00dd;
@@ -33686,7 +33686,7 @@ IL_00d7:
 IL_00d8:
 	{
 		NullCheck(G_B13_1);
-		Behaviour_set_enabled_m1912834849(G_B13_1, (bool)G_B13_0, /*hidden argument*/NULL);
+		Behaviour_set_enabled_m2046806933(G_B13_1, (bool)G_B13_0, /*hidden argument*/NULL);
 	}
 
 IL_00dd:
@@ -33718,9 +33718,9 @@ IL_0100:
 		NullCheck(L_34);
 		RectTransform_t3317474837 * L_35 = Graphic_get_rectTransform_m4017371950(L_34, /*hidden argument*/NULL);
 		NullCheck(L_35);
-		Rect_t1525428817  L_36 = RectTransform_get_rect_m1093243288(L_35, /*hidden argument*/NULL);
+		Rect_t1525428817  L_36 = RectTransform_get_rect_m1566017036(L_35, /*hidden argument*/NULL);
 		V_5 = L_36;
-		Vector2_t3525329788  L_37 = Rect_get_size_m2266442540((&V_5), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_37 = Rect_get_size_m136480416((&V_5), /*hidden argument*/NULL);
 		V_3 = L_37;
 		Text_t3286458198 * L_38 = __this->get_m_TextComponent_21();
 		Vector2_t3525329788  L_39 = V_3;
@@ -33732,7 +33732,7 @@ IL_0100:
 		String_t* L_42 = V_1;
 		TextGenerationSettings_t1897607637  L_43 = V_4;
 		NullCheck(L_41);
-		TextGenerator_Populate_m3147447750(L_41, L_42, L_43, /*hidden argument*/NULL);
+		TextGenerator_Populate_m953583418(L_41, L_42, L_43, /*hidden argument*/NULL);
 		int32_t L_44 = InputField_get_caretSelectPositionInternal_m2541357245(__this, /*hidden argument*/NULL);
 		InputField_SetDrawRangeToContainCaretPosition_m2772169252(__this, L_44, /*hidden argument*/NULL);
 		String_t* L_45 = V_1;
@@ -33742,7 +33742,7 @@ IL_0100:
 		NullCheck(L_48);
 		int32_t L_49 = String_get_Length_m2979997331(L_48, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_50 = Mathf_Min_m2279466087(NULL /*static, unused*/, L_47, L_49, /*hidden argument*/NULL);
+		int32_t L_50 = Mathf_Min_m2413438171(NULL /*static, unused*/, L_47, L_49, /*hidden argument*/NULL);
 		int32_t L_51 = __this->get_m_DrawStart_56();
 		NullCheck(L_45);
 		String_t* L_52 = String_Substring_m675079568(L_45, L_46, ((int32_t)((int32_t)L_50-(int32_t)L_51)), /*hidden argument*/NULL);
@@ -33837,15 +33837,15 @@ extern "C"  int32_t InputField_GetLineStartPosition_m1032176150 (Il2CppObject * 
 		int32_t L_0 = ___line;
 		TextGenerator_t2883685459 * L_1 = ___gen;
 		NullCheck(L_1);
-		Il2CppObject* L_2 = TextGenerator_get_lines_m760566796(L_1, /*hidden argument*/NULL);
+		Il2CppObject* L_2 = TextGenerator_get_lines_m3197542168(L_1, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		int32_t L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.UILineInfo>::get_Count() */, ICollection_1_t622752669_il2cpp_TypeInfo_var, L_2);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_4 = Mathf_Clamp_m4032346681(NULL /*static, unused*/, L_0, 0, ((int32_t)((int32_t)L_3-(int32_t)1)), /*hidden argument*/NULL);
+		int32_t L_4 = Mathf_Clamp_m510460741(NULL /*static, unused*/, L_0, 0, ((int32_t)((int32_t)L_3-(int32_t)1)), /*hidden argument*/NULL);
 		___line = L_4;
 		TextGenerator_t2883685459 * L_5 = ___gen;
 		NullCheck(L_5);
-		Il2CppObject* L_6 = TextGenerator_get_lines_m760566796(L_5, /*hidden argument*/NULL);
+		Il2CppObject* L_6 = TextGenerator_get_lines_m3197542168(L_5, /*hidden argument*/NULL);
 		int32_t L_7 = ___line;
 		NullCheck(L_6);
 		UILineInfo_t156921283  L_8 = InterfaceFuncInvoker1< UILineInfo_t156921283 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::get_Item(System.Int32) */, IList_1_t2323413597_il2cpp_TypeInfo_var, L_6, L_7);
@@ -33872,12 +33872,12 @@ extern "C"  int32_t InputField_GetLineEndPosition_m293479951 (Il2CppObject * __t
 	{
 		int32_t L_0 = ___line;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_1 = Mathf_Max_m2777221653(NULL /*static, unused*/, L_0, 0, /*hidden argument*/NULL);
+		int32_t L_1 = Mathf_Max_m2911193737(NULL /*static, unused*/, L_0, 0, /*hidden argument*/NULL);
 		___line = L_1;
 		int32_t L_2 = ___line;
 		TextGenerator_t2883685459 * L_3 = ___gen;
 		NullCheck(L_3);
-		Il2CppObject* L_4 = TextGenerator_get_lines_m760566796(L_3, /*hidden argument*/NULL);
+		Il2CppObject* L_4 = TextGenerator_get_lines_m3197542168(L_3, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		int32_t L_5 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.UILineInfo>::get_Count() */, ICollection_1_t622752669_il2cpp_TypeInfo_var, L_4);
 		if ((((int32_t)((int32_t)((int32_t)L_2+(int32_t)1))) >= ((int32_t)L_5)))
@@ -33888,7 +33888,7 @@ extern "C"  int32_t InputField_GetLineEndPosition_m293479951 (Il2CppObject * __t
 	{
 		TextGenerator_t2883685459 * L_6 = ___gen;
 		NullCheck(L_6);
-		Il2CppObject* L_7 = TextGenerator_get_lines_m760566796(L_6, /*hidden argument*/NULL);
+		Il2CppObject* L_7 = TextGenerator_get_lines_m3197542168(L_6, /*hidden argument*/NULL);
 		int32_t L_8 = ___line;
 		NullCheck(L_7);
 		UILineInfo_t156921283  L_9 = InterfaceFuncInvoker1< UILineInfo_t156921283 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::get_Item(System.Int32) */, IList_1_t2323413597_il2cpp_TypeInfo_var, L_7, ((int32_t)((int32_t)L_8+(int32_t)1)));
@@ -33901,7 +33901,7 @@ IL_0035:
 	{
 		TextGenerator_t2883685459 * L_11 = ___gen;
 		NullCheck(L_11);
-		int32_t L_12 = TextGenerator_get_characterCountVisible_m178217832(L_11, /*hidden argument*/NULL);
+		int32_t L_12 = TextGenerator_get_characterCountVisible_m2621262708(L_11, /*hidden argument*/NULL);
 		return L_12;
 	}
 }
@@ -33961,7 +33961,7 @@ extern "C"  void InputField_SetDrawRangeToContainCaretPosition_m2772169252 (Inpu
 	{
 		TextGenerator_t2883685459 * L_0 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		int32_t L_1 = TextGenerator_get_lineCount_m1349960567(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = TextGenerator_get_lineCount_m3121044867(L_0, /*hidden argument*/NULL);
 		if ((((int32_t)L_1) > ((int32_t)0)))
 		{
 			goto IL_0012;
@@ -33975,9 +33975,9 @@ IL_0012:
 	{
 		TextGenerator_t2883685459 * L_2 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		Rect_t1525428817  L_3 = TextGenerator_get_rectExtents_m2334752181(L_2, /*hidden argument*/NULL);
+		Rect_t1525428817  L_3 = TextGenerator_get_rectExtents_m2200526529(L_2, /*hidden argument*/NULL);
 		V_12 = L_3;
-		Vector2_t3525329788  L_4 = Rect_get_size_m2266442540((&V_12), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_4 = Rect_get_size_m136480416((&V_12), /*hidden argument*/NULL);
 		V_0 = L_4;
 		bool L_5 = InputField_get_multiLine_m2265790891(__this, /*hidden argument*/NULL);
 		if (!L_5)
@@ -33988,7 +33988,7 @@ IL_0012:
 	{
 		TextGenerator_t2883685459 * L_6 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		Il2CppObject* L_7 = TextGenerator_get_lines_m760566796(L_6, /*hidden argument*/NULL);
+		Il2CppObject* L_7 = TextGenerator_get_lines_m3197542168(L_6, /*hidden argument*/NULL);
 		V_1 = L_7;
 		int32_t L_8 = ___caretPos;
 		TextGenerator_t2883685459 * L_9 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
@@ -34228,12 +34228,12 @@ IL_0217:
 	{
 		TextGenerator_t2883685459 * L_88 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_88);
-		Il2CppObject* L_89 = TextGenerator_get_characters_m2895351165(L_88, /*hidden argument*/NULL);
+		Il2CppObject* L_89 = TextGenerator_get_characters_m3420670449(L_88, /*hidden argument*/NULL);
 		V_10 = L_89;
 		int32_t L_90 = __this->get_m_DrawEnd_57();
 		TextGenerator_t2883685459 * L_91 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_91);
-		int32_t L_92 = TextGenerator_get_characterCountVisible_m178217832(L_91, /*hidden argument*/NULL);
+		int32_t L_92 = TextGenerator_get_characterCountVisible_m2621262708(L_91, /*hidden argument*/NULL);
 		if ((((int32_t)L_90) <= ((int32_t)L_92)))
 		{
 			goto IL_024b;
@@ -34242,7 +34242,7 @@ IL_0217:
 	{
 		TextGenerator_t2883685459 * L_93 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_93);
-		int32_t L_94 = TextGenerator_get_characterCountVisible_m178217832(L_93, /*hidden argument*/NULL);
+		int32_t L_94 = TextGenerator_get_characterCountVisible_m2621262708(L_93, /*hidden argument*/NULL);
 		__this->set_m_DrawEnd_57(L_94);
 	}
 
@@ -34387,7 +34387,7 @@ IL_0362:
 		int32_t L_128 = __this->get_m_DrawEnd_57();
 		TextGenerator_t2883685459 * L_129 = InputField_get_cachedInputTextGenerator_m1093502060(__this, /*hidden argument*/NULL);
 		NullCheck(L_129);
-		int32_t L_130 = TextGenerator_get_characterCountVisible_m178217832(L_129, /*hidden argument*/NULL);
+		int32_t L_130 = TextGenerator_get_characterCountVisible_m2621262708(L_129, /*hidden argument*/NULL);
 		if ((((int32_t)L_128) < ((int32_t)L_130)))
 		{
 			goto IL_0326;
@@ -34498,7 +34498,7 @@ extern "C"  void InputField_UpdateGeometry_m3381617668 (InputField_t2345609593 *
 IL_000c:
 	{
 		CanvasRenderer_t3626201768 * L_1 = __this->get_m_CachedInputRenderer_46();
-		bool L_2 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_00c7;
@@ -34506,45 +34506,45 @@ IL_000c:
 	}
 	{
 		Text_t3286458198 * L_3 = __this->get_m_TextComponent_21();
-		bool L_4 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_00c7;
 		}
 	}
 	{
-		Transform_t284553113 * L_5 = Component_get_transform_m243597671(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_5 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		String_t* L_6 = Object_get_name_m2949537241(L_5, /*hidden argument*/NULL);
+		String_t* L_6 = Object_get_name_m3709440845(L_5, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_7 = String_Concat_m138640077(NULL /*static, unused*/, L_6, _stringLiteral3986700109, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_8 = (GameObject_t4012695102 *)il2cpp_codegen_object_new(GameObject_t4012695102_il2cpp_TypeInfo_var);
-		GameObject__ctor_m556827858(L_8, L_7, /*hidden argument*/NULL);
+		GameObject__ctor_m3920833606(L_8, L_7, /*hidden argument*/NULL);
 		V_0 = L_8;
 		GameObject_t4012695102 * L_9 = V_0;
 		NullCheck(L_9);
-		Object_set_hideFlags_m1616337884(L_9, ((int32_t)52), /*hidden argument*/NULL);
+		Object_set_hideFlags_m41317712(L_9, ((int32_t)52), /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_10 = V_0;
 		NullCheck(L_10);
-		Transform_t284553113 * L_11 = GameObject_get_transform_m1412865811(L_10, /*hidden argument*/NULL);
+		Transform_t284553113 * L_11 = GameObject_get_transform_m1278640159(L_10, /*hidden argument*/NULL);
 		Text_t3286458198 * L_12 = __this->get_m_TextComponent_21();
 		NullCheck(L_12);
-		Transform_t284553113 * L_13 = Component_get_transform_m243597671(L_12, /*hidden argument*/NULL);
+		Transform_t284553113 * L_13 = Component_get_transform_m4257140443(L_12, /*hidden argument*/NULL);
 		NullCheck(L_13);
-		Transform_t284553113 * L_14 = Transform_get_parent_m1031913888(L_13, /*hidden argument*/NULL);
+		Transform_t284553113 * L_14 = Transform_get_parent_m2236876972(L_13, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		Transform_SetParent_m1006618586(L_11, L_14, /*hidden argument*/NULL);
+		Transform_SetParent_m3449663462(L_11, L_14, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_15 = V_0;
 		NullCheck(L_15);
-		Transform_t284553113 * L_16 = GameObject_get_transform_m1412865811(L_15, /*hidden argument*/NULL);
+		Transform_t284553113 * L_16 = GameObject_get_transform_m1278640159(L_15, /*hidden argument*/NULL);
 		NullCheck(L_16);
-		Transform_SetAsFirstSibling_m1273301853(L_16, /*hidden argument*/NULL);
+		Transform_SetAsFirstSibling_m1746075601(L_16, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_17 = V_0;
-		GameObject_t4012695102 * L_18 = Component_get_gameObject_m1036663815(__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_18 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
 		NullCheck(L_18);
-		int32_t L_19 = GameObject_get_layer_m3778512430(L_18, /*hidden argument*/NULL);
+		int32_t L_19 = GameObject_get_layer_m1648550306(L_18, /*hidden argument*/NULL);
 		NullCheck(L_17);
-		GameObject_set_layer_m3543887731(L_17, L_19, /*hidden argument*/NULL);
+		GameObject_set_layer_m1872241535(L_17, L_19, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_20 = V_0;
 		NullCheck(L_20);
 		RectTransform_t3317474837 * L_21 = GameObject_AddComponent_TisRectTransform_t3317474837_m3846759000(L_20, /*hidden argument*/GameObject_AddComponent_TisRectTransform_t3317474837_m3846759000_MethodInfo_var);
@@ -34556,9 +34556,9 @@ IL_000c:
 		CanvasRenderer_t3626201768 * L_24 = __this->get_m_CachedInputRenderer_46();
 		IL2CPP_RUNTIME_CLASS_INIT(Graphic_t933884113_il2cpp_TypeInfo_var);
 		Material_t1886596500 * L_25 = Graphic_get_defaultGraphicMaterial_m456140641(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Texture2D_t2509538522 * L_26 = Texture2D_get_whiteTexture_m1355979434(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_26 = Texture2D_get_whiteTexture_m1214146742(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_24);
-		CanvasRenderer_SetMaterial_m2704672343(L_24, L_25, L_26, /*hidden argument*/NULL);
+		CanvasRenderer_SetMaterial_m1603188579(L_24, L_25, L_26, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_27 = V_0;
 		NullCheck(L_27);
 		LayoutElement_t2655817307 * L_28 = GameObject_AddComponent_TisLayoutElement_t2655817307_m1822846278(L_27, /*hidden argument*/GameObject_AddComponent_TisLayoutElement_t2655817307_m1822846278_MethodInfo_var);
@@ -34570,7 +34570,7 @@ IL_000c:
 IL_00c7:
 	{
 		CanvasRenderer_t3626201768 * L_29 = __this->get_m_CachedInputRenderer_46();
-		bool L_30 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_29, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_30 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_29, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_30)
 		{
 			goto IL_00d9;
@@ -34587,7 +34587,7 @@ IL_00d9:
 		CanvasRenderer_t3626201768 * L_32 = __this->get_m_CachedInputRenderer_46();
 		Mesh_t1525280346 * L_33 = InputField_get_mesh_m2359671532(__this, /*hidden argument*/NULL);
 		NullCheck(L_32);
-		CanvasRenderer_SetMesh_m12812015(L_32, L_33, /*hidden argument*/NULL);
+		CanvasRenderer_SetMesh_m1150548475(L_32, L_33, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -34596,7 +34596,7 @@ extern "C"  void InputField_AssignPositioningIfNeeded_m20735637 (InputField_t234
 {
 	{
 		Text_t3286458198 * L_0 = __this->get_m_TextComponent_21();
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0222;
@@ -34604,7 +34604,7 @@ extern "C"  void InputField_AssignPositioningIfNeeded_m20735637 (InputField_t234
 	}
 	{
 		RectTransform_t3317474837 * L_2 = __this->get_caretRectTrans_43();
-		bool L_3 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0222;
@@ -34613,13 +34613,13 @@ extern "C"  void InputField_AssignPositioningIfNeeded_m20735637 (InputField_t234
 	{
 		RectTransform_t3317474837 * L_4 = __this->get_caretRectTrans_43();
 		NullCheck(L_4);
-		Vector3_t3525329789  L_5 = Transform_get_localPosition_m534168700(L_4, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_5 = Transform_get_localPosition_m668140784(L_4, /*hidden argument*/NULL);
 		Text_t3286458198 * L_6 = __this->get_m_TextComponent_21();
 		NullCheck(L_6);
 		RectTransform_t3317474837 * L_7 = Graphic_get_rectTransform_m4017371950(L_6, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		Vector3_t3525329789  L_8 = Transform_get_localPosition_m534168700(L_7, /*hidden argument*/NULL);
-		bool L_9 = Vector3_op_Inequality_m3866813934(NULL /*static, unused*/, L_5, L_8, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_8 = Transform_get_localPosition_m668140784(L_7, /*hidden argument*/NULL);
+		bool L_9 = Vector3_op_Inequality_m231387234(NULL /*static, unused*/, L_5, L_8, /*hidden argument*/NULL);
 		if (L_9)
 		{
 			goto IL_014a;
@@ -34628,13 +34628,13 @@ extern "C"  void InputField_AssignPositioningIfNeeded_m20735637 (InputField_t234
 	{
 		RectTransform_t3317474837 * L_10 = __this->get_caretRectTrans_43();
 		NullCheck(L_10);
-		Quaternion_t1891715979  L_11 = Transform_get_localRotation_m2205492921(L_10, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_11 = Transform_get_localRotation_m3343229381(L_10, /*hidden argument*/NULL);
 		Text_t3286458198 * L_12 = __this->get_m_TextComponent_21();
 		NullCheck(L_12);
 		RectTransform_t3317474837 * L_13 = Graphic_get_rectTransform_m4017371950(L_12, /*hidden argument*/NULL);
 		NullCheck(L_13);
-		Quaternion_t1891715979  L_14 = Transform_get_localRotation_m2205492921(L_13, /*hidden argument*/NULL);
-		bool L_15 = Quaternion_op_Inequality_m3021103574(NULL /*static, unused*/, L_11, L_14, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_14 = Transform_get_localRotation_m3343229381(L_13, /*hidden argument*/NULL);
+		bool L_15 = Quaternion_op_Inequality_m4197259746(NULL /*static, unused*/, L_11, L_14, /*hidden argument*/NULL);
 		if (L_15)
 		{
 			goto IL_014a;
@@ -34643,13 +34643,13 @@ extern "C"  void InputField_AssignPositioningIfNeeded_m20735637 (InputField_t234
 	{
 		RectTransform_t3317474837 * L_16 = __this->get_caretRectTrans_43();
 		NullCheck(L_16);
-		Vector3_t3525329789  L_17 = Transform_get_localScale_m1263251577(L_16, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_17 = Transform_get_localScale_m3886572677(L_16, /*hidden argument*/NULL);
 		Text_t3286458198 * L_18 = __this->get_m_TextComponent_21();
 		NullCheck(L_18);
 		RectTransform_t3317474837 * L_19 = Graphic_get_rectTransform_m4017371950(L_18, /*hidden argument*/NULL);
 		NullCheck(L_19);
-		Vector3_t3525329789  L_20 = Transform_get_localScale_m1263251577(L_19, /*hidden argument*/NULL);
-		bool L_21 = Vector3_op_Inequality_m3866813934(NULL /*static, unused*/, L_17, L_20, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_20 = Transform_get_localScale_m3886572677(L_19, /*hidden argument*/NULL);
+		bool L_21 = Vector3_op_Inequality_m231387234(NULL /*static, unused*/, L_17, L_20, /*hidden argument*/NULL);
 		if (L_21)
 		{
 			goto IL_014a;
@@ -34658,13 +34658,13 @@ extern "C"  void InputField_AssignPositioningIfNeeded_m20735637 (InputField_t234
 	{
 		RectTransform_t3317474837 * L_22 = __this->get_caretRectTrans_43();
 		NullCheck(L_22);
-		Vector2_t3525329788  L_23 = RectTransform_get_anchorMin_m554702090(L_22, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_23 = RectTransform_get_anchorMin_m688674174(L_22, /*hidden argument*/NULL);
 		Text_t3286458198 * L_24 = __this->get_m_TextComponent_21();
 		NullCheck(L_24);
 		RectTransform_t3317474837 * L_25 = Graphic_get_rectTransform_m4017371950(L_24, /*hidden argument*/NULL);
 		NullCheck(L_25);
-		Vector2_t3525329788  L_26 = RectTransform_get_anchorMin_m554702090(L_25, /*hidden argument*/NULL);
-		bool L_27 = Vector2_op_Inequality_m979444271(NULL /*static, unused*/, L_23, L_26, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_26 = RectTransform_get_anchorMin_m688674174(L_25, /*hidden argument*/NULL);
+		bool L_27 = Vector2_op_Inequality_m1638984867(NULL /*static, unused*/, L_23, L_26, /*hidden argument*/NULL);
 		if (L_27)
 		{
 			goto IL_014a;
@@ -34673,13 +34673,13 @@ extern "C"  void InputField_AssignPositioningIfNeeded_m20735637 (InputField_t234
 	{
 		RectTransform_t3317474837 * L_28 = __this->get_caretRectTrans_43();
 		NullCheck(L_28);
-		Vector2_t3525329788  L_29 = RectTransform_get_anchorMax_m554473372(L_28, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_29 = RectTransform_get_anchorMax_m688445456(L_28, /*hidden argument*/NULL);
 		Text_t3286458198 * L_30 = __this->get_m_TextComponent_21();
 		NullCheck(L_30);
 		RectTransform_t3317474837 * L_31 = Graphic_get_rectTransform_m4017371950(L_30, /*hidden argument*/NULL);
 		NullCheck(L_31);
-		Vector2_t3525329788  L_32 = RectTransform_get_anchorMax_m554473372(L_31, /*hidden argument*/NULL);
-		bool L_33 = Vector2_op_Inequality_m979444271(NULL /*static, unused*/, L_29, L_32, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_32 = RectTransform_get_anchorMax_m688445456(L_31, /*hidden argument*/NULL);
+		bool L_33 = Vector2_op_Inequality_m1638984867(NULL /*static, unused*/, L_29, L_32, /*hidden argument*/NULL);
 		if (L_33)
 		{
 			goto IL_014a;
@@ -34688,13 +34688,13 @@ extern "C"  void InputField_AssignPositioningIfNeeded_m20735637 (InputField_t234
 	{
 		RectTransform_t3317474837 * L_34 = __this->get_caretRectTrans_43();
 		NullCheck(L_34);
-		Vector2_t3525329788  L_35 = RectTransform_get_anchoredPosition_m3899441074(L_34, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_35 = RectTransform_get_anchoredPosition_m2318455998(L_34, /*hidden argument*/NULL);
 		Text_t3286458198 * L_36 = __this->get_m_TextComponent_21();
 		NullCheck(L_36);
 		RectTransform_t3317474837 * L_37 = Graphic_get_rectTransform_m4017371950(L_36, /*hidden argument*/NULL);
 		NullCheck(L_37);
-		Vector2_t3525329788  L_38 = RectTransform_get_anchoredPosition_m3899441074(L_37, /*hidden argument*/NULL);
-		bool L_39 = Vector2_op_Inequality_m979444271(NULL /*static, unused*/, L_35, L_38, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_38 = RectTransform_get_anchoredPosition_m2318455998(L_37, /*hidden argument*/NULL);
+		bool L_39 = Vector2_op_Inequality_m1638984867(NULL /*static, unused*/, L_35, L_38, /*hidden argument*/NULL);
 		if (L_39)
 		{
 			goto IL_014a;
@@ -34703,13 +34703,13 @@ extern "C"  void InputField_AssignPositioningIfNeeded_m20735637 (InputField_t234
 	{
 		RectTransform_t3317474837 * L_40 = __this->get_caretRectTrans_43();
 		NullCheck(L_40);
-		Vector2_t3525329788  L_41 = RectTransform_get_sizeDelta_m4145452900(L_40, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_41 = RectTransform_get_sizeDelta_m4279424984(L_40, /*hidden argument*/NULL);
 		Text_t3286458198 * L_42 = __this->get_m_TextComponent_21();
 		NullCheck(L_42);
 		RectTransform_t3317474837 * L_43 = Graphic_get_rectTransform_m4017371950(L_42, /*hidden argument*/NULL);
 		NullCheck(L_43);
-		Vector2_t3525329788  L_44 = RectTransform_get_sizeDelta_m4145452900(L_43, /*hidden argument*/NULL);
-		bool L_45 = Vector2_op_Inequality_m979444271(NULL /*static, unused*/, L_41, L_44, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_44 = RectTransform_get_sizeDelta_m4279424984(L_43, /*hidden argument*/NULL);
+		bool L_45 = Vector2_op_Inequality_m1638984867(NULL /*static, unused*/, L_41, L_44, /*hidden argument*/NULL);
 		if (L_45)
 		{
 			goto IL_014a;
@@ -34718,13 +34718,13 @@ extern "C"  void InputField_AssignPositioningIfNeeded_m20735637 (InputField_t234
 	{
 		RectTransform_t3317474837 * L_46 = __this->get_caretRectTrans_43();
 		NullCheck(L_46);
-		Vector2_t3525329788  L_47 = RectTransform_get_pivot_m791453359(L_46, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_47 = RectTransform_get_pivot_m3785570595(L_46, /*hidden argument*/NULL);
 		Text_t3286458198 * L_48 = __this->get_m_TextComponent_21();
 		NullCheck(L_48);
 		RectTransform_t3317474837 * L_49 = Graphic_get_rectTransform_m4017371950(L_48, /*hidden argument*/NULL);
 		NullCheck(L_49);
-		Vector2_t3525329788  L_50 = RectTransform_get_pivot_m791453359(L_49, /*hidden argument*/NULL);
-		bool L_51 = Vector2_op_Inequality_m979444271(NULL /*static, unused*/, L_47, L_50, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_50 = RectTransform_get_pivot_m3785570595(L_49, /*hidden argument*/NULL);
+		bool L_51 = Vector2_op_Inequality_m1638984867(NULL /*static, unused*/, L_47, L_50, /*hidden argument*/NULL);
 		if (!L_51)
 		{
 			goto IL_0222;
@@ -34738,65 +34738,65 @@ IL_014a:
 		NullCheck(L_53);
 		RectTransform_t3317474837 * L_54 = Graphic_get_rectTransform_m4017371950(L_53, /*hidden argument*/NULL);
 		NullCheck(L_54);
-		Vector3_t3525329789  L_55 = Transform_get_localPosition_m534168700(L_54, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_55 = Transform_get_localPosition_m668140784(L_54, /*hidden argument*/NULL);
 		NullCheck(L_52);
-		Transform_set_localPosition_m2290428299(L_52, L_55, /*hidden argument*/NULL);
+		Transform_set_localPosition_m3504330903(L_52, L_55, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_56 = __this->get_caretRectTrans_43();
 		Text_t3286458198 * L_57 = __this->get_m_TextComponent_21();
 		NullCheck(L_57);
 		RectTransform_t3317474837 * L_58 = Graphic_get_rectTransform_m4017371950(L_57, /*hidden argument*/NULL);
 		NullCheck(L_58);
-		Quaternion_t1891715979  L_59 = Transform_get_localRotation_m2205492921(L_58, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_59 = Transform_get_localRotation_m3343229381(L_58, /*hidden argument*/NULL);
 		NullCheck(L_56);
-		Transform_set_localRotation_m3972138030(L_56, L_59, /*hidden argument*/NULL);
+		Transform_set_localRotation_m3719981474(L_56, L_59, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_60 = __this->get_caretRectTrans_43();
 		Text_t3286458198 * L_61 = __this->get_m_TextComponent_21();
 		NullCheck(L_61);
 		RectTransform_t3317474837 * L_62 = Graphic_get_rectTransform_m4017371950(L_61, /*hidden argument*/NULL);
 		NullCheck(L_62);
-		Vector3_t3525329789  L_63 = Transform_get_localScale_m1263251577(L_62, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_63 = Transform_get_localScale_m3886572677(L_62, /*hidden argument*/NULL);
 		NullCheck(L_60);
-		Transform_set_localScale_m2076654034(L_60, L_63, /*hidden argument*/NULL);
+		Transform_set_localScale_m310756934(L_60, L_63, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_64 = __this->get_caretRectTrans_43();
 		Text_t3286458198 * L_65 = __this->get_m_TextComponent_21();
 		NullCheck(L_65);
 		RectTransform_t3317474837 * L_66 = Graphic_get_rectTransform_m4017371950(L_65, /*hidden argument*/NULL);
 		NullCheck(L_66);
-		Vector2_t3525329788  L_67 = RectTransform_get_anchorMin_m554702090(L_66, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_67 = RectTransform_get_anchorMin_m688674174(L_66, /*hidden argument*/NULL);
 		NullCheck(L_64);
-		RectTransform_set_anchorMin_m4070318175(L_64, L_67, /*hidden argument*/NULL);
+		RectTransform_set_anchorMin_m989253483(L_64, L_67, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_68 = __this->get_caretRectTrans_43();
 		Text_t3286458198 * L_69 = __this->get_m_TextComponent_21();
 		NullCheck(L_69);
 		RectTransform_t3317474837 * L_70 = Graphic_get_rectTransform_m4017371950(L_69, /*hidden argument*/NULL);
 		NullCheck(L_70);
-		Vector2_t3525329788  L_71 = RectTransform_get_anchorMax_m554473372(L_70, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_71 = RectTransform_get_anchorMax_m688445456(L_70, /*hidden argument*/NULL);
 		NullCheck(L_68);
-		RectTransform_set_anchorMax_m3796410509(L_68, L_71, /*hidden argument*/NULL);
+		RectTransform_set_anchorMax_m715345817(L_68, L_71, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_72 = __this->get_caretRectTrans_43();
 		Text_t3286458198 * L_73 = __this->get_m_TextComponent_21();
 		NullCheck(L_73);
 		RectTransform_t3317474837 * L_74 = Graphic_get_rectTransform_m4017371950(L_73, /*hidden argument*/NULL);
 		NullCheck(L_74);
-		Vector2_t3525329788  L_75 = RectTransform_get_anchoredPosition_m3899441074(L_74, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_75 = RectTransform_get_anchoredPosition_m2318455998(L_74, /*hidden argument*/NULL);
 		NullCheck(L_72);
-		RectTransform_set_anchoredPosition_m246914553(L_72, L_75, /*hidden argument*/NULL);
+		RectTransform_set_anchoredPosition_m1498949997(L_72, L_75, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_76 = __this->get_caretRectTrans_43();
 		Text_t3286458198 * L_77 = __this->get_m_TextComponent_21();
 		NullCheck(L_77);
 		RectTransform_t3317474837 * L_78 = Graphic_get_rectTransform_m4017371950(L_77, /*hidden argument*/NULL);
 		NullCheck(L_78);
-		Vector2_t3525329788  L_79 = RectTransform_get_sizeDelta_m4145452900(L_78, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_79 = RectTransform_get_sizeDelta_m4279424984(L_78, /*hidden argument*/NULL);
 		NullCheck(L_76);
-		RectTransform_set_sizeDelta_m9944005(L_76, L_79, /*hidden argument*/NULL);
+		RectTransform_set_sizeDelta_m1223846609(L_76, L_79, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_80 = __this->get_caretRectTrans_43();
 		Text_t3286458198 * L_81 = __this->get_m_TextComponent_21();
 		NullCheck(L_81);
 		RectTransform_t3317474837 * L_82 = Graphic_get_rectTransform_m4017371950(L_81, /*hidden argument*/NULL);
 		NullCheck(L_82);
-		Vector2_t3525329788  L_83 = RectTransform_get_pivot_m791453359(L_82, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_83 = RectTransform_get_pivot_m3785570595(L_82, /*hidden argument*/NULL);
 		NullCheck(L_80);
-		RectTransform_set_pivot_m2038329882(L_80, L_83, /*hidden argument*/NULL);
+		RectTransform_set_pivot_m457344806(L_80, L_83, /*hidden argument*/NULL);
 	}
 
 IL_0222:
@@ -34869,9 +34869,9 @@ IL_001d:
 			NullCheck(L_4);
 			RectTransform_t3317474837 * L_5 = Graphic_get_rectTransform_m4017371950(L_4, /*hidden argument*/NULL);
 			NullCheck(L_5);
-			Rect_t1525428817  L_6 = RectTransform_get_rect_m1093243288(L_5, /*hidden argument*/NULL);
+			Rect_t1525428817  L_6 = RectTransform_get_rect_m1566017036(L_5, /*hidden argument*/NULL);
 			V_1 = L_6;
-			Vector2_t3525329788  L_7 = Rect_get_size_m2266442540((&V_1), /*hidden argument*/NULL);
+			Vector2_t3525329788  L_7 = Rect_get_size_m136480416((&V_1), /*hidden argument*/NULL);
 			V_2 = L_7;
 			Text_t3286458198 * L_8 = __this->get_m_TextComponent_21();
 			NullCheck(L_8);
@@ -34879,18 +34879,18 @@ IL_001d:
 			IL2CPP_RUNTIME_CLASS_INIT(Text_t3286458198_il2cpp_TypeInfo_var);
 			Vector2_t3525329788  L_10 = Text_GetTextAnchorPivot_m7192668(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
 			V_3 = L_10;
-			Vector2_t3525329788  L_11 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+			Vector2_t3525329788  L_11 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 			V_4 = L_11;
-			float L_12 = Rect_get_xMin_m2153557462((&V_1), /*hidden argument*/NULL);
-			float L_13 = Rect_get_xMax_m2153328744((&V_1), /*hidden argument*/NULL);
+			float L_12 = Rect_get_xMin_m371109962((&V_1), /*hidden argument*/NULL);
+			float L_13 = Rect_get_xMax_m370881244((&V_1), /*hidden argument*/NULL);
 			float L_14 = (&V_3)->get_x_1();
 			IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-			float L_15 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_12, L_13, L_14, /*hidden argument*/NULL);
+			float L_15 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_12, L_13, L_14, /*hidden argument*/NULL);
 			(&V_4)->set_x_1(L_15);
-			float L_16 = Rect_get_yMin_m2182186613((&V_1), /*hidden argument*/NULL);
-			float L_17 = Rect_get_yMax_m2181957895((&V_1), /*hidden argument*/NULL);
+			float L_16 = Rect_get_yMin_m399739113((&V_1), /*hidden argument*/NULL);
+			float L_17 = Rect_get_yMax_m399510395((&V_1), /*hidden argument*/NULL);
 			float L_18 = (&V_3)->get_y_2();
-			float L_19 = Mathf_Lerp_m2005742189(NULL /*static, unused*/, L_16, L_17, L_18, /*hidden argument*/NULL);
+			float L_19 = Mathf_Lerp_m3257777633(NULL /*static, unused*/, L_16, L_17, L_18, /*hidden argument*/NULL);
 			(&V_4)->set_y_2(L_19);
 			Text_t3286458198 * L_20 = __this->get_m_TextComponent_21();
 			Vector2_t3525329788  L_21 = V_4;
@@ -34899,11 +34899,11 @@ IL_001d:
 			V_5 = L_22;
 			Vector2_t3525329788  L_23 = V_5;
 			Vector2_t3525329788  L_24 = V_4;
-			Vector2_t3525329788  L_25 = Vector2_op_Subtraction_m2849821285(NULL /*static, unused*/, L_23, L_24, /*hidden argument*/NULL);
+			Vector2_t3525329788  L_25 = Vector2_op_Subtraction_m2097149401(NULL /*static, unused*/, L_23, L_24, /*hidden argument*/NULL);
 			Vector2_t3525329788  L_26 = V_2;
 			Vector2_t3525329788  L_27 = V_3;
-			Vector2_t3525329788  L_28 = Vector2_Scale_m2435269077(NULL /*static, unused*/, L_26, L_27, /*hidden argument*/NULL);
-			Vector2_t3525329788  L_29 = Vector2_op_Addition_m2274533317(NULL /*static, unused*/, L_25, L_28, /*hidden argument*/NULL);
+			Vector2_t3525329788  L_28 = Vector2_Scale_m1743563745(NULL /*static, unused*/, L_26, L_27, /*hidden argument*/NULL);
+			Vector2_t3525329788  L_29 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_25, L_28, /*hidden argument*/NULL);
 			V_6 = L_29;
 			float L_30 = (&V_6)->get_x_1();
 			float L_31 = (&V_6)->get_x_1();
@@ -35050,7 +35050,7 @@ IL_001d:
 		int32_t L_3 = InputField_get_caretPositionInternal_m1805548065(__this, /*hidden argument*/NULL);
 		int32_t L_4 = __this->get_m_DrawStart_56();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_5 = Mathf_Max_m2777221653(NULL /*static, unused*/, 0, ((int32_t)((int32_t)L_3-(int32_t)L_4)), /*hidden argument*/NULL);
+		int32_t L_5 = Mathf_Max_m2911193737(NULL /*static, unused*/, 0, ((int32_t)((int32_t)L_3-(int32_t)L_4)), /*hidden argument*/NULL);
 		V_1 = L_5;
 		Text_t3286458198 * L_6 = __this->get_m_TextComponent_21();
 		NullCheck(L_6);
@@ -35070,7 +35070,7 @@ IL_004c:
 	{
 		TextGenerator_t2883685459 * L_9 = V_2;
 		NullCheck(L_9);
-		int32_t L_10 = TextGenerator_get_lineCount_m1349960567(L_9, /*hidden argument*/NULL);
+		int32_t L_10 = TextGenerator_get_lineCount_m3121044867(L_9, /*hidden argument*/NULL);
 		if (L_10)
 		{
 			goto IL_0058;
@@ -35082,12 +35082,12 @@ IL_004c:
 
 IL_0058:
 	{
-		Vector2_t3525329788  L_11 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_11 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_3 = L_11;
 		int32_t L_12 = V_1;
 		TextGenerator_t2883685459 * L_13 = V_2;
 		NullCheck(L_13);
-		Il2CppObject* L_14 = TextGenerator_get_characters_m2895351165(L_13, /*hidden argument*/NULL);
+		Il2CppObject* L_14 = TextGenerator_get_characters_m3420670449(L_13, /*hidden argument*/NULL);
 		NullCheck(L_14);
 		int32_t L_15 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.UICharInfo>::get_Count() */, ICollection_1_t869651967_il2cpp_TypeInfo_var, L_14);
 		if ((((int32_t)L_12) >= ((int32_t)L_15)))
@@ -35098,7 +35098,7 @@ IL_0058:
 	{
 		TextGenerator_t2883685459 * L_16 = V_2;
 		NullCheck(L_16);
-		Il2CppObject* L_17 = TextGenerator_get_characters_m2895351165(L_16, /*hidden argument*/NULL);
+		Il2CppObject* L_17 = TextGenerator_get_characters_m3420670449(L_16, /*hidden argument*/NULL);
 		int32_t L_18 = V_1;
 		NullCheck(L_17);
 		UICharInfo_t403820581  L_19 = InterfaceFuncInvoker1< UICharInfo_t403820581 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UICharInfo>::get_Item(System.Int32) */, IList_1_t2570312895_il2cpp_TypeInfo_var, L_17, L_18);
@@ -35121,9 +35121,9 @@ IL_0090:
 		NullCheck(L_27);
 		RectTransform_t3317474837 * L_28 = Graphic_get_rectTransform_m4017371950(L_27, /*hidden argument*/NULL);
 		NullCheck(L_28);
-		Rect_t1525428817  L_29 = RectTransform_get_rect_m1093243288(L_28, /*hidden argument*/NULL);
+		Rect_t1525428817  L_29 = RectTransform_get_rect_m1566017036(L_28, /*hidden argument*/NULL);
 		V_11 = L_29;
-		float L_30 = Rect_get_xMax_m2153328744((&V_11), /*hidden argument*/NULL);
+		float L_30 = Rect_get_xMax_m370881244((&V_11), /*hidden argument*/NULL);
 		if ((!(((float)L_26) > ((float)L_30))))
 		{
 			goto IL_00ee;
@@ -35134,9 +35134,9 @@ IL_0090:
 		NullCheck(L_31);
 		RectTransform_t3317474837 * L_32 = Graphic_get_rectTransform_m4017371950(L_31, /*hidden argument*/NULL);
 		NullCheck(L_32);
-		Rect_t1525428817  L_33 = RectTransform_get_rect_m1093243288(L_32, /*hidden argument*/NULL);
+		Rect_t1525428817  L_33 = RectTransform_get_rect_m1566017036(L_32, /*hidden argument*/NULL);
 		V_12 = L_33;
-		float L_34 = Rect_get_xMax_m2153328744((&V_12), /*hidden argument*/NULL);
+		float L_34 = Rect_get_xMax_m370881244((&V_12), /*hidden argument*/NULL);
 		(&V_3)->set_x_1(L_34);
 	}
 
@@ -35148,7 +35148,7 @@ IL_00ee:
 		V_5 = L_37;
 		TextGenerator_t2883685459 * L_38 = V_2;
 		NullCheck(L_38);
-		Il2CppObject* L_39 = TextGenerator_get_lines_m760566796(L_38, /*hidden argument*/NULL);
+		Il2CppObject* L_39 = TextGenerator_get_lines_m3197542168(L_38, /*hidden argument*/NULL);
 		int32_t L_40 = V_5;
 		NullCheck(L_39);
 		UILineInfo_t156921283  L_41 = InterfaceFuncInvoker1< UILineInfo_t156921283 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::get_Item(System.Int32) */, IList_1_t2323413597_il2cpp_TypeInfo_var, L_39, L_40);
@@ -35160,7 +35160,7 @@ IL_00ee:
 		(&V_3)->set_y_2(((float)((float)L_42/(float)L_44)));
 		TextGenerator_t2883685459 * L_45 = V_2;
 		NullCheck(L_45);
-		Il2CppObject* L_46 = TextGenerator_get_lines_m760566796(L_45, /*hidden argument*/NULL);
+		Il2CppObject* L_46 = TextGenerator_get_lines_m3197542168(L_45, /*hidden argument*/NULL);
 		int32_t L_47 = V_5;
 		NullCheck(L_46);
 		UILineInfo_t156921283  L_48 = InterfaceFuncInvoker1< UILineInfo_t156921283 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::get_Item(System.Int32) */, IList_1_t2323413597_il2cpp_TypeInfo_var, L_46, L_47);
@@ -35181,7 +35181,7 @@ IL_014e:
 		NullCheck(L_52);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_52, L_53);
 		Color_t1588175760  L_54 = InputField_get_caretColor_m3643265483(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_55 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_54, /*hidden argument*/NULL);
+		Color32_t4137084207  L_55 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_54, /*hidden argument*/NULL);
 		((L_52)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_53)))->set_color_2(L_55);
 		int32_t L_56 = V_7;
 		V_7 = ((int32_t)((int32_t)L_56+(int32_t)1));
@@ -35206,7 +35206,7 @@ IL_0171:
 		float L_62 = V_6;
 		Vector3_t3525329789  L_63;
 		memset(&L_63, 0, sizeof(L_63));
-		Vector3__ctor_m2767817280(&L_63, L_60, ((float)((float)L_61-(float)L_62)), (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380(&L_63, L_60, ((float)((float)L_61-(float)L_62)), (0.0f), /*hidden argument*/NULL);
 		((L_59)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->set_position_0(L_63);
 		UIVertexU5BU5D_t684414504* L_64 = __this->get_m_CursorVerts_44();
 		NullCheck(L_64);
@@ -35217,7 +35217,7 @@ IL_0171:
 		float L_68 = V_6;
 		Vector3_t3525329789  L_69;
 		memset(&L_69, 0, sizeof(L_69));
-		Vector3__ctor_m2767817280(&L_69, ((float)((float)L_65+(float)L_66)), ((float)((float)L_67-(float)L_68)), (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380(&L_69, ((float)((float)L_65+(float)L_66)), ((float)((float)L_67-(float)L_68)), (0.0f), /*hidden argument*/NULL);
 		((L_64)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))->set_position_0(L_69);
 		UIVertexU5BU5D_t684414504* L_70 = __this->get_m_CursorVerts_44();
 		NullCheck(L_70);
@@ -35227,7 +35227,7 @@ IL_0171:
 		float L_73 = (&V_3)->get_y_2();
 		Vector3_t3525329789  L_74;
 		memset(&L_74, 0, sizeof(L_74));
-		Vector3__ctor_m2767817280(&L_74, ((float)((float)L_71+(float)L_72)), L_73, (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380(&L_74, ((float)((float)L_71+(float)L_72)), L_73, (0.0f), /*hidden argument*/NULL);
 		((L_70)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)))->set_position_0(L_74);
 		UIVertexU5BU5D_t684414504* L_75 = __this->get_m_CursorVerts_44();
 		NullCheck(L_75);
@@ -35236,11 +35236,11 @@ IL_0171:
 		float L_77 = (&V_3)->get_y_2();
 		Vector3_t3525329789  L_78;
 		memset(&L_78, 0, sizeof(L_78));
-		Vector3__ctor_m2767817280(&L_78, L_76, L_77, (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380(&L_78, L_76, L_77, (0.0f), /*hidden argument*/NULL);
 		((L_75)->GetAddressAt(static_cast<il2cpp_array_size_t>(3)))->set_position_0(L_78);
 		Vector2_t3525329788  L_79 = ___roundingOffset;
-		Vector2_t3525329788  L_80 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
-		bool L_81 = Vector2_op_Inequality_m979444271(NULL /*static, unused*/, L_79, L_80, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_80 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_81 = Vector2_op_Inequality_m1638984867(NULL /*static, unused*/, L_79, L_80, /*hidden argument*/NULL);
 		if (!L_81)
 		{
 			goto IL_02a3;
@@ -35289,14 +35289,14 @@ IL_02a3:
 		UIVertexU5BU5D_t684414504* L_96 = __this->get_m_CursorVerts_44();
 		NullCheck(L_95);
 		VertexHelper_AddUIVertexQuad_m765809318(L_95, L_96, /*hidden argument*/NULL);
-		int32_t L_97 = Screen_get_height_m3717651495(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_97 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_10 = L_97;
 		int32_t L_98 = V_10;
 		float L_99 = (&V_3)->get_y_2();
 		(&V_3)->set_y_2(((float)((float)(((float)((float)L_98)))-(float)L_99)));
 		Vector2_t3525329788  L_100 = V_3;
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		Input_set_compositionCursorPos_m3477532288(NULL /*static, unused*/, L_100, /*hidden argument*/NULL);
+		Input_set_compositionCursorPos_m3225375732(NULL /*static, unused*/, L_100, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -35332,7 +35332,7 @@ IL_0013:
 		int32_t L_4 = V_0;
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, L_4);
-		Vector2_t3525329788  L_5 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_5 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)))->set_uv0_3(L_5);
 		int32_t L_6 = V_0;
 		V_0 = ((int32_t)((int32_t)L_6+(int32_t)1));
@@ -35399,11 +35399,11 @@ extern "C"  void InputField_GenerateHightlight_m3464703695 (InputField_t23456095
 		int32_t L_0 = InputField_get_caretPositionInternal_m1805548065(__this, /*hidden argument*/NULL);
 		int32_t L_1 = __this->get_m_DrawStart_56();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_2 = Mathf_Max_m2777221653(NULL /*static, unused*/, 0, ((int32_t)((int32_t)L_0-(int32_t)L_1)), /*hidden argument*/NULL);
+		int32_t L_2 = Mathf_Max_m2911193737(NULL /*static, unused*/, 0, ((int32_t)((int32_t)L_0-(int32_t)L_1)), /*hidden argument*/NULL);
 		V_0 = L_2;
 		int32_t L_3 = InputField_get_caretSelectPositionInternal_m2541357245(__this, /*hidden argument*/NULL);
 		int32_t L_4 = __this->get_m_DrawStart_56();
-		int32_t L_5 = Mathf_Max_m2777221653(NULL /*static, unused*/, 0, ((int32_t)((int32_t)L_3-(int32_t)L_4)), /*hidden argument*/NULL);
+		int32_t L_5 = Mathf_Max_m2911193737(NULL /*static, unused*/, 0, ((int32_t)((int32_t)L_3-(int32_t)L_4)), /*hidden argument*/NULL);
 		V_1 = L_5;
 		int32_t L_6 = V_0;
 		int32_t L_7 = V_1;
@@ -35431,7 +35431,7 @@ IL_0035:
 		V_3 = L_13;
 		TextGenerator_t2883685459 * L_14 = V_3;
 		NullCheck(L_14);
-		int32_t L_15 = TextGenerator_get_lineCount_m1349960567(L_14, /*hidden argument*/NULL);
+		int32_t L_15 = TextGenerator_get_lineCount_m3121044867(L_14, /*hidden argument*/NULL);
 		if ((((int32_t)L_15) > ((int32_t)0)))
 		{
 			goto IL_0052;
@@ -35455,10 +35455,10 @@ IL_0052:
 		IL2CPP_RUNTIME_CLASS_INIT(UIVertex_t2260061605_il2cpp_TypeInfo_var);
 		UIVertex_t2260061605  L_22 = ((UIVertex_t2260061605_StaticFields*)UIVertex_t2260061605_il2cpp_TypeInfo_var->static_fields)->get_simpleVert_8();
 		V_6 = L_22;
-		Vector2_t3525329788  L_23 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_23 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		(&V_6)->set_uv0_3(L_23);
 		Color_t1588175760  L_24 = InputField_get_selectionColor_m240252578(__this, /*hidden argument*/NULL);
-		Color32_t4137084207  L_25 = Color32_op_Implicit_m2593120090(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		Color32_t4137084207  L_25 = Color32_op_Implicit_m3684884838(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
 		(&V_6)->set_color_2(L_25);
 		int32_t L_26 = V_0;
 		V_7 = L_26;
@@ -35487,14 +35487,14 @@ IL_00a4:
 	{
 		TextGenerator_t2883685459 * L_31 = V_3;
 		NullCheck(L_31);
-		Il2CppObject* L_32 = TextGenerator_get_characters_m2895351165(L_31, /*hidden argument*/NULL);
+		Il2CppObject* L_32 = TextGenerator_get_characters_m3420670449(L_31, /*hidden argument*/NULL);
 		int32_t L_33 = V_0;
 		NullCheck(L_32);
 		UICharInfo_t403820581  L_34 = InterfaceFuncInvoker1< UICharInfo_t403820581 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UICharInfo>::get_Item(System.Int32) */, IList_1_t2570312895_il2cpp_TypeInfo_var, L_32, L_33);
 		V_8 = L_34;
 		TextGenerator_t2883685459 * L_35 = V_3;
 		NullCheck(L_35);
-		Il2CppObject* L_36 = TextGenerator_get_characters_m2895351165(L_35, /*hidden argument*/NULL);
+		Il2CppObject* L_36 = TextGenerator_get_characters_m3420670449(L_35, /*hidden argument*/NULL);
 		int32_t L_37 = V_7;
 		NullCheck(L_36);
 		UICharInfo_t403820581  L_38 = InterfaceFuncInvoker1< UICharInfo_t403820581 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UICharInfo>::get_Item(System.Int32) */, IList_1_t2570312895_il2cpp_TypeInfo_var, L_36, L_37);
@@ -35506,7 +35506,7 @@ IL_00a4:
 		float L_42 = Text_get_pixelsPerUnit_m4148756467(L_41, /*hidden argument*/NULL);
 		TextGenerator_t2883685459 * L_43 = V_3;
 		NullCheck(L_43);
-		Il2CppObject* L_44 = TextGenerator_get_lines_m760566796(L_43, /*hidden argument*/NULL);
+		Il2CppObject* L_44 = TextGenerator_get_lines_m3197542168(L_43, /*hidden argument*/NULL);
 		int32_t L_45 = V_4;
 		NullCheck(L_44);
 		UILineInfo_t156921283  L_46 = InterfaceFuncInvoker1< UILineInfo_t156921283 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::get_Item(System.Int32) */, IList_1_t2323413597_il2cpp_TypeInfo_var, L_44, L_45);
@@ -35515,7 +35515,7 @@ IL_00a4:
 		Text_t3286458198 * L_48 = __this->get_m_TextComponent_21();
 		NullCheck(L_48);
 		float L_49 = Text_get_pixelsPerUnit_m4148756467(L_48, /*hidden argument*/NULL);
-		Vector2__ctor_m3369031450((&V_10), ((float)((float)L_40/(float)L_42)), ((float)((float)L_47/(float)L_49)), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030((&V_10), ((float)((float)L_40/(float)L_42)), ((float)((float)L_47/(float)L_49)), /*hidden argument*/NULL);
 		Vector2_t3525329788 * L_50 = (&V_9)->get_address_of_cursorPos_0();
 		float L_51 = L_50->get_x_1();
 		float L_52 = (&V_9)->get_charWidth_1();
@@ -35525,7 +35525,7 @@ IL_00a4:
 		float L_55 = (&V_10)->get_y_2();
 		TextGenerator_t2883685459 * L_56 = V_3;
 		NullCheck(L_56);
-		Il2CppObject* L_57 = TextGenerator_get_lines_m760566796(L_56, /*hidden argument*/NULL);
+		Il2CppObject* L_57 = TextGenerator_get_lines_m3197542168(L_56, /*hidden argument*/NULL);
 		int32_t L_58 = V_4;
 		NullCheck(L_57);
 		UILineInfo_t156921283  L_59 = InterfaceFuncInvoker1< UILineInfo_t156921283 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::get_Item(System.Int32) */, IList_1_t2323413597_il2cpp_TypeInfo_var, L_57, L_58);
@@ -35534,15 +35534,15 @@ IL_00a4:
 		Text_t3286458198 * L_61 = __this->get_m_TextComponent_21();
 		NullCheck(L_61);
 		float L_62 = Text_get_pixelsPerUnit_m4148756467(L_61, /*hidden argument*/NULL);
-		Vector2__ctor_m3369031450((&V_11), ((float)((float)((float)((float)L_51+(float)L_52))/(float)L_54)), ((float)((float)L_55-(float)((float)((float)(((float)((float)L_60)))/(float)L_62)))), /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030((&V_11), ((float)((float)((float)((float)L_51+(float)L_52))/(float)L_54)), ((float)((float)L_55-(float)((float)((float)(((float)((float)L_60)))/(float)L_62)))), /*hidden argument*/NULL);
 		float L_63 = (&V_11)->get_x_1();
 		Text_t3286458198 * L_64 = __this->get_m_TextComponent_21();
 		NullCheck(L_64);
 		RectTransform_t3317474837 * L_65 = Graphic_get_rectTransform_m4017371950(L_64, /*hidden argument*/NULL);
 		NullCheck(L_65);
-		Rect_t1525428817  L_66 = RectTransform_get_rect_m1093243288(L_65, /*hidden argument*/NULL);
+		Rect_t1525428817  L_66 = RectTransform_get_rect_m1566017036(L_65, /*hidden argument*/NULL);
 		V_15 = L_66;
-		float L_67 = Rect_get_xMax_m2153328744((&V_15), /*hidden argument*/NULL);
+		float L_67 = Rect_get_xMax_m370881244((&V_15), /*hidden argument*/NULL);
 		if ((((float)L_63) > ((float)L_67)))
 		{
 			goto IL_019e;
@@ -35554,9 +35554,9 @@ IL_00a4:
 		NullCheck(L_69);
 		RectTransform_t3317474837 * L_70 = Graphic_get_rectTransform_m4017371950(L_69, /*hidden argument*/NULL);
 		NullCheck(L_70);
-		Rect_t1525428817  L_71 = RectTransform_get_rect_m1093243288(L_70, /*hidden argument*/NULL);
+		Rect_t1525428817  L_71 = RectTransform_get_rect_m1566017036(L_70, /*hidden argument*/NULL);
 		V_16 = L_71;
-		float L_72 = Rect_get_xMin_m2153557462((&V_16), /*hidden argument*/NULL);
+		float L_72 = Rect_get_xMin_m371109962((&V_16), /*hidden argument*/NULL);
 		if ((!(((float)L_68) < ((float)L_72))))
 		{
 			goto IL_01be;
@@ -35569,9 +35569,9 @@ IL_019e:
 		NullCheck(L_73);
 		RectTransform_t3317474837 * L_74 = Graphic_get_rectTransform_m4017371950(L_73, /*hidden argument*/NULL);
 		NullCheck(L_74);
-		Rect_t1525428817  L_75 = RectTransform_get_rect_m1093243288(L_74, /*hidden argument*/NULL);
+		Rect_t1525428817  L_75 = RectTransform_get_rect_m1566017036(L_74, /*hidden argument*/NULL);
 		V_17 = L_75;
-		float L_76 = Rect_get_xMax_m2153328744((&V_17), /*hidden argument*/NULL);
+		float L_76 = Rect_get_xMax_m370881244((&V_17), /*hidden argument*/NULL);
 		(&V_11)->set_x_1(L_76);
 	}
 
@@ -35585,10 +35585,10 @@ IL_01be:
 		float L_80 = (&V_11)->get_y_2();
 		Vector3_t3525329789  L_81;
 		memset(&L_81, 0, sizeof(L_81));
-		Vector3__ctor_m2767817280(&L_81, L_79, L_80, (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380(&L_81, L_79, L_80, (0.0f), /*hidden argument*/NULL);
 		Vector2_t3525329788  L_82 = ___roundingOffset;
-		Vector3_t3525329789  L_83 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_82, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_84 = Vector3_op_Addition_m1796921989(NULL /*static, unused*/, L_81, L_83, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_83 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_82, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_84 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_81, L_83, /*hidden argument*/NULL);
 		(&V_6)->set_position_0(L_84);
 		VertexHelper_t1471929499 * L_85 = ___vbo;
 		UIVertex_t2260061605  L_86 = V_6;
@@ -35598,10 +35598,10 @@ IL_01be:
 		float L_88 = (&V_11)->get_y_2();
 		Vector3_t3525329789  L_89;
 		memset(&L_89, 0, sizeof(L_89));
-		Vector3__ctor_m2767817280(&L_89, L_87, L_88, (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380(&L_89, L_87, L_88, (0.0f), /*hidden argument*/NULL);
 		Vector2_t3525329788  L_90 = ___roundingOffset;
-		Vector3_t3525329789  L_91 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_90, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_92 = Vector3_op_Addition_m1796921989(NULL /*static, unused*/, L_89, L_91, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_91 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_90, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_92 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_89, L_91, /*hidden argument*/NULL);
 		(&V_6)->set_position_0(L_92);
 		VertexHelper_t1471929499 * L_93 = ___vbo;
 		UIVertex_t2260061605  L_94 = V_6;
@@ -35611,10 +35611,10 @@ IL_01be:
 		float L_96 = (&V_10)->get_y_2();
 		Vector3_t3525329789  L_97;
 		memset(&L_97, 0, sizeof(L_97));
-		Vector3__ctor_m2767817280(&L_97, L_95, L_96, (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380(&L_97, L_95, L_96, (0.0f), /*hidden argument*/NULL);
 		Vector2_t3525329788  L_98 = ___roundingOffset;
-		Vector3_t3525329789  L_99 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_98, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_100 = Vector3_op_Addition_m1796921989(NULL /*static, unused*/, L_97, L_99, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_99 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_98, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_100 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_97, L_99, /*hidden argument*/NULL);
 		(&V_6)->set_position_0(L_100);
 		VertexHelper_t1471929499 * L_101 = ___vbo;
 		UIVertex_t2260061605  L_102 = V_6;
@@ -35624,10 +35624,10 @@ IL_01be:
 		float L_104 = (&V_10)->get_y_2();
 		Vector3_t3525329789  L_105;
 		memset(&L_105, 0, sizeof(L_105));
-		Vector3__ctor_m2767817280(&L_105, L_103, L_104, (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m2926210380(&L_105, L_103, L_104, (0.0f), /*hidden argument*/NULL);
 		Vector2_t3525329788  L_106 = ___roundingOffset;
-		Vector3_t3525329789  L_107 = Vector2_op_Implicit_m3563350729(NULL /*static, unused*/, L_106, /*hidden argument*/NULL);
-		Vector3_t3525329789  L_108 = Vector3_op_Addition_m1796921989(NULL /*static, unused*/, L_105, L_107, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_107 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_106, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_108 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_105, L_107, /*hidden argument*/NULL);
 		(&V_6)->set_position_0(L_108);
 		VertexHelper_t1471929499 * L_109 = ___vbo;
 		UIVertex_t2260061605  L_110 = V_6;
@@ -35675,7 +35675,7 @@ IL_02c9:
 		int32_t L_127 = V_7;
 		TextGenerator_t2883685459 * L_128 = V_3;
 		NullCheck(L_128);
-		int32_t L_129 = TextGenerator_get_characterCount_m1976102924(L_128, /*hidden argument*/NULL);
+		int32_t L_129 = TextGenerator_get_characterCount_m1694678400(L_128, /*hidden argument*/NULL);
 		if ((((int32_t)L_127) < ((int32_t)L_129)))
 		{
 			goto IL_0093;
@@ -35722,7 +35722,7 @@ extern "C"  uint16_t InputField_Validate_m4235185069 (InputField_t2345609593 * _
 		}
 	}
 	{
-		bool L_1 = Behaviour_get_enabled_m1094168684(__this, /*hidden argument*/NULL);
+		bool L_1 = Behaviour_get_enabled_m1239363704(__this, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_0018;
@@ -35988,7 +35988,7 @@ IL_0109:
 		NullCheck(L_40);
 		int32_t L_41 = String_get_Length_m2979997331(L_40, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_42 = Mathf_Clamp_m4032346681(NULL /*static, unused*/, L_39, 0, ((int32_t)((int32_t)L_41-(int32_t)1)), /*hidden argument*/NULL);
+		int32_t L_42 = Mathf_Clamp_m510460741(NULL /*static, unused*/, L_39, 0, ((int32_t)((int32_t)L_41-(int32_t)1)), /*hidden argument*/NULL);
 		NullCheck(L_38);
 		uint16_t L_43 = String_get_Chars_m3015341861(L_38, L_42, /*hidden argument*/NULL);
 		G_B40_0 = ((int32_t)(L_43));
@@ -36018,7 +36018,7 @@ IL_013d:
 		NullCheck(L_48);
 		int32_t L_49 = String_get_Length_m2979997331(L_48, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_50 = Mathf_Clamp_m4032346681(NULL /*static, unused*/, ((int32_t)((int32_t)L_47+(int32_t)1)), 0, ((int32_t)((int32_t)L_49-(int32_t)1)), /*hidden argument*/NULL);
+		int32_t L_50 = Mathf_Clamp_m510460741(NULL /*static, unused*/, ((int32_t)((int32_t)L_47+(int32_t)1)), 0, ((int32_t)((int32_t)L_49-(int32_t)1)), /*hidden argument*/NULL);
 		NullCheck(L_46);
 		uint16_t L_51 = String_get_Chars_m3015341861(L_46, L_50, /*hidden argument*/NULL);
 		G_B43_0 = ((int32_t)(L_51));
@@ -36323,7 +36323,7 @@ IL_0285:
 		NullCheck(L_101);
 		int32_t L_102 = String_get_Length_m2979997331(L_101, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_103 = Mathf_Clamp_m4032346681(NULL /*static, unused*/, L_100, 0, ((int32_t)((int32_t)L_102-(int32_t)1)), /*hidden argument*/NULL);
+		int32_t L_103 = Mathf_Clamp_m510460741(NULL /*static, unused*/, L_100, 0, ((int32_t)((int32_t)L_102-(int32_t)1)), /*hidden argument*/NULL);
 		NullCheck(L_99);
 		uint16_t L_104 = String_get_Chars_m3015341861(L_99, L_103, /*hidden argument*/NULL);
 		G_B85_0 = ((int32_t)(L_104));
@@ -36353,7 +36353,7 @@ IL_02b5:
 		NullCheck(L_109);
 		int32_t L_110 = String_get_Length_m2979997331(L_109, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		int32_t L_111 = Mathf_Clamp_m4032346681(NULL /*static, unused*/, ((int32_t)((int32_t)L_108+(int32_t)1)), 0, ((int32_t)((int32_t)L_110-(int32_t)1)), /*hidden argument*/NULL);
+		int32_t L_111 = Mathf_Clamp_m510460741(NULL /*static, unused*/, ((int32_t)((int32_t)L_108+(int32_t)1)), 0, ((int32_t)((int32_t)L_110-(int32_t)1)), /*hidden argument*/NULL);
 		NullCheck(L_107);
 		uint16_t L_112 = String_get_Chars_m3015341861(L_107, L_111, /*hidden argument*/NULL);
 		G_B88_0 = ((int32_t)(L_112));
@@ -36396,7 +36396,7 @@ extern "C"  void InputField_ActivateInputField_m2072753740 (InputField_t23456095
 {
 	{
 		Text_t3286458198 * L_0 = __this->get_m_TextComponent_21();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_003d;
@@ -36406,7 +36406,7 @@ extern "C"  void InputField_ActivateInputField_m2072753740 (InputField_t23456095
 		Text_t3286458198 * L_2 = __this->get_m_TextComponent_21();
 		NullCheck(L_2);
 		Font_t1525081276 * L_3 = Text_get_font_m2437753165(L_2, /*hidden argument*/NULL);
-		bool L_4 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_4)
 		{
 			goto IL_003d;
@@ -36450,7 +36450,7 @@ IL_003e:
 	{
 		TouchScreenKeyboard_t2269718975 * L_9 = __this->get_m_Keyboard_19();
 		NullCheck(L_9);
-		bool L_10 = TouchScreenKeyboard_get_active_m273539314(L_9, /*hidden argument*/NULL);
+		bool L_10 = TouchScreenKeyboard_get_active_m4287082086(L_9, /*hidden argument*/NULL);
 		if (L_10)
 		{
 			goto IL_0081;
@@ -36459,11 +36459,11 @@ IL_003e:
 	{
 		TouchScreenKeyboard_t2269718975 * L_11 = __this->get_m_Keyboard_19();
 		NullCheck(L_11);
-		TouchScreenKeyboard_set_active_m2576194411(L_11, (bool)1, /*hidden argument*/NULL);
+		TouchScreenKeyboard_set_active_m3667959159(L_11, (bool)1, /*hidden argument*/NULL);
 		TouchScreenKeyboard_t2269718975 * L_12 = __this->get_m_Keyboard_19();
 		String_t* L_13 = __this->get_m_Text_37();
 		NullCheck(L_12);
-		TouchScreenKeyboard_set_text_m3229909575(L_12, L_13, /*hidden argument*/NULL);
+		TouchScreenKeyboard_set_text_m1654889403(L_12, L_13, /*hidden argument*/NULL);
 	}
 
 IL_0081:
@@ -36491,7 +36491,7 @@ extern "C"  void InputField_ActivateInputFieldInternal_m2572296937 (InputField_t
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(EventSystem_t409518532_il2cpp_TypeInfo_var);
 		EventSystem_t409518532 * L_0 = EventSystem_get_current_m3483537871(NULL /*static, unused*/, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0011;
@@ -36507,8 +36507,8 @@ IL_0011:
 		EventSystem_t409518532 * L_2 = EventSystem_get_current_m3483537871(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		GameObject_t4012695102 * L_3 = EventSystem_get_currentSelectedGameObject_m4236083783(L_2, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_4 = Component_get_gameObject_m1036663815(__this, /*hidden argument*/NULL);
-		bool L_5 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_4 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		bool L_5 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_003b;
@@ -36517,14 +36517,14 @@ IL_0011:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(EventSystem_t409518532_il2cpp_TypeInfo_var);
 		EventSystem_t409518532 * L_6 = EventSystem_get_current_m3483537871(NULL /*static, unused*/, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_7 = Component_get_gameObject_m1036663815(__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_7 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
 		NullCheck(L_6);
 		EventSystem_SetSelectedGameObject_m1869236832(L_6, L_7, /*hidden argument*/NULL);
 	}
 
 IL_003b:
 	{
-		bool L_8 = TouchScreenKeyboard_get_isSupported_m1334593306(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_8 = TouchScreenKeyboard_get_isSupported_m2472329766(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_8)
 		{
 			goto IL_00b6;
@@ -36532,7 +36532,7 @@ IL_003b:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		bool L_9 = Input_get_touchSupported_m161388819(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_9 = Input_get_touchSupported_m634162567(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_005a;
@@ -36540,7 +36540,7 @@ IL_003b:
 	}
 	{
 		bool L_10 = InputField_get_shouldHideMobileInput_m3268284241(__this, /*hidden argument*/NULL);
-		TouchScreenKeyboard_set_hideInput_m3542276499(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		TouchScreenKeyboard_set_hideInput_m2518551559(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 	}
 
 IL_005a:
@@ -36557,7 +36557,7 @@ IL_005a:
 		String_t* L_12 = __this->get_m_Text_37();
 		int32_t L_13 = InputField_get_keyboardType_m682150197(__this, /*hidden argument*/NULL);
 		bool L_14 = InputField_get_multiLine_m2265790891(__this, /*hidden argument*/NULL);
-		TouchScreenKeyboard_t2269718975 * L_15 = TouchScreenKeyboard_Open_m23711783(NULL /*static, unused*/, L_12, L_13, (bool)0, L_14, (bool)1, /*hidden argument*/NULL);
+		TouchScreenKeyboard_t2269718975 * L_15 = TouchScreenKeyboard_Open_m3070776627(NULL /*static, unused*/, L_12, L_13, (bool)0, L_14, (bool)1, /*hidden argument*/NULL);
 		G_B10_0 = L_15;
 		G_B10_1 = G_B8_0;
 		goto IL_00a5;
@@ -36569,7 +36569,7 @@ IL_0085:
 		int32_t L_17 = InputField_get_keyboardType_m682150197(__this, /*hidden argument*/NULL);
 		int32_t L_18 = InputField_get_inputType_m2348834559(__this, /*hidden argument*/NULL);
 		bool L_19 = InputField_get_multiLine_m2265790891(__this, /*hidden argument*/NULL);
-		TouchScreenKeyboard_t2269718975 * L_20 = TouchScreenKeyboard_Open_m2953184406(NULL /*static, unused*/, L_16, L_17, (bool)((((int32_t)L_18) == ((int32_t)1))? 1 : 0), L_19, /*hidden argument*/NULL);
+		TouchScreenKeyboard_t2269718975 * L_20 = TouchScreenKeyboard_Open_m751274250(NULL /*static, unused*/, L_16, L_17, (bool)((((int32_t)L_18) == ((int32_t)1))? 1 : 0), L_19, /*hidden argument*/NULL);
 		G_B10_0 = L_20;
 		G_B10_1 = G_B9_0;
 	}
@@ -36585,7 +36585,7 @@ IL_00a5:
 IL_00b6:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		Input_set_imeCompositionMode_m361912015(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		Input_set_imeCompositionMode_m1719849947(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 		InputField_OnFocus_m466029714(__this, /*hidden argument*/NULL);
 	}
 
@@ -36672,7 +36672,7 @@ IL_000c:
 		__this->set_m_HasDoneFocusTransition_61((bool)0);
 		__this->set_m_AllowInput_49((bool)0);
 		Graphic_t933884113 * L_1 = __this->get_m_Placeholder_22();
-		bool L_2 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0041;
@@ -36684,13 +36684,13 @@ IL_000c:
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_5 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		Behaviour_set_enabled_m1912834849(L_3, L_5, /*hidden argument*/NULL);
+		Behaviour_set_enabled_m2046806933(L_3, L_5, /*hidden argument*/NULL);
 	}
 
 IL_0041:
 	{
 		Text_t3286458198 * L_6 = __this->get_m_TextComponent_21();
-		bool L_7 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_6, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_7 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_6, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_00ae;
@@ -36726,7 +36726,7 @@ IL_0074:
 	{
 		TouchScreenKeyboard_t2269718975 * L_12 = __this->get_m_Keyboard_19();
 		NullCheck(L_12);
-		TouchScreenKeyboard_set_active_m2576194411(L_12, (bool)0, /*hidden argument*/NULL);
+		TouchScreenKeyboard_set_active_m3667959159(L_12, (bool)0, /*hidden argument*/NULL);
 		__this->set_m_Keyboard_19((TouchScreenKeyboard_t2269718975 *)NULL);
 	}
 
@@ -36739,7 +36739,7 @@ IL_0092:
 		__this->set_m_CaretPosition_41(L_14);
 		InputField_SendOnSubmit_m3215072040(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		Input_set_imeCompositionMode_m361912015(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		Input_set_imeCompositionMode_m1719849947(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 	}
 
 IL_00ae:
@@ -37057,7 +37057,7 @@ extern "C"  bool InputField_UnityEngine_UI_ICanvasElement_IsDestroyed_m278163760
 extern "C"  Transform_t284553113 * InputField_UnityEngine_UI_ICanvasElement_get_transform_m2979159434 (InputField_t2345609593 * __this, const MethodInfo* method)
 {
 	{
-		Transform_t284553113 * L_0 = Component_get_transform_m243597671(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -37133,7 +37133,7 @@ IL_0049:
 		NullCheck(L_3);
 		float L_4 = L_3->get_m_CaretBlinkRate_38();
 		__this->set_U3CblinkPeriodU3E__0_0(((float)((float)(1.0f)/(float)L_4)));
-		float L_5 = Time_get_unscaledTime_m2808282789(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_5 = Time_get_unscaledTime_m319114521(NULL /*static, unused*/, /*hidden argument*/NULL);
 		InputField_t2345609593 * L_6 = __this->get_U3CU3Ef__this_4();
 		NullCheck(L_6);
 		float L_7 = L_6->get_m_BlinkStartTime_55();
@@ -37319,14 +37319,14 @@ IL_0026:
 		Camera_t3533968274 * L_8 = PointerEventData_get_pressEventCamera_m2764092724(L_7, /*hidden argument*/NULL);
 		Vector2_t3525329788 * L_9 = __this->get_address_of_U3ClocalMousePosU3E__0_1();
 		IL2CPP_RUNTIME_CLASS_INIT(RectTransformUtility_t2895919825_il2cpp_TypeInfo_var);
-		RectTransformUtility_ScreenPointToLocalPointInRectangle_m26575816(NULL /*static, unused*/, L_4, L_6, L_8, L_9, /*hidden argument*/NULL);
+		RectTransformUtility_ScreenPointToLocalPointInRectangle_m666650172(NULL /*static, unused*/, L_4, L_6, L_8, L_9, /*hidden argument*/NULL);
 		InputField_t2345609593 * L_10 = __this->get_U3CU3Ef__this_7();
 		NullCheck(L_10);
 		Text_t3286458198 * L_11 = InputField_get_textComponent_m2329519363(L_10, /*hidden argument*/NULL);
 		NullCheck(L_11);
 		RectTransform_t3317474837 * L_12 = Graphic_get_rectTransform_m4017371950(L_11, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		Rect_t1525428817  L_13 = RectTransform_get_rect_m1093243288(L_12, /*hidden argument*/NULL);
+		Rect_t1525428817  L_13 = RectTransform_get_rect_m1566017036(L_12, /*hidden argument*/NULL);
 		__this->set_U3CrectU3E__1_2(L_13);
 		InputField_t2345609593 * L_14 = __this->get_U3CU3Ef__this_7();
 		NullCheck(L_14);
@@ -37340,7 +37340,7 @@ IL_0026:
 		Vector2_t3525329788 * L_16 = __this->get_address_of_U3ClocalMousePosU3E__0_1();
 		float L_17 = L_16->get_y_2();
 		Rect_t1525428817 * L_18 = __this->get_address_of_U3CrectU3E__1_2();
-		float L_19 = Rect_get_yMax_m2181957895(L_18, /*hidden argument*/NULL);
+		float L_19 = Rect_get_yMax_m399510395(L_18, /*hidden argument*/NULL);
 		if ((!(((float)L_17) > ((float)L_19))))
 		{
 			goto IL_00b0;
@@ -37358,7 +37358,7 @@ IL_00b0:
 		Vector2_t3525329788 * L_21 = __this->get_address_of_U3ClocalMousePosU3E__0_1();
 		float L_22 = L_21->get_y_2();
 		Rect_t1525428817 * L_23 = __this->get_address_of_U3CrectU3E__1_2();
-		float L_24 = Rect_get_yMin_m2182186613(L_23, /*hidden argument*/NULL);
+		float L_24 = Rect_get_yMin_m399739113(L_23, /*hidden argument*/NULL);
 		if ((!(((float)L_22) < ((float)L_24))))
 		{
 			goto IL_00d8;
@@ -37380,7 +37380,7 @@ IL_00dd:
 		Vector2_t3525329788 * L_26 = __this->get_address_of_U3ClocalMousePosU3E__0_1();
 		float L_27 = L_26->get_x_1();
 		Rect_t1525428817 * L_28 = __this->get_address_of_U3CrectU3E__1_2();
-		float L_29 = Rect_get_xMin_m2153557462(L_28, /*hidden argument*/NULL);
+		float L_29 = Rect_get_xMin_m371109962(L_28, /*hidden argument*/NULL);
 		if ((!(((float)L_27) < ((float)L_29))))
 		{
 			goto IL_010a;
@@ -37398,7 +37398,7 @@ IL_010a:
 		Vector2_t3525329788 * L_31 = __this->get_address_of_U3ClocalMousePosU3E__0_1();
 		float L_32 = L_31->get_x_1();
 		Rect_t1525428817 * L_33 = __this->get_address_of_U3CrectU3E__1_2();
-		float L_34 = Rect_get_xMax_m2153328744(L_33, /*hidden argument*/NULL);
+		float L_34 = Rect_get_xMax_m370881244(L_33, /*hidden argument*/NULL);
 		if ((!(((float)L_32) > ((float)L_34))))
 		{
 			goto IL_0132;
@@ -37443,7 +37443,7 @@ IL_015d:
 		G_B16_1->set_U3CdelayU3E__2_3(G_B16_0);
 		float L_39 = __this->get_U3CdelayU3E__2_3();
 		WaitForSeconds_t1291133240 * L_40 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m3466420725(L_40, L_39, /*hidden argument*/NULL);
+		WaitForSeconds__ctor_m3184996201(L_40, L_39, /*hidden argument*/NULL);
 		__this->set_U24current_5(L_40);
 		__this->set_U24PC_4(1);
 		goto IL_01b4;
@@ -37988,7 +37988,7 @@ extern "C"  void LayoutElement_SetDirty_m1279144619 (LayoutElement_t2655817307 *
 
 IL_000c:
 	{
-		Transform_t284553113 * L_1 = Component_get_transform_m243597671(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_1 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(LayoutRebuilder_t1563460583_il2cpp_TypeInfo_var);
 		LayoutRebuilder_MarkLayoutForRebuild_m901621521(NULL /*static, unused*/, ((RectTransform_t3317474837 *)IsInstSealed(L_1, RectTransform_t3317474837_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		return;
@@ -38009,13 +38009,13 @@ extern "C"  void LayoutGroup__ctor_m1400544614 (LayoutGroup_t2646131550 * __this
 	}
 	{
 		RectOffset_t3394170884 * L_0 = (RectOffset_t3394170884 *)il2cpp_codegen_object_new(RectOffset_t3394170884_il2cpp_TypeInfo_var);
-		RectOffset__ctor_m1817081130(L_0, /*hidden argument*/NULL);
+		RectOffset__ctor_m2395783478(L_0, /*hidden argument*/NULL);
 		__this->set_m_Padding_2(L_0);
-		Vector2_t3525329788  L_1 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_1 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->set_m_TotalMinSize_6(L_1);
-		Vector2_t3525329788  L_2 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_2 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->set_m_TotalPreferredSize_7(L_2);
-		Vector2_t3525329788  L_3 = Vector2_get_zero_m54677348(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_3 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->set_m_TotalFlexibleSize_8(L_3);
 		List_1_t4114433806 * L_4 = (List_1_t4114433806 *)il2cpp_codegen_object_new(List_1_t4114433806_il2cpp_TypeInfo_var);
 		List_1__ctor_m129982733(L_4, /*hidden argument*/List_1__ctor_m129982733_MethodInfo_var);
@@ -38029,7 +38029,7 @@ extern "C"  void LayoutGroup__ctor_m1400544614 (LayoutGroup_t2646131550 * __this
 	}
 	{
 		RectOffset_t3394170884 * L_6 = (RectOffset_t3394170884 *)il2cpp_codegen_object_new(RectOffset_t3394170884_il2cpp_TypeInfo_var);
-		RectOffset__ctor_m1817081130(L_6, /*hidden argument*/NULL);
+		RectOffset__ctor_m2395783478(L_6, /*hidden argument*/NULL);
 		__this->set_m_Padding_2(L_6);
 	}
 
@@ -38103,7 +38103,7 @@ extern "C"  RectTransform_t3317474837 * LayoutGroup_get_rectTransform_m331638721
 	}
 	{
 		RectTransform_t3317474837 * L_0 = __this->get_m_Rect_4();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001d;
@@ -38166,10 +38166,10 @@ IL_0018:
 		RectTransform_t3317474837 * L_2 = LayoutGroup_get_rectTransform_m331638721(__this, /*hidden argument*/NULL);
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
-		Transform_t284553113 * L_4 = Transform_GetChild_m1597418116(L_2, L_3, /*hidden argument*/NULL);
+		Transform_t284553113 * L_4 = Transform_GetChild_m4040462992(L_2, L_3, /*hidden argument*/NULL);
 		V_2 = ((RectTransform_t3317474837 *)IsInstSealed(L_4, RectTransform_t3317474837_il2cpp_TypeInfo_var));
 		RectTransform_t3317474837 * L_5 = V_2;
-		bool L_6 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_5, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_6 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_5, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_6)
 		{
 			goto IL_0046;
@@ -38178,9 +38178,9 @@ IL_0018:
 	{
 		RectTransform_t3317474837 * L_7 = V_2;
 		NullCheck(L_7);
-		GameObject_t4012695102 * L_8 = Component_get_gameObject_m1036663815(L_7, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_8 = Component_get_gameObject_m1170635899(L_7, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		bool L_9 = GameObject_get_activeInHierarchy_m478478881(L_8, /*hidden argument*/NULL);
+		bool L_9 = GameObject_get_activeInHierarchy_m612450965(L_8, /*hidden argument*/NULL);
 		if (L_9)
 		{
 			goto IL_004b;
@@ -38199,7 +38199,7 @@ IL_004b:
 		Type_t * L_11 = Type_GetTypeFromHandle_m3806905434(NULL /*static, unused*/, LoadTypeToken(ILayoutIgnorer_t3525028502_0_0_0_var), /*hidden argument*/NULL);
 		List_1_t2923905571 * L_12 = V_0;
 		NullCheck(L_10);
-		Component_GetComponents_m3740314889(L_10, L_11, L_12, /*hidden argument*/NULL);
+		Component_GetComponents_m3426812285(L_10, L_11, L_12, /*hidden argument*/NULL);
 		List_1_t2923905571 * L_13 = V_0;
 		NullCheck(L_13);
 		int32_t L_14 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<UnityEngine.Component>::get_Count() */, L_13);
@@ -38274,7 +38274,7 @@ IL_00be:
 		int32_t L_29 = V_1;
 		RectTransform_t3317474837 * L_30 = LayoutGroup_get_rectTransform_m331638721(__this, /*hidden argument*/NULL);
 		NullCheck(L_30);
-		int32_t L_31 = Transform_get_childCount_m1901732351(L_30, /*hidden argument*/NULL);
+		int32_t L_31 = Transform_get_childCount_m2107810675(L_30, /*hidden argument*/NULL);
 		if ((((int32_t)L_29) < ((int32_t)L_31)))
 		{
 			goto IL_0018;
@@ -38285,7 +38285,7 @@ IL_00be:
 		IL2CPP_RUNTIME_CLASS_INIT(ListPool_1_t1740961763_il2cpp_TypeInfo_var);
 		ListPool_1_Release_m2849004751(NULL /*static, unused*/, L_32, /*hidden argument*/ListPool_1_Release_m2849004751_MethodInfo_var);
 		DrivenRectTransformTracker_t3675273953 * L_33 = __this->get_address_of_m_Tracker_5();
-		DrivenRectTransformTracker_Clear_m1980961560(L_33, /*hidden argument*/NULL);
+		DrivenRectTransformTracker_Clear_m309315364(L_33, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -38366,7 +38366,7 @@ extern "C"  void LayoutGroup_OnDisable_m3196636877 (LayoutGroup_t2646131550 * __
 	}
 	{
 		DrivenRectTransformTracker_t3675273953 * L_0 = __this->get_address_of_m_Tracker_5();
-		DrivenRectTransformTracker_Clear_m1980961560(L_0, /*hidden argument*/NULL);
+		DrivenRectTransformTracker_Clear_m309315364(L_0, /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_1 = LayoutGroup_get_rectTransform_m331638721(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(LayoutRebuilder_t1563460583_il2cpp_TypeInfo_var);
 		LayoutRebuilder_MarkLayoutForRebuild_m901621521(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
@@ -38388,7 +38388,7 @@ extern "C"  float LayoutGroup_GetTotalMinSize_m3187537614 (LayoutGroup_t26461315
 	{
 		Vector2_t3525329788 * L_0 = __this->get_address_of_m_TotalMinSize_6();
 		int32_t L_1 = ___axis;
-		float L_2 = Vector2_get_Item_m980579759(L_0, L_1, /*hidden argument*/NULL);
+		float L_2 = Vector2_get_Item_m2185542843(L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -38398,7 +38398,7 @@ extern "C"  float LayoutGroup_GetTotalPreferredSize_m2664141949 (LayoutGroup_t26
 	{
 		Vector2_t3525329788 * L_0 = __this->get_address_of_m_TotalPreferredSize_7();
 		int32_t L_1 = ___axis;
-		float L_2 = Vector2_get_Item_m980579759(L_0, L_1, /*hidden argument*/NULL);
+		float L_2 = Vector2_get_Item_m2185542843(L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -38408,7 +38408,7 @@ extern "C"  float LayoutGroup_GetTotalFlexibleSize_m2703956501 (LayoutGroup_t264
 	{
 		Vector2_t3525329788 * L_0 = __this->get_address_of_m_TotalFlexibleSize_8();
 		int32_t L_1 = ___axis;
-		float L_2 = Vector2_get_Item_m980579759(L_0, L_1, /*hidden argument*/NULL);
+		float L_2 = Vector2_get_Item_m2185542843(L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -38441,7 +38441,7 @@ extern "C"  float LayoutGroup_GetStartOffset_m3060950207 (LayoutGroup_t264613155
 	{
 		RectOffset_t3394170884 * L_2 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		int32_t L_3 = RectOffset_get_horizontal_m3387947471(L_2, /*hidden argument*/NULL);
+		int32_t L_3 = RectOffset_get_horizontal_m1186440923(L_2, /*hidden argument*/NULL);
 		G_B3_0 = L_3;
 		G_B3_1 = G_B1_0;
 		goto IL_0022;
@@ -38451,7 +38451,7 @@ IL_0017:
 	{
 		RectOffset_t3394170884 * L_4 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		int32_t L_5 = RectOffset_get_vertical_m3505236769(L_4, /*hidden argument*/NULL);
+		int32_t L_5 = RectOffset_get_vertical_m3650431789(L_4, /*hidden argument*/NULL);
 		G_B3_0 = L_5;
 		G_B3_1 = G_B2_0;
 	}
@@ -38461,12 +38461,12 @@ IL_0022:
 		V_0 = ((float)((float)G_B3_1+(float)(((float)((float)G_B3_0)))));
 		RectTransform_t3317474837 * L_6 = LayoutGroup_get_rectTransform_m331638721(__this, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		Rect_t1525428817  L_7 = RectTransform_get_rect_m1093243288(L_6, /*hidden argument*/NULL);
+		Rect_t1525428817  L_7 = RectTransform_get_rect_m1566017036(L_6, /*hidden argument*/NULL);
 		V_4 = L_7;
-		Vector2_t3525329788  L_8 = Rect_get_size_m2266442540((&V_4), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_8 = Rect_get_size_m136480416((&V_4), /*hidden argument*/NULL);
 		V_5 = L_8;
 		int32_t L_9 = ___axis;
-		float L_10 = Vector2_get_Item_m980579759((&V_5), L_9, /*hidden argument*/NULL);
+		float L_10 = Vector2_get_Item_m2185542843((&V_5), L_9, /*hidden argument*/NULL);
 		V_1 = L_10;
 		float L_11 = V_1;
 		float L_12 = V_0;
@@ -38501,7 +38501,7 @@ IL_0079:
 	{
 		RectOffset_t3394170884 * L_17 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_17);
-		int32_t L_18 = RectOffset_get_left_m293906546(L_17, /*hidden argument*/NULL);
+		int32_t L_18 = RectOffset_get_left_m4104523390(L_17, /*hidden argument*/NULL);
 		G_B9_0 = L_18;
 		goto IL_009a;
 	}
@@ -38510,7 +38510,7 @@ IL_008f:
 	{
 		RectOffset_t3394170884 * L_19 = LayoutGroup_get_padding_m3073855587(__this, /*hidden argument*/NULL);
 		NullCheck(L_19);
-		int32_t L_20 = RectOffset_get_top_m17174188(L_19, /*hidden argument*/NULL);
+		int32_t L_20 = RectOffset_get_top_m140097312(L_19, /*hidden argument*/NULL);
 		G_B9_0 = L_20;
 	}
 
@@ -38528,15 +38528,15 @@ extern "C"  void LayoutGroup_SetLayoutInputForAxis_m396008818 (LayoutGroup_t2646
 		Vector2_t3525329788 * L_0 = __this->get_address_of_m_TotalMinSize_6();
 		int32_t L_1 = ___axis;
 		float L_2 = ___totalMin;
-		Vector2_set_Item_m53537108(L_0, L_1, L_2, /*hidden argument*/NULL);
+		Vector2_set_Item_m2767519328(L_0, L_1, L_2, /*hidden argument*/NULL);
 		Vector2_t3525329788 * L_3 = __this->get_address_of_m_TotalPreferredSize_7();
 		int32_t L_4 = ___axis;
 		float L_5 = ___totalPreferred;
-		Vector2_set_Item_m53537108(L_3, L_4, L_5, /*hidden argument*/NULL);
+		Vector2_set_Item_m2767519328(L_3, L_4, L_5, /*hidden argument*/NULL);
 		Vector2_t3525329788 * L_6 = __this->get_address_of_m_TotalFlexibleSize_8();
 		int32_t L_7 = ___axis;
 		float L_8 = ___totalFlexible;
-		Vector2_set_Item_m53537108(L_6, L_7, L_8, /*hidden argument*/NULL);
+		Vector2_set_Item_m2767519328(L_6, L_7, L_8, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -38549,7 +38549,7 @@ extern "C"  void LayoutGroup_SetChildAlongAxis_m4214960168 (LayoutGroup_t2646131
 	RectTransform_t3317474837 * G_B5_1 = NULL;
 	{
 		RectTransform_t3317474837 * L_0 = ___rect;
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_000d;
@@ -38563,7 +38563,7 @@ IL_000d:
 	{
 		DrivenRectTransformTracker_t3675273953 * L_2 = __this->get_address_of_m_Tracker_5();
 		RectTransform_t3317474837 * L_3 = ___rect;
-		DrivenRectTransformTracker_Add_m1942874809(L_2, __this, L_3, ((int32_t)16134), /*hidden argument*/NULL);
+		DrivenRectTransformTracker_Add_m3461523141(L_2, __this, L_3, ((int32_t)16134), /*hidden argument*/NULL);
 		RectTransform_t3317474837 * L_4 = ___rect;
 		int32_t L_5 = ___axis;
 		G_B3_0 = L_4;
@@ -38590,7 +38590,7 @@ IL_002d:
 		float L_6 = ___pos;
 		float L_7 = ___size;
 		NullCheck(G_B5_1);
-		RectTransform_SetInsetAndSizeFromParentEdge_m1729822392(G_B5_1, G_B5_0, L_6, L_7, /*hidden argument*/NULL);
+		RectTransform_SetInsetAndSizeFromParentEdge_m1924354604(G_B5_1, G_B5_0, L_6, L_7, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -38608,12 +38608,12 @@ extern "C"  bool LayoutGroup_get_isRootLayoutGroup_m3172189078 (LayoutGroup_t264
 	}
 	Transform_t284553113 * V_0 = NULL;
 	{
-		Transform_t284553113 * L_0 = Component_get_transform_m243597671(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Transform_t284553113 * L_1 = Transform_get_parent_m1031913888(L_0, /*hidden argument*/NULL);
+		Transform_t284553113 * L_1 = Transform_get_parent_m2236876972(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		Transform_t284553113 * L_2 = V_0;
-		bool L_3 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_001a;
@@ -38625,14 +38625,14 @@ extern "C"  bool LayoutGroup_get_isRootLayoutGroup_m3172189078 (LayoutGroup_t264
 
 IL_001a:
 	{
-		Transform_t284553113 * L_4 = Component_get_transform_m243597671(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_4 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		Transform_t284553113 * L_5 = Transform_get_parent_m1031913888(L_4, /*hidden argument*/NULL);
+		Transform_t284553113 * L_5 = Transform_get_parent_m2236876972(L_4, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_6 = Type_GetTypeFromHandle_m3806905434(NULL /*static, unused*/, LoadTypeToken(ILayoutGroup_t3479235445_0_0_0_var), /*hidden argument*/NULL);
 		NullCheck(L_5);
-		Component_t2126946602 * L_7 = Component_GetComponent_m2701918979(L_5, L_6, /*hidden argument*/NULL);
-		bool L_8 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_7, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		Component_t2126946602 * L_7 = Component_GetComponent_m936021879(L_5, L_6, /*hidden argument*/NULL);
+		bool L_8 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_7, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		return L_8;
 	}
 }
@@ -38749,8 +38749,8 @@ IL_0019:
 		IntPtr_t L_5;
 		L_5.set_m_value_0((void*)LayoutRebuilder_ReapplyDrivenProperties_m965971988_MethodInfo_var);
 		ReapplyDrivenProperties_t3247703954 * L_6 = (ReapplyDrivenProperties_t3247703954 *)il2cpp_codegen_object_new(ReapplyDrivenProperties_t3247703954_il2cpp_TypeInfo_var);
-		ReapplyDrivenProperties__ctor_m1273932936(L_6, NULL, L_5, /*hidden argument*/NULL);
-		RectTransform_add_reapplyDrivenProperties_m2810102447(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		ReapplyDrivenProperties__ctor_m3710908308(L_6, NULL, L_5, /*hidden argument*/NULL);
+		RectTransform_add_reapplyDrivenProperties_m1968705467(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -38807,7 +38807,7 @@ extern "C"  bool LayoutRebuilder_IsDestroyed_m4004091228 (LayoutRebuilder_t15634
 {
 	{
 		RectTransform_t3317474837 * L_0 = __this->get_m_ToRebuild_0();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -39087,7 +39087,7 @@ extern "C"  void LayoutRebuilder_PerformLayoutControl_m724256510 (LayoutRebuilde
 	int32_t V_3 = 0;
 	{
 		RectTransform_t3317474837 * L_0 = ___rect;
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_000d;
@@ -39107,7 +39107,7 @@ IL_000d:
 		Type_t * L_4 = Type_GetTypeFromHandle_m3806905434(NULL /*static, unused*/, LoadTypeToken(ILayoutController_t2363688664_0_0_0_var), /*hidden argument*/NULL);
 		List_1_t2923905571 * L_5 = V_0;
 		NullCheck(L_3);
-		Component_GetComponents_m3740314889(L_3, L_4, L_5, /*hidden argument*/NULL);
+		Component_GetComponents_m3426812285(L_3, L_4, L_5, /*hidden argument*/NULL);
 		List_1_t2923905571 * L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(LayoutRebuilder_t1563460583_il2cpp_TypeInfo_var);
 		LayoutRebuilder_StripDisabledBehavioursFromList_m51650679(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
@@ -39215,7 +39215,7 @@ IL_00a7:
 		RectTransform_t3317474837 * L_31 = ___rect;
 		int32_t L_32 = V_3;
 		NullCheck(L_31);
-		Transform_t284553113 * L_33 = Transform_GetChild_m1597418116(L_31, L_32, /*hidden argument*/NULL);
+		Transform_t284553113 * L_33 = Transform_GetChild_m4040462992(L_31, L_32, /*hidden argument*/NULL);
 		UnityAction_1_t2107408507 * L_34 = ___action;
 		LayoutRebuilder_PerformLayoutControl_m724256510(__this, ((RectTransform_t3317474837 *)IsInstSealed(L_33, RectTransform_t3317474837_il2cpp_TypeInfo_var)), L_34, /*hidden argument*/NULL);
 		int32_t L_35 = V_3;
@@ -39227,7 +39227,7 @@ IL_00be:
 		int32_t L_36 = V_3;
 		RectTransform_t3317474837 * L_37 = ___rect;
 		NullCheck(L_37);
-		int32_t L_38 = Transform_get_childCount_m1901732351(L_37, /*hidden argument*/NULL);
+		int32_t L_38 = Transform_get_childCount_m2107810675(L_37, /*hidden argument*/NULL);
 		if ((((int32_t)L_36) < ((int32_t)L_38)))
 		{
 			goto IL_00a7;
@@ -39265,7 +39265,7 @@ extern "C"  void LayoutRebuilder_PerformLayoutCalculation_m941802386 (LayoutRebu
 	int32_t V_2 = 0;
 	{
 		RectTransform_t3317474837 * L_0 = ___rect;
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_000d;
@@ -39285,7 +39285,7 @@ IL_000d:
 		Type_t * L_4 = Type_GetTypeFromHandle_m3806905434(NULL /*static, unused*/, LoadTypeToken(ILayoutElement_t109776050_0_0_0_var), /*hidden argument*/NULL);
 		List_1_t2923905571 * L_5 = V_0;
 		NullCheck(L_3);
-		Component_GetComponents_m3740314889(L_3, L_4, L_5, /*hidden argument*/NULL);
+		Component_GetComponents_m3426812285(L_3, L_4, L_5, /*hidden argument*/NULL);
 		List_1_t2923905571 * L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(LayoutRebuilder_t1563460583_il2cpp_TypeInfo_var);
 		LayoutRebuilder_StripDisabledBehavioursFromList_m51650679(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
@@ -39307,7 +39307,7 @@ IL_003d:
 		RectTransform_t3317474837 * L_9 = ___rect;
 		int32_t L_10 = V_1;
 		NullCheck(L_9);
-		Transform_t284553113 * L_11 = Transform_GetChild_m1597418116(L_9, L_10, /*hidden argument*/NULL);
+		Transform_t284553113 * L_11 = Transform_GetChild_m4040462992(L_9, L_10, /*hidden argument*/NULL);
 		UnityAction_1_t2107408507 * L_12 = ___action;
 		LayoutRebuilder_PerformLayoutCalculation_m941802386(__this, ((RectTransform_t3317474837 *)IsInstSealed(L_11, RectTransform_t3317474837_il2cpp_TypeInfo_var)), L_12, /*hidden argument*/NULL);
 		int32_t L_13 = V_1;
@@ -39319,7 +39319,7 @@ IL_0054:
 		int32_t L_14 = V_1;
 		RectTransform_t3317474837 * L_15 = ___rect;
 		NullCheck(L_15);
-		int32_t L_16 = Transform_get_childCount_m1901732351(L_15, /*hidden argument*/NULL);
+		int32_t L_16 = Transform_get_childCount_m2107810675(L_15, /*hidden argument*/NULL);
 		if ((((int32_t)L_14) < ((int32_t)L_16)))
 		{
 			goto IL_003d;
@@ -39383,7 +39383,7 @@ extern "C"  void LayoutRebuilder_MarkLayoutForRebuild_m901621521 (Il2CppObject *
 	RectTransform_t3317474837 * V_2 = NULL;
 	{
 		RectTransform_t3317474837 * L_0 = ___rect;
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_000d;
@@ -39406,7 +39406,7 @@ IL_0015:
 	{
 		RectTransform_t3317474837 * L_4 = V_1;
 		NullCheck(L_4);
-		Transform_t284553113 * L_5 = Transform_get_parent_m1031913888(L_4, /*hidden argument*/NULL);
+		Transform_t284553113 * L_5 = Transform_get_parent_m2236876972(L_4, /*hidden argument*/NULL);
 		V_2 = ((RectTransform_t3317474837 *)IsInstSealed(L_5, RectTransform_t3317474837_il2cpp_TypeInfo_var));
 		RectTransform_t3317474837 * L_6 = V_2;
 		List_1_t2923905571 * L_7 = V_0;
@@ -39432,7 +39432,7 @@ IL_0039:
 	{
 		RectTransform_t3317474837 * L_10 = V_1;
 		RectTransform_t3317474837 * L_11 = ___rect;
-		bool L_12 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		bool L_12 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
 		if (!L_12)
 		{
 			goto IL_0058;
@@ -39482,7 +39482,7 @@ extern "C"  bool LayoutRebuilder_ValidLayoutGroup_m1488924317 (Il2CppObject * __
 	bool V_0 = false;
 	{
 		RectTransform_t3317474837 * L_0 = ___parent;
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_000e;
@@ -39499,7 +39499,7 @@ IL_000e:
 		Type_t * L_3 = Type_GetTypeFromHandle_m3806905434(NULL /*static, unused*/, LoadTypeToken(ILayoutGroup_t3479235445_0_0_0_var), /*hidden argument*/NULL);
 		List_1_t2923905571 * L_4 = ___comps;
 		NullCheck(L_2);
-		Component_GetComponents_m3740314889(L_2, L_3, L_4, /*hidden argument*/NULL);
+		Component_GetComponents_m3426812285(L_2, L_3, L_4, /*hidden argument*/NULL);
 		List_1_t2923905571 * L_5 = ___comps;
 		IL2CPP_RUNTIME_CLASS_INIT(LayoutRebuilder_t1563460583_il2cpp_TypeInfo_var);
 		LayoutRebuilder_StripDisabledBehavioursFromList_m51650679(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
@@ -39527,7 +39527,7 @@ extern "C"  bool LayoutRebuilder_ValidController_m2724682388 (Il2CppObject * __t
 	bool V_0 = false;
 	{
 		RectTransform_t3317474837 * L_0 = ___layoutRoot;
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_000e;
@@ -39544,7 +39544,7 @@ IL_000e:
 		Type_t * L_3 = Type_GetTypeFromHandle_m3806905434(NULL /*static, unused*/, LoadTypeToken(ILayoutController_t2363688664_0_0_0_var), /*hidden argument*/NULL);
 		List_1_t2923905571 * L_4 = ___comps;
 		NullCheck(L_2);
-		Component_GetComponents_m3740314889(L_2, L_3, L_4, /*hidden argument*/NULL);
+		Component_GetComponents_m3426812285(L_2, L_3, L_4, /*hidden argument*/NULL);
 		List_1_t2923905571 * L_5 = ___comps;
 		IL2CPP_RUNTIME_CLASS_INIT(LayoutRebuilder_t1563460583_il2cpp_TypeInfo_var);
 		LayoutRebuilder_StripDisabledBehavioursFromList_m51650679(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
@@ -39573,7 +39573,7 @@ extern "C"  void LayoutRebuilder_MarkLayoutRootForRebuild_m1708966351 (Il2CppObj
 	LayoutRebuilder_t1563460583 * V_0 = NULL;
 	{
 		RectTransform_t3317474837 * L_0 = ___controller;
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_000d;
@@ -39712,7 +39712,7 @@ extern "C"  bool LayoutRebuilder_U3CStripDisabledBehavioursFromListU3Em__7_m1620
 	{
 		Component_t2126946602 * L_1 = ___e;
 		NullCheck(((Behaviour_t3120504042 *)CastclassClass(L_1, Behaviour_t3120504042_il2cpp_TypeInfo_var)));
-		bool L_2 = Behaviour_get_isActiveAndEnabled_m76195377(((Behaviour_t3120504042 *)CastclassClass(L_1, Behaviour_t3120504042_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		bool L_2 = Behaviour_get_isActiveAndEnabled_m210167461(((Behaviour_t3120504042 *)CastclassClass(L_1, Behaviour_t3120504042_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		G_B3_0 = ((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 		goto IL_001c;
 	}
@@ -39981,7 +39981,7 @@ IL_0041:
 		Func_2_t4205183563 * L_10 = ((LayoutUtility_t4203675851_StaticFields*)LayoutUtility_t4203675851_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache2_2();
 		float L_11 = LayoutUtility_GetLayoutProperty_m846328268(NULL /*static, unused*/, G_B4_0, L_10, (0.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_12 = Mathf_Max_m2786059995(NULL /*static, unused*/, G_B4_1, L_11, /*hidden argument*/NULL);
+		float L_12 = Mathf_Max_m3923796455(NULL /*static, unused*/, G_B4_1, L_11, /*hidden argument*/NULL);
 		return L_12;
 	}
 }
@@ -40140,7 +40140,7 @@ IL_0041:
 		Func_2_t4205183563 * L_10 = ((LayoutUtility_t4203675851_StaticFields*)LayoutUtility_t4203675851_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache6_6();
 		float L_11 = LayoutUtility_GetLayoutProperty_m846328268(NULL /*static, unused*/, G_B4_0, L_10, (0.0f), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_12 = Mathf_Max_m2786059995(NULL /*static, unused*/, G_B4_1, L_11, /*hidden argument*/NULL);
+		float L_12 = Mathf_Max_m3923796455(NULL /*static, unused*/, G_B4_1, L_11, /*hidden argument*/NULL);
 		return L_12;
 	}
 }
@@ -40228,7 +40228,7 @@ extern "C"  float LayoutUtility_GetLayoutProperty_m3561974560 (Il2CppObject * __
 		*((Il2CppObject **)(L_0)) = (Il2CppObject *)NULL;
 		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_0), (Il2CppObject *)NULL);
 		RectTransform_t3317474837 * L_1 = ___rect;
-		bool L_2 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0015;
@@ -40251,7 +40251,7 @@ IL_0015:
 		Type_t * L_6 = Type_GetTypeFromHandle_m3806905434(NULL /*static, unused*/, LoadTypeToken(ILayoutElement_t109776050_0_0_0_var), /*hidden argument*/NULL);
 		List_1_t2923905571 * L_7 = V_2;
 		NullCheck(L_5);
-		Component_GetComponents_m3740314889(L_5, L_6, L_7, /*hidden argument*/NULL);
+		Component_GetComponents_m3426812285(L_5, L_6, L_7, /*hidden argument*/NULL);
 		V_3 = 0;
 		goto IL_00c6;
 	}
@@ -40272,7 +40272,7 @@ IL_003b:
 	{
 		Il2CppObject * L_12 = V_4;
 		NullCheck(((Behaviour_t3120504042 *)CastclassClass(L_12, Behaviour_t3120504042_il2cpp_TypeInfo_var)));
-		bool L_13 = Behaviour_get_isActiveAndEnabled_m76195377(((Behaviour_t3120504042 *)CastclassClass(L_12, Behaviour_t3120504042_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		bool L_13 = Behaviour_get_isActiveAndEnabled_m210167461(((Behaviour_t3120504042 *)CastclassClass(L_12, Behaviour_t3120504042_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		if (L_13)
 		{
 			goto IL_006b;
@@ -40599,7 +40599,7 @@ IL_000d:
 		bool L_2 = ___value;
 		__this->set_m_ShowMaskGraphic_3(L_2);
 		Graphic_t933884113 * L_3 = Mask_get_graphic_m2101144526(__this, /*hidden argument*/NULL);
-		bool L_4 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0030;
@@ -40684,7 +40684,7 @@ extern "C"  void Mask_OnEnable_m2035884999 (Mask_t3286245653 * __this, const Met
 	{
 		UIBehaviour_OnEnable_m4047103690(__this, /*hidden argument*/NULL);
 		Graphic_t933884113 * L_0 = Mask_get_graphic_m2101144526(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0033;
@@ -40695,7 +40695,7 @@ extern "C"  void Mask_OnEnable_m2035884999 (Mask_t3286245653 * __this, const Met
 		NullCheck(L_2);
 		CanvasRenderer_t3626201768 * L_3 = Graphic_get_canvasRenderer_m184553434(L_2, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		CanvasRenderer_set_hasPopInstruction_m1339174357(L_3, (bool)1, /*hidden argument*/NULL);
+		CanvasRenderer_set_hasPopInstruction_m2112255713(L_3, (bool)1, /*hidden argument*/NULL);
 		Graphic_t933884113 * L_4 = Mask_get_graphic_m2101144526(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		VirtActionInvoker0::Invoke(24 /* System.Void UnityEngine.UI.Graphic::SetMaterialDirty() */, L_4);
@@ -40721,7 +40721,7 @@ extern "C"  void Mask_OnDisable_m3423830086 (Mask_t3286245653 * __this, const Me
 	{
 		UIBehaviour_OnDisable_m1347100067(__this, /*hidden argument*/NULL);
 		Graphic_t933884113 * L_0 = Mask_get_graphic_m2101144526(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0044;
@@ -40735,12 +40735,12 @@ extern "C"  void Mask_OnDisable_m3423830086 (Mask_t3286245653 * __this, const Me
 		NullCheck(L_3);
 		CanvasRenderer_t3626201768 * L_4 = Graphic_get_canvasRenderer_m184553434(L_3, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		CanvasRenderer_set_hasPopInstruction_m1339174357(L_4, (bool)0, /*hidden argument*/NULL);
+		CanvasRenderer_set_hasPopInstruction_m2112255713(L_4, (bool)0, /*hidden argument*/NULL);
 		Graphic_t933884113 * L_5 = Mask_get_graphic_m2101144526(__this, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		CanvasRenderer_t3626201768 * L_6 = Graphic_get_canvasRenderer_m184553434(L_5, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		CanvasRenderer_set_popMaterialCount_m1613509443(L_6, 0, /*hidden argument*/NULL);
+		CanvasRenderer_set_popMaterialCount_m589784503(L_6, 0, /*hidden argument*/NULL);
 	}
 
 IL_0044:
@@ -40768,7 +40768,7 @@ extern "C"  bool Mask_IsRaycastLocationValid_m4053137295 (Mask_t3286245653 * __t
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		bool L_0 = Behaviour_get_isActiveAndEnabled_m76195377(__this, /*hidden argument*/NULL);
+		bool L_0 = Behaviour_get_isActiveAndEnabled_m210167461(__this, /*hidden argument*/NULL);
 		if (L_0)
 		{
 			goto IL_000d;
@@ -40784,7 +40784,7 @@ IL_000d:
 		Vector2_t3525329788  L_2 = ___sp;
 		Camera_t3533968274 * L_3 = ___eventCamera;
 		IL2CPP_RUNTIME_CLASS_INIT(RectTransformUtility_t2895919825_il2cpp_TypeInfo_var);
-		bool L_4 = RectTransformUtility_RectangleContainsScreenPoint_m2225099328(NULL /*static, unused*/, L_1, L_2, L_3, /*hidden argument*/NULL);
+		bool L_4 = RectTransformUtility_RectangleContainsScreenPoint_m1460676684(NULL /*static, unused*/, L_1, L_2, L_3, /*hidden argument*/NULL);
 		return L_4;
 	}
 }
@@ -40836,14 +40836,14 @@ extern "C"  Material_t1886596500 * Mask_GetModifiedMaterial_m3826173342 (Mask_t3
 	Material_t1886596500 * G_B13_4 = NULL;
 	{
 		Graphic_t933884113 * L_0 = Mask_get_graphic_m2101144526(__this, /*hidden argument*/NULL);
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_001c;
 		}
 	}
 	{
-		bool L_2 = Behaviour_get_isActiveAndEnabled_m76195377(__this, /*hidden argument*/NULL);
+		bool L_2 = Behaviour_get_isActiveAndEnabled_m210167461(__this, /*hidden argument*/NULL);
 		if (L_2)
 		{
 			goto IL_001e;
@@ -40858,10 +40858,10 @@ IL_001c:
 
 IL_001e:
 	{
-		Transform_t284553113 * L_4 = Component_get_transform_m243597671(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_4 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
 		Transform_t284553113 * L_5 = MaskUtilities_FindRootSortOverrideCanvas_m4219954651(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
-		Transform_t284553113 * L_6 = Component_get_transform_m243597671(__this, /*hidden argument*/NULL);
+		Transform_t284553113 * L_6 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
 		Transform_t284553113 * L_7 = V_0;
 		int32_t L_8 = MaskUtilities_GetStencilDepth_m2786493988(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
 		V_1 = L_8;
@@ -40872,9 +40872,9 @@ IL_001e:
 		}
 	}
 	{
-		GameObject_t4012695102 * L_10 = Component_get_gameObject_m1036663815(__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_10 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_LogError_m3295311090(NULL /*static, unused*/, _stringLiteral4026608925, L_10, /*hidden argument*/NULL);
+		Debug_LogError_m214246398(NULL /*static, unused*/, _stringLiteral4026608925, L_10, /*hidden argument*/NULL);
 		Material_t1886596500 * L_11 = ___baseMaterial;
 		return L_11;
 	}
@@ -40943,13 +40943,13 @@ IL_0075:
 		NullCheck(L_23);
 		CanvasRenderer_t3626201768 * L_24 = Graphic_get_canvasRenderer_m184553434(L_23, /*hidden argument*/NULL);
 		NullCheck(L_24);
-		CanvasRenderer_set_popMaterialCount_m1613509443(L_24, 1, /*hidden argument*/NULL);
+		CanvasRenderer_set_popMaterialCount_m589784503(L_24, 1, /*hidden argument*/NULL);
 		Graphic_t933884113 * L_25 = Mask_get_graphic_m2101144526(__this, /*hidden argument*/NULL);
 		NullCheck(L_25);
 		CanvasRenderer_t3626201768 * L_26 = Graphic_get_canvasRenderer_m184553434(L_25, /*hidden argument*/NULL);
 		Material_t1886596500 * L_27 = __this->get_m_UnmaskMaterial_6();
 		NullCheck(L_26);
-		CanvasRenderer_SetPopMaterial_m324301857(L_26, L_27, 0, /*hidden argument*/NULL);
+		CanvasRenderer_SetPopMaterial_m1315408685(L_26, L_27, 0, /*hidden argument*/NULL);
 		Material_t1886596500 * L_28 = __this->get_m_MaskMaterial_5();
 		return L_28;
 	}
@@ -41007,7 +41007,7 @@ IL_00f6:
 		NullCheck(L_39);
 		CanvasRenderer_t3626201768 * L_40 = Graphic_get_canvasRenderer_m184553434(L_39, /*hidden argument*/NULL);
 		NullCheck(L_40);
-		CanvasRenderer_set_hasPopInstruction_m1339174357(L_40, (bool)1, /*hidden argument*/NULL);
+		CanvasRenderer_set_hasPopInstruction_m2112255713(L_40, (bool)1, /*hidden argument*/NULL);
 		Material_t1886596500 * L_41 = ___baseMaterial;
 		int32_t L_42 = V_2;
 		int32_t L_43 = V_2;
@@ -41023,13 +41023,13 @@ IL_00f6:
 		NullCheck(L_49);
 		CanvasRenderer_t3626201768 * L_50 = Graphic_get_canvasRenderer_m184553434(L_49, /*hidden argument*/NULL);
 		NullCheck(L_50);
-		CanvasRenderer_set_popMaterialCount_m1613509443(L_50, 1, /*hidden argument*/NULL);
+		CanvasRenderer_set_popMaterialCount_m589784503(L_50, 1, /*hidden argument*/NULL);
 		Graphic_t933884113 * L_51 = Mask_get_graphic_m2101144526(__this, /*hidden argument*/NULL);
 		NullCheck(L_51);
 		CanvasRenderer_t3626201768 * L_52 = Graphic_get_canvasRenderer_m184553434(L_51, /*hidden argument*/NULL);
 		Material_t1886596500 * L_53 = __this->get_m_UnmaskMaterial_6();
 		NullCheck(L_52);
-		CanvasRenderer_SetPopMaterial_m324301857(L_52, L_53, 0, /*hidden argument*/NULL);
+		CanvasRenderer_SetPopMaterial_m1315408685(L_52, L_53, 0, /*hidden argument*/NULL);
 		Material_t1886596500 * L_54 = __this->get_m_MaskMaterial_5();
 		return L_54;
 	}

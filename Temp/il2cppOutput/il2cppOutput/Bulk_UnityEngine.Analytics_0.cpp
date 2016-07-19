@@ -14,7 +14,7 @@
 #include <assert.h>
 
 // <PrivateImplementationDetails>
-struct U3CPrivateImplementationDetailsU3E_t3053238939;
+struct U3CPrivateImplementationDetailsU3E_t3053238938;
 // System.String
 struct String_t;
 // UnityEngine.Analytics.ICloudService
@@ -220,10 +220,10 @@ struct UserInfoEvent_t2122070294;
 #include "mscorlib_System_RuntimeTypeHandle1864875887.h"
 
 // !!0 UnityEngine.GameObject::AddComponent<System.Object>()
-extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m337943659_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
-#define GameObject_AddComponent_TisIl2CppObject_m337943659(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
+#define GameObject_AddComponent_TisIl2CppObject_m3908606994(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.Analytics.GameObserver>()
-#define GameObject_AddComponent_TisGameObserver_t3114543933_m3307864618(__this, method) ((  GameObserver_t3114543933 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisGameObserver_t3114543933_m3307864618(__this, method) ((  GameObserver_t3114543933 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.Analytics.SessionValues::TryGetValue<System.Boolean>(System.String,!!0)
 extern "C"  bool SessionValues_TryGetValue_TisBoolean_t211005341_m2092376061_gshared (SessionValues_t3171441005 * __this, String_t* p0, bool p1, const MethodInfo* method);
 #define SessionValues_TryGetValue_TisBoolean_t211005341_m2092376061(__this, p0, p1, method) ((  bool (*) (SessionValues_t3171441005 *, String_t*, bool, const MethodInfo*))SessionValues_TryGetValue_TisBoolean_t211005341_m2092376061_gshared)(__this, p0, p1, method)
@@ -268,7 +268,7 @@ extern "C"  Int32U5BU5D_t1809983122* Array_ConvertAll_TisInt64_t2847414882_TisIn
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void <PrivateImplementationDetails>::.ctor()
-extern "C"  void U3CPrivateImplementationDetailsU3E__ctor_m2239200199 (U3CPrivateImplementationDetailsU3E_t3053238939 * __this, const MethodInfo* method)
+extern "C"  void U3CPrivateImplementationDetailsU3E__ctor_m2239200199 (U3CPrivateImplementationDetailsU3E_t3053238938 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
@@ -308,7 +308,7 @@ extern "C"  void Analytics_AutoStartUnityAnalytics_m1670054757 (Il2CppObject * _
 		}
 	}
 	{
-		int32_t L_1 = Application_get_platform_m475587980(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_1) == ((int32_t)((int32_t)28))))
 		{
 			goto IL_0021;
@@ -892,7 +892,7 @@ extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
 extern TypeInfo* DateTime_t339033936_il2cpp_TypeInfo_var;
 extern TypeInfo* SystemClock_t1629522764_il2cpp_TypeInfo_var;
 extern TypeInfo* Int64_t2847414882_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m491246241_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3229349667_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral3575610;
 extern Il2CppCodeGenString* _stringLiteral3711;
 extern const uint32_t AnalyticsEvent__ctor_m4166954732_MetadataUsageId;
@@ -909,7 +909,7 @@ extern "C"  void AnalyticsEvent__ctor_m4166954732 (AnalyticsEvent_t2694241545 * 
 		int32_t L_0 = ___eventFlags;
 		__this->set_m_Flags_12(L_0);
 		Dictionary_2_t2474804324 * L_1 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m491246241(L_1, /*hidden argument*/Dictionary_2__ctor_m491246241_MethodInfo_var);
+		Dictionary_2__ctor_m3229349667(L_1, /*hidden argument*/Dictionary_2__ctor_m3229349667_MethodInfo_var);
 		__this->set_m_Parameters_11(L_1);
 		Dictionary_2_t2474804324 * L_2 = __this->get_m_Parameters_11();
 		String_t* L_3 = ___eventName;
@@ -960,7 +960,7 @@ extern "C"  String_t* AnalyticsEvent_ToStringJSON_m2809459314 (AnalyticsEvent_t2
 {
 	{
 		Dictionary_2_t2474804324 * L_0 = __this->get_m_Parameters_11();
-		String_t* L_1 = SimpleJson_SerializeObject_m1597566878(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = SimpleJson_SerializeObject_m290152864(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -1249,7 +1249,7 @@ extern "C"  bool BasePlatformWrapper_get_isWebPlayer_m3490724528 (BasePlatformWr
 extern "C"  bool BasePlatformWrapper_get_isEditor_m2229699028 (BasePlatformWrapper_t3402211236 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = Application_get_isEditor_m806574561(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_0 = Application_get_isEditor_m1279348309(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -1257,7 +1257,7 @@ extern "C"  bool BasePlatformWrapper_get_isEditor_m2229699028 (BasePlatformWrapp
 extern "C"  bool BasePlatformWrapper_get_isAndroid_m3384257994 (BasePlatformWrapper_t3402211236 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = Application_get_platform_m475587980(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return (bool)((((int32_t)L_0) == ((int32_t)((int32_t)11)))? 1 : 0);
 	}
 }
@@ -1297,7 +1297,7 @@ extern "C"  String_t* BasePlatformWrapper_get_loadedLevelName_m618529628 (BasePl
 extern "C"  String_t* BasePlatformWrapper_get_persistentDataPath_m638006614 (BasePlatformWrapper_t3402211236 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = Application_get_persistentDataPath_m1119052517(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_0 = Application_get_persistentDataPath_m2554537447(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -1313,7 +1313,7 @@ extern "C"  String_t* BasePlatformWrapper_get_platformName_m420461966 (BasePlatf
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		int32_t L_0 = Application_get_platform_m475587980(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		int32_t L_1 = L_0;
 		Il2CppObject * L_2 = Box(RuntimePlatform_t1574985880_il2cpp_TypeInfo_var, &L_1);
 		NullCheck((Enum_t2778772662 *)L_2);
@@ -1847,7 +1847,7 @@ extern "C"  void DeviceInfoEvent_SetChanged_m1230280567 (DeviceInfoEvent_t150498
 extern "C"  void GameObserver__ctor_m1427892661 (GameObserver_t3114543933 * __this, const MethodInfo* method)
 {
 	{
-		MonoBehaviour__ctor_m1899368843(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1874,11 +1874,11 @@ extern "C"  GameObserver_t3114543933 * GameObserver_CreateComponent_m836205100 (
 	GameObserver_t3114543933 * G_B3_1 = NULL;
 	{
 		GameObject_t4012695102 * L_0 = (GameObject_t4012695102 *)il2cpp_codegen_object_new(GameObject_t4012695102_il2cpp_TypeInfo_var);
-		GameObject__ctor_m556827858(L_0, _stringLiteral920542819, /*hidden argument*/NULL);
+		GameObject__ctor_m3920833606(L_0, _stringLiteral920542819, /*hidden argument*/NULL);
 		V_2 = L_0;
 		GameObject_t4012695102 * L_1 = V_2;
 		NullCheck(L_1);
-		Object_set_hideFlags_m1616337884(L_1, ((int32_t)61), /*hidden argument*/NULL);
+		Object_set_hideFlags_m41317712(L_1, ((int32_t)61), /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_2 = V_2;
 		V_0 = L_2;
 		GameObject_t4012695102 * L_3 = V_0;
@@ -1919,7 +1919,7 @@ IL_0037:
 		G_B3_1->set_m_IsWebPlayerOrEditor_4((bool)G_B3_0);
 		GameObserver_t3114543933 * L_11 = V_1;
 		NullCheck(L_11);
-		Object_set_hideFlags_m1616337884(L_11, 3, /*hidden argument*/NULL);
+		Object_set_hideFlags_m41317712(L_11, 3, /*hidden argument*/NULL);
 		GameObserver_t3114543933 * L_12 = V_1;
 		GameObject_t4012695102 * L_13 = V_0;
 		NullCheck(L_12);
@@ -1952,7 +1952,7 @@ extern "C"  void GameObserver_Update_m3041861624 (GameObserver_t3114543933 * __t
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		bool L_1 = Input_GetMouseButtonDown_m1121599951(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		bool L_1 = Input_GetMouseButtonDown_m2031691843(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001c;
@@ -1970,7 +1970,7 @@ IL_001c:
 IL_0021:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
-		int32_t L_2 = Input_get_touchCount_m3560871514(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = Input_get_touchCount_m1430909390(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_2) <= ((int32_t)0)))
 		{
 			goto IL_0047;
@@ -1981,7 +1981,7 @@ IL_0021:
 		TouchU5BU5D_t376223077* L_3 = Input_get_touches_m300368858(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, 0);
-		int32_t L_4 = Touch_get_phase_m1221088666(((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), /*hidden argument*/NULL);
+		int32_t L_4 = Touch_get_phase_m3314549414(((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), /*hidden argument*/NULL);
 		if (L_4)
 		{
 			goto IL_0047;
@@ -2155,7 +2155,7 @@ extern "C"  Il2CppObject * PlatformWrapper_get_platform_m793351918 (Il2CppObject
 // System.Void UnityEngine.Analytics.SessionConfig::.ctor(UnityEngine.Analytics.IPlatformWrapper,System.String,System.String)
 extern TypeInfo* Int32U5BU5D_t1809983122_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t3053238939____U24U24fieldU2D0_0_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t3053238938____U24U24fieldU2D0_0_FieldInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2848685344;
 extern Il2CppCodeGenString* _stringLiteral4201209128;
 extern const uint32_t SessionConfig__ctor_m4251301107_MetadataUsageId;
@@ -2180,7 +2180,7 @@ extern "C"  void SessionConfig__ctor_m4251301107 (SessionConfig_t2640461709 * __
 		__this->set_m_MaxContinuousRequestTimeoutInSec_40(((int32_t)60));
 		__this->set_m_ResumeTimeoutInMillSeconds_41(((int32_t)1800000));
 		Int32U5BU5D_t1809983122* L_0 = ((Int32U5BU5D_t1809983122*)SZArrayNew(Int32U5BU5D_t1809983122_il2cpp_TypeInfo_var, (uint32_t)6));
-		RuntimeHelpers_InitializeArray_m2058365049(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3053238939____U24U24fieldU2D0_0_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m2058365049(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3053238938____U24U24fieldU2D0_0_FieldInfo_var), /*hidden argument*/NULL);
 		__this->set_m_DispatcherWaitTimeInSeconds_42(L_0);
 		__this->set_m_MaxAppIdSize_43(((int32_t)100));
 		__this->set_m_MaxUserIdSize_44(((int32_t)100));
@@ -2955,7 +2955,7 @@ extern "C"  bool SessionImpl_IsAnalyticsSupportedForPlatform_m3243705713 (Il2Cpp
 {
 	int32_t V_0 = 0;
 	{
-		int32_t L_0 = Application_get_platform_m475587980(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		if (((int32_t)((int32_t)L_1-(int32_t)3)) == 0)
@@ -3943,7 +3943,7 @@ extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
 extern TypeInfo* IPlatformWrapper_t1632812876_il2cpp_TypeInfo_var;
 extern TypeInfo* CustomEvent_t2312766398_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m491246241_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3229349667_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2639074379;
 extern Il2CppCodeGenString* _stringLiteral492733130;
 extern Il2CppCodeGenString* _stringLiteral206908006;
@@ -4035,7 +4035,7 @@ IL_006a:
 IL_0078:
 	{
 		Dictionary_2_t2474804324 * L_13 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m491246241(L_13, /*hidden argument*/Dictionary_2__ctor_m491246241_MethodInfo_var);
+		Dictionary_2__ctor_m3229349667(L_13, /*hidden argument*/Dictionary_2__ctor_m3229349667_MethodInfo_var);
 		V_4 = L_13;
 		Dictionary_2_t2474804324 * L_14 = V_4;
 		int32_t L_15 = ___level;
@@ -4084,7 +4084,7 @@ extern "C"  void SessionImpl_ResetSessionValues_m3305557978 (SessionImpl_t409145
 // System.Void UnityEngine.Analytics.SessionImpl::SaveSessionValues()
 extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
 extern TypeInfo* Int64_t2847414882_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m491246241_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3229349667_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2937252843;
 extern Il2CppCodeGenString* _stringLiteral3288564;
 extern Il2CppCodeGenString* _stringLiteral2302954900;
@@ -4101,7 +4101,7 @@ extern "C"  void SessionImpl_SaveSessionValues_m1868356172 (SessionImpl_t4091456
 	{
 		SessionValues_t3171441005 * L_0 = __this->get_m_SessionValues_6();
 		Dictionary_2_t2474804324 * L_1 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m491246241(L_1, /*hidden argument*/Dictionary_2__ctor_m491246241_MethodInfo_var);
+		Dictionary_2__ctor_m3229349667(L_1, /*hidden argument*/Dictionary_2__ctor_m3229349667_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t2474804324 * L_2 = V_0;
 		int64_t L_3 = __this->get_m_ClickCount_18();
@@ -4290,7 +4290,7 @@ extern TypeInfo* AppStartEvent_t3128697454_il2cpp_TypeInfo_var;
 extern TypeInfo* DateTime_t339033936_il2cpp_TypeInfo_var;
 extern TypeInfo* SystemClock_t1629522764_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m491246241_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3229349667_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral607797809;
 extern Il2CppCodeGenString* _stringLiteral1842325695;
 extern const uint32_t SessionImpl_StartSession_m2303195996_MetadataUsageId;
@@ -4419,7 +4419,7 @@ IL_0125:
 		__this->set_m_SessionPauseTime_14(L_41);
 		SessionValues_t3171441005 * L_42 = __this->get_m_SessionValues_6();
 		Dictionary_2_t2474804324 * L_43 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m491246241(L_43, /*hidden argument*/Dictionary_2__ctor_m491246241_MethodInfo_var);
+		Dictionary_2__ctor_m3229349667(L_43, /*hidden argument*/Dictionary_2__ctor_m3229349667_MethodInfo_var);
 		V_2 = L_43;
 		Dictionary_2_t2474804324 * L_44 = V_2;
 		int64_t L_45 = __this->get_m_SessionPauseTime_14();
@@ -5424,7 +5424,7 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
 extern TypeInfo* Boolean_t211005341_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t1765447871_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m491246241_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3229349667_MethodInfo_var;
 extern const MethodInfo* List_1__ctor_m459821414_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral3286987464;
 extern Il2CppCodeGenString* _stringLiteral3501357189;
@@ -5569,7 +5569,7 @@ IL_0070:
 		DeviceInfoEvent_t1504983787 * L_39 = V_10;
 		SessionImpl_HandleDeviceIdAndAdvertisingId_m1276455689(__this, L_39, /*hidden argument*/NULL);
 		Dictionary_2_t2474804324 * L_40 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m491246241(L_40, /*hidden argument*/Dictionary_2__ctor_m491246241_MethodInfo_var);
+		Dictionary_2__ctor_m3229349667(L_40, /*hidden argument*/Dictionary_2__ctor_m3229349667_MethodInfo_var);
 		V_11 = L_40;
 		Dictionary_2_t2474804324 * L_41 = V_11;
 		String_t* L_42 = V_4;
@@ -5873,7 +5873,7 @@ IL_0068:
 		}
 	}
 	{
-		int32_t L_20 = Application_get_platform_m475587980(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_20 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_20) == ((uint32_t)((int32_t)17)))))
 		{
 			goto IL_00a1;
@@ -6119,7 +6119,7 @@ extern "C"  void SessionInfo_set_platformName_m3440411240 (SessionInfo_t40914571
 extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
 extern TypeInfo* Int64_t2847414882_il2cpp_TypeInfo_var;
 extern TypeInfo* Boolean_t211005341_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m491246241_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3229349667_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral93029116;
 extern Il2CppCodeGenString* _stringLiteral3458937382;
 extern Il2CppCodeGenString* _stringLiteral607797809;
@@ -6138,7 +6138,7 @@ extern "C"  String_t* SessionInfo_ToStringJson_m3099175632 (SessionInfo_t4091457
 	Dictionary_2_t2474804324 * V_0 = NULL;
 	{
 		Dictionary_2_t2474804324 * L_0 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m491246241(L_0, /*hidden argument*/Dictionary_2__ctor_m491246241_MethodInfo_var);
+		Dictionary_2__ctor_m3229349667(L_0, /*hidden argument*/Dictionary_2__ctor_m3229349667_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t2474804324 * L_1 = V_0;
 		String_t* L_2 = SessionInfo_get_appId_m4198884825(__this, /*hidden argument*/NULL);
@@ -6180,13 +6180,13 @@ extern "C"  String_t* SessionInfo_ToStringJson_m3099175632 (SessionInfo_t4091457
 IL_0081:
 	{
 		Dictionary_2_t2474804324 * L_18 = V_0;
-		String_t* L_19 = SimpleJson_SerializeObject_m1597566878(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		String_t* L_19 = SimpleJson_SerializeObject_m290152864(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
 		return L_19;
 	}
 }
 // System.Void UnityEngine.Analytics.SessionValues::.ctor(UnityEngine.Analytics.ICloudService,System.String)
 extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m491246241_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3229349667_MethodInfo_var;
 extern const uint32_t SessionValues__ctor_m1586195_MetadataUsageId;
 extern "C"  void SessionValues__ctor_m1586195 (SessionValues_t3171441005 * __this, Il2CppObject * ___cloudService, String_t* ___valueFileName, const MethodInfo* method)
 {
@@ -6210,7 +6210,7 @@ extern "C"  void SessionValues__ctor_m1586195 (SessionValues_t3171441005 * __thi
 	}
 	{
 		Dictionary_2_t2474804324 * L_3 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m491246241(L_3, /*hidden argument*/Dictionary_2__ctor_m491246241_MethodInfo_var);
+		Dictionary_2__ctor_m3229349667(L_3, /*hidden argument*/Dictionary_2__ctor_m3229349667_MethodInfo_var);
 		__this->set_m_Values_2(L_3);
 	}
 
@@ -6231,7 +6231,7 @@ extern "C"  void SessionValues__ctor_m4006777323 (SessionValues_t3171441005 * __
 }
 // System.Void UnityEngine.Analytics.SessionValues::.ctor(System.String)
 extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m491246241_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3229349667_MethodInfo_var;
 extern const uint32_t SessionValues__ctor_m1194183761_MetadataUsageId;
 extern "C"  void SessionValues__ctor_m1194183761 (SessionValues_t3171441005 * __this, String_t* ___jsonData, const MethodInfo* method)
 {
@@ -6252,7 +6252,7 @@ extern "C"  void SessionValues__ctor_m1194183761 (SessionValues_t3171441005 * __
 	}
 	{
 		Dictionary_2_t2474804324 * L_2 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m491246241(L_2, /*hidden argument*/Dictionary_2__ctor_m491246241_MethodInfo_var);
+		Dictionary_2__ctor_m3229349667(L_2, /*hidden argument*/Dictionary_2__ctor_m3229349667_MethodInfo_var);
 		__this->set_m_Values_2(L_2);
 	}
 
@@ -6848,7 +6848,7 @@ extern "C"  bool SessionValues_Restore_m1677995279 (SessionValues_t3171441005 * 
 	{
 		V_0 = NULL;
 		String_t* L_0 = ___jsonData;
-		bool L_1 = SimpleJson_TryDeserializeObject_m2212310027(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		bool L_1 = SimpleJson_TryDeserializeObject_m3409014601(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_0011;
@@ -6940,7 +6940,7 @@ extern "C"  bool SessionValues_Save_m419626234 (SessionValues_t3171441005 * __th
 	String_t* V_0 = NULL;
 	{
 		Il2CppObject* L_0 = __this->get_m_Values_2();
-		String_t* L_1 = SimpleJson_SerializeObject_m1597566878(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = SimpleJson_SerializeObject_m290152864(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		Il2CppObject * L_2 = __this->get_m_CloudService_0();
 		String_t* L_3 = __this->get_m_ValueFileName_1();
@@ -6962,7 +6962,7 @@ extern "C"  int32_t SessionValues_U3CTryGetIntArrayU3Em__0_m2570260981 (Il2CppOb
 extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
 extern TypeInfo* Decimal_t1688557254_il2cpp_TypeInfo_var;
 extern TypeInfo* Int64_t2847414882_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m491246241_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3229349667_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2141246174;
 extern Il2CppCodeGenString* _stringLiteral3076010;
 extern Il2CppCodeGenString* _stringLiteral1073584312;
@@ -7000,7 +7000,7 @@ extern "C"  void TransactionEvent__ctor_m1703768401 (TransactionEvent_t208869496
 IL_001a:
 	{
 		Dictionary_2_t2474804324 * L_2 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m491246241(L_2, /*hidden argument*/Dictionary_2__ctor_m491246241_MethodInfo_var);
+		Dictionary_2__ctor_m3229349667(L_2, /*hidden argument*/Dictionary_2__ctor_m3229349667_MethodInfo_var);
 		V_0 = L_2;
 		String_t* L_3 = ___receiptPurchaseData;
 		if (!L_3)

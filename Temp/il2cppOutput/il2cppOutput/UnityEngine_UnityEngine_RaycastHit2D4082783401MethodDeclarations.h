@@ -24,14 +24,14 @@ struct Transform_t284553113;
 #include "UnityEngine_UnityEngine_Vector23525329788.h"
 
 // UnityEngine.Vector2 UnityEngine.RaycastHit2D::get_point()
-extern "C"  Vector2_t3525329788  RaycastHit2D_get_point_m867728143 (RaycastHit2D_t4082783401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  Vector2_t3525329788  RaycastHit2D_get_point_m2072691227 (RaycastHit2D_t4082783401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.RaycastHit2D::get_normal()
-extern "C"  Vector2_t3525329788  RaycastHit2D_get_normal_m2195353450 (RaycastHit2D_t4082783401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  Vector2_t3525329788  RaycastHit2D_get_normal_m894503390 (RaycastHit2D_t4082783401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.RaycastHit2D::get_fraction()
-extern "C"  float RaycastHit2D_get_fraction_m1840742902 (RaycastHit2D_t4082783401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  float RaycastHit2D_get_fraction_m2313516650 (RaycastHit2D_t4082783401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Collider2D UnityEngine.RaycastHit2D::get_collider()
-extern "C"  Collider2D_t1890038195 * RaycastHit2D_get_collider_m931734998 (RaycastHit2D_t4082783401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  Collider2D_t1890038195 * RaycastHit2D_get_collider_m789902306 (RaycastHit2D_t4082783401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rigidbody2D UnityEngine.RaycastHit2D::get_rigidbody()
 extern "C"  Rigidbody2D_t3632243084 * RaycastHit2D_get_rigidbody_m1059160360 (RaycastHit2D_t4082783401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Transform UnityEngine.RaycastHit2D::get_transform()
-extern "C"  Transform_t284553113 * RaycastHit2D_get_transform_m1460429832 (RaycastHit2D_t4082783401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  Transform_t284553113 * RaycastHit2D_get_transform_m1318597140 (RaycastHit2D_t4082783401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

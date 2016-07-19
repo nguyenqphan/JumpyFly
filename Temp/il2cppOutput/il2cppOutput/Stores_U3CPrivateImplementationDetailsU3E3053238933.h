@@ -21,21 +21,21 @@
 #endif
 
 // <PrivateImplementationDetails>
-struct  U3CPrivateImplementationDetailsU3E_t3053238938  : public Il2CppObject
+struct  U3CPrivateImplementationDetailsU3E_t3053238937  : public Il2CppObject
 {
 public:
 
 public:
 };
 
-struct U3CPrivateImplementationDetailsU3E_t3053238938_StaticFields
+struct U3CPrivateImplementationDetailsU3E_t3053238937_StaticFields
 {
 public:
 	// <PrivateImplementationDetails>/$ArrayType=12 <PrivateImplementationDetails>::$field-F59538F128558CDEE7C8F1BE48C08DBA78089463
 	U24ArrayTypeU3D12_t214898511  ___U24fieldU2DF59538F128558CDEE7C8F1BE48C08DBA78089463_0;
 
 public:
-	inline static int32_t get_offset_of_U24fieldU2DF59538F128558CDEE7C8F1BE48C08DBA78089463_0() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3053238938_StaticFields, ___U24fieldU2DF59538F128558CDEE7C8F1BE48C08DBA78089463_0)); }
+	inline static int32_t get_offset_of_U24fieldU2DF59538F128558CDEE7C8F1BE48C08DBA78089463_0() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3053238937_StaticFields, ___U24fieldU2DF59538F128558CDEE7C8F1BE48C08DBA78089463_0)); }
 	inline U24ArrayTypeU3D12_t214898511  get_U24fieldU2DF59538F128558CDEE7C8F1BE48C08DBA78089463_0() const { return ___U24fieldU2DF59538F128558CDEE7C8F1BE48C08DBA78089463_0; }
 	inline U24ArrayTypeU3D12_t214898511 * get_address_of_U24fieldU2DF59538F128558CDEE7C8F1BE48C08DBA78089463_0() { return &___U24fieldU2DF59538F128558CDEE7C8F1BE48C08DBA78089463_0; }
 	inline void set_U24fieldU2DF59538F128558CDEE7C8F1BE48C08DBA78089463_0(U24ArrayTypeU3D12_t214898511  value)

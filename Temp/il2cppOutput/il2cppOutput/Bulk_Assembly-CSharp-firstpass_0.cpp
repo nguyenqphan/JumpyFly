@@ -13,6 +13,26 @@
 #include <limits>
 #include <assert.h>
 
+// admob.Admob
+struct Admob_t486577996;
+// admob.Admob/AdmobEventHandler
+struct AdmobEventHandler_t2165620685;
+// System.String
+struct String_t;
+// admob.Admob/AdmobAdCallBack
+struct AdmobAdCallBack_t3651055973;
+// admob.AdSize
+struct AdSize_t2379286099;
+// System.Object
+struct Il2CppObject;
+// System.IAsyncResult
+struct IAsyncResult_t537683269;
+// System.AsyncCallback
+struct AsyncCallback_t1363551830;
+// admob.AdmobEvent
+struct AdmobEvent_t3767587884;
+// admob.AdPosition
+struct AdPosition_t990615035;
 // IAPDemo
 struct IAPDemo_t2300162107;
 // UnityEngine.Purchasing.IStoreController
@@ -21,8 +41,6 @@ struct IStoreController_t2959286891;
 struct IExtensionProvider_t2030462110;
 // UnityEngine.Purchasing.IAppleExtensions
 struct IAppleExtensions_t100643356;
-// System.Object
-struct Il2CppObject;
 // UnityEngine.Purchasing.PurchaseEventArgs
 struct PurchaseEventArgs_t3858045197;
 // UnityEngine.Purchasing.Product
@@ -41,35 +59,55 @@ struct Dropdown_t2916437562;
 struct Button_t990034267;
 // UnityEngine.UI.Text
 struct Text_t3286458198;
+// MonoPInvokeCallbackAttribute
+struct MonoPInvokeCallbackAttribute_t60011986;
+// System.Type
+struct Type_t;
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array2840145358.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_U3CModuleU3E86524790.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_U3CModuleU3E86524790MethodDeclarations.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_admob_Admob486577996.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_admob_Admob486577996MethodDeclarations.h"
+#include "mscorlib_System_Void2779279689.h"
+#include "mscorlib_System_Object837106420MethodDeclarations.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_admob_Admob_AdmobEve2165620685.h"
+#include "mscorlib_System_Delegate3660574010MethodDeclarations.h"
+#include "mscorlib_System_Delegate3660574010.h"
+#include "mscorlib_System_String968488902.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_admob_Admob_AdmobAdC3651055973.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_admob_Admob_AdmobAdC3651055973MethodDeclarations.h"
+#include "mscorlib_System_Object837106420.h"
+#include "mscorlib_System_IntPtr676692020.h"
+#include "mscorlib_System_Int322847414787.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_admob_AdSize2379286099.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_admob_AdSize2379286099MethodDeclarations.h"
+#include "mscorlib_System_Boolean211005341.h"
+#include "mscorlib_System_String968488902MethodDeclarations.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_admob_Admob_AdmobEve2165620685MethodDeclarations.h"
+#include "mscorlib_System_AsyncCallback1363551830.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_admob_AdmobEvent3767587884.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_admob_AdmobEvent3767587884MethodDeclarations.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_admob_AdPosition990615035.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_admob_AdPosition990615035MethodDeclarations.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_IAPDemo2300162107.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_IAPDemo2300162107MethodDeclarations.h"
-#include "mscorlib_System_Void2779279689.h"
 #include "UnityEngine_UnityEngine_MonoBehaviour3012272455MethodDeclarations.h"
-#include "mscorlib_System_Int322847414787.h"
 #include "UnityEngine_Purchasing_UnityEngine_Purchasing_Produ188697444MethodDeclarations.h"
 #include "mscorlib_System_Action_1_gen164719815MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Debug1588791936MethodDeclarations.h"
 #include "UnityEngine_Purchasing_UnityEngine_Purchasing_Produc16267110MethodDeclarations.h"
 #include "UnityEngine_Purchasing_UnityEngine_Purchasing_Prod1655822261MethodDeclarations.h"
 #include "mscorlib_System_Decimal1688557254MethodDeclarations.h"
-#include "mscorlib_System_String968488902MethodDeclarations.h"
 #include "UnityEngine_UI_UnityEngine_UI_Dropdown2916437562MethodDeclarations.h"
 #include "UnityEngine_UI_UnityEngine_UI_Dropdown_OptionData3366553055MethodDeclarations.h"
 #include "UnityEngine_Purchasing_UnityEngine_Purchasing_Produc16267110.h"
 #include "UnityEngine.Purchasing_ArrayTypes.h"
-#include "mscorlib_System_String968488902.h"
 #include "mscorlib_System_Decimal1688557254.h"
 #include "UnityEngine_Purchasing_UnityEngine_Purchasing_Produ188697444.h"
 #include "mscorlib_System_Action_1_gen164719815.h"
-#include "mscorlib_System_Object837106420.h"
-#include "mscorlib_System_IntPtr676692020.h"
-#include "mscorlib_System_Boolean211005341.h"
 #include "mscorlib_ArrayTypes.h"
 #include "UnityEngine_Purchasing_UnityEngine_Purchasing_Prod1655822261.h"
 #include "UnityEngine_UI_UnityEngine_UI_Dropdown2916437562.h"
@@ -117,12 +155,16 @@ struct Text_t3286458198;
 #include "UnityEngine_UI_UnityEngine_UI_Selectable3621744255MethodDeclarations.h"
 #include "mscorlib_System_Action_1_gen359458046MethodDeclarations.h"
 #include "mscorlib_System_Action_1_gen359458046.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_MonoPInvokeCallbackAtt60011986.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_MonoPInvokeCallbackAtt60011986MethodDeclarations.h"
+#include "mscorlib_System_Type2779229935.h"
+#include "mscorlib_System_Attribute498693649MethodDeclarations.h"
 
 // !!0 UnityEngine.Purchasing.IExtensionProvider::GetExtension<System.Object>()
-extern "C"  Il2CppObject * IExtensionProvider_GetExtension_TisIl2CppObject_m971929951_gshared (Il2CppObject * __this, const MethodInfo* method);
-#define IExtensionProvider_GetExtension_TisIl2CppObject_m971929951(__this, method) ((  Il2CppObject * (*) (Il2CppObject *, const MethodInfo*))IExtensionProvider_GetExtension_TisIl2CppObject_m971929951_gshared)(__this, method)
+extern "C"  Il2CppObject * IExtensionProvider_GetExtension_TisIl2CppObject_m1826336811_gshared (Il2CppObject * __this, const MethodInfo* method);
+#define IExtensionProvider_GetExtension_TisIl2CppObject_m1826336811(__this, method) ((  Il2CppObject * (*) (Il2CppObject *, const MethodInfo*))IExtensionProvider_GetExtension_TisIl2CppObject_m1826336811_gshared)(__this, method)
 // !!0 UnityEngine.Purchasing.IExtensionProvider::GetExtension<UnityEngine.Purchasing.IAppleExtensions>()
-#define IExtensionProvider_GetExtension_TisIAppleExtensions_t100643356_m3282383199(__this, method) ((  Il2CppObject * (*) (Il2CppObject *, const MethodInfo*))IExtensionProvider_GetExtension_TisIl2CppObject_m971929951_gshared)(__this, method)
+#define IExtensionProvider_GetExtension_TisIAppleExtensions_t100643356_m3195289899(__this, method) ((  Il2CppObject * (*) (Il2CppObject *, const MethodInfo*))IExtensionProvider_GetExtension_TisIl2CppObject_m1826336811_gshared)(__this, method)
 // !!0 UnityEngine.Purchasing.ConfigurationBuilder::Configure<System.Object>()
 extern "C"  Il2CppObject * ConfigurationBuilder_Configure_TisIl2CppObject_m3478168510_gshared (ConfigurationBuilder_t622246012 * __this, const MethodInfo* method);
 #define ConfigurationBuilder_Configure_TisIl2CppObject_m3478168510(__this, method) ((  Il2CppObject * (*) (ConfigurationBuilder_t622246012 *, const MethodInfo*))ConfigurationBuilder_Configure_TisIl2CppObject_m3478168510_gshared)(__this, method)
@@ -133,25 +175,1013 @@ extern "C"  Il2CppObject * ConfigurationBuilder_Configure_TisIl2CppObject_m34781
 // !!0 UnityEngine.Purchasing.ConfigurationBuilder::Configure<UnityEngine.Purchasing.IAmazonConfiguration>()
 #define ConfigurationBuilder_Configure_TisIAmazonConfiguration_t1574650080_m2615987130(__this, method) ((  Il2CppObject * (*) (ConfigurationBuilder_t622246012 *, const MethodInfo*))ConfigurationBuilder_Configure_TisIl2CppObject_m3478168510_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<System.Object>()
-extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
-#define GameObject_GetComponent_TisIl2CppObject_m2447772384(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared)(__this, method)
+extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
+#define GameObject_GetComponent_TisIl2CppObject_m1723468423(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Dropdown>()
-#define GameObject_GetComponent_TisDropdown_t2916437562_m899537489(__this, method) ((  Dropdown_t2916437562 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared)(__this, method)
+#define GameObject_GetComponent_TisDropdown_t2916437562_m899537489(__this, method) ((  Dropdown_t2916437562 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Button>()
-#define GameObject_GetComponent_TisButton_t990034267_m901368912(__this, method) ((  Button_t990034267 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared)(__this, method)
+#define GameObject_GetComponent_TisButton_t990034267_m901368912(__this, method) ((  Button_t990034267 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Text>()
-#define GameObject_GetComponent_TisText_t3286458198_m3253439797(__this, method) ((  Text_t3286458198 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared)(__this, method)
+#define GameObject_GetComponent_TisText_t3286458198_m3253439797(__this, method) ((  Text_t3286458198 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared)(__this, method)
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void admob.Admob::.ctor()
+extern "C"  void Admob__ctor_m2562958091 (Admob_t486577996 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void admob.Admob::add_bannerEventHandler(admob.Admob/AdmobEventHandler)
+extern TypeInfo* AdmobEventHandler_t2165620685_il2cpp_TypeInfo_var;
+extern const uint32_t Admob_add_bannerEventHandler_m438201717_MetadataUsageId;
+extern "C"  void Admob_add_bannerEventHandler_m438201717 (Admob_t486577996 * __this, AdmobEventHandler_t2165620685 * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Admob_add_bannerEventHandler_m438201717_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AdmobEventHandler_t2165620685 * L_0 = __this->get_bannerEventHandler_1();
+		AdmobEventHandler_t2165620685 * L_1 = ___value;
+		Delegate_t3660574010 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_bannerEventHandler_1(((AdmobEventHandler_t2165620685 *)CastclassSealed(L_2, AdmobEventHandler_t2165620685_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void admob.Admob::remove_bannerEventHandler(admob.Admob/AdmobEventHandler)
+extern TypeInfo* AdmobEventHandler_t2165620685_il2cpp_TypeInfo_var;
+extern const uint32_t Admob_remove_bannerEventHandler_m1117212424_MetadataUsageId;
+extern "C"  void Admob_remove_bannerEventHandler_m1117212424 (Admob_t486577996 * __this, AdmobEventHandler_t2165620685 * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Admob_remove_bannerEventHandler_m1117212424_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AdmobEventHandler_t2165620685 * L_0 = __this->get_bannerEventHandler_1();
+		AdmobEventHandler_t2165620685 * L_1 = ___value;
+		Delegate_t3660574010 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_bannerEventHandler_1(((AdmobEventHandler_t2165620685 *)CastclassSealed(L_2, AdmobEventHandler_t2165620685_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void admob.Admob::add_interstitialEventHandler(admob.Admob/AdmobEventHandler)
+extern TypeInfo* AdmobEventHandler_t2165620685_il2cpp_TypeInfo_var;
+extern const uint32_t Admob_add_interstitialEventHandler_m2573762037_MetadataUsageId;
+extern "C"  void Admob_add_interstitialEventHandler_m2573762037 (Admob_t486577996 * __this, AdmobEventHandler_t2165620685 * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Admob_add_interstitialEventHandler_m2573762037_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AdmobEventHandler_t2165620685 * L_0 = __this->get_interstitialEventHandler_2();
+		AdmobEventHandler_t2165620685 * L_1 = ___value;
+		Delegate_t3660574010 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_interstitialEventHandler_2(((AdmobEventHandler_t2165620685 *)CastclassSealed(L_2, AdmobEventHandler_t2165620685_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void admob.Admob::remove_interstitialEventHandler(admob.Admob/AdmobEventHandler)
+extern TypeInfo* AdmobEventHandler_t2165620685_il2cpp_TypeInfo_var;
+extern const uint32_t Admob_remove_interstitialEventHandler_m1109960008_MetadataUsageId;
+extern "C"  void Admob_remove_interstitialEventHandler_m1109960008 (Admob_t486577996 * __this, AdmobEventHandler_t2165620685 * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Admob_remove_interstitialEventHandler_m1109960008_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AdmobEventHandler_t2165620685 * L_0 = __this->get_interstitialEventHandler_2();
+		AdmobEventHandler_t2165620685 * L_1 = ___value;
+		Delegate_t3660574010 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_interstitialEventHandler_2(((AdmobEventHandler_t2165620685 *)CastclassSealed(L_2, AdmobEventHandler_t2165620685_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void admob.Admob::add_rewardedVideoEventHandler(admob.Admob/AdmobEventHandler)
+extern TypeInfo* AdmobEventHandler_t2165620685_il2cpp_TypeInfo_var;
+extern const uint32_t Admob_add_rewardedVideoEventHandler_m4019090272_MetadataUsageId;
+extern "C"  void Admob_add_rewardedVideoEventHandler_m4019090272 (Admob_t486577996 * __this, AdmobEventHandler_t2165620685 * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Admob_add_rewardedVideoEventHandler_m4019090272_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AdmobEventHandler_t2165620685 * L_0 = __this->get_rewardedVideoEventHandler_3();
+		AdmobEventHandler_t2165620685 * L_1 = ___value;
+		Delegate_t3660574010 * L_2 = Delegate_Combine_m1842362874(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_rewardedVideoEventHandler_3(((AdmobEventHandler_t2165620685 *)CastclassSealed(L_2, AdmobEventHandler_t2165620685_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void admob.Admob::remove_rewardedVideoEventHandler(admob.Admob/AdmobEventHandler)
+extern TypeInfo* AdmobEventHandler_t2165620685_il2cpp_TypeInfo_var;
+extern const uint32_t Admob_remove_rewardedVideoEventHandler_m1590900333_MetadataUsageId;
+extern "C"  void Admob_remove_rewardedVideoEventHandler_m1590900333 (Admob_t486577996 * __this, AdmobEventHandler_t2165620685 * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Admob_remove_rewardedVideoEventHandler_m1590900333_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AdmobEventHandler_t2165620685 * L_0 = __this->get_rewardedVideoEventHandler_3();
+		AdmobEventHandler_t2165620685 * L_1 = ___value;
+		Delegate_t3660574010 * L_2 = Delegate_Remove_m3898886541(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		__this->set_rewardedVideoEventHandler_3(((AdmobEventHandler_t2165620685 *)CastclassSealed(L_2, AdmobEventHandler_t2165620685_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// admob.Admob admob.Admob::Instance()
+extern TypeInfo* Admob_t486577996_il2cpp_TypeInfo_var;
+extern const uint32_t Admob_Instance_m1681183207_MetadataUsageId;
+extern "C"  Admob_t486577996 * Admob_Instance_m1681183207 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Admob_Instance_m1681183207_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Admob_t486577996 * L_0 = ((Admob_t486577996_StaticFields*)Admob_t486577996_il2cpp_TypeInfo_var->static_fields)->get__instance_0();
+		if (L_0)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		Admob_t486577996 * L_1 = (Admob_t486577996 *)il2cpp_codegen_object_new(Admob_t486577996_il2cpp_TypeInfo_var);
+		Admob__ctor_m2562958091(L_1, /*hidden argument*/NULL);
+		((Admob_t486577996_StaticFields*)Admob_t486577996_il2cpp_TypeInfo_var->static_fields)->set__instance_0(L_1);
+		Admob_t486577996 * L_2 = ((Admob_t486577996_StaticFields*)Admob_t486577996_il2cpp_TypeInfo_var->static_fields)->get__instance_0();
+		NullCheck(L_2);
+		Admob_preInitAdmob_m1981559715(L_2, /*hidden argument*/NULL);
+	}
+
+IL_001e:
+	{
+		Admob_t486577996 * L_3 = ((Admob_t486577996_StaticFields*)Admob_t486577996_il2cpp_TypeInfo_var->static_fields)->get__instance_0();
+		return L_3;
+	}
+}
+// System.Void admob.Admob::preInitAdmob()
+extern "C"  void Admob_preInitAdmob_m1981559715 (Admob_t486577996 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void admob.Admob::_kminitAdmob(System.String,System.String,admob.Admob/AdmobAdCallBack)
+extern "C" {void DEFAULT_CALL _kminitAdmob(char*, char*, methodPointerType);}
+extern "C"  void Admob__kminitAdmob_m2422791523 (Il2CppObject * __this /* static, unused */, String_t* ___bannerid, String_t* ___fullid, AdmobAdCallBack_t3651055973 * ___callback, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*, methodPointerType);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)_kminitAdmob;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: '_kminitAdmob'"));
+		}
+	}
+
+	// Marshaling of parameter '___bannerid' to native representation
+	char* ____bannerid_marshaled = NULL;
+	____bannerid_marshaled = il2cpp_codegen_marshal_string(___bannerid);
+
+	// Marshaling of parameter '___fullid' to native representation
+	char* ____fullid_marshaled = NULL;
+	____fullid_marshaled = il2cpp_codegen_marshal_string(___fullid);
+
+	// Marshaling of parameter '___callback' to native representation
+	methodPointerType ____callback_marshaled = NULL;
+	____callback_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___callback));
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____bannerid_marshaled, ____fullid_marshaled, ____callback_marshaled);
+
+	// Marshaling cleanup of parameter '___bannerid' native representation
+	il2cpp_codegen_marshal_free(____bannerid_marshaled);
+	____bannerid_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___fullid' native representation
+	il2cpp_codegen_marshal_free(____fullid_marshaled);
+	____fullid_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___callback' native representation
+
+}
+// System.Void admob.Admob::initAdmob(System.String,System.String)
+extern TypeInfo* AdmobAdCallBack_t3651055973_il2cpp_TypeInfo_var;
+extern const MethodInfo* Admob_onAdmobEventCallBack_m3059458016_MethodInfo_var;
+extern const uint32_t Admob_initAdmob_m3766059048_MetadataUsageId;
+extern "C"  void Admob_initAdmob_m3766059048 (Admob_t486577996 * __this, String_t* ___bannerID, String_t* ___fullID, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Admob_initAdmob_m3766059048_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___bannerID;
+		String_t* L_1 = ___fullID;
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)Admob_onAdmobEventCallBack_m3059458016_MethodInfo_var);
+		AdmobAdCallBack_t3651055973 * L_3 = (AdmobAdCallBack_t3651055973 *)il2cpp_codegen_object_new(AdmobAdCallBack_t3651055973_il2cpp_TypeInfo_var);
+		AdmobAdCallBack__ctor_m2428499085(L_3, NULL, L_2, /*hidden argument*/NULL);
+		Admob__kminitAdmob_m2422791523(NULL /*static, unused*/, L_0, L_1, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void admob.Admob::_kmshowBannerAbsolute(System.Int32,System.Int32,System.Int32,System.Int32)
+extern "C" {void DEFAULT_CALL _kmshowBannerAbsolute(int32_t, int32_t, int32_t, int32_t);}
+extern "C"  void Admob__kmshowBannerAbsolute_m3324302300 (Il2CppObject * __this /* static, unused */, int32_t ___width, int32_t ___height, int32_t ___x, int32_t ___y, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t, int32_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)_kmshowBannerAbsolute;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: '_kmshowBannerAbsolute'"));
+		}
+	}
+
+	// Marshaling of parameter '___width' to native representation
+
+	// Marshaling of parameter '___height' to native representation
+
+	// Marshaling of parameter '___x' to native representation
+
+	// Marshaling of parameter '___y' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___width, ___height, ___x, ___y);
+
+	// Marshaling cleanup of parameter '___width' native representation
+
+	// Marshaling cleanup of parameter '___height' native representation
+
+	// Marshaling cleanup of parameter '___x' native representation
+
+	// Marshaling cleanup of parameter '___y' native representation
+
+}
+// System.Void admob.Admob::showBannerAbsolute(admob.AdSize,System.Int32,System.Int32)
+extern "C"  void Admob_showBannerAbsolute_m2892801252 (Admob_t486577996 * __this, AdSize_t2379286099 * ___size, int32_t ___x, int32_t ___y, const MethodInfo* method)
+{
+	{
+		AdSize_t2379286099 * L_0 = ___size;
+		NullCheck(L_0);
+		int32_t L_1 = AdSize_get_Width_m1072009663(L_0, /*hidden argument*/NULL);
+		AdSize_t2379286099 * L_2 = ___size;
+		NullCheck(L_2);
+		int32_t L_3 = AdSize_get_Height_m3671342832(L_2, /*hidden argument*/NULL);
+		int32_t L_4 = ___x;
+		int32_t L_5 = ___y;
+		Admob__kmshowBannerAbsolute_m3324302300(NULL /*static, unused*/, L_1, L_3, L_4, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void admob.Admob::_kmshowBannerRelative(System.Int32,System.Int32,System.Int32,System.Int32)
+extern "C" {void DEFAULT_CALL _kmshowBannerRelative(int32_t, int32_t, int32_t, int32_t);}
+extern "C"  void Admob__kmshowBannerRelative_m2160923047 (Il2CppObject * __this /* static, unused */, int32_t ___width, int32_t ___height, int32_t ___position, int32_t ___marginY, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t, int32_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)_kmshowBannerRelative;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: '_kmshowBannerRelative'"));
+		}
+	}
+
+	// Marshaling of parameter '___width' to native representation
+
+	// Marshaling of parameter '___height' to native representation
+
+	// Marshaling of parameter '___position' to native representation
+
+	// Marshaling of parameter '___marginY' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___width, ___height, ___position, ___marginY);
+
+	// Marshaling cleanup of parameter '___width' native representation
+
+	// Marshaling cleanup of parameter '___height' native representation
+
+	// Marshaling cleanup of parameter '___position' native representation
+
+	// Marshaling cleanup of parameter '___marginY' native representation
+
+}
+// System.Void admob.Admob::showBannerRelative(admob.AdSize,System.Int32,System.Int32)
+extern "C"  void Admob_showBannerRelative_m3277642041 (Admob_t486577996 * __this, AdSize_t2379286099 * ___size, int32_t ___position, int32_t ___marginY, const MethodInfo* method)
+{
+	{
+		AdSize_t2379286099 * L_0 = ___size;
+		NullCheck(L_0);
+		int32_t L_1 = AdSize_get_Width_m1072009663(L_0, /*hidden argument*/NULL);
+		AdSize_t2379286099 * L_2 = ___size;
+		NullCheck(L_2);
+		int32_t L_3 = AdSize_get_Height_m3671342832(L_2, /*hidden argument*/NULL);
+		int32_t L_4 = ___position;
+		int32_t L_5 = ___marginY;
+		Admob__kmshowBannerRelative_m2160923047(NULL /*static, unused*/, L_1, L_3, L_4, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void admob.Admob::_kmremoveBanner()
+extern "C" {void DEFAULT_CALL _kmremoveBanner();}
+extern "C"  void Admob__kmremoveBanner_m3442298714 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)_kmremoveBanner;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: '_kmremoveBanner'"));
+		}
+	}
+
+	// Native function invocation
+	_il2cpp_pinvoke_func();
+
+}
+// System.Void admob.Admob::removeBanner()
+extern "C"  void Admob_removeBanner_m701552009 (Admob_t486577996 * __this, const MethodInfo* method)
+{
+	{
+		Admob__kmremoveBanner_m3442298714(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void admob.Admob::_kmloadInterstitial()
+extern "C" {void DEFAULT_CALL _kmloadInterstitial();}
+extern "C"  void Admob__kmloadInterstitial_m3786586300 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)_kmloadInterstitial;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: '_kmloadInterstitial'"));
+		}
+	}
+
+	// Native function invocation
+	_il2cpp_pinvoke_func();
+
+}
+// System.Void admob.Admob::loadInterstitial()
+extern "C"  void Admob_loadInterstitial_m2545520491 (Admob_t486577996 * __this, const MethodInfo* method)
+{
+	{
+		Admob__kmloadInterstitial_m3786586300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean admob.Admob::_kmisInterstitialReady()
+extern "C" {int32_t DEFAULT_CALL _kmisInterstitialReady();}
+extern "C"  bool Admob__kmisInterstitialReady_m1074969033 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)_kmisInterstitialReady;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: '_kmisInterstitialReady'"));
+		}
+	}
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func();
+
+	return _return_value;
+}
+// System.Boolean admob.Admob::isInterstitialReady()
+extern "C"  bool Admob_isInterstitialReady_m3037148018 (Admob_t486577996 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = Admob__kmisInterstitialReady_m1074969033(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void admob.Admob::_kmshowInterstitial()
+extern "C" {void DEFAULT_CALL _kmshowInterstitial();}
+extern "C"  void Admob__kmshowInterstitial_m239983251 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)_kmshowInterstitial;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: '_kmshowInterstitial'"));
+		}
+	}
+
+	// Native function invocation
+	_il2cpp_pinvoke_func();
+
+}
+// System.Void admob.Admob::showInterstitial()
+extern "C"  void Admob_showInterstitial_m3293884738 (Admob_t486577996 * __this, const MethodInfo* method)
+{
+	{
+		Admob__kmshowInterstitial_m239983251(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void admob.Admob::_kmloadRewardedVideo(System.String)
+extern "C" {void DEFAULT_CALL _kmloadRewardedVideo(char*);}
+extern "C"  void Admob__kmloadRewardedVideo_m3470522435 (Il2CppObject * __this /* static, unused */, String_t* ___rewardedVideoID, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)_kmloadRewardedVideo;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: '_kmloadRewardedVideo'"));
+		}
+	}
+
+	// Marshaling of parameter '___rewardedVideoID' to native representation
+	char* ____rewardedVideoID_marshaled = NULL;
+	____rewardedVideoID_marshaled = il2cpp_codegen_marshal_string(___rewardedVideoID);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____rewardedVideoID_marshaled);
+
+	// Marshaling cleanup of parameter '___rewardedVideoID' native representation
+	il2cpp_codegen_marshal_free(____rewardedVideoID_marshaled);
+	____rewardedVideoID_marshaled = NULL;
+
+}
+// System.Void admob.Admob::loadRewardedVideo(System.String)
+extern "C"  void Admob_loadRewardedVideo_m1513222322 (Admob_t486577996 * __this, String_t* ___rewardedVideoID, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___rewardedVideoID;
+		Admob__kmloadRewardedVideo_m3470522435(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean admob.Admob::_kmisRewardedVideoReady()
+extern "C" {int32_t DEFAULT_CALL _kmisRewardedVideoReady();}
+extern "C"  bool Admob__kmisRewardedVideoReady_m1423242630 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)_kmisRewardedVideoReady;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: '_kmisRewardedVideoReady'"));
+		}
+	}
+
+	// Native function invocation and marshaling of return value back from native representation
+	int32_t _return_value = _il2cpp_pinvoke_func();
+
+	return _return_value;
+}
+// System.Boolean admob.Admob::isRewardedVideoReady()
+extern "C"  bool Admob_isRewardedVideoReady_m2121249021 (Admob_t486577996 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = Admob__kmisRewardedVideoReady_m1423242630(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void admob.Admob::_kmshowRewardedVideo()
+extern "C" {void DEFAULT_CALL _kmshowRewardedVideo();}
+extern "C"  void Admob__kmshowRewardedVideo_m1704053288 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)_kmshowRewardedVideo;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: '_kmshowRewardedVideo'"));
+		}
+	}
+
+	// Native function invocation
+	_il2cpp_pinvoke_func();
+
+}
+// System.Void admob.Admob::showRewardedVideo()
+extern "C"  void Admob_showRewardedVideo_m1885718873 (Admob_t486577996 * __this, const MethodInfo* method)
+{
+	{
+		Admob__kmshowRewardedVideo_m1704053288(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void admob.Admob::_kmsetTesting(System.Boolean)
+extern "C" {void DEFAULT_CALL _kmsetTesting(int32_t);}
+extern "C"  void Admob__kmsetTesting_m715000847 (Il2CppObject * __this /* static, unused */, bool ___v, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)_kmsetTesting;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: '_kmsetTesting'"));
+		}
+	}
+
+	// Marshaling of parameter '___v' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___v);
+
+	// Marshaling cleanup of parameter '___v' native representation
+
+}
+// System.Void admob.Admob::setTesting(System.Boolean)
+extern "C"  void Admob_setTesting_m171361214 (Admob_t486577996 * __this, bool ___v, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___v;
+		Admob__kmsetTesting_m715000847(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void admob.Admob::_kmsetForChildren(System.Boolean)
+extern "C" {void DEFAULT_CALL _kmsetForChildren(int32_t);}
+extern "C"  void Admob__kmsetForChildren_m1210033255 (Il2CppObject * __this /* static, unused */, bool ___v, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)_kmsetForChildren;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: '_kmsetForChildren'"));
+		}
+	}
+
+	// Marshaling of parameter '___v' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___v);
+
+	// Marshaling cleanup of parameter '___v' native representation
+
+}
+// System.Void admob.Admob::setForChildren(System.Boolean)
+extern "C"  void Admob_setForChildren_m3089558678 (Admob_t486577996 * __this, bool ___v, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___v;
+		Admob__kmsetForChildren_m1210033255(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void admob.Admob::onAdmobEventCallBack(System.String,System.String,System.String)
+void STDCALL native_delegate_wrapper_Admob_onAdmobEventCallBack_m3059458016(char* ___adtype, char* ___eventName, char* ___msg)
+{
+	il2cpp_native_wrapper_vm_thread_attacher _vmThreadHelper;
+	// Marshaling of parameter '___adtype' to managed representation
+	String_t* ____adtype_unmarshaled = NULL;
+	____adtype_unmarshaled = il2cpp_codegen_marshal_string_result(___adtype);
+
+	// Marshaling of parameter '___eventName' to managed representation
+	String_t* ____eventName_unmarshaled = NULL;
+	____eventName_unmarshaled = il2cpp_codegen_marshal_string_result(___eventName);
+
+	// Marshaling of parameter '___msg' to managed representation
+	String_t* ____msg_unmarshaled = NULL;
+	____msg_unmarshaled = il2cpp_codegen_marshal_string_result(___msg);
+
+	Admob_onAdmobEventCallBack_m3059458016(NULL, ____adtype_unmarshaled, ____eventName_unmarshaled, ____msg_unmarshaled, NULL);
+
+	// Marshaling of parameter '___adtype' to native representation
+
+	// Marshaling of parameter '___eventName' to native representation
+
+	// Marshaling of parameter '___msg' to native representation
+
+}
+extern const methodPointerType* native_delegate_wrapper_Admob_onAdmobEventCallBack_m3059458016_indirect = (const methodPointerType*)&native_delegate_wrapper_Admob_onAdmobEventCallBack_m3059458016;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2898624300;
+extern Il2CppCodeGenString* _stringLiteral604727084;
+extern Il2CppCodeGenString* _stringLiteral778580237;
+extern const uint32_t Admob_onAdmobEventCallBack_m3059458016_MetadataUsageId;
+extern "C"  void Admob_onAdmobEventCallBack_m3059458016 (Il2CppObject * __this /* static, unused */, String_t* ___adtype, String_t* ___eventName, String_t* ___msg, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Admob_onAdmobEventCallBack_m3059458016_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___adtype;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_1 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_0, _stringLiteral2898624300, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		Admob_t486577996 * L_2 = Admob_Instance_m1681183207(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		AdmobEventHandler_t2165620685 * L_3 = L_2->get_bannerEventHandler_1();
+		String_t* L_4 = ___eventName;
+		String_t* L_5 = ___msg;
+		NullCheck(L_3);
+		AdmobEventHandler_Invoke_m3282322703(L_3, L_4, L_5, /*hidden argument*/NULL);
+		goto IL_006d;
+	}
+
+IL_0026:
+	{
+		String_t* L_6 = ___adtype;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_7 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_6, _stringLiteral604727084, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		Admob_t486577996 * L_8 = Admob_Instance_m1681183207(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		AdmobEventHandler_t2165620685 * L_9 = L_8->get_interstitialEventHandler_2();
+		String_t* L_10 = ___eventName;
+		String_t* L_11 = ___msg;
+		NullCheck(L_9);
+		AdmobEventHandler_Invoke_m3282322703(L_9, L_10, L_11, /*hidden argument*/NULL);
+		goto IL_006d;
+	}
+
+IL_004c:
+	{
+		String_t* L_12 = ___adtype;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_13 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_12, _stringLiteral778580237, /*hidden argument*/NULL);
+		if (!L_13)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		Admob_t486577996 * L_14 = Admob_Instance_m1681183207(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		AdmobEventHandler_t2165620685 * L_15 = L_14->get_rewardedVideoEventHandler_3();
+		String_t* L_16 = ___eventName;
+		String_t* L_17 = ___msg;
+		NullCheck(L_15);
+		AdmobEventHandler_Invoke_m3282322703(L_15, L_16, L_17, /*hidden argument*/NULL);
+	}
+
+IL_006d:
+	{
+		return;
+	}
+}
+// System.Void admob.Admob/AdmobAdCallBack::.ctor(System.Object,System.IntPtr)
+extern "C"  void AdmobAdCallBack__ctor_m2428499085 (AdmobAdCallBack_t3651055973 * __this, Il2CppObject * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((methodPointerType)((MethodInfo*)___method.get_m_value_0())->method);
+	__this->set_method_3(___method);
+	__this->set_m_target_2(___object);
+}
+// System.Void admob.Admob/AdmobAdCallBack::Invoke(System.String,System.String,System.String)
+extern "C"  void AdmobAdCallBack_Invoke_m4140064819 (AdmobAdCallBack_t3651055973 * __this, String_t* ___adtype, String_t* ___eventName, String_t* ___msg, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		AdmobAdCallBack_Invoke_m4140064819((AdmobAdCallBack_t3651055973 *)__this->get_prev_9(),___adtype, ___eventName, ___msg, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, String_t* ___adtype, String_t* ___eventName, String_t* ___msg, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,il2cpp_codegen_get_delegate_this(__this),___adtype, ___eventName, ___msg,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (void* __this, String_t* ___adtype, String_t* ___eventName, String_t* ___msg, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(il2cpp_codegen_get_delegate_this(__this),___adtype, ___eventName, ___msg,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, String_t* ___eventName, String_t* ___msg, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(___adtype, ___eventName, ___msg,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_AdmobAdCallBack_t3651055973(Il2CppObject* delegate, String_t* ___adtype, String_t* ___eventName, String_t* ___msg)
+{
+	typedef void (STDCALL *native_function_ptr_type)(char*, char*, char*);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___adtype' to native representation
+	char* ____adtype_marshaled = NULL;
+	____adtype_marshaled = il2cpp_codegen_marshal_string(___adtype);
+
+	// Marshaling of parameter '___eventName' to native representation
+	char* ____eventName_marshaled = NULL;
+	____eventName_marshaled = il2cpp_codegen_marshal_string(___eventName);
+
+	// Marshaling of parameter '___msg' to native representation
+	char* ____msg_marshaled = NULL;
+	____msg_marshaled = il2cpp_codegen_marshal_string(___msg);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____adtype_marshaled, ____eventName_marshaled, ____msg_marshaled);
+
+	// Marshaling cleanup of parameter '___adtype' native representation
+	il2cpp_codegen_marshal_free(____adtype_marshaled);
+	____adtype_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___eventName' native representation
+	il2cpp_codegen_marshal_free(____eventName_marshaled);
+	____eventName_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___msg' native representation
+	il2cpp_codegen_marshal_free(____msg_marshaled);
+	____msg_marshaled = NULL;
+
+}
+// System.IAsyncResult admob.Admob/AdmobAdCallBack::BeginInvoke(System.String,System.String,System.String,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * AdmobAdCallBack_BeginInvoke_m3173663696 (AdmobAdCallBack_t3651055973 * __this, String_t* ___adtype, String_t* ___eventName, String_t* ___msg, AsyncCallback_t1363551830 * ___callback, Il2CppObject * ___object, const MethodInfo* method)
+{
+	void *__d_args[4] = {0};
+	__d_args[0] = ___adtype;
+	__d_args[1] = ___eventName;
+	__d_args[2] = ___msg;
+	return (Il2CppObject *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void admob.Admob/AdmobAdCallBack::EndInvoke(System.IAsyncResult)
+extern "C"  void AdmobAdCallBack_EndInvoke_m154514717 (AdmobAdCallBack_t3651055973 * __this, Il2CppObject * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void admob.Admob/AdmobEventHandler::.ctor(System.Object,System.IntPtr)
+extern "C"  void AdmobEventHandler__ctor_m890673333 (AdmobEventHandler_t2165620685 * __this, Il2CppObject * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((methodPointerType)((MethodInfo*)___method.get_m_value_0())->method);
+	__this->set_method_3(___method);
+	__this->set_m_target_2(___object);
+}
+// System.Void admob.Admob/AdmobEventHandler::Invoke(System.String,System.String)
+extern "C"  void AdmobEventHandler_Invoke_m3282322703 (AdmobEventHandler_t2165620685 * __this, String_t* ___eventName, String_t* ___msg, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		AdmobEventHandler_Invoke_m3282322703((AdmobEventHandler_t2165620685 *)__this->get_prev_9(),___eventName, ___msg, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, String_t* ___eventName, String_t* ___msg, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,il2cpp_codegen_get_delegate_this(__this),___eventName, ___msg,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (void* __this, String_t* ___eventName, String_t* ___msg, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(il2cpp_codegen_get_delegate_this(__this),___eventName, ___msg,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, String_t* ___msg, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(___eventName, ___msg,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_AdmobEventHandler_t2165620685(Il2CppObject* delegate, String_t* ___eventName, String_t* ___msg)
+{
+	typedef void (STDCALL *native_function_ptr_type)(char*, char*);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___eventName' to native representation
+	char* ____eventName_marshaled = NULL;
+	____eventName_marshaled = il2cpp_codegen_marshal_string(___eventName);
+
+	// Marshaling of parameter '___msg' to native representation
+	char* ____msg_marshaled = NULL;
+	____msg_marshaled = il2cpp_codegen_marshal_string(___msg);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____eventName_marshaled, ____msg_marshaled);
+
+	// Marshaling cleanup of parameter '___eventName' native representation
+	il2cpp_codegen_marshal_free(____eventName_marshaled);
+	____eventName_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___msg' native representation
+	il2cpp_codegen_marshal_free(____msg_marshaled);
+	____msg_marshaled = NULL;
+
+}
+// System.IAsyncResult admob.Admob/AdmobEventHandler::BeginInvoke(System.String,System.String,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * AdmobEventHandler_BeginInvoke_m512766692 (AdmobEventHandler_t2165620685 * __this, String_t* ___eventName, String_t* ___msg, AsyncCallback_t1363551830 * ___callback, Il2CppObject * ___object, const MethodInfo* method)
+{
+	void *__d_args[3] = {0};
+	__d_args[0] = ___eventName;
+	__d_args[1] = ___msg;
+	return (Il2CppObject *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void admob.Admob/AdmobEventHandler::EndInvoke(System.IAsyncResult)
+extern "C"  void AdmobEventHandler_EndInvoke_m1670688069 (AdmobEventHandler_t2165620685 * __this, Il2CppObject * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void admob.AdmobEvent::.ctor()
+extern "C"  void AdmobEvent__ctor_m2241030593 (AdmobEvent_t3767587884 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void admob.AdmobEvent::.cctor()
+extern TypeInfo* AdmobEvent_t3767587884_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral861234439;
+extern Il2CppCodeGenString* _stringLiteral1855724576;
+extern Il2CppCodeGenString* _stringLiteral948174187;
+extern Il2CppCodeGenString* _stringLiteral3290456156;
+extern Il2CppCodeGenString* _stringLiteral601233006;
+extern Il2CppCodeGenString* _stringLiteral1242619911;
+extern Il2CppCodeGenString* _stringLiteral1748790067;
+extern Il2CppCodeGenString* _stringLiteral2530373389;
+extern const uint32_t AdmobEvent__cctor_m270375436_MetadataUsageId;
+extern "C"  void AdmobEvent__cctor_m270375436 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AdmobEvent__cctor_m270375436_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		((AdmobEvent_t3767587884_StaticFields*)AdmobEvent_t3767587884_il2cpp_TypeInfo_var->static_fields)->set_onAdLoaded_0(_stringLiteral861234439);
+		((AdmobEvent_t3767587884_StaticFields*)AdmobEvent_t3767587884_il2cpp_TypeInfo_var->static_fields)->set_onAdFailedToLoad_1(_stringLiteral1855724576);
+		((AdmobEvent_t3767587884_StaticFields*)AdmobEvent_t3767587884_il2cpp_TypeInfo_var->static_fields)->set_onAdOpened_2(_stringLiteral948174187);
+		((AdmobEvent_t3767587884_StaticFields*)AdmobEvent_t3767587884_il2cpp_TypeInfo_var->static_fields)->set_adViewWillDismissScreen_3(_stringLiteral3290456156);
+		((AdmobEvent_t3767587884_StaticFields*)AdmobEvent_t3767587884_il2cpp_TypeInfo_var->static_fields)->set_onAdClosed_4(_stringLiteral601233006);
+		((AdmobEvent_t3767587884_StaticFields*)AdmobEvent_t3767587884_il2cpp_TypeInfo_var->static_fields)->set_onAdLeftApplication_5(_stringLiteral1242619911);
+		((AdmobEvent_t3767587884_StaticFields*)AdmobEvent_t3767587884_il2cpp_TypeInfo_var->static_fields)->set_onRewardedVideoStarted_6(_stringLiteral1748790067);
+		((AdmobEvent_t3767587884_StaticFields*)AdmobEvent_t3767587884_il2cpp_TypeInfo_var->static_fields)->set_onRewarded_7(_stringLiteral2530373389);
+		return;
+	}
+}
+// System.Void admob.AdPosition::.ctor()
+extern "C"  void AdPosition__ctor_m973357266 (AdPosition_t990615035 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void admob.AdPosition::.cctor()
+extern TypeInfo* AdPosition_t990615035_il2cpp_TypeInfo_var;
+extern const uint32_t AdPosition__cctor_m3922175259_MetadataUsageId;
+extern "C"  void AdPosition__cctor_m3922175259 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AdPosition__cctor_m3922175259_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		((AdPosition_t990615035_StaticFields*)AdPosition_t990615035_il2cpp_TypeInfo_var->static_fields)->set_TOP_LEFT_1(1);
+		((AdPosition_t990615035_StaticFields*)AdPosition_t990615035_il2cpp_TypeInfo_var->static_fields)->set_TOP_CENTER_2(2);
+		((AdPosition_t990615035_StaticFields*)AdPosition_t990615035_il2cpp_TypeInfo_var->static_fields)->set_TOP_RIGHT_3(3);
+		((AdPosition_t990615035_StaticFields*)AdPosition_t990615035_il2cpp_TypeInfo_var->static_fields)->set_MIDDLE_LEFT_4(4);
+		((AdPosition_t990615035_StaticFields*)AdPosition_t990615035_il2cpp_TypeInfo_var->static_fields)->set_MIDDLE_CENTER_5(5);
+		((AdPosition_t990615035_StaticFields*)AdPosition_t990615035_il2cpp_TypeInfo_var->static_fields)->set_MIDDLE_RIGHT_6(6);
+		((AdPosition_t990615035_StaticFields*)AdPosition_t990615035_il2cpp_TypeInfo_var->static_fields)->set_BOTTOM_LEFT_7(7);
+		((AdPosition_t990615035_StaticFields*)AdPosition_t990615035_il2cpp_TypeInfo_var->static_fields)->set_BOTTOM_CENTER_8(8);
+		((AdPosition_t990615035_StaticFields*)AdPosition_t990615035_il2cpp_TypeInfo_var->static_fields)->set_BOTTOM_RIGHT_9(((int32_t)9));
+		return;
+	}
+}
+// System.Void admob.AdSize::.ctor(System.Int32,System.Int32)
+extern "C"  void AdSize__ctor_m3063932780 (AdSize_t2379286099 * __this, int32_t ___width, int32_t ___height, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		int32_t L_0 = ___width;
+		__this->set_width_0(L_0);
+		int32_t L_1 = ___height;
+		__this->set_height_1(L_1);
+		return;
+	}
+}
+// System.Void admob.AdSize::.cctor()
+extern TypeInfo* AdSize_t2379286099_il2cpp_TypeInfo_var;
+extern const uint32_t AdSize__cctor_m2213564915_MetadataUsageId;
+extern "C"  void AdSize__cctor_m2213564915 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AdSize__cctor_m2213564915_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AdSize_t2379286099 * L_0 = (AdSize_t2379286099 *)il2cpp_codegen_object_new(AdSize_t2379286099_il2cpp_TypeInfo_var);
+		AdSize__ctor_m3063932780(L_0, ((int32_t)320), ((int32_t)50), /*hidden argument*/NULL);
+		((AdSize_t2379286099_StaticFields*)AdSize_t2379286099_il2cpp_TypeInfo_var->static_fields)->set_Banner_2(L_0);
+		AdSize_t2379286099 * L_1 = (AdSize_t2379286099 *)il2cpp_codegen_object_new(AdSize_t2379286099_il2cpp_TypeInfo_var);
+		AdSize__ctor_m3063932780(L_1, ((int32_t)300), ((int32_t)250), /*hidden argument*/NULL);
+		((AdSize_t2379286099_StaticFields*)AdSize_t2379286099_il2cpp_TypeInfo_var->static_fields)->set_MediumRectangle_3(L_1);
+		AdSize_t2379286099 * L_2 = (AdSize_t2379286099 *)il2cpp_codegen_object_new(AdSize_t2379286099_il2cpp_TypeInfo_var);
+		AdSize__ctor_m3063932780(L_2, ((int32_t)468), ((int32_t)60), /*hidden argument*/NULL);
+		((AdSize_t2379286099_StaticFields*)AdSize_t2379286099_il2cpp_TypeInfo_var->static_fields)->set_IABBanner_4(L_2);
+		AdSize_t2379286099 * L_3 = (AdSize_t2379286099 *)il2cpp_codegen_object_new(AdSize_t2379286099_il2cpp_TypeInfo_var);
+		AdSize__ctor_m3063932780(L_3, ((int32_t)728), ((int32_t)90), /*hidden argument*/NULL);
+		((AdSize_t2379286099_StaticFields*)AdSize_t2379286099_il2cpp_TypeInfo_var->static_fields)->set_Leaderboard_5(L_3);
+		AdSize_t2379286099 * L_4 = (AdSize_t2379286099 *)il2cpp_codegen_object_new(AdSize_t2379286099_il2cpp_TypeInfo_var);
+		AdSize__ctor_m3063932780(L_4, ((int32_t)120), ((int32_t)600), /*hidden argument*/NULL);
+		((AdSize_t2379286099_StaticFields*)AdSize_t2379286099_il2cpp_TypeInfo_var->static_fields)->set_WideSkyscraper_6(L_4);
+		AdSize_t2379286099 * L_5 = (AdSize_t2379286099 *)il2cpp_codegen_object_new(AdSize_t2379286099_il2cpp_TypeInfo_var);
+		AdSize__ctor_m3063932780(L_5, (-1), ((int32_t)-2), /*hidden argument*/NULL);
+		((AdSize_t2379286099_StaticFields*)AdSize_t2379286099_il2cpp_TypeInfo_var->static_fields)->set_SmartBanner_7(L_5);
+		return;
+	}
+}
+// System.Int32 admob.AdSize::get_Width()
+extern "C"  int32_t AdSize_get_Width_m1072009663 (AdSize_t2379286099 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_width_0();
+		return L_0;
+	}
+}
+// System.Int32 admob.AdSize::get_Height()
+extern "C"  int32_t AdSize_get_Height_m3671342832 (AdSize_t2379286099 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_height_1();
+		return L_0;
+	}
+}
 // System.Void IAPDemo::.ctor()
 extern "C"  void IAPDemo__ctor_m2472349788 (IAPDemo_t2300162107 * __this, const MethodInfo* method)
 {
 	{
 		__this->set_m_SelectedItemIndex_4((-1));
-		MonoBehaviour__ctor_m1899368843(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -163,7 +1193,7 @@ extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
 extern TypeInfo* StringU5BU5D_t2956870243_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* OptionData_t3366553055_il2cpp_TypeInfo_var;
-extern const MethodInfo* IExtensionProvider_GetExtension_TisIAppleExtensions_t100643356_m3282383199_MethodInfo_var;
+extern const MethodInfo* IExtensionProvider_GetExtension_TisIAppleExtensions_t100643356_m3195289899_MethodInfo_var;
 extern const MethodInfo* IAPDemo_OnDeferred_m1837455280_MethodInfo_var;
 extern const MethodInfo* Action_1__ctor_m4165554525_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral652619217;
@@ -191,7 +1221,7 @@ extern "C"  void IAPDemo_OnInitialized_m4145729570 (IAPDemo_t2300162107 * __this
 		__this->set_m_Controller_2(L_0);
 		Il2CppObject * L_1 = ___extensions;
 		NullCheck(L_1);
-		Il2CppObject * L_2 = GenericInterfaceFuncInvoker0< Il2CppObject * >::Invoke(IExtensionProvider_GetExtension_TisIAppleExtensions_t100643356_m3282383199_MethodInfo_var, L_1);
+		Il2CppObject * L_2 = GenericInterfaceFuncInvoker0< Il2CppObject * >::Invoke(IExtensionProvider_GetExtension_TisIAppleExtensions_t100643356_m3195289899_MethodInfo_var, L_1);
 		__this->set_m_AppleExtensions_3(L_2);
 		Il2CppObject * L_3 = ___controller;
 		NullCheck(L_3);
@@ -358,11 +1388,11 @@ IL_00fe:
 		V_5 = L_56;
 		Dropdown_t2916437562 * L_57 = IAPDemo_GetDropdown_m664285184(__this, /*hidden argument*/NULL);
 		NullCheck(L_57);
-		List_1_t4163512024 * L_58 = Dropdown_get_options_m399918042(L_57, /*hidden argument*/NULL);
+		List_1_t4163512024 * L_58 = Dropdown_get_options_m2855573715(L_57, /*hidden argument*/NULL);
 		int32_t L_59 = V_3;
 		String_t* L_60 = V_5;
 		OptionData_t3366553055 * L_61 = (OptionData_t3366553055 *)il2cpp_codegen_object_new(OptionData_t3366553055_il2cpp_TypeInfo_var);
-		OptionData__ctor_m3621517956(L_61, L_60, /*hidden argument*/NULL);
+		OptionData__ctor_m3385162877(L_61, L_60, /*hidden argument*/NULL);
 		NullCheck(L_58);
 		VirtActionInvoker2< int32_t, OptionData_t3366553055 * >::Invoke(32 /* System.Void System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::set_Item(System.Int32,!0) */, L_58, L_59, L_61);
 		int32_t L_62 = V_3;
@@ -386,7 +1416,7 @@ IL_0152:
 	{
 		Dropdown_t2916437562 * L_67 = IAPDemo_GetDropdown_m664285184(__this, /*hidden argument*/NULL);
 		NullCheck(L_67);
-		Dropdown_RefreshShownValue_m9458643(L_67, /*hidden argument*/NULL);
+		Dropdown_RefreshShownValue_m955925324(L_67, /*hidden argument*/NULL);
 		IAPDemo_UpdateHistoryUI_m2835966425(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -503,7 +1533,7 @@ extern "C"  void IAPDemo_OnInitializeFailed_m790429919 (IAPDemo_t2300162107 * __
 IL_0023:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_LogError_m3654569246(NULL /*static, unused*/, _stringLiteral2249769472, /*hidden argument*/NULL);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, _stringLiteral2249769472, /*hidden argument*/NULL);
 		goto IL_0050;
 	}
 
@@ -731,14 +1761,14 @@ extern "C"  void IAPDemo_InitUI_m1256308941 (IAPDemo_t2300162107 * __this, Il2Cp
 	{
 		Dropdown_t2916437562 * L_0 = IAPDemo_GetDropdown_m664285184(__this, /*hidden argument*/NULL);
 		__this->set_m_InteractableSelectable_6(L_0);
-		int32_t L_1 = Application_get_platform_m475587980(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_1) == ((int32_t)8)))
 		{
 			goto IL_0033;
 		}
 	}
 	{
-		int32_t L_2 = Application_get_platform_m475587980(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_2) == ((int32_t)1)))
 		{
 			goto IL_0033;
@@ -747,9 +1777,9 @@ extern "C"  void IAPDemo_InitUI_m1256308941 (IAPDemo_t2300162107 * __this, Il2Cp
 	{
 		Button_t990034267 * L_3 = IAPDemo_GetRestoreButton_m2508131476(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		GameObject_t4012695102 * L_4 = Component_get_gameObject_m1036663815(L_3, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_4 = Component_get_gameObject_m1170635899(L_3, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		GameObject_SetActive_m3672431053(L_4, (bool)0, /*hidden argument*/NULL);
+		GameObject_SetActive_m3538205401(L_4, (bool)0, /*hidden argument*/NULL);
 	}
 
 IL_0033:
@@ -790,10 +1820,10 @@ IL_003f:
 			V_2 = L_17;
 			Dropdown_t2916437562 * L_18 = IAPDemo_GetDropdown_m664285184(__this, /*hidden argument*/NULL);
 			NullCheck(L_18);
-			List_1_t4163512024 * L_19 = Dropdown_get_options_m399918042(L_18, /*hidden argument*/NULL);
+			List_1_t4163512024 * L_19 = Dropdown_get_options_m2855573715(L_18, /*hidden argument*/NULL);
 			String_t* L_20 = V_2;
 			OptionData_t3366553055 * L_21 = (OptionData_t3366553055 *)il2cpp_codegen_object_new(OptionData_t3366553055_il2cpp_TypeInfo_var);
-			OptionData__ctor_m3621517956(L_21, L_20, /*hidden argument*/NULL);
+			OptionData__ctor_m3385162877(L_21, L_20, /*hidden argument*/NULL);
 			NullCheck(L_19);
 			VirtActionInvoker1< OptionData_t3366553055 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::Add(!0) */, L_19, L_21);
 		}
@@ -853,10 +1883,10 @@ IL_009d:
 	{
 		Dropdown_t2916437562 * L_26 = IAPDemo_GetDropdown_m664285184(__this, /*hidden argument*/NULL);
 		NullCheck(L_26);
-		Dropdown_RefreshShownValue_m9458643(L_26, /*hidden argument*/NULL);
+		Dropdown_RefreshShownValue_m955925324(L_26, /*hidden argument*/NULL);
 		Dropdown_t2916437562 * L_27 = IAPDemo_GetDropdown_m664285184(__this, /*hidden argument*/NULL);
 		NullCheck(L_27);
-		DropdownEvent_t2203078889 * L_28 = Dropdown_get_onValueChanged_m2646663760(L_27, /*hidden argument*/NULL);
+		DropdownEvent_t2203078889 * L_28 = Dropdown_get_onValueChanged_m1684410167(L_27, /*hidden argument*/NULL);
 		IntPtr_t L_29;
 		L_29.set_m_value_0((void*)IAPDemo_U3CInitUIU3Em__0_m2615411930_MethodInfo_var);
 		UnityAction_1_t2827876692 * L_30 = (UnityAction_1_t2827876692 *)il2cpp_codegen_object_new(UnityAction_1_t2827876692_il2cpp_TypeInfo_var);
@@ -865,15 +1895,15 @@ IL_009d:
 		UnityEvent_1_AddListener_m2066362018(L_28, L_30, /*hidden argument*/UnityEvent_1_AddListener_m2066362018_MethodInfo_var);
 		Button_t990034267 * L_31 = IAPDemo_GetBuyButton_m2634699276(__this, /*hidden argument*/NULL);
 		NullCheck(L_31);
-		ButtonClickedEvent_t962981669 * L_32 = Button_get_onClick_m1145127631(L_31, /*hidden argument*/NULL);
+		ButtonClickedEvent_t962981669 * L_32 = Button_get_onClick_m99084534(L_31, /*hidden argument*/NULL);
 		IntPtr_t L_33;
 		L_33.set_m_value_0((void*)IAPDemo_U3CInitUIU3Em__1_m3136461002_MethodInfo_var);
 		UnityAction_t909267611 * L_34 = (UnityAction_t909267611 *)il2cpp_codegen_object_new(UnityAction_t909267611_il2cpp_TypeInfo_var);
-		UnityAction__ctor_m1639493687(L_34, __this, L_33, /*hidden argument*/NULL);
+		UnityAction__ctor_m4130179243(L_34, __this, L_33, /*hidden argument*/NULL);
 		NullCheck(L_32);
-		UnityEvent_AddListener_m657770641(L_32, L_34, /*hidden argument*/NULL);
+		UnityEvent_AddListener_m4099140869(L_32, L_34, /*hidden argument*/NULL);
 		Button_t990034267 * L_35 = IAPDemo_GetRestoreButton_m2508131476(__this, /*hidden argument*/NULL);
-		bool L_36 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_35, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_36 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_35, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_36)
 		{
 			goto IL_010d;
@@ -882,13 +1912,13 @@ IL_009d:
 	{
 		Button_t990034267 * L_37 = IAPDemo_GetRestoreButton_m2508131476(__this, /*hidden argument*/NULL);
 		NullCheck(L_37);
-		ButtonClickedEvent_t962981669 * L_38 = Button_get_onClick_m1145127631(L_37, /*hidden argument*/NULL);
+		ButtonClickedEvent_t962981669 * L_38 = Button_get_onClick_m99084534(L_37, /*hidden argument*/NULL);
 		IntPtr_t L_39;
 		L_39.set_m_value_0((void*)IAPDemo_U3CInitUIU3Em__2_m3136461963_MethodInfo_var);
 		UnityAction_t909267611 * L_40 = (UnityAction_t909267611 *)il2cpp_codegen_object_new(UnityAction_t909267611_il2cpp_TypeInfo_var);
-		UnityAction__ctor_m1639493687(L_40, __this, L_39, /*hidden argument*/NULL);
+		UnityAction__ctor_m4130179243(L_40, __this, L_39, /*hidden argument*/NULL);
 		NullCheck(L_38);
-		UnityEvent_AddListener_m657770641(L_38, L_40, /*hidden argument*/NULL);
+		UnityEvent_AddListener_m4099140869(L_38, L_40, /*hidden argument*/NULL);
 	}
 
 IL_010d:
@@ -1000,7 +2030,7 @@ extern "C"  void IAPDemo_UpdateInteractable_m2185924321 (IAPDemo_t2300162107 * _
 	bool V_0 = false;
 	{
 		Selectable_t3621744255 * L_0 = __this->get_m_InteractableSelectable_6();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0012;
@@ -1025,7 +2055,7 @@ IL_0012:
 	}
 	{
 		Button_t990034267 * L_6 = IAPDemo_GetRestoreButton_m2508131476(__this, /*hidden argument*/NULL);
-		bool L_7 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_6, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_7 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_6, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_004d;
@@ -1118,7 +2148,7 @@ extern "C"  Button_t990034267 * IAPDemo_GetRestoreButton_m2508131476 (IAPDemo_t2
 		GameObject_t4012695102 * L_0 = GameObject_Find_m332785498(NULL /*static, unused*/, _stringLiteral2762173038, /*hidden argument*/NULL);
 		V_0 = L_0;
 		GameObject_t4012695102 * L_1 = V_0;
-		bool L_2 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_2 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_001e;
@@ -1249,7 +2279,7 @@ IL_000c:
 extern TypeInfo* Action_1_t359458046_il2cpp_TypeInfo_var;
 extern TypeInfo* IAppleExtensions_t100643356_il2cpp_TypeInfo_var;
 extern const MethodInfo* IAPDemo_OnTransactionsRestored_m2391586217_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m377969142_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m2036539306_MethodInfo_var;
 extern const uint32_t IAPDemo_U3CInitUIU3Em__2_m3136461963_MetadataUsageId;
 extern "C"  void IAPDemo_U3CInitUIU3Em__2_m3136461963 (IAPDemo_t2300162107 * __this, const MethodInfo* method)
 {
@@ -1264,9 +2294,17 @@ extern "C"  void IAPDemo_U3CInitUIU3Em__2_m3136461963 (IAPDemo_t2300162107 * __t
 		IntPtr_t L_1;
 		L_1.set_m_value_0((void*)IAPDemo_OnTransactionsRestored_m2391586217_MethodInfo_var);
 		Action_1_t359458046 * L_2 = (Action_1_t359458046 *)il2cpp_codegen_object_new(Action_1_t359458046_il2cpp_TypeInfo_var);
-		Action_1__ctor_m377969142(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m377969142_MethodInfo_var);
+		Action_1__ctor_m2036539306(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m2036539306_MethodInfo_var);
 		NullCheck(L_0);
 		InterfaceActionInvoker1< Action_1_t359458046 * >::Invoke(0 /* System.Void UnityEngine.Purchasing.IAppleExtensions::RestoreTransactions(System.Action`1<System.Boolean>) */, IAppleExtensions_t100643356_il2cpp_TypeInfo_var, L_0, L_2);
+		return;
+	}
+}
+// System.Void MonoPInvokeCallbackAttribute::.ctor(System.Type)
+extern "C"  void MonoPInvokeCallbackAttribute__ctor_m2378237340 (MonoPInvokeCallbackAttribute_t60011986 * __this, Type_t * ___type, const MethodInfo* method)
+{
+	{
+		Attribute__ctor_m2985353781(__this, /*hidden argument*/NULL);
 		return;
 	}
 }

@@ -424,10 +424,10 @@ extern "C"  void IPurchasingBinder_RegisterConfiguration_TisIl2CppObject_m159975
 // System.Void UnityEngine.Purchasing.Extension.IPurchasingBinder::RegisterConfiguration<UnityEngine.Purchasing.IAmazonConfiguration>(!!0)
 #define IPurchasingBinder_RegisterConfiguration_TisIAmazonConfiguration_t1574650080_m1471855215(__this, p0, method) ((  void (*) (Il2CppObject *, Il2CppObject *, const MethodInfo*))IPurchasingBinder_RegisterConfiguration_TisIl2CppObject_m1599752747_gshared)(__this, p0, method)
 // !!0 UnityEngine.GameObject::AddComponent<System.Object>()
-extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m337943659_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
-#define GameObject_AddComponent_TisIl2CppObject_m337943659(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
+#define GameObject_AddComponent_TisIl2CppObject_m3908606994(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.Purchasing.Extension.UnityUtil>()
-#define GameObject_AddComponent_TisUnityUtil_t2711800121_m2102805919(__this, method) ((  UnityUtil_t2711800121 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisUnityUtil_t2711800121_m2102805919(__this, method) ((  UnityUtil_t2711800121 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // System.Void UnityEngine.Purchasing.Extension.AbstractPurchasingModule::BindConfiguration<System.Object>(!!0)
 extern "C"  void AbstractPurchasingModule_BindConfiguration_TisIl2CppObject_m3792448238_gshared (AbstractPurchasingModule_t1577084462 * __this, Il2CppObject * p0, const MethodInfo* method);
 #define AbstractPurchasingModule_BindConfiguration_TisIl2CppObject_m3792448238(__this, p0, method) ((  void (*) (AbstractPurchasingModule_t1577084462 *, Il2CppObject *, const MethodInfo*))AbstractPurchasingModule_BindConfiguration_TisIl2CppObject_m3792448238_gshared)(__this, p0, method)
@@ -450,26 +450,26 @@ extern "C"  void AbstractPurchasingModule_BindExtension_TisIl2CppObject_m3962279
 extern "C"  bool Enumerable_Any_TisRuntimePlatform_t1574985880_m1891388867_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* p0, Func_2_t2580473773 * p1, const MethodInfo* method);
 #define Enumerable_Any_TisRuntimePlatform_t1574985880_m1891388867(__this /* static, unused */, p0, p1, method) ((  bool (*) (Il2CppObject * /* static, unused */, Il2CppObject*, Func_2_t2580473773 *, const MethodInfo*))Enumerable_Any_TisRuntimePlatform_t1574985880_m1891388867_gshared)(__this /* static, unused */, p0, p1, method)
 // !!0 UnityEngine.GameObject::GetComponent<System.Object>()
-extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
-#define GameObject_GetComponent_TisIl2CppObject_m2447772384(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared)(__this, method)
+extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
+#define GameObject_GetComponent_TisIl2CppObject_m1723468423(__this, method) ((  Il2CppObject * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Canvas>()
-#define GameObject_GetComponent_TisCanvas_t3534013893_m4009786289(__this, method) ((  Canvas_t3534013893 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared)(__this, method)
+#define GameObject_GetComponent_TisCanvas_t3534013893_m1724722282(__this, method) ((  Canvas_t3534013893 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared)(__this, method)
 // !!0 UnityEngine.Object::Instantiate<System.Object>(!!0)
-extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m3133387403_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method);
-#define Object_Instantiate_TisIl2CppObject_m3133387403(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3133387403_gshared)(__this /* static, unused */, p0, method)
+extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m2886823922_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method);
+#define Object_Instantiate_TisIl2CppObject_m2886823922(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m2886823922_gshared)(__this /* static, unused */, p0, method)
 // !!0 UnityEngine.Object::Instantiate<UnityEngine.Canvas>(!!0)
-#define Object_Instantiate_TisCanvas_t3534013893_m2139449249(__this /* static, unused */, p0, method) ((  Canvas_t3534013893 * (*) (Il2CppObject * /* static, unused */, Canvas_t3534013893 *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3133387403_gshared)(__this /* static, unused */, p0, method)
+#define Object_Instantiate_TisCanvas_t3534013893_m2139449249(__this /* static, unused */, p0, method) ((  Canvas_t3534013893 * (*) (Il2CppObject * /* static, unused */, Canvas_t3534013893 *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m2886823922_gshared)(__this /* static, unused */, p0, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.Purchasing.UIFakeStore/LifecycleNotifier>()
-#define GameObject_AddComponent_TisLifecycleNotifier_t3315022608_m2458176718(__this, method) ((  LifecycleNotifier_t3315022608 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisLifecycleNotifier_t3315022608_m2458176718(__this, method) ((  LifecycleNotifier_t3315022608 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.Object::FindObjectOfType<System.Object>()
 extern "C"  Il2CppObject * Object_FindObjectOfType_TisIl2CppObject_m4174810935_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
 #define Object_FindObjectOfType_TisIl2CppObject_m4174810935(__this /* static, unused */, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m4174810935_gshared)(__this /* static, unused */, method)
 // !!0 UnityEngine.Object::FindObjectOfType<UnityEngine.EventSystems.EventSystem>()
 #define Object_FindObjectOfType_TisEventSystem_t409518532_m3853357997(__this /* static, unused */, method) ((  EventSystem_t409518532 * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m4174810935_gshared)(__this /* static, unused */, method)
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.EventSystems.StandaloneInputModule>()
-#define GameObject_AddComponent_TisStandaloneInputModule_t3152099756_m3168914570(__this, method) ((  StandaloneInputModule_t3152099756 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m337943659_gshared)(__this, method)
+#define GameObject_AddComponent_TisStandaloneInputModule_t3152099756_m3168914570(__this, method) ((  StandaloneInputModule_t3152099756 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Text>()
-#define GameObject_GetComponent_TisText_t3286458198_m3253439797(__this, method) ((  Text_t3286458198 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared)(__this, method)
+#define GameObject_GetComponent_TisText_t3286458198_m3253439797(__this, method) ((  Text_t3286458198 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared)(__this, method)
 // System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::Take<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Int32)
 extern "C"  Il2CppObject* Enumerable_Take_TisIl2CppObject_m4170549339_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* p0, int32_t p1, const MethodInfo* method);
 #define Enumerable_Take_TisIl2CppObject_m4170549339(__this /* static, unused */, p0, p1, method) ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject*, int32_t, const MethodInfo*))Enumerable_Take_TisIl2CppObject_m4170549339_gshared)(__this /* static, unused */, p0, p1, method)
@@ -486,14 +486,14 @@ extern "C"  ObjectU5BU5D_t11523773* Enumerable_ToArray_TisIl2CppObject_m91400755
 // !!0[] System.Linq.Enumerable::ToArray<System.String>(System.Collections.Generic.IEnumerable`1<!!0>)
 #define Enumerable_ToArray_TisString_t_m4223362994(__this /* static, unused */, p0, method) ((  StringU5BU5D_t2956870243* (*) (Il2CppObject * /* static, unused */, Il2CppObject*, const MethodInfo*))Enumerable_ToArray_TisIl2CppObject_m914007555_gshared)(__this /* static, unused */, p0, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Button>()
-#define GameObject_GetComponent_TisButton_t990034267_m901368912(__this, method) ((  Button_t990034267 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared)(__this, method)
+#define GameObject_GetComponent_TisButton_t990034267_m901368912(__this, method) ((  Button_t990034267 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Dropdown>()
-#define GameObject_GetComponent_TisDropdown_t2916437562_m899537489(__this, method) ((  Dropdown_t2916437562 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared)(__this, method)
+#define GameObject_GetComponent_TisDropdown_t2916437562_m899537489(__this, method) ((  Dropdown_t2916437562 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared)(__this, method)
 // System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::Where<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,System.Boolean>)
-extern "C"  Il2CppObject* Enumerable_Where_TisIl2CppObject_m3480373697_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* p0, Func_2_t1509682273 * p1, const MethodInfo* method);
-#define Enumerable_Where_TisIl2CppObject_m3480373697(__this /* static, unused */, p0, p1, method) ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject*, Func_2_t1509682273 *, const MethodInfo*))Enumerable_Where_TisIl2CppObject_m3480373697_gshared)(__this /* static, unused */, p0, p1, method)
+extern "C"  Il2CppObject* Enumerable_Where_TisIl2CppObject_m720779688_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* p0, Func_2_t1509682273 * p1, const MethodInfo* method);
+#define Enumerable_Where_TisIl2CppObject_m720779688(__this /* static, unused */, p0, p1, method) ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject*, Func_2_t1509682273 *, const MethodInfo*))Enumerable_Where_TisIl2CppObject_m720779688_gshared)(__this /* static, unused */, p0, p1, method)
 // System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::Where<UnityEngine.Purchasing.ProductDefinition>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,System.Boolean>)
-#define Enumerable_Where_TisProductDefinition_t915591705_m2246124075(__this /* static, unused */, p0, p1, method) ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject*, Func_2_t3661865736 *, const MethodInfo*))Enumerable_Where_TisIl2CppObject_m3480373697_gshared)(__this /* static, unused */, p0, p1, method)
+#define Enumerable_Where_TisProductDefinition_t915591705_m2246124075(__this /* static, unused */, p0, p1, method) ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject*, Func_2_t3661865736 *, const MethodInfo*))Enumerable_Where_TisIl2CppObject_m720779688_gshared)(__this /* static, unused */, p0, p1, method)
 // System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<UnityEngine.Purchasing.ProductDefinition,UnityEngine.Purchasing.Default.WinProductDescription>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
 #define Enumerable_Select_TisProductDefinition_t915591705_TisWinProductDescription_t3214074785_m2971052796(__this /* static, unused */, p0, p1, method) ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject*, Func_2_t2369967884 *, const MethodInfo*))Enumerable_Select_TisIl2CppObject_TisIl2CppObject_m3465146869_gshared)(__this /* static, unused */, p0, p1, method)
 // System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
@@ -1265,7 +1265,7 @@ extern "C"  void UnityUtil__ctor_m273723344 (UnityUtil_t2711800121 * __this, con
 		List_1_t1234482916 * L_0 = (List_1_t1234482916 *)il2cpp_codegen_object_new(List_1_t1234482916_il2cpp_TypeInfo_var);
 		List_1__ctor_m3520341112(L_0, /*hidden argument*/List_1__ctor_m3520341112_MethodInfo_var);
 		__this->set_foregroundListeners_5(L_0);
-		MonoBehaviour__ctor_m1899368843(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1300,7 +1300,7 @@ extern "C"  String_t* UnityUtil_get_persistentDataPath_m1644608678 (UnityUtil_t2
 {
 	String_t* V_0 = NULL;
 	{
-		String_t* L_0 = Application_get_persistentDataPath_m1119052517(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_0 = Application_get_persistentDataPath_m2554537447(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		goto IL_000c;
 	}
@@ -1316,7 +1316,7 @@ extern "C"  int32_t UnityUtil_get_platform_m3806352783 (UnityUtil_t2711800121 * 
 {
 	int32_t V_0 = 0;
 	{
-		int32_t L_0 = Application_get_platform_m475587980(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		goto IL_000c;
 	}
@@ -1332,7 +1332,7 @@ extern "C"  bool UnityUtil_get_isEditor_m1852677392 (UnityUtil_t2711800121 * __t
 {
 	bool V_0 = false;
 	{
-		bool L_0 = Application_get_isEditor_m806574561(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_0 = Application_get_isEditor_m1279348309(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
 		goto IL_000c;
 	}
@@ -1413,7 +1413,7 @@ extern "C"  Il2CppObject * UnityUtil_Uniject_IUtil_InitiateCoroutine_m902648622 
 	Il2CppObject * V_0 = NULL;
 	{
 		Il2CppObject * L_0 = ___start;
-		Coroutine_t2246592261 * L_1 = MonoBehaviour_StartCoroutine_m4099245512(__this, L_0, /*hidden argument*/NULL);
+		Coroutine_t2246592261 * L_1 = MonoBehaviour_StartCoroutine_m2135303124(__this, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		goto IL_000e;
 	}
@@ -1510,7 +1510,7 @@ extern "C"  Il2CppObject * UnityUtil_GetWaitForSeconds_m1230489835 (UnityUtil_t2
 	{
 		int32_t L_0 = ___seconds;
 		WaitForSeconds_t1291133240 * L_1 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m3466420725(L_1, (((float)((float)L_0))), /*hidden argument*/NULL);
+		WaitForSeconds__ctor_m3184996201(L_1, (((float)((float)L_0))), /*hidden argument*/NULL);
 		V_0 = L_1;
 		goto IL_000e;
 	}
@@ -1525,7 +1525,7 @@ IL_000e:
 extern "C"  void UnityUtil_Start_m3515828432 (UnityUtil_t2711800121 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t4012695102 * L_0 = Component_get_gameObject_m1036663815(__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_0 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
 		Object_DontDestroyOnLoad_m4064482788(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
@@ -1545,7 +1545,7 @@ extern "C"  bool UnityUtil_PcPlatform_m1458864374 (Il2CppObject * __this /* stat
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(UnityUtil_t2711800121_il2cpp_TypeInfo_var);
 		List_1_t2371944849 * L_0 = ((UnityUtil_t2711800121_StaticFields*)UnityUtil_t2711800121_il2cpp_TypeInfo_var->static_fields)->get_s_PcControlledPlatforms_4();
-		int32_t L_1 = Application_get_platform_m475587980(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		bool L_2 = VirtFuncInvoker1< bool, int32_t >::Invoke(24 /* System.Boolean System.Collections.Generic.List`1<UnityEngine.RuntimePlatform>::Contains(!0) */, L_0, L_1);
 		V_0 = L_2;
@@ -2002,7 +2002,7 @@ IL_0021:
 	{
 		int32_t L_2 = __this->get_delay_0();
 		WaitForSeconds_t1291133240 * L_3 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m3466420725(L_3, (((float)((float)L_2))), /*hidden argument*/NULL);
+		WaitForSeconds__ctor_m3184996201(L_3, (((float)((float)L_2))), /*hidden argument*/NULL);
 		__this->set_U24current_3(L_3);
 		bool L_4 = __this->get_U24disposing_4();
 		if (L_4)
@@ -2024,7 +2024,7 @@ IL_0048:
 		UnityUtil_t2711800121 * L_5 = __this->get_U24this_2();
 		Il2CppObject * L_6 = __this->get_coroutine_1();
 		NullCheck(L_5);
-		MonoBehaviour_StartCoroutine_m4099245512(L_5, L_6, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(L_5, L_6, /*hidden argument*/NULL);
 		__this->set_U24PC_5((-1));
 	}
 
@@ -2684,7 +2684,7 @@ extern TypeInfo* IEnumerator_1_t2398698153_il2cpp_TypeInfo_var;
 extern TypeInfo* IEnumerator_t287207039_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t1628921374_il2cpp_TypeInfo_var;
 extern TypeInfo* MiniJson_t1660598422_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3149421882_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3099765286_MethodInfo_var;
 extern const uint32_t JSONSerializer_SerializeProductDefs_m136126014_MetadataUsageId;
 extern "C"  String_t* JSONSerializer_SerializeProductDefs_m136126014 (Il2CppObject * __this /* static, unused */, Il2CppObject* ___products, const MethodInfo* method)
 {
@@ -2706,7 +2706,7 @@ extern "C"  String_t* JSONSerializer_SerializeProductDefs_m136126014 (Il2CppObje
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		List_1_t1634065389 * L_0 = (List_1_t1634065389 *)il2cpp_codegen_object_new(List_1_t1634065389_il2cpp_TypeInfo_var);
-		List_1__ctor_m3149421882(L_0, /*hidden argument*/List_1__ctor_m3149421882_MethodInfo_var);
+		List_1__ctor_m3099765286(L_0, /*hidden argument*/List_1__ctor_m3099765286_MethodInfo_var);
 		V_0 = L_0;
 		Il2CppObject* L_1 = ___products;
 		NullCheck(L_1);
@@ -3033,7 +3033,7 @@ IL_004d:
 // System.Collections.Generic.Dictionary`2<System.String,System.Object> UnityEngine.Purchasing.JSONSerializer::EncodeProductDef(UnityEngine.Purchasing.ProductDefinition)
 extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
 extern TypeInfo* ProductType_t3132308288_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m491246241_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3229349667_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral3355;
 extern Il2CppCodeGenString* _stringLiteral2278645166;
 extern Il2CppCodeGenString* _stringLiteral3575610;
@@ -3051,7 +3051,7 @@ extern "C"  Dictionary_2_t2474804324 * JSONSerializer_EncodeProductDef_m16666321
 	Dictionary_2_t2474804324 * V_2 = NULL;
 	{
 		Dictionary_2_t2474804324 * L_0 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m491246241(L_0, /*hidden argument*/Dictionary_2__ctor_m491246241_MethodInfo_var);
+		Dictionary_2__ctor_m3229349667(L_0, /*hidden argument*/Dictionary_2__ctor_m3229349667_MethodInfo_var);
 		V_0 = L_0;
 		Dictionary_2_t2474804324 * L_1 = V_0;
 		ProductDefinition_t915591705 * L_2 = ___product;
@@ -3524,14 +3524,14 @@ extern "C"  Il2CppObject * RawStoreProvider_GetStorekit_m2399623300 (RawStorePro
 	}
 	Il2CppObject * V_0 = NULL;
 	{
-		int32_t L_0 = Application_get_platform_m475587980(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_0 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_0) == ((int32_t)8)))
 		{
 			goto IL_0018;
 		}
 	}
 	{
-		int32_t L_1 = Application_get_platform_m475587980(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)31)))))
 		{
 			goto IL_0024;
@@ -3692,13 +3692,13 @@ extern "C"  StandardPurchasingModule_t3337363742 * StandardPurchasingModule_Inst
 	StandardPurchasingModule_t3337363742 * V_4 = NULL;
 	{
 		GameObject_t4012695102 * L_0 = (GameObject_t4012695102 *)il2cpp_codegen_object_new(GameObject_t4012695102_il2cpp_TypeInfo_var);
-		GameObject__ctor_m556827858(L_0, _stringLiteral2300682842, /*hidden argument*/NULL);
+		GameObject__ctor_m3920833606(L_0, _stringLiteral2300682842, /*hidden argument*/NULL);
 		V_0 = L_0;
 		GameObject_t4012695102 * L_1 = V_0;
 		Object_DontDestroyOnLoad_m4064482788(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_2 = V_0;
 		NullCheck(L_2);
-		Object_set_hideFlags_m1616337884(L_2, 3, /*hidden argument*/NULL);
+		Object_set_hideFlags_m41317712(L_2, 3, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_3 = V_0;
 		NullCheck(L_3);
 		UnityUtil_t2711800121 * L_4 = GameObject_AddComponent_TisUnityUtil_t2711800121_m2102805919(L_3, /*hidden argument*/GameObject_AddComponent_TisUnityUtil_t2711800121_m2102805919_MethodInfo_var);
@@ -3707,7 +3707,7 @@ extern "C"  StandardPurchasingModule_t3337363742 * StandardPurchasingModule_Inst
 		Object_t3878351788 * L_5 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral1759953566, /*hidden argument*/NULL);
 		V_3 = ((TextAsset_t2461560304 *)IsInstClass(L_5, TextAsset_t2461560304_il2cpp_TypeInfo_var));
 		TextAsset_t2461560304 * L_6 = V_3;
-		bool L_7 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, (Object_t3878351788 *)NULL, L_6, /*hidden argument*/NULL);
+		bool L_7 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, (Object_t3878351788 *)NULL, L_6, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_004f;
@@ -3727,10 +3727,10 @@ IL_004f:
 	{
 		UnityUtil_t2711800121 * L_12 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Il2CppObject * L_13 = Debug_get_logger_m2944665700(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Il2CppObject * L_13 = Debug_get_logger_m275693158(NULL /*static, unused*/, /*hidden argument*/NULL);
 		RawStoreProvider_t1811743073 * L_14 = (RawStoreProvider_t1811743073 *)il2cpp_codegen_object_new(RawStoreProvider_t1811743073_il2cpp_TypeInfo_var);
 		RawStoreProvider__ctor_m4187291876(L_14, /*hidden argument*/NULL);
-		int32_t L_15 = Application_get_platform_m475587980(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_15 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		int32_t L_16 = V_2;
 		StandardPurchasingModule_t3337363742 * L_17 = (StandardPurchasingModule_t3337363742 *)il2cpp_codegen_object_new(StandardPurchasingModule_t3337363742_il2cpp_TypeInfo_var);
 		StandardPurchasingModule__ctor_m1144642505(L_17, L_12, L_13, L_14, L_15, L_16, /*hidden argument*/NULL);
@@ -4138,7 +4138,7 @@ extern TypeInfo* WinRTStore_t2916625178_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_t437523947_il2cpp_TypeInfo_var;
 extern TypeInfo* IUtil_t1019857343_il2cpp_TypeInfo_var;
 extern const MethodInfo* WinRTStore_restoreTransactions_m4280609036_MethodInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t3053238938____U24fieldU2DF59538F128558CDEE7C8F1BE48C08DBA78089463_0_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t3053238937____U24fieldU2DF59538F128558CDEE7C8F1BE48C08DBA78089463_0_FieldInfo_var;
 extern const uint32_t StandardPurchasingModule_instantiateWindowsStore_m3046951648_MetadataUsageId;
 extern "C"  Il2CppObject * StandardPurchasingModule_instantiateWindowsStore_m3046951648 (StandardPurchasingModule_t3337363742 * __this, const MethodInfo* method)
 {
@@ -4152,7 +4152,7 @@ extern "C"  Il2CppObject * StandardPurchasingModule_instantiateWindowsStore_m304
 	Il2CppObject * V_1 = NULL;
 	{
 		RuntimePlatformU5BU5D_t1082315273* L_0 = ((RuntimePlatformU5BU5D_t1082315273*)SZArrayNew(RuntimePlatformU5BU5D_t1082315273_il2cpp_TypeInfo_var, (uint32_t)3));
-		RuntimeHelpers_InitializeArray_m2058365049(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3053238938____U24fieldU2DF59538F128558CDEE7C8F1BE48C08DBA78089463_0_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m2058365049(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3053238937____U24fieldU2DF59538F128558CDEE7C8F1BE48C08DBA78089463_0_FieldInfo_var), /*hidden argument*/NULL);
 		bool L_1 = StandardPurchasingModule_OnPlatforms_m4084484186(__this, L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
@@ -4457,7 +4457,7 @@ extern TypeInfo* Type_t_il2cpp_TypeInfo_var;
 extern TypeInfo* OptionData_t3366553055_il2cpp_TypeInfo_var;
 extern TypeInfo* UnityAction_t909267611_il2cpp_TypeInfo_var;
 extern TypeInfo* UnityAction_1_t2827876692_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameObject_GetComponent_TisCanvas_t3534013893_m4009786289_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisCanvas_t3534013893_m1724722282_MethodInfo_var;
 extern const MethodInfo* Object_Instantiate_TisCanvas_t3534013893_m2139449249_MethodInfo_var;
 extern const MethodInfo* GameObject_AddComponent_TisLifecycleNotifier_t3315022608_m2458176718_MethodInfo_var;
 extern const MethodInfo* UIFakeStore_U3CInstantiateDialogU3Em__0_m819503977_MethodInfo_var;
@@ -4513,14 +4513,14 @@ extern "C"  void UIFakeStore_InstantiateDialog_m2681634896 (UIFakeStore_t2104954
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_1 = String_Concat_m389863537(NULL /*static, unused*/, __this, _stringLiteral1959353583, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_LogError_m3654569246(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		goto IL_029c;
 	}
 
 IL_0022:
 	{
 		GameObject_t4012695102 * L_2 = __this->get_UIFakeStoreCanvasPrefab_7();
-		bool L_3 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_2, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_004a;
@@ -4535,14 +4535,14 @@ IL_004a:
 	{
 		GameObject_t4012695102 * L_5 = __this->get_UIFakeStoreCanvasPrefab_7();
 		NullCheck(L_5);
-		Canvas_t3534013893 * L_6 = GameObject_GetComponent_TisCanvas_t3534013893_m4009786289(L_5, /*hidden argument*/GameObject_GetComponent_TisCanvas_t3534013893_m4009786289_MethodInfo_var);
+		Canvas_t3534013893 * L_6 = GameObject_GetComponent_TisCanvas_t3534013893_m1724722282(L_5, /*hidden argument*/GameObject_GetComponent_TisCanvas_t3534013893_m1724722282_MethodInfo_var);
 		V_0 = L_6;
 		Canvas_t3534013893 * L_7 = V_0;
 		Canvas_t3534013893 * L_8 = Object_Instantiate_TisCanvas_t3534013893_m2139449249(NULL /*static, unused*/, L_7, /*hidden argument*/Object_Instantiate_TisCanvas_t3534013893_m2139449249_MethodInfo_var);
 		__this->set_m_Canvas_8(L_8);
 		Canvas_t3534013893 * L_9 = __this->get_m_Canvas_8();
 		NullCheck(L_9);
-		GameObject_t4012695102 * L_10 = Component_get_gameObject_m1036663815(L_9, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_10 = Component_get_gameObject_m1170635899(L_9, /*hidden argument*/NULL);
 		NullCheck(L_10);
 		LifecycleNotifier_t3315022608 * L_11 = GameObject_AddComponent_TisLifecycleNotifier_t3315022608_m2458176718(L_10, /*hidden argument*/GameObject_AddComponent_TisLifecycleNotifier_t3315022608_m2458176718_MethodInfo_var);
 		V_1 = L_11;
@@ -4555,12 +4555,12 @@ IL_004a:
 		L_12->set_OnDestroyCallback_2(L_14);
 		Canvas_t3534013893 * L_15 = __this->get_m_Canvas_8();
 		NullCheck(L_15);
-		String_t* L_16 = Object_get_name_m2949537241(L_15, /*hidden argument*/NULL);
+		String_t* L_16 = Object_get_name_m3709440845(L_15, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_17 = String_Concat_m138640077(NULL /*static, unused*/, L_16, _stringLiteral1146291130, /*hidden argument*/NULL);
 		__this->set_m_ParentGameObjectPath_10(L_17);
 		EventSystem_t409518532 * L_18 = Object_FindObjectOfType_TisEventSystem_t409518532_m3853357997(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisEventSystem_t409518532_m3853357997_MethodInfo_var);
-		bool L_19 = Object_op_Equality_m2606653020(NULL /*static, unused*/, L_18, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_19 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_18, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_19)
 		{
 			goto IL_00fc;
@@ -4582,12 +4582,12 @@ IL_004a:
 		GameObject_AddComponent_TisStandaloneInputModule_t3152099756_m3168914570(L_23, /*hidden argument*/GameObject_AddComponent_TisStandaloneInputModule_t3152099756_m3168914570_MethodInfo_var);
 		GameObject_t4012695102 * L_24 = __this->get_m_EventSystem_9();
 		NullCheck(L_24);
-		Transform_t284553113 * L_25 = GameObject_get_transform_m1412865811(L_24, /*hidden argument*/NULL);
+		Transform_t284553113 * L_25 = GameObject_get_transform_m1278640159(L_24, /*hidden argument*/NULL);
 		Canvas_t3534013893 * L_26 = __this->get_m_Canvas_8();
 		NullCheck(L_26);
-		Transform_t284553113 * L_27 = Component_get_transform_m243597671(L_26, /*hidden argument*/NULL);
+		Transform_t284553113 * L_27 = Component_get_transform_m4257140443(L_26, /*hidden argument*/NULL);
 		NullCheck(L_25);
-		Transform_set_parent_m511324939(L_25, L_27, /*hidden argument*/NULL);
+		Transform_set_parent_m3231272063(L_25, L_27, /*hidden argument*/NULL);
 	}
 
 IL_00fc:
@@ -4625,7 +4625,7 @@ IL_00fc:
 		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_41, L_43);
 		Dropdown_t2916437562 * L_44 = UIFakeStore_GetDropdown_m506251430(__this, /*hidden argument*/NULL);
 		NullCheck(L_44);
-		List_1_t4163512024 * L_45 = Dropdown_get_options_m399918042(L_44, /*hidden argument*/NULL);
+		List_1_t4163512024 * L_45 = Dropdown_get_options_m2855573715(L_44, /*hidden argument*/NULL);
 		NullCheck(L_45);
 		VirtActionInvoker0::Invoke(23 /* System.Void System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::Clear() */, L_45);
 		DialogRequest_t3055205383 * L_46 = __this->get_m_CurrentDialog_5();
@@ -4649,10 +4649,10 @@ IL_0186:
 			V_6 = L_49;
 			Dropdown_t2916437562 * L_50 = UIFakeStore_GetDropdown_m506251430(__this, /*hidden argument*/NULL);
 			NullCheck(L_50);
-			List_1_t4163512024 * L_51 = Dropdown_get_options_m399918042(L_50, /*hidden argument*/NULL);
+			List_1_t4163512024 * L_51 = Dropdown_get_options_m2855573715(L_50, /*hidden argument*/NULL);
 			String_t* L_52 = V_6;
 			OptionData_t3366553055 * L_53 = (OptionData_t3366553055 *)il2cpp_codegen_object_new(OptionData_t3366553055_il2cpp_TypeInfo_var);
-			OptionData__ctor_m3621517956(L_53, L_52, /*hidden argument*/NULL);
+			OptionData__ctor_m3385162877(L_53, L_52, /*hidden argument*/NULL);
 			NullCheck(L_51);
 			VirtActionInvoker1< OptionData_t3366553055 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::Add(!0) */, L_51, L_53);
 		}
@@ -4708,28 +4708,28 @@ IL_01e6:
 	{
 		Dropdown_t2916437562 * L_58 = UIFakeStore_GetDropdown_m506251430(__this, /*hidden argument*/NULL);
 		NullCheck(L_58);
-		Dropdown_RefreshShownValue_m9458643(L_58, /*hidden argument*/NULL);
+		Dropdown_RefreshShownValue_m955925324(L_58, /*hidden argument*/NULL);
 		Button_t990034267 * L_59 = UIFakeStore_GetOkayButton_m3788361052(__this, /*hidden argument*/NULL);
 		NullCheck(L_59);
-		ButtonClickedEvent_t962981669 * L_60 = Button_get_onClick_m1145127631(L_59, /*hidden argument*/NULL);
+		ButtonClickedEvent_t962981669 * L_60 = Button_get_onClick_m99084534(L_59, /*hidden argument*/NULL);
 		IntPtr_t L_61;
 		L_61.set_m_value_0((void*)UIFakeStore_U3CInstantiateDialogU3Em__1_m819504938_MethodInfo_var);
 		UnityAction_t909267611 * L_62 = (UnityAction_t909267611 *)il2cpp_codegen_object_new(UnityAction_t909267611_il2cpp_TypeInfo_var);
-		UnityAction__ctor_m1639493687(L_62, __this, L_61, /*hidden argument*/NULL);
+		UnityAction__ctor_m4130179243(L_62, __this, L_61, /*hidden argument*/NULL);
 		NullCheck(L_60);
-		UnityEvent_AddListener_m657770641(L_60, L_62, /*hidden argument*/NULL);
+		UnityEvent_AddListener_m4099140869(L_60, L_62, /*hidden argument*/NULL);
 		Button_t990034267 * L_63 = UIFakeStore_GetCancelButton_m2046187906(__this, /*hidden argument*/NULL);
 		NullCheck(L_63);
-		ButtonClickedEvent_t962981669 * L_64 = Button_get_onClick_m1145127631(L_63, /*hidden argument*/NULL);
+		ButtonClickedEvent_t962981669 * L_64 = Button_get_onClick_m99084534(L_63, /*hidden argument*/NULL);
 		IntPtr_t L_65;
 		L_65.set_m_value_0((void*)UIFakeStore_U3CInstantiateDialogU3Em__2_m819505899_MethodInfo_var);
 		UnityAction_t909267611 * L_66 = (UnityAction_t909267611 *)il2cpp_codegen_object_new(UnityAction_t909267611_il2cpp_TypeInfo_var);
-		UnityAction__ctor_m1639493687(L_66, __this, L_65, /*hidden argument*/NULL);
+		UnityAction__ctor_m4130179243(L_66, __this, L_65, /*hidden argument*/NULL);
 		NullCheck(L_64);
-		UnityEvent_AddListener_m657770641(L_64, L_66, /*hidden argument*/NULL);
+		UnityEvent_AddListener_m4099140869(L_64, L_66, /*hidden argument*/NULL);
 		Dropdown_t2916437562 * L_67 = UIFakeStore_GetDropdown_m506251430(__this, /*hidden argument*/NULL);
 		NullCheck(L_67);
-		DropdownEvent_t2203078889 * L_68 = Dropdown_get_onValueChanged_m2646663760(L_67, /*hidden argument*/NULL);
+		DropdownEvent_t2203078889 * L_68 = Dropdown_get_onValueChanged_m1684410167(L_67, /*hidden argument*/NULL);
 		IntPtr_t L_69;
 		L_69.set_m_value_0((void*)UIFakeStore_U3CInstantiateDialogU3Em__3_m299483645_MethodInfo_var);
 		UnityAction_1_t2827876692 * L_70 = (UnityAction_1_t2827876692 *)il2cpp_codegen_object_new(UnityAction_1_t2827876692_il2cpp_TypeInfo_var);
@@ -4745,11 +4745,11 @@ IL_01e6:
 	{
 		Dropdown_t2916437562 * L_72 = UIFakeStore_GetDropdown_m506251430(__this, /*hidden argument*/NULL);
 		NullCheck(L_72);
-		DropdownEvent_t2203078889 * L_73 = Dropdown_get_onValueChanged_m2646663760(L_72, /*hidden argument*/NULL);
+		DropdownEvent_t2203078889 * L_73 = Dropdown_get_onValueChanged_m1684410167(L_72, /*hidden argument*/NULL);
 		NullCheck(L_73);
 		UnityEventBase_RemoveAllListeners_m2083644536(L_73, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_74 = UIFakeStore_GetDropdownContainerGameObject_m2495353292(__this, /*hidden argument*/NULL);
-		Object_Destroy_m1848047012(NULL /*static, unused*/, L_74, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_74, /*hidden argument*/NULL);
 		goto IL_029c;
 	}
 
@@ -4764,11 +4764,11 @@ IL_0273:
 	{
 		Button_t990034267 * L_76 = UIFakeStore_GetCancelButton_m2046187906(__this, /*hidden argument*/NULL);
 		NullCheck(L_76);
-		ButtonClickedEvent_t962981669 * L_77 = Button_get_onClick_m1145127631(L_76, /*hidden argument*/NULL);
+		ButtonClickedEvent_t962981669 * L_77 = Button_get_onClick_m99084534(L_76, /*hidden argument*/NULL);
 		NullCheck(L_77);
 		UnityEventBase_RemoveAllListeners_m2083644536(L_77, /*hidden argument*/NULL);
 		GameObject_t4012695102 * L_78 = UIFakeStore_GetCancelButtonGameObject_m3976284436(__this, /*hidden argument*/NULL);
-		Object_Destroy_m1848047012(NULL /*static, unused*/, L_78, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_78, /*hidden argument*/NULL);
 	}
 
 IL_029c:
@@ -4958,7 +4958,7 @@ extern "C"  Button_t990034267 * UIFakeStore_GetCancelButton_m2046187906 (UIFakeS
 		GameObject_t4012695102 * L_2 = GameObject_Find_m332785498(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		GameObject_t4012695102 * L_3 = V_0;
-		bool L_4 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0030;
@@ -5096,7 +5096,7 @@ extern "C"  Dropdown_t2916437562 * UIFakeStore_GetDropdown_m506251430 (UIFakeSto
 		GameObject_t4012695102 * L_2 = GameObject_Find_m332785498(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		GameObject_t4012695102 * L_3 = V_0;
-		bool L_4 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_4 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0030;
@@ -5242,11 +5242,11 @@ extern "C"  void UIFakeStore_CloseDialog_m4182585118 (UIFakeStore_t2104954095 * 
 		__this->set_m_CurrentDialog_5((DialogRequest_t3055205383 *)NULL);
 		Button_t990034267 * L_0 = UIFakeStore_GetOkayButton_m3788361052(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		ButtonClickedEvent_t962981669 * L_1 = Button_get_onClick_m1145127631(L_0, /*hidden argument*/NULL);
+		ButtonClickedEvent_t962981669 * L_1 = Button_get_onClick_m99084534(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		UnityEventBase_RemoveAllListeners_m2083644536(L_1, /*hidden argument*/NULL);
 		Button_t990034267 * L_2 = UIFakeStore_GetCancelButton_m2046187906(__this, /*hidden argument*/NULL);
-		bool L_3 = Object_op_Implicit_m1196674399(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		bool L_3 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_003a;
@@ -5255,7 +5255,7 @@ extern "C"  void UIFakeStore_CloseDialog_m4182585118 (UIFakeStore_t2104954095 * 
 	{
 		Button_t990034267 * L_4 = UIFakeStore_GetCancelButton_m2046187906(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		ButtonClickedEvent_t962981669 * L_5 = Button_get_onClick_m1145127631(L_4, /*hidden argument*/NULL);
+		ButtonClickedEvent_t962981669 * L_5 = Button_get_onClick_m99084534(L_4, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		UnityEventBase_RemoveAllListeners_m2083644536(L_5, /*hidden argument*/NULL);
 	}
@@ -5263,7 +5263,7 @@ extern "C"  void UIFakeStore_CloseDialog_m4182585118 (UIFakeStore_t2104954095 * 
 IL_003a:
 	{
 		Dropdown_t2916437562 * L_6 = UIFakeStore_GetDropdown_m506251430(__this, /*hidden argument*/NULL);
-		bool L_7 = Object_op_Inequality_m1987923543(NULL /*static, unused*/, L_6, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_7 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_6, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_005d;
@@ -5272,7 +5272,7 @@ IL_003a:
 	{
 		Dropdown_t2916437562 * L_8 = UIFakeStore_GetDropdown_m506251430(__this, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		DropdownEvent_t2203078889 * L_9 = Dropdown_get_onValueChanged_m2646663760(L_8, /*hidden argument*/NULL);
+		DropdownEvent_t2203078889 * L_9 = Dropdown_get_onValueChanged_m1684410167(L_8, /*hidden argument*/NULL);
 		NullCheck(L_9);
 		UnityEventBase_RemoveAllListeners_m2083644536(L_9, /*hidden argument*/NULL);
 	}
@@ -5281,8 +5281,8 @@ IL_005d:
 	{
 		Canvas_t3534013893 * L_10 = __this->get_m_Canvas_8();
 		NullCheck(L_10);
-		GameObject_t4012695102 * L_11 = Component_get_gameObject_m1036663815(L_10, /*hidden argument*/NULL);
-		Object_Destroy_m1848047012(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_11 = Component_get_gameObject_m1170635899(L_10, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -5365,7 +5365,7 @@ extern "C"  void DialogRequest__ctor_m2745613928 (DialogRequest_t3055205383 * __
 extern "C"  void LifecycleNotifier__ctor_m1372205951 (LifecycleNotifier_t3315022608 * __this, const MethodInfo* method)
 {
 	{
-		MonoBehaviour__ctor_m1899368843(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
 		return;
 	}
 }

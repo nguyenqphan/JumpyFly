@@ -30,7 +30,7 @@ struct String_t;
 #include "UnityEngine_UnityEngine_Event1590224583.h"
 
 // System.Void UnityEngine.Event::.ctor()
-extern "C"  void Event__ctor_m1652612619 (Event_t1590224583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Event__ctor_m1609448063 (Event_t1590224583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Event::.ctor(System.Int32)
 extern "C"  void Event__ctor_m66398544 (Event_t1590224583 * __this, int32_t ___displayIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Event::Finalize()
@@ -56,25 +56,25 @@ extern "C"  void Event_Init_m3525277126 (Event_t1590224583 * __this, int32_t ___
 // System.Void UnityEngine.Event::Cleanup()
 extern "C"  void Event_Cleanup_m3160122945 (Event_t1590224583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.EventType UnityEngine.Event::get_rawType()
-extern "C"  int32_t Event_get_rawType_m223790776 (Event_t1590224583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  int32_t Event_get_rawType_m696564524 (Event_t1590224583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.EventType UnityEngine.Event::get_type()
-extern "C"  int32_t Event_get_type_m2064744230 (Event_t1590224583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  int32_t Event_get_type_m2209939250 (Event_t1590224583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Event::Internal_GetMousePosition(UnityEngine.Vector2&)
 extern "C"  void Event_Internal_GetMousePosition_m2054214537 (Event_t1590224583 * __this, Vector2_t3525329788 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.EventModifiers UnityEngine.Event::get_modifiers()
-extern "C"  int32_t Event_get_modifiers_m4155216538 (Event_t1590224583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  int32_t Event_get_modifiers_m4020990886 (Event_t1590224583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char UnityEngine.Event::get_character()
-extern "C"  uint16_t Event_get_character_m3540249543 (Event_t1590224583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  uint16_t Event_get_character_m3663172667 (Event_t1590224583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Event::get_commandName()
-extern "C"  String_t* Event_get_commandName_m3686960889 (Event_t1590224583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  String_t* Event_get_commandName_m1197792621 (Event_t1590224583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.KeyCode UnityEngine.Event::get_keyCode()
-extern "C"  int32_t Event_get_keyCode_m1614620138 (Event_t1590224583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  int32_t Event_get_keyCode_m1820698462 (Event_t1590224583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Event::Internal_SetNativeEvent(System.IntPtr)
 extern "C"  void Event_Internal_SetNativeEvent_m930902932 (Il2CppObject * __this /* static, unused */, IntPtr_t ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Event::set_displayIndex(System.Int32)
 extern "C"  void Event_set_displayIndex_m4130090435 (Event_t1590224583 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Event::PopEvent(UnityEngine.Event)
-extern "C"  bool Event_PopEvent_m2924300667 (Il2CppObject * __this /* static, unused */, Event_t1590224583 * ___outEvent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool Event_PopEvent_m2790075015 (Il2CppObject * __this /* static, unused */, Event_t1590224583 * ___outEvent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 
 // Methods for marshaling
 struct Event_t1590224583;

@@ -27,7 +27,7 @@ struct AsyncCallback_t1363551830;
 #include "mscorlib_System_AsyncCallback1363551830.h"
 
 // System.Void UnityEngine.Canvas/WillRenderCanvases::.ctor(System.Object,System.IntPtr)
-extern "C"  void WillRenderCanvases__ctor_m151347842 (WillRenderCanvases_t1153522766 * __this, Il2CppObject * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void WillRenderCanvases__ctor_m1509285774 (WillRenderCanvases_t1153522766 * __this, Il2CppObject * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Canvas/WillRenderCanvases::Invoke()
 extern "C"  void WillRenderCanvases_Invoke_m4113031528 (WillRenderCanvases_t1153522766 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void pinvoke_delegate_wrapper_WillRenderCanvases_t1153522766(Il2CppObject* delegate);

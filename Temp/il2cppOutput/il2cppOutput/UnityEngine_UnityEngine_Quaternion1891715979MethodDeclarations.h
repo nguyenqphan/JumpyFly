@@ -29,7 +29,7 @@ extern "C"  Quaternion_t1891715979  Quaternion_get_identity_m1743882806 (Il2CppO
 // System.Single UnityEngine.Quaternion::Dot(UnityEngine.Quaternion,UnityEngine.Quaternion)
 extern "C"  float Quaternion_Dot_m580284 (Il2CppObject * __this /* static, unused */, Quaternion_t1891715979  ___a, Quaternion_t1891715979  ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Quaternion UnityEngine.Quaternion::Inverse(UnityEngine.Quaternion)
-extern "C"  Quaternion_t1891715979  Quaternion_Inverse_m1051830010 (Il2CppObject * __this /* static, unused */, Quaternion_t1891715979  ___rotation, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  Quaternion_t1891715979  Quaternion_Inverse_m3542515566 (Il2CppObject * __this /* static, unused */, Quaternion_t1891715979  ___rotation, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Quaternion::INTERNAL_CALL_Inverse(UnityEngine.Quaternion&,UnityEngine.Quaternion&)
 extern "C"  void Quaternion_INTERNAL_CALL_Inverse_m4175627710 (Il2CppObject * __this /* static, unused */, Quaternion_t1891715979 * ___rotation, Quaternion_t1891715979 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Quaternion::ToString()
@@ -45,9 +45,9 @@ extern "C"  int32_t Quaternion_GetHashCode_m3823258238 (Quaternion_t1891715979 *
 // System.Boolean UnityEngine.Quaternion::Equals(System.Object)
 extern "C"  bool Quaternion_Equals_m3843409946 (Quaternion_t1891715979 * __this, Il2CppObject * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Quaternion::op_Multiply(UnityEngine.Quaternion,UnityEngine.Vector3)
-extern "C"  Vector3_t3525329789  Quaternion_op_Multiply_m2595132807 (Il2CppObject * __this /* static, unused */, Quaternion_t1891715979  ___rotation, Vector3_t3525329789  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  Vector3_t3525329789  Quaternion_op_Multiply_m3771288979 (Il2CppObject * __this /* static, unused */, Quaternion_t1891715979  ___rotation, Vector3_t3525329789  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Quaternion::op_Inequality(UnityEngine.Quaternion,UnityEngine.Quaternion)
-extern "C"  bool Quaternion_op_Inequality_m3021103574 (Il2CppObject * __this /* static, unused */, Quaternion_t1891715979  ___lhs, Quaternion_t1891715979  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool Quaternion_op_Inequality_m4197259746 (Il2CppObject * __this /* static, unused */, Quaternion_t1891715979  ___lhs, Quaternion_t1891715979  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 
 // Methods for marshaling
 struct Quaternion_t1891715979;

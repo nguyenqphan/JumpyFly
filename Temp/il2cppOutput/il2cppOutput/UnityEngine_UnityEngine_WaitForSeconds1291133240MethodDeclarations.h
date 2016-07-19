@@ -19,7 +19,7 @@ struct WaitForSeconds_t1291133240_marshaled_pinvoke;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.WaitForSeconds::.ctor(System.Single)
-extern "C"  void WaitForSeconds__ctor_m3466420725 (WaitForSeconds_t1291133240 * __this, float ___seconds, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void WaitForSeconds__ctor_m3184996201 (WaitForSeconds_t1291133240 * __this, float ___seconds, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 
 // Methods for marshaling
 struct WaitForSeconds_t1291133240;

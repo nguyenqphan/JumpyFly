@@ -3284,7 +3284,7 @@ IL_004c:
 		}
 	}
 	{
-		float L_7 = Time_get_unscaledDeltaTime_m2809521839(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_7 = Time_get_unscaledDeltaTime_m285638843(NULL /*static, unused*/, /*hidden argument*/NULL);
 		G_B8_0 = L_7;
 		G_B8_1 = G_B6_0;
 		G_B8_2 = ((U3CStartU3Ec__Iterator0_t2376956030 *)(G_B6_1));
@@ -3307,7 +3307,7 @@ IL_0078:
 		ColorTween_t2894377818 * L_10 = (ColorTween_t2894377818 *)__this->get_address_of_tweenInfo_0();
 		float L_11 = ColorTween_get_duration_m2603018997((ColorTween_t2894377818 *)L_10, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_12 = Mathf_Clamp01_m501649630(NULL /*static, unused*/, (float)((float)((float)L_9/(float)L_11)), /*hidden argument*/NULL);
+		float L_12 = Mathf_Clamp01_m2272733930(NULL /*static, unused*/, (float)((float)((float)L_9/(float)L_11)), /*hidden argument*/NULL);
 		__this->set_U3CpercentageU3E__1_2(L_12);
 		ColorTween_t2894377818 * L_13 = (ColorTween_t2894377818 *)__this->get_address_of_tweenInfo_0();
 		float L_14 = (float)__this->get_U3CpercentageU3E__1_2();
@@ -3466,7 +3466,7 @@ IL_004c:
 		}
 	}
 	{
-		float L_7 = Time_get_unscaledDeltaTime_m2809521839(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_7 = Time_get_unscaledDeltaTime_m285638843(NULL /*static, unused*/, /*hidden argument*/NULL);
 		G_B8_0 = L_7;
 		G_B8_1 = G_B6_0;
 		G_B8_2 = ((U3CStartU3Ec__Iterator0_t70416677 *)(G_B6_1));
@@ -3489,7 +3489,7 @@ IL_0078:
 		FloatTween_t587838465 * L_10 = (FloatTween_t587838465 *)__this->get_address_of_tweenInfo_0();
 		float L_11 = FloatTween_get_duration_m108772764((FloatTween_t587838465 *)L_10, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
-		float L_12 = Mathf_Clamp01_m501649630(NULL /*static, unused*/, (float)((float)((float)L_9/(float)L_11)), /*hidden argument*/NULL);
+		float L_12 = Mathf_Clamp01_m2272733930(NULL /*static, unused*/, (float)((float)((float)L_9/(float)L_11)), /*hidden argument*/NULL);
 		__this->set_U3CpercentageU3E__1_2(L_12);
 		FloatTween_t587838465 * L_13 = (FloatTween_t587838465 *)__this->get_address_of_tweenInfo_0();
 		float L_14 = (float)__this->get_U3CpercentageU3E__1_2();
@@ -3603,7 +3603,7 @@ extern "C"  void TweenRunner_1_StartTween_m3060079017_gshared (TweenRunner_1_t14
 	}
 	{
 		MonoBehaviour_t3012272455 * L_0 = (MonoBehaviour_t3012272455 *)__this->get_m_CoroutineContainer_0();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, (Object_t3878351788 *)L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, (Object_t3878351788 *)L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001c;
@@ -3635,9 +3635,9 @@ IL_003f:
 	{
 		MonoBehaviour_t3012272455 * L_5 = (MonoBehaviour_t3012272455 *)__this->get_m_CoroutineContainer_0();
 		NullCheck((Component_t2126946602 *)L_5);
-		GameObject_t4012695102 * L_6 = Component_get_gameObject_m1036663815((Component_t2126946602 *)L_5, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_6 = Component_get_gameObject_m1170635899((Component_t2126946602 *)L_5, /*hidden argument*/NULL);
 		NullCheck((GameObject_t4012695102 *)L_6);
-		bool L_7 = GameObject_get_activeInHierarchy_m478478881((GameObject_t4012695102 *)L_6, /*hidden argument*/NULL);
+		bool L_7 = GameObject_get_activeInHierarchy_m612450965((GameObject_t4012695102 *)L_6, /*hidden argument*/NULL);
 		if (L_7)
 		{
 			goto IL_0067;
@@ -3656,7 +3656,7 @@ IL_0067:
 		MonoBehaviour_t3012272455 * L_10 = (MonoBehaviour_t3012272455 *)__this->get_m_CoroutineContainer_0();
 		Il2CppObject * L_11 = (Il2CppObject *)__this->get_m_Tween_1();
 		NullCheck((MonoBehaviour_t3012272455 *)L_10);
-		MonoBehaviour_StartCoroutine_m4099245512((MonoBehaviour_t3012272455 *)L_10, (Il2CppObject *)L_11, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124((MonoBehaviour_t3012272455 *)L_10, (Il2CppObject *)L_11, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -3712,7 +3712,7 @@ extern "C"  void TweenRunner_1_StartTween_m565832784_gshared (TweenRunner_1_t342
 	}
 	{
 		MonoBehaviour_t3012272455 * L_0 = (MonoBehaviour_t3012272455 *)__this->get_m_CoroutineContainer_0();
-		bool L_1 = Object_op_Equality_m2606653020(NULL /*static, unused*/, (Object_t3878351788 *)L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, (Object_t3878351788 *)L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001c;
@@ -3744,9 +3744,9 @@ IL_003f:
 	{
 		MonoBehaviour_t3012272455 * L_5 = (MonoBehaviour_t3012272455 *)__this->get_m_CoroutineContainer_0();
 		NullCheck((Component_t2126946602 *)L_5);
-		GameObject_t4012695102 * L_6 = Component_get_gameObject_m1036663815((Component_t2126946602 *)L_5, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_6 = Component_get_gameObject_m1170635899((Component_t2126946602 *)L_5, /*hidden argument*/NULL);
 		NullCheck((GameObject_t4012695102 *)L_6);
-		bool L_7 = GameObject_get_activeInHierarchy_m478478881((GameObject_t4012695102 *)L_6, /*hidden argument*/NULL);
+		bool L_7 = GameObject_get_activeInHierarchy_m612450965((GameObject_t4012695102 *)L_6, /*hidden argument*/NULL);
 		if (L_7)
 		{
 			goto IL_0067;
@@ -3765,7 +3765,7 @@ IL_0067:
 		MonoBehaviour_t3012272455 * L_10 = (MonoBehaviour_t3012272455 *)__this->get_m_CoroutineContainer_0();
 		Il2CppObject * L_11 = (Il2CppObject *)__this->get_m_Tween_1();
 		NullCheck((MonoBehaviour_t3012272455 *)L_10);
-		MonoBehaviour_StartCoroutine_m4099245512((MonoBehaviour_t3012272455 *)L_10, (Il2CppObject *)L_11, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124((MonoBehaviour_t3012272455 *)L_10, (Il2CppObject *)L_11, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -4395,7 +4395,7 @@ extern "C"  void ObjectPool_1_Release_m1110976910_gshared (ObjectPool_1_t2954595
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_LogError_m3654569246(NULL /*static, unused*/, (Il2CppObject *)_stringLiteral3474434835, /*hidden argument*/NULL);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, (Il2CppObject *)_stringLiteral3474434835, /*hidden argument*/NULL);
 	}
 
 IL_003b:

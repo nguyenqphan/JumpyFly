@@ -32,9 +32,9 @@ struct BaseInvokableCall_t1733537956;
 #include "mscorlib_System_Reflection_MethodInfo3461221277.h"
 
 // System.Void UnityEngine.Events.UnityEvent::.ctor()
-extern "C"  void UnityEvent__ctor_m4204377451 (UnityEvent_t2938797301 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void UnityEvent__ctor_m1715209183 (UnityEvent_t2938797301 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
-extern "C"  void UnityEvent_AddListener_m657770641 (UnityEvent_t2938797301 * __this, UnityAction_t909267611 * ___call, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void UnityEvent_AddListener_m4099140869 (UnityEvent_t2938797301 * __this, UnityAction_t909267611 * ___call, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEvent::FindMethod_Impl(System.String,System.Object)
 extern "C"  MethodInfo_t * UnityEvent_FindMethod_Impl_m2897220818 (UnityEvent_t2938797301 * __this, String_t* ___name, Il2CppObject * ___targetObj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent::GetDelegate(System.Object,System.Reflection.MethodInfo)
@@ -42,4 +42,4 @@ extern "C"  BaseInvokableCall_t1733537956 * UnityEvent_GetDelegate_m2043983920 (
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent::GetDelegate(UnityEngine.Events.UnityAction)
 extern "C"  BaseInvokableCall_t1733537956 * UnityEvent_GetDelegate_m1012258596 (Il2CppObject * __this /* static, unused */, UnityAction_t909267611 * ___action, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityEvent::Invoke()
-extern "C"  void UnityEvent_Invoke_m2527635185 (UnityEvent_t2938797301 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void UnityEvent_Invoke_m2672830205 (UnityEvent_t2938797301 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

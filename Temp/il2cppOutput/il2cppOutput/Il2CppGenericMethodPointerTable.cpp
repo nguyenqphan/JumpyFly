@@ -251,7 +251,7 @@ extern "C" void List_1_set_Capacity_m1332789688_gshared ();
 extern "C" void List_1_get_Count_m2599103100_gshared ();
 extern "C" void List_1_get_Item_m2771401372_gshared ();
 extern "C" void List_1_set_Item_m1074271145_gshared ();
-extern "C" void List_1__ctor_m3149421882_gshared ();
+extern "C" void List_1__ctor_m3099765286_gshared ();
 extern "C" void List_1__ctor_m4113379540_gshared ();
 extern "C" void List_1__ctor_m3643386469_gshared ();
 extern "C" void List_1__cctor_m3826137881_gshared ();
@@ -391,89 +391,6 @@ extern "C" void Predicate_1__ctor_m982040097_gshared ();
 extern "C" void Predicate_1_Invoke_m4106178309_gshared ();
 extern "C" void Predicate_1_BeginInvoke_m2038073176_gshared ();
 extern "C" void Predicate_1_EndInvoke_m3970497007_gshared ();
-extern "C" void HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m2501283472_gshared ();
-extern "C" void HashSet_1_get_Count_m3501347367_gshared ();
-extern "C" void HashSet_1__ctor_m4183732917_gshared ();
-extern "C" void HashSet_1__ctor_m3739212406_gshared ();
-extern "C" void HashSet_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m2351046527_gshared ();
-extern "C" void HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_CopyTo_m1037632730_gshared ();
-extern "C" void HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m4170802026_gshared ();
-extern "C" void HashSet_1_System_Collections_IEnumerable_GetEnumerator_m1202823980_gshared ();
-extern "C" void HashSet_1_Init_m2856515208_gshared ();
-extern "C" void HashSet_1_InitArrays_m523929898_gshared ();
-extern "C" void HashSet_1_SlotsContainsAt_m2666990736_gshared ();
-extern "C" void HashSet_1_CopyTo_m2864960666_gshared ();
-extern "C" void HashSet_1_CopyTo_m2745373309_gshared ();
-extern "C" void HashSet_1_Resize_m904498211_gshared ();
-extern "C" void HashSet_1_GetLinkHashCode_m1128863229_gshared ();
-extern "C" void HashSet_1_GetItemHashCode_m416797561_gshared ();
-extern "C" void HashSet_1_Add_m3739352086_gshared ();
-extern "C" void HashSet_1_Clear_m1589866208_gshared ();
-extern "C" void HashSet_1_Contains_m3727111780_gshared ();
-extern "C" void HashSet_1_Remove_m3015589727_gshared ();
-extern "C" void HashSet_1_GetObjectData_m2922531795_gshared ();
-extern "C" void HashSet_1_OnDeserialization_m3000579185_gshared ();
-extern "C" void Enumerator_System_Collections_IEnumerator_get_Current_m789844996_gshared ();
-extern "C" void Enumerator_get_Current_m2251145467_gshared ();
-extern "C" void Enumerator__ctor_m2780515062_gshared ();
-extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m1022779726_gshared ();
-extern "C" void Enumerator_MoveNext_m240900368_gshared ();
-extern "C" void Enumerator_Dispose_m3013304169_gshared ();
-extern "C" void Enumerator_CheckState_m1851996801_gshared ();
-extern "C" void PrimeHelper__cctor_m1379025658_gshared ();
-extern "C" void PrimeHelper_TestPrime_m2030319843_gshared ();
-extern "C" void PrimeHelper_CalcPrime_m3074236314_gshared ();
-extern "C" void PrimeHelper_ToPrime_m399576372_gshared ();
-extern "C" void Enumerable_Any_TisIl2CppObject_m1279227713_gshared ();
-extern "C" void Enumerable_Select_TisIl2CppObject_TisIl2CppObject_m3465146869_gshared ();
-extern "C" void Enumerable_CreateSelectIterator_TisIl2CppObject_TisIl2CppObject_m2033512756_gshared ();
-extern "C" void Enumerable_Take_TisIl2CppObject_m4170549339_gshared ();
-extern "C" void Enumerable_CreateTakeIterator_TisIl2CppObject_m3901453855_gshared ();
-extern "C" void Enumerable_ToArray_TisIl2CppObject_m914007555_gshared ();
-extern "C" void Enumerable_ToDictionary_TisIl2CppObject_TisIl2CppObject_TisIl2CppObject_m2105767490_gshared ();
-extern "C" void Enumerable_ToDictionary_TisIl2CppObject_TisIl2CppObject_m305095264_gshared ();
-extern "C" void Enumerable_ToDictionary_TisIl2CppObject_TisIl2CppObject_m1394750633_gshared ();
-extern "C" void Enumerable_ToList_TisIl2CppObject_m3660158798_gshared ();
-extern "C" void Enumerable_Where_TisIl2CppObject_m3480373697_gshared ();
-extern "C" void Enumerable_CreateWhereIterator_TisIl2CppObject_m2204352327_gshared ();
-extern "C" void Function_1__cctor_m2190954237_gshared ();
-extern "C" void Function_1_U3CIdentityU3Em__77_m768540166_gshared ();
-extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m3139887788_gshared ();
-extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerator_get_Current_m2214244775_gshared ();
-extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2__ctor_m947089631_gshared ();
-extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerable_GetEnumerator_m3441575874_gshared ();
-extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m2350385737_gshared ();
-extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_MoveNext_m3146126805_gshared ();
-extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_Dispose_m3813319004_gshared ();
-extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_Reset_m2888489868_gshared ();
-extern "C" void U3CCreateTakeIteratorU3Ec__Iterator19_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m965116049_gshared ();
-extern "C" void U3CCreateTakeIteratorU3Ec__Iterator19_1_System_Collections_IEnumerator_get_Current_m2872192422_gshared ();
-extern "C" void U3CCreateTakeIteratorU3Ec__Iterator19_1__ctor_m1991994240_gshared ();
-extern "C" void U3CCreateTakeIteratorU3Ec__Iterator19_1_System_Collections_IEnumerable_GetEnumerator_m2446998017_gshared ();
-extern "C" void U3CCreateTakeIteratorU3Ec__Iterator19_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m80203434_gshared ();
-extern "C" void U3CCreateTakeIteratorU3Ec__Iterator19_1_MoveNext_m1575379860_gshared ();
-extern "C" void U3CCreateTakeIteratorU3Ec__Iterator19_1_Dispose_m2944300989_gshared ();
-extern "C" void U3CCreateTakeIteratorU3Ec__Iterator19_1_Reset_m3933394477_gshared ();
-extern "C" void U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m1015065924_gshared ();
-extern "C" void U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_IEnumerator_get_Current_m1370525525_gshared ();
-extern "C" void U3CCreateWhereIteratorU3Ec__Iterator1D_1__ctor_m3836766395_gshared ();
-extern "C" void U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_IEnumerable_GetEnumerator_m503616950_gshared ();
-extern "C" void U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m2553601303_gshared ();
-extern "C" void U3CCreateWhereIteratorU3Ec__Iterator1D_1_MoveNext_m461554209_gshared ();
-extern "C" void U3CCreateWhereIteratorU3Ec__Iterator1D_1_Dispose_m1948848696_gshared ();
-extern "C" void U3CCreateWhereIteratorU3Ec__Iterator1D_1_Reset_m1483199336_gshared ();
-extern "C" void Action_2__ctor_m4171654682_gshared ();
-extern "C" void Action_2_Invoke_m2160582097_gshared ();
-extern "C" void Action_2_BeginInvoke_m3413657584_gshared ();
-extern "C" void Action_2_EndInvoke_m3926193450_gshared ();
-extern "C" void Action_4__ctor_m620347252_gshared ();
-extern "C" void Action_4_Invoke_m157716918_gshared ();
-extern "C" void Action_4_BeginInvoke_m1414752311_gshared ();
-extern "C" void Action_4_EndInvoke_m2556365700_gshared ();
-extern "C" void Func_2__ctor_m3944524044_gshared ();
-extern "C" void Func_2_Invoke_m1924616534_gshared ();
-extern "C" void Func_2_BeginInvoke_m4281703301_gshared ();
-extern "C" void Func_2_EndInvoke_m4118168638_gshared ();
 extern "C" void Stack_1_System_Collections_ICollection_get_IsSynchronized_m1582336274_gshared ();
 extern "C" void Stack_1_System_Collections_ICollection_get_SyncRoot_m2938343088_gshared ();
 extern "C" void Stack_1_get_Count_m3631765324_gshared ();
@@ -491,63 +408,12 @@ extern "C" void Enumerator__ctor_m1003414509_gshared ();
 extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m3054975473_gshared ();
 extern "C" void Enumerator_Dispose_m1634653158_gshared ();
 extern "C" void Enumerator_MoveNext_m3012756789_gshared ();
-extern "C" void ConfigurationBuilder_Configure_TisIl2CppObject_m3478168510_gshared ();
-extern "C" void PurchasingFactory_RegisterExtension_TisIl2CppObject_m1759769321_gshared ();
-extern "C" void PurchasingFactory_RegisterConfiguration_TisIl2CppObject_m3233587040_gshared ();
-extern "C" void PurchasingFactory_GetConfig_TisIl2CppObject_m1511443064_gshared ();
-extern "C" void PurchasingFactory_GetExtension_TisIl2CppObject_m33012161_gshared ();
-extern "C" void AbstractPurchasingModule_BindExtension_TisIl2CppObject_m3962279223_gshared ();
-extern "C" void AbstractPurchasingModule_BindConfiguration_TisIl2CppObject_m3792448238_gshared ();
-extern "C" void ExecuteEvents_ValidateEventData_TisIl2CppObject_m1498065176_gshared ();
-extern "C" void ExecuteEvents_Execute_TisIl2CppObject_m1533897725_gshared ();
-extern "C" void ExecuteEvents_ExecuteHierarchy_TisIl2CppObject_m2445823293_gshared ();
-extern "C" void ExecuteEvents_ShouldSendToComponent_TisIl2CppObject_m2647702620_gshared ();
-extern "C" void ExecuteEvents_GetEventList_TisIl2CppObject_m399588305_gshared ();
-extern "C" void ExecuteEvents_CanHandleEvent_TisIl2CppObject_m2627025177_gshared ();
-extern "C" void ExecuteEvents_GetEventHandler_TisIl2CppObject_m2285942506_gshared ();
-extern "C" void EventFunction_1__ctor_m252996987_gshared ();
-extern "C" void EventFunction_1_Invoke_m1750245256_gshared ();
-extern "C" void EventFunction_1_BeginInvoke_m2337669695_gshared ();
-extern "C" void EventFunction_1_EndInvoke_m1184355595_gshared ();
-extern "C" void Dropdown_GetOrAddComponent_TisIl2CppObject_m4155558758_gshared ();
-extern "C" void SetPropertyUtility_SetEquatableStruct_TisIl2CppObject_m685297595_gshared ();
-extern "C" void SetPropertyUtility_SetClass_TisIl2CppObject_m3004757678_gshared ();
-extern "C" void LayoutGroup_SetProperty_TisIl2CppObject_m2605202953_gshared ();
-extern "C" void IndexedSet_1_get_Count_m3523122326_gshared ();
-extern "C" void IndexedSet_1_get_IsReadOnly_m581024909_gshared ();
-extern "C" void IndexedSet_1_get_Item_m2125208246_gshared ();
-extern "C" void IndexedSet_1_set_Item_m1359327235_gshared ();
-extern "C" void IndexedSet_1__ctor_m1049489274_gshared ();
-extern "C" void IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m1636511825_gshared ();
-extern "C" void IndexedSet_1_Add_m162544069_gshared ();
-extern "C" void IndexedSet_1_AddUnique_m1373796738_gshared ();
-extern "C" void IndexedSet_1_Remove_m2459681474_gshared ();
-extern "C" void IndexedSet_1_GetEnumerator_m2607290422_gshared ();
-extern "C" void IndexedSet_1_Clear_m2750589861_gshared ();
-extern "C" void IndexedSet_1_Contains_m2075225351_gshared ();
-extern "C" void IndexedSet_1_CopyTo_m4273412725_gshared ();
-extern "C" void IndexedSet_1_IndexOf_m4137415045_gshared ();
-extern "C" void IndexedSet_1_Insert_m3436399148_gshared ();
-extern "C" void IndexedSet_1_RemoveAt_m1310252018_gshared ();
-extern "C" void IndexedSet_1_RemoveAll_m4086301344_gshared ();
-extern "C" void IndexedSet_1_Sort_m3752037115_gshared ();
-extern "C" void ListPool_1__cctor_m4278935907_gshared ();
-extern "C" void ListPool_1_Get_m2234302831_gshared ();
-extern "C" void ListPool_1_Release_m1182093831_gshared ();
-extern "C" void ListPool_1_U3Cs_ListPoolU3Em__14_m4207408660_gshared ();
-extern "C" void ObjectPool_1_get_countAll_m3327915100_gshared ();
-extern "C" void ObjectPool_1_set_countAll_m2125882937_gshared ();
-extern "C" void ObjectPool_1_get_countActive_m2082506317_gshared ();
-extern "C" void ObjectPool_1_get_countInactive_m19645682_gshared ();
-extern "C" void ObjectPool_1__ctor_m2532712771_gshared ();
-extern "C" void ObjectPool_1_Get_m3052664832_gshared ();
-extern "C" void ObjectPool_1_Release_m1110976910_gshared ();
 extern "C" void ScriptableObject_CreateInstance_TisIl2CppObject_m1931564230_gshared ();
 extern "C" void Resources_ConvertObjects_TisIl2CppObject_m1537961554_gshared ();
-extern "C" void Object_Instantiate_TisIl2CppObject_m3133387403_gshared ();
+extern "C" void Object_Instantiate_TisIl2CppObject_m2886823922_gshared ();
 extern "C" void Object_FindObjectsOfType_TisIl2CppObject_m3888714627_gshared ();
 extern "C" void Object_FindObjectOfType_TisIl2CppObject_m4174810935_gshared ();
-extern "C" void Component_GetComponent_TisIl2CppObject_m1198801502_gshared ();
+extern "C" void Component_GetComponent_TisIl2CppObject_m267839954_gshared ();
 extern "C" void Component_GetComponentInChildren_TisIl2CppObject_m900797242_gshared ();
 extern "C" void Component_GetComponentInChildren_TisIl2CppObject_m833851745_gshared ();
 extern "C" void Component_GetComponentsInChildren_TisIl2CppObject_m4074314606_gshared ();
@@ -560,7 +426,7 @@ extern "C" void Component_GetComponentsInParent_TisIl2CppObject_m101791494_gshar
 extern "C" void Component_GetComponentsInParent_TisIl2CppObject_m1228840236_gshared ();
 extern "C" void Component_GetComponents_TisIl2CppObject_m4263137760_gshared ();
 extern "C" void Component_GetComponents_TisIl2CppObject_m1562339739_gshared ();
-extern "C" void GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared ();
+extern "C" void GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared ();
 extern "C" void GameObject_GetComponentInChildren_TisIl2CppObject_m782999868_gshared ();
 extern "C" void GameObject_GetComponentInChildren_TisIl2CppObject_m4037889411_gshared ();
 extern "C" void GameObject_GetComponents_TisIl2CppObject_m2453515573_gshared ();
@@ -570,7 +436,7 @@ extern "C" void GameObject_GetComponentsInChildren_TisIl2CppObject_m2133301907_g
 extern "C" void GameObject_GetComponentsInChildren_TisIl2CppObject_m3418406430_gshared ();
 extern "C" void GameObject_GetComponentsInParent_TisIl2CppObject_m3568912686_gshared ();
 extern "C" void GameObject_GetComponentsInParent_TisIl2CppObject_m1351944637_gshared ();
-extern "C" void GameObject_AddComponent_TisIl2CppObject_m337943659_gshared ();
+extern "C" void GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared ();
 extern "C" void AndroidJavaObject_Call_TisIl2CppObject_m3039876358_gshared ();
 extern "C" void AndroidJavaObject_CallStatic_TisIl2CppObject_m4248195924_gshared ();
 extern "C" void AndroidJavaObject__Call_TisIl2CppObject_m3840602009_gshared ();
@@ -650,6 +516,96 @@ extern "C" void UnityAction_4__ctor_m2430556805_gshared ();
 extern "C" void UnityAction_4_Invoke_m295067525_gshared ();
 extern "C" void UnityAction_4_BeginInvoke_m3784231950_gshared ();
 extern "C" void UnityAction_4_EndInvoke_m2334578453_gshared ();
+extern "C" void HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m2501283472_gshared ();
+extern "C" void HashSet_1_get_Count_m3501347367_gshared ();
+extern "C" void HashSet_1__ctor_m4183732917_gshared ();
+extern "C" void HashSet_1__ctor_m3739212406_gshared ();
+extern "C" void HashSet_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m2351046527_gshared ();
+extern "C" void HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_CopyTo_m1037632730_gshared ();
+extern "C" void HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m4170802026_gshared ();
+extern "C" void HashSet_1_System_Collections_IEnumerable_GetEnumerator_m1202823980_gshared ();
+extern "C" void HashSet_1_Init_m2856515208_gshared ();
+extern "C" void HashSet_1_InitArrays_m523929898_gshared ();
+extern "C" void HashSet_1_SlotsContainsAt_m2666990736_gshared ();
+extern "C" void HashSet_1_CopyTo_m2864960666_gshared ();
+extern "C" void HashSet_1_CopyTo_m2745373309_gshared ();
+extern "C" void HashSet_1_Resize_m904498211_gshared ();
+extern "C" void HashSet_1_GetLinkHashCode_m1128863229_gshared ();
+extern "C" void HashSet_1_GetItemHashCode_m416797561_gshared ();
+extern "C" void HashSet_1_Add_m3739352086_gshared ();
+extern "C" void HashSet_1_Clear_m1589866208_gshared ();
+extern "C" void HashSet_1_Contains_m3727111780_gshared ();
+extern "C" void HashSet_1_Remove_m3015589727_gshared ();
+extern "C" void HashSet_1_GetObjectData_m2922531795_gshared ();
+extern "C" void HashSet_1_OnDeserialization_m3000579185_gshared ();
+extern "C" void Enumerator_System_Collections_IEnumerator_get_Current_m789844996_gshared ();
+extern "C" void Enumerator_get_Current_m2251145467_gshared ();
+extern "C" void Enumerator__ctor_m2780515062_gshared ();
+extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m1022779726_gshared ();
+extern "C" void Enumerator_MoveNext_m240900368_gshared ();
+extern "C" void Enumerator_Dispose_m3013304169_gshared ();
+extern "C" void Enumerator_CheckState_m1851996801_gshared ();
+extern "C" void PrimeHelper__cctor_m1379025658_gshared ();
+extern "C" void PrimeHelper_TestPrime_m2030319843_gshared ();
+extern "C" void PrimeHelper_CalcPrime_m3074236314_gshared ();
+extern "C" void PrimeHelper_ToPrime_m399576372_gshared ();
+extern "C" void Enumerable_Any_TisIl2CppObject_m1279227713_gshared ();
+extern "C" void Enumerable_Select_TisIl2CppObject_TisIl2CppObject_m3465146869_gshared ();
+extern "C" void Enumerable_CreateSelectIterator_TisIl2CppObject_TisIl2CppObject_m2033512756_gshared ();
+extern "C" void Enumerable_Take_TisIl2CppObject_m4170549339_gshared ();
+extern "C" void Enumerable_CreateTakeIterator_TisIl2CppObject_m3901453855_gshared ();
+extern "C" void Enumerable_ToArray_TisIl2CppObject_m914007555_gshared ();
+extern "C" void Enumerable_ToDictionary_TisIl2CppObject_TisIl2CppObject_TisIl2CppObject_m2105767490_gshared ();
+extern "C" void Enumerable_ToDictionary_TisIl2CppObject_TisIl2CppObject_m305095264_gshared ();
+extern "C" void Enumerable_ToDictionary_TisIl2CppObject_TisIl2CppObject_m1394750633_gshared ();
+extern "C" void Enumerable_ToList_TisIl2CppObject_m3660158798_gshared ();
+extern "C" void Enumerable_Where_TisIl2CppObject_m720779688_gshared ();
+extern "C" void Enumerable_CreateWhereIterator_TisIl2CppObject_m2204352327_gshared ();
+extern "C" void Function_1__cctor_m2190954237_gshared ();
+extern "C" void Function_1_U3CIdentityU3Em__77_m768540166_gshared ();
+extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m3139887788_gshared ();
+extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerator_get_Current_m2214244775_gshared ();
+extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2__ctor_m947089631_gshared ();
+extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerable_GetEnumerator_m3441575874_gshared ();
+extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m2350385737_gshared ();
+extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_MoveNext_m3146126805_gshared ();
+extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_Dispose_m3813319004_gshared ();
+extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_Reset_m2888489868_gshared ();
+extern "C" void U3CCreateTakeIteratorU3Ec__Iterator19_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m965116049_gshared ();
+extern "C" void U3CCreateTakeIteratorU3Ec__Iterator19_1_System_Collections_IEnumerator_get_Current_m2872192422_gshared ();
+extern "C" void U3CCreateTakeIteratorU3Ec__Iterator19_1__ctor_m1991994240_gshared ();
+extern "C" void U3CCreateTakeIteratorU3Ec__Iterator19_1_System_Collections_IEnumerable_GetEnumerator_m2446998017_gshared ();
+extern "C" void U3CCreateTakeIteratorU3Ec__Iterator19_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m80203434_gshared ();
+extern "C" void U3CCreateTakeIteratorU3Ec__Iterator19_1_MoveNext_m1575379860_gshared ();
+extern "C" void U3CCreateTakeIteratorU3Ec__Iterator19_1_Dispose_m2944300989_gshared ();
+extern "C" void U3CCreateTakeIteratorU3Ec__Iterator19_1_Reset_m3933394477_gshared ();
+extern "C" void U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m1015065924_gshared ();
+extern "C" void U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_IEnumerator_get_Current_m1370525525_gshared ();
+extern "C" void U3CCreateWhereIteratorU3Ec__Iterator1D_1__ctor_m3836766395_gshared ();
+extern "C" void U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_IEnumerable_GetEnumerator_m503616950_gshared ();
+extern "C" void U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m2553601303_gshared ();
+extern "C" void U3CCreateWhereIteratorU3Ec__Iterator1D_1_MoveNext_m461554209_gshared ();
+extern "C" void U3CCreateWhereIteratorU3Ec__Iterator1D_1_Dispose_m1948848696_gshared ();
+extern "C" void U3CCreateWhereIteratorU3Ec__Iterator1D_1_Reset_m1483199336_gshared ();
+extern "C" void Action_2__ctor_m4171654682_gshared ();
+extern "C" void Action_2_Invoke_m2160582097_gshared ();
+extern "C" void Action_2_BeginInvoke_m3413657584_gshared ();
+extern "C" void Action_2_EndInvoke_m3926193450_gshared ();
+extern "C" void Action_4__ctor_m620347252_gshared ();
+extern "C" void Action_4_Invoke_m157716918_gshared ();
+extern "C" void Action_4_BeginInvoke_m1414752311_gshared ();
+extern "C" void Action_4_EndInvoke_m2556365700_gshared ();
+extern "C" void Func_2__ctor_m3944524044_gshared ();
+extern "C" void Func_2_Invoke_m1924616534_gshared ();
+extern "C" void Func_2_BeginInvoke_m4281703301_gshared ();
+extern "C" void Func_2_EndInvoke_m4118168638_gshared ();
+extern "C" void ConfigurationBuilder_Configure_TisIl2CppObject_m3478168510_gshared ();
+extern "C" void PurchasingFactory_RegisterExtension_TisIl2CppObject_m1759769321_gshared ();
+extern "C" void PurchasingFactory_RegisterConfiguration_TisIl2CppObject_m3233587040_gshared ();
+extern "C" void PurchasingFactory_GetConfig_TisIl2CppObject_m1511443064_gshared ();
+extern "C" void PurchasingFactory_GetExtension_TisIl2CppObject_m33012161_gshared ();
+extern "C" void AbstractPurchasingModule_BindExtension_TisIl2CppObject_m3962279223_gshared ();
+extern "C" void AbstractPurchasingModule_BindConfiguration_TisIl2CppObject_m3792448238_gshared ();
 extern "C" void FakeStore_StartUI_TisIl2CppObject_m878142524_gshared ();
 extern "C" void UIFakeStore_StartUI_TisIl2CppObject_m1265760656_gshared ();
 extern "C" void U3CStartUIU3Ec__AnonStorey0_1__ctor_m2666976025_gshared ();
@@ -660,6 +616,50 @@ extern "C" void UnityUtil_LoadResourceInstanceOfType_TisIl2CppObject_m3295815121
 extern "C" void SessionValues_TryGetValue_TisIl2CppObject_m2653206696_gshared ();
 extern "C" void SessionValues_TryGetValueList_TisIl2CppObject_m1638858144_gshared ();
 extern "C" void SessionValues_TryGetValueArray_TisIl2CppObject_m2745027379_gshared ();
+extern "C" void ExecuteEvents_ValidateEventData_TisIl2CppObject_m1498065176_gshared ();
+extern "C" void ExecuteEvents_Execute_TisIl2CppObject_m1533897725_gshared ();
+extern "C" void ExecuteEvents_ExecuteHierarchy_TisIl2CppObject_m2445823293_gshared ();
+extern "C" void ExecuteEvents_ShouldSendToComponent_TisIl2CppObject_m2647702620_gshared ();
+extern "C" void ExecuteEvents_GetEventList_TisIl2CppObject_m399588305_gshared ();
+extern "C" void ExecuteEvents_CanHandleEvent_TisIl2CppObject_m2627025177_gshared ();
+extern "C" void ExecuteEvents_GetEventHandler_TisIl2CppObject_m2285942506_gshared ();
+extern "C" void EventFunction_1__ctor_m252996987_gshared ();
+extern "C" void EventFunction_1_Invoke_m1750245256_gshared ();
+extern "C" void EventFunction_1_BeginInvoke_m2337669695_gshared ();
+extern "C" void EventFunction_1_EndInvoke_m1184355595_gshared ();
+extern "C" void Dropdown_GetOrAddComponent_TisIl2CppObject_m4155558758_gshared ();
+extern "C" void SetPropertyUtility_SetEquatableStruct_TisIl2CppObject_m685297595_gshared ();
+extern "C" void SetPropertyUtility_SetClass_TisIl2CppObject_m3004757678_gshared ();
+extern "C" void LayoutGroup_SetProperty_TisIl2CppObject_m2605202953_gshared ();
+extern "C" void IndexedSet_1_get_Count_m3523122326_gshared ();
+extern "C" void IndexedSet_1_get_IsReadOnly_m581024909_gshared ();
+extern "C" void IndexedSet_1_get_Item_m2125208246_gshared ();
+extern "C" void IndexedSet_1_set_Item_m1359327235_gshared ();
+extern "C" void IndexedSet_1__ctor_m1049489274_gshared ();
+extern "C" void IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m1636511825_gshared ();
+extern "C" void IndexedSet_1_Add_m162544069_gshared ();
+extern "C" void IndexedSet_1_AddUnique_m1373796738_gshared ();
+extern "C" void IndexedSet_1_Remove_m2459681474_gshared ();
+extern "C" void IndexedSet_1_GetEnumerator_m2607290422_gshared ();
+extern "C" void IndexedSet_1_Clear_m2750589861_gshared ();
+extern "C" void IndexedSet_1_Contains_m2075225351_gshared ();
+extern "C" void IndexedSet_1_CopyTo_m4273412725_gshared ();
+extern "C" void IndexedSet_1_IndexOf_m4137415045_gshared ();
+extern "C" void IndexedSet_1_Insert_m3436399148_gshared ();
+extern "C" void IndexedSet_1_RemoveAt_m1310252018_gshared ();
+extern "C" void IndexedSet_1_RemoveAll_m4086301344_gshared ();
+extern "C" void IndexedSet_1_Sort_m3752037115_gshared ();
+extern "C" void ListPool_1__cctor_m4278935907_gshared ();
+extern "C" void ListPool_1_Get_m2234302831_gshared ();
+extern "C" void ListPool_1_Release_m1182093831_gshared ();
+extern "C" void ListPool_1_U3Cs_ListPoolU3Em__14_m4207408660_gshared ();
+extern "C" void ObjectPool_1_get_countAll_m3327915100_gshared ();
+extern "C" void ObjectPool_1_set_countAll_m2125882937_gshared ();
+extern "C" void ObjectPool_1_get_countActive_m2082506317_gshared ();
+extern "C" void ObjectPool_1_get_countInactive_m19645682_gshared ();
+extern "C" void ObjectPool_1__ctor_m2532712771_gshared ();
+extern "C" void ObjectPool_1_Get_m3052664832_gshared ();
+extern "C" void ObjectPool_1_Release_m1110976910_gshared ();
 extern "C" void Singleton_1_get_Instance_m1020946630_gshared ();
 extern "C" void Singleton_1__ctor_m3958676923_gshared ();
 extern "C" void Singleton_1_Awake_m4196282142_gshared ();
@@ -691,12 +691,42 @@ extern "C" void GenericComparer_1__ctor_m1512869462_gshared ();
 extern "C" void GenericEqualityComparer_1__ctor_m1135065456_gshared ();
 extern "C" void Dictionary_2__ctor_m3163007305_gshared ();
 extern "C" void Array_BinarySearch_TisInt32_t2847414787_m3080908590_gshared ();
+extern "C" void Dictionary_2__ctor_m3603054982_gshared ();
+extern "C" void CachedInvokableCall_1__ctor_m3760156124_gshared ();
+extern "C" void CachedInvokableCall_1__ctor_m1791898438_gshared ();
+extern "C" void CachedInvokableCall_1__ctor_m562163564_gshared ();
+extern "C" void Dictionary_2__ctor_m1859298524_gshared ();
+extern "C" void Action_1_Invoke_m3594021162_gshared ();
+extern "C" void List_1__ctor_m1637285730_gshared ();
+extern "C" void List_1__ctor_m2496259298_gshared ();
+extern "C" void List_1__ctor_m363550720_gshared ();
+extern "C" void List_1__ctor_m3077140663_gshared ();
+extern "C" void Action_2__ctor_m2512218974_gshared ();
+extern "C" void FakeStore_StartUI_TisInitializationFailureReason_t1104172581_m3110680901_gshared ();
+extern "C" void Action_2_Invoke_m167089997_gshared ();
+extern "C" void Action_2__ctor_m1506387135_gshared ();
+extern "C" void FakeStore_StartUI_TisPurchaseFailureReason_t2274432868_m146418244_gshared ();
+extern "C" void Action_2_Invoke_m898835276_gshared ();
+extern "C" void Func_2__ctor_m4281382449_gshared ();
+extern "C" void Enumerable_Any_TisRuntimePlatform_t1574985880_m1891388867_gshared ();
+extern "C" void UnityAction_1__ctor_m1291646548_gshared ();
+extern "C" void UnityEvent_1_AddListener_m2066362018_gshared ();
+extern "C" void Action_2_Invoke_m1066314183_gshared ();
+extern "C" void Func_2__ctor_m563515303_gshared ();
+extern "C" void Action_4__ctor_m1434218450_gshared ();
+extern "C" void SessionValues_TryGetValue_TisBoolean_t211005341_m2092376061_gshared ();
+extern "C" void SessionValues_TryGetValue_TisInt32_t2847414787_m1523265763_gshared ();
+extern "C" void SessionValues_TryGetValue_TisInt64_t2847414882_m126766018_gshared ();
+extern "C" void SessionValues_TryGetValueList_TisInt32_t2847414787_m6775969_gshared ();
+extern "C" void SessionValues_TryGetValueArray_TisInt32_t2847414787_m4121465908_gshared ();
+extern "C" void SessionValues_TryGetValueArray_TisInt64_t2847414882_m2115007315_gshared ();
+extern "C" void Converter_2__ctor_m4030557746_gshared ();
+extern "C" void Array_ConvertAll_TisInt64_t2847414882_TisInt32_t2847414787_m1445919003_gshared ();
 extern "C" void List_1__ctor_m2373821799_gshared ();
 extern "C" void Comparison_1__ctor_m818957270_gshared ();
 extern "C" void List_1_Sort_m3081456075_gshared ();
 extern "C" void Comparison_1__ctor_m2670394222_gshared ();
 extern "C" void Array_Sort_TisRaycastHit_t46221527_m3458836826_gshared ();
-extern "C" void Dictionary_2__ctor_m1859298524_gshared ();
 extern "C" void Dictionary_2_get_Values_m1815086189_gshared ();
 extern "C" void ValueCollection_GetEnumerator_m848222311_gshared ();
 extern "C" void Enumerator_get_Current_m2952798389_gshared ();
@@ -763,7 +793,6 @@ extern "C" void SetPropertyUtility_SetStruct_TisTransition_t269306229_m697175766
 extern "C" void SetPropertyUtility_SetEquatableStruct_TisColorBlock_t2245020947_m3999144268_gshared ();
 extern "C" void SetPropertyUtility_SetEquatableStruct_TisSpriteState_t894177973_m1850844776_gshared ();
 extern "C" void SetPropertyUtility_SetStruct_TisDirection_t1041377120_m2722180853_gshared ();
-extern "C" void Func_2__ctor_m563515303_gshared ();
 extern "C" void ListPool_1_Get_m4266661578_gshared ();
 extern "C" void ListPool_1_Get_m1848305276_gshared ();
 extern "C" void ListPool_1_Get_m1779148745_gshared ();
@@ -779,41 +808,12 @@ extern "C" void ListPool_1_Release_m1142705876_gshared ();
 extern "C" void ListPool_1_Release_m3969187617_gshared ();
 extern "C" void ListPool_1_Release_m3953668899_gshared ();
 extern "C" void ListPool_1_Release_m1485191562_gshared ();
-extern "C" void Dictionary_2__ctor_m3603054982_gshared ();
-extern "C" void CachedInvokableCall_1__ctor_m3760156124_gshared ();
-extern "C" void CachedInvokableCall_1__ctor_m1791898438_gshared ();
-extern "C" void CachedInvokableCall_1__ctor_m562163564_gshared ();
-extern "C" void Action_1_Invoke_m3594021162_gshared ();
-extern "C" void List_1__ctor_m1637285730_gshared ();
-extern "C" void List_1__ctor_m2496259298_gshared ();
-extern "C" void List_1__ctor_m363550720_gshared ();
-extern "C" void List_1__ctor_m3077140663_gshared ();
-extern "C" void Action_2__ctor_m2512218974_gshared ();
-extern "C" void FakeStore_StartUI_TisInitializationFailureReason_t1104172581_m3110680901_gshared ();
-extern "C" void Action_2_Invoke_m167089997_gshared ();
-extern "C" void Action_2__ctor_m1506387135_gshared ();
-extern "C" void FakeStore_StartUI_TisPurchaseFailureReason_t2274432868_m146418244_gshared ();
-extern "C" void Action_2_Invoke_m898835276_gshared ();
-extern "C" void Func_2__ctor_m4281382449_gshared ();
-extern "C" void Enumerable_Any_TisRuntimePlatform_t1574985880_m1891388867_gshared ();
-extern "C" void UnityAction_1__ctor_m1291646548_gshared ();
-extern "C" void UnityEvent_1_AddListener_m2066362018_gshared ();
-extern "C" void Action_2_Invoke_m1066314183_gshared ();
-extern "C" void Action_4__ctor_m1434218450_gshared ();
-extern "C" void SessionValues_TryGetValue_TisBoolean_t211005341_m2092376061_gshared ();
-extern "C" void SessionValues_TryGetValue_TisInt32_t2847414787_m1523265763_gshared ();
-extern "C" void SessionValues_TryGetValue_TisInt64_t2847414882_m126766018_gshared ();
-extern "C" void SessionValues_TryGetValueList_TisInt32_t2847414787_m6775969_gshared ();
-extern "C" void SessionValues_TryGetValueArray_TisInt32_t2847414787_m4121465908_gshared ();
-extern "C" void SessionValues_TryGetValueArray_TisInt64_t2847414882_m2115007315_gshared ();
-extern "C" void Converter_2__ctor_m4030557746_gshared ();
-extern "C" void Array_ConvertAll_TisInt64_t2847414882_TisInt32_t2847414787_m1445919003_gshared ();
+extern "C" void Action_1__ctor_m2036539306_gshared ();
 extern "C" void Action_2__ctor_m2840689331_gshared ();
 extern "C" void Action_2_Invoke_m2874447226_gshared ();
 extern "C" void Func_2_Invoke_m1882130143_gshared ();
 extern "C" void Action_2_Invoke_m598687073_gshared ();
 extern "C" void Action_2_Invoke_m4065655704_gshared ();
-extern "C" void Action_1__ctor_m377969142_gshared ();
 extern "C" void Array_get_swapper_TisInt32_t2847414787_m3162346280_gshared ();
 extern "C" void Array_get_swapper_TisInt64_t2847414882_m1575850055_gshared ();
 extern "C" void Array_get_swapper_TisCustomAttributeNamedArgument_t318735129_m636397832_gshared ();
@@ -4846,7 +4846,7 @@ extern const methodPointerType g_Il2CppGenericMethodPointers[4593] =
 	(methodPointerType)&List_1_get_Count_m2599103100_gshared/* 231*/,
 	(methodPointerType)&List_1_get_Item_m2771401372_gshared/* 232*/,
 	(methodPointerType)&List_1_set_Item_m1074271145_gshared/* 233*/,
-	(methodPointerType)&List_1__ctor_m3149421882_gshared/* 234*/,
+	(methodPointerType)&List_1__ctor_m3099765286_gshared/* 234*/,
 	(methodPointerType)&List_1__ctor_m4113379540_gshared/* 235*/,
 	(methodPointerType)&List_1__ctor_m3643386469_gshared/* 236*/,
 	(methodPointerType)&List_1__cctor_m3826137881_gshared/* 237*/,
@@ -4986,275 +4986,275 @@ extern const methodPointerType g_Il2CppGenericMethodPointers[4593] =
 	(methodPointerType)&Predicate_1_Invoke_m4106178309_gshared/* 371*/,
 	(methodPointerType)&Predicate_1_BeginInvoke_m2038073176_gshared/* 372*/,
 	(methodPointerType)&Predicate_1_EndInvoke_m3970497007_gshared/* 373*/,
-	(methodPointerType)&HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m2501283472_gshared/* 374*/,
-	(methodPointerType)&HashSet_1_get_Count_m3501347367_gshared/* 375*/,
-	(methodPointerType)&HashSet_1__ctor_m4183732917_gshared/* 376*/,
-	(methodPointerType)&HashSet_1__ctor_m3739212406_gshared/* 377*/,
-	(methodPointerType)&HashSet_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m2351046527_gshared/* 378*/,
-	(methodPointerType)&HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_CopyTo_m1037632730_gshared/* 379*/,
-	(methodPointerType)&HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m4170802026_gshared/* 380*/,
-	(methodPointerType)&HashSet_1_System_Collections_IEnumerable_GetEnumerator_m1202823980_gshared/* 381*/,
-	(methodPointerType)&HashSet_1_Init_m2856515208_gshared/* 382*/,
-	(methodPointerType)&HashSet_1_InitArrays_m523929898_gshared/* 383*/,
-	(methodPointerType)&HashSet_1_SlotsContainsAt_m2666990736_gshared/* 384*/,
-	(methodPointerType)&HashSet_1_CopyTo_m2864960666_gshared/* 385*/,
-	(methodPointerType)&HashSet_1_CopyTo_m2745373309_gshared/* 386*/,
-	(methodPointerType)&HashSet_1_Resize_m904498211_gshared/* 387*/,
-	(methodPointerType)&HashSet_1_GetLinkHashCode_m1128863229_gshared/* 388*/,
-	(methodPointerType)&HashSet_1_GetItemHashCode_m416797561_gshared/* 389*/,
-	(methodPointerType)&HashSet_1_Add_m3739352086_gshared/* 390*/,
-	(methodPointerType)&HashSet_1_Clear_m1589866208_gshared/* 391*/,
-	(methodPointerType)&HashSet_1_Contains_m3727111780_gshared/* 392*/,
-	(methodPointerType)&HashSet_1_Remove_m3015589727_gshared/* 393*/,
-	(methodPointerType)&HashSet_1_GetObjectData_m2922531795_gshared/* 394*/,
-	(methodPointerType)&HashSet_1_OnDeserialization_m3000579185_gshared/* 395*/,
-	(methodPointerType)&Enumerator_System_Collections_IEnumerator_get_Current_m789844996_gshared/* 396*/,
-	(methodPointerType)&Enumerator_get_Current_m2251145467_gshared/* 397*/,
-	(methodPointerType)&Enumerator__ctor_m2780515062_gshared/* 398*/,
-	(methodPointerType)&Enumerator_System_Collections_IEnumerator_Reset_m1022779726_gshared/* 399*/,
-	(methodPointerType)&Enumerator_MoveNext_m240900368_gshared/* 400*/,
-	(methodPointerType)&Enumerator_Dispose_m3013304169_gshared/* 401*/,
-	(methodPointerType)&Enumerator_CheckState_m1851996801_gshared/* 402*/,
-	(methodPointerType)&PrimeHelper__cctor_m1379025658_gshared/* 403*/,
-	(methodPointerType)&PrimeHelper_TestPrime_m2030319843_gshared/* 404*/,
-	(methodPointerType)&PrimeHelper_CalcPrime_m3074236314_gshared/* 405*/,
-	(methodPointerType)&PrimeHelper_ToPrime_m399576372_gshared/* 406*/,
-	(methodPointerType)&Enumerable_Any_TisIl2CppObject_m1279227713_gshared/* 407*/,
-	(methodPointerType)&Enumerable_Select_TisIl2CppObject_TisIl2CppObject_m3465146869_gshared/* 408*/,
-	(methodPointerType)&Enumerable_CreateSelectIterator_TisIl2CppObject_TisIl2CppObject_m2033512756_gshared/* 409*/,
-	(methodPointerType)&Enumerable_Take_TisIl2CppObject_m4170549339_gshared/* 410*/,
-	(methodPointerType)&Enumerable_CreateTakeIterator_TisIl2CppObject_m3901453855_gshared/* 411*/,
-	(methodPointerType)&Enumerable_ToArray_TisIl2CppObject_m914007555_gshared/* 412*/,
-	(methodPointerType)&Enumerable_ToDictionary_TisIl2CppObject_TisIl2CppObject_TisIl2CppObject_m2105767490_gshared/* 413*/,
-	(methodPointerType)&Enumerable_ToDictionary_TisIl2CppObject_TisIl2CppObject_m305095264_gshared/* 414*/,
-	(methodPointerType)&Enumerable_ToDictionary_TisIl2CppObject_TisIl2CppObject_m1394750633_gshared/* 415*/,
-	(methodPointerType)&Enumerable_ToList_TisIl2CppObject_m3660158798_gshared/* 416*/,
-	(methodPointerType)&Enumerable_Where_TisIl2CppObject_m3480373697_gshared/* 417*/,
-	(methodPointerType)&Enumerable_CreateWhereIterator_TisIl2CppObject_m2204352327_gshared/* 418*/,
-	(methodPointerType)&Function_1__cctor_m2190954237_gshared/* 419*/,
-	(methodPointerType)&Function_1_U3CIdentityU3Em__77_m768540166_gshared/* 420*/,
-	(methodPointerType)&U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m3139887788_gshared/* 421*/,
-	(methodPointerType)&U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerator_get_Current_m2214244775_gshared/* 422*/,
-	(methodPointerType)&U3CCreateSelectIteratorU3Ec__Iterator10_2__ctor_m947089631_gshared/* 423*/,
-	(methodPointerType)&U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerable_GetEnumerator_m3441575874_gshared/* 424*/,
-	(methodPointerType)&U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m2350385737_gshared/* 425*/,
-	(methodPointerType)&U3CCreateSelectIteratorU3Ec__Iterator10_2_MoveNext_m3146126805_gshared/* 426*/,
-	(methodPointerType)&U3CCreateSelectIteratorU3Ec__Iterator10_2_Dispose_m3813319004_gshared/* 427*/,
-	(methodPointerType)&U3CCreateSelectIteratorU3Ec__Iterator10_2_Reset_m2888489868_gshared/* 428*/,
-	(methodPointerType)&U3CCreateTakeIteratorU3Ec__Iterator19_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m965116049_gshared/* 429*/,
-	(methodPointerType)&U3CCreateTakeIteratorU3Ec__Iterator19_1_System_Collections_IEnumerator_get_Current_m2872192422_gshared/* 430*/,
-	(methodPointerType)&U3CCreateTakeIteratorU3Ec__Iterator19_1__ctor_m1991994240_gshared/* 431*/,
-	(methodPointerType)&U3CCreateTakeIteratorU3Ec__Iterator19_1_System_Collections_IEnumerable_GetEnumerator_m2446998017_gshared/* 432*/,
-	(methodPointerType)&U3CCreateTakeIteratorU3Ec__Iterator19_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m80203434_gshared/* 433*/,
-	(methodPointerType)&U3CCreateTakeIteratorU3Ec__Iterator19_1_MoveNext_m1575379860_gshared/* 434*/,
-	(methodPointerType)&U3CCreateTakeIteratorU3Ec__Iterator19_1_Dispose_m2944300989_gshared/* 435*/,
-	(methodPointerType)&U3CCreateTakeIteratorU3Ec__Iterator19_1_Reset_m3933394477_gshared/* 436*/,
-	(methodPointerType)&U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m1015065924_gshared/* 437*/,
-	(methodPointerType)&U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_IEnumerator_get_Current_m1370525525_gshared/* 438*/,
-	(methodPointerType)&U3CCreateWhereIteratorU3Ec__Iterator1D_1__ctor_m3836766395_gshared/* 439*/,
-	(methodPointerType)&U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_IEnumerable_GetEnumerator_m503616950_gshared/* 440*/,
-	(methodPointerType)&U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m2553601303_gshared/* 441*/,
-	(methodPointerType)&U3CCreateWhereIteratorU3Ec__Iterator1D_1_MoveNext_m461554209_gshared/* 442*/,
-	(methodPointerType)&U3CCreateWhereIteratorU3Ec__Iterator1D_1_Dispose_m1948848696_gshared/* 443*/,
-	(methodPointerType)&U3CCreateWhereIteratorU3Ec__Iterator1D_1_Reset_m1483199336_gshared/* 444*/,
-	(methodPointerType)&Action_2__ctor_m4171654682_gshared/* 445*/,
-	(methodPointerType)&Action_2_Invoke_m2160582097_gshared/* 446*/,
-	(methodPointerType)&Action_2_BeginInvoke_m3413657584_gshared/* 447*/,
-	(methodPointerType)&Action_2_EndInvoke_m3926193450_gshared/* 448*/,
-	(methodPointerType)&Action_4__ctor_m620347252_gshared/* 449*/,
-	(methodPointerType)&Action_4_Invoke_m157716918_gshared/* 450*/,
-	(methodPointerType)&Action_4_BeginInvoke_m1414752311_gshared/* 451*/,
-	(methodPointerType)&Action_4_EndInvoke_m2556365700_gshared/* 452*/,
-	(methodPointerType)&Func_2__ctor_m3944524044_gshared/* 453*/,
-	(methodPointerType)&Func_2_Invoke_m1924616534_gshared/* 454*/,
-	(methodPointerType)&Func_2_BeginInvoke_m4281703301_gshared/* 455*/,
-	(methodPointerType)&Func_2_EndInvoke_m4118168638_gshared/* 456*/,
-	(methodPointerType)&Stack_1_System_Collections_ICollection_get_IsSynchronized_m1582336274_gshared/* 457*/,
-	(methodPointerType)&Stack_1_System_Collections_ICollection_get_SyncRoot_m2938343088_gshared/* 458*/,
-	(methodPointerType)&Stack_1_get_Count_m3631765324_gshared/* 459*/,
-	(methodPointerType)&Stack_1__ctor_m2725689112_gshared/* 460*/,
-	(methodPointerType)&Stack_1_System_Collections_ICollection_CopyTo_m3277353260_gshared/* 461*/,
-	(methodPointerType)&Stack_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m625377314_gshared/* 462*/,
-	(methodPointerType)&Stack_1_System_Collections_IEnumerable_GetEnumerator_m4095051687_gshared/* 463*/,
-	(methodPointerType)&Stack_1_Peek_m3418768488_gshared/* 464*/,
-	(methodPointerType)&Stack_1_Pop_m4267009222_gshared/* 465*/,
-	(methodPointerType)&Stack_1_Push_m3350166104_gshared/* 466*/,
-	(methodPointerType)&Stack_1_GetEnumerator_m202302354_gshared/* 467*/,
-	(methodPointerType)&Enumerator_System_Collections_IEnumerator_get_Current_m2470832103_gshared/* 468*/,
-	(methodPointerType)&Enumerator_get_Current_m2483819640_gshared/* 469*/,
-	(methodPointerType)&Enumerator__ctor_m1003414509_gshared/* 470*/,
-	(methodPointerType)&Enumerator_System_Collections_IEnumerator_Reset_m3054975473_gshared/* 471*/,
-	(methodPointerType)&Enumerator_Dispose_m1634653158_gshared/* 472*/,
-	(methodPointerType)&Enumerator_MoveNext_m3012756789_gshared/* 473*/,
-	(methodPointerType)&ConfigurationBuilder_Configure_TisIl2CppObject_m3478168510_gshared/* 474*/,
-	(methodPointerType)&PurchasingFactory_RegisterExtension_TisIl2CppObject_m1759769321_gshared/* 475*/,
-	(methodPointerType)&PurchasingFactory_RegisterConfiguration_TisIl2CppObject_m3233587040_gshared/* 476*/,
-	(methodPointerType)&PurchasingFactory_GetConfig_TisIl2CppObject_m1511443064_gshared/* 477*/,
-	(methodPointerType)&PurchasingFactory_GetExtension_TisIl2CppObject_m33012161_gshared/* 478*/,
-	(methodPointerType)&AbstractPurchasingModule_BindExtension_TisIl2CppObject_m3962279223_gshared/* 479*/,
-	(methodPointerType)&AbstractPurchasingModule_BindConfiguration_TisIl2CppObject_m3792448238_gshared/* 480*/,
-	(methodPointerType)&ExecuteEvents_ValidateEventData_TisIl2CppObject_m1498065176_gshared/* 481*/,
-	(methodPointerType)&ExecuteEvents_Execute_TisIl2CppObject_m1533897725_gshared/* 482*/,
-	(methodPointerType)&ExecuteEvents_ExecuteHierarchy_TisIl2CppObject_m2445823293_gshared/* 483*/,
-	(methodPointerType)&ExecuteEvents_ShouldSendToComponent_TisIl2CppObject_m2647702620_gshared/* 484*/,
-	(methodPointerType)&ExecuteEvents_GetEventList_TisIl2CppObject_m399588305_gshared/* 485*/,
-	(methodPointerType)&ExecuteEvents_CanHandleEvent_TisIl2CppObject_m2627025177_gshared/* 486*/,
-	(methodPointerType)&ExecuteEvents_GetEventHandler_TisIl2CppObject_m2285942506_gshared/* 487*/,
-	(methodPointerType)&EventFunction_1__ctor_m252996987_gshared/* 488*/,
-	(methodPointerType)&EventFunction_1_Invoke_m1750245256_gshared/* 489*/,
-	(methodPointerType)&EventFunction_1_BeginInvoke_m2337669695_gshared/* 490*/,
-	(methodPointerType)&EventFunction_1_EndInvoke_m1184355595_gshared/* 491*/,
-	(methodPointerType)&Dropdown_GetOrAddComponent_TisIl2CppObject_m4155558758_gshared/* 492*/,
-	(methodPointerType)&SetPropertyUtility_SetEquatableStruct_TisIl2CppObject_m685297595_gshared/* 493*/,
-	(methodPointerType)&SetPropertyUtility_SetClass_TisIl2CppObject_m3004757678_gshared/* 494*/,
-	(methodPointerType)&LayoutGroup_SetProperty_TisIl2CppObject_m2605202953_gshared/* 495*/,
-	(methodPointerType)&IndexedSet_1_get_Count_m3523122326_gshared/* 496*/,
-	(methodPointerType)&IndexedSet_1_get_IsReadOnly_m581024909_gshared/* 497*/,
-	(methodPointerType)&IndexedSet_1_get_Item_m2125208246_gshared/* 498*/,
-	(methodPointerType)&IndexedSet_1_set_Item_m1359327235_gshared/* 499*/,
-	(methodPointerType)&IndexedSet_1__ctor_m1049489274_gshared/* 500*/,
-	(methodPointerType)&IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m1636511825_gshared/* 501*/,
-	(methodPointerType)&IndexedSet_1_Add_m162544069_gshared/* 502*/,
-	(methodPointerType)&IndexedSet_1_AddUnique_m1373796738_gshared/* 503*/,
-	(methodPointerType)&IndexedSet_1_Remove_m2459681474_gshared/* 504*/,
-	(methodPointerType)&IndexedSet_1_GetEnumerator_m2607290422_gshared/* 505*/,
-	(methodPointerType)&IndexedSet_1_Clear_m2750589861_gshared/* 506*/,
-	(methodPointerType)&IndexedSet_1_Contains_m2075225351_gshared/* 507*/,
-	(methodPointerType)&IndexedSet_1_CopyTo_m4273412725_gshared/* 508*/,
-	(methodPointerType)&IndexedSet_1_IndexOf_m4137415045_gshared/* 509*/,
-	(methodPointerType)&IndexedSet_1_Insert_m3436399148_gshared/* 510*/,
-	(methodPointerType)&IndexedSet_1_RemoveAt_m1310252018_gshared/* 511*/,
-	(methodPointerType)&IndexedSet_1_RemoveAll_m4086301344_gshared/* 512*/,
-	(methodPointerType)&IndexedSet_1_Sort_m3752037115_gshared/* 513*/,
-	(methodPointerType)&ListPool_1__cctor_m4278935907_gshared/* 514*/,
-	(methodPointerType)&ListPool_1_Get_m2234302831_gshared/* 515*/,
-	(methodPointerType)&ListPool_1_Release_m1182093831_gshared/* 516*/,
-	(methodPointerType)&ListPool_1_U3Cs_ListPoolU3Em__14_m4207408660_gshared/* 517*/,
-	(methodPointerType)&ObjectPool_1_get_countAll_m3327915100_gshared/* 518*/,
-	(methodPointerType)&ObjectPool_1_set_countAll_m2125882937_gshared/* 519*/,
-	(methodPointerType)&ObjectPool_1_get_countActive_m2082506317_gshared/* 520*/,
-	(methodPointerType)&ObjectPool_1_get_countInactive_m19645682_gshared/* 521*/,
-	(methodPointerType)&ObjectPool_1__ctor_m2532712771_gshared/* 522*/,
-	(methodPointerType)&ObjectPool_1_Get_m3052664832_gshared/* 523*/,
-	(methodPointerType)&ObjectPool_1_Release_m1110976910_gshared/* 524*/,
-	(methodPointerType)&ScriptableObject_CreateInstance_TisIl2CppObject_m1931564230_gshared/* 525*/,
-	(methodPointerType)&Resources_ConvertObjects_TisIl2CppObject_m1537961554_gshared/* 526*/,
-	(methodPointerType)&Object_Instantiate_TisIl2CppObject_m3133387403_gshared/* 527*/,
-	(methodPointerType)&Object_FindObjectsOfType_TisIl2CppObject_m3888714627_gshared/* 528*/,
-	(methodPointerType)&Object_FindObjectOfType_TisIl2CppObject_m4174810935_gshared/* 529*/,
-	(methodPointerType)&Component_GetComponent_TisIl2CppObject_m1198801502_gshared/* 530*/,
-	(methodPointerType)&Component_GetComponentInChildren_TisIl2CppObject_m900797242_gshared/* 531*/,
-	(methodPointerType)&Component_GetComponentInChildren_TisIl2CppObject_m833851745_gshared/* 532*/,
-	(methodPointerType)&Component_GetComponentsInChildren_TisIl2CppObject_m4074314606_gshared/* 533*/,
-	(methodPointerType)&Component_GetComponentsInChildren_TisIl2CppObject_m438876883_gshared/* 534*/,
-	(methodPointerType)&Component_GetComponentsInChildren_TisIl2CppObject_m3277197879_gshared/* 535*/,
-	(methodPointerType)&Component_GetComponentsInChildren_TisIl2CppObject_m434699324_gshared/* 536*/,
-	(methodPointerType)&Component_GetComponentInParent_TisIl2CppObject_m1297875695_gshared/* 537*/,
-	(methodPointerType)&Component_GetComponentsInParent_TisIl2CppObject_m1225053603_gshared/* 538*/,
-	(methodPointerType)&Component_GetComponentsInParent_TisIl2CppObject_m101791494_gshared/* 539*/,
-	(methodPointerType)&Component_GetComponentsInParent_TisIl2CppObject_m1228840236_gshared/* 540*/,
-	(methodPointerType)&Component_GetComponents_TisIl2CppObject_m4263137760_gshared/* 541*/,
-	(methodPointerType)&Component_GetComponents_TisIl2CppObject_m1562339739_gshared/* 542*/,
-	(methodPointerType)&GameObject_GetComponent_TisIl2CppObject_m2447772384_gshared/* 543*/,
-	(methodPointerType)&GameObject_GetComponentInChildren_TisIl2CppObject_m782999868_gshared/* 544*/,
-	(methodPointerType)&GameObject_GetComponentInChildren_TisIl2CppObject_m4037889411_gshared/* 545*/,
-	(methodPointerType)&GameObject_GetComponents_TisIl2CppObject_m2453515573_gshared/* 546*/,
-	(methodPointerType)&GameObject_GetComponents_TisIl2CppObject_m3411665840_gshared/* 547*/,
-	(methodPointerType)&GameObject_GetComponentsInChildren_TisIl2CppObject_m1462546696_gshared/* 548*/,
-	(methodPointerType)&GameObject_GetComponentsInChildren_TisIl2CppObject_m2133301907_gshared/* 549*/,
-	(methodPointerType)&GameObject_GetComponentsInChildren_TisIl2CppObject_m3418406430_gshared/* 550*/,
-	(methodPointerType)&GameObject_GetComponentsInParent_TisIl2CppObject_m3568912686_gshared/* 551*/,
-	(methodPointerType)&GameObject_GetComponentsInParent_TisIl2CppObject_m1351944637_gshared/* 552*/,
-	(methodPointerType)&GameObject_AddComponent_TisIl2CppObject_m337943659_gshared/* 553*/,
-	(methodPointerType)&AndroidJavaObject_Call_TisIl2CppObject_m3039876358_gshared/* 554*/,
-	(methodPointerType)&AndroidJavaObject_CallStatic_TisIl2CppObject_m4248195924_gshared/* 555*/,
-	(methodPointerType)&AndroidJavaObject__Call_TisIl2CppObject_m3840602009_gshared/* 556*/,
-	(methodPointerType)&AndroidJavaObject__CallStatic_TisIl2CppObject_m3148411815_gshared/* 557*/,
-	(methodPointerType)&AndroidJNIHelper_ConvertFromJNIArray_TisIl2CppObject_m3564758094_gshared/* 558*/,
-	(methodPointerType)&AndroidJNIHelper_GetMethodID_TisIl2CppObject_m1770686235_gshared/* 559*/,
-	(methodPointerType)&ThreadSafeDictionary_2_get_Keys_m1760087619_gshared/* 560*/,
-	(methodPointerType)&ThreadSafeDictionary_2_get_Values_m1114291935_gshared/* 561*/,
-	(methodPointerType)&ThreadSafeDictionary_2_get_Item_m2348280148_gshared/* 562*/,
-	(methodPointerType)&ThreadSafeDictionary_2_set_Item_m564341199_gshared/* 563*/,
-	(methodPointerType)&ThreadSafeDictionary_2_get_Count_m2540897107_gshared/* 564*/,
-	(methodPointerType)&ThreadSafeDictionary_2_get_IsReadOnly_m295419492_gshared/* 565*/,
-	(methodPointerType)&ThreadSafeDictionary_2__ctor_m72978167_gshared/* 566*/,
-	(methodPointerType)&ThreadSafeDictionary_2_System_Collections_IEnumerable_GetEnumerator_m959808064_gshared/* 567*/,
-	(methodPointerType)&ThreadSafeDictionary_2_Get_m1586953098_gshared/* 568*/,
-	(methodPointerType)&ThreadSafeDictionary_2_AddValue_m2063887688_gshared/* 569*/,
-	(methodPointerType)&ThreadSafeDictionary_2_Add_m1730523974_gshared/* 570*/,
-	(methodPointerType)&ThreadSafeDictionary_2_TryGetValue_m959591009_gshared/* 571*/,
-	(methodPointerType)&ThreadSafeDictionary_2_Add_m811116383_gshared/* 572*/,
-	(methodPointerType)&ThreadSafeDictionary_2_Clear_m1498375802_gshared/* 573*/,
-	(methodPointerType)&ThreadSafeDictionary_2_Contains_m88270559_gshared/* 574*/,
-	(methodPointerType)&ThreadSafeDictionary_2_CopyTo_m259267971_gshared/* 575*/,
-	(methodPointerType)&ThreadSafeDictionary_2_Remove_m332085700_gshared/* 576*/,
-	(methodPointerType)&ThreadSafeDictionary_2_GetEnumerator_m1068904084_gshared/* 577*/,
-	(methodPointerType)&ThreadSafeDictionaryValueFactory_2__ctor_m4269874522_gshared/* 578*/,
-	(methodPointerType)&ThreadSafeDictionaryValueFactory_2_Invoke_m893533719_gshared/* 579*/,
-	(methodPointerType)&ThreadSafeDictionaryValueFactory_2_BeginInvoke_m3377846226_gshared/* 580*/,
-	(methodPointerType)&ThreadSafeDictionaryValueFactory_2_EndInvoke_m3819842136_gshared/* 581*/,
-	(methodPointerType)&_AndroidJNIHelper_ConvertFromJNIArray_TisIl2CppObject_m47818363_gshared/* 582*/,
-	(methodPointerType)&_AndroidJNIHelper_GetMethodID_TisIl2CppObject_m2915897348_gshared/* 583*/,
-	(methodPointerType)&_AndroidJNIHelper_GetSignature_TisIl2CppObject_m1833152673_gshared/* 584*/,
-	(methodPointerType)&BaseInvokableCall_ThrowOnInvalidArg_TisIl2CppObject_m1692402054_gshared/* 585*/,
-	(methodPointerType)&InvokableCall_1__ctor_m3494792797_gshared/* 586*/,
-	(methodPointerType)&InvokableCall_1__ctor_m2810088059_gshared/* 587*/,
-	(methodPointerType)&InvokableCall_1_Invoke_m689855796_gshared/* 588*/,
-	(methodPointerType)&InvokableCall_1_Find_m1349477752_gshared/* 589*/,
-	(methodPointerType)&InvokableCall_2__ctor_m3928141520_gshared/* 590*/,
-	(methodPointerType)&InvokableCall_2_Invoke_m1749346151_gshared/* 591*/,
-	(methodPointerType)&InvokableCall_2_Find_m3489973541_gshared/* 592*/,
-	(methodPointerType)&InvokableCall_3__ctor_m774681667_gshared/* 593*/,
-	(methodPointerType)&InvokableCall_3_Invoke_m585455258_gshared/* 594*/,
-	(methodPointerType)&InvokableCall_3_Find_m4267409362_gshared/* 595*/,
-	(methodPointerType)&InvokableCall_4__ctor_m4162891446_gshared/* 596*/,
-	(methodPointerType)&InvokableCall_4_Invoke_m2239232717_gshared/* 597*/,
-	(methodPointerType)&InvokableCall_4_Find_m2015184255_gshared/* 598*/,
-	(methodPointerType)&CachedInvokableCall_1__ctor_m165005445_gshared/* 599*/,
-	(methodPointerType)&CachedInvokableCall_1_Invoke_m3570141426_gshared/* 600*/,
-	(methodPointerType)&UnityEvent_1__ctor_m4139691420_gshared/* 601*/,
-	(methodPointerType)&UnityEvent_1_AddListener_m1298407787_gshared/* 602*/,
-	(methodPointerType)&UnityEvent_1_RemoveListener_m2525028476_gshared/* 603*/,
-	(methodPointerType)&UnityEvent_1_FindMethod_Impl_m936319469_gshared/* 604*/,
-	(methodPointerType)&UnityEvent_1_GetDelegate_m882504923_gshared/* 605*/,
-	(methodPointerType)&UnityEvent_1_GetDelegate_m2100323256_gshared/* 606*/,
-	(methodPointerType)&UnityEvent_1_Invoke_m3779699780_gshared/* 607*/,
-	(methodPointerType)&UnityEvent_2__ctor_m1950601551_gshared/* 608*/,
-	(methodPointerType)&UnityEvent_2_FindMethod_Impl_m3911325978_gshared/* 609*/,
-	(methodPointerType)&UnityEvent_2_GetDelegate_m3055054414_gshared/* 610*/,
-	(methodPointerType)&UnityEvent_3__ctor_m4248091138_gshared/* 611*/,
-	(methodPointerType)&UnityEvent_3_FindMethod_Impl_m859190087_gshared/* 612*/,
-	(methodPointerType)&UnityEvent_3_GetDelegate_m3227786433_gshared/* 613*/,
-	(methodPointerType)&UnityEvent_4__ctor_m492943285_gshared/* 614*/,
-	(methodPointerType)&UnityEvent_4_FindMethod_Impl_m1344084084_gshared/* 615*/,
-	(methodPointerType)&UnityEvent_4_GetDelegate_m1269387316_gshared/* 616*/,
-	(methodPointerType)&UnityAction_1__ctor_m2698834494_gshared/* 617*/,
-	(methodPointerType)&UnityAction_1_Invoke_m774762876_gshared/* 618*/,
-	(methodPointerType)&UnityAction_1_BeginInvoke_m1225830823_gshared/* 619*/,
-	(methodPointerType)&UnityAction_1_EndInvoke_m4220465998_gshared/* 620*/,
-	(methodPointerType)&UnityAction_2__ctor_m1077712043_gshared/* 621*/,
-	(methodPointerType)&UnityAction_2_Invoke_m1848147712_gshared/* 622*/,
-	(methodPointerType)&UnityAction_2_BeginInvoke_m1411513831_gshared/* 623*/,
-	(methodPointerType)&UnityAction_2_EndInvoke_m2463306811_gshared/* 624*/,
-	(methodPointerType)&UnityAction_3__ctor_m2630406680_gshared/* 625*/,
-	(methodPointerType)&UnityAction_3_Invoke_m743272021_gshared/* 626*/,
-	(methodPointerType)&UnityAction_3_BeginInvoke_m3462825058_gshared/* 627*/,
-	(methodPointerType)&UnityAction_3_EndInvoke_m2479427624_gshared/* 628*/,
-	(methodPointerType)&UnityAction_4__ctor_m2430556805_gshared/* 629*/,
-	(methodPointerType)&UnityAction_4_Invoke_m295067525_gshared/* 630*/,
-	(methodPointerType)&UnityAction_4_BeginInvoke_m3784231950_gshared/* 631*/,
-	(methodPointerType)&UnityAction_4_EndInvoke_m2334578453_gshared/* 632*/,
-	(methodPointerType)&FakeStore_StartUI_TisIl2CppObject_m878142524_gshared/* 633*/,
-	(methodPointerType)&UIFakeStore_StartUI_TisIl2CppObject_m1265760656_gshared/* 634*/,
-	(methodPointerType)&U3CStartUIU3Ec__AnonStorey0_1__ctor_m2666976025_gshared/* 635*/,
-	(methodPointerType)&U3CStartUIU3Ec__AnonStorey0_1_U3CU3Em__0_m450801744_gshared/* 636*/,
-	(methodPointerType)&UnityUtil_GetAnyComponentsOfType_TisIl2CppObject_m4021921264_gshared/* 637*/,
-	(methodPointerType)&UnityUtil_FindInstanceOfType_TisIl2CppObject_m750923916_gshared/* 638*/,
-	(methodPointerType)&UnityUtil_LoadResourceInstanceOfType_TisIl2CppObject_m3295815121_gshared/* 639*/,
-	(methodPointerType)&SessionValues_TryGetValue_TisIl2CppObject_m2653206696_gshared/* 640*/,
-	(methodPointerType)&SessionValues_TryGetValueList_TisIl2CppObject_m1638858144_gshared/* 641*/,
-	(methodPointerType)&SessionValues_TryGetValueArray_TisIl2CppObject_m2745027379_gshared/* 642*/,
+	(methodPointerType)&Stack_1_System_Collections_ICollection_get_IsSynchronized_m1582336274_gshared/* 374*/,
+	(methodPointerType)&Stack_1_System_Collections_ICollection_get_SyncRoot_m2938343088_gshared/* 375*/,
+	(methodPointerType)&Stack_1_get_Count_m3631765324_gshared/* 376*/,
+	(methodPointerType)&Stack_1__ctor_m2725689112_gshared/* 377*/,
+	(methodPointerType)&Stack_1_System_Collections_ICollection_CopyTo_m3277353260_gshared/* 378*/,
+	(methodPointerType)&Stack_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m625377314_gshared/* 379*/,
+	(methodPointerType)&Stack_1_System_Collections_IEnumerable_GetEnumerator_m4095051687_gshared/* 380*/,
+	(methodPointerType)&Stack_1_Peek_m3418768488_gshared/* 381*/,
+	(methodPointerType)&Stack_1_Pop_m4267009222_gshared/* 382*/,
+	(methodPointerType)&Stack_1_Push_m3350166104_gshared/* 383*/,
+	(methodPointerType)&Stack_1_GetEnumerator_m202302354_gshared/* 384*/,
+	(methodPointerType)&Enumerator_System_Collections_IEnumerator_get_Current_m2470832103_gshared/* 385*/,
+	(methodPointerType)&Enumerator_get_Current_m2483819640_gshared/* 386*/,
+	(methodPointerType)&Enumerator__ctor_m1003414509_gshared/* 387*/,
+	(methodPointerType)&Enumerator_System_Collections_IEnumerator_Reset_m3054975473_gshared/* 388*/,
+	(methodPointerType)&Enumerator_Dispose_m1634653158_gshared/* 389*/,
+	(methodPointerType)&Enumerator_MoveNext_m3012756789_gshared/* 390*/,
+	(methodPointerType)&ScriptableObject_CreateInstance_TisIl2CppObject_m1931564230_gshared/* 391*/,
+	(methodPointerType)&Resources_ConvertObjects_TisIl2CppObject_m1537961554_gshared/* 392*/,
+	(methodPointerType)&Object_Instantiate_TisIl2CppObject_m2886823922_gshared/* 393*/,
+	(methodPointerType)&Object_FindObjectsOfType_TisIl2CppObject_m3888714627_gshared/* 394*/,
+	(methodPointerType)&Object_FindObjectOfType_TisIl2CppObject_m4174810935_gshared/* 395*/,
+	(methodPointerType)&Component_GetComponent_TisIl2CppObject_m267839954_gshared/* 396*/,
+	(methodPointerType)&Component_GetComponentInChildren_TisIl2CppObject_m900797242_gshared/* 397*/,
+	(methodPointerType)&Component_GetComponentInChildren_TisIl2CppObject_m833851745_gshared/* 398*/,
+	(methodPointerType)&Component_GetComponentsInChildren_TisIl2CppObject_m4074314606_gshared/* 399*/,
+	(methodPointerType)&Component_GetComponentsInChildren_TisIl2CppObject_m438876883_gshared/* 400*/,
+	(methodPointerType)&Component_GetComponentsInChildren_TisIl2CppObject_m3277197879_gshared/* 401*/,
+	(methodPointerType)&Component_GetComponentsInChildren_TisIl2CppObject_m434699324_gshared/* 402*/,
+	(methodPointerType)&Component_GetComponentInParent_TisIl2CppObject_m1297875695_gshared/* 403*/,
+	(methodPointerType)&Component_GetComponentsInParent_TisIl2CppObject_m1225053603_gshared/* 404*/,
+	(methodPointerType)&Component_GetComponentsInParent_TisIl2CppObject_m101791494_gshared/* 405*/,
+	(methodPointerType)&Component_GetComponentsInParent_TisIl2CppObject_m1228840236_gshared/* 406*/,
+	(methodPointerType)&Component_GetComponents_TisIl2CppObject_m4263137760_gshared/* 407*/,
+	(methodPointerType)&Component_GetComponents_TisIl2CppObject_m1562339739_gshared/* 408*/,
+	(methodPointerType)&GameObject_GetComponent_TisIl2CppObject_m1723468423_gshared/* 409*/,
+	(methodPointerType)&GameObject_GetComponentInChildren_TisIl2CppObject_m782999868_gshared/* 410*/,
+	(methodPointerType)&GameObject_GetComponentInChildren_TisIl2CppObject_m4037889411_gshared/* 411*/,
+	(methodPointerType)&GameObject_GetComponents_TisIl2CppObject_m2453515573_gshared/* 412*/,
+	(methodPointerType)&GameObject_GetComponents_TisIl2CppObject_m3411665840_gshared/* 413*/,
+	(methodPointerType)&GameObject_GetComponentsInChildren_TisIl2CppObject_m1462546696_gshared/* 414*/,
+	(methodPointerType)&GameObject_GetComponentsInChildren_TisIl2CppObject_m2133301907_gshared/* 415*/,
+	(methodPointerType)&GameObject_GetComponentsInChildren_TisIl2CppObject_m3418406430_gshared/* 416*/,
+	(methodPointerType)&GameObject_GetComponentsInParent_TisIl2CppObject_m3568912686_gshared/* 417*/,
+	(methodPointerType)&GameObject_GetComponentsInParent_TisIl2CppObject_m1351944637_gshared/* 418*/,
+	(methodPointerType)&GameObject_AddComponent_TisIl2CppObject_m3908606994_gshared/* 419*/,
+	(methodPointerType)&AndroidJavaObject_Call_TisIl2CppObject_m3039876358_gshared/* 420*/,
+	(methodPointerType)&AndroidJavaObject_CallStatic_TisIl2CppObject_m4248195924_gshared/* 421*/,
+	(methodPointerType)&AndroidJavaObject__Call_TisIl2CppObject_m3840602009_gshared/* 422*/,
+	(methodPointerType)&AndroidJavaObject__CallStatic_TisIl2CppObject_m3148411815_gshared/* 423*/,
+	(methodPointerType)&AndroidJNIHelper_ConvertFromJNIArray_TisIl2CppObject_m3564758094_gshared/* 424*/,
+	(methodPointerType)&AndroidJNIHelper_GetMethodID_TisIl2CppObject_m1770686235_gshared/* 425*/,
+	(methodPointerType)&ThreadSafeDictionary_2_get_Keys_m1760087619_gshared/* 426*/,
+	(methodPointerType)&ThreadSafeDictionary_2_get_Values_m1114291935_gshared/* 427*/,
+	(methodPointerType)&ThreadSafeDictionary_2_get_Item_m2348280148_gshared/* 428*/,
+	(methodPointerType)&ThreadSafeDictionary_2_set_Item_m564341199_gshared/* 429*/,
+	(methodPointerType)&ThreadSafeDictionary_2_get_Count_m2540897107_gshared/* 430*/,
+	(methodPointerType)&ThreadSafeDictionary_2_get_IsReadOnly_m295419492_gshared/* 431*/,
+	(methodPointerType)&ThreadSafeDictionary_2__ctor_m72978167_gshared/* 432*/,
+	(methodPointerType)&ThreadSafeDictionary_2_System_Collections_IEnumerable_GetEnumerator_m959808064_gshared/* 433*/,
+	(methodPointerType)&ThreadSafeDictionary_2_Get_m1586953098_gshared/* 434*/,
+	(methodPointerType)&ThreadSafeDictionary_2_AddValue_m2063887688_gshared/* 435*/,
+	(methodPointerType)&ThreadSafeDictionary_2_Add_m1730523974_gshared/* 436*/,
+	(methodPointerType)&ThreadSafeDictionary_2_TryGetValue_m959591009_gshared/* 437*/,
+	(methodPointerType)&ThreadSafeDictionary_2_Add_m811116383_gshared/* 438*/,
+	(methodPointerType)&ThreadSafeDictionary_2_Clear_m1498375802_gshared/* 439*/,
+	(methodPointerType)&ThreadSafeDictionary_2_Contains_m88270559_gshared/* 440*/,
+	(methodPointerType)&ThreadSafeDictionary_2_CopyTo_m259267971_gshared/* 441*/,
+	(methodPointerType)&ThreadSafeDictionary_2_Remove_m332085700_gshared/* 442*/,
+	(methodPointerType)&ThreadSafeDictionary_2_GetEnumerator_m1068904084_gshared/* 443*/,
+	(methodPointerType)&ThreadSafeDictionaryValueFactory_2__ctor_m4269874522_gshared/* 444*/,
+	(methodPointerType)&ThreadSafeDictionaryValueFactory_2_Invoke_m893533719_gshared/* 445*/,
+	(methodPointerType)&ThreadSafeDictionaryValueFactory_2_BeginInvoke_m3377846226_gshared/* 446*/,
+	(methodPointerType)&ThreadSafeDictionaryValueFactory_2_EndInvoke_m3819842136_gshared/* 447*/,
+	(methodPointerType)&_AndroidJNIHelper_ConvertFromJNIArray_TisIl2CppObject_m47818363_gshared/* 448*/,
+	(methodPointerType)&_AndroidJNIHelper_GetMethodID_TisIl2CppObject_m2915897348_gshared/* 449*/,
+	(methodPointerType)&_AndroidJNIHelper_GetSignature_TisIl2CppObject_m1833152673_gshared/* 450*/,
+	(methodPointerType)&BaseInvokableCall_ThrowOnInvalidArg_TisIl2CppObject_m1692402054_gshared/* 451*/,
+	(methodPointerType)&InvokableCall_1__ctor_m3494792797_gshared/* 452*/,
+	(methodPointerType)&InvokableCall_1__ctor_m2810088059_gshared/* 453*/,
+	(methodPointerType)&InvokableCall_1_Invoke_m689855796_gshared/* 454*/,
+	(methodPointerType)&InvokableCall_1_Find_m1349477752_gshared/* 455*/,
+	(methodPointerType)&InvokableCall_2__ctor_m3928141520_gshared/* 456*/,
+	(methodPointerType)&InvokableCall_2_Invoke_m1749346151_gshared/* 457*/,
+	(methodPointerType)&InvokableCall_2_Find_m3489973541_gshared/* 458*/,
+	(methodPointerType)&InvokableCall_3__ctor_m774681667_gshared/* 459*/,
+	(methodPointerType)&InvokableCall_3_Invoke_m585455258_gshared/* 460*/,
+	(methodPointerType)&InvokableCall_3_Find_m4267409362_gshared/* 461*/,
+	(methodPointerType)&InvokableCall_4__ctor_m4162891446_gshared/* 462*/,
+	(methodPointerType)&InvokableCall_4_Invoke_m2239232717_gshared/* 463*/,
+	(methodPointerType)&InvokableCall_4_Find_m2015184255_gshared/* 464*/,
+	(methodPointerType)&CachedInvokableCall_1__ctor_m165005445_gshared/* 465*/,
+	(methodPointerType)&CachedInvokableCall_1_Invoke_m3570141426_gshared/* 466*/,
+	(methodPointerType)&UnityEvent_1__ctor_m4139691420_gshared/* 467*/,
+	(methodPointerType)&UnityEvent_1_AddListener_m1298407787_gshared/* 468*/,
+	(methodPointerType)&UnityEvent_1_RemoveListener_m2525028476_gshared/* 469*/,
+	(methodPointerType)&UnityEvent_1_FindMethod_Impl_m936319469_gshared/* 470*/,
+	(methodPointerType)&UnityEvent_1_GetDelegate_m882504923_gshared/* 471*/,
+	(methodPointerType)&UnityEvent_1_GetDelegate_m2100323256_gshared/* 472*/,
+	(methodPointerType)&UnityEvent_1_Invoke_m3779699780_gshared/* 473*/,
+	(methodPointerType)&UnityEvent_2__ctor_m1950601551_gshared/* 474*/,
+	(methodPointerType)&UnityEvent_2_FindMethod_Impl_m3911325978_gshared/* 475*/,
+	(methodPointerType)&UnityEvent_2_GetDelegate_m3055054414_gshared/* 476*/,
+	(methodPointerType)&UnityEvent_3__ctor_m4248091138_gshared/* 477*/,
+	(methodPointerType)&UnityEvent_3_FindMethod_Impl_m859190087_gshared/* 478*/,
+	(methodPointerType)&UnityEvent_3_GetDelegate_m3227786433_gshared/* 479*/,
+	(methodPointerType)&UnityEvent_4__ctor_m492943285_gshared/* 480*/,
+	(methodPointerType)&UnityEvent_4_FindMethod_Impl_m1344084084_gshared/* 481*/,
+	(methodPointerType)&UnityEvent_4_GetDelegate_m1269387316_gshared/* 482*/,
+	(methodPointerType)&UnityAction_1__ctor_m2698834494_gshared/* 483*/,
+	(methodPointerType)&UnityAction_1_Invoke_m774762876_gshared/* 484*/,
+	(methodPointerType)&UnityAction_1_BeginInvoke_m1225830823_gshared/* 485*/,
+	(methodPointerType)&UnityAction_1_EndInvoke_m4220465998_gshared/* 486*/,
+	(methodPointerType)&UnityAction_2__ctor_m1077712043_gshared/* 487*/,
+	(methodPointerType)&UnityAction_2_Invoke_m1848147712_gshared/* 488*/,
+	(methodPointerType)&UnityAction_2_BeginInvoke_m1411513831_gshared/* 489*/,
+	(methodPointerType)&UnityAction_2_EndInvoke_m2463306811_gshared/* 490*/,
+	(methodPointerType)&UnityAction_3__ctor_m2630406680_gshared/* 491*/,
+	(methodPointerType)&UnityAction_3_Invoke_m743272021_gshared/* 492*/,
+	(methodPointerType)&UnityAction_3_BeginInvoke_m3462825058_gshared/* 493*/,
+	(methodPointerType)&UnityAction_3_EndInvoke_m2479427624_gshared/* 494*/,
+	(methodPointerType)&UnityAction_4__ctor_m2430556805_gshared/* 495*/,
+	(methodPointerType)&UnityAction_4_Invoke_m295067525_gshared/* 496*/,
+	(methodPointerType)&UnityAction_4_BeginInvoke_m3784231950_gshared/* 497*/,
+	(methodPointerType)&UnityAction_4_EndInvoke_m2334578453_gshared/* 498*/,
+	(methodPointerType)&HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m2501283472_gshared/* 499*/,
+	(methodPointerType)&HashSet_1_get_Count_m3501347367_gshared/* 500*/,
+	(methodPointerType)&HashSet_1__ctor_m4183732917_gshared/* 501*/,
+	(methodPointerType)&HashSet_1__ctor_m3739212406_gshared/* 502*/,
+	(methodPointerType)&HashSet_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m2351046527_gshared/* 503*/,
+	(methodPointerType)&HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_CopyTo_m1037632730_gshared/* 504*/,
+	(methodPointerType)&HashSet_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m4170802026_gshared/* 505*/,
+	(methodPointerType)&HashSet_1_System_Collections_IEnumerable_GetEnumerator_m1202823980_gshared/* 506*/,
+	(methodPointerType)&HashSet_1_Init_m2856515208_gshared/* 507*/,
+	(methodPointerType)&HashSet_1_InitArrays_m523929898_gshared/* 508*/,
+	(methodPointerType)&HashSet_1_SlotsContainsAt_m2666990736_gshared/* 509*/,
+	(methodPointerType)&HashSet_1_CopyTo_m2864960666_gshared/* 510*/,
+	(methodPointerType)&HashSet_1_CopyTo_m2745373309_gshared/* 511*/,
+	(methodPointerType)&HashSet_1_Resize_m904498211_gshared/* 512*/,
+	(methodPointerType)&HashSet_1_GetLinkHashCode_m1128863229_gshared/* 513*/,
+	(methodPointerType)&HashSet_1_GetItemHashCode_m416797561_gshared/* 514*/,
+	(methodPointerType)&HashSet_1_Add_m3739352086_gshared/* 515*/,
+	(methodPointerType)&HashSet_1_Clear_m1589866208_gshared/* 516*/,
+	(methodPointerType)&HashSet_1_Contains_m3727111780_gshared/* 517*/,
+	(methodPointerType)&HashSet_1_Remove_m3015589727_gshared/* 518*/,
+	(methodPointerType)&HashSet_1_GetObjectData_m2922531795_gshared/* 519*/,
+	(methodPointerType)&HashSet_1_OnDeserialization_m3000579185_gshared/* 520*/,
+	(methodPointerType)&Enumerator_System_Collections_IEnumerator_get_Current_m789844996_gshared/* 521*/,
+	(methodPointerType)&Enumerator_get_Current_m2251145467_gshared/* 522*/,
+	(methodPointerType)&Enumerator__ctor_m2780515062_gshared/* 523*/,
+	(methodPointerType)&Enumerator_System_Collections_IEnumerator_Reset_m1022779726_gshared/* 524*/,
+	(methodPointerType)&Enumerator_MoveNext_m240900368_gshared/* 525*/,
+	(methodPointerType)&Enumerator_Dispose_m3013304169_gshared/* 526*/,
+	(methodPointerType)&Enumerator_CheckState_m1851996801_gshared/* 527*/,
+	(methodPointerType)&PrimeHelper__cctor_m1379025658_gshared/* 528*/,
+	(methodPointerType)&PrimeHelper_TestPrime_m2030319843_gshared/* 529*/,
+	(methodPointerType)&PrimeHelper_CalcPrime_m3074236314_gshared/* 530*/,
+	(methodPointerType)&PrimeHelper_ToPrime_m399576372_gshared/* 531*/,
+	(methodPointerType)&Enumerable_Any_TisIl2CppObject_m1279227713_gshared/* 532*/,
+	(methodPointerType)&Enumerable_Select_TisIl2CppObject_TisIl2CppObject_m3465146869_gshared/* 533*/,
+	(methodPointerType)&Enumerable_CreateSelectIterator_TisIl2CppObject_TisIl2CppObject_m2033512756_gshared/* 534*/,
+	(methodPointerType)&Enumerable_Take_TisIl2CppObject_m4170549339_gshared/* 535*/,
+	(methodPointerType)&Enumerable_CreateTakeIterator_TisIl2CppObject_m3901453855_gshared/* 536*/,
+	(methodPointerType)&Enumerable_ToArray_TisIl2CppObject_m914007555_gshared/* 537*/,
+	(methodPointerType)&Enumerable_ToDictionary_TisIl2CppObject_TisIl2CppObject_TisIl2CppObject_m2105767490_gshared/* 538*/,
+	(methodPointerType)&Enumerable_ToDictionary_TisIl2CppObject_TisIl2CppObject_m305095264_gshared/* 539*/,
+	(methodPointerType)&Enumerable_ToDictionary_TisIl2CppObject_TisIl2CppObject_m1394750633_gshared/* 540*/,
+	(methodPointerType)&Enumerable_ToList_TisIl2CppObject_m3660158798_gshared/* 541*/,
+	(methodPointerType)&Enumerable_Where_TisIl2CppObject_m720779688_gshared/* 542*/,
+	(methodPointerType)&Enumerable_CreateWhereIterator_TisIl2CppObject_m2204352327_gshared/* 543*/,
+	(methodPointerType)&Function_1__cctor_m2190954237_gshared/* 544*/,
+	(methodPointerType)&Function_1_U3CIdentityU3Em__77_m768540166_gshared/* 545*/,
+	(methodPointerType)&U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m3139887788_gshared/* 546*/,
+	(methodPointerType)&U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerator_get_Current_m2214244775_gshared/* 547*/,
+	(methodPointerType)&U3CCreateSelectIteratorU3Ec__Iterator10_2__ctor_m947089631_gshared/* 548*/,
+	(methodPointerType)&U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerable_GetEnumerator_m3441575874_gshared/* 549*/,
+	(methodPointerType)&U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m2350385737_gshared/* 550*/,
+	(methodPointerType)&U3CCreateSelectIteratorU3Ec__Iterator10_2_MoveNext_m3146126805_gshared/* 551*/,
+	(methodPointerType)&U3CCreateSelectIteratorU3Ec__Iterator10_2_Dispose_m3813319004_gshared/* 552*/,
+	(methodPointerType)&U3CCreateSelectIteratorU3Ec__Iterator10_2_Reset_m2888489868_gshared/* 553*/,
+	(methodPointerType)&U3CCreateTakeIteratorU3Ec__Iterator19_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m965116049_gshared/* 554*/,
+	(methodPointerType)&U3CCreateTakeIteratorU3Ec__Iterator19_1_System_Collections_IEnumerator_get_Current_m2872192422_gshared/* 555*/,
+	(methodPointerType)&U3CCreateTakeIteratorU3Ec__Iterator19_1__ctor_m1991994240_gshared/* 556*/,
+	(methodPointerType)&U3CCreateTakeIteratorU3Ec__Iterator19_1_System_Collections_IEnumerable_GetEnumerator_m2446998017_gshared/* 557*/,
+	(methodPointerType)&U3CCreateTakeIteratorU3Ec__Iterator19_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m80203434_gshared/* 558*/,
+	(methodPointerType)&U3CCreateTakeIteratorU3Ec__Iterator19_1_MoveNext_m1575379860_gshared/* 559*/,
+	(methodPointerType)&U3CCreateTakeIteratorU3Ec__Iterator19_1_Dispose_m2944300989_gshared/* 560*/,
+	(methodPointerType)&U3CCreateTakeIteratorU3Ec__Iterator19_1_Reset_m3933394477_gshared/* 561*/,
+	(methodPointerType)&U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m1015065924_gshared/* 562*/,
+	(methodPointerType)&U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_IEnumerator_get_Current_m1370525525_gshared/* 563*/,
+	(methodPointerType)&U3CCreateWhereIteratorU3Ec__Iterator1D_1__ctor_m3836766395_gshared/* 564*/,
+	(methodPointerType)&U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_IEnumerable_GetEnumerator_m503616950_gshared/* 565*/,
+	(methodPointerType)&U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m2553601303_gshared/* 566*/,
+	(methodPointerType)&U3CCreateWhereIteratorU3Ec__Iterator1D_1_MoveNext_m461554209_gshared/* 567*/,
+	(methodPointerType)&U3CCreateWhereIteratorU3Ec__Iterator1D_1_Dispose_m1948848696_gshared/* 568*/,
+	(methodPointerType)&U3CCreateWhereIteratorU3Ec__Iterator1D_1_Reset_m1483199336_gshared/* 569*/,
+	(methodPointerType)&Action_2__ctor_m4171654682_gshared/* 570*/,
+	(methodPointerType)&Action_2_Invoke_m2160582097_gshared/* 571*/,
+	(methodPointerType)&Action_2_BeginInvoke_m3413657584_gshared/* 572*/,
+	(methodPointerType)&Action_2_EndInvoke_m3926193450_gshared/* 573*/,
+	(methodPointerType)&Action_4__ctor_m620347252_gshared/* 574*/,
+	(methodPointerType)&Action_4_Invoke_m157716918_gshared/* 575*/,
+	(methodPointerType)&Action_4_BeginInvoke_m1414752311_gshared/* 576*/,
+	(methodPointerType)&Action_4_EndInvoke_m2556365700_gshared/* 577*/,
+	(methodPointerType)&Func_2__ctor_m3944524044_gshared/* 578*/,
+	(methodPointerType)&Func_2_Invoke_m1924616534_gshared/* 579*/,
+	(methodPointerType)&Func_2_BeginInvoke_m4281703301_gshared/* 580*/,
+	(methodPointerType)&Func_2_EndInvoke_m4118168638_gshared/* 581*/,
+	(methodPointerType)&ConfigurationBuilder_Configure_TisIl2CppObject_m3478168510_gshared/* 582*/,
+	(methodPointerType)&PurchasingFactory_RegisterExtension_TisIl2CppObject_m1759769321_gshared/* 583*/,
+	(methodPointerType)&PurchasingFactory_RegisterConfiguration_TisIl2CppObject_m3233587040_gshared/* 584*/,
+	(methodPointerType)&PurchasingFactory_GetConfig_TisIl2CppObject_m1511443064_gshared/* 585*/,
+	(methodPointerType)&PurchasingFactory_GetExtension_TisIl2CppObject_m33012161_gshared/* 586*/,
+	(methodPointerType)&AbstractPurchasingModule_BindExtension_TisIl2CppObject_m3962279223_gshared/* 587*/,
+	(methodPointerType)&AbstractPurchasingModule_BindConfiguration_TisIl2CppObject_m3792448238_gshared/* 588*/,
+	(methodPointerType)&FakeStore_StartUI_TisIl2CppObject_m878142524_gshared/* 589*/,
+	(methodPointerType)&UIFakeStore_StartUI_TisIl2CppObject_m1265760656_gshared/* 590*/,
+	(methodPointerType)&U3CStartUIU3Ec__AnonStorey0_1__ctor_m2666976025_gshared/* 591*/,
+	(methodPointerType)&U3CStartUIU3Ec__AnonStorey0_1_U3CU3Em__0_m450801744_gshared/* 592*/,
+	(methodPointerType)&UnityUtil_GetAnyComponentsOfType_TisIl2CppObject_m4021921264_gshared/* 593*/,
+	(methodPointerType)&UnityUtil_FindInstanceOfType_TisIl2CppObject_m750923916_gshared/* 594*/,
+	(methodPointerType)&UnityUtil_LoadResourceInstanceOfType_TisIl2CppObject_m3295815121_gshared/* 595*/,
+	(methodPointerType)&SessionValues_TryGetValue_TisIl2CppObject_m2653206696_gshared/* 596*/,
+	(methodPointerType)&SessionValues_TryGetValueList_TisIl2CppObject_m1638858144_gshared/* 597*/,
+	(methodPointerType)&SessionValues_TryGetValueArray_TisIl2CppObject_m2745027379_gshared/* 598*/,
+	(methodPointerType)&ExecuteEvents_ValidateEventData_TisIl2CppObject_m1498065176_gshared/* 599*/,
+	(methodPointerType)&ExecuteEvents_Execute_TisIl2CppObject_m1533897725_gshared/* 600*/,
+	(methodPointerType)&ExecuteEvents_ExecuteHierarchy_TisIl2CppObject_m2445823293_gshared/* 601*/,
+	(methodPointerType)&ExecuteEvents_ShouldSendToComponent_TisIl2CppObject_m2647702620_gshared/* 602*/,
+	(methodPointerType)&ExecuteEvents_GetEventList_TisIl2CppObject_m399588305_gshared/* 603*/,
+	(methodPointerType)&ExecuteEvents_CanHandleEvent_TisIl2CppObject_m2627025177_gshared/* 604*/,
+	(methodPointerType)&ExecuteEvents_GetEventHandler_TisIl2CppObject_m2285942506_gshared/* 605*/,
+	(methodPointerType)&EventFunction_1__ctor_m252996987_gshared/* 606*/,
+	(methodPointerType)&EventFunction_1_Invoke_m1750245256_gshared/* 607*/,
+	(methodPointerType)&EventFunction_1_BeginInvoke_m2337669695_gshared/* 608*/,
+	(methodPointerType)&EventFunction_1_EndInvoke_m1184355595_gshared/* 609*/,
+	(methodPointerType)&Dropdown_GetOrAddComponent_TisIl2CppObject_m4155558758_gshared/* 610*/,
+	(methodPointerType)&SetPropertyUtility_SetEquatableStruct_TisIl2CppObject_m685297595_gshared/* 611*/,
+	(methodPointerType)&SetPropertyUtility_SetClass_TisIl2CppObject_m3004757678_gshared/* 612*/,
+	(methodPointerType)&LayoutGroup_SetProperty_TisIl2CppObject_m2605202953_gshared/* 613*/,
+	(methodPointerType)&IndexedSet_1_get_Count_m3523122326_gshared/* 614*/,
+	(methodPointerType)&IndexedSet_1_get_IsReadOnly_m581024909_gshared/* 615*/,
+	(methodPointerType)&IndexedSet_1_get_Item_m2125208246_gshared/* 616*/,
+	(methodPointerType)&IndexedSet_1_set_Item_m1359327235_gshared/* 617*/,
+	(methodPointerType)&IndexedSet_1__ctor_m1049489274_gshared/* 618*/,
+	(methodPointerType)&IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m1636511825_gshared/* 619*/,
+	(methodPointerType)&IndexedSet_1_Add_m162544069_gshared/* 620*/,
+	(methodPointerType)&IndexedSet_1_AddUnique_m1373796738_gshared/* 621*/,
+	(methodPointerType)&IndexedSet_1_Remove_m2459681474_gshared/* 622*/,
+	(methodPointerType)&IndexedSet_1_GetEnumerator_m2607290422_gshared/* 623*/,
+	(methodPointerType)&IndexedSet_1_Clear_m2750589861_gshared/* 624*/,
+	(methodPointerType)&IndexedSet_1_Contains_m2075225351_gshared/* 625*/,
+	(methodPointerType)&IndexedSet_1_CopyTo_m4273412725_gshared/* 626*/,
+	(methodPointerType)&IndexedSet_1_IndexOf_m4137415045_gshared/* 627*/,
+	(methodPointerType)&IndexedSet_1_Insert_m3436399148_gshared/* 628*/,
+	(methodPointerType)&IndexedSet_1_RemoveAt_m1310252018_gshared/* 629*/,
+	(methodPointerType)&IndexedSet_1_RemoveAll_m4086301344_gshared/* 630*/,
+	(methodPointerType)&IndexedSet_1_Sort_m3752037115_gshared/* 631*/,
+	(methodPointerType)&ListPool_1__cctor_m4278935907_gshared/* 632*/,
+	(methodPointerType)&ListPool_1_Get_m2234302831_gshared/* 633*/,
+	(methodPointerType)&ListPool_1_Release_m1182093831_gshared/* 634*/,
+	(methodPointerType)&ListPool_1_U3Cs_ListPoolU3Em__14_m4207408660_gshared/* 635*/,
+	(methodPointerType)&ObjectPool_1_get_countAll_m3327915100_gshared/* 636*/,
+	(methodPointerType)&ObjectPool_1_set_countAll_m2125882937_gshared/* 637*/,
+	(methodPointerType)&ObjectPool_1_get_countActive_m2082506317_gshared/* 638*/,
+	(methodPointerType)&ObjectPool_1_get_countInactive_m19645682_gshared/* 639*/,
+	(methodPointerType)&ObjectPool_1__ctor_m2532712771_gshared/* 640*/,
+	(methodPointerType)&ObjectPool_1_Get_m3052664832_gshared/* 641*/,
+	(methodPointerType)&ObjectPool_1_Release_m1110976910_gshared/* 642*/,
 	(methodPointerType)&Singleton_1_get_Instance_m1020946630_gshared/* 643*/,
 	(methodPointerType)&Singleton_1__ctor_m3958676923_gshared/* 644*/,
 	(methodPointerType)&Singleton_1_Awake_m4196282142_gshared/* 645*/,
@@ -5286,129 +5286,129 @@ extern const methodPointerType g_Il2CppGenericMethodPointers[4593] =
 	(methodPointerType)&GenericEqualityComparer_1__ctor_m1135065456_gshared/* 671*/,
 	(methodPointerType)&Dictionary_2__ctor_m3163007305_gshared/* 672*/,
 	(methodPointerType)&Array_BinarySearch_TisInt32_t2847414787_m3080908590_gshared/* 673*/,
-	(methodPointerType)&List_1__ctor_m2373821799_gshared/* 674*/,
-	(methodPointerType)&Comparison_1__ctor_m818957270_gshared/* 675*/,
-	(methodPointerType)&List_1_Sort_m3081456075_gshared/* 676*/,
-	(methodPointerType)&Comparison_1__ctor_m2670394222_gshared/* 677*/,
-	(methodPointerType)&Array_Sort_TisRaycastHit_t46221527_m3458836826_gshared/* 678*/,
-	(methodPointerType)&Dictionary_2__ctor_m1859298524_gshared/* 679*/,
-	(methodPointerType)&Dictionary_2_get_Values_m1815086189_gshared/* 680*/,
-	(methodPointerType)&ValueCollection_GetEnumerator_m848222311_gshared/* 681*/,
-	(methodPointerType)&Enumerator_get_Current_m2952798389_gshared/* 682*/,
-	(methodPointerType)&Enumerator_MoveNext_m3538465109_gshared/* 683*/,
-	(methodPointerType)&Dictionary_2_GetEnumerator_m3720989159_gshared/* 684*/,
-	(methodPointerType)&Enumerator_get_Current_m1399860359_gshared/* 685*/,
-	(methodPointerType)&KeyValuePair_2_get_Value_m1563175098_gshared/* 686*/,
-	(methodPointerType)&KeyValuePair_2_get_Key_m494458106_gshared/* 687*/,
-	(methodPointerType)&Enumerator_MoveNext_m1213995029_gshared/* 688*/,
-	(methodPointerType)&KeyValuePair_2_ToString_m491888647_gshared/* 689*/,
-	(methodPointerType)&SetPropertyUtility_SetStruct_TisAspectMode_t2721296955_m800854655_gshared/* 690*/,
-	(methodPointerType)&SetPropertyUtility_SetStruct_TisSingle_t958209021_m1643007650_gshared/* 691*/,
-	(methodPointerType)&SetPropertyUtility_SetStruct_TisFitMode_t816341300_m3401974325_gshared/* 692*/,
-	(methodPointerType)&UnityEvent_1_Invoke_m2712400111_gshared/* 693*/,
-	(methodPointerType)&UnityEvent_1_AddListener_m1347854496_gshared/* 694*/,
-	(methodPointerType)&UnityEvent_1__ctor_m1130251838_gshared/* 695*/,
-	(methodPointerType)&UnityEvent_1_Invoke_m3551800820_gshared/* 696*/,
-	(methodPointerType)&UnityEvent_1_AddListener_m994670587_gshared/* 697*/,
-	(methodPointerType)&UnityEvent_1__ctor_m1354608473_gshared/* 698*/,
-	(methodPointerType)&UnityEvent_1_Invoke_m1822489606_gshared/* 699*/,
-	(methodPointerType)&TweenRunner_1__ctor_m2994637951_gshared/* 700*/,
-	(methodPointerType)&TweenRunner_1_Init_m2355829498_gshared/* 701*/,
-	(methodPointerType)&UnityAction_1__ctor_m1354516801_gshared/* 702*/,
-	(methodPointerType)&UnityEvent_1_AddListener_m4118700355_gshared/* 703*/,
-	(methodPointerType)&UnityAction_1__ctor_m480548041_gshared/* 704*/,
-	(methodPointerType)&TweenRunner_1_StartTween_m565832784_gshared/* 705*/,
-	(methodPointerType)&UnityEvent_1__ctor_m7858823_gshared/* 706*/,
-	(methodPointerType)&TweenRunner_1__ctor_m3171479704_gshared/* 707*/,
-	(methodPointerType)&TweenRunner_1_Init_m3753968659_gshared/* 708*/,
-	(methodPointerType)&UnityAction_1__ctor_m3352102596_gshared/* 709*/,
-	(methodPointerType)&TweenRunner_1_StartTween_m3060079017_gshared/* 710*/,
-	(methodPointerType)&LayoutGroup_SetProperty_TisCorner_t2024169077_m1217402351_gshared/* 711*/,
-	(methodPointerType)&LayoutGroup_SetProperty_TisAxis_t2055107_m2246182115_gshared/* 712*/,
-	(methodPointerType)&LayoutGroup_SetProperty_TisVector2_t3525329788_m91581935_gshared/* 713*/,
-	(methodPointerType)&LayoutGroup_SetProperty_TisConstraint_t1803088381_m2766497255_gshared/* 714*/,
-	(methodPointerType)&LayoutGroup_SetProperty_TisInt32_t2847414787_m1661492404_gshared/* 715*/,
-	(methodPointerType)&LayoutGroup_SetProperty_TisSingle_t958209021_m591957344_gshared/* 716*/,
-	(methodPointerType)&LayoutGroup_SetProperty_TisBoolean_t211005341_m3019210650_gshared/* 717*/,
-	(methodPointerType)&SetPropertyUtility_SetStruct_TisType_t2622298_m3981732792_gshared/* 718*/,
-	(methodPointerType)&SetPropertyUtility_SetStruct_TisBoolean_t211005341_m1242031768_gshared/* 719*/,
-	(methodPointerType)&SetPropertyUtility_SetStruct_TisFillMethod_t1232150628_m1922094766_gshared/* 720*/,
-	(methodPointerType)&SetPropertyUtility_SetStruct_TisInt32_t2847414787_m3219417906_gshared/* 721*/,
-	(methodPointerType)&SetPropertyUtility_SetStruct_TisContentType_t1278737203_m3459087122_gshared/* 722*/,
-	(methodPointerType)&SetPropertyUtility_SetStruct_TisLineType_t1253309806_m1761448119_gshared/* 723*/,
-	(methodPointerType)&SetPropertyUtility_SetStruct_TisInputType_t3710944772_m2495306657_gshared/* 724*/,
-	(methodPointerType)&SetPropertyUtility_SetStruct_TisTouchScreenKeyboardType_t1816994841_m1392536308_gshared/* 725*/,
-	(methodPointerType)&SetPropertyUtility_SetStruct_TisCharacterValidation_t4120610914_m3080620675_gshared/* 726*/,
-	(methodPointerType)&SetPropertyUtility_SetStruct_TisChar_t2778706699_m1002094612_gshared/* 727*/,
-	(methodPointerType)&LayoutGroup_SetProperty_TisTextAnchor_t551935663_m3585160266_gshared/* 728*/,
-	(methodPointerType)&Func_2__ctor_m4057262499_gshared/* 729*/,
-	(methodPointerType)&Func_2_Invoke_m3938512095_gshared/* 730*/,
-	(methodPointerType)&UnityEvent_1_Invoke_m4200629676_gshared/* 731*/,
-	(methodPointerType)&UnityEvent_1__ctor_m1579102881_gshared/* 732*/,
-	(methodPointerType)&ListPool_1_Get_m3130095824_gshared/* 733*/,
-	(methodPointerType)&List_1_get_Capacity_m792627810_gshared/* 734*/,
-	(methodPointerType)&List_1_set_Capacity_m3820333071_gshared/* 735*/,
-	(methodPointerType)&ListPool_1_Release_m2709067242_gshared/* 736*/,
-	(methodPointerType)&SetPropertyUtility_SetStruct_TisDirection_t1041377119_m1391770542_gshared/* 737*/,
-	(methodPointerType)&UnityEvent_1_RemoveListener_m1402724082_gshared/* 738*/,
-	(methodPointerType)&UnityEvent_1_Invoke_m3332953603_gshared/* 739*/,
-	(methodPointerType)&UnityEvent_1__ctor_m99457450_gshared/* 740*/,
-	(methodPointerType)&SetPropertyUtility_SetEquatableStruct_TisNavigation_t2845019197_m3717372898_gshared/* 741*/,
-	(methodPointerType)&SetPropertyUtility_SetStruct_TisTransition_t269306229_m697175766_gshared/* 742*/,
-	(methodPointerType)&SetPropertyUtility_SetEquatableStruct_TisColorBlock_t2245020947_m3999144268_gshared/* 743*/,
-	(methodPointerType)&SetPropertyUtility_SetEquatableStruct_TisSpriteState_t894177973_m1850844776_gshared/* 744*/,
-	(methodPointerType)&SetPropertyUtility_SetStruct_TisDirection_t1041377120_m2722180853_gshared/* 745*/,
-	(methodPointerType)&Func_2__ctor_m563515303_gshared/* 746*/,
-	(methodPointerType)&ListPool_1_Get_m4266661578_gshared/* 747*/,
-	(methodPointerType)&ListPool_1_Get_m1848305276_gshared/* 748*/,
-	(methodPointerType)&ListPool_1_Get_m1779148745_gshared/* 749*/,
-	(methodPointerType)&ListPool_1_Get_m2459207115_gshared/* 750*/,
-	(methodPointerType)&ListPool_1_Get_m1671355248_gshared/* 751*/,
-	(methodPointerType)&List_1_AddRange_m747416421_gshared/* 752*/,
-	(methodPointerType)&List_1_AddRange_m1228619251_gshared/* 753*/,
-	(methodPointerType)&List_1_AddRange_m2678035526_gshared/* 754*/,
-	(methodPointerType)&List_1_AddRange_m3111764612_gshared/* 755*/,
-	(methodPointerType)&List_1_AddRange_m1640324381_gshared/* 756*/,
-	(methodPointerType)&ListPool_1_Release_m3961428258_gshared/* 757*/,
-	(methodPointerType)&ListPool_1_Release_m1142705876_gshared/* 758*/,
-	(methodPointerType)&ListPool_1_Release_m3969187617_gshared/* 759*/,
-	(methodPointerType)&ListPool_1_Release_m3953668899_gshared/* 760*/,
-	(methodPointerType)&ListPool_1_Release_m1485191562_gshared/* 761*/,
-	(methodPointerType)&Dictionary_2__ctor_m3603054982_gshared/* 762*/,
-	(methodPointerType)&CachedInvokableCall_1__ctor_m3760156124_gshared/* 763*/,
-	(methodPointerType)&CachedInvokableCall_1__ctor_m1791898438_gshared/* 764*/,
-	(methodPointerType)&CachedInvokableCall_1__ctor_m562163564_gshared/* 765*/,
-	(methodPointerType)&Action_1_Invoke_m3594021162_gshared/* 766*/,
-	(methodPointerType)&List_1__ctor_m1637285730_gshared/* 767*/,
-	(methodPointerType)&List_1__ctor_m2496259298_gshared/* 768*/,
-	(methodPointerType)&List_1__ctor_m363550720_gshared/* 769*/,
-	(methodPointerType)&List_1__ctor_m3077140663_gshared/* 770*/,
-	(methodPointerType)&Action_2__ctor_m2512218974_gshared/* 771*/,
-	(methodPointerType)&FakeStore_StartUI_TisInitializationFailureReason_t1104172581_m3110680901_gshared/* 772*/,
-	(methodPointerType)&Action_2_Invoke_m167089997_gshared/* 773*/,
-	(methodPointerType)&Action_2__ctor_m1506387135_gshared/* 774*/,
-	(methodPointerType)&FakeStore_StartUI_TisPurchaseFailureReason_t2274432868_m146418244_gshared/* 775*/,
-	(methodPointerType)&Action_2_Invoke_m898835276_gshared/* 776*/,
-	(methodPointerType)&Func_2__ctor_m4281382449_gshared/* 777*/,
-	(methodPointerType)&Enumerable_Any_TisRuntimePlatform_t1574985880_m1891388867_gshared/* 778*/,
-	(methodPointerType)&UnityAction_1__ctor_m1291646548_gshared/* 779*/,
-	(methodPointerType)&UnityEvent_1_AddListener_m2066362018_gshared/* 780*/,
-	(methodPointerType)&Action_2_Invoke_m1066314183_gshared/* 781*/,
-	(methodPointerType)&Action_4__ctor_m1434218450_gshared/* 782*/,
-	(methodPointerType)&SessionValues_TryGetValue_TisBoolean_t211005341_m2092376061_gshared/* 783*/,
-	(methodPointerType)&SessionValues_TryGetValue_TisInt32_t2847414787_m1523265763_gshared/* 784*/,
-	(methodPointerType)&SessionValues_TryGetValue_TisInt64_t2847414882_m126766018_gshared/* 785*/,
-	(methodPointerType)&SessionValues_TryGetValueList_TisInt32_t2847414787_m6775969_gshared/* 786*/,
-	(methodPointerType)&SessionValues_TryGetValueArray_TisInt32_t2847414787_m4121465908_gshared/* 787*/,
-	(methodPointerType)&SessionValues_TryGetValueArray_TisInt64_t2847414882_m2115007315_gshared/* 788*/,
-	(methodPointerType)&Converter_2__ctor_m4030557746_gshared/* 789*/,
-	(methodPointerType)&Array_ConvertAll_TisInt64_t2847414882_TisInt32_t2847414787_m1445919003_gshared/* 790*/,
-	(methodPointerType)&Action_2__ctor_m2840689331_gshared/* 791*/,
-	(methodPointerType)&Action_2_Invoke_m2874447226_gshared/* 792*/,
-	(methodPointerType)&Func_2_Invoke_m1882130143_gshared/* 793*/,
-	(methodPointerType)&Action_2_Invoke_m598687073_gshared/* 794*/,
-	(methodPointerType)&Action_2_Invoke_m4065655704_gshared/* 795*/,
-	(methodPointerType)&Action_1__ctor_m377969142_gshared/* 796*/,
+	(methodPointerType)&Dictionary_2__ctor_m3603054982_gshared/* 674*/,
+	(methodPointerType)&CachedInvokableCall_1__ctor_m3760156124_gshared/* 675*/,
+	(methodPointerType)&CachedInvokableCall_1__ctor_m1791898438_gshared/* 676*/,
+	(methodPointerType)&CachedInvokableCall_1__ctor_m562163564_gshared/* 677*/,
+	(methodPointerType)&Dictionary_2__ctor_m1859298524_gshared/* 678*/,
+	(methodPointerType)&Action_1_Invoke_m3594021162_gshared/* 679*/,
+	(methodPointerType)&List_1__ctor_m1637285730_gshared/* 680*/,
+	(methodPointerType)&List_1__ctor_m2496259298_gshared/* 681*/,
+	(methodPointerType)&List_1__ctor_m363550720_gshared/* 682*/,
+	(methodPointerType)&List_1__ctor_m3077140663_gshared/* 683*/,
+	(methodPointerType)&Action_2__ctor_m2512218974_gshared/* 684*/,
+	(methodPointerType)&FakeStore_StartUI_TisInitializationFailureReason_t1104172581_m3110680901_gshared/* 685*/,
+	(methodPointerType)&Action_2_Invoke_m167089997_gshared/* 686*/,
+	(methodPointerType)&Action_2__ctor_m1506387135_gshared/* 687*/,
+	(methodPointerType)&FakeStore_StartUI_TisPurchaseFailureReason_t2274432868_m146418244_gshared/* 688*/,
+	(methodPointerType)&Action_2_Invoke_m898835276_gshared/* 689*/,
+	(methodPointerType)&Func_2__ctor_m4281382449_gshared/* 690*/,
+	(methodPointerType)&Enumerable_Any_TisRuntimePlatform_t1574985880_m1891388867_gshared/* 691*/,
+	(methodPointerType)&UnityAction_1__ctor_m1291646548_gshared/* 692*/,
+	(methodPointerType)&UnityEvent_1_AddListener_m2066362018_gshared/* 693*/,
+	(methodPointerType)&Action_2_Invoke_m1066314183_gshared/* 694*/,
+	(methodPointerType)&Func_2__ctor_m563515303_gshared/* 695*/,
+	(methodPointerType)&Action_4__ctor_m1434218450_gshared/* 696*/,
+	(methodPointerType)&SessionValues_TryGetValue_TisBoolean_t211005341_m2092376061_gshared/* 697*/,
+	(methodPointerType)&SessionValues_TryGetValue_TisInt32_t2847414787_m1523265763_gshared/* 698*/,
+	(methodPointerType)&SessionValues_TryGetValue_TisInt64_t2847414882_m126766018_gshared/* 699*/,
+	(methodPointerType)&SessionValues_TryGetValueList_TisInt32_t2847414787_m6775969_gshared/* 700*/,
+	(methodPointerType)&SessionValues_TryGetValueArray_TisInt32_t2847414787_m4121465908_gshared/* 701*/,
+	(methodPointerType)&SessionValues_TryGetValueArray_TisInt64_t2847414882_m2115007315_gshared/* 702*/,
+	(methodPointerType)&Converter_2__ctor_m4030557746_gshared/* 703*/,
+	(methodPointerType)&Array_ConvertAll_TisInt64_t2847414882_TisInt32_t2847414787_m1445919003_gshared/* 704*/,
+	(methodPointerType)&List_1__ctor_m2373821799_gshared/* 705*/,
+	(methodPointerType)&Comparison_1__ctor_m818957270_gshared/* 706*/,
+	(methodPointerType)&List_1_Sort_m3081456075_gshared/* 707*/,
+	(methodPointerType)&Comparison_1__ctor_m2670394222_gshared/* 708*/,
+	(methodPointerType)&Array_Sort_TisRaycastHit_t46221527_m3458836826_gshared/* 709*/,
+	(methodPointerType)&Dictionary_2_get_Values_m1815086189_gshared/* 710*/,
+	(methodPointerType)&ValueCollection_GetEnumerator_m848222311_gshared/* 711*/,
+	(methodPointerType)&Enumerator_get_Current_m2952798389_gshared/* 712*/,
+	(methodPointerType)&Enumerator_MoveNext_m3538465109_gshared/* 713*/,
+	(methodPointerType)&Dictionary_2_GetEnumerator_m3720989159_gshared/* 714*/,
+	(methodPointerType)&Enumerator_get_Current_m1399860359_gshared/* 715*/,
+	(methodPointerType)&KeyValuePair_2_get_Value_m1563175098_gshared/* 716*/,
+	(methodPointerType)&KeyValuePair_2_get_Key_m494458106_gshared/* 717*/,
+	(methodPointerType)&Enumerator_MoveNext_m1213995029_gshared/* 718*/,
+	(methodPointerType)&KeyValuePair_2_ToString_m491888647_gshared/* 719*/,
+	(methodPointerType)&SetPropertyUtility_SetStruct_TisAspectMode_t2721296955_m800854655_gshared/* 720*/,
+	(methodPointerType)&SetPropertyUtility_SetStruct_TisSingle_t958209021_m1643007650_gshared/* 721*/,
+	(methodPointerType)&SetPropertyUtility_SetStruct_TisFitMode_t816341300_m3401974325_gshared/* 722*/,
+	(methodPointerType)&UnityEvent_1_Invoke_m2712400111_gshared/* 723*/,
+	(methodPointerType)&UnityEvent_1_AddListener_m1347854496_gshared/* 724*/,
+	(methodPointerType)&UnityEvent_1__ctor_m1130251838_gshared/* 725*/,
+	(methodPointerType)&UnityEvent_1_Invoke_m3551800820_gshared/* 726*/,
+	(methodPointerType)&UnityEvent_1_AddListener_m994670587_gshared/* 727*/,
+	(methodPointerType)&UnityEvent_1__ctor_m1354608473_gshared/* 728*/,
+	(methodPointerType)&UnityEvent_1_Invoke_m1822489606_gshared/* 729*/,
+	(methodPointerType)&TweenRunner_1__ctor_m2994637951_gshared/* 730*/,
+	(methodPointerType)&TweenRunner_1_Init_m2355829498_gshared/* 731*/,
+	(methodPointerType)&UnityAction_1__ctor_m1354516801_gshared/* 732*/,
+	(methodPointerType)&UnityEvent_1_AddListener_m4118700355_gshared/* 733*/,
+	(methodPointerType)&UnityAction_1__ctor_m480548041_gshared/* 734*/,
+	(methodPointerType)&TweenRunner_1_StartTween_m565832784_gshared/* 735*/,
+	(methodPointerType)&UnityEvent_1__ctor_m7858823_gshared/* 736*/,
+	(methodPointerType)&TweenRunner_1__ctor_m3171479704_gshared/* 737*/,
+	(methodPointerType)&TweenRunner_1_Init_m3753968659_gshared/* 738*/,
+	(methodPointerType)&UnityAction_1__ctor_m3352102596_gshared/* 739*/,
+	(methodPointerType)&TweenRunner_1_StartTween_m3060079017_gshared/* 740*/,
+	(methodPointerType)&LayoutGroup_SetProperty_TisCorner_t2024169077_m1217402351_gshared/* 741*/,
+	(methodPointerType)&LayoutGroup_SetProperty_TisAxis_t2055107_m2246182115_gshared/* 742*/,
+	(methodPointerType)&LayoutGroup_SetProperty_TisVector2_t3525329788_m91581935_gshared/* 743*/,
+	(methodPointerType)&LayoutGroup_SetProperty_TisConstraint_t1803088381_m2766497255_gshared/* 744*/,
+	(methodPointerType)&LayoutGroup_SetProperty_TisInt32_t2847414787_m1661492404_gshared/* 745*/,
+	(methodPointerType)&LayoutGroup_SetProperty_TisSingle_t958209021_m591957344_gshared/* 746*/,
+	(methodPointerType)&LayoutGroup_SetProperty_TisBoolean_t211005341_m3019210650_gshared/* 747*/,
+	(methodPointerType)&SetPropertyUtility_SetStruct_TisType_t2622298_m3981732792_gshared/* 748*/,
+	(methodPointerType)&SetPropertyUtility_SetStruct_TisBoolean_t211005341_m1242031768_gshared/* 749*/,
+	(methodPointerType)&SetPropertyUtility_SetStruct_TisFillMethod_t1232150628_m1922094766_gshared/* 750*/,
+	(methodPointerType)&SetPropertyUtility_SetStruct_TisInt32_t2847414787_m3219417906_gshared/* 751*/,
+	(methodPointerType)&SetPropertyUtility_SetStruct_TisContentType_t1278737203_m3459087122_gshared/* 752*/,
+	(methodPointerType)&SetPropertyUtility_SetStruct_TisLineType_t1253309806_m1761448119_gshared/* 753*/,
+	(methodPointerType)&SetPropertyUtility_SetStruct_TisInputType_t3710944772_m2495306657_gshared/* 754*/,
+	(methodPointerType)&SetPropertyUtility_SetStruct_TisTouchScreenKeyboardType_t1816994841_m1392536308_gshared/* 755*/,
+	(methodPointerType)&SetPropertyUtility_SetStruct_TisCharacterValidation_t4120610914_m3080620675_gshared/* 756*/,
+	(methodPointerType)&SetPropertyUtility_SetStruct_TisChar_t2778706699_m1002094612_gshared/* 757*/,
+	(methodPointerType)&LayoutGroup_SetProperty_TisTextAnchor_t551935663_m3585160266_gshared/* 758*/,
+	(methodPointerType)&Func_2__ctor_m4057262499_gshared/* 759*/,
+	(methodPointerType)&Func_2_Invoke_m3938512095_gshared/* 760*/,
+	(methodPointerType)&UnityEvent_1_Invoke_m4200629676_gshared/* 761*/,
+	(methodPointerType)&UnityEvent_1__ctor_m1579102881_gshared/* 762*/,
+	(methodPointerType)&ListPool_1_Get_m3130095824_gshared/* 763*/,
+	(methodPointerType)&List_1_get_Capacity_m792627810_gshared/* 764*/,
+	(methodPointerType)&List_1_set_Capacity_m3820333071_gshared/* 765*/,
+	(methodPointerType)&ListPool_1_Release_m2709067242_gshared/* 766*/,
+	(methodPointerType)&SetPropertyUtility_SetStruct_TisDirection_t1041377119_m1391770542_gshared/* 767*/,
+	(methodPointerType)&UnityEvent_1_RemoveListener_m1402724082_gshared/* 768*/,
+	(methodPointerType)&UnityEvent_1_Invoke_m3332953603_gshared/* 769*/,
+	(methodPointerType)&UnityEvent_1__ctor_m99457450_gshared/* 770*/,
+	(methodPointerType)&SetPropertyUtility_SetEquatableStruct_TisNavigation_t2845019197_m3717372898_gshared/* 771*/,
+	(methodPointerType)&SetPropertyUtility_SetStruct_TisTransition_t269306229_m697175766_gshared/* 772*/,
+	(methodPointerType)&SetPropertyUtility_SetEquatableStruct_TisColorBlock_t2245020947_m3999144268_gshared/* 773*/,
+	(methodPointerType)&SetPropertyUtility_SetEquatableStruct_TisSpriteState_t894177973_m1850844776_gshared/* 774*/,
+	(methodPointerType)&SetPropertyUtility_SetStruct_TisDirection_t1041377120_m2722180853_gshared/* 775*/,
+	(methodPointerType)&ListPool_1_Get_m4266661578_gshared/* 776*/,
+	(methodPointerType)&ListPool_1_Get_m1848305276_gshared/* 777*/,
+	(methodPointerType)&ListPool_1_Get_m1779148745_gshared/* 778*/,
+	(methodPointerType)&ListPool_1_Get_m2459207115_gshared/* 779*/,
+	(methodPointerType)&ListPool_1_Get_m1671355248_gshared/* 780*/,
+	(methodPointerType)&List_1_AddRange_m747416421_gshared/* 781*/,
+	(methodPointerType)&List_1_AddRange_m1228619251_gshared/* 782*/,
+	(methodPointerType)&List_1_AddRange_m2678035526_gshared/* 783*/,
+	(methodPointerType)&List_1_AddRange_m3111764612_gshared/* 784*/,
+	(methodPointerType)&List_1_AddRange_m1640324381_gshared/* 785*/,
+	(methodPointerType)&ListPool_1_Release_m3961428258_gshared/* 786*/,
+	(methodPointerType)&ListPool_1_Release_m1142705876_gshared/* 787*/,
+	(methodPointerType)&ListPool_1_Release_m3969187617_gshared/* 788*/,
+	(methodPointerType)&ListPool_1_Release_m3953668899_gshared/* 789*/,
+	(methodPointerType)&ListPool_1_Release_m1485191562_gshared/* 790*/,
+	(methodPointerType)&Action_1__ctor_m2036539306_gshared/* 791*/,
+	(methodPointerType)&Action_2__ctor_m2840689331_gshared/* 792*/,
+	(methodPointerType)&Action_2_Invoke_m2874447226_gshared/* 793*/,
+	(methodPointerType)&Func_2_Invoke_m1882130143_gshared/* 794*/,
+	(methodPointerType)&Action_2_Invoke_m598687073_gshared/* 795*/,
+	(methodPointerType)&Action_2_Invoke_m4065655704_gshared/* 796*/,
 	(methodPointerType)&Array_get_swapper_TisInt32_t2847414787_m3162346280_gshared/* 797*/,
 	(methodPointerType)&Array_get_swapper_TisInt64_t2847414882_m1575850055_gshared/* 798*/,
 	(methodPointerType)&Array_get_swapper_TisCustomAttributeNamedArgument_t318735129_m636397832_gshared/* 799*/,

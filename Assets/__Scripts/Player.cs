@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class Player : MonoBehaviour {
-
+	
+	private AdManager adManager;
 	private Rigidbody playerRigid;
 	private Transform playerTrans;
 	private Spawner spawner;
@@ -22,6 +23,7 @@ public class Player : MonoBehaviour {
 		panelController = GameObject.FindWithTag("UI").GetComponent<PanelController>();
 		updateScore = GameObject.FindWithTag("UI").GetComponent<UpdateScore>();
 		soundManager = GameObject.FindWithTag("GameManager").GetComponent<SoundManager>();
+		adManager = GameObject.FindWithTag("AdManager").GetComponent<AdManager>();
 	}
 
 	void Start () {
@@ -74,6 +76,11 @@ public class Player : MonoBehaviour {
 //			Debug.Log("NumOfPlay "+ GameManager.Instance.NumOfPlay);
 
 			GameManager.Instance.NumOfGame++;											//Keep track the num of game to show ads
+			if(GameManager.Instance.NumOfPlay % 4 == 0)
+			{
+				adManager.ShowInterstitialAd();
+			}
+
 //			Debug.Log(GameManager.Instance.NumOfGame);
 			GameManager.Instance.IsDouble = false;
 			GameManager.Instance.IsSlowScore = false;

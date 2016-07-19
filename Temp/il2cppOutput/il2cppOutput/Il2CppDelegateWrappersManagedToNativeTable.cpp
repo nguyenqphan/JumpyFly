@@ -41,13 +41,10 @@ extern "C" void pinvoke_delegate_wrapper_CertificateSelectionCallback_t325737813
 extern "C" void pinvoke_delegate_wrapper_CertificateValidationCallback_t3726148045 ();
 extern "C" void pinvoke_delegate_wrapper_CertificateValidationCallback2_t1582269749 ();
 extern "C" void pinvoke_delegate_wrapper_PrivateKeySelectionCallback_t4199006061 ();
-extern "C" void pinvoke_delegate_wrapper_Action_t437523947 ();
-extern "C" void pinvoke_delegate_wrapper_UnityPurchasingCallback_t885634735 ();
 extern "C" void pinvoke_delegate_wrapper_RemoteCertificateValidationCallback_t4087051103 ();
 extern "C" void pinvoke_delegate_wrapper_MatchAppendEvaluator_t2378778064 ();
 extern "C" void pinvoke_delegate_wrapper_CostDelegate_t3008899218 ();
 extern "C" void pinvoke_delegate_wrapper_MatchEvaluator_t510977541 ();
-extern "C" void pinvoke_delegate_wrapper_OnValidateInput_t3303221397 ();
 extern "C" void pinvoke_delegate_wrapper_ConstructorDelegate_t4072949631 ();
 extern "C" void pinvoke_delegate_wrapper_GetDelegate_t270123739 ();
 extern "C" void pinvoke_delegate_wrapper_SetDelegate_t181543911 ();
@@ -71,7 +68,12 @@ extern "C" void pinvoke_delegate_wrapper_BannerWasLoadedDelegate_t69910023 ();
 extern "C" void pinvoke_delegate_wrapper_InterstitialWasLoadedDelegate_t2963828231 ();
 extern "C" void pinvoke_delegate_wrapper_InterstitialWasViewedDelegate_t402653446 ();
 extern "C" void pinvoke_delegate_wrapper_ReapplyDrivenProperties_t3247703954 ();
-extern const methodPointerType g_DelegateWrappersManagedToNative[60] = 
+extern "C" void pinvoke_delegate_wrapper_UnityPurchasingCallback_t885634735 ();
+extern "C" void pinvoke_delegate_wrapper_Action_t437523947 ();
+extern "C" void pinvoke_delegate_wrapper_OnValidateInput_t3303221397 ();
+extern "C" void pinvoke_delegate_wrapper_AdmobAdCallBack_t3651055973 ();
+extern "C" void pinvoke_delegate_wrapper_AdmobEventHandler_t2165620685 ();
+extern const methodPointerType g_DelegateWrappersManagedToNative[62] = 
 {
 	pinvoke_delegate_wrapper_PrimalityTest_t397689819,
 	pinvoke_delegate_wrapper_KeyGeneratedEventHandler_t1233396096,
@@ -103,13 +105,10 @@ extern const methodPointerType g_DelegateWrappersManagedToNative[60] =
 	pinvoke_delegate_wrapper_CertificateValidationCallback_t3726148045,
 	pinvoke_delegate_wrapper_CertificateValidationCallback2_t1582269749,
 	pinvoke_delegate_wrapper_PrivateKeySelectionCallback_t4199006061,
-	pinvoke_delegate_wrapper_Action_t437523947,
-	pinvoke_delegate_wrapper_UnityPurchasingCallback_t885634735,
 	pinvoke_delegate_wrapper_RemoteCertificateValidationCallback_t4087051103,
 	pinvoke_delegate_wrapper_MatchAppendEvaluator_t2378778064,
 	pinvoke_delegate_wrapper_CostDelegate_t3008899218,
 	pinvoke_delegate_wrapper_MatchEvaluator_t510977541,
-	pinvoke_delegate_wrapper_OnValidateInput_t3303221397,
 	pinvoke_delegate_wrapper_ConstructorDelegate_t4072949631,
 	pinvoke_delegate_wrapper_GetDelegate_t270123739,
 	pinvoke_delegate_wrapper_SetDelegate_t181543911,
@@ -133,4 +132,9 @@ extern const methodPointerType g_DelegateWrappersManagedToNative[60] =
 	pinvoke_delegate_wrapper_InterstitialWasLoadedDelegate_t2963828231,
 	pinvoke_delegate_wrapper_InterstitialWasViewedDelegate_t402653446,
 	pinvoke_delegate_wrapper_ReapplyDrivenProperties_t3247703954,
+	pinvoke_delegate_wrapper_UnityPurchasingCallback_t885634735,
+	pinvoke_delegate_wrapper_Action_t437523947,
+	pinvoke_delegate_wrapper_OnValidateInput_t3303221397,
+	pinvoke_delegate_wrapper_AdmobAdCallBack_t3651055973,
+	pinvoke_delegate_wrapper_AdmobEventHandler_t2165620685,
 };

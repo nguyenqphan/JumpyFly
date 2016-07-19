@@ -211,7 +211,7 @@ IL_002c:
 // System.Collections.Generic.Dictionary`2<System.String,System.Object> UnityEngine.Purchasing.MiniJson::ParseObject(System.Char[],System.Int32&)
 extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
 extern TypeInfo* MiniJson_t1660598422_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m491246241_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3229349667_MethodInfo_var;
 extern const uint32_t MiniJson_ParseObject_m1670910516_MetadataUsageId;
 extern "C"  Dictionary_2_t2474804324 * MiniJson_ParseObject_m1670910516 (Il2CppObject * __this /* static, unused */, CharU5BU5D_t3416858730* ___json, int32_t* ___index, const MethodInfo* method)
 {
@@ -230,7 +230,7 @@ extern "C"  Dictionary_2_t2474804324 * MiniJson_ParseObject_m1670910516 (Il2CppO
 	Il2CppObject * V_6 = NULL;
 	{
 		Dictionary_2_t2474804324 * L_0 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m491246241(L_0, /*hidden argument*/Dictionary_2__ctor_m491246241_MethodInfo_var);
+		Dictionary_2__ctor_m3229349667(L_0, /*hidden argument*/Dictionary_2__ctor_m3229349667_MethodInfo_var);
 		V_0 = L_0;
 		CharU5BU5D_t3416858730* L_1 = ___json;
 		int32_t* L_2 = ___index;
@@ -383,7 +383,7 @@ IL_00bb:
 // System.Collections.Generic.List`1<System.Object> UnityEngine.Purchasing.MiniJson::ParseArray(System.Char[],System.Int32&)
 extern TypeInfo* List_1_t1634065389_il2cpp_TypeInfo_var;
 extern TypeInfo* MiniJson_t1660598422_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3149421882_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3099765286_MethodInfo_var;
 extern const uint32_t MiniJson_ParseArray_m3089123221_MetadataUsageId;
 extern "C"  List_1_t1634065389 * MiniJson_ParseArray_m3089123221 (Il2CppObject * __this /* static, unused */, CharU5BU5D_t3416858730* ___json, int32_t* ___index, const MethodInfo* method)
 {
@@ -401,7 +401,7 @@ extern "C"  List_1_t1634065389 * MiniJson_ParseArray_m3089123221 (Il2CppObject *
 	Il2CppObject * V_5 = NULL;
 	{
 		List_1_t1634065389 * L_0 = (List_1_t1634065389 *)il2cpp_codegen_object_new(List_1_t1634065389_il2cpp_TypeInfo_var);
-		List_1__ctor_m3149421882(L_0, /*hidden argument*/List_1__ctor_m3149421882_MethodInfo_var);
+		List_1__ctor_m3099765286(L_0, /*hidden argument*/List_1__ctor_m3099765286_MethodInfo_var);
 		V_0 = L_0;
 		CharU5BU5D_t3416858730* L_1 = ___json;
 		int32_t* L_2 = ___index;
@@ -1687,7 +1687,7 @@ extern TypeInfo* Enumerator_t2241832265_il2cpp_TypeInfo_var;
 extern TypeInfo* IDictionaryEnumerator_t1541724277_il2cpp_TypeInfo_var;
 extern TypeInfo* MiniJson_t1660598422_il2cpp_TypeInfo_var;
 extern TypeInfo* IEnumerator_t287207039_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m3528021229_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m2484341465_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral123;
 extern Il2CppCodeGenString* _stringLiteral1396;
 extern Il2CppCodeGenString* _stringLiteral58;
@@ -1712,7 +1712,7 @@ extern "C"  bool MiniJson_SerializeObject_m656519076 (Il2CppObject * __this /* s
 		StringBuilder_Append_m3898090075(L_0, _stringLiteral123, /*hidden argument*/NULL);
 		Dictionary_2_t2474804324 * L_1 = ___anObject;
 		NullCheck(L_1);
-		Enumerator_t2241832265  L_2 = Dictionary_2_GetEnumerator_m3528021229(L_1, /*hidden argument*/Dictionary_2_GetEnumerator_m3528021229_MethodInfo_var);
+		Enumerator_t2241832265  L_2 = Dictionary_2_GetEnumerator_m2484341465(L_1, /*hidden argument*/Dictionary_2_GetEnumerator_m2484341465_MethodInfo_var);
 		Enumerator_t2241832265  L_3 = L_2;
 		Il2CppObject * L_4 = Box(Enumerator_t2241832265_il2cpp_TypeInfo_var, &L_3);
 		V_0 = (Il2CppObject *)L_4;
@@ -1797,11 +1797,11 @@ IL_008f:
 }
 // System.Boolean UnityEngine.Purchasing.MiniJson::SerializeDictionary(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Text.StringBuilder)
 extern TypeInfo* MiniJson_t1660598422_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2_GetEnumerator_m393316393_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m3915401289_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m430014795_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m766551710_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m432485462_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m2759194411_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2871721525_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m1739472607_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m730091314_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2577713898_MethodInfo_var;
 extern const MethodInfo* Enumerator_Dispose_m2736541607_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral123;
 extern Il2CppCodeGenString* _stringLiteral1396;
@@ -1835,7 +1835,7 @@ extern "C"  bool MiniJson_SerializeDictionary_m2310471245 (Il2CppObject * __this
 		V_0 = (bool)1;
 		Dictionary_2_t2606186806 * L_1 = ___dict;
 		NullCheck(L_1);
-		Enumerator_t2373214747  L_2 = Dictionary_2_GetEnumerator_m393316393(L_1, /*hidden argument*/Dictionary_2_GetEnumerator_m393316393_MethodInfo_var);
+		Enumerator_t2373214747  L_2 = Dictionary_2_GetEnumerator_m2759194411(L_1, /*hidden argument*/Dictionary_2_GetEnumerator_m2759194411_MethodInfo_var);
 		V_2 = L_2;
 	}
 
@@ -1848,7 +1848,7 @@ IL_0017:
 
 IL_001c:
 		{
-			KeyValuePair_2_t2094718104  L_3 = Enumerator_get_Current_m3915401289((&V_2), /*hidden argument*/Enumerator_get_Current_m3915401289_MethodInfo_var);
+			KeyValuePair_2_t2094718104  L_3 = Enumerator_get_Current_m2871721525((&V_2), /*hidden argument*/Enumerator_get_Current_m2871721525_MethodInfo_var);
 			V_1 = L_3;
 			bool L_4 = V_0;
 			if (L_4)
@@ -1866,14 +1866,14 @@ IL_002b:
 
 IL_0037:
 		{
-			String_t* L_6 = KeyValuePair_2_get_Key_m430014795((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m430014795_MethodInfo_var);
+			String_t* L_6 = KeyValuePair_2_get_Key_m1739472607((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m1739472607_MethodInfo_var);
 			StringBuilder_t3822575854 * L_7 = ___builder;
 			IL2CPP_RUNTIME_CLASS_INIT(MiniJson_t1660598422_il2cpp_TypeInfo_var);
 			MiniJson_SerializeString_m2250824353(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
 			StringBuilder_t3822575854 * L_8 = ___builder;
 			NullCheck(L_8);
 			StringBuilder_Append_m3898090075(L_8, _stringLiteral58, /*hidden argument*/NULL);
-			String_t* L_9 = KeyValuePair_2_get_Value_m766551710((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m766551710_MethodInfo_var);
+			String_t* L_9 = KeyValuePair_2_get_Value_m730091314((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m730091314_MethodInfo_var);
 			StringBuilder_t3822575854 * L_10 = ___builder;
 			MiniJson_SerializeString_m2250824353(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
 			V_0 = (bool)0;
@@ -1881,7 +1881,7 @@ IL_0037:
 
 IL_0060:
 		{
-			bool L_11 = Enumerator_MoveNext_m432485462((&V_2), /*hidden argument*/Enumerator_MoveNext_m432485462_MethodInfo_var);
+			bool L_11 = Enumerator_MoveNext_m2577713898((&V_2), /*hidden argument*/Enumerator_MoveNext_m2577713898_MethodInfo_var);
 			if (L_11)
 			{
 				goto IL_001c;

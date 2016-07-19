@@ -30,7 +30,7 @@ struct AsyncCallback_t1363551830;
 #include "mscorlib_System_AsyncCallback1363551830.h"
 
 // System.Void UnityEngine.RectTransform/ReapplyDrivenProperties::.ctor(System.Object,System.IntPtr)
-extern "C"  void ReapplyDrivenProperties__ctor_m1273932936 (ReapplyDrivenProperties_t3247703954 * __this, Il2CppObject * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void ReapplyDrivenProperties__ctor_m3710908308 (ReapplyDrivenProperties_t3247703954 * __this, Il2CppObject * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform/ReapplyDrivenProperties::Invoke(UnityEngine.RectTransform)
 extern "C"  void ReapplyDrivenProperties_Invoke_m3880635155 (ReapplyDrivenProperties_t3247703954 * __this, RectTransform_t3317474837 * ___driven, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void pinvoke_delegate_wrapper_ReapplyDrivenProperties_t3247703954(Il2CppObject* delegate, RectTransform_t3317474837 * ___driven);

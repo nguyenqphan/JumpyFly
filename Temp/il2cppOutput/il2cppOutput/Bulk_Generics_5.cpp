@@ -7319,7 +7319,7 @@ IL_001e:
 	}
 }
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
-extern "C"  void List_1__ctor_m3149421882_gshared (List_1_t1634065389 * __this, const MethodInfo* method)
+extern "C"  void List_1__ctor_m3099765286_gshared (List_1_t1634065389 * __this, const MethodInfo* method)
 {
 	{
 		NullCheck((Il2CppObject *)__this);
@@ -26667,7 +26667,7 @@ IL_001e:
 	}
 }
 // System.Void System.Collections.Generic.Stack`1/Enumerator<System.Object>::.ctor(System.Collections.Generic.Stack`1<T>)
-extern "C"  void Enumerator__ctor_m1003414509_gshared (Enumerator_t4014815679 * __this, Stack_1_t3407512455 * ___t, const MethodInfo* method)
+extern "C"  void Enumerator__ctor_m1003414509_gshared (Enumerator_t4014815678 * __this, Stack_1_t3407512455 * ___t, const MethodInfo* method)
 {
 	{
 		Stack_1_t3407512455 * L_0 = ___t;
@@ -26683,7 +26683,7 @@ extern "C"  void Enumerator__ctor_m1003414509_gshared (Enumerator_t4014815679 * 
 // System.Void System.Collections.Generic.Stack`1/Enumerator<System.Object>::System.Collections.IEnumerator.Reset()
 extern TypeInfo* InvalidOperationException_t2420574324_il2cpp_TypeInfo_var;
 extern const uint32_t Enumerator_System_Collections_IEnumerator_Reset_m3054975473_MetadataUsageId;
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m3054975473_gshared (Enumerator_t4014815679 * __this, const MethodInfo* method)
+extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m3054975473_gshared (Enumerator_t4014815678 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -26714,15 +26714,15 @@ IL_001c:
 	}
 }
 // System.Object System.Collections.Generic.Stack`1/Enumerator<System.Object>::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m2470832103_gshared (Enumerator_t4014815679 * __this, const MethodInfo* method)
+extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m2470832103_gshared (Enumerator_t4014815678 * __this, const MethodInfo* method)
 {
 	{
-		Il2CppObject * L_0 = ((  Il2CppObject * (*) (Enumerator_t4014815679 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)((Enumerator_t4014815679 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		Il2CppObject * L_0 = ((  Il2CppObject * (*) (Enumerator_t4014815678 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)((Enumerator_t4014815678 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
 		return L_0;
 	}
 }
 // System.Void System.Collections.Generic.Stack`1/Enumerator<System.Object>::Dispose()
-extern "C"  void Enumerator_Dispose_m1634653158_gshared (Enumerator_t4014815679 * __this, const MethodInfo* method)
+extern "C"  void Enumerator_Dispose_m1634653158_gshared (Enumerator_t4014815678 * __this, const MethodInfo* method)
 {
 	{
 		__this->set_idx_1(((int32_t)-2));
@@ -26732,7 +26732,7 @@ extern "C"  void Enumerator_Dispose_m1634653158_gshared (Enumerator_t4014815679 
 // System.Boolean System.Collections.Generic.Stack`1/Enumerator<System.Object>::MoveNext()
 extern TypeInfo* InvalidOperationException_t2420574324_il2cpp_TypeInfo_var;
 extern const uint32_t Enumerator_MoveNext_m3012756789_MetadataUsageId;
-extern "C"  bool Enumerator_MoveNext_m3012756789_gshared (Enumerator_t4014815679 * __this, const MethodInfo* method)
+extern "C"  bool Enumerator_MoveNext_m3012756789_gshared (Enumerator_t4014815678 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -26804,7 +26804,7 @@ IL_0060:
 // T System.Collections.Generic.Stack`1/Enumerator<System.Object>::get_Current()
 extern TypeInfo* InvalidOperationException_t2420574324_il2cpp_TypeInfo_var;
 extern const uint32_t Enumerator_get_Current_m2483819640_MetadataUsageId;
-extern "C"  Il2CppObject * Enumerator_get_Current_m2483819640_gshared (Enumerator_t4014815679 * __this, const MethodInfo* method)
+extern "C"  Il2CppObject * Enumerator_get_Current_m2483819640_gshared (Enumerator_t4014815678 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -26940,8 +26940,8 @@ extern "C"  Il2CppObject* Stack_1_System_Collections_Generic_IEnumerableU3CTU3E_
 {
 	{
 		NullCheck((Stack_1_t3407512455 *)__this);
-		Enumerator_t4014815679  L_0 = ((  Enumerator_t4014815679  (*) (Stack_1_t3407512455 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)((Stack_1_t3407512455 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		Enumerator_t4014815679  L_1 = L_0;
+		Enumerator_t4014815678  L_0 = ((  Enumerator_t4014815678  (*) (Stack_1_t3407512455 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)((Stack_1_t3407512455 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		Enumerator_t4014815678  L_1 = L_0;
 		Il2CppObject * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
 		return (Il2CppObject*)L_2;
 	}
@@ -26951,8 +26951,8 @@ extern "C"  Il2CppObject * Stack_1_System_Collections_IEnumerable_GetEnumerator_
 {
 	{
 		NullCheck((Stack_1_t3407512455 *)__this);
-		Enumerator_t4014815679  L_0 = ((  Enumerator_t4014815679  (*) (Stack_1_t3407512455 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)((Stack_1_t3407512455 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		Enumerator_t4014815679  L_1 = L_0;
+		Enumerator_t4014815678  L_0 = ((  Enumerator_t4014815678  (*) (Stack_1_t3407512455 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)((Stack_1_t3407512455 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		Enumerator_t4014815678  L_1 = L_0;
 		Il2CppObject * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
 		return (Il2CppObject *)L_2;
 	}
@@ -27124,12 +27124,12 @@ extern "C"  int32_t Stack_1_get_Count_m3631765324_gshared (Stack_1_t3407512455 *
 	}
 }
 // System.Collections.Generic.Stack`1/Enumerator<T> System.Collections.Generic.Stack`1<System.Object>::GetEnumerator()
-extern "C"  Enumerator_t4014815679  Stack_1_GetEnumerator_m202302354_gshared (Stack_1_t3407512455 * __this, const MethodInfo* method)
+extern "C"  Enumerator_t4014815678  Stack_1_GetEnumerator_m202302354_gshared (Stack_1_t3407512455 * __this, const MethodInfo* method)
 {
 	{
-		Enumerator_t4014815679  L_0;
+		Enumerator_t4014815678  L_0;
 		memset(&L_0, 0, sizeof(L_0));
-		((  void (*) (Enumerator_t4014815679 *, Stack_1_t3407512455 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->method)(&L_0, (Stack_1_t3407512455 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		((  void (*) (Enumerator_t4014815678 *, Stack_1_t3407512455 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->method)(&L_0, (Stack_1_t3407512455 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
 		return L_0;
 	}
 }

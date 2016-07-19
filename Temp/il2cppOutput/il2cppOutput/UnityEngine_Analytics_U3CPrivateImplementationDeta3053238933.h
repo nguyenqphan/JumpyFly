@@ -21,21 +21,21 @@
 #endif
 
 // <PrivateImplementationDetails>
-struct  U3CPrivateImplementationDetailsU3E_t3053238939  : public Il2CppObject
+struct  U3CPrivateImplementationDetailsU3E_t3053238938  : public Il2CppObject
 {
 public:
 
 public:
 };
 
-struct U3CPrivateImplementationDetailsU3E_t3053238939_StaticFields
+struct U3CPrivateImplementationDetailsU3E_t3053238938_StaticFields
 {
 public:
 	// <PrivateImplementationDetails>/$ArrayType$24 <PrivateImplementationDetails>::$$field-0
 	U24ArrayTypeU2424_t214874520  ___U24U24fieldU2D0_0;
 
 public:
-	inline static int32_t get_offset_of_U24U24fieldU2D0_0() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3053238939_StaticFields, ___U24U24fieldU2D0_0)); }
+	inline static int32_t get_offset_of_U24U24fieldU2D0_0() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3053238938_StaticFields, ___U24U24fieldU2D0_0)); }
 	inline U24ArrayTypeU2424_t214874520  get_U24U24fieldU2D0_0() const { return ___U24U24fieldU2D0_0; }
 	inline U24ArrayTypeU2424_t214874520 * get_address_of_U24U24fieldU2D0_0() { return &___U24U24fieldU2D0_0; }
 	inline void set_U24U24fieldU2D0_0(U24ArrayTypeU2424_t214874520  value)
