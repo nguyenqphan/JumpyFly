@@ -37,6 +37,8 @@ public class Shop : MonoBehaviour {
 
 
 		GameManager.Instance.Load();
+//		GameManager.Instance.Score = 0;
+//		GameManager.Instance.BestScore = 0;
 
 		//		//TEST: reset all the states
 //		GameManager.Instance.CurPlayerAvail = 1;							//Default player is always available

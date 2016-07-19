@@ -1,0 +1,37 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="GameController">
+			<method name="StartGame"/>
+			<method name="RefreshGame"/>
+		</type>
+		<type fullname="UIController">
+			<method name="ForwardFast"/>
+		</type>
+		<type fullname="Purchaser">
+			<method name="BuyNonConsumable"/>
+			<method name="BuyConsumable9000"/>
+			<method name="BuyConsumable3000"/>
+			<method name="BuyConsumable300"/>
+			<method name="RestorePurchases"/>
+			<method name="BuyConsumable1000"/>
+		</type>
+		<type fullname="PanelController">
+			<method name="ShowShopPanel"/>
+			<method name="ShowNoAdsPanel"/>
+			<method name="HideShopPanel"/>
+			<method name="HideNoAdsPanel"/>
+		</type>
+		<type fullname="CBAdManager">
+			<method name="ShowRewardedVideo"/>
+		</type>
+		<type fullname="SwapImage">
+			<method name="ToggleMusic"/>
+		</type>
+		<type fullname="SoundEFButton">
+			<method name="ToggleSound"/>
+		</type>
+		<type fullname="GameCenterAPI">
+			<method name="GCShowLeaderBoard"/>
+		</type>
+	</assembly>
+</linker>

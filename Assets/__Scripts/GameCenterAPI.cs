@@ -63,11 +63,23 @@ public class GameCenterAPI : MonoBehaviour {
 
 	public  void GCReportAchievement()
 	{
-		Social.ReportProgress("expert_achivement", 100.0d, CallbackExpert);
-		Social.ReportProgress("advance_achievement", 100.0d, CallbackAdvance);
-		Social.ReportProgress("proficient_achivement", 100.0d, CallbackProficient);
-		Social.ReportProgress("intermediate_achievement", 100.0d, CallbackIntermediate);
-		Social.ReportProgress("newbie_achievement", 100.0d, CallbackNewbie);
+		if (GameManager.Instance.Score > 99) {
+			Social.ReportProgress ("expert_achivement", 100.0d, CallbackExpert);
+		}
+
+		if (GameManager.Instance.Score > 79) {
+			Social.ReportProgress ("advance_achievement", 100.0d, CallbackAdvance);
+		}
+
+		if (GameManager.Instance.Score > 59) {
+			Social.ReportProgress ("proficient_achivement", 100.0d, CallbackProficient);
+		}
+		if (GameManager.Instance.Score > 39) {
+			Social.ReportProgress ("intermediate_achievement", 100.0d, CallbackIntermediate);
+		}
+		if (GameManager.Instance.Score > 19) {
+			Social.ReportProgress ("newbie_achievement", 100.0d, CallbackNewbie);
+		}
 	}
 
 	private void CallbackNewbie(bool success)

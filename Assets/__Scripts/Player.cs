@@ -104,8 +104,8 @@ public class Player : MonoBehaviour {
 			updateScore.isCountingScore = false;				//Stop counting score;
 			updateScore.DisplayFinalScore();
 
-//			gameCenterAPI.GCReportScore();						//Report Score to game center
-//			gameCenterAPI.GCReportAchievement();				//Report Achievement
+			gameCenterAPI.GCReportScore();						//Report Score to game center
+			gameCenterAPI.GCReportAchievement();				//Report Achievement
 			GameManager.Instance.Save();						//Save the state of the game
 		}
 	}
