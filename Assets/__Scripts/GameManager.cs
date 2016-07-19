@@ -53,7 +53,7 @@ public class GameManager : Singleton<GameManager> {
 	}
 
 
-	private int numOfGame = 0;
+	private int numOfGame = 4;
 	public int NumOfGame{
 		get{return numOfGame;}
 		set{numOfGame = value;}

@@ -1,4 +1,4 @@
-//Generated on : 7/18/2016 11:42:12 PM
+//Generated on : 7/19/2016 12:19:17 AM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.Analytics.UnityAnalyticsManager

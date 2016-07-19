@@ -189,10 +189,10 @@ struct U3CScoreU3Ec__IteratorE_t3043369116;
 #include "AssemblyU2DCSharp_AdManager3461832170MethodDeclarations.h"
 #include "mscorlib_System_Void2779279689.h"
 #include "UnityEngine_UnityEngine_MonoBehaviour3012272455MethodDeclarations.h"
+#include "mscorlib_System_String968488902.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_admob_Admob486577996MethodDeclarations.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_admob_Admob_AdmobEve2165620685MethodDeclarations.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_admob_Admob486577996.h"
-#include "mscorlib_System_String968488902.h"
 #include "AssemblyU2DCSharpU2Dfirstpass_admob_Admob_AdmobEve2165620685.h"
 #include "mscorlib_System_Object837106420.h"
 #include "mscorlib_System_IntPtr676692020.h"
@@ -560,9 +560,24 @@ extern "C"  ObjectU5BU5D_t11523773* GameObject_GetComponentsInChildren_TisIl2Cpp
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void AdManager::.ctor()
+extern Il2CppCodeGenString* _stringLiteral2924323418;
+extern Il2CppCodeGenString* _stringLiteral1247789961;
+extern Il2CppCodeGenString* _stringLiteral3528488920;
+extern Il2CppCodeGenString* _stringLiteral3387813599;
+extern const uint32_t AdManager__ctor_m3655188161_MetadataUsageId;
 extern "C"  void AdManager__ctor_m3655188161 (AdManager_t3461832170 * __this, const MethodInfo* method)
 {
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
 	{
+		il2cpp_codegen_initialize_method (AdManager__ctor_m3655188161_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		__this->set_bannerAdIOS_2(_stringLiteral2924323418);
+		__this->set_interstitialAdIOS_3(_stringLiteral1247789961);
+		__this->set_bannerAdAndroid_4(_stringLiteral3528488920);
+		__this->set_interstitialAdAndroid_5(_stringLiteral3387813599);
 		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -570,8 +585,6 @@ extern "C"  void AdManager__ctor_m3655188161 (AdManager_t3461832170 * __this, co
 // System.Void AdManager::Start()
 extern TypeInfo* AdmobEventHandler_t2165620685_il2cpp_TypeInfo_var;
 extern const MethodInfo* AdManager_onInterstitialEvent_m3865918608_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral3129669266;
-extern Il2CppCodeGenString* _stringLiteral1247789961;
 extern const uint32_t AdManager_Start_m2602325953_MetadataUsageId;
 extern "C"  void AdManager_Start_m2602325953 (AdManager_t3461832170 * __this, const MethodInfo* method)
 {
@@ -582,26 +595,32 @@ extern "C"  void AdManager_Start_m2602325953 (AdManager_t3461832170 * __this, co
 		s_Il2CppMethodIntialized = true;
 	}
 	{
+		String_t* L_0 = __this->get_bannerAdIOS_2();
+		__this->set_bannerAd_6(L_0);
+		String_t* L_1 = __this->get_interstitialAdIOS_3();
+		__this->set_interstitialAd_7(L_1);
 		Admob_Instance_m1681183207(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Admob_t486577996 * L_0 = Admob_Instance_m1681183207(NULL /*static, unused*/, /*hidden argument*/NULL);
-		IntPtr_t L_1;
-		L_1.set_m_value_0((void*)AdManager_onInterstitialEvent_m3865918608_MethodInfo_var);
-		AdmobEventHandler_t2165620685 * L_2 = (AdmobEventHandler_t2165620685 *)il2cpp_codegen_object_new(AdmobEventHandler_t2165620685_il2cpp_TypeInfo_var);
-		AdmobEventHandler__ctor_m890673333(L_2, __this, L_1, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		Admob_add_interstitialEventHandler_m2573762037(L_0, L_2, /*hidden argument*/NULL);
-		Admob_t486577996 * L_3 = Admob_Instance_m1681183207(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_3);
-		Admob_initAdmob_m3766059048(L_3, _stringLiteral3129669266, _stringLiteral1247789961, /*hidden argument*/NULL);
-		Admob_t486577996 * L_4 = Admob_Instance_m1681183207(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_4);
-		Admob_loadInterstitial_m2545520491(L_4, /*hidden argument*/NULL);
+		Admob_t486577996 * L_2 = Admob_Instance_m1681183207(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IntPtr_t L_3;
+		L_3.set_m_value_0((void*)AdManager_onInterstitialEvent_m3865918608_MethodInfo_var);
+		AdmobEventHandler_t2165620685 * L_4 = (AdmobEventHandler_t2165620685 *)il2cpp_codegen_object_new(AdmobEventHandler_t2165620685_il2cpp_TypeInfo_var);
+		AdmobEventHandler__ctor_m890673333(L_4, __this, L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Admob_add_interstitialEventHandler_m2573762037(L_2, L_4, /*hidden argument*/NULL);
 		Admob_t486577996 * L_5 = Admob_Instance_m1681183207(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_6 = __this->get_bannerAd_6();
+		String_t* L_7 = __this->get_interstitialAd_7();
 		NullCheck(L_5);
-		Admob_loadInterstitial_m2545520491(L_5, /*hidden argument*/NULL);
-		Admob_t486577996 * L_6 = Admob_Instance_m1681183207(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_6);
-		Admob_setTesting_m171361214(L_6, (bool)1, /*hidden argument*/NULL);
+		Admob_initAdmob_m3766059048(L_5, L_6, L_7, /*hidden argument*/NULL);
+		Admob_t486577996 * L_8 = Admob_Instance_m1681183207(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		Admob_loadInterstitial_m2545520491(L_8, /*hidden argument*/NULL);
+		Admob_t486577996 * L_9 = Admob_Instance_m1681183207(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Admob_loadInterstitial_m2545520491(L_9, /*hidden argument*/NULL);
+		Admob_t486577996 * L_10 = Admob_Instance_m1681183207(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Admob_setTesting_m171361214(L_10, (bool)1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -12448,6 +12467,7 @@ extern "C"  void GameManager__ctor_m4112277136 (GameManager_t2369589051 * __this
 	{
 		__this->set_curPlayerName_3(_stringLiteral2297508678);
 		__this->set_numSpawnedCube_6(2);
+		__this->set_numOfGame_9(4);
 		__this->set_numOfPlay_10(3);
 		__this->set_isEffectOn_11((bool)1);
 		__this->set_curPlayerAvail_22(7);
@@ -13885,8 +13905,8 @@ extern "C"  void Player_OnTriggerEnter_m2517774078 (Player_t2393081601 * __this,
 		GameManager_set_NumOfGame_m975442289(L_6, ((int32_t)((int32_t)L_7+(int32_t)1)), /*hidden argument*/NULL);
 		GameManager_t2369589051 * L_8 = Singleton_1_get_Instance_m1702247625(NULL /*static, unused*/, /*hidden argument*/Singleton_1_get_Instance_m1702247625_MethodInfo_var);
 		NullCheck(L_8);
-		int32_t L_9 = GameManager_get_NumOfPlay_m1946855652(L_8, /*hidden argument*/NULL);
-		if (((int32_t)((int32_t)L_9%(int32_t)4)))
+		int32_t L_9 = GameManager_get_NumOfGame_m1679372834(L_8, /*hidden argument*/NULL);
+		if (((int32_t)((int32_t)L_9%(int32_t)5)))
 		{
 			goto IL_0050;
 		}

@@ -1176,6 +1176,7 @@
 #include "AssemblyU2DCSharp_ChartboostSDK_Chartboost484211292.h"
 #include "AssemblyU2DCSharp_ClockRotation2900005260.h"
 #include "AssemblyU2DCSharp_ClockRotation_U3CRotatingU3Ec__I3763513673.h"
+#include "AssemblyU2DCSharp_AdManager3461832170.h"
 #include "AssemblyU2DCSharp_Supyrb_AdaptingEventSystemDragTh1578027175.h"
 #include "AssemblyU2DCSharp_CBAdManager3240185963.h"
 #include "AssemblyU2DCSharp_CameraMove4276106422.h"
@@ -1679,7 +1680,6 @@
 #include "AssemblyU2DCSharpU2Dfirstpass_MonoPInvokeCallbackAtt60011986.h"
 #include "AssemblyU2DCSharp_U3CModuleU3E86524790.h"
 #include "AssemblyU2DCSharp_ChartboostSDK_CBJSON2978790782.h"
-#include "AssemblyU2DCSharp_AdManager3461832170.h"
 #include "AssemblyU2DCSharp_DontDestroy1296137.h"
 #include "AssemblyU2DCSharp_GoldParticles3316424205.h"
 #include "AssemblyU2DCSharp_UI2708.h"
@@ -1692,7 +1692,7 @@
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const int32_t g_FieldOffsetTable[7610] = 
+extern const int32_t g_FieldOffsetTable[7616] = 
 {
 	0,
 	0,
@@ -8973,6 +8973,12 @@ extern const int32_t g_FieldOffsetTable[7610] =
 	U3CRotatingU3Ec__Iterator0_t3763513673::get_offset_of_U24PC_0(),
 	U3CRotatingU3Ec__Iterator0_t3763513673::get_offset_of_U24current_1(),
 	U3CRotatingU3Ec__Iterator0_t3763513673::get_offset_of_U3CU3Ef__this_2(),
+	AdManager_t3461832170::get_offset_of_bannerAdIOS_2(),
+	AdManager_t3461832170::get_offset_of_interstitialAdIOS_3(),
+	AdManager_t3461832170::get_offset_of_bannerAdAndroid_4(),
+	AdManager_t3461832170::get_offset_of_interstitialAdAndroid_5(),
+	AdManager_t3461832170::get_offset_of_bannerAd_6(),
+	AdManager_t3461832170::get_offset_of_interstitialAd_7(),
 	AdaptingEventSystemDragThreshold_t1578027175::get_offset_of_eventSystem_2(),
 	AdaptingEventSystemDragThreshold_t1578027175::get_offset_of_referenceDPI_3(),
 	AdaptingEventSystemDragThreshold_t1578027175::get_offset_of_referencePixelDrag_4(),

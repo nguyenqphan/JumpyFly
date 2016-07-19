@@ -76,7 +76,7 @@ public class Player : MonoBehaviour {
 //			Debug.Log("NumOfPlay "+ GameManager.Instance.NumOfPlay);
 
 			GameManager.Instance.NumOfGame++;											//Keep track the num of game to show ads
-			if(GameManager.Instance.NumOfPlay % 4 == 0)
+			if(GameManager.Instance.NumOfGame % 5 == 0)
 			{
 				adManager.ShowInterstitialAd();
 			}
